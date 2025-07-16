@@ -41131,23 +41131,23 @@
 
       "glow": [
 
-        "a_death",
+        "a_white",
 
-        "a_death",
+        "a_white",
 
-        "a_death",
+        "a_white",
 
-        "a_death",
+        "a_white",
 
-        "a_death",
+        "a_white",
 
-        "a_death",
+        "a_white",
 
-        "a_death",
+        "a_white",
 
-        "a_death",
+        "a_white",
 
-        "a_death"
+        "a_white"
 
       ]
 
@@ -41731,23 +41731,23 @@
 
       "glow": [
 
-        "a__card",
+        "a__black",
 
-        "a__card",
+        "a__black",
 
-        "a__card",
+        "a__black",
 
-        "a__card",
+        "a__black",
 
-        "a__card",
+        "a__black",
 
-        "a__card",
+        "a__black",
 
-        "a__card",
+        "a__black",
 
-        "a__card",
+        "a__black",
 
-        "a__card"
+        "a__black"
 
       ]
 
@@ -59533,7 +59533,7 @@
 
       "custom": true,
 
-      "relativePath": "https://i.imgur.com/2GTAXK8.png"
+      "relativePath": "https://i.imgur.com/GIaurBI.png"
 
     },
 
@@ -59989,7 +59989,7 @@
 
       "custom": true,
 
-      "relativePath": "https://i.imgur.com/Jd6F7UI.png"
+      "relativePath": "https://i.imgur.com/kQif9hJ.png"
 
     },
 
