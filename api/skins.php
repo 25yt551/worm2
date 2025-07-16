@@ -54483,7 +54483,7 @@
 
       "id": "SKINS",
 
-      "img": "yeni desen.png",
+      "img": "st.png",
 
       "name": {
 
@@ -54492,8 +54492,6 @@
       },
 
       "list": [
-
-        "500",
 
         "501",
 
@@ -56595,7 +56593,7 @@
 
         "custom": true,
 
-        "relativePath": "https://wormatefriendsturkey.com/images/texture/skin_tcteam/ramblue.png"
+        "relativePath": "https://i.imgur.com/qxB6czU.png"
 
     },
 
@@ -56771,7 +56769,7 @@
 
         "custom": true,
 
-        "relativePath": "https://i.imgur.com/dJmZjTx.png"
+        "relativePath": "https://i.imgur.com/QnPkenU.png"
 
     },
 
@@ -56787,7 +56785,7 @@
 
         "custom": true,
 
-        "relativePath": "https://i.imgur.com/x0k8Hs1.png"
+        "relativePath": "https://i.imgur.com/sZ8fzmb.png"
 
     },
 
@@ -60391,7 +60389,7 @@
 
       "custom": true,
 
-      "relativePath": "https://i.imgur.com/KD0O5vD.png"
+      "relativePath": "https://i.imgur.com/T1MtNna.png"
 
     },
 
