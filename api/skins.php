@@ -12772,7 +12772,7 @@
 
         "id": 1022,
 
-        "guest": false,
+        "guest": true,
 
         "nonbuyable": 1,
 
@@ -12806,21 +12806,21 @@
 
         "glow": [
 
-            "a__orng",
+            "a__yellow",
 
-            "a__orng",
+            "a__yellow",
 
-            "a__orng",
+            "a__yellow",
 
-            "a__orng",
+            "a__yellow",
 
-            "a__orng",
+            "a__yellow",
 
-            "a__orng",
+            "a__yellow",
 
-            "a__orng",
+            "a__yellow",
 
-            "a__orng"
+            "a__yellow"
 
         ]
 
@@ -16194,7 +16194,7 @@
 
         "id": 919,
 
-        "guest": false,
+        "guest": true,
 
         "nonbuyable": 1,
 
@@ -18922,7 +18922,7 @@
 
         "id": 859,
 
-        "guest": false,
+        "guest": true,
 
         "nonbuyable": 1,
 
@@ -19826,21 +19826,21 @@
 
       "glow": [
 
-        "a_white",
+        "a_yellow",
 
-        "a_white",
+        "a_yellow",
 
-        "a_white",
+        "a_yellow",
 
-        "a_white",
+        "a_yellow",
 
-        "a_white",
+        "a_yellow",
 
-        "a_white",
+        "a_yellow",
 
-        "a_white",
+        "a_yellow",
 
-        "a_white"
+        "a_yellow"
 
       ]
 
@@ -54569,7 +54569,7 @@
 
       "id": "TC Team",
 
-      "img": "tc team2.png",
+      "img": "",
 
       "name": {
 
@@ -54597,7 +54597,7 @@
 
       "id": "TC Team",
 
-      "img": "roxgaming.png",
+      "img": "",
 
       "name": {
 
@@ -54619,7 +54619,7 @@
 
       "id": "TC Team",
 
-      "img": "krdnz.png",
+      "img": "",
 
       "name": {
 
@@ -54641,7 +54641,7 @@
 
       "id": "TC Team",
 
-      "img": "yal2do.png",
+      "img": "",
 
       "name": {
 
@@ -54663,7 +54663,7 @@
 
       "id": "GicikBey",
 
-      "img": "gicikbey.png",
+      "img": "kurdistan.png",
 
       "name": {
 
@@ -54857,8 +54857,6 @@
 
       "list": [
 
-        "890",
-
         "854"
 
       ]
@@ -54966,18 +54964,7 @@
       },
 
       "list": [
-
-        "817",
-
-        "4639",
-
-		    "878",
-
-        "4600",
-
-        "4610",
-
-        "4653"
+        "4639"
 
       ]
 
@@ -55332,42 +55319,7 @@
 
       "list": [
 
-        "400",
-
-        "401",
-
-        "402",
-
-        "403",
-
-        "406",
-
-        "408",
-
-        "761",
-
-        "809",
-
-        "810",
-
-        "811",
-
-		    "872",
-
-        "896",
-
-        "897",
-
-        "898",
-
-		    "899",
-        "4690",
-        "4691",
-        "4692",
-        "4693",
-        "4694",
-
-        "409"
+        "400"
 
       ]
 
@@ -55724,7 +55676,7 @@
 
         "custom": true,
 
-        "relativePath": "https://i.imgur.com/1cP5sNT.png"
+        "relativePath": "https://haylamday.com/images/texture/skin_kurdishflag/skin_kurdishflag_17.png"
 
     },
 
@@ -56204,7 +56156,7 @@
 
         "custom": true,
 
-        "relativePath": "https://i.imgur.com/vjLodaj.png"
+        "relativePath": "https://haylamday.com/images/texture/skin_kurdishflag/skin_kurdishflag_18.png"
 
     },
 
@@ -56228,7 +56180,7 @@
 
         "custom": true,
 
-        "relativePath": "https://i.imgur.com/dEbApcc.png"
+        "relativePath": "https://haylamday.com/images/texture/skin_arabflag/skin_arabflag_20.png"
 
     },
 
@@ -56572,7 +56524,7 @@
 
         "custom": true,
 
-        "relativePath": "https://wormatefriendsturkey.com/images/texture/skin_tcteam/sinan67.png"
+        "relativePath": "https://haylamday.com/images/texture/skin_arabflag/skin_arabflag_26.png"
 
     },
 
@@ -56692,7 +56644,7 @@
 
       "custom": true,
 
-      "relativePath": "https://i.imgur.com/GzAR28l.png"
+      "relativePath": "https://i.imgur.com/S5rYkaP.png"
 
     },
 
@@ -56948,7 +56900,7 @@
 
     "custom": true,
 
-    "relativePath": "https://wormatefriendsturkey.com/images/texture/skin_tcteam/skin_azezekoo.png"
+    "relativePath": "https://i.imgur.com/JR7NIxD.png"
 
     },
 
@@ -57520,7 +57472,7 @@
 
       "custom": true,
 
-      "relativePath": "https://wormatefriendsturkey.com/images/texture/skin_tcteam/skin_skin_wftbesiktas01.png"
+      "relativePath": "https://haylamday.com/images/texture/skin_nsnd/skin_nsnd_02.png"
 
     },
 
