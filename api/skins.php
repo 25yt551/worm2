@@ -23787,7 +23787,7 @@
 
     "id": 4639,
 
-    "guest": false,
+    "guest": true,
 
     "nonbuyable": true,
 
