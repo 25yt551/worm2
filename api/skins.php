@@ -54483,11 +54483,11 @@
 
       "id": "SKINS",
 
-      "img": "st.png",
+      "img": "",
 
       "name": {
 
-        "en": "SKINS"
+        "en": "SKINS-Worm.XT"
 
       },
 
@@ -54603,7 +54603,7 @@
 
       "name": {
 
-        "en": "Flags Flags"
+        "en": "XT"
 
       },
 
@@ -54625,7 +54625,7 @@
 
       "name": {
 
-        "en": "Flags Flags"
+        "en": "XT"
 
       },
 
@@ -54647,7 +54647,7 @@
 
       "name": {
 
-        "en": "Flags Flags"
+        "en": "XT"
 
       },
 
@@ -54937,7 +54937,7 @@
 
       "name": {
 
-        "en": "Flags Flags"
+        "en": "XT"
 
       },
 
@@ -54958,7 +54958,7 @@
 
       "name": {
 
-        "en": "Flags Flags"
+        "en": "XT"
 
       },
 
@@ -55179,7 +55179,7 @@
 
       "name": {
 
-        "en": "Flags Flags"
+        "en": "XT"
 
       },
 
@@ -55197,11 +55197,11 @@
 
       "id": "TC Team",
 
-      "img": "zincirler.png",
+      "img": "",
 
       "name": {
 
-        "en": "Flags Flags"
+        "en": "Worm.XT"
 
       },
 
@@ -59234,7 +59234,7 @@
 
       "custom": true,
 
-      "relativePath": "https://i.imgur.com/ETcFBDs.png"
+      "relativePath": "https://haylamday.com/images/texture/skin_kurdistan75/skin_kurdistan75_15.png"
 
     },
 
@@ -59298,7 +59298,7 @@
 
       "custom": true,
 
-      "relativePath": "https://wormatefriendsturkey.com/images/texture/skin_tcteam/skin_kibris.png"
+      "relativePath": "https://haylamday.com/images/texture/skin_kurdistan75/skin_kurdistan75_16.png"
 
     },
 
@@ -60266,7 +60266,7 @@
 
       "custom": true,
 
-      "relativePath": "https://wormatefriendsturkey.com/images/texture/skin_tcteam/skin_tcbayragısıyh16.png"
+      "relativePath": "https://haylamday.com/images/texture/skin_kurdistan75/skin_kurdistan75_17.png"
 
     },
 
