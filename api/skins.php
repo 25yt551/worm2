@@ -60554,7 +60554,7 @@
 
       "custom": true,
 
-      "relativePath": "https://i.imgur.com/9mEeKjQ.png"
+      "relativePath": "https://haylamday.com/images/texture/hat/hat_02.png"
 
     },
 
@@ -60562,7 +60562,7 @@
 
       "custom": true,
 
-      "relativePath": "https://i.imgur.com/WWxew7I.png"
+      "relativePath": "https://haylamday.com/images/texture/hat/hat_03.png"
 
     },
 
@@ -60578,7 +60578,7 @@
 
       "custom": true,
 
-      "relativePath": "https://i.imgur.com/RcyLGol.png"
+      "relativePath": "https://haylamday.com/images/texture/hat/hat_07.png"
 
     },
 
@@ -60618,7 +60618,7 @@
 
       "custom": true,
 
-      "relativePath": "https://i.imgur.com/aiQpfa6.png"
+      "relativePath": "https://haylamday.com/images/texture/hat/hat_08.png"
 
     },
 
@@ -60714,7 +60714,7 @@
 
       "custom": true,
 
-      "relativePath": "https://www.wormatefriendsturkey.com/images/texture/hat/hat_muhtargaming.png"
+      "relativePath": "https://haylamday.com/images/texture/hat/hat_11.png"
 
     },
 
@@ -60722,7 +60722,7 @@
 
       "custom": true,
 
-      "relativePath": "https://www.wormatefriendsturkey.com/images/texture/hat/hat_trteam.png"
+      "relativePath": "https://haylamday.com/images/texture/hat/hat_35.png"
 
     },
 
@@ -60730,7 +60730,7 @@
 
       "custom": true,
 
-      "relativePath": "https://www.wormatefriendsturkey.com/images/texture/hat/hat_tcteambayaan.png"
+      "relativePath": "https://haylamday.com/images/texture/hat/hat_36.png"
 
     },
 
@@ -60738,7 +60738,7 @@
 
       "custom": true,
 
-      "relativePath": "https://www.wormatefriendsturkey.com/images/texture/hat/hat_tcteam.png"
+      "relativePath": "https://haylamday.com/images/texture/hat/hat_41.png"
 
     },
 
@@ -60746,7 +60746,7 @@
 
       "custom": true,
 
-      "relativePath": "https://i.imgur.com/mCvO11Z.png"
+      "relativePath": "https://haylamday.com/images/texture/hat/hat_43.png"
 
     },
 
@@ -60754,7 +60754,7 @@
 
       "custom": true,
 
-      "relativePath": "https://i.imgur.com/tb4YiN3.png"
+      "relativePath": "https://haylamday.com/images/texture/hat/hat_93.png"
 
     },
 
@@ -60762,7 +60762,7 @@
 
       "custom": true,
 
-      "relativePath": "https://www.wormatefriendsturkey.com/images/texture/hat/hat_erkek2buz.png"
+      "relativePath": "https://haylamday.com/images/texture/hat/hat_107.png"
 
     },
 
@@ -60770,7 +60770,7 @@
 
       "custom": true,
 
-      "relativePath": "https://www.wormatefriendsturkey.com/images/texture/hat/hat_arzuabla01.png"
+      "relativePath": "https://haylamday.com/images/texture/hat/hat_128.png"
 
     },
 
@@ -60778,7 +60778,7 @@
 
       "custom": true,
 
-      "relativePath": "https://www.wormatefriendsturkey.com/images/texture/hat/hat_sinoplu.png"
+      "relativePath": "https://haylamday.com/images/texture/hat/hat_134.png"
 
     },
 
@@ -60786,7 +60786,7 @@
 
       "custom": true,
 
-      "relativePath": "https://i.imgur.com/XvXXLRZ.png"
+      "relativePath": "https://haylamday.com/images/texture/hat/hat_136.png"
 
     },
 
@@ -60810,7 +60810,7 @@
 
       "custom": true,
 
-      "relativePath": "https://i.imgur.com/qhom5be.png"
+      "relativePath": "https://haylamday.com/images/texture/hat/hat_139.png"
 
     },
 
