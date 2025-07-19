@@ -55759,7 +55759,7 @@
 
         "custom": true,
 
-        "relativePath": "https://i.imgur.com/2g7mNdY.png"
+        "relativePath": "https://asserts.wormworld.io/textures/texture_20230717_0331_JSON_27.png"
 
     },
 
@@ -55823,7 +55823,7 @@
 
         "custom": true,
 
-        "relativePath": "https://i.imgur.com/UkVBUg7.png"
+        "relativePath": "https://asserts.wormworld.io/textures/texture_20240603_0605_JSON_2.png"
 
     },
 
