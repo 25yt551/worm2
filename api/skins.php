@@ -54665,11 +54665,11 @@
 
       "id": "GicikBey",
 
-      "img": "kurdistan.png",
+      "img": "",
 
       "name": {
 
-        "en": "GicikBey"
+        "en": "XT"
 
       },
 
@@ -54687,11 +54687,11 @@
 
       "id": "Gezegen",
 
-      "img": "gezegen.png",
+      "img": "",
 
       "name": {
 
-        "en": "Gezegen"
+        "en": "XR"
 
       },
 
@@ -54709,11 +54709,11 @@
 
       "id": "Sinan67",
 
-      "img": "sinan67.png",
+      "img": "",
 
       "name": {
 
-        "en": "Sinan67"
+        "en": "XT"
 
       },
 
@@ -54731,11 +54731,11 @@
 
       "id": "Matador58",
 
-      "img": "matador.png",
+      "img": "",
 
       "name": {
 
-        "en": "Matador58"
+        "en": "XT"
 
       },
 
@@ -54775,11 +54775,11 @@
 
       "id": "Prenses",
 
-      "img": "prenses.png",
+      "img": "",
 
       "name": {
 
-        "en": "Prenses"
+        "en": "XT"
 
       },
 
@@ -54803,11 +54803,11 @@
 
       "id": "Akinci",
 
-      "img": "akinci.png",
+      "img": "",
 
       "name": {
 
-        "en": "Akinci"
+        "en": "XT"
 
       },
 
@@ -54825,11 +54825,11 @@
 
       "id": "Pacman",
 
-      "img": "pacman.png",
+      "img": "",
 
       "name": {
 
-        "en": "Pacman"
+        "en": "Abo Judy"
 
       },
 
@@ -54847,7 +54847,7 @@
 
       "id": "SRT Team",
 
-      "img": "pathsrt.png",
+      "img": "",
 
       "name": {
 
@@ -54907,11 +54907,11 @@
 
       "id": "Atika Tunusia",
 
-      "img": "atikapath.png",
+      "img": "",
 
       "name": {
 
-        "en": "Atika Tunusia"
+        "en": "Tunusia"
 
       },
 
@@ -54933,11 +54933,11 @@
 
       "id": "TC Team",
 
-      "img": "Tiktok_streamers.png",
+      "img": "",
 
       "name": {
 
-        "en": "XT"
+        "en": "Strimer tik.XT"
 
       },
 
@@ -54954,11 +54954,11 @@
 
       "id": "TC Team",
 
-      "img": "normaloyuncu.png",
+      "img": "",
 
       "name": {
 
-        "en": "XT"
+        "en": "Normal.XT"
 
       },
 
@@ -54976,11 +54976,11 @@
 
       "id": "TC Team",
 
-      "img": "friends.png",
+      "img": "",
 
       "name": {
 
-        "en": "Friends"
+        "en": "XT"
 
       },
 
@@ -55091,11 +55091,11 @@
 
       "id": "TC Team",
 
-      "img": "azer.png",
+      "img": "",
 
       "name": {
 
-        "en": "Azerbajcan"
+        "en": "snake.XT"
 
       },
 
@@ -55175,7 +55175,7 @@
 
       "id": "TC Team",
 
-      "img": "takimlarsehirler.png",
+      "img": "",
 
       "name": {
 
