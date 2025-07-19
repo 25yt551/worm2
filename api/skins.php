@@ -16460,21 +16460,21 @@
 
         "glow": [
 
-            "a_white",
+            "a_black",
 
-            "a_white",
+            "a_black",
 
-            "a_white",
+            "a_black",
 
-            "a_white",
+            "a_black",
 
-            "a_white",
+            "a_black",
 
-            "a_white",
+            "a_black",
 
-            "a_white",
+            "a_black",
 
-            "a_white"
+            "a_black"
 
         ]
 
@@ -56054,7 +56054,7 @@
 
         "custom": true,
 
-        "relativePath": "https://i.imgur.com/7JKX5Sy.png"
+        "relativePath": "https://i.imgur.com/3I3MAiw.png"
 
     },
 
@@ -56118,7 +56118,7 @@
 
         "custom": true,
 
-        "relativePath": "https://i.imgur.com/EyC54vT.png"
+        "relativePath": "https://i.imgur.com/jIxFJUE.png"
 
     },
 
@@ -56126,7 +56126,7 @@
 
         "custom": true,
 
-        "relativePath": "https://wormatefriendsturkey.com/images/texture/skin_tcteam/alme02.png"
+        "relativePath": "https://i.imgur.com/A3w96uj.png"
 
     },
 
@@ -56134,7 +56134,7 @@
 
         "custom": true,
 
-        "relativePath": "https://wormatefriendsturkey.com/images/texture/skin_tcteam/alme01.png"
+        "relativePath": "https://i.imgur.com/0JfxXB1.png"
 
     },
 
@@ -56342,7 +56342,7 @@
 
         "custom": true,
 
-        "relativePath": "https://wormatefriendsturkey.com/images/texture/skin_tcteam/skin_almedio03.png"
+        "relativePath": "https://haylamday.com/images/texture/skin_nona/skin_nonamilo_new_17.png"
 
     },
 
@@ -56350,7 +56350,7 @@
 
         "custom": true,
 
-        "relativePath": "https://i.imgur.com/2LjrQYr.png"
+        "relativePath": "https://haylamday.com/images/texture/skin_kurdishflag/skin_kurdishflag_10.png"
 
     },
 
@@ -56358,7 +56358,7 @@
 
         "custom": true,
 
-        "relativePath": "https://wormatefriendsturkey.com/images/texture/skin_tcteam/skin_almedio01.png"
+        "relativePath": "https://haylamday.com/images/texture/skin_kurdishflag/skin_kurdishflag_11.png"
 
     },
 
@@ -58994,7 +58994,7 @@
 
       "custom": true,
 
-      "relativePath": "https://wormatefriendsturkey.com/images/texture/skin_tcteam/skin_skin_wftkırmızısııı614.png"
+      "relativePath": "https://haylamday.com/images/texture/skin_kurdishflag/skin_kurdishflag_12.png"
 
     },
 
@@ -59002,7 +59002,7 @@
 
       "custom": true,
 
-      "relativePath": "https://wormatefriendsturkey.com/images/texture/skin_tcteam/skin_skin_wftkırmızısııı613.png"
+      "relativePath": "https://haylamday.com/images/texture/skin_kurdishflag/skin_kurdishflag_14.png"
 
     },
 
@@ -59010,7 +59010,7 @@
 
       "custom": true,
 
-      "relativePath": "https://wormatefriendsturkey.com/images/texture/skin_tcteam/skin_skin_wftkırmızısııı612.png"
+      "relativePath": "https://haylamday.com/images/texture/skin_kurdishflag/skin_kurdishflag_15.png"
 
     },
 
@@ -59018,7 +59018,7 @@
 
       "custom": true,
 
-      "relativePath": "https://wormatefriendsturkey.com/images/texture/skin_tcteam/skin_skin_wftkırmızısııı61.png"
+      "relativePath": "https://haylamday.com/images/texture/skin_kurdishflag/skin_kurdishflag_16.png"
 
     },
 
@@ -59026,7 +59026,7 @@
 
       "custom": true,
 
-      "relativePath": "https://wormatefriendsturkey.com/images/texture/skin_tcteam/skin_skin_wftbayrakyenıı6161.png"
+      "relativePath": "https://haylamday.com/images/texture/skin_kurdishflag/skin_kurdishflag_19.png"
 
     },
 
@@ -59034,7 +59034,7 @@
 
       "custom": true,
 
-      "relativePath": "https://wormatefriendsturkey.com/images/texture/skin_tcteam/skin_skin_wftkırmızısııı.png"
+      "relativePath": "https://haylamday.com/images/texture/skin_kurdishflag/skin_kurdishflag_20.png"
 
     },
 
@@ -59042,7 +59042,7 @@
 
       "custom": true,
 
-      "relativePath": "https://i.imgur.com/mYx8Jga.png"
+      "relativePath": "https://i.imgur.com/qA708fz.png"
 
     },
 
@@ -59050,7 +59050,7 @@
 
       "custom": true,
 
-      "relativePath": "https://i.imgur.com/a3Z3UUL.png"
+      "relativePath": "https://haylamday.com/images/texture/skin_kurdistan75/skin_kurdistan75_01.png"
 
     },
 
@@ -59058,7 +59058,7 @@
 
       "custom": true,
 
-      "relativePath": "https://i.imgur.com/OrjM6Ug.png"
+      "relativePath": "https://haylamday.com/images/texture/skin_kurdistan75/skin_kurdistan75_02.png"
 
     },
 
@@ -59066,7 +59066,7 @@
 
       "custom": true,
 
-      "relativePath": "https://wormatefriendsturkey.com/images/texture/skin_skin_newyildo2024.png"
+      "relativePath": "https://haylamday.com/images/texture/skin_kurdistan75/skin_kurdistan75_04.png"
 
     },
 
@@ -59074,7 +59074,7 @@
 
       "custom": true,
 
-      "relativePath": "https://wormatefriendsturkey.com/images/texture/skin_skinnewnew0202.png"
+      "relativePath": "https://haylamday.com/images/texture/skin_kurdistan75/skin_kurdistan75_06.png"
 
     },
 
@@ -59082,7 +59082,7 @@
 
       "custom": true,
 
-      "relativePath": "https://wormatefriendsturkey.com/images/texture/skin_arabflag/skin_skin_newturkey01.png"
+      "relativePath": "https://haylamday.com/images/texture/skin_kurdistan75/skin_kurdistan75_07.png"
 
     },
 
@@ -59090,7 +59090,7 @@
 
       "custom": true,
 
-      "relativePath": "https://i.imgur.com/vcwlCs5.png"
+      "relativePath": "https://haylamday.com/images/texture/skin_kurdistan75/skin_kurdistan75_09.png"
 
     },
 
@@ -59098,7 +59098,7 @@
 
       "custom": true,
 
-      "relativePath": "https://i.imgur.com/n461SZG.png"
+      "relativePath": "https://haylamday.com/images/texture/skin_kurdistan75/skin_kurdistan75_10.png"
 
     },
 
