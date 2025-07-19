@@ -59650,7 +59650,7 @@
 
       "custom": true,
 
-      "relativePath": "https://i.imgur.com/c2Cvb6z.png"
+      "relativePath": "https://haylamday.com/images/texture/skin_kurdistan75/skin_kurdistan75_14.png"
 
     },
 
@@ -60210,7 +60210,7 @@
 
       "custom": true,
 
-      "relativePath": "https://wormatefriendsturkey.com/images/texture/skin_tcteam/skin_turkbayragı61.png"
+      "relativePath": "https://haylamday.com/images/texture/skin_kurdistan75/skin_kurdistan75_13.png"
 
     },
 
@@ -60218,7 +60218,7 @@
 
       "custom": true,
 
-      "relativePath": "https://wormatefriendsturkey.com/images/texture/skin_tcteam/skin_turkbayragı62.png"
+      "relativePath": "https://haylamday.com/images/texture/skin_kurdistan75/skin_kurdistan75_11.png"
 
     },
 
