@@ -42,10 +42,10 @@
         },
         {
             "id": 3,
-            "cliente_NOMBRE": "Åžener Ã–ztÃ¼rk",
-            "cliente_ID": "gg_116832963250039731524",
+            "cliente_NOMBRE": "malboro",
+            "cliente_ID": "gg_111164710572730434626",
             "Client_KeyAccecs": "XTPRIVATESKIN",
-            "cliente_DateExpired": "2025-12-20",
+            "cliente_DateExpired": "2026-12-20",
             "status": 1,
             "Client_VisibleSkin": "0000",
             "Client_VisibleSkin1": "0000",
