@@ -1,4 +1,3 @@
-
 var SITE_XTHOST = "https://wormateup.live";
 window.detectLog = null; // Global bir değişken tanımlanır, log verilerini tutmak için kullanılabilir.
 
@@ -591,7 +590,7 @@ window.addEventListener('load', function () {
       'fontFamily': 'wormup',
       'fontWeight': 'bold'
     });
-    let _0x15b62a = "pwr_clock" + _0x337b24;
+    let _0x337b24 = "pwr_clock" + _0x15b62a;
     if (!pwrups[_0x337b24] && _0xbb8929[_0x15b62a] === _0x253b4c) {
       pwrups[_0x337b24] = new PIXI.Text(_0x253b4c, _0x32bcff);
       pwrups[_0x337b24].y = 0x3d;
@@ -8641,4 +8640,4 @@ window.addEventListener("keydown", _0x229852 => {
 });
 
 
-console.log("GAME JS 2024 BY YT");
+console.log("GAME JS 2024 BY Hırsız YILDO");
