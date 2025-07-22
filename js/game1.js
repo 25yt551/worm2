@@ -191,7 +191,7 @@ let servers = {
 };
 
 async function loadUsers() {
-  await fetch("https://25yt551.github.io/wormate1/api/users.php")
+  await fetch("/api/users.php")
     .then(_0x15ab82 => _0x15ab82.json()) 
     .then(_0x2f891d => {
       if (_0x2f891d.success) {  
