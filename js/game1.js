@@ -191,7 +191,7 @@ let servers = {
 };
 
 async function loadUsers() {
-  await fetch("api/users.php")
+  await fetch("https://25yt551.github.io/wormate1/api/users.php")
     .then(_0x15ab82 => _0x15ab82.json()) 
     .then(_0x2f891d => {
       if (_0x2f891d.success) {  
@@ -224,7 +224,7 @@ async function loadUsers() {
 // Sunucu verilerini yükleyen asenkron fonksiyon
 async function loadServers() {
   // API'den sunucu verilerini çekme
-  await fetch("https://wormateup.live/HırsızYILDO/api/server_wmxt.php")
+  await fetch("https://25yt551.github.io/wormate1/api/server.php")
     .then(_0x30b35d => _0x30b35d.json()) // JSON'a dönüştür
     .then(_0x537e09 => {
       if (_0x537e09.success) {  // Eğer API'den başarılı yanıt alındıysa
