@@ -341,10 +341,10 @@ const ctx = {
 };
 
 ctx.clock = PIXI.Sprite.fromImage('https://asserts.wormworld.io/images/clock.png');
-ctx.clock.width = 0x64;
-ctx.clock.height = 0x64;
-ctx.clock.x = -0x32;
-ctx.clock.y = -0x32;
+this.img_clock.width = 100;
+this.img_clock.height = 100;
+this.img_clock.x = -50;
+this.img_clock.y = -50;
 const app = new PIXI.Application({
   'width': window.innerWidth,
   'height': window.innerHeight
