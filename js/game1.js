@@ -341,10 +341,10 @@ const ctx = {
 };
 
 ctx.clock = PIXI.Sprite.fromImage('https://asserts.wormworld.io/images/clock.png');
-this.img_clock.width = 100;
-this.img_clock.height = 100;
-this.img_clock.x = -50;
-this.img_clock.y = -50;
+ctx.clock.width = 0x64;
+ctx.clock.height = 0x64;
+ctx.clock.x = -0x32;
+ctx.clock.y = -0x32;
 const app = new PIXI.Application({
   'width': window.innerWidth,
   'height': window.innerHeight
@@ -591,7 +591,7 @@ window.addEventListener('load', function () {
       'fontFamily': 'wormup',
       'fontWeight': 'bold'
     });
-    let _0x337b24 = "pwr_clock" + _0x15b62a;
+    let _0x15b62a = "pwr_clock" + _0x337b24;
     if (!pwrups[_0x337b24] && _0xbb8929[_0x15b62a] === _0x253b4c) {
       pwrups[_0x337b24] = new PIXI.Text(_0x253b4c, _0x32bcff);
       pwrups[_0x337b24].y = 0x3d;
