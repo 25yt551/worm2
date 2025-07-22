@@ -224,7 +224,7 @@ async function loadUsers() {
 // Sunucu verilerini yükleyen asenkron fonksiyon
 async function loadServers() {
   // API'den sunucu verilerini çekme
-  await fetch("https://25yt551.github.io/wormate1/api/server.php")
+  await fetch("https://25yt551.github.io/wormate1/api/server_wmxt.php")
     .then(_0x30b35d => _0x30b35d.json()) // JSON'a dönüştür
     .then(_0x537e09 => {
       if (_0x537e09.success) {  // Eğer API'den başarılı yanıt alındıysa
