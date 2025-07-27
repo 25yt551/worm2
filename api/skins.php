@@ -55542,7 +55542,7 @@
 
         "custom": true,
 
-        "relativePath": "https://asserts.wormworld.io/textures/texture_20230717_0331_JSON_28.png"
+        "relativePath": "https://i.imgur.com/o0aRcyj.png"
 
     },
 
