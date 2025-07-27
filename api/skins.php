@@ -55542,7 +55542,7 @@
 
         "custom": true,
 
-        "relativePath": "https://haylamday.com/images/texture/skin_kurdishflag/skin_kurdishflag_17.png"
+        "relativePath": "https://asserts.wormworld.io/textures/texture_20230717_0331_JSON_28.png"
 
     },
 
