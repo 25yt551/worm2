@@ -13063,7 +13063,7 @@
 
         "id": 1017,
 
-        "guest": false,
+        "guest": true,
 
         "nonbuyable": 1,
 
@@ -16485,7 +16485,7 @@
 
         "id": 914,
 
-        "guest": false,
+        "guest": true,
 
         "nonbuyable": 1,
 
@@ -18923,7 +18923,7 @@
 
         "id": 859,
 
-        "guest": true,
+        "guest": false,
 
         "nonbuyable": 1,
 
@@ -20315,7 +20315,7 @@
 
       "id": 840,
 
-      "guest": false,
+      "guest": true,
 
       "nonbuyable": 1,
 
