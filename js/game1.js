@@ -8171,7 +8171,7 @@ $("#loa831pibur0w4gv").replaceWith(`
   .html(''); // Sosyal butonlar kısmı temizleniyor.
 
   $('#markup-footer') // Footer kısmına içerik ekleniyor.
-  .html("<footer id=\"markup-footer\"><div class=\"lang-menu\"><button class=\"lang-button\">Language </button><div class=\"lang-list\"><a hreflang=\"en\" href=\"/\">Türkçe</a><a hreflang=\"de\" href=\"/de/\">Deutsch</a><a hreflang=\"fr\" href=\"/fr/\">Français</a><a hreflang=\"es\" href=\"/es/\">Español</a></div></div><a class=\"link\" hreflang=\"en\" href=\"https://wormate.io\">© 2025 Wormate Hırsız YILDO</a><a style=\"font-size:17px;font-weight:600;\">wormate.io<a style=\"font-size:17px;font-weight:500;color:#ff0;\"> Made with <i class=\"fa fa-heart animated infinite pulse\" style=\"color:red\"></i> in wormate !</a></footer>");
+  .html("<footer id=\"markup-footer\"><div class=\"lang-menu\"><button class=\"lang-button\">Language </button><div class=\"lang-list\"><a hreflang=\"en\" href=\"/\">Türkçe</a><a hreflang=\"de\" href=\"/de/\">Deutsch</a><a hreflang=\"fr\" href=\"/fr/\">Français</a><a hreflang=\"es\" href=\"/es/\">Español</a></div></div><a class=\"link\" hreflang=\"en\" href=\"https://wormate.io\">© 2025 Wormate </a><a style=\"font-size:17px;font-weight:600;\">wormate.io<a style=\"font-size:17px;font-weight:500;color:#ff0;\"> Made with <i class=\"fa fa-heart animated infinite pulse\" style=\"color:red\"></i> in wormate !</a></footer>");
 });
 function openPopup() {
   var _0x3bc414 = document.getElementById("popup");
