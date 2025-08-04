@@ -2645,7 +2645,7 @@ window.addEventListener('load', function () {
           _0x18d012.beginFill("black", 0.4);
           _0x18d012.drawCircle(0x0, 0x0, this.Kf);
           _0x18d012.endFill();
-          _0x18d012.lineStyle(0x2, 0xffffff);
+          _0x18d012.lineStyle(0x2, 0xff0000);
           _0x18d012.drawCircle(0x0, 0x0, this.Kf);
           _0x18d012.moveTo(0x0, -this.Kf);
           _0x18d012.lineTo(0x0, +this.Kf);
