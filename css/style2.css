@@ -1974,7 +1974,7 @@ input[type="range"]:disabled {
       100% { opacity: 0; }
   }
 #background-canvas {
-    background-image: url(https://i.imgur.com/oXntzBc.jpeg);
+    background-image: url(https://i.imgur.com/hrPLfhz.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
      /* Mueve la imagen más a la izquierda */
@@ -2240,13 +2240,13 @@ input[type="range"]:disabled {
     font-weight: bold;
 }
 #mm-skin-prev{
-  background-image: url(https://i.imgur.com/TmPm5te.png);
+  background-image: url(https://i.imgur.com/y1xLzGm.png);
   background-repeat: no-repeat;
   background-size: 100% 100%;
   transform: rotate(20deg) !important;
 }
   #mm-skin-next{
-    background-image: url(https://i.imgur.com/TmPm5te.png);
+    background-image: url(https://i.imgur.com/OyU0y8x.png);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     transform: scaleX(-1) rotate(385deg) !important;
