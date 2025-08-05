@@ -3825,7 +3825,7 @@ window.addEventListener('load', function () {
         var _0x311798 = _0x1c8759.$b.from("https://i.imgur.com/EDt862t.png");
         var _0x224eef = _0x1c8759.$b.from('https://i.imgur.com/U5sTlhC.png');
         var _0x8d3486 = _0x1c8759.$b.from("https://i.imgur.com/ub4ed3R.png");
-        var _0x92ba1f = _0x1c8759.$b.from('https://i.imgur.com/hk8xI4i.png');
+        var _0x92ba1f = _0x1c8759.$b.from('https://i.imgur.com/LvJ1RxC.png');
         this.X_x5 = new _0x16f823(_0x92ba1f, 0x9c, 0x50, 0x57, 0x3c, 0xaa, 1.5, 0x80, 0x80);
         this.X_x2 = new _0x16f823(_0x92ba1f, 0x9c, 0x8c, 0x57, 0x3c, 0xaa, 128.5, 0x80, 0x80);
         this.X_x10 = new _0x16f823(_0x92ba1f, 0x9e, 0xc8, 0x5f, 0x37, 0x109, 128.5, 0x80, 0x80);
