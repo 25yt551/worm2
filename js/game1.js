@@ -2659,7 +2659,7 @@ window.addEventListener('load', function () {
           this.Jf.drawCircle(0x0, 0x0, 0.08 * this['Kf']),
           this.Jf.endFill();
           this.Jf.lineStyle(0x1, "black");
-          this.Jf.drawCircle(0x0, 0x0, 0.12 * this['Kf']),
+          this.Jf.drawCircle(0x0, 0x0, 0.09 * this['Kf']),
           this.Jf.endFill();
           this.addChild(_0x18d012);
           this.addChild(this.Sf);
