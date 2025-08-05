@@ -2645,7 +2645,7 @@ window.addEventListener('load', function () {
           _0x18d012.beginFill("black", 0.4);
           _0x18d012.drawCircle(0x0, 0x0, this.Kf);
           _0x18d012.endFill();
-          _0x18d012.lineStyle(0x1, 0xFF8C00);
+          _0x18d012.lineStyle(0x1, 0xf79425);
           _0x18d012.drawCircle(0x0, 0x0, this.Kf);
           _0x18d012.moveTo(0x0, -this.Kf);
           _0x18d012.lineTo(0x0, +this.Kf);
@@ -2655,7 +2655,7 @@ window.addEventListener('load', function () {
           this.Sf.alpha = 0.55;
           this.Jf.zIndex = 0x2;
           this.Jf.alpha = 0.9;
-          this.Jf.beginFill(0xf79425);
+          this.Jf.beginFill(0xFF8C00);
           this.Jf.drawCircle(0x0, 0x0, this.Kf * 0.12);
           this.Jf.endFill();
           this.Jf.lineStyle(0x1, "black");
