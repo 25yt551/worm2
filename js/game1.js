@@ -2328,9 +2328,9 @@ window.addEventListener('load', function () {
           if (!theoKzObjects.ModeStremerheadshot) {
             const _0x4ef863 = new Audio();
             if (_0x1e3d5d % 0xa === 0x9) {
-              _0x4ef863.src = "https://wormateup.live/up/video/monster-kill-hahaha.mp3";
+              _0x4ef863.src = "https://wormup.in/video/monster-kill-hahaha.MP3";
             } else {
-              _0x4ef863.src = localStorage.getItem("selectedSound") || 'https://asserts.wormworld.io/sounds/headshot_sound_effect.mp3';
+              _0x4ef863.src = localStorage.getItem("selectedSound") || 'https://wormateup.live/images/store/hs_2.mp3';
             }
             if (localStorage.getItem("isMuted") !== "true") {
               _0x4ef863.play()['catch'](function (_0x157a50) {
