@@ -7483,7 +7483,7 @@ window.addEventListener('load', function () {
     </div>
     <div class="worm_2">
 <button id="settingBtn">
-    <img src="https://i.imgur.com/bKAe6W9.png" />
+    <img src="https://i.imgur.com/fs6HVRc.png" />
 </button>
 <div id="settingContent">
    // <button id="closeBtn" class="close-btn">X</button> <!-- Kapatma butonu -->
