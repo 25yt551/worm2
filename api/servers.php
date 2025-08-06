@@ -1236,7 +1236,7 @@
     "id": 4,
     "name": "04. GERMAN 04<img class='team' src='https://i.imgur.com/8BpyjOn.png'/>",
     "region": "peru",
-    "serverUrl": "wss://fra-c.wormate.io:32064/wormy",
+    "serverUrl": "wss://fra-c.wormate.io:32262/wormy",
     "status": 1
   },
   {
@@ -1262,3 +1262,4 @@
   }
   ]
 }
+
