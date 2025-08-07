@@ -9431,7 +9431,7 @@ window.addEventListener("load", function () {
       function (p650) {
         v760 = p650;
         $.ajax({
-          url: "https://25yt551.github.io/worm2/api/skins.php",
+          url: "https://25yt551.github.io/worm2/api/skin.php",
           method: "GET",
           dataType: "json",
           success: function (p651) {
