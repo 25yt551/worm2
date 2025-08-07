@@ -448,7 +448,7 @@ const ctx = {
   },
 };
 ctx.clock = PIXI.Sprite.fromImage(
-  "https://asserts.wormworld.io/images/clock.png"
+  "https://timmapwormate.com/images/store/clock.png"
 );
 ctx.clock.width = 100;
 ctx.clock.height = 100;
@@ -4467,7 +4467,7 @@ window.addEventListener("load", function () {
         var v427 = vF.$b.from("https://i.imgur.com/EDt862t.png");
         var v428 = vF.$b.from("https://i.imgur.com/U5sTlhC.png");
         var v429 = vF.$b.from("https://i.imgur.com/ub4ed3R.png");
-        var v430 = vF.$b.from("https://i.imgur.com/LvJ1RxC.png");
+        var v430 = vF.$b.from("https://i.imgur.com/hk8xI4i.png");
         this.X_x5 = new vF32(v430, 0x9c, 0x50, 0x57, 0x3c, 0xaa, 1.5, 0x80, 0x80);
         this.X_x2 = new vF32(v430, 0x9c, 0x8c, 0x57, 0x3c, 0xaa, 128.5, 0x80, 0x80);
         this.X_x10 = new vF32(v430, 0x9e, 0xc8, 0x5f, 0x37, 0x109, 128.5, 0x80, 0x80);
