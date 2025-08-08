@@ -3201,7 +3201,7 @@ window.addEventListener("load", function () {
           v263.beginFill("black", 0.4);
           v263.drawCircle(0, 0, this.Kf);
           v263.endFill();
-          v263.lineStyle(1.5, 0xf7a4ea);
+          v263.lineStyle(1.5, 0x115be4);
           v263.drawCircle(0, 0, this.Kf);
           v263.moveTo(0, -this.Kf);
           v263.lineTo(0, +this.Kf);
