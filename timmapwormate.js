@@ -3607,7 +3607,7 @@ window['addEventListener']('load', function() {
                 this['Lg']['$g'](_0x4ffcaf['xg'] === _0x1ccf72['Ac']['vg'] ? _0x16d5b8['xe']['_g'] : _0x16d5b8['xe']['ah']);
                 var _0x461326 = this['Ng'];
                 _0x461326['clear'](),
-                _0x461326['lineStyle'](0.5, 0xd3ff, 0x1),
+                _0x461326['lineStyle'](0.5, 0xf79425, 0x1),
                 _0x461326[_0x2b5a16(0x216)](0x0, 0x0, _0x4ffcaf['zg']),
                 _0x461326[_0x2b5a16(0x198)](),
                 this['Vg']['bh'] = _0x3c5c99,
@@ -3728,9 +3728,9 @@ window['addEventListener']('load', function() {
                     _0x85029[_0xd1b676(0x1ba)](+this['kh'], 0x0),
                     _0x85029[_0xd1b676(0x198)](),
                     this['qh'][_0xd1b676(0x259)] = 0.5,
-                    this['jh']['zIndex'] = 0x2,
+                    this['jh']['zIndex'] = 0x1,
                     this['jh'][_0xd1b676(0x259)] = 0.9,
-                    this['jh'][_0xd1b676(0x386)](0xf79425),
+                    this['jh'][_0xd1b676(0x386)](0xFF8C00),
                     this['jh']['drawCircle'](0x0, 0x0, 0.06 * this['kh']),
                     this['jh'][_0xd1b676(0x198)](),
                     this['jh'][_0xd1b676(0x3f4)](0x1, _0xd1b676(0x23c)),
@@ -10260,3 +10260,4 @@ function _0x27b3c3(_0x3ccdfc) {
             _0x494f01(0x0);
     } catch (_0x26f8b4) {}
 }
+
