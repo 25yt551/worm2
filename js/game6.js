@@ -341,7 +341,7 @@ async function fetchServersWithRetry(p16, p17 = 3, p18 = 2000) {
 async function loadServers() {
   try {
     const v18 = await fetchServersWithRetry(
-      "https://zwormextenstion.com/wormExtension/api/serversTimMap.php"
+      "https://zwormextenstion.com/wormExtension/api/servers/wormworld.php"
     );
     if (v18.success) {
       let v19 = v18.servers;
