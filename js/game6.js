@@ -2895,16 +2895,16 @@ window.addEventListener("load", function () {
       $(document).ready(function () {
         $(document).on("click", "#final-continue", function () {
           f59();
-          console.log("تم تصفير عداد الصوت عند الضغط على زر الصفحة الرئيسية.");
+          console.log("Home تم تصفير عداد الصوت عند الضغط على زر الصفحة .");
         });
         $(document).on("click", "#final-replay", function () {
           f59();
-          console.log("تم تصفير عداد الصوت عند الضغط على زر رسبون.");
+          console.log("Replay تم تصفير عداد الصوت عند الضغط على زر .");
         });
         $(document).on("keydown", function (p284) {
           if (p284.key === "r" || p284.key === "R") {
             f59();
-            console.log("تم تصفير عداد الصوت عند الضغط على الحرف R.");
+            console.log("تم تصفير عداد الصوت عند الضغط على الحرف .");
           }
         });
       });
