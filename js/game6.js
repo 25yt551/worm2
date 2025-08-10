@@ -485,7 +485,7 @@ window.addEventListener("resize", () => {
   app.renderer.resize(window.innerWidth, window.innerHeight);
   updateSpritePositions();
 });
-ctx.value_server = new PIXI.Text("W-DE", ctx.fontStyle.name);
+ctx.value_server = new PIXI.Text("Y-T", ctx.fontStyle.name);
 ctx.value_server.x = 17;
 ctx.value_server.y = 3;
 ctx.label_hs = new PIXI.Text("HS", ctx.fontStyle.amarillo);
@@ -521,7 +521,7 @@ ctx.containerCountInfo.addChild(ctx.value2_hs);
 ctx.containerCountInfo.addChild(ctx.label_kill);
 ctx.containerCountInfo.addChild(ctx.value1_kill);
 ctx.containerCountInfo.addChild(ctx.value2_kill);
-ctx.imgServerbase = PIXI.Texture.fromImage("https://i.imgur.com/EkbSd65.png");
+ctx.imgServerbase = PIXI.Texture.fromImage("https://i.imgur.com/fs6HVRc.png");
 ctx.borderurl = PIXI.Texture.fromImage("https://i.imgur.com/wYJAfmO0.png");
 ctx.onclickServer = PIXI.Texture.fromImage(theoKzObjects.flag);
 ctx.containerImgS = new PIXI.Sprite(ctx.imgServerbase);
@@ -537,7 +537,7 @@ ctx.borderImg.y = 78;
 ctx.borderImg.width = 110;
 ctx.borderImg.height = 60;
 ctx.setServer = function (p21) {
-  ctx.value_server.text = p21 || "W-DE";
+  ctx.value_server.text = p21 || "Y-T";
 };
 ctx.setCountGame = function (p22, p23, p24, p25) {
   ctx.value1_hs.text = p23;
