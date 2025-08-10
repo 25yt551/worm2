@@ -3813,7 +3813,7 @@ body {display:block !important;}
   margin-top:65px;
   left:15px;
   right:15px;
-  background-color:#8bc34a;
+  background-color:#4FC3F7;
   color:#fff;
   overflow:hidden;
   height:50px;
@@ -3833,7 +3833,7 @@ body {display:block !important;}
 
 #game-wrap #game-cont #results-view #congrats-bg #congrats-wrap #congrats .controls #final-continue:hover {
   box-shadow:0 1px 1px 0 rgba(0,0,0,.5);
-  background-color:#a4d070;
+  background-color:#3b5e2b;
 }
 #game-wrap #game-cont #results-view #congrats-bg #congrats-wrap #congrats .controls #final-continue:focus {outline:none;}
 #game-wrap #game-cont #results-view #congrats-bg #congrats-wrap #congrats .controls #final-continue * {vertical-align:middle;}
