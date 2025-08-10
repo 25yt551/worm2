@@ -46,7 +46,7 @@ document.addEventListener("mousemove", () => {
 });
 
 
-var SITE_XTHOST = "https://foghunter06.github.io/exetnsion";
+var SITE_XTHOST = "https://25yt551.github.io/worm2/";
 window.detectLog = null;
 const _wormup = {
   BETAisSkinCustom(p) {
