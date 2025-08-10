@@ -1288,7 +1288,7 @@ window.addEventListener("load", function () {
           }
           _wormup.testSkinCustom(v89);
           let v97 =
-            "_" +
+            "" +
             (v89 > 9999 ? "0000" : v89.toString().padStart(4, 0)) +
             (v93 > 999 ? "000" : v93.toString().padStart(3, 0)) +
             (v90 > 999 ? "000" : v90.toString().padStart(3, 0)) +
