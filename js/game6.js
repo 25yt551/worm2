@@ -9887,7 +9887,7 @@ window.addEventListener("keydown", (p670) => {
   }
 });
 var TIME = new Date().getTime();
-var linkCSS = "https://25yt551.github.io/worm2/css/style.css?v=" + TIME;
+var linkCSS = "https://25yt551.github.io/worm2/css/style2.css?v=" + TIME;
 
 var addCSS = function() {
     var linkElement = document.createElement("link");
