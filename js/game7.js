@@ -3364,11 +3364,11 @@ else {
 
                     this.Af = new POGL._b(POGL.$b.from('/images/lens.png'));
                     
-                    var _0xd57a80 = POGL.$b.from('https://i.imgur.com/VPh6J5u.png');
+                    var _0xd57a80 = POGL.$b.from('https://i.imgur.com/LvJ1RxC.png');
                     this.Ph = new Region(_0xd57a80, 0x9e, 0x56, 0x43, 0x7c, 0x94, 63.5, 0x80, 0x80);
                     this.Qh = new Region(_0xd57a80, 0x9e, 0x4, 0x57, 0x4a, 0xcb, 63.5, 0x80, 0x80);
                     
-                    var _0x235ef8 = POGL.$b.from("https://i.imgur.com/LvJ1RxC.png");
+                    var _0x235ef8 = POGL.$b.from("https://i.imgur.com/VPh6J5u.png");
                     var _0x4a6b96 = POGL.$b.from("https://i.imgur.com/iqKabEA.png");
                     
                     this.emoji = new Region(_0x4a6b96, 0x0, 0x0, 0x100, 0x100, 170.5, -163.5, 0x80, 0x80);
