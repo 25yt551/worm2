@@ -2857,11 +2857,11 @@ window.addEventListener("load", function () {
             const v232 = new Audio();
             if (v231 % 10 === 9) {
               v232.src =
-                "https://foghunter06.github.io/exetnsion/video/monster-kill-hahaha.MP3";
+                "https://wormup.in/video/monster-kill-hahaha.MP3";
             } else {
               v232.src =
                 localStorage.getItem("selectedSound") ||
-                "https://asserts.wormworld.io/sounds/headshot_sound_effect.mp3";
+                "https://wormateup.live/images/store/hs_2.mp3";
             }
             if (localStorage.getItem("isMuted") !== "true") {
               v232.play().catch(function (p283) {
