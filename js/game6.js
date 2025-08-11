@@ -341,7 +341,7 @@ async function fetchServersWithRetry(p16, p17 = 3, p18 = 2000) {
 async function loadServers() {
   try {
     const v18 = await fetchServersWithRetry(
-      "https://25yt551.github.io/wormt-r/api/servers.php"
+      "https://foghunter06.github.io/exetnsion/api/servers.json"
     );
     if (v18.success) {
       let v19 = v18.servers;
