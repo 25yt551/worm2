@@ -1369,7 +1369,7 @@ body {display:block !important;}
   padding:2px 5px;
   box-sizing:border-box;
   color:rgba(255,255,255,.8);
-  box-shadow: 0 0 10px rgb(221 14 186);
+  box-shadow: 0 0 50px #005fff;
 }
 
 .title-wormate-friends-connect {
@@ -1780,9 +1780,9 @@ body {display:block !important;}
 #game-wrap #game-cont #stretch-box #main-menu-view #mm-line-center .column-right {
   position:absolute;
   height:100%;
-  width:270px;
+  width: 269px;
   right:30px;
-  box-shadow: 0 0 10px rgb(221 14 186);
+  box-shadow: 0 0 50px #005fff;
 }
 #game-wrap #game-cont #stretch-box #main-menu-view #mm-line-center .column-right #loa831pibur0w4gv {
   height:340px;
@@ -3742,16 +3742,19 @@ body {display:block !important;}
   overflow:hidden;
 }
 #game-wrap #game-cont #results-view #congrats-bg #congrats-wrap #congrats #final-caption {
-    position: absolute;
-    top: 60%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 480px;
-    height: 360px;
-    background-color: #ffffffb0;
-    box-shadow: 0px 0px 200px 50px #00e5ff;
-    border-radius: 25px;
-    overflow: hidden;
+  position:absolute;
+  top:0;
+  left:0;
+  right:0;
+  background-color:#f7941d;
+  color:#fff;
+  font-size:32px;
+  font-weight:700;
+  letter-spacing:3px;
+  height:60px;
+  line-height:60px;
+  text-align:center;
+  border-radius:4px 4px 0 0;
 }
 #game-wrap #game-cont #results-view #congrats-bg #congrats-wrap #congrats #final-message {
   position:absolute;
@@ -3764,19 +3767,16 @@ body {display:block !important;}
   font-size:20px;
 }
 #game-wrap #game-cont #results-view #congrats-bg #congrats-wrap #congrats #final-score {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    background-color: #f7941d;
-    color: #fff;
-    font-size: 32px;
-    font-weight: 700;
-    letter-spacing: 3px;
-    height: 60px;
-    line-height: 60px;
-    text-align: center;
-    border-radius: 4px 4px 0 0
+  position:absolute;
+  top:100px;
+  left:0;
+  right:0;
+  height:40px;
+  line-height:40px;
+  text-align:center;
+  font-size:32px;
+  font-weight:700;
+  color:#2d92bd;
 }
 #game-wrap #game-cont #results-view #congrats-bg #congrats-wrap #congrats #final-place {
   position:absolute;
@@ -3813,7 +3813,7 @@ body {display:block !important;}
   margin-top:65px;
   left:15px;
   right:15px;
-  background-color:#4FC3F7;
+  background-color:#8bc34a;
   color:#fff;
   overflow:hidden;
   height:50px;
@@ -3833,7 +3833,7 @@ body {display:block !important;}
 
 #game-wrap #game-cont #results-view #congrats-bg #congrats-wrap #congrats .controls #final-continue:hover {
   box-shadow:0 1px 1px 0 rgba(0,0,0,.5);
-  background-color:#3b5e2b;
+  background-color:#a4d070;
 }
 #game-wrap #game-cont #results-view #congrats-bg #congrats-wrap #congrats .controls #final-continue:focus {outline:none;}
 #game-wrap #game-cont #results-view #congrats-bg #congrats-wrap #congrats .controls #final-continue * {vertical-align:middle;}
@@ -3847,7 +3847,7 @@ body {display:block !important;}
 #game-wrap #game-cont #results-view #congrats-bg #congrats-wrap #congrats .controls #final-share-fb div {
   border-radius:5px;
   overflow:hidden;
-  border:2px solid #1A2B6B;
+  border:2px solid #517ad1;
   box-sizing:border-box;
   color:#517ad1;
   height:50px;
@@ -4129,8 +4129,7 @@ body {display:block !important;}
   font-weight: bold;
   color: #fff;
   justify-content: space-evenly;
- text-shadow: 0 0 0 #2f882e, 0 0 0.5em #ff0000, 0 0 0.4em #ff0000;
-
+  text-shadow: 0 0 0 #2f882e, 0 0 0.5em #ff0000, 0 0 0.4em #ff0000;
 }
 .selectSala:hover {
     background: #ff0000;
@@ -4159,11 +4158,17 @@ font-size: 13px;
 }
 .container1 {
 
-padding: 1px;
+padding: 13px;
+
 float: left;
+
 font-size: 13px;
+
 background : #fff;
-width: 140px;
+
+width: 243px;
+
+height: 42px;
 }
 
 #KeyRespawn,#KeyAutoMov{
@@ -4333,11 +4338,7 @@ text-transform: capitalize;
 text-decoration: none;
 font-weight: bold;
 }
-.settings_span {
-text-transform: capitalize;
-text-decoration: none;
-font-weight: bold;
-}
+.settings_span {text-transform: capitalize;text-decoration: none;font-weight: bold;color: black;}
 
 .flag {
     display: block;
@@ -4438,7 +4439,7 @@ width: 40px;
 
  
 .text-vnxx {font-weight: 600;margin-left: 84px;}
-.text-vnxx a{text-decoration: none;color:#e0f71d;text-shadow: 0 0 0 #88007e, 0 0 0.5em #ff00d0, 0 0 0.4em #ff00f3;}	
+.text-vnxx a{text-decoration: none;color: #ffffff;text-shadow: 0 0 0 #005fff, 0 0 0.5em #005fff, 0 0 0.4em #ffffff;}	
 
 .logo {text-align: center;    padding: 8px;}
 .logo img {width: 75px;height: 75px;}
@@ -4617,7 +4618,7 @@ button:hover{
 
 
 .phdr1, .home {
-    background: #590cab;
+    background: #0053ff;
     text-align: left;
     padding-left: 10px;
     text-transform: uppercase;
@@ -4677,12 +4678,15 @@ button:hover{
 }
 
 #final-replay {position: absolute;
+    left: 15px;
+    right: 15px;
+    background-color: #a44ac3;
+    color: #fff;
     line-height: 50px;
-    font-size: 24px;
-    font-weight: 600;
+    border-radius: 5px;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, .2);
     text-align: center;
-    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
-    letter-spacing: 0.5px;
+    text-shadow: 0 0 1px #000;}
     
   #final-replay:hover {
     background: #fff;
@@ -4726,14 +4730,15 @@ button:hover{
  .fullscreen_button ,.fullscreen_respawn, .fullscreen_contact {
  font-family: vuonghiep;
  margin-top: 2px;
-    width: 100%;
-    height: 35px;
-    font-size: 16px;
-    font-weight: 600;
-    color: #e90c0c;
-    border: #3e9f1d 1px solid;
-    background-image: linear-gradient(#f8f6fb, rgb(58 161 8));
-    border-radius: 5px;}   
+ width: 100%;
+ height: 35px;
+ font-size: 16px;
+ font-weight: 600;
+ color: #0035ff;
+ border: #008dff 1px solid;
+ background-image: linear-gradient(#f8f6fb, #008dff);
+ border-radius: 5px;
+ }   
     
   
 
