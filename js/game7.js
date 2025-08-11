@@ -1,6 +1,4 @@
 
-
-
 var var_weburl = "https://wormateserkanconnect.github.io/app2";
 window.detectLog = null;
 const __yildowft = {
