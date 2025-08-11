@@ -3362,7 +3362,7 @@ else {
                       return options.wrapMode = POGL.kc.lc, options;
                     }());*/
 
-this.Af = new _0x53055c._b(_0x53055c.$b.from('/images/lens.png'));
+       this.Af = new _0x53055c._b(_0x53055c.$b.from('/images/lens.png'));
         var _0xd57a80 = _0x53055c.$b.from('https://i.imgur.com/VPh6J5u.png');
         this.Ph = new _0x4cf055(_0xd57a80, 0x9e, 0x56, 0x43, 0x7c, 0x94, 63.5, 0x80, 0x80);
         this.Qh = new _0x4cf055(_0xd57a80, 0x9e, 0x4, 0x57, 0x4a, 0xcb, 63.5, 0x80, 0x80);
@@ -3379,15 +3379,15 @@ this.Af = new _0x53055c._b(_0x53055c.$b.from('/images/lens.png'));
           _0x2e3af4.width = 0x50;
           _0x2e3af4.height = 0x50;
           return {
-            'te': _0x2e3af4,
-            'Tg': _0x2e3af4.getContext('2d'),
-            'Hc': new _0x53055c._b(_0x53055c.$b.from(_0x2e3af4))
-          };
-        }();
-        this.Bd = {};
-        this.yd = {};
-        this.Sh = [];
-        this.Th = null;
+                    'te': _0x2e3af4,
+                    'Tg': _0x2e3af4.getContext('2d'),
+                    'Hc': new _0x53055c._b(_0x53055c.$b.from(_0x2e3af4))
+               };
+           }();
+           this.Bd = {};
+           this.yd = {};
+           this.Sh = [];
+           this.Th = null;
       };
 
                 var e = function (backgroundIMG) {
