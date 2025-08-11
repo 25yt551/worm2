@@ -540,7 +540,7 @@ ctx.setServer = function (p21) {
   ctx.value_server.text = p21 || "Y-T";
 };
 ctx.setCountGame = function (p22, p23, p24, p25) {
-  ctx.value1_hs.text = p23;
+  ctx.value1_hs.text = p21;
   ctx.value1_kill.text = p22;
   if (theoKzObjects.ModeStremersaveheadshot) {
     ctx.value2_hs.text = p25;
