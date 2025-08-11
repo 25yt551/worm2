@@ -4677,15 +4677,12 @@ button:hover{
 }
 
 #final-replay {position: absolute;
-    left: 15px;
-    right: 15px;
-    background-color: #a44ac3;
-    color: #fff;
     line-height: 50px;
-    border-radius: 5px;
-    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, .2);
+    font-size: 24px;
+    font-weight: 600;
     text-align: center;
-    text-shadow: 0 0 1px #000;}
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+    letter-spacing: 0.5px;
     
   #final-replay:hover {
     background: #fff;
