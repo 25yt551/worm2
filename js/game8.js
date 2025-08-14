@@ -420,8 +420,8 @@ const ctx = {
       stroke: "#ff2222",
       strokeThickness: 1,
       whiteSpace: "normal",
-      fontFamily: "XlpoM",
-      fontWeight: "normal",
+      fontFamily: "cursive",
+      fontWeight: "100",
       wordWrap: true,
     }),
     amarillo1: new PIXI.TextStyle({
