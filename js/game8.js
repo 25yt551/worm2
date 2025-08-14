@@ -420,7 +420,7 @@ const ctx = {
       stroke: "#ff2222",
       strokeThickness: 1,
       whiteSpace: "normal",
-      fontFamily: "cursive",
+      fontFamily: "normal",
       fontWeight: "bold",
       wordWrap: true,
     }),
