@@ -421,7 +421,7 @@ const ctx = {
       strokeThickness: 1,
       whiteSpace: "normal",
       fontFamily: "cursive",
-      fontWeight: "100",
+      fontWeight: "bold",
       wordWrap: true,
     }),
     amarillo1: new PIXI.TextStyle({
