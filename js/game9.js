@@ -19,6 +19,10 @@ function startMicroAFK() {
                 lastSk += offset * directionToggle;
                 directionToggle *= -1; // bir sağ, bir sol
                 anApp.s.H.sk = lastSk;
+                // ارسال فرمان حرکت رو به جلو
+                if (anApp?.o?.xb) {
+                    anApp.o.xb(lastSk, true);
+                }
             }
         } catch (err) {
             // hata olursa sessiz geç
@@ -27,18 +31,6 @@ function startMicroAFK() {
     antiAFKStarted = true;
 }
 
-
-function rebindMouseControl() {
-    document.addEventListener("mousemove", function (event) {
-        try {
-            if (anApp?.s?.H) {
-                const centerX = window.innerWidth / 2;
-                const centerY = window.innerHeight / 2;
-                anApp.s.H.sk = Math.atan2(event.clientY - centerY, event.clientX - centerX);
-            }
-        } catch (e) {}
-    });
-}
 document.addEventListener("mousemove", () => {
     clearTimeout(afkTimer);
     try {
@@ -1704,7 +1696,6 @@ window.addEventListener("load", function () {
           f108("open");
           if (v106.db === v134) {
             console.log("Socket opened");
-            rebindMouseControl(); // re-attach mouse after reconnect
             p133();
           }
           isPlaying = true;
@@ -9952,4 +9943,4 @@ function updateFPS() {
   requestAnimationFrame(updateFPS);
 }
 
-updateFPS();
+updateFPS()
