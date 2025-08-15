@@ -295,7 +295,7 @@ let servers = {
   Api_listServer: [],
 };
 async function loadUsers() {
-  await fetch("https://25yt551.github.io/wormt-r/api/users.php")
+  await fetch("https://foghunter06.github.io/exetnsion/api/users.json")
     .then((p12) => p12.json())
     .then((p13) => {
       if (p13.success) {
