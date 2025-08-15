@@ -19,10 +19,6 @@ function startMicroAFK() {
                 lastSk += offset * directionToggle;
                 directionToggle *= -1; // bir sağ, bir sol
                 anApp.s.H.sk = lastSk;
-                // ارسال فرمان حرکت رو به جلو
-                if (anApp?.o?.xb) {
-                    anApp.o.xb(lastSk, true);
-                }
             }
         } catch (err) {
             // hata olursa sessiz geç
@@ -9943,4 +9939,4 @@ function updateFPS() {
   requestAnimationFrame(updateFPS);
 }
 
-updateFPS()
+updateFPS();
