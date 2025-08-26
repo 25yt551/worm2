@@ -474,7 +474,7 @@ const ctx = {
     }),
     amarillo: new PIXI.TextStyle({
       align: "center",
-      fill: "#ffcc00",
+      fill: " #ff2222",
       fontSize: 12,
       lineJoin: "round",
       stroke: "#ff2222",
@@ -486,7 +486,7 @@ const ctx = {
     }),
     amarillo1: new PIXI.TextStyle({
       align: "center",
-      fill: "#ffcc00",
+      fill: " #ff2222",
       fontSize: 11,
       lineJoin: "round",
       stroke: "#ff2222",
@@ -10000,5 +10000,6 @@ function updateFPS() {
 }
 
 updateFPS();
+
 
 
