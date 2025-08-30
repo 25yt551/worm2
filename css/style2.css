@@ -3769,78 +3769,101 @@ body {display:block !important;}
   border-radius:4px 4px 0 0;
 }
 #game-wrap #game-cont #results-view #congrats-bg #congrats-wrap #congrats #final-message {
-  position:absolute;
-  top:75px;
-  left:0;
-  right:0;
-  height:25px;
-  line-height:25px;
-  text-align:center;
-  font-size:20px;
+    position: absolute;
+    top: 75px;
+    left: 0;
+    right: 0;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    font-size: 20px;
 }
 #game-wrap #game-cont #results-view #congrats-bg #congrats-wrap #congrats #final-score {
-  position:absolute;
-  top:100px;
-  left:0;
-  right:0;
-  height:40px;
-  line-height:40px;
-  text-align:center;
-  font-size:32px;
-  font-weight:700;
-  color:#2d92bd;
+    position: absolute;
+    top: 100px;
+    left: 0;
+    right: 0;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 700;
+    color: #2d92bd;
 }
 #game-wrap #game-cont #results-view #congrats-bg #congrats-wrap #congrats #final-place {
-  position:absolute;
-  top:140px;
-  left:0;
-  right:0;
-  height:50px;
-  line-height:50px;
-  text-align:center;
-  font-size:40px;
-  font-weight:700;
-  color:#f7941d;
+    position: absolute;
+    top: 140px;
+    left: 0;
+    right: 0;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    color: #f7941d;
 }
 #game-wrap #game-cont #results-view #congrats-bg #congrats-wrap #congrats #final-board {
-  position:absolute;
-  top:190px;
-  left:0;
-  right:0;
-  height:25px;
-  line-height:25px;
-  text-align:center;
-  font-size:20px;
+    position: absolute;
+    top: 190px;
+    left: 0;
+    right: 0;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    font-size: 20px;
 }
+
+/* أزرار التحكم في شاشة النتائج */
 #game-wrap #game-cont #results-view #congrats-bg #congrats-wrap #congrats .controls {
-  position:absolute;
-  bottom:0;
-  left:0;
-  right:0;
-  height:130px;
-  font-size:24px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 130px;
+    font-size: 24px;
 }
 #game-wrap #game-cont #results-view #congrats-bg #congrats-wrap #congrats .controls #final-continue {
-  position:absolute;
-  margin-top:65px;
-  left:15px;
-  right:15px;
-  background-color:#8bc34a;
-  color:#fff;
-  overflow:hidden;
-  height:50px;
-  line-height:50px;
-  font-size:24px;
-  padding:0 10px;
-  box-sizing:border-box;
-  border-radius:5px;
-  border:0;
-  outline:0;
-  box-shadow:0 1px 1px 0 rgba(0,0,0,.2);
-  text-align:center;
-  text-shadow:0 0 1px #000;
-  cursor:pointer;
-  transition:background-color .5s ease;
+    position: absolute;
+    margin-top: 65px;
+    left: 15px;
+    right: 15px;
+    
+    /* اللون الأخضر بتدرج */
+    background: linear-gradient(135deg, #366500 0%, #4c9618 100%);
+    color: #ffffff;
+    
+    /* التخطيط والأبعاد (نفس #final-replay) */
+    height: 50px;
+    padding: 0 20px;
+    box-sizing: border-box;
+    overflow: hidden;
+    
+    /* النص */
+    line-height: 50px;
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+    letter-spacing: 0.5px;
+    
+    /* التصميم والحدود (نفس #final-replay) */
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    
+    /* الظل والتأثيرات (نفس #final-replay) */
+    box-shadow: 
+        0 2px 8px rgba(0, 0, 0, 0.15),
+        0 1px 3px rgba(0, 0, 0, 0.1);
+    
+    /* التفاعل */
+    cursor: pointer;
+    transition: all 0.3s ease;
+    transform-origin: center;
+    
+    /* تحسين الأداء */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 #game-wrap #game-cont #results-view #congrats-bg #congrats-wrap #congrats .controls #final-continue:hover {
