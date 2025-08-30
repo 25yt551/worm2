@@ -391,7 +391,7 @@ const ctx = {
     morado: new PIXI.TextStyle({
       align: "center",
       fill: "#FFFFFF",
-      fontSize: 12,
+      fontSize: 11,
       lineJoin: "round",
       stroke: "white",
       strokeThickness: 1,
@@ -401,7 +401,7 @@ const ctx = {
     morado1: new PIXI.TextStyle({
       align: "center",
       fill: "#FFF",
-      fontSize: 12,
+      fontSize: 11,
       lineJoin: "round",
       stroke: "white",
       strokeThickness: 1,
