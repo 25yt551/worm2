@@ -6780,9 +6780,9 @@ window.addEventListener("load", function () {
         this.vk();
         this.wk();
         $("#final-continue").html(
-          '<div id="final-continue1">الصفحة الرئيسيه</div>'
+          '<div id="final-continue1">Continue (Home)</div>'
         );
-        $("#final-continue").after('<div id="final-replay">رسبون</div>');
+        $("#final-continue").after('<div id="final-replay">Replay</div>');
         $("#final-replay").click(function () {
           let vHoisinhnhanh = hoisinhnhanh;
           if (vHoisinhnhanh) {
