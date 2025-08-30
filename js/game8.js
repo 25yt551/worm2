@@ -3215,10 +3215,10 @@ window.addEventListener("load", function () {
           this.Jf.zIndex = 2;
           this.Jf.alpha = 0.9;
           this.Jf.beginFill(0xf79425);
-          this.Jf.drawCircle(0x0, 0x0, 0.08 * this['Kf']),
+          this.Jf.drawCircle(0, 0, this.Th * 0.1);
           this.Jf.endFill();
           this.Jf.lineStyle(1, "black");
-          this.Jf.drawCircle(0x0, 0x0, 0.09 * this['Kf']),
+          this.Jf.drawCircle(0, 0, this.Th * 0.1);
           this.Jf.endFill();
           this.addChild(v263);
           this.addChild(this.Sf);
