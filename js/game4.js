@@ -1138,7 +1138,7 @@ window.addEventListener("load", function () {
         v79.j = 0;
         v79.k = 0;
         v79.l = null;
-        v79.m = vUndefined;
+        v79.m = v140;
         v79.n = v140;
         v79.o = null;
         v79.p = null;
@@ -9932,23 +9932,8 @@ function updateFPS() {
 }
 
 updateFPS();
-_0x119ef5.addEventListener("mousemove", function (_0x159aa3) {
-    if (_0x159aa3 = _0x159aa3 || _0x7f096e.c.event && _typeof(_0x159aa3.clientX) != "undefined") {
-        _0x87f727.fo = _0x331039.ta(_0x159aa3.clientY - _0x119ef5.offsetHeight * 0.5, _0x159aa3.clientX - _0x119ef5.offsetWidth * 0.5);
-    }
-});
 
-_0x119ef5.addEventListener("mousemove", function (_0x159aa3) {
-    if (_0x159aa3 = _0x159aa3 || _0x7f096e.c.event && _typeof(_0x159aa3.clientX) != "undefined") {
-        _0x87f727.fo = _0x331039.ta(_0x159aa3.clientY - _0x119ef5.offsetHeight * 0.5, _0x159aa3.clientX - _0x119ef5.offsetWidth * 0.5);
-    }
-}, true);
-_0x119ef5.addEventListener("mousedown", function (_0x19aa65) {
-    _0x87f727.eo = true;
-}, true);
-_0x119ef5.addEventListener("mouseup", function (_0xb26ed1) {
-    _0x87f727.eo = false;
-});
+let movementInterval;
 
 _0x119ef5.addEventListener("mousemove", function (_0x159aa3) {
     if (_0x159aa3 = _0x159aa3 || _0x7f096e.c.event && _typeof(_0x159aa3.clientX) != "undefined") {
@@ -9958,16 +9943,16 @@ _0x119ef5.addEventListener("mousemove", function (_0x159aa3) {
 
 _0x119ef5.addEventListener("mousedown", function (_0x19aa65) {
     _0x87f727.eo = true;
-    // Ensure this doesn't cause the game to die
-    // You can add any additional logic if needed
+    // Start the movement interval when the mouse is down
+    movementInterval = setInterval(function () {
+        if (_0x159aa3 = _0x159aa3 || _0x7f096e.c.event && _typeof(_0x159aa3.clientX) != "undefined") {
+            _0x87f727.fo = _0x331039.ta(_0x159aa3.clientY - _0x119ef5.offsetHeight * 0.5, _0x159aa3.clientX - _0x119ef5.offsetWidth * 0.5);
+        }
+    }, 100); // Loop every 100ms
 }, true);
 
 _0x119ef5.addEventListener("mouseup", function (_0xb26ed1) {
     _0x87f727.eo = false;
-    // Ensure that releasing the mouse doesn't interfere with the game
-    // Add any additional logic to ensure the game continues functioning
-    if (_0x87f727.eo === false) {
-        // Add conditions here that prevent the game from "dying" when the mouse is released
-        console.log("Mouse released but the game should not stop.");
-    }
+    // Stop the movement interval when the mouse is released
+    clearInterval(movementInterval);
 });
