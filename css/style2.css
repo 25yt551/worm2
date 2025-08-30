@@ -4722,21 +4722,16 @@ button:hover{
     top: -6px;
 }
 
-#final-replay {position: absolute;
+#final-replay {
+    position: absolute;
+    top: 0;
     left: 15px;
     right: 15px;
-    background-color: #a44ac3;
-    color: #fff;
-    line-height: 50px;
-    border-radius: 5px;
-    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, .2);
-    text-align: center;
-    text-shadow: 0 0 1px #000;}
     
-  #final-replay:hover {
-    background: #fff;
-    color: #1e05459c;
-    box-shadow: 0 0 3px #1e05459c, 0 0 5px #1e05459c, 0 0 10px #1e05459c, 0 0 15px #1e05459c, 0 0 20px #1e05459c, 0 0 35px #1e05459c, 0 0 30px #1e05459c;
+#final-replay:hover {
+    /* ØªØºÙŠÙŠØ± Ø§Ù„Ù„ÙˆÙ† Ø¨Ø´ÙƒÙ„ Ø£ÙƒØ«Ø± ÙˆØ¶ÙˆØ­Ø§Ù‹ */
+    background: linear-gradient(135deg, #e68109 0%, #e8730c 100%);
+    color: #ffffff;
 }  
 
 
