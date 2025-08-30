@@ -6380,34 +6380,34 @@ window.addEventListener("load", function () {
         });
         return v$2;
       }
-      var v$3 = $("#final-caption");
-      var v$4 = $("#final-continue");
-      var v$5 = $("#congrats-bg");
-      var v$6 = $("#unl6wj4czdl84o9b");
-      $("#congrats");
-      var v$7 = $("#final-share-fb");
-      var v$8 = $("#final-message");
-      var v$9 = $("#final-score");
-      var v$10 = $("#final-place");
-      var v$11 = $("#final-board");
-      var vF146 = f14(vF46, function () {
-        vF46.call(this, 0);
-        var vThis14 = this;
-        var vF68 = f6();
-        var v609 = vF46.mk.get()[0];
-        console.log("sSE=" + v682.qk);
-        v$7.toggle(v682.qk);
-        v$3.text(f9("index.game.result.title"));
-        v$4.text(f9("index.game.result.continue"));
-        v$4.click(function () {
-          vF68.r.Cd();
-          vF68.f.Ma.c();
-          vF68.r.G(vF6.AudioState.F);
-          vF68.s.I(vF68.s.F);
-        });
-        window.detecNewCodeAndPacth = () => {
-          $("#game-canvas").attr("width", window.innerWidth);
-          return $("#game-canvas").attr("height", window.innerHeight);
+    _0x226af9 = $("#final-caption");
+    _0x243d00 = $("#final-continue");
+    _0x19b2c7 = $("#congrats-bg");
+    _0x27fb3f = $("#unl6wj4czdl84o9b");
+    _0x2e5d67 = $("#final-share-fb");
+    _0x3c4a57 = $("#final-message");
+    _0xba08 = $("#final-score");
+    _0x1250ad = $("#final-place");
+    _0x3fb489 = $("#final-board");
+    _0x2b23a9 = $("#game-canvas");
+    (_0x3eadc8 = _0x331039.ca(_0x7f096e.Uf, function () {
+      _0x7f096e.Uf.call(this, _0x7f096e.ll.ao);
+      var _0x87f727 = this;
+      var _0x119ef5 = _0x2b23a9.get()[0];
+      _0x2e5d67.toggle(_0x494ea6.co.bo);
+      _0x226af9.text(_0x331039.U("index.game.result.title"));
+      _0x243d00.text(_0x331039.U("index.game.result.continue"));
+      _0x243d00.html("Continue (Home)");
+      _0x243d00.after("<div id='final-replay'>Replay</div>");
+      _0x243d00.click(function () {
+        ooo.ij.if();
+        _0x494ea6.co.do.Va();
+        ooo.ij.Ye(_0x7f096e.Pe.Se.Jf);
+        ooo.Xg.gl(ooo.Xg.Jf);
+      });
+      $("#final-replay").click(function () {
+        ooo.ij.if();
+        ooo.to();
         };
         $("html")
           .keydown(function (p582) {
