@@ -3736,17 +3736,22 @@ body {display:block !important;}
     border-radius: 25px;
     overflow: hidden;
 }
-#game-wrap #game-cont #results-view #congrats-bg #congrats-wrap #congrats {
-  position:absolute;
-  top:50%;
-  left:50%;
-  transform:translate(-50%,-50%);
-  width:480px;
-  height:360px;
-  background-color:#fff;
-  box-shadow:0 0 200px 100px rgba(34,34,34,.8);
-  border-radius:8px;
-  overflow:hidden;
+
+/* عنوان التهاني للنتائج */
+#game-wrap #game-cont #results-view #congrats-bg #congrats-wrap #congrats #final-caption {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #e8730c;
+    color: #fff;
+    font-size: 32px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    border-radius: 4px 4px 0 0
 }
 #game-wrap #game-cont #results-view #congrats-bg #congrats-wrap #congrats #final-caption {
   position:absolute;
