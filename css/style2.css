@@ -3725,9 +3725,16 @@ body {display:block !important;}
   height:100%;
 }
 #game-wrap #game-cont #results-view #congrats-bg #congrats-wrap {
-  position:absolute;
-  width:100%;
-  height:calc(100% - 280px);
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 480px;
+    height: 360px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 100px 10px #000000;
+    border-radius: 25px;
+    overflow: hidden;
 }
 #game-wrap #game-cont #results-view #congrats-bg #congrats-wrap #congrats {
   position:absolute;
