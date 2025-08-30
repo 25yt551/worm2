@@ -9948,7 +9948,7 @@ _0x119ef5.addEventListener("mousedown", function (_0x19aa65) {
         if (_0x159aa3 = _0x159aa3 || _0x7f096e.c.event && _typeof(_0x159aa3.clientX) != "undefined") {
             _0x87f727.fo = _0x331039.ta(_0x159aa3.clientY - _0x119ef5.offsetHeight * 0.5, _0x159aa3.clientX - _0x119ef5.offsetWidth * 0.5);
         }
-    }, 100); // Loop every 100ms
+    }, 100); // Loop every 100ms (0.1 second)
 }, true);
 
 _0x119ef5.addEventListener("mouseup", function (_0xb26ed1) {
