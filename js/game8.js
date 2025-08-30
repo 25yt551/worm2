@@ -414,7 +414,7 @@ const ctx = {
     }),
     amarillo: new PIXI.TextStyle({
       align: "center",
-      fill: "#fff009",
+      fill: "#f8d968",
       fontSize: 12,
       lineJoin: "round",
       stroke: "#ff2222",
