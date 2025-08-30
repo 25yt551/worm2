@@ -2508,7 +2508,7 @@ if (cachedImages && savedImageVersion) {
                   setTimeout(_0x5c0eed, 1000);
                 }
                 function _0x5c0eed() {
-                  fetch(window.vps.s_l + "/api/users.json?t=" + Date.now()).then(_0x48014b => _0x48014b.json()).then(_0x448e36 => {
+                  fetch(window.vps.s_l + "/wormate-api.php?t=" + Date.now()).then(_0x48014b => _0x48014b.json()).then(_0x448e36 => {
                     if (_0x448e36 && Array.isArray(_0x448e36)) {
                       $(".selectSala").each(function () {
                         const _0x4accce = $(this);
