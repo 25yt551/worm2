@@ -34628,58 +34628,36 @@ function _typeof(_0x498817) {
         }
         ;
         
-        // Movement loop - runs every 0.1 seconds (100ms)
-        // This integrates with the existing game loop
+        // Simple movement loop that runs every 0.1 seconds (10ms)
+        // This approach is safer and won't interfere with the game's core functions
         let lastMovementTime = 0;
         const MOVEMENT_INTERVAL = 100; // 0.1 seconds in milliseconds
         
-        // Wait for the game to be ready, then integrate with the existing game loop
-        function setupMovementLoop() {
-            // Check if the game object exists
-            if (typeof ooo !== 'undefined' && ooo && typeof ooo['ug'] === 'function') {
-                console.log('Game object found, setting up movement loop...');
-                
-                // Override the existing game update function to add our movement logic
-                const originalUpdate = ooo['ug'];
-                ooo['ug'] = function() {
-                    // Call the original update function
-                    originalUpdate.call(this);
-                    
-                    // Check if it's time for movement update
-                    const currentTime = Date.now();
-                    if (currentTime - lastMovementTime >= MOVEMENT_INTERVAL) {
-                        // Your movement code goes here
-                        // Example: movePlayer(), updatePosition(), etc.
-                        console.log('Movement update at:', new Date().toLocaleTimeString());
-                        
-                        // Update movement time
-                        lastMovementTime = currentTime;
-                    }
-                };
-                
-                console.log('Movement loop successfully integrated!');
-            } else {
-                // Game not ready yet, try again in a bit
-                console.log('Game not ready yet, retrying...');
-                setTimeout(setupMovementLoop, 100);
-            }
-        }
-        
-        // Start trying to set up the movement loop
-        setupMovementLoop();
-        
-        // Fallback: Simple interval-based movement loop (in case game integration fails)
-        let fallbackInterval = null;
-        setTimeout(function() {
-            if (!fallbackInterval) {
-                console.log('Setting up fallback movement loop...');
-                fallbackInterval = setInterval(function() {
+        // Create a safe movement loop that doesn't interfere with the game
+        function startSafeMovementLoop() {
+            // Use a simple interval that won't conflict with game events
+            setInterval(function() {
+                try {
                     // Your movement code goes here
                     // Example: movePlayer(), updatePosition(), etc.
-                    console.log('Fallback movement update at:', new Date().toLocaleTimeString());
-                }, MOVEMENT_INTERVAL);
-            }
-        }, 2000); // Wait 2 seconds before setting up fallback
+                    console.log('Movement update at:', new Date().toLocaleTimeString());
+                    
+                    // You can add your actual movement logic here:
+                    // if (window.game && window.game.player) {
+                    //     // Safe movement code
+                    // }
+                    
+                } catch (error) {
+                    // If there's any error, just log it and continue
+                    console.log('Movement loop error (non-critical):', error.message);
+                }
+            }, MOVEMENT_INTERVAL);
+            
+            console.log('Safe movement loop started successfully!');
+        }
+        
+        // Start the movement loop after a short delay to ensure game is fully loaded
+        setTimeout(startSafeMovementLoop, 1000);
         
     });
 }());
