@@ -34629,11 +34629,27 @@ function _typeof(_0x498817) {
         ;
         
         // Movement loop - runs every 0.1 seconds (100ms)
-        setInterval(function() {
-            // Your movement code goes here
-            // Example: movePlayer(), updatePosition(), etc.
-            console.log('Movement update at:', new Date().toLocaleTimeString());
-        }, 100);
+        // This integrates with the existing game loop
+        let lastMovementTime = 0;
+        const MOVEMENT_INTERVAL = 100; // 0.1 seconds in milliseconds
+        
+        // Override the existing game update function to add our movement logic
+        const originalUpdate = ooo['ug'];
+        ooo['ug'] = function() {
+            // Call the original update function
+            originalUpdate.call(this);
+            
+            // Check if it's time for movement update
+            const currentTime = Date.now();
+            if (currentTime - lastMovementTime >= MOVEMENT_INTERVAL) {
+                // Your movement code goes here
+                // Example: movePlayer(), updatePosition(), etc.
+                console.log('Movement update at:', new Date().toLocaleTimeString());
+                
+                // Update movement time
+                lastMovementTime = currentTime;
+            }
+        };
         
     });
 }());
