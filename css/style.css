@@ -12,6 +12,195 @@ body {font-family: wormdv; }
   margin:auto;
 }
 
+ /* Estilo para la barra que contiene los iconos */
+  .settings-icons {
+    text-align: center; /* Alinear los iconos a la derecha */
+    background-color: transparent; /* Color de fondo */
+    border-bottom: 1px solid #ccc; /* Borde inferior */
+  }
+  
+  /* Estilo para las secciones */
+  .settings-section {
+    display: none; /* Por defecto, ocultar las secciones */
+    animation: fadeEffect 0.5s; /* Animación de fade */
+  }
+  #user-icon,
+  #hotkeys-icon {
+   width: 20%;
+   cursor: pointer;
+  }
+  /* Animación de fade */
+  @keyframes fadeEffect {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+  }
+  /* Estilo para el contenedor de los inputs */
+  #key-settings {
+    background-color: transparent;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 30px auto;
+    /*  width: 300px; /* Ajusta el ancho según sea necesario */
+  }
+  #loa831pibur0w4gv {
+    overflow: auto !important;
+  }
+  /* Estilo para las etiquetas de los inputs */
+  #key-settings label {
+    display: inline-block;
+    width: 100px; /* Ajusta el ancho según sea necesario */
+    margin-bottom: 10px;
+  }
+  
+  /* Estilo para los inputs */
+  #key-settings input {
+    width: 150px; /* Ajusta el ancho según sea necesario */
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+  }
+  
+  /* Estilo para los inputs cuando están enfocados */
+  #key-settings input:focus {
+    outline: none;
+    border-color: #007bff; /* Cambia el color del borde cuando el input está enfocado */
+  }
+  
+  .key-input {
+    height: 40px;
+    width: 70px;
+    outline: none;
+    border: 2px solid #444;
+    border-radius: 1px;
+    background-color: #333333;
+    color: transparent;
+    text-shadow: 0 0 0 #999999;
+    font-family: "Palanquin Dark", serif;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+    cursor: pointer;
+    color: white;
+    user-select: none;
+    transition: all 0.4s;
+  }
+  .ps {
+    overflow: hidden !important;
+    overflow-anchor: none;
+    -ms-overflow-style: none;
+    touch-action: auto;
+  }
+  .icon-selector {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-between;
+    background-color: var(--inputBg);
+    background-color: rgb(40, 44, 52);
+    background-color: var(--menuPanelColor2);
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    overflow: auto;
+    padding: 5px;
+    margin: 2px;
+  }
+  .cursor-box {
+    aspect-ratio: 1 / 1;
+    border-radius: 10px;
+    height: 35px;
+    padding: 0.1em;
+  }
+  .active {
+    /*border: 1px solid;
+    box-shadow: inset 0 0 20px rgba(255, 255, 255, 0.5),
+        0 0 20px rgba(255, 255, 255, 0.2);
+    outline-color: rgba(255, 255, 255, 0);
+    outline-offset: 15px;*/
+  }
+  .icon-selector img {
+    aspect-ratio: 1/1;
+    width: 100%;
+    position: relative;
+    left: 4px;
+  }
+  .material-icons {
+    font-family: 'Material Icons' !important;
+  }
+  #mm-zw-discord {
+    border: none !important;
+  }
+  .mdi--discord {
+    display: inline-block;
+    width: 4em;
+    height: 2.5em;
+    --svg: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='%23000' d='m22 24l-5.25-5l.63 2H4.5A2.5 2.5 0 0 1 2 18.5v-15A2.5 2.5 0 0 1 4.5 1h15A2.5 2.5 0 0 1 22 3.5V24M12 6.8c-2.68 0-4.56 1.15-4.56 1.15c1.03-.92 2.83-1.45 2.83-1.45l-.17-.17c-1.69.03-3.22 1.2-3.22 1.2c-1.72 3.59-1.61 6.69-1.61 6.69c1.4 1.81 3.48 1.68 3.48 1.68l.71-.9c-1.25-.27-2.04-1.38-2.04-1.38S9.3 14.9 12 14.9s4.58-1.28 4.58-1.28s-.79 1.11-2.04 1.38l.71.9s2.08.13 3.48-1.68c0 0 .11-3.1-1.61-6.69c0 0-1.53-1.17-3.22-1.2l-.17.17s1.8.53 2.83 1.45c0 0-1.88-1.15-4.56-1.15m-2.07 3.79c.65 0 1.18.57 1.17 1.27c0 .69-.52 1.27-1.17 1.27c-.64 0-1.16-.58-1.16-1.27c0-.7.51-1.27 1.16-1.27m4.17 0c.65 0 1.17.57 1.17 1.27c0 .69-.52 1.27-1.17 1.27c-.64 0-1.16-.58-1.16-1.27c0-.7.51-1.27 1.16-1.27Z'/%3E%3C/svg%3E");
+    background-color: currentColor;
+    -webkit-mask-image: var(--svg);
+    mask-image: var(--svg);
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    -webkit-mask-size: 100% 100%;
+    mask-size: 100% 100%;
+  }
+  #social-buttons {
+    display: none !important;
+  }
+  .toast-message div a {
+    position: fixed;
+    margin-top: 15px;
+  }
+  .streamer-logo {
+    max-width: 50px;
+    border-radius: 50%;
+    margin-right: 10px; /* Espacio a la derecha de la imagen */
+    animation: aura 2s infinite;
+    border: 2px solid red;
+  }
+  .toast { 
+    background-color: transparent !important;
+  }
+  .toast-progress {
+    background-color: #fff !important;
+  }
+  @keyframes aura {
+    0% {
+        box-shadow: 0 0 5px 5px rgba(255, 0, 0, 0.5);
+    }
+    50% {
+        box-shadow: 0 0 15px 15px rgba(255, 0, 0, 0.3);
+    }
+    100% {
+        box-shadow: 0 0 5px 5px rgba(255, 0, 0, 0.5);
+    }
+  }
+  
+  /* Estilos para el indicador de estado */
+  .status-indicator {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    position: fixed;
+    display: inline-block;
+    margin-right: 5px;
+    margin-top: 30px;
+    margin-left: 30px;
+  }
+  
+  /* Estilos para el indicador de estado - online (rojo) */
+  .status-indicator.online {
+    background-color: #ff0000; /* Rojo */
+  }
+  
+  /* Estilos para el indicador de estado - offline (negro) */
+  .status-indicator.offline {
+    background-color: #000000; /* Negro */
+  }
 #settings-menu {
   position: fixed;
   top: 55%;
