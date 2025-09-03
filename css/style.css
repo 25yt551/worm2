@@ -2497,12 +2497,6 @@
      background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEYAAAAoCAMAAAB0DnycAAAA1VBMVEVHcEz///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////882+PKAAAARnRSTlMAdzYIAQb5BAMCVhrj/CgewLEK9K2KobfcyZzw1N+7D+stFxbPEgfoXmTFI/ZOR4Jh0jk+M6SNlw5SakR/DDFucqiGkjhbZZgXKwAABOdJREFUeF59Vod68joMVchwQhISRsKmrJRZCi38ZXUOvf8jXckmTfkKV+3XehwfHcmWHTgzwxZsNvyPnSDGtXlDiKzpXMY44me5EJeYDCkhKXw95mYldnqByGFMaZZ7/Cok3P8riQEPUb2JbKPi+BlAnCPkwPO4OJKQZj164GV/EIspYrsYaa/aZ1jG7qsD56oNAc5rF8vhJ0GiYhtxujjzxZ1tjPNonQ4Oli2sF5ToLOhCHVvLQbpkHc0x3v7mERC08KnPLfP29lbO7NFfME/GsvBxL9EEMRnTf8JWkPEIcNv4DWCaaaJ0HaA3wrssdhvucNQD0HU1pNDf2HZTHgeMEPMp3HSUdx0CD3MpRkAOvQB0pc4xU648hgbIFYYDGr4BuActDls1r1Z/1w4cIPR870bpseHG83vc6h+09zqBWmGsHVyAN9TAMSTE9auwq84RLW8Ydqa1MuK8sw+A4ojJjfyNKUII9h1ClWvTTjj0LEJVd1C1XOnKgXuMpmgV97m+KeUl632liX7lAP9wwWEJWOA/OFR8bFb260RGZvZz+6KF0wjvwWEWfUUetD6c2faugljNd4eEINSwm68iVu6256i+RspXOjicPAurfd5SMoeN/rPDWYTYxTwIAXlqYDRjqRlIovpVtHgjBEwwtME8rw/D4eIMNqSIu6RkEwDQ4DnKNsEOcUIkNiXgADr8Nb4vxr7/AvDi+2O+IS6AdDhQ2mz6ia30CF2oxQm+ArySw6sQ14olTeMaDYNK5SJAsVy6jnCtBpEICmr2C+TYbGkHYOoBeFNuKpPTzi+aGf6TKdYwl9EogrQmDQMa/nbrN7ilknoGU1WiSZo8b+qPe7HQjrsbWnAqlHt0XT5hqg9wsztqC5GK+1ku4AWPWZU+tJCsmz/xcL3NZlw3J5Z8l+dbDymPID8vwLTP3Q7h1dgj+m8vvbGHE7CVmiMGAR7T8pugN+69vPn4CEK5gU73GRz2UJwPQEhUqT0v8GxphQUQMjdPmCT4xC0aKOCqxPOFebsk/QgYzItSpg3jU3IEfJMKU4hbyPGZUs5GjjNScvmk5uBWCJNUfZ+W5HEsCW0iVDAHnvwAhGzX6vSP9XU7rJt882i9JicFBCTQUW4oFBuUcN5ybmzKySl3wxXIs/mIGoCGj4qmNTztRFLeMJ63WwWsQmY5MutrLi8TtmUZsQMNLADNN05ZLG9pkiBrvAchxagkqu2IKEBTcm/U/fKGSxAsPq3wQHaX+KbmN1K/CWOM1CaqHaoRqUndBn4w9xLrFATxx7yzfA5i2bXruGT9HyQPDJNk1kq/T/QavT7j9Qp6cWOFqwBsg7eBy4BLgjfTsCFYYasRe1jRGd33cK1Cyl6h9gzgFmAynFu14zPYgo401vhp4IehhnRwhQ3Px5o1H04kdNbOXrI0PTu0dirugUt/+FVbYJnzp3ahjAvi0wniDhRuZ+GOE3PO80VSe9kFAUmEXi977nojjBI5paxH4X+lLBkPCf9ELOZd2dVzH02sDH4/0IMKNj9yuuy5+SLiJwVsXLoxe7GPVqv6Xgk9xPodjZ1N39URvbDyXm1Z6Me9K/cqU7vLzXDUbLbD+z8fQdx5uA/bzeZouFm6MoCLZiiNpSQx5TrnwicbmElSysDXiISTfSBe/8h0BJNct/RdvAoy0jf13P4DNXCO/FP5rwAAAAAASUVORK5CYII=);
      transition: transform 0.3s ease, filter 0.3s ease;
    }
-   
-   #game-wrap #game-cont #stretch-box #popup-view .popup-view-list #wear-view .wear-types #wear-eyes-button:hover {
-     transform: scale(1.1);
-     filter: drop-shadow(0 0 5px rgba(255, 255, 255, 0.5));
-   }
-   
    #game-wrap #game-cont #stretch-box #popup-view .popup-view-list #wear-view .wear-types #wear-mouths-button {
      background-repeat: no-repeat;
      background-position: center;
@@ -2997,7 +2991,6 @@
        font-style: italic;
        text-transform: uppercase;
    }
-   
    #game-wrap #game-cont #stretch-box #popup-view .popup-view-list #coins-view .store-coins-table .store-coins-row > *:nth-child(2) {
        width: 60px;
        text-align: right;
@@ -6470,7 +6463,6 @@
        max-width: 100%;
        width: 100%;
    }
-   
    .theo-game-label {
        display: flex;
        align-items: center;
@@ -6971,7 +6963,6 @@
        gap: 30px;
        margin-top: 5px;
    }
-   
    .theo-stats-item {
        display: flex;
        flex-direction: column;
@@ -7471,7 +7462,6 @@
        margin-bottom: -450px; /* قيمة سلبية لتداخل الصورة مع الجدول */
        pointer-events: none; /* تجاهل الأحداث ليمكن النقر على السيرفرات */
    }
-   
    .background-image {
        max-width: 85%;
        opacity: 0.3; /* تعديل الشفافية حسب الحاجة */
@@ -7759,11 +7749,6 @@
    
    
    
-   
-   
-   
-   
-   
    /***********************************
     * 1. تنسيقات النافذة الرئيسية
     ***********************************/
@@ -7971,14 +7956,12 @@
      margin-bottom: 15px;
      overflow: hidden;
    }
-   
    .setting-group-header {
      background-color: #2a3141;
      padding: 9px 14px; /* تصغير قليلاً من 10px 15px */
      font-weight: bold;
      color: #ff8a18;
    }
-   
    .setting-group-content {
      padding: 14px; /* تصغير قليلاً من 15px */
    }
@@ -8467,7 +8450,6 @@
    #modal_wup_simple .modal-body {
      padding: 14px 0; /* تصغير قليلاً من 15px */
    }
-   
    #modal_wup_simple .discord-link {
      display: block;
      background-color: #5865F2;
@@ -8923,9 +8905,7 @@
      width: 100%;
      max-width: 145px; /* تصغير قليلاً من 150px */
    }
-   
    /* CSS إجباري للموبايل - أضف في أعلى ملف CSS */
-   
    /* إجبار النافذة على الظهور على الموبايل */
    @media only screen and (max-width: 768px) {
        
