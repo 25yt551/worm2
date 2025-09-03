@@ -1983,10 +1983,15 @@ input[type="range"]:disabled {
      /* Mueve la imagen 20px hacia arriba */
     background-position: -5% center;
   }
-  #congrats-bg {
-    background-image: url(https://i.imgur.com/qM4Yb5Z.png);
-    background-repeat: no-repeat;
-    background-size: cover;
+#game-wrap #game-cont #results-view #congrats-bg {
+    background: rgba(0, 0, 0, .5);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
   }
   /* Definimos la animaciÃ³n de zoom */
   @keyframes zoomInOut {
@@ -2011,7 +2016,9 @@ input[type="range"]:disabled {
     display: block;
   }
   #congrats-wrap{
-    height: calc(100% - 100px) !important;
+    position: absolute;
+    width: 100%;
+    height: calc(100% - 280px)
   }
   #final-caption,
   #final-continue {
