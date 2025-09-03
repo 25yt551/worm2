@@ -2701,6 +2701,66 @@ input[type="range"]:disabled {
   background: transparent; /* Fondo del scroll */
 }
 
+.container {
+/*width: 50%;*/
+padding: 1px;
+float: left;
+font-size: 13px;
+}
+.container1 {
+
+padding: 1px;
+float: left;
+font-size: 13px;
+background : #fff;
+width: 140px;
+}
+
+.range {
+vertical-align: middle;
+outline: none;
+border: none;
+padding: 0;
+background: none;
+}
+
+.range::-webkit-slider-runnable-track {
+background-color: #d7dbdd;
+height: 6px;
+border-radius: 3px;
+border: 1px solid transparent;
+}
+
+.range[disabled]::-webkit-slider-runnable-track {
+border: 1px solid #d7dbdd;
+background-color: transparent;
+opacity: 0.4;
+}
+
+.range::-moz-range-track {
+background-color: #d7dbdd;
+height: 6px;
+border-radius: 3px;
+border: none;
+}
+
+.range::-ms-track {
+color: transparent;
+border: none;
+background: none;
+height: 6px;
+}
+
+.range::-ms-fill-lower { 
+background-color: #d7dbdd;
+border-radius: 3px;
+}
+
+.range::-ms-fill-upper { 
+background-color: #d7dbdd;
+border-radius: 3px;
+}
+
 #game-wrap #game-cont #results-view #congrats-bg {
     background: rgba(0, 0, 0, .5);
     position: absolute;
