@@ -436,10 +436,10 @@
 }
 .ui-tabs-tab {
   padding: 0px 8px;
-  background: #3b3b50;
-  color: #ffffff;
-  border-radius: 1px;
-  /* margin: 0 5px; */
+  background: transparent; /* Arka planý þeffaf yaptýk */
+  border: 1px solid white; /* Beyaz kenarlýk */
+  border-radius: 0px; /* Kenarlarý kare yapmak için köþe yuvarlamayý sýfýrladýk */
+  margin: 0px px; /* Yazým hatasý vardý, düzeltildi */
   cursor: pointer;
   transition: all 0.3s ease-in-out;
 }
