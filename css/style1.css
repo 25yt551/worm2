@@ -447,9 +447,8 @@
   background: #50506d;
 }
 
-.ui-tab-active {
-  background: #252535;
-  font-weight: bold;
+.ui-tabs-tab:hover {
+  background: #50506d;
 }
 
 /* Mejoras en la responsividad */
@@ -466,11 +465,26 @@
         height: 30px;
     }
 }
-/*menu?*/
-#stretch-box {
-  background-color: rgb(37 37 53 / 75%);
-  border-radius: 5px;
-  border: 2px solid #252535;
+#game-wrap #game-cont #stretch-box #main-menu-view #mm-line-bottom #mm-bottom-buttons #mm-settings {
+    background-color: #26c6da;
+    color: #fff;
+    overflow: hidden;
+    height: 50px;
+    line-height: 50px;
+    font-size: 20px;
+    padding: 0 10px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 0;
+    outline: 0;
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,.2);
+    text-align: center;
+    text-shadow: 0 0 1px #000;
+    cursor: pointer;
+    transition: background-color .5s ease;
+    min-width: 120px;
+    display: inline-block;
+    margin: 90px 20px 0 -30px; /*  st sa  alt sol */
 }
 .column-middle {
   left: 50px !important;
