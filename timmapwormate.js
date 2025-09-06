@@ -766,6 +766,742 @@ function checkPremiumStatus() {
     return isValid;
 }
 
+// Settings Modal HTML Structure
+function createSettingsModal() {
+    const modalHTML = `
+    <div id="modal_overlay_wup" style="display: none;"></div>
+    <div id="modal_wup" class="modal" style="display: none;">
+        <div class="modal-content">
+            <div class="modal-header">
+                <div class="header-left">
+                    <span class="close" id="mm-up-close" onclick="closeSetView()">&times;</span>
+                </div>
+                
+                <h2 class="modal-title" data-translate="game_settings">GAME SETTINGS</h2>
+                
+                <div class="header-controls">
+                    <div class="language-switcher">
+                        <button id="premium-switch-btn" onclick="switchToPremium()" style="
+                            background: linear-gradient(135deg, rgba(74, 144, 226, 0.6), rgba(53, 122, 189, 0.6));
+                            border: 1px solid rgba(255, 255, 255, 0.4);
+                            border-radius: 6px;
+                            padding: 4px 8px;
+                            color: #0e264e;
+                            font-family: inherit;
+                            font-weight: 600;
+                            cursor: pointer;
+                            transition: all 0.3s ease;
+                            font-size: 11px;
+                            margin-right: 8px;
+                            backdrop-filter: blur(5px);
+                            height: 27px;
+                            vertical-align: middle;
+                            line-height: 18px;
+                        ">
+                            <span style="font-size: 1rem;">👑</span>
+                            <span data-translate="switch_to_premium">Switch ➤ Premium</span>
+                        </button>
+                        
+                        <button id="wormup_language_btn" class="language-btn" onclick="toggleLanguage()">
+                            <span class="lang-text" data-translate="switch_to_arabic">العربية</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="settings-layout">
+                <div class="settings-sidebar">
+                    <div class="sidebar-item active" onclick="changeTab(0)">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"></path>
+                        </svg>
+                        <span data-translate="game_settings_tab">Game Settings</span>
+                    </div>
+                    <div class="sidebar-item" onclick="changeTab(1)">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <rect x="5" y="2" width="14" height="20" rx="2" ry="2"></rect>
+                            <line x1="12" y1="18" x2="12" y2="18"></line>
+                        </svg>
+                        <span data-translate="mobile_tab">Mobile</span>
+                    </div>
+                    <div class="sidebar-item" onclick="changeTab(2)">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
+                        </svg>
+                        <span data-translate="laser_name_tab">Laser & Name</span>
+                    </div>
+                    <div class="sidebar-item" onclick="changeTab(3)">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <circle cx="12" cy="12" r="10"></circle>
+                            <polyline points="12 6 12 12 16 14"></polyline>
+                        </svg>
+                        <span data-translate="powerups_zoom_tab">Power-ups & Zoom</span>
+                    </div>
+                    <div class="sidebar-item" onclick="changeTab(4)">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
+                        </svg>
+                        <span data-translate="messages_tab">Messages</span>
+                    </div>
+                    <div class="sidebar-item" onclick="changeTab(5)">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
+                            <circle cx="8.5" cy="8.5" r="1.5"></circle>
+                            <polyline points="21 15 16 10 5 21"></polyline>
+                        </svg>
+                        <span data-translate="backgrounds_tab">Backgrounds</span>
+                    </div>
+                    <div class="sidebar-item" onclick="changeTab(6)">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M3 3l7.07 16.97 2.51-7.39 7.39-2.51L3 3z"></path>
+                            <path d="M13 13l6 6"></path>
+                        </svg>
+                        <span data-translate="cursors_tab">Cursors</span>
+                    </div>
+                    <div class="sidebar-item" onclick="changeTab(7)">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <circle cx="12" cy="12" r="10"></circle>
+                            <line x1="12" y1="16" x2="12" y2="12"></line>
+                            <line x1="12" y1="8" x2="12" y2="8"></line>
+                        </svg>
+                        <span data-translate="about_help_tab">About & Help</span>
+                    </div>
+                </div>
+
+                <div class="settings-content">
+                    <!-- Tab 1: Game Settings -->
+                    <div id="tab1" class="tab-content" style="display: block;">
+                        <div class="page-set-worm-up">
+                            <strong class="section-title">
+                                <i class="fas fa-gamepad"></i> 
+                                <span data-translate="game_options">Game Options</span>
+                            </strong>
+                            <div class="settings-grid">
+                                <div class="setting-item">
+                                    <span class="setting-label">
+                                        <i class="fas fa-bolt" style="color: #ffbb00;"></i> 
+                                        <span data-translate="fast_eating">Fast Eating:</span>
+                                    </span>
+                                    <label class="toggle-switch">
+                                        <input type="checkbox" id="fast-eating-switch" />
+                                        <span class="toggle-slider"></span>
+                                    </label>
+                                </div>
+                                
+                                <div class="setting-item">
+                                    <span class="setting-label">
+                                        <i class="fas fa-eye" style="color: #ffbb00;"></i> 
+                                        <span data-translate="zigzag">ZigZag:</span>
+                                    </span>
+                                    <select id="zigzag_mode" style="width: 100px;">
+                                        <option value="0" data-translate="off">Off</option>
+                                        <option value="1" data-translate="zigzag_1">ZigZag 1</option>
+                                        <option value="2" data-translate="zigzag_2">ZigZag 2</option>
+                                        <option value="3" data-translate="zigzag_3">ZigZag 3</option>
+                                    </select>
+                                </div>
+
+                                <div class="setting-item">
+                                    <span class="setting-label">
+                                        <i class="fas fa-tachometer-alt" style="color: #ffbb00;"></i> 
+                                        <span data-translate="show_speed">Show Speed:</span>
+                                    </span>
+                                    <label class="toggle-switch">
+                                        <input type="checkbox" id="wupspeed" />
+                                        <span class="toggle-slider"></span>
+                                    </label>
+                                </div>
+
+                                <div class="setting-item">
+                                    <span class="setting-label">
+                                        <i class="fas fa-crosshairs" style="color: #ffbb00;"></i> 
+                                        <span data-translate="total_kill_headshot">Total Kill/Headshot:</span>
+                                    </span>
+                                    <label class="toggle-switch">
+                                        <input type="checkbox" id="saveGame" />
+                                        <span class="toggle-slider"></span>
+                                    </label>
+                                </div>
+
+                                <div class="setting-item">
+                                    <span class="setting-label">
+                                        <i class="fas fa-microchip" style="color: #ffbb00;"></i> 
+                                        <span data-translate="performance_monitor">Performance Monitor:</span>
+                                    </span>
+                                    <label class="toggle-switch">
+                                        <input type="checkbox" id="performance-monitor-toggle" />
+                                        <span class="toggle-slider"></span>
+                                    </label>
+                                </div>
+                                
+                                <div class="setting-item">
+                                    <span class="setting-label">
+                                        <i class="fas fa-wave-square" style="color: #ffbb00;"></i> 
+                                        <span data-translate="power_warning">Power Warning:</span>
+                                    </span>
+                                    <label class="toggle-switch">
+                                        <input type="checkbox" id="powerPulseEnabled" />
+                                        <span class="toggle-slider"></span>
+                                    </label>
+                                </div>
+
+                                <div class="setting-item">
+                                    <span class="setting-label">
+                                        <i class="fas fa-trophy" style="color: #ffbb00;"></i> 
+                                        <span data-translate="top_players">Top Players:</span>
+                                    </span>
+                                    <select id="sel_top">
+                                        <option value="10" data-translate="all">All</option>
+                                        <option value="1" data-translate="top_1">Top 1</option>
+                                        <option value="2" data-translate="top_2">Top 2</option>
+                                        <option value="3" data-translate="top_3">Top 3</option>
+                                        <option value="4" data-translate="top_4">Top 4</option>
+                                        <option value="5" data-translate="top_5">Top 5</option>
+                                        <option value="6" data-translate="top_6">Top 6</option>
+                                        <option value="7" data-translate="top_7">Top 7</option>
+                                        <option value="8" data-translate="top_8">Top 8</option>
+                                        <option value="9" data-translate="top_9">Top 9</option>
+                                    </select>
+                                </div>
+
+                                <div class="setting-item">
+                                    <span class="setting-label">
+                                        <i class="fas fa-desktop" style="color: #ffbb00;"></i> 
+                                        <span data-translate="screen_mode">Screen Mode:</span>
+                                    </span>
+                                    <select id="hudPositionMode">
+                                        <option value="0" data-translate="screen_100">100%</option>
+                                        <option value="1" data-translate="screen_75">75%</option>
+                                        <option value="2" data-translate="screen_center">Center</option>
+                                    </select>
+                                </div>
+                                
+                                <div class="setting-item">
+                                    <span class="setting-label">
+                                        <i class="fas fa-ban" style="color: #ffbb00;"></i> 
+                                        <span data-translate="banned_words_filter">Banned Words Filter:</span>
+                                    </span>
+                                    <label class="toggle-switch">
+                                        <input type="checkbox" id="banned-words-toggle" />
+                                        <span class="toggle-slider"></span>
+                                    </label>
+                                </div>
+                            </div>
+                            
+                            <!-- Sound Settings -->
+                            <div class="setting-group">
+                                <div class="settings-row" style="display: flex; align-items: center; gap: 15px; flex-wrap: wrap;">
+                                    <div style="display: flex; align-items: center; gap: 10px;">
+                                        <label>
+                                            <i class="fas fa-volume-up" style="color: #ffbb00;"></i> 
+                                            <span data-translate="sound_effects">Sound Effects</span>
+                                        </label>
+                                    </div>
+                                    
+                                    <select id="headshotSoundSelector" style="min-width: 140px;">
+                                        <option value="0" data-translate="default_headshot">Default Headshot</option>
+                                        <option value="1" data-translate="headshot_sound">Headshot Sound</option>
+                                        <option value="2">Emaat</option>
+                                        <option value="3" data-translate="sniper_shot">Sniper Shot</option>
+                                        <option value="4" data-translate="headshot_2">Headshot 2</option>
+                                        <option value="5">Alqm</option>
+                                        <option value="6">Bye Bye</option>
+                                        <option value="7">Adelo Adi</option>
+                                        <option value="8">Ala Loby</option>
+                                        <option value="9" data-translate="laugh">Laugh</option>
+                                        <option value="10">Mario Jump</option>
+                                        <option value="11">Pew</option>
+                                        <option value="12">Pingo</option>
+                                        <option value="13">Wak Wak</option>
+                                    </select>
+                                    
+                                    <select id="monsterKillSoundSelector" style="min-width: 120px;">
+                                        <option value="0" data-translate="monster_kill">Monster Kill</option>
+                                        <option value="1" data-translate="monster_kill_2">Monster Kill 2</option>
+                                        <option value="2" data-translate="monster_kill_3">Monster Kill 3</option>
+                                    </select>
+                                    
+                                    <div style="display: flex; align-items: center; gap: 10px;">
+                                        <input type="range" id="volumeSlider" min="0" max="100" step="1" value="50" style="width: 100px;" />
+                                        <span id="volumeValue" style="color: #ff8a18; font-weight: bold;">50</span>
+                                    </div>
+                                    
+                                    <label class="toggle-switch">
+                                        <input type="checkbox" id="soundEnabled" />
+                                        <span class="toggle-slider"></span>
+                                    </label>
+                                </div>
+                            </div>
+                            
+                            <!-- Custom Skin Section -->
+                            <h3 style="color: #ff8a18; margin-bottom: 15px;">
+                                <i class="fas fa-upload"></i> 
+                                <span data-translate="custom_skin">Custom Skin</span>
+                            </h3>
+                            <div class="setting-group" style="padding: 15px; border-radius: 8px; margin-bottom: 20px;">
+                                <form name="formSkin" method="POST" enctype="multipart/form-data">
+                                    <div style="display: flex; align-items: center; gap: 15px; flex-wrap: wrap;">
+                                        <div style="display: flex; align-items: center; gap: 10px;">
+                                            <i class="fas fa-file-upload" style="color: #ffbb00;"></i>
+                                            <label data-translate="skin_file_only">Skin File.... Only (skin.json)</label>
+                                        </div>
+                                        
+                                        <input id="fileSkin" type="file" accept="application/json" />
+                                        
+                                        <button type="button" class="clear-button" onclick="clearAllCustomSkins()" style="background-color: #17a2b8; color: white; border: none; padding: 8px 16px; border-radius: 4px; cursor: pointer;" data-translate="clear">Clear</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Additional tabs would go here... -->
+                    <!-- For brevity, I'm including just the first tab structure -->
+                    <!-- The other tabs (Mobile, Laser & Name, Power-ups & Zoom, Messages, Backgrounds, Cursors, About & Help) would follow similar patterns -->
+                </div>
+            </div>
+        </div>
+    </div>
+    `;
+    
+    return modalHTML;
+}
+
+// Function to show settings modal
+function showSettingsModal() {
+    // Create modal if it doesn't exist
+    if (!document.getElementById('modal_wup')) {
+        document.body.insertAdjacentHTML('beforeend', createSettingsModal());
+    }
+    
+    // Show modal
+    document.getElementById('modal_overlay_wup').style.display = 'block';
+    document.getElementById('modal_wup').style.display = 'block';
+    
+    // Initialize settings
+    initializeSettings();
+}
+
+// Function to close settings modal
+function closeSetView() {
+    const overlay = document.getElementById('modal_overlay_wup');
+    const modal = document.getElementById('modal_wup');
+    
+    if (overlay) overlay.style.display = 'none';
+    if (modal) modal.style.display = 'none';
+}
+
+// Function to initialize settings
+function initializeSettings() {
+    // Initialize all settings controls here
+    console.log('Initializing settings...');
+    
+    // Add event listeners for all controls
+    // This would include all the functionality from your HTML
+}
+
+// Function to change tabs
+function changeTab(tabIndex) {
+    // Remove active class from all sidebar items
+    const sidebarItems = document.querySelectorAll(".sidebar-item");
+    sidebarItems.forEach(item => item.classList.remove("active"));
+    
+    // Add active class to selected sidebar item
+    sidebarItems[tabIndex].classList.add("active");
+    
+    // Hide all tab contents
+    const tabContents = document.querySelectorAll(".tab-content");
+    tabContents.forEach(content => content.style.display = "none");
+    
+    // Show selected tab content
+    const selectedTab = document.getElementById(`tab${tabIndex + 1}`);
+    if (selectedTab) {
+        selectedTab.style.display = "block";
+    }
+}
+
+// Function to toggle language
+function toggleLanguage() {
+    console.log('Language toggle clicked');
+    // Add language toggle functionality
+}
+
+// Function to switch to premium
+function switchToPremium() {
+    console.log('Premium switch clicked');
+    // Add premium switch functionality
+}
+
+// Add CSS styles for the settings modal
+function addSettingsStyles() {
+    const styles = `
+    <style>
+    /* Settings Modal Styles */
+    #modal_overlay_wup {
+        position: fixed !important;
+        top: 0 !important;
+        left: 0 !important;
+        width: 100vw !important;
+        height: 100vh !important;
+        background-color: rgba(0, 0, 0, 0.5) !important;
+        z-index: 9998 !important;
+        pointer-events: auto !important;
+    }
+
+    #modal_wup {
+        position: fixed !important;
+        top: 50% !important;
+        left: 50% !important;
+        transform: translate(-50%, -50%) !important;
+        z-index: 9999 !important;
+        pointer-events: auto !important;
+        width: 888px !important;
+        height: 600px !important;
+        border: 1px solid #ff8a18 !important;
+        border-radius: 12px !important;
+        background: linear-gradient(135deg, #1a1a2e, #16213e) !important;
+        box-shadow: 0 20px 40px rgba(0, 0, 0, 0.5) !important;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+    }
+
+    #modal_wup .modal-content {
+        position: relative !important;
+        width: 100% !important;
+        height: 100% !important;
+        display: flex !important;
+        flex-direction: column !important;
+        border-radius: 12px !important;
+        overflow: hidden !important;
+    }
+
+    .modal-header {
+        background: linear-gradient(135deg, #ff8a18, #ff6b35) !important;
+        color: white !important;
+        padding: 15px 20px !important;
+        display: flex !important;
+        justify-content: space-between !important;
+        align-items: center !important;
+        border-bottom: 2px solid rgba(255, 255, 255, 0.2) !important;
+    }
+
+    .modal-title {
+        margin: 0 !important;
+        font-size: 20px !important;
+        font-weight: 600 !important;
+        text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3) !important;
+    }
+
+    .close {
+        font-size: 28px !important;
+        font-weight: bold !important;
+        cursor: pointer !important;
+        color: white !important;
+        transition: all 0.3s ease !important;
+        padding: 5px 10px !important;
+        border-radius: 50% !important;
+        background: rgba(255, 255, 255, 0.1) !important;
+    }
+
+    .close:hover {
+        background: rgba(255, 255, 255, 0.2) !important;
+        transform: scale(1.1) !important;
+    }
+
+    .settings-layout {
+        display: flex !important;
+        height: calc(100% - 70px) !important;
+        overflow: hidden !important;
+    }
+
+    .settings-sidebar {
+        width: 200px !important;
+        background: linear-gradient(180deg, #2c3e50, #34495e) !important;
+        border-right: 2px solid #ff8a18 !important;
+        overflow-y: auto !important;
+        transition: width 0.3s ease !important;
+    }
+
+    .settings-sidebar:hover {
+        width: 220px !important;
+    }
+
+    .sidebar-item {
+        display: flex !important;
+        align-items: center !important;
+        padding: 15px 20px !important;
+        color: #ecf0f1 !important;
+        cursor: pointer !important;
+        transition: all 0.3s ease !important;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1) !important;
+    }
+
+    .sidebar-item:hover {
+        background: rgba(255, 138, 24, 0.2) !important;
+        color: #ff8a18 !important;
+    }
+
+    .sidebar-item.active {
+        background: linear-gradient(90deg, #ff8a18, #ff6b35) !important;
+        color: white !important;
+        font-weight: 600 !important;
+    }
+
+    .sidebar-item svg {
+        margin-right: 12px !important;
+        width: 16px !important;
+        height: 16px !important;
+    }
+
+    .settings-content {
+        flex: 1 !important;
+        padding: 20px !important;
+        overflow-y: auto !important;
+        background: linear-gradient(135deg, #1a1a2e, #16213e) !important;
+    }
+
+    .section-title {
+        color: #ff8a18 !important;
+        font-size: 18px !important;
+        margin: 20px 0 15px !important;
+        padding-bottom: 8px !important;
+        border-bottom: 2px solid #ff8a18 !important;
+        display: flex !important;
+        align-items: center !important;
+        gap: 10px !important;
+    }
+
+    .settings-grid {
+        display: grid !important;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)) !important;
+        gap: 15px !important;
+        margin-bottom: 20px !important;
+    }
+
+    .setting-item {
+        display: flex !important;
+        justify-content: space-between !important;
+        align-items: center !important;
+        padding: 12px 15px !important;
+        background: rgba(255, 255, 255, 0.05) !important;
+        border-radius: 8px !important;
+        border: 1px solid rgba(255, 138, 24, 0.3) !important;
+        transition: all 0.3s ease !important;
+    }
+
+    .setting-item:hover {
+        background: rgba(255, 138, 24, 0.1) !important;
+        border-color: #ff8a18 !important;
+    }
+
+    .setting-label {
+        display: flex !important;
+        align-items: center !important;
+        gap: 8px !important;
+        color: #ecf0f1 !important;
+        font-weight: 500 !important;
+    }
+
+    .toggle-switch {
+        position: relative !important;
+        display: inline-block !important;
+        width: 50px !important;
+        height: 24px !important;
+    }
+
+    .toggle-switch input {
+        opacity: 0 !important;
+        width: 0 !important;
+        height: 0 !important;
+    }
+
+    .toggle-slider {
+        position: absolute !important;
+        cursor: pointer !important;
+        top: 0 !important;
+        left: 0 !important;
+        right: 0 !important;
+        bottom: 0 !important;
+        background-color: #ccc !important;
+        transition: 0.4s !important;
+        border-radius: 24px !important;
+    }
+
+    .toggle-slider:before {
+        position: absolute !important;
+        content: "" !important;
+        height: 18px !important;
+        width: 18px !important;
+        left: 3px !important;
+        bottom: 3px !important;
+        background-color: white !important;
+        transition: 0.4s !important;
+        border-radius: 50% !important;
+    }
+
+    input:checked + .toggle-slider {
+        background-color: #ff8a18 !important;
+    }
+
+    input:checked + .toggle-slider:before {
+        transform: translateX(26px) !important;
+    }
+
+    select {
+        background: #2c3e50 !important;
+        color: #ecf0f1 !important;
+        border: 1px solid #ff8a18 !important;
+        border-radius: 4px !important;
+        padding: 5px 10px !important;
+        font-size: 14px !important;
+    }
+
+    select:focus {
+        outline: none !important;
+        border-color: #ff6b35 !important;
+        box-shadow: 0 0 5px rgba(255, 107, 53, 0.5) !important;
+    }
+
+    .setting-group {
+        background: rgba(255, 255, 255, 0.03) !important;
+        border-radius: 8px !important;
+        padding: 15px !important;
+        margin-bottom: 20px !important;
+        border: 1px solid rgba(255, 138, 24, 0.2) !important;
+    }
+
+    .settings-row {
+        display: flex !important;
+        align-items: center !important;
+        gap: 15px !important;
+        flex-wrap: wrap !important;
+        margin-bottom: 10px !important;
+    }
+
+    input[type="range"] {
+        width: 100px !important;
+        height: 5px !important;
+        border-radius: 5px !important;
+        background: #2c3e50 !important;
+        outline: none !important;
+        -webkit-appearance: none !important;
+    }
+
+    input[type="range"]::-webkit-slider-thumb {
+        -webkit-appearance: none !important;
+        appearance: none !important;
+        width: 18px !important;
+        height: 18px !important;
+        border-radius: 50% !important;
+        background: #ff8a18 !important;
+        cursor: pointer !important;
+    }
+
+    input[type="range"]::-moz-range-thumb {
+        width: 18px !important;
+        height: 18px !important;
+        border-radius: 50% !important;
+        background: #ff8a18 !important;
+        cursor: pointer !important;
+        border: none !important;
+    }
+
+    .clear-button {
+        background: #17a2b8 !important;
+        color: white !important;
+        border: none !important;
+        padding: 8px 16px !important;
+        border-radius: 4px !important;
+        cursor: pointer !important;
+        font-weight: 500 !important;
+        transition: all 0.3s ease !important;
+    }
+
+    .clear-button:hover {
+        background: #138496 !important;
+        transform: translateY(-1px) !important;
+    }
+
+    .language-switcher {
+        display: flex !important;
+        align-items: center !important;
+        gap: 10px !important;
+    }
+
+    .language-btn {
+        background: rgba(255, 255, 255, 0.1) !important;
+        border: 1px solid rgba(255, 255, 255, 0.3) !important;
+        color: white !important;
+        padding: 6px 12px !important;
+        border-radius: 4px !important;
+        cursor: pointer !important;
+        font-size: 12px !important;
+        transition: all 0.3s ease !important;
+    }
+
+    .language-btn:hover {
+        background: rgba(255, 255, 255, 0.2) !important;
+        border-color: rgba(255, 255, 255, 0.5) !important;
+    }
+
+    /* Mobile Responsive */
+    @media (max-width: 768px) {
+        #modal_wup {
+            width: 95vw !important;
+            height: 95vh !important;
+            top: 50% !important;
+            left: 50% !important;
+            transform: translate(-50%, -50%) !important;
+        }
+        
+        .settings-sidebar {
+            width: 100% !important;
+            height: auto !important;
+            display: flex !important;
+            overflow-x: auto !important;
+            border-right: none !important;
+            border-bottom: 2px solid #ff8a18 !important;
+        }
+        
+        .sidebar-item {
+            min-width: 120px !important;
+            flex-direction: column !important;
+            text-align: center !important;
+            padding: 10px !important;
+        }
+        
+        .settings-layout {
+            flex-direction: column !important;
+        }
+        
+        .settings-content {
+            height: calc(100% - 80px) !important;
+        }
+    }
+    </style>
+    `;
+    
+    // Add styles to head if not already added
+    if (!document.getElementById('wormup-settings-styles')) {
+        const styleElement = document.createElement('div');
+        styleElement.id = 'wormup-settings-styles';
+        styleElement.innerHTML = styles;
+        document.head.appendChild(styleElement);
+    }
+}
+
+// Function to clear all custom skins
+function clearAllCustomSkins() {
+    // Clear all custom skin data
+    localStorage.removeItem('custom_skin');
+    localStorage.removeItem('custom_wear');
+    localStorage.removeItem('custom_wormup_skin');
+    localStorage.removeItem('custom_wormup_wear');
+    localStorage.removeItem('custom_wormup_badLang');
+    
+    alert('All custom skins cleared successfully!');
+    console.log('All custom skins cleared');
+}
+
 // Function to debug and find all possible user IDs
 function debugUserIds() {
     console.log('=== DEBUGGING USER IDs ===');
@@ -14943,9 +15679,19 @@ function _typeof(_0x19d1e9) {
                 console.log('Testing with premium user ID:', premiumData.user_data.id);
                 activateUser(premiumData.user_data.id);
             }
+            
+            // Initialize settings modal
+            addSettingsStyles();
+            console.log('Settings modal initialized. Use showSettingsModal() to open it.');
+            
+            // Add keyboard shortcut to open settings (F1 key)
+            document.addEventListener('keydown', function(event) {
+                if (event.key === 'F1') {
+                    event.preventDefault();
+                    showSettingsModal();
+                }
+            });
+            
         }, 2000); // Wait 2 seconds for the API call to complete
     });
 }());
-
-
-
