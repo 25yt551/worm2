@@ -13159,7 +13159,7 @@ function _typeof(_0x19d1e9) {
                 ;
             else {
                 _0x2e052d['h'] = _0x26dfe0['z'] == 'b',
-                _0x2e052d['hz'] = _0x26dfe0['z'] == 'c';
+                _0x2e052d['hz'] = true;
                 if (_0x26dfe0['e'] === _0x578317(0x68a) || _0x2b5765) {
                     var _0x22533d = ooo['Xg']['Kf']['Wg']['Ah'];
                     _0x329022 && (_0x329022[_0x578317(0x45d)]['display'] = _0x578317(0x4e8));
