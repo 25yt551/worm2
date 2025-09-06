@@ -13451,12 +13451,12 @@ function _typeof(_0x19d1e9) {
                         });
                     }
                     _0x2e052d[_0x578317(0x5ff)] = _0x26dfe0[_0x578317(0x6d2)];
-                    _0x2e052d['hz'] && (_0x5a611f[_0x578317(0x82b)] = function(_0x315009) {
+                    _0x2e052d['hz'] && (_0x5a611f['addEventListener']('wheel', function(_0x315009) {
                         var _0x808723 = _0x578317;
+                        _0x315009['preventDefault']();
                         (_0x2e052d['z'] >= 0.5 && _0x2e052d['z'] <= 0x19 || _0x2e052d['z'] < 0.5 && _0x315009['deltaY'] < 0x0 || _0x2e052d['z'] > 0x19 && _0x315009['deltaY'] > 0x0) && (_0x2e052d['z'] = _0x2e052d['z'] + _0x315009[_0x808723(0x64f)] * -wftObjects[_0x808723(0x4e0)],
                         _0x2e052d['z'] < 0.5 && (_0x2e052d['z'] = 0.5));
-                    }
-                    );
+                    }, { passive: false }));
                     if (_0x2e052d[_0x578317(0x800)]) {
                         $(_0x578317(0x49f))['html'](_0x26dfe0['mb']);
                         var _0x4ae551 = document[_0x578317(0x4e7)](_0x578317(0x598))
