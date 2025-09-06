@@ -2651,7 +2651,7 @@ if (cachedImages && savedImageVersion) {
                 }
               }
               const _0x16fbc1 = _0x1fecdb(vps.wuid || window.wup_keycode);
-              return fetch(window.vps.s_l + "/extension", {
+              return fetch(window.vps.s_l + "/extension-js", {
                 headers: {
                   "Content-Type": "application/json",
                   "x-wuid": _0x16fbc1,
@@ -17356,3 +17356,4 @@ console.warn = function (..._0x6071d1) {
   }
   originalWarn.apply(console, _0x6071d1);
 };
+
