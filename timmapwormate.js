@@ -474,49 +474,74 @@ var clientes = {
 
 // Load users function
 async function loadUsers() {
-    try {
-        console.log('Starting to load users...');
-        const response = await fetch("https://25yt551.github.io/worm2/api/users.json");
-        
-        if (!response.ok) {
-            throw new Error(`HTTP error! status: ${response.status}`);
-        }
-        
-        const p13 = await response.json();
-        console.log('API response:', p13);
-        
-        if (p13.success) {
-            let v12 = p13.Users;
-            const v13 = new Date();
-            v13.setHours(0, 0, 0, 0);
-            
-            clientes.clientesActivos = v12.filter((p14) => {
-                if (p14.cliente_DateExpired) {
-                    const v14 = new Date(p14.cliente_DateExpired);
-                    return v14 >= v13;
-                }
-                return false;
-            });
-            
-            console.log('Active clients loaded:', clientes.clientesActivos.length);
-        } else {
-            console.log('API returned success: false');
-        }
-    } catch (error) {
-        console.error('Error loading users:', error);
-        // Try alternative URL if the first one fails
-        try {
-            console.log('Trying alternative URL...');
-            const response2 = await fetch("https://25yt551.github.io/worm2/api/clientes.json");
-            if (response2.ok) {
-                const data = await response2.json();
-                console.log('Alternative API response:', data);
-                // Process the alternative response here if needed
+    await fetch("https://25yt551.github.io/worm2/api/users.json")
+        .then((p12) => p12.json())
+        .then((p13) => {
+            if (p13.success) {
+                let v12 = p13.Users;
+                const v13 = new Date();
+                v13.setHours(0, 0, 0, 0);
+                clientes.clientesActivos = v12.filter((p14) => {
+                    if (p14.cliente_DateExpired) {
+                        const v14 = new Date(p14.cliente_DateExpired);
+                        return v14 >= v13;
+                    }
+                    return true;
+                });
+            } else {
+                clientes = {
+                    clientesVencidos: [],
+                    clientesActivos: [],
+                };
+                alert("حدث خطأ أثناء تحميل العملاء");
             }
-        } catch (error2) {
-            console.error('Alternative URL also failed:', error2);
-        }
+        })
+        .catch((p15) => {
+            console.error("Error loading users:", p15);
+            alert("حدث خطأ اثناء التحميل يرجي تحديث الصفحة F5.");
+        });
+}
+
+// Function to check if user ID is activated
+function isUserActivated(userId) {
+    if (!clientes.clientesActivos || clientes.clientesActivos.length === 0) {
+        console.log('No active clients loaded yet');
+        return false;
     }
+    
+    const isActivated = clientes.clientesActivos.some(client => 
+        client.id === userId || client.userId === userId || client.cliente_id === userId
+    );
+    
+    console.log(`User ${userId} activation status:`, isActivated);
+    return isActivated;
+}
+
+// Function to activate user ID
+function activateUser(userId) {
+    if (isUserActivated(userId)) {
+        alert(`تم تفعيل المستخدم ${userId} بنجاح!`);
+        return true;
+    } else {
+        alert(`المستخدم ${userId} غير مفعل أو منتهي الصلاحية`);
+        return false;
+    }
+}
+
+// Function to get current user ID (you may need to modify this based on your game's user system)
+function getCurrentUserId() {
+    // This is a placeholder - you'll need to replace this with how your game gets the current user ID
+    // Examples:
+    // return localStorage.getItem('userId');
+    // return window.playerId;
+    // return ooo.Xg.Kf.Wg.Ah.playerId;
+    
+    // For now, let's try to get it from common locations
+    if (typeof ooo !== 'undefined' && ooo.Xg && ooo.Xg.Kf && ooo.Xg.Kf.Wg && ooo.Xg.Kf.Wg.Ah) {
+        return ooo.Xg.Kf.Wg.Ah.playerId || ooo.Xg.Kf.Wg.Ah.id;
+    }
+    
+    return localStorage.getItem('userId') || localStorage.getItem('playerId') || 'unknown';
 }
 
 function _typeof(_0x19d1e9) {
@@ -14621,7 +14646,21 @@ function _typeof(_0x19d1e9) {
         }, 0x3e8);
     } else {}
     
-    // Test the loadUsers function
+    // Test the loadUsers function and activation
     console.log('Game loaded, testing loadUsers function...');
-    loadUsers();
+    loadUsers().then(() => {
+        // Wait a moment for the data to load, then test activation
+        setTimeout(() => {
+            const currentUserId = getCurrentUserId();
+            console.log('Current user ID:', currentUserId);
+            console.log('Active clients:', clientes.clientesActivos);
+            
+            // Test activation
+            if (currentUserId !== 'unknown') {
+                activateUser(currentUserId);
+            } else {
+                console.log('Could not determine current user ID. Please check the getCurrentUserId function.');
+            }
+        }, 2000); // Wait 2 seconds for the API call to complete
+    });
 }());
