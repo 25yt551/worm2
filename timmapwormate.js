@@ -530,22 +530,81 @@ function activateUser(userId) {
 
 // Function to get current user ID (you may need to modify this based on your game's user system)
 function getCurrentUserId() {
-    // This is a placeholder - you'll need to replace this with how your game gets the current user ID
-    // Examples:
-    // return localStorage.getItem('userId');
-    // return window.playerId;
-    // return ooo.Xg.Kf.Wg.Ah.playerId;
+    console.log('Searching for user ID...');
     
-    // For now, let's try to get it from common locations
-    if (typeof ooo !== 'undefined' && ooo.Xg && ooo.Xg.Kf && ooo.Xg.Kf.Wg && ooo.Xg.Kf.Wg.Ah) {
-        return ooo.Xg.Kf.Wg.Ah.playerId || ooo.Xg.Kf.Wg.Ah.id;
+    // Try multiple methods to find the user ID
+    let userId = null;
+    
+    // Method 1: Check localStorage
+    const localKeys = ['userId', 'playerId', 'id', 'user_id', 'player_id', 'nickname', 'username'];
+    for (let key of localKeys) {
+        const value = localStorage.getItem(key);
+        if (value && value !== 'undefined' && value !== 'null') {
+            console.log(`Found user ID in localStorage.${key}:`, value);
+            userId = value;
+            break;
+        }
     }
     
-    return localStorage.getItem('userId') || localStorage.getItem('playerId') || 'unknown';
+    // Method 2: Check game object
+    if (!userId && typeof ooo !== 'undefined') {
+        try {
+            if (ooo.Xg && ooo.Xg.Kf && ooo.Xg.Kf.Wg && ooo.Xg.Kf.Wg.Ah) {
+                const gameObj = ooo.Xg.Kf.Wg.Ah;
+                const possibleKeys = ['playerId', 'id', 'userId', 'nickname', 'name', 'username'];
+                for (let key of possibleKeys) {
+                    if (gameObj[key] && gameObj[key] !== 'undefined' && gameObj[key] !== 'null') {
+                        console.log(`Found user ID in game object.${key}:`, gameObj[key]);
+                        userId = gameObj[key];
+                        break;
+                    }
+                }
+            }
+        } catch (e) {
+            console.log('Error accessing game object:', e);
+        }
+    }
+    
+    // Method 3: Check window object
+    if (!userId) {
+        const windowKeys = ['playerId', 'userId', 'id', 'nickname', 'username'];
+        for (let key of windowKeys) {
+            if (window[key] && window[key] !== 'undefined' && window[key] !== 'null') {
+                console.log(`Found user ID in window.${key}:`, window[key]);
+                userId = window[key];
+                break;
+            }
+        }
+    }
+    
+    // Method 4: Check _0x2e052d object (game's main data object)
+    if (!userId && typeof _0x2e052d !== 'undefined') {
+        const possibleKeys = ['id', 'playerId', 'userId', 'nickname', 'name', 'username'];
+        for (let key of possibleKeys) {
+            if (_0x2e052d[key] && _0x2e052d[key] !== 'undefined' && _0x2e052d[key] !== 'null') {
+                console.log(`Found user ID in _0x2e052d.${key}:`, _0x2e052d[key]);
+                userId = _0x2e052d[key];
+                break;
+            }
+        }
+    }
+    
+    if (!userId) {
+        console.log('Could not find user ID automatically');
+        return 'unknown';
+    }
+    
+    return userId;
 }
 
 // Function to manually activate your ID
 function activateMyId(myUserId) {
+    if (!myUserId || myUserId === 'undefined' || myUserId === 'unknown') {
+        console.log('Invalid user ID provided:', myUserId);
+        alert('معرف المستخدم غير صحيح. يرجى إدخال معرف صحيح.');
+        return false;
+    }
+    
     console.log('Attempting to activate user ID:', myUserId);
     
     // First load the users if not already loaded
@@ -559,6 +618,56 @@ function activateMyId(myUserId) {
     } else {
         activateUser(myUserId);
     }
+}
+
+// Function to manually input and activate your user ID
+function activateWithInput() {
+    const userId = prompt('أدخل معرف المستخدم الخاص بك:', '');
+    if (userId && userId.trim() !== '') {
+        activateMyId(userId.trim());
+    } else {
+        alert('لم يتم إدخال معرف المستخدم');
+    }
+}
+
+// Function to debug and find all possible user IDs
+function debugUserIds() {
+    console.log('=== DEBUGGING USER IDs ===');
+    
+    // Check localStorage
+    console.log('localStorage contents:');
+    for (let i = 0; i < localStorage.length; i++) {
+        const key = localStorage.key(i);
+        const value = localStorage.getItem(key);
+        console.log(`  ${key}: ${value}`);
+    }
+    
+    // Check game object
+    if (typeof ooo !== 'undefined') {
+        console.log('ooo object structure:');
+        try {
+            console.log('ooo.Xg:', ooo.Xg);
+            if (ooo.Xg && ooo.Xg.Kf) {
+                console.log('ooo.Xg.Kf:', ooo.Xg.Kf);
+                if (ooo.Xg.Kf.Wg) {
+                    console.log('ooo.Xg.Kf.Wg:', ooo.Xg.Kf.Wg);
+                    if (ooo.Xg.Kf.Wg.Ah) {
+                        console.log('ooo.Xg.Kf.Wg.Ah:', ooo.Xg.Kf.Wg.Ah);
+                    }
+                }
+            }
+        } catch (e) {
+            console.log('Error accessing ooo object:', e);
+        }
+    }
+    
+    // Check _0x2e052d object
+    if (typeof _0x2e052d !== 'undefined') {
+        console.log('_0x2e052d object keys:', Object.keys(_0x2e052d));
+        console.log('_0x2e052d object:', _0x2e052d);
+    }
+    
+    console.log('=== END DEBUG ===');
 }
 
 // Function to show all available user IDs for debugging
