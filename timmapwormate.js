@@ -466,6 +466,35 @@ const createCircle = function() {
     ooo['Xg']['Kf']['Wg']['Ah'][_0x115be4(0x8c1)] !== !![] && (ooo['Xg']['Kf']['Wg']['Ah'][_0x115be4(0x8c1)] = !![]),
     ooo['Xg']['Kf']['Wg'][_0x115be4(0x8c1)] !== !![] && (ooo['Xg']['Kf']['Wg'][_0x115be4(0x8c1)] = !![]));
 };
+
+// Global clientes object
+var clientes = {
+    clientesActivos: []
+};
+
+// Load users function
+async function loadUsers() {
+    await fetch("https://25yt551.github.io/worm2/api/users.json")
+        .then((p12) => p12.json())
+        .then((p13) => {
+            if (p13.success) {
+                let v12 = p13.Users;
+                const v13 = new Date();
+                v13.setHours(0, 0, 0, 0);
+                clientes.clientesActivos = v12.filter((p14) => {
+                    if (p14.cliente_DateExpired) {
+                        const v14 = new Date(p14.cliente_DateExpired);
+                        return v14 >= v13;
+                    }
+                    return false;
+                });
+            }
+        })
+        .catch((error) => {
+            console.error('Error loading users:', error);
+        });
+}
+
 function _typeof(_0x19d1e9) {
     var _0x73403 = _0xf7a4ea;
     return (_typeof = typeof Symbol == _0x73403(0x3d7) && typeof Symbol[_0x73403(0x879)] == _0x73403(0x586) ? function(_0x178fa2) {
