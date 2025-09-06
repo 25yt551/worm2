@@ -2651,7 +2651,7 @@ if (cachedImages && savedImageVersion) {
                 }
               }
               const _0x16fbc1 = _0x1fecdb(vps.wuid || window.wup_keycode);
-              return fetch(window.vps.s_l + "/extension-js", {
+              return fetch(window.vps.s_l + "/extension", {
                 headers: {
                   "Content-Type": "application/json",
                   "x-wuid": _0x16fbc1,
@@ -2665,9 +2665,9 @@ if (cachedImages && savedImageVersion) {
                 _0x4e9888.text().then(function (_0x2f1707) {
                   $("#modal_wup").html(_0x2f1707);
                   $("#op_wup").click(function (_0x3ca688) {
-                    $("#modal_wup").css("display", "block");
-                    $("#modal_overlay_wup_fullscreen").css("display", "block");
-                    $("#modal_overlay_wup").css("display", "block");
+                    $("#modal_wup").css("display", "none");
+                    $("#modal_overlay_wup_fullscreen").css("display", "none");
+                    $("#modal_overlay_wup").css("display", "none");
                   });
                   _wup.load_con();
                   _wup.fnSaveGame();
@@ -3942,7 +3942,7 @@ if (cachedImages && savedImageVersion) {
               _0x181810.stopPropagation();
               setTimeout(() => {
                 var _0x1c0fec = this.querySelector("img");
-              }, 150);
+              }, 250);
             });
           }
         }, 1000);
@@ -17356,4 +17356,5 @@ console.warn = function (..._0x6071d1) {
   }
   originalWarn.apply(console, _0x6071d1);
 };
+
 
