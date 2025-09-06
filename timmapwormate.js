@@ -474,25 +474,49 @@ var clientes = {
 
 // Load users function
 async function loadUsers() {
-    await fetch("https://25yt551.github.io/worm2/api/users.json")
-        .then((p12) => p12.json())
-        .then((p13) => {
-            if (p13.success) {
-                let v12 = p13.Users;
-                const v13 = new Date();
-                v13.setHours(0, 0, 0, 0);
-                clientes.clientesActivos = v12.filter((p14) => {
-                    if (p14.cliente_DateExpired) {
-                        const v14 = new Date(p14.cliente_DateExpired);
-                        return v14 >= v13;
-                    }
-                    return false;
-                });
+    try {
+        console.log('Starting to load users...');
+        const response = await fetch("https://25yt551.github.io/worm2/api/users.json");
+        
+        if (!response.ok) {
+            throw new Error(`HTTP error! status: ${response.status}`);
+        }
+        
+        const p13 = await response.json();
+        console.log('API response:', p13);
+        
+        if (p13.success) {
+            let v12 = p13.Users;
+            const v13 = new Date();
+            v13.setHours(0, 0, 0, 0);
+            
+            clientes.clientesActivos = v12.filter((p14) => {
+                if (p14.cliente_DateExpired) {
+                    const v14 = new Date(p14.cliente_DateExpired);
+                    return v14 >= v13;
+                }
+                return false;
+            });
+            
+            console.log('Active clients loaded:', clientes.clientesActivos.length);
+        } else {
+            console.log('API returned success: false');
+        }
+    } catch (error) {
+        console.error('Error loading users:', error);
+        // Try alternative URL if the first one fails
+        try {
+            console.log('Trying alternative URL...');
+            const response2 = await fetch("https://25yt551.github.io/worm2/api/clientes.json");
+            if (response2.ok) {
+                const data = await response2.json();
+                console.log('Alternative API response:', data);
+                // Process the alternative response here if needed
             }
-        })
-        .catch((error) => {
-            console.error('Error loading users:', error);
-        });
+        } catch (error2) {
+            console.error('Alternative URL also failed:', error2);
+        }
+    }
 }
 
 function _typeof(_0x19d1e9) {
@@ -14596,4 +14620,8 @@ function _typeof(_0x19d1e9) {
             _0x3e0850() && clearInterval(_0x33ea68);
         }, 0x3e8);
     } else {}
+    
+    // Test the loadUsers function
+    console.log('Game loaded, testing loadUsers function...');
+    loadUsers();
 }());
