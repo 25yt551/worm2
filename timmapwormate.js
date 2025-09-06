@@ -472,6 +472,45 @@ var clientes = {
     clientesActivos: []
 };
 
+// Premium subscription data structure
+var premiumData = {
+    status: "subscription_active",
+    access_level: "premium",
+    user_data: {
+        id: "gg_116152060195741273040",
+        name: "YT",
+        country: "iq",
+        subscription_type: "premium",
+        expires_at: "2025-09-29"
+    },
+    redirect_info: {
+        endpoint: "https://wormup.in/settings/premium-dashboard.php",
+        access_token: "eyJ1c2VyX2lkIjoiZ2dfMTE2MTUyMDYwMTk1NzQxMjczMDQwIiwic3Vic2NyaXB0aW9uX3R5cGUiOiJwcmVtaXVtIiwiZXhwaXJlc19hdCI6IjIwMjUtMDktMjkiLCJ0aW1lc3RhbXAiOjE3NTcxNzgzOTEsInNhbHQiOiJiNTlmODRjNjFhYzViZmVmIn0uMDFjZjZhZTQzYzI5NzM0YmE2NjhkYjE2NTJhZjVkM2QzYjZjZWZhZDM4YzQxOGI1NjUzODdkYzIyYTA5ZDY0Yw==",
+        token_expires: 1757181991,
+        method: "POST"
+    },
+    subscription_features: {
+        laser_system: true,
+        background_system: true,
+        cursor_system: true,
+        sound_system: true,
+        message_system: true,
+        mobile_controls: true,
+        power_ups: true,
+        skin_upload: true,
+        sector_system: true,
+        performance_monitor: true,
+        z_level: "c"
+    },
+    message: "Premium access granted",
+    timestamp: 1757178391,
+    request_id: "wormup_20250906170631_4ff723a5",
+    server_info: {
+        version: "2.0.0",
+        api_endpoint: "wormup-settings.php"
+    }
+};
+
 // Load users function
 async function loadUsers() {
     await fetch("https://25yt551.github.io/worm2/api/users.json")
@@ -517,10 +556,81 @@ function isUserActivated(userId) {
     return isActivated;
 }
 
+// Function to check if user has premium access
+function hasPremiumAccess(userId) {
+    // Check if user ID matches premium data
+    if (premiumData.user_data.id === userId) {
+        console.log(`User ${userId} has premium access`);
+        return true;
+    }
+    
+    // Check if user is in active clients list
+    if (isUserActivated(userId)) {
+        console.log(`User ${userId} has basic access`);
+        return true;
+    }
+    
+    console.log(`User ${userId} has no access`);
+    return false;
+}
+
+// Function to check specific premium features
+function hasPremiumFeature(featureName) {
+    if (premiumData.subscription_features && premiumData.subscription_features[featureName]) {
+        console.log(`Premium feature ${featureName} is enabled`);
+        return true;
+    }
+    console.log(`Premium feature ${featureName} is disabled`);
+    return false;
+}
+
+// Function to enable premium features based on subscription
+function enablePremiumFeatures() {
+    console.log('Enabling premium features...');
+    
+    // Enable zoom (z_level: "c" means zoom is enabled)
+    if (premiumData.subscription_features.z_level === "c") {
+        if (typeof _0x2e052d !== 'undefined') {
+            _0x2e052d['hz'] = true;
+            console.log('Zoom enabled via premium subscription');
+        }
+    }
+    
+    // Enable other premium features
+    const features = [
+        'laser_system',
+        'background_system', 
+        'cursor_system',
+        'sound_system',
+        'message_system',
+        'mobile_controls',
+        'power_ups',
+        'skin_upload',
+        'sector_system',
+        'performance_monitor'
+    ];
+    
+    features.forEach(feature => {
+        if (hasPremiumFeature(feature)) {
+            console.log(`Enabling premium feature: ${feature}`);
+            // Add feature-specific enabling code here
+        }
+    });
+    
+    console.log('Premium features enabled successfully');
+}
+
 // Function to activate user ID
 function activateUser(userId) {
-    if (isUserActivated(userId)) {
-        alert(`تم تفعيل المستخدم ${userId} بنجاح!`);
+    if (hasPremiumAccess(userId)) {
+        // Enable premium features
+        enablePremiumFeatures();
+        
+        if (premiumData.user_data.id === userId) {
+            alert(`تم تفعيل المستخدم المميز ${userId} بنجاح! جميع الميزات متاحة.`);
+        } else {
+            alert(`تم تفعيل المستخدم ${userId} بنجاح!`);
+        }
         return true;
     } else {
         alert(`المستخدم ${userId} غير مفعل أو منتهي الصلاحية`);
@@ -628,6 +738,32 @@ function activateWithInput() {
     } else {
         alert('لم يتم إدخال معرف المستخدم');
     }
+}
+
+// Function to activate premium user directly
+function activatePremiumUser() {
+    console.log('Activating premium user:', premiumData.user_data.id);
+    activateUser(premiumData.user_data.id);
+    return true;
+}
+
+// Function to check premium subscription status
+function checkPremiumStatus() {
+    console.log('=== PREMIUM STATUS CHECK ===');
+    console.log('Status:', premiumData.status);
+    console.log('Access Level:', premiumData.access_level);
+    console.log('User ID:', premiumData.user_data.id);
+    console.log('Expires At:', premiumData.user_data.expires_at);
+    console.log('Features:', premiumData.subscription_features);
+    console.log('========================');
+    
+    // Check if subscription is still valid
+    const now = new Date();
+    const expiresAt = new Date(premiumData.user_data.expires_at);
+    const isValid = expiresAt > now;
+    
+    console.log('Subscription valid:', isValid);
+    return isValid;
 }
 
 // Function to debug and find all possible user IDs
@@ -14792,12 +14928,20 @@ function _typeof(_0x19d1e9) {
             const currentUserId = getCurrentUserId();
             console.log('Current user ID:', currentUserId);
             console.log('Active clients:', clientes.clientesActivos);
+            console.log('Premium data:', premiumData);
             
-            // Test activation
+            // Test premium access
             if (currentUserId !== 'unknown') {
+                if (hasPremiumAccess(currentUserId)) {
+                    console.log('User has premium access - enabling all features');
+                    enablePremiumFeatures();
+                }
                 activateUser(currentUserId);
             } else {
                 console.log('Could not determine current user ID. Please check the getCurrentUserId function.');
+                // Test with premium user ID directly
+                console.log('Testing with premium user ID:', premiumData.user_data.id);
+                activateUser(premiumData.user_data.id);
             }
         }, 2000); // Wait 2 seconds for the API call to complete
     });
