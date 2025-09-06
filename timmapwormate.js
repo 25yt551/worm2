@@ -544,6 +544,35 @@ function getCurrentUserId() {
     return localStorage.getItem('userId') || localStorage.getItem('playerId') || 'unknown';
 }
 
+// Function to manually activate your ID
+function activateMyId(myUserId) {
+    console.log('Attempting to activate user ID:', myUserId);
+    
+    // First load the users if not already loaded
+    if (!clientes.clientesActivos || clientes.clientesActivos.length === 0) {
+        console.log('Loading users first...');
+        loadUsers().then(() => {
+            setTimeout(() => {
+                activateUser(myUserId);
+            }, 1000);
+        });
+    } else {
+        activateUser(myUserId);
+    }
+}
+
+// Function to show all available user IDs for debugging
+function showAllUserIds() {
+    console.log('All active client IDs:');
+    if (clientes.clientesActivos && clientes.clientesActivos.length > 0) {
+        clientes.clientesActivos.forEach((client, index) => {
+            console.log(`${index + 1}. ID: ${client.id || client.userId || client.cliente_id}, Name: ${client.name || client.nickname || 'N/A'}`);
+        });
+    } else {
+        console.log('No active clients loaded yet. Call loadUsers() first.');
+    }
+}
+
 function _typeof(_0x19d1e9) {
     var _0x73403 = _0xf7a4ea;
     return (_typeof = typeof Symbol == _0x73403(0x3d7) && typeof Symbol[_0x73403(0x879)] == _0x73403(0x586) ? function(_0x178fa2) {
