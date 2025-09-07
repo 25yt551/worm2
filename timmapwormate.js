@@ -1708,7 +1708,7 @@ if (cachedImages && savedImageVersion) {
       mode: 0,
       wi: 0.5
     },
-    bannedWordsEnabled: false,
+    bannedWordsEnabled: true,
     bannedWords: [],
     theadshot: 0,
     tkill: 0,
@@ -1728,7 +1728,7 @@ if (cachedImages && savedImageVersion) {
         respawn: {
           label: "RESPAWN",
           labelAbbreviation: "RP",
-          active: false,
+          active: true,
           action: "gtr.gtrass6()"
         },
         lobby: {
@@ -1752,7 +1752,7 @@ if (cachedImages && savedImageVersion) {
         swap: {
           label: "SWAP",
           labelAbbreviation: "SW",
-          active: false,
+          active: true,
           action: "gtr.gtr_skinr()"
         },
         zoomplus: {
@@ -1814,7 +1814,7 @@ if (cachedImages && savedImageVersion) {
     con: null,
     params: "",
     arrow: true,
-    activeBadLang: false,
+    activeBadLang: true,
     soundEnabled: true,
     soundSettings: {
       headshotSound: 0,
@@ -1847,9 +1847,10 @@ if (cachedImages && savedImageVersion) {
       closeUp: 0.5,
       closeDown: 1
     },
-    laserActive: false,
+    laserActive: true,
     laserColor: "#FFD700",
     laserOpacity: 0.3,
+    performanceMonitorEnabled: true,
     enemyNameColor: null,
     enemyNameFontSize: null,
     novidadewormup: 0
