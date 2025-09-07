@@ -3109,14 +3109,14 @@
        width: 320px;
    }
    
-   /* تعطيل إعدادات الصوت والموسيقى */
-   #game-wrap #game-cont #stretch-box #popup-view .popup-view-list #settings-view #settings-music-enabled-line {
-       display: none;
-   }
+  /* تعطيل إعدادات الصوت والموسيقى */
+  #game-wrap #game-cont #stretch-box #popup-view .popup-view-list #settings-view #settings-music-enabled-line {
+      display: block; /* Enabled to remove premium restrictions */
+  }
    
-   #game-wrap #game-cont #stretch-box #popup-view .popup-view-list #settings-view #settings-sfx-enabled-line {
-       display: none;
-   }
+  #game-wrap #game-cont #stretch-box #popup-view .popup-view-list #settings-view #settings-sfx-enabled-line {
+      display: block; /* Enabled to remove premium restrictions */
+  }
    
    #game-wrap #game-cont #stretch-box #popup-view .popup-view-list #settings-view .settings-label {
        vertical-align: top;
@@ -5814,29 +5814,29 @@
        transform: translateX(11px)
    }
    
-   .settings-switchZoom + label {
-       cursor: pointer;
-       width: 80px;
-       height: 62px;
-       background: 0 0;
-       display: inline-block;
-       border-radius: 16px;
-       position: relative;
-       box-sizing: border-box;
-       border: 2px solid #f7941d;
-       display: none;
-   }
+  .settings-switchZoom + label {
+      cursor: pointer;
+      width: 80px;
+      height: 62px;
+      background: 0 0;
+      display: inline-block;
+      border-radius: 16px;
+      position: relative;
+      box-sizing: border-box;
+      border: 2px solid #f7941d;
+      /* display: none; removed to enable zoom settings */
+  }
    
-   .settings-switchZoom + label:after {
-       content: '';
-       position: absolute;
-       width: 28px;
-       height: 28px;
-       background: #fff;
-       border-radius: 14px;
-       transition: .3s;
-       display: none;
-   }
+  .settings-switchZoom + label:after {
+      content: '';
+      position: absolute;
+      width: 28px;
+      height: 28px;
+      background: #fff;
+      border-radius: 14px;
+      transition: .3s;
+      /* display: none; removed to enable zoom settings */
+  }
    
    .settings-labelZoom {
        font-size: 18px;
