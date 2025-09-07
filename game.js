@@ -18,7 +18,7 @@
             menu.innerHTML = `
                 <div class="fixed-background">
                     <div class="background-image"></div>
-                    <img src="https://i.imgur.com/jXzoG5D.png" class="logo" alt="Logo">
+                    <img src="https://i.imgur.com/4JVrU2E.png" class="logo" alt="Logo">
                     <button id="opcion1" class="menu-button"> WORMATE CONNECT</button>
                     <button id="opcion2" class="menu-button"> WORM LITE</button>
                 </div>
