@@ -1,19 +1,19 @@
 /* ====================================================
-   استيراد الخطوط وإعدادات عامة
+   Ø§Ø³ØªÙŠØ±Ø§Ø¯ Ø§Ù„Ø®Ø·ÙˆØ· ÙˆØ¥Ø¹Ø¯Ø§Ø¯Ø§Øª Ø¹Ø§Ù…Ø©
    ==================================================== */
    @import url("https://wormup.in/css/font.css");
 
-   /* إخفاء شريط التمرير */
+   /* Ø¥Ø®ÙØ§Ø¡ Ø´Ø±ÙŠØ· Ø§Ù„ØªÙ…Ø±ÙŠØ± */
    ::-webkit-scrollbar {
        display: none;
    }
    
-   /* ضبط الخط الأساسي */
+   /* Ø¶Ø¨Ø· Ø§Ù„Ø®Ø· Ø§Ù„Ø£Ø³Ø§Ø³ÙŠ */
    * {
        font-family: upfont;
    }
    
-   /* ضبط أساسي للجسم وصفحة HTML */
+   /* Ø¶Ø¨Ø· Ø£Ø³Ø§Ø³ÙŠ Ù„Ù„Ø¬Ø³Ù… ÙˆØµÙØ­Ø© HTML */
    body, html {
        background-color: #333;
        height: 100%;
@@ -30,7 +30,7 @@
    }
    
    /* ====================================================
-      عناصر الحاوية الرئيسية
+      Ø¹Ù†Ø§ØµØ± Ø§Ù„Ø­Ø§ÙˆÙŠØ© Ø§Ù„Ø±Ø¦ÙŠØ³ÙŠØ©
       ==================================================== */
    #1eaom01c3pxu9wd3 {
        width: 100%;
@@ -38,7 +38,7 @@
        margin: auto;
    }
    
-   /* تراكب للإعلانات أو الرسائل */
+   /* ØªØ±Ø§ÙƒØ¨ Ù„Ù„Ø¥Ø¹Ù„Ø§Ù†Ø§Øª Ø£Ùˆ Ø§Ù„Ø±Ø³Ø§Ø¦Ù„ */
    #JDHnkHtYwyXyVgG9 {
        position: absolute;
        width: 100%;
@@ -69,14 +69,14 @@
        display: block;
    }
    
-   /* شعار الإعلان */
+   /* Ø´Ø¹Ø§Ø± Ø§Ù„Ø¥Ø¹Ù„Ø§Ù† */
    #JDHnkHtYwyXyVgG9 > div #adbl-logo {
        margin: 0 auto;
        display: block;
        height: 40px;
    }
    
-   /* عناصر نص الإعلان */
+   /* Ø¹Ù†Ø§ØµØ± Ù†Øµ Ø§Ù„Ø¥Ø¹Ù„Ø§Ù† */
    #JDHnkHtYwyXyVgG9 > div #adbl-1 {
        padding-top: 20px;
        color: rgba(255, 255, 255, .8);
@@ -100,7 +100,7 @@
        font-size: 16px;
    }
    
-   /* حاوية زر الاستمرار للإعلان */
+   /* Ø­Ø§ÙˆÙŠØ© Ø²Ø± Ø§Ù„Ø§Ø³ØªÙ…Ø±Ø§Ø± Ù„Ù„Ø¥Ø¹Ù„Ø§Ù† */
    #JDHnkHtYwyXyVgG9 > div #adbl-continue-container {
        height: 50px;
        width: 100%;
@@ -108,7 +108,7 @@
        margin-top: 40px;
    }
    
-   /* زر الاستمرار للإعلان */
+   /* Ø²Ø± Ø§Ù„Ø§Ø³ØªÙ…Ø±Ø§Ø± Ù„Ù„Ø¥Ø¹Ù„Ø§Ù† */
    #JDHnkHtYwyXyVgG9 > div #adbl-continue-container #adbl-continue {
        background-color: #f7941d;
        color: #fff;
@@ -144,7 +144,7 @@
    }
    
    /* ====================================================
-      غلاف اللعبة
+      ØºÙ„Ø§Ù Ø§Ù„Ù„Ø¹Ø¨Ø©
       ==================================================== */
    #game-wrap {
        background-color: #000;
@@ -160,7 +160,7 @@
        left: 0;
    }
    
-   /* تعطيل التحديد/التظليل على عناصر اللعبة */
+   /* ØªØ¹Ø·ÙŠÙ„ Ø§Ù„ØªØ­Ø¯ÙŠØ¯/Ø§Ù„ØªØ¸Ù„ÙŠÙ„ Ø¹Ù„Ù‰ Ø¹Ù†Ø§ØµØ± Ø§Ù„Ù„Ø¹Ø¨Ø© */
    #game-wrap:not(input) {
        -webkit-touch-callout: none;
        -webkit-user-select: none;
@@ -170,7 +170,7 @@
        user-select: none;
    }
    
-   /* حاوية اللعبة */
+   /* Ø­Ø§ÙˆÙŠØ© Ø§Ù„Ù„Ø¹Ø¨Ø© */
    #game-wrap #game-cont {
        height: 100%;
        width: 100%;
@@ -182,7 +182,7 @@
        left: 0;
    }
    
-   /* لوحة الخلفية */
+   /* Ù„ÙˆØ­Ø© Ø§Ù„Ø®Ù„ÙÙŠØ© */
    #game-wrap #game-cont #background-canvas {
        width: 100%;
        height: 100%;
@@ -193,7 +193,7 @@
        left: 0;
    }
    
-   /* أزرار التواصل الاجتماعي */
+   /* Ø£Ø²Ø±Ø§Ø± Ø§Ù„ØªÙˆØ§ØµÙ„ Ø§Ù„Ø§Ø¬ØªÙ…Ø§Ø¹ÙŠ */
    #game-wrap #game-cont #social-buttons {
        position: absolute;
        left: 0;
@@ -204,7 +204,7 @@
    
    @media(max-width:1200px) and (max-height:800px) {
        #game-wrap #game-cont #social-buttons {
-           display: none !important;
+           display: block !important;
            background: red;
        }
    }
@@ -216,9 +216,9 @@
    }
    
    /* ====================================================
-      واجهات وشاشات اللعبة
+      ÙˆØ§Ø¬Ù‡Ø§Øª ÙˆØ´Ø§Ø´Ø§Øª Ø§Ù„Ù„Ø¹Ø¨Ø©
       ==================================================== */
-   /* فئة العرض العامة */
+   /* ÙØ¦Ø© Ø§Ù„Ø¹Ø±Ø¶ Ø§Ù„Ø¹Ø§Ù…Ø© */
    #game-wrap #game-cont .view {
        width: 100%;
        height: 100%;
@@ -229,7 +229,7 @@
        left: 0;
    }
    
-   /* عرض الخطأ */
+   /* Ø¹Ø±Ø¶ Ø§Ù„Ø®Ø·Ø£ */
    #game-wrap #game-cont #error-view {
        color: #fff;
        text-align: center;
@@ -237,7 +237,7 @@
        display: none;
    }
    
-   /* عرض المصدر */
+   /* Ø¹Ø±Ø¶ Ø§Ù„Ù…ØµØ¯Ø± */
    #game-wrap #game-cont #source-view {
        color: #fff;
        background-image: url(../images/iframe-poster.jpg);
@@ -284,7 +284,7 @@
        text-shadow: 0 0 10px #8bc34a;
    }
    
-   /* عرض اللعبة */
+   /* Ø¹Ø±Ø¶ Ø§Ù„Ù„Ø¹Ø¨Ø© */
    #game-wrap #game-cont #game-view {
        display: none;
    }
@@ -300,7 +300,7 @@
    }
    
    /* ====================================================
-      صندوق التمدد - حاوية واجهة المستخدم الرئيسية
+      ØµÙ†Ø¯ÙˆÙ‚ Ø§Ù„ØªÙ…Ø¯Ø¯ - Ø­Ø§ÙˆÙŠØ© ÙˆØ§Ø¬Ù‡Ø© Ø§Ù„Ù…Ø³ØªØ®Ø¯Ù… Ø§Ù„Ø±Ø¦ÙŠØ³ÙŠØ©
       ==================================================== */
    #game-wrap #game-cont #stretch-box {
        width: 1000px;
@@ -336,7 +336,7 @@
    }
    
    /* ====================================================
-      عرض القائمة الرئيسية
+      Ø¹Ø±Ø¶ Ø§Ù„Ù‚Ø§Ø¦Ù…Ø© Ø§Ù„Ø±Ø¦ÙŠØ³ÙŠØ©
       ==================================================== */
    
    
@@ -351,15 +351,15 @@
      position:absolute;
      top:0;
    }
-   /* تحريك حاوية بيانات اللاعب للأسفل وإلى اليسار */
+   /* ØªØ­Ø±ÙŠÙƒ Ø­Ø§ÙˆÙŠØ© Ø¨ÙŠØ§Ù†Ø§Øª Ø§Ù„Ù„Ø§Ø¹Ø¨ Ù„Ù„Ø£Ø³ÙÙ„ ÙˆØ¥Ù„Ù‰ Ø§Ù„ÙŠØ³Ø§Ø± */
    #game-wrap #game-cont #stretch-box #main-menu-view #mm-line-top #mm-player-info {
        display: inline-block;
        width: 340px;
        height: 50px;
        position: fixed !important;
        left: auto !important;
-       right: 110px !important; /* تحريك إلى اليسار - كانت 75px */
-       top: 80% !important; /* تحريك للأسفل أكثر - كانت 70% */
+       right: 110px !important; /* ØªØ­Ø±ÙŠÙƒ Ø¥Ù„Ù‰ Ø§Ù„ÙŠØ³Ø§Ø± - ÙƒØ§Ù†Øª 75px */
+       top: 80% !important; /* ØªØ­Ø±ÙŠÙƒ Ù„Ù„Ø£Ø³ÙÙ„ Ø£ÙƒØ«Ø± - ÙƒØ§Ù†Øª 70% */
        cursor: pointer;
        z-index: 999 !important;
        background: rgba(0,0,0,0.7) !important;
@@ -372,11 +372,11 @@
    }
    #game-wrap #game-cont #stretch-box #main-menu-view #mm-line-top #mm-player-info:hover {
      transition:background-color .2s ease,border .2s ease;
-     background:rgba(255,255,255,.15) !important; /* لون التحويم */
+     background:rgba(255,255,255,.15) !important; /* Ù„ÙˆÙ† Ø§Ù„ØªØ­ÙˆÙŠÙ… */
      border-radius:4px;
    }
    
-   /* صورة البروفايل */
+   /* ØµÙˆØ±Ø© Ø§Ù„Ø¨Ø±ÙˆÙØ§ÙŠÙ„ */
    #game-wrap #game-cont #stretch-box #main-menu-view #mm-line-top #mm-player-info #mm-player-avatar {
      position:absolute;
      left:13px;
@@ -396,10 +396,10 @@
      overflow: hidden;
      text-overflow: ellipsis;
      
-     /* تطبيق حدود سوداء بشفافية عالية مع إشعاع ذهبي خارجي */
-     color: #ffffff !important; /* لون النص الأساسي أبيض */
+     /* ØªØ·Ø¨ÙŠÙ‚ Ø­Ø¯ÙˆØ¯ Ø³ÙˆØ¯Ø§Ø¡ Ø¨Ø´ÙØ§ÙÙŠØ© Ø¹Ø§Ù„ÙŠØ© Ù…Ø¹ Ø¥Ø´Ø¹Ø§Ø¹ Ø°Ù‡Ø¨ÙŠ Ø®Ø§Ø±Ø¬ÙŠ */
+     color: #ffffff !important; /* Ù„ÙˆÙ† Ø§Ù„Ù†Øµ Ø§Ù„Ø£Ø³Ø§Ø³ÙŠ Ø£Ø¨ÙŠØ¶ */
      
-     /* إزالة أي حدود أو ظلال للعنصر نفسه */
+     /* Ø¥Ø²Ø§Ù„Ø© Ø£ÙŠ Ø­Ø¯ÙˆØ¯ Ø£Ùˆ Ø¸Ù„Ø§Ù„ Ù„Ù„Ø¹Ù†ØµØ± Ù†ÙØ³Ù‡ */
      border: none !important;
      box-shadow: none !important;
    }
@@ -408,14 +408,14 @@
    #game-wrap #game-cont #stretch-box #main-menu-view #mm-line-top #mm-player-info .mm-player-exp {
      position: absolute;
      left: 90px;
-     bottom: 28px; /* رفع العنصر للأعلى بمقدار 2 بكسل (زيادة القيمة من 0 إلى 2) */
+     bottom: 28px; /* Ø±ÙØ¹ Ø§Ù„Ø¹Ù†ØµØ± Ù„Ù„Ø£Ø¹Ù„Ù‰ Ø¨Ù…Ù‚Ø¯Ø§Ø± 2 Ø¨ÙƒØ³Ù„ (Ø²ÙŠØ§Ø¯Ø© Ø§Ù„Ù‚ÙŠÙ…Ø© Ù…Ù† 0 Ø¥Ù„Ù‰ 2) */
      width: 230px;
      height: 15px;
      border-radius: 8px;
      overflow: hidden;
      background: rgba(255,255,255,.1);
-     /* تخفيف الإشعاع بتقليل حجم الظل وتخفيف شدته */
-     box-shadow: 0px 2px 10px 3px rgba(255,165,0,0.1) !important; /* تم تخفيف الإشعاع */
+     /* ØªØ®ÙÙŠÙ Ø§Ù„Ø¥Ø´Ø¹Ø§Ø¹ Ø¨ØªÙ‚Ù„ÙŠÙ„ Ø­Ø¬Ù… Ø§Ù„Ø¸Ù„ ÙˆØªØ®ÙÙŠÙ Ø´Ø¯ØªÙ‡ */
+     box-shadow: 0px 2px 10px 3px rgba(255,165,0,0.1) !important; /* ØªÙ… ØªØ®ÙÙŠÙ Ø§Ù„Ø¥Ø´Ø¹Ø§Ø¹ */
    }
    
    #game-wrap #game-cont #stretch-box #main-menu-view #mm-line-top #mm-player-info .mm-player-exp #mm-player-exp-bar {
@@ -434,18 +434,18 @@
    }
    #game-wrap #game-cont #stretch-box #main-menu-view #mm-line-top #mm-player-info #mm-player-level {
      position: absolute;
-     right: -37px;      /* الإبقاء على الموضع الأصلي من اليمين */
-     top: -22px;        /* الإبقاء على الموضع الأصلي من الأعلى */
-     width: 70px;       /* الإبقاء على العرض الأصلي */
-     height: 70px;      /* الإبقاء على الارتفاع الأصلي */
-     line-height: 70px; /* الإبقاء على ارتفاع السطر الأصلي */
+     right: -37px;      /* Ø§Ù„Ø¥Ø¨Ù‚Ø§Ø¡ Ø¹Ù„Ù‰ Ø§Ù„Ù…ÙˆØ¶Ø¹ Ø§Ù„Ø£ØµÙ„ÙŠ Ù…Ù† Ø§Ù„ÙŠÙ…ÙŠÙ† */
+     top: -22px;        /* Ø§Ù„Ø¥Ø¨Ù‚Ø§Ø¡ Ø¹Ù„Ù‰ Ø§Ù„Ù…ÙˆØ¶Ø¹ Ø§Ù„Ø£ØµÙ„ÙŠ Ù…Ù† Ø§Ù„Ø£Ø¹Ù„Ù‰ */
+     width: 70px;       /* Ø§Ù„Ø¥Ø¨Ù‚Ø§Ø¡ Ø¹Ù„Ù‰ Ø§Ù„Ø¹Ø±Ø¶ Ø§Ù„Ø£ØµÙ„ÙŠ */
+     height: 70px;      /* Ø§Ù„Ø¥Ø¨Ù‚Ø§Ø¡ Ø¹Ù„Ù‰ Ø§Ù„Ø§Ø±ØªÙØ§Ø¹ Ø§Ù„Ø£ØµÙ„ÙŠ */
+     line-height: 70px; /* Ø§Ù„Ø¥Ø¨Ù‚Ø§Ø¡ Ø¹Ù„Ù‰ Ø§Ø±ØªÙØ§Ø¹ Ø§Ù„Ø³Ø·Ø± Ø§Ù„Ø£ØµÙ„ÙŠ */
      text-align: center;
-     font-size: 22px;   /* تقليل حجم الخط قليلاً من 25px */
+     font-size: 22px;   /* ØªÙ‚Ù„ÙŠÙ„ Ø­Ø¬Ù… Ø§Ù„Ø®Ø· Ù‚Ù„ÙŠÙ„Ø§Ù‹ Ù…Ù† 25px */
      text-shadow: 0 0 8px #fff;
      background: url(https://wormate.io/images/level-star.svg);
-     background-size: 70px; /* الإبقاء على حجم الخلفية الأصلي */
-     transform: scale(0.7); /* تصغير العنصر بنسبة 80% */
-     transform-origin: center; /* نقطة الأصل للتحويل في المنتصف */
+     background-size: 70px; /* Ø§Ù„Ø¥Ø¨Ù‚Ø§Ø¡ Ø¹Ù„Ù‰ Ø­Ø¬Ù… Ø§Ù„Ø®Ù„ÙÙŠØ© Ø§Ù„Ø£ØµÙ„ÙŠ */
+     transform: scale(0.7); /* ØªØµØºÙŠØ± Ø§Ù„Ø¹Ù†ØµØ± Ø¨Ù†Ø³Ø¨Ø© 80% */
+     transform-origin: center; /* Ù†Ù‚Ø·Ø© Ø§Ù„Ø£ØµÙ„ Ù„Ù„ØªØ­ÙˆÙŠÙ„ ÙÙŠ Ø§Ù„Ù…Ù†ØªØµÙ */
    }
    #game-wrap #game-cont #stretch-box #main-menu-view #mm-line-top #mm-coins-box {
      display:inline-block;
@@ -511,23 +511,16 @@
    
   #mm-coins-box, 
   #mm-coins-buy {
-    display: none !important;
-  }
-  
-  /* Hide all buy buttons to make game free */
-  .popup-menu-coins-buy,
-  #store-buy-button,
-  #wear-buy-button {
-    display: none !important;
+    display: block !important;
   }
    
-   /* أو إذا كنت تريد استهداف mm-coins-buy كعنصر فرعي داخل mm-coins-box فقط */
-   #mm-coins-box #mm-coins-buy {
-     display: none !important;
-   }
+   /* Ø£Ùˆ Ø¥Ø°Ø§ ÙƒÙ†Øª ØªØ±ÙŠØ¯ Ø§Ø³ØªÙ‡Ø¯Ø§Ù mm-coins-buy ÙƒØ¹Ù†ØµØ± ÙØ±Ø¹ÙŠ Ø¯Ø§Ø®Ù„ mm-coins-box ÙÙ‚Ø· */
+  #mm-coins-box #mm-coins-buy {
+    display: block !important;
+  }
    
    /* ====================================================
-      المنطقة الوسطى من القائمة الرئيسية
+      Ø§Ù„Ù…Ù†Ø·Ù‚Ø© Ø§Ù„ÙˆØ³Ø·Ù‰ Ù…Ù† Ø§Ù„Ù‚Ø§Ø¦Ù…Ø© Ø§Ù„Ø±Ø¦ÙŠØ³ÙŠØ©
       ==================================================== */
    #game-wrap #game-cont #stretch-box #main-menu-view #mm-line-center {
        height: 340px;
@@ -536,7 +529,7 @@
        top: 70px;
    }
    
-   /* العمود الأيسر - الوصف/المعلومات */
+   /* Ø§Ù„Ø¹Ù…ÙˆØ¯ Ø§Ù„Ø£ÙŠØ³Ø± - Ø§Ù„ÙˆØµÙ/Ø§Ù„Ù…Ø¹Ù„ÙˆÙ…Ø§Øª */
    #game-wrap #game-cont #stretch-box #main-menu-view #mm-line-center .column-left {
        position: absolute;
        height: 100%;
@@ -593,7 +586,7 @@
        color: rgba(255, 255, 255, .8);
    }
    
-   /* العمود الأوسط - الشعار، منتقي المظهر، زر اللعب */
+   /* Ø§Ù„Ø¹Ù…ÙˆØ¯ Ø§Ù„Ø£ÙˆØ³Ø· - Ø§Ù„Ø´Ø¹Ø§Ø±ØŒ Ù…Ù†ØªÙ‚ÙŠ Ø§Ù„Ù…Ø¸Ù‡Ø±ØŒ Ø²Ø± Ø§Ù„Ù„Ø¹Ø¨ */
    #game-wrap #game-cont #stretch-box #main-menu-view #mm-line-center .column-middle {
        position: absolute;
        height: 100%;
@@ -602,7 +595,7 @@
        border-radius: 5px;
        margin-top: -30px;
        left: 568px;
-       transform: translateX(-30px) !important; /* تحريك 100 بكسل يساراً */
+       transform: translateX(-30px) !important; /* ØªØ­Ø±ÙŠÙƒ 100 Ø¨ÙƒØ³Ù„ ÙŠØ³Ø§Ø±Ø§Ù‹ */
    }
    
    #game-wrap #game-cont #stretch-box #main-menu-view #mm-line-center .column-middle #mm-menu-cont {
@@ -611,7 +604,7 @@
        width: 100%;
    }
    
-   /* شعار اللعبة */
+   /* Ø´Ø¹Ø§Ø± Ø§Ù„Ù„Ø¹Ø¨Ø© */
    #game-wrap #game-cont #stretch-box #main-menu-view #mm-line-center .column-middle #mm-menu-cont .mm-logo {
        width: 100%;
        border: none;
@@ -620,7 +613,7 @@
        margin: 0;
    }
    
-   /* نص الحدث */
+   /* Ù†Øµ Ø§Ù„Ø­Ø¯Ø« */
    #game-wrap #game-cont #stretch-box #main-menu-view #mm-line-center .column-middle #mm-menu-cont .mm-event-cont {
        width: 100%;
        height: 40px;
@@ -640,11 +633,11 @@
        text-decoration: underline;
    }
    
-   /* تحريك منتقي المظهر للأسفل */
+   /* ØªØ­Ø±ÙŠÙƒ Ù…Ù†ØªÙ‚ÙŠ Ø§Ù„Ù…Ø¸Ù‡Ø± Ù„Ù„Ø£Ø³ÙÙ„ */
    #game-wrap #game-cont #stretch-box #main-menu-view #mm-line-center .column-middle #mm-menu-cont .mm-skin {
        height: 80px;
        position: relative;
-       margin-top: 50px !important; /* زيادة المسافة من أعلى */
+       margin-top: 50px !important; /* Ø²ÙŠØ§Ø¯Ø© Ø§Ù„Ù…Ø³Ø§ÙØ© Ù…Ù† Ø£Ø¹Ù„Ù‰ */
    }
    
    #game-wrap #game-cont #stretch-box #main-menu-view #mm-line-center .column-middle #mm-menu-cont .mm-skin #mm-skin-canv {
@@ -662,7 +655,7 @@
        border-radius: 4px;
    }
    
-   /* أزرار تنقل المظهر */
+   /* Ø£Ø²Ø±Ø§Ø± ØªÙ†Ù‚Ù„ Ø§Ù„Ù…Ø¸Ù‡Ø± */
    #game-wrap #game-cont #stretch-box #main-menu-view #mm-line-center .column-middle #mm-menu-cont .mm-skin #mm-skin-prev,
    #game-wrap #game-cont #stretch-box #main-menu-view #mm-line-center .column-middle #mm-menu-cont .mm-skin #mm-skin-next {
        position: absolute;
@@ -693,7 +686,7 @@
        right: 0;
    }
    
-   /* تراكب المظهر */
+   /* ØªØ±Ø§ÙƒØ¨ Ø§Ù„Ù…Ø¸Ù‡Ø± */
    #game-wrap #game-cont #stretch-box #main-menu-view #mm-line-center .column-middle #mm-menu-cont .mm-skin #mm-skin-over {
        position: absolute;
        left: 0;
@@ -725,7 +718,7 @@
        color: #fff;
    }
    
-   /* أزرار تراكب المظهر */
+   /* Ø£Ø²Ø±Ø§Ø± ØªØ±Ø§ÙƒØ¨ Ø§Ù„Ù…Ø¸Ù‡Ø± */
    #game-wrap #game-cont #stretch-box #main-menu-view #mm-line-center .column-middle #mm-menu-cont .mm-skin #mm-skin-over #mm-skin-over-button-list {
        left: 0;
        right: 0;
@@ -773,7 +766,7 @@
    }
    
    /* ====================================================
-      منطقة إدخال اسم المستخدم
+      Ù…Ù†Ø·Ù‚Ø© Ø¥Ø¯Ø®Ø§Ù„ Ø§Ø³Ù… Ø§Ù„Ù…Ø³ØªØ®Ø¯Ù…
       ==================================================== */
    #game-wrap #game-cont #stretch-box #main-menu-view #mm-line-center .column-middle #mm-menu-cont .mm-params {
        height: 35px;
@@ -801,7 +794,7 @@
        border-width: 0;
    }
    
-   /* منتقي وضع اللعبة (ظاهر) */
+   /* Ù…Ù†ØªÙ‚ÙŠ ÙˆØ¶Ø¹ Ø§Ù„Ù„Ø¹Ø¨Ø© (Ø¸Ø§Ù‡Ø±) */
    #game-wrap #game-cont #stretch-box #main-menu-view #mm-line-center .column-middle #mm-menu-cont .mm-params #mm-params-game-mode {
        position: absolute;
        top: 47px;
@@ -828,8 +821,8 @@
        transition: background-color .5s ease;
        display: block;
        
-       /* إضافة نفس التحريك */
-       transform: translateX(-30px) !important; /* أو margin-left: -30px !important; */
+       /* Ø¥Ø¶Ø§ÙØ© Ù†ÙØ³ Ø§Ù„ØªØ­Ø±ÙŠÙƒ */
+       transform: translateX(-30px) !important; /* Ø£Ùˆ margin-left: -30px !important; */
        z-index: 1000 !important;
        pointer-events: auto !important;
    }
@@ -848,7 +841,7 @@
    }
    
    /* ====================================================
-      زر اللعب والإجراءات
+      Ø²Ø± Ø§Ù„Ù„Ø¹Ø¨ ÙˆØ§Ù„Ø¥Ø¬Ø±Ø§Ø¡Ø§Øª
       ==================================================== */
    #game-wrap #game-cont #stretch-box #main-menu-view #mm-line-center .column-middle #mm-menu-cont .mm-actions {
        margin-top: -37px;
@@ -857,7 +850,7 @@
        position: relative;
    }
    
-   /* زر اللعب */
+   /* Ø²Ø± Ø§Ù„Ù„Ø¹Ø¨ */
    #game-wrap #game-cont #stretch-box #main-menu-view #mm-line-center .column-middle #mm-menu-cont .mm-actions #mm-action-play {
        background-color: #8bc34a;
        color: #fff;
@@ -889,7 +882,7 @@
        vertical-align: middle;
    }
    
-   /* زر اللعب كضيف */
+   /* Ø²Ø± Ø§Ù„Ù„Ø¹Ø¨ ÙƒØ¶ÙŠÙ */
    #game-wrap #game-cont #stretch-box #main-menu-view #mm-line-center .column-middle #mm-menu-cont .mm-actions #mm-action-guest {
        background-color: #8bc34a;
        color: #fff;
@@ -910,7 +903,7 @@
        position: absolute;
        left: 0;
        width: 180px;
-       display: none !important; /* إضافة هذه الخاصية لإخفاء الزر بشكل إجباري */
+       display: block !important; /* Ø¥Ø¶Ø§ÙØ© Ù‡Ø°Ù‡ Ø§Ù„Ø®Ø§ØµÙŠØ© Ù„Ø¥Ø®ÙØ§Ø¡ Ø§Ù„Ø²Ø± Ø¨Ø´ÙƒÙ„ Ø¥Ø¬Ø¨Ø§Ø±ÙŠ */
    }
    
    #game-wrap #game-cont #stretch-box #main-menu-view #mm-line-center .column-middle #mm-menu-cont .mm-actions #mm-action-guest:hover {
@@ -926,7 +919,7 @@
        vertical-align: middle;
    }
    
-   /* زر تسجيل الدخول */
+   /* Ø²Ø± ØªØ³Ø¬ÙŠÙ„ Ø§Ù„Ø¯Ø®ÙˆÙ„ */
    #game-wrap #game-cont #stretch-box #main-menu-view #mm-line-center .column-middle #mm-menu-cont .mm-actions #mm-action-login {
        background-color: #26c6da;
        color: #fff;
@@ -960,7 +953,7 @@
        vertical-align: middle;
    }
    
-   /* حل مبسط لإصلاح النقر */
+   /* Ø­Ù„ Ù…Ø¨Ø³Ø· Ù„Ø¥ØµÙ„Ø§Ø­ Ø§Ù„Ù†Ù‚Ø± */
    #mm-action-login {
        z-index: 1000 !important;
        pointer-events: auto !important;
@@ -968,7 +961,7 @@
        cursor: pointer !important;
    }
    
-   /* التأكد من عدم تداخل العناصر */
+   /* Ø§Ù„ØªØ£ÙƒØ¯ Ù…Ù† Ø¹Ø¯Ù… ØªØ¯Ø§Ø®Ù„ Ø§Ù„Ø¹Ù†Ø§ØµØ± */
    .mm-actions {
        z-index: 999 !important;
    }
@@ -980,7 +973,7 @@
    
    
    /* ====================================================
-      حاوية النصائح
+      Ø­Ø§ÙˆÙŠØ© Ø§Ù„Ù†ØµØ§Ø¦Ø­
       ==================================================== */
    #game-wrap #game-cont #stretch-box #main-menu-view #mm-line-center .column-middle #mm-menu-cont #mm-advice-cont {
        line-height: 50px;
@@ -1018,39 +1011,39 @@
    }
    
    /* ====================================================
-      رسوم متحركة للتحميل
+      Ø±Ø³ÙˆÙ… Ù…ØªØ­Ø±ÙƒØ© Ù„Ù„ØªØ­Ù…ÙŠÙ„
       ==================================================== */
-   /* إصلاح موضع شاشة التحميل في القائمة الرئيسية */
+   /* Ø¥ØµÙ„Ø§Ø­ Ù…ÙˆØ¶Ø¹ Ø´Ø§Ø´Ø© Ø§Ù„ØªØ­Ù…ÙŠÙ„ ÙÙŠ Ø§Ù„Ù‚Ø§Ø¦Ù…Ø© Ø§Ù„Ø±Ø¦ÙŠØ³ÙŠØ© */
    #game-wrap #game-cont #stretch-box #main-menu-view #mm-line-center .column-middle #mm-loading {
        display: none;
        position: absolute;
        height: 100%;
        width: 100%;
-       left: 0 !important; /* توسيط من اليسار */
-       right: 0 !important; /* توسيط من اليمين */
+       left: 0 !important; /* ØªÙˆØ³ÙŠØ· Ù…Ù† Ø§Ù„ÙŠØ³Ø§Ø± */
+       right: 0 !important; /* ØªÙˆØ³ÙŠØ· Ù…Ù† Ø§Ù„ÙŠÙ…ÙŠÙ† */
    }
    
-   /* شعار التحميل */
+   /* Ø´Ø¹Ø§Ø± Ø§Ù„ØªØ­Ù…ÙŠÙ„ */
    #game-wrap #game-cont #stretch-box #main-menu-view #mm-line-center .column-middle #mm-loading .mm-loading-logo {
        display: block;
        position: absolute;
        width: 320px;
        height: 60px;
        top: 80px;
-       left: 50% !important; /* توسيط أفقي */
-       transform: translateX(-50%) !important; /* توسيط دقيق */
+       left: 50% !important; /* ØªÙˆØ³ÙŠØ· Ø£ÙÙ‚ÙŠ */
+       transform: translateX(-50%) !important; /* ØªÙˆØ³ÙŠØ· Ø¯Ù‚ÙŠÙ‚ */
        object-fit: contain;
    }
    
-   /* نص التحميل */
+   /* Ù†Øµ Ø§Ù„ØªØ­Ù…ÙŠÙ„ */
    #game-wrap #game-cont #stretch-box #main-menu-view #mm-line-center .column-middle #mm-loading .mm-loading-label {
        display: block;
        position: absolute;
        width: 320px;
        height: 60px;
        bottom: 80px;
-       left: 50% !important; /* توسيط أفقي */
-       transform: translateX(-50%) !important; /* توسيط دقيق */
+       left: 50% !important; /* ØªÙˆØ³ÙŠØ· Ø£ÙÙ‚ÙŠ */
+       transform: translateX(-50%) !important; /* ØªÙˆØ³ÙŠØ· Ø¯Ù‚ÙŠÙ‚ */
        color: #fff;
        text-shadow: 0 0 5px #000;
        font-size: 48px;
@@ -1059,7 +1052,7 @@
        font-weight: 700;
    }
    
-   /* شريط التقدم */
+   /* Ø´Ø±ÙŠØ· Ø§Ù„ØªÙ‚Ø¯Ù… */
    #game-wrap #game-cont #stretch-box #main-menu-view #mm-line-center .column-middle #mm-loading #mm-loading-progress-cont {
        background-color: #a85e06;
        display: block;
@@ -1067,8 +1060,8 @@
        width: 320px;
        height: 15px;
        top: 162px;
-       left: 50% !important; /* توسيط أفقي */
-       transform: translateX(-50%) !important; /* توسيط دقيق */
+       left: 50% !important; /* ØªÙˆØ³ÙŠØ· Ø£ÙÙ‚ÙŠ */
+       transform: translateX(-50%) !important; /* ØªÙˆØ³ÙŠØ· Ø¯Ù‚ÙŠÙ‚ */
        border-radius: 10px;
        overflow: hidden;
    }
@@ -1095,7 +1088,7 @@
    }
    
    /* ====================================================
-      العمود الأيمن - الإعلانات
+      Ø§Ù„Ø¹Ù…ÙˆØ¯ Ø§Ù„Ø£ÙŠÙ…Ù† - Ø§Ù„Ø¥Ø¹Ù„Ø§Ù†Ø§Øª
       ==================================================== */
    #game-wrap #game-cont #stretch-box #main-menu-view #mm-line-center .column-right {
        position: absolute;
@@ -1130,63 +1123,63 @@
    }
    
    /* ====================================================
-      أزرار القائمة السفلية
+      Ø£Ø²Ø±Ø§Ø± Ø§Ù„Ù‚Ø§Ø¦Ù…Ø© Ø§Ù„Ø³ÙÙ„ÙŠØ©
       ==================================================== */
    #game-wrap #game-cont #stretch-box #main-menu-view #mm-line-bottom {
-       height: 280px; /* زيادة الارتفاع لاستيعاب الأزرار */
-       width: 120px !important; /* عرض محدد فقط للأزرار */
+       height: 280px; /* Ø²ÙŠØ§Ø¯Ø© Ø§Ù„Ø§Ø±ØªÙØ§Ø¹ Ù„Ø§Ø³ØªÙŠØ¹Ø§Ø¨ Ø§Ù„Ø£Ø²Ø±Ø§Ø± */
+       width: 120px !important; /* Ø¹Ø±Ø¶ Ù…Ø­Ø¯Ø¯ ÙÙ‚Ø· Ù„Ù„Ø£Ø²Ø±Ø§Ø± */
        position: absolute;
-       top: 135px; /* رفع الحاوية إلى 135px */
-       right: 0 !important; /* التصاق بالحافة اليمنى */
+       top: 135px; /* Ø±ÙØ¹ Ø§Ù„Ø­Ø§ÙˆÙŠØ© Ø¥Ù„Ù‰ 135px */
+       right: 0 !important; /* Ø§Ù„ØªØµØ§Ù‚ Ø¨Ø§Ù„Ø­Ø§ÙØ© Ø§Ù„ÙŠÙ…Ù†Ù‰ */
        direction: ltr;
        display: flex;
        justify-content: flex-end;
-       z-index: 999 !important; /* تقليل z-index لتجنب التداخل */
-       pointer-events: none !important; /* عدم حجب العناصر الأخرى */
+       z-index: 999 !important; /* ØªÙ‚Ù„ÙŠÙ„ z-index Ù„ØªØ¬Ù†Ø¨ Ø§Ù„ØªØ¯Ø§Ø®Ù„ */
+       pointer-events: none !important; /* Ø¹Ø¯Ù… Ø­Ø¬Ø¨ Ø§Ù„Ø¹Ù†Ø§ØµØ± Ø§Ù„Ø£Ø®Ø±Ù‰ */
    }
    
    #game-wrap #game-cont #stretch-box #main-menu-view #mm-line-bottom #mm-bottom-buttons {
-       float: none !important; /* إزالة float */
+       float: none !important; /* Ø¥Ø²Ø§Ù„Ø© float */
        margin-right: 0px;
-       width: 120px !important; /* عرض محدد بدلاً من النسبة المئوية */
+       width: 120px !important; /* Ø¹Ø±Ø¶ Ù…Ø­Ø¯Ø¯ Ø¨Ø¯Ù„Ø§Ù‹ Ù…Ù† Ø§Ù„Ù†Ø³Ø¨Ø© Ø§Ù„Ù…Ø¦ÙˆÙŠØ© */
        display: flex;
-       flex-direction: column; /* تغيير الاتجاه إلى عمودي */
-       align-items: flex-end; /* محاذاة العناصر إلى اليمين */
+       flex-direction: column; /* ØªØºÙŠÙŠØ± Ø§Ù„Ø§ØªØ¬Ø§Ù‡ Ø¥Ù„Ù‰ Ø¹Ù…ÙˆØ¯ÙŠ */
+       align-items: flex-end; /* Ù…Ø­Ø§Ø°Ø§Ø© Ø§Ù„Ø¹Ù†Ø§ØµØ± Ø¥Ù„Ù‰ Ø§Ù„ÙŠÙ…ÙŠÙ† */
        justify-content: flex-start;
-       height: 280px; /* زيادة الارتفاع لاستيعاب الأزرار العمودية */
-       z-index: 999 !important; /* تقليل z-index لتجنب التداخل */
+       height: 280px; /* Ø²ÙŠØ§Ø¯Ø© Ø§Ù„Ø§Ø±ØªÙØ§Ø¹ Ù„Ø§Ø³ØªÙŠØ¹Ø§Ø¨ Ø§Ù„Ø£Ø²Ø±Ø§Ø± Ø§Ù„Ø¹Ù…ÙˆØ¯ÙŠØ© */
+       z-index: 999 !important; /* ØªÙ‚Ù„ÙŠÙ„ z-index Ù„ØªØ¬Ù†Ø¨ Ø§Ù„ØªØ¯Ø§Ø®Ù„ */
        position: relative !important;
-       pointer-events: none !important; /* جعل المنطقة غير قابلة للنقر */
+       pointer-events: none !important; /* Ø¬Ø¹Ù„ Ø§Ù„Ù…Ù†Ø·Ù‚Ø© ØºÙŠØ± Ù‚Ø§Ø¨Ù„Ø© Ù„Ù„Ù†Ù‚Ø± */
    }
    
-   /* ترتيب الأزرار - الترتيب الجديد */
+   /* ØªØ±ØªÙŠØ¨ Ø§Ù„Ø£Ø²Ø±Ø§Ø± - Ø§Ù„ØªØ±ØªÙŠØ¨ Ø§Ù„Ø¬Ø¯ÙŠØ¯ */
    #game-wrap #game-cont #stretch-box #main-menu-view #mm-line-bottom #mm-bottom-buttons #op_wup {
-       order: 1; /* أول زر - Tool/Set */
+       order: 1; /* Ø£ÙˆÙ„ Ø²Ø± - Tool/Set */
    }
    
    #game-wrap #game-cont #stretch-box #main-menu-view #mm-line-bottom #mm-bottom-buttons #mm-store {
-       order: 2; /* ثاني زر - المتجر */
+       order: 2; /* Ø«Ø§Ù†ÙŠ Ø²Ø± - Ø§Ù„Ù…ØªØ¬Ø± */
    }
    
    #game-wrap #game-cont #stretch-box #main-menu-view #mm-line-bottom #mm-bottom-buttons #mm-leaders {
-       order: 3; /* ثالث زر - المتصدرين */
+       order: 3; /* Ø«Ø§Ù„Ø« Ø²Ø± - Ø§Ù„Ù…ØªØµØ¯Ø±ÙŠÙ† */
    }
    
    #game-wrap #game-cont #stretch-box #main-menu-view #mm-line-bottom #mm-bottom-buttons #mm-settings {
-       order: 4; /* رابع زر - الإعدادات */
+       order: 4; /* Ø±Ø§Ø¨Ø¹ Ø²Ø± - Ø§Ù„Ø¥Ø¹Ø¯Ø§Ø¯Ø§Øª */
    }
    
    #game-wrap #game-cont #stretch-box #main-menu-view #mm-line-bottom #mm-bottom-buttons #op_wup,
    #game-wrap #game-cont #stretch-box #main-menu-view #mm-line-bottom #mm-bottom-buttons > * {
        margin-top: 0 !important;
        position: relative;
-       right: -2px; /* تحريك 2 بكسل لليمين */
+       right: -2px; /* ØªØ­Ø±ÙŠÙƒ 2 Ø¨ÙƒØ³Ù„ Ù„Ù„ÙŠÙ…ÙŠÙ† */
        vertical-align: middle;
-       z-index: 1000 !important; /* z-index للأزرار الفردية */
-       pointer-events: auto !important; /* التأكد من أن الأزرار قابلة للنقر */
+       z-index: 1000 !important; /* z-index Ù„Ù„Ø£Ø²Ø±Ø§Ø± Ø§Ù„ÙØ±Ø¯ÙŠØ© */
+       pointer-events: auto !important; /* Ø§Ù„ØªØ£ÙƒØ¯ Ù…Ù† Ø£Ù† Ø§Ù„Ø£Ø²Ø±Ø§Ø± Ù‚Ø§Ø¨Ù„Ø© Ù„Ù„Ù†Ù‚Ø± */
    }
    
-   /* تصغير جميع الأزرار في الحالة العادية */
+   /* ØªØµØºÙŠØ± Ø¬Ù…ÙŠØ¹ Ø§Ù„Ø£Ø²Ø±Ø§Ø± ÙÙŠ Ø§Ù„Ø­Ø§Ù„Ø© Ø§Ù„Ø¹Ø§Ø¯ÙŠØ© */
    #op_wup,
    #mm-store,
    #mm-leaders,
@@ -1202,7 +1195,7 @@
        font-weight: inherit !important;
        position: relative !important;
        
-       /* إضافة الحواف البيضاء/الرمادية المفقودة */
+       /* Ø¥Ø¶Ø§ÙØ© Ø§Ù„Ø­ÙˆØ§Ù Ø§Ù„Ø¨ÙŠØ¶Ø§Ø¡/Ø§Ù„Ø±Ù…Ø§Ø¯ÙŠØ© Ø§Ù„Ù…ÙÙ‚ÙˆØ¯Ø© */
        border: 2px solid rgba(255, 255, 255, 0.8) !important;
        border-right: none !important;
        border-radius: 10px 0 0 10px !important;
@@ -1212,7 +1205,7 @@
            -3px 0 3px rgba(255, 255, 255, 0.5) !important;
    }
    
-   /* توسيع الأزرار عند التحويم */
+   /* ØªÙˆØ³ÙŠØ¹ Ø§Ù„Ø£Ø²Ø±Ø§Ø± Ø¹Ù†Ø¯ Ø§Ù„ØªØ­ÙˆÙŠÙ… */
    #op_wup:hover,
    #mm-store:hover,
    #mm-leaders:hover,
@@ -1227,58 +1220,58 @@
            -5px 0 5px rgba(255, 255, 255, 0.7) !important;
    }
    
-   /* تنسيق الأيقونات لجميع الأزرار - بأولوية أعلى */
+   /* ØªÙ†Ø³ÙŠÙ‚ Ø§Ù„Ø£ÙŠÙ‚ÙˆÙ†Ø§Øª Ù„Ø¬Ù…ÙŠØ¹ Ø§Ù„Ø£Ø²Ø±Ø§Ø± - Ø¨Ø£ÙˆÙ„ÙˆÙŠØ© Ø£Ø¹Ù„Ù‰ */
    #game-wrap #game-cont #stretch-box #main-menu-view #mm-line-bottom #mm-bottom-buttons #op_wup i,
    #game-wrap #game-cont #stretch-box #main-menu-view #mm-line-bottom #mm-bottom-buttons #mm-store i,
    #game-wrap #game-cont #stretch-box #main-menu-view #mm-line-bottom #mm-bottom-buttons #mm-leaders i,
    #game-wrap #game-cont #stretch-box #main-menu-view #mm-line-bottom #mm-bottom-buttons #mm-settings i {
-       font-size: 16px !important; /* تصغير حجم الأيقونة من 18px إلى 16px */
+       font-size: 16px !important; /* ØªØµØºÙŠØ± Ø­Ø¬Ù… Ø§Ù„Ø£ÙŠÙ‚ÙˆÙ†Ø© Ù…Ù† 18px Ø¥Ù„Ù‰ 16px */
        color: white !important;
        display: inline-block !important;
-       margin-right: 4px !important; /* إزاحة أكثر لليمين */
+       margin-right: 4px !important; /* Ø¥Ø²Ø§Ø­Ø© Ø£ÙƒØ«Ø± Ù„Ù„ÙŠÙ…ÙŠÙ† */
        font-family: "Font Awesome 6 Free" !important;
        font-weight: 900 !important;
        text-align: center !important;
        line-height: inherit !important;
        width: auto !important;
        position: relative !important;
-       text-shadow: none !important; /* إزالة جميع تأثيرات text-shadow */
+       text-shadow: none !important; /* Ø¥Ø²Ø§Ù„Ø© Ø¬Ù…ÙŠØ¹ ØªØ£Ø«ÙŠØ±Ø§Øª text-shadow */
        vertical-align: middle !important;
-       top: -4px !important; /* رفع الأيقونة للأعلى 4px بدلاً من 3px */
+       top: -4px !important; /* Ø±ÙØ¹ Ø§Ù„Ø£ÙŠÙ‚ÙˆÙ†Ø© Ù„Ù„Ø£Ø¹Ù„Ù‰ 4px Ø¨Ø¯Ù„Ø§Ù‹ Ù…Ù† 3px */
    }
    
-   /* إضافة مسافة بين الأيقونة والنص عند التحويم + إضافة مسافة من اليسار - بدون حدود */
+   /* Ø¥Ø¶Ø§ÙØ© Ù…Ø³Ø§ÙØ© Ø¨ÙŠÙ† Ø§Ù„Ø£ÙŠÙ‚ÙˆÙ†Ø© ÙˆØ§Ù„Ù†Øµ Ø¹Ù†Ø¯ Ø§Ù„ØªØ­ÙˆÙŠÙ… + Ø¥Ø¶Ø§ÙØ© Ù…Ø³Ø§ÙØ© Ù…Ù† Ø§Ù„ÙŠØ³Ø§Ø± - Ø¨Ø¯ÙˆÙ† Ø­Ø¯ÙˆØ¯ */
    #game-wrap #game-cont #stretch-box #main-menu-view #mm-line-bottom #mm-bottom-buttons #op_wup:hover i,
    #game-wrap #game-cont #stretch-box #main-menu-view #mm-line-bottom #mm-bottom-buttons #mm-store:hover i,
    #game-wrap #game-cont #stretch-box #main-menu-view #mm-line-bottom #mm-bottom-buttons #mm-leaders:hover i,
    #game-wrap #game-cont #stretch-box #main-menu-view #mm-line-bottom #mm-bottom-buttons #mm-settings:hover i {
-       margin-right: 9px !important; /* زيادة المسافة مع الإزاحة */
-       margin-left: 8px !important; /* إضافة مسافة من اليسار لمنع الالتصاق */
-       /* إزالة جميع حدود text-shadow */
+       margin-right: 9px !important; /* Ø²ÙŠØ§Ø¯Ø© Ø§Ù„Ù…Ø³Ø§ÙØ© Ù…Ø¹ Ø§Ù„Ø¥Ø²Ø§Ø­Ø© */
+       margin-left: 8px !important; /* Ø¥Ø¶Ø§ÙØ© Ù…Ø³Ø§ÙØ© Ù…Ù† Ø§Ù„ÙŠØ³Ø§Ø± Ù„Ù…Ù†Ø¹ Ø§Ù„Ø§Ù„ØªØµØ§Ù‚ */
+       /* Ø¥Ø²Ø§Ù„Ø© Ø¬Ù…ÙŠØ¹ Ø­Ø¯ÙˆØ¯ text-shadow */
    }
    
-   /* النص المخفي لجميع الأزرار - بأولوية أعلى */
+   /* Ø§Ù„Ù†Øµ Ø§Ù„Ù…Ø®ÙÙŠ Ù„Ø¬Ù…ÙŠØ¹ Ø§Ù„Ø£Ø²Ø±Ø§Ø± - Ø¨Ø£ÙˆÙ„ÙˆÙŠØ© Ø£Ø¹Ù„Ù‰ */
    #game-wrap #game-cont #stretch-box #main-menu-view #mm-line-bottom #mm-bottom-buttons #op_wup .btn-text,
    #game-wrap #game-cont #stretch-box #main-menu-view #mm-line-bottom #mm-bottom-buttons #mm-store .btn-text,
    #game-wrap #game-cont #stretch-box #main-menu-view #mm-line-bottom #mm-bottom-buttons #mm-leaders .btn-text,
    #game-wrap #game-cont #stretch-box #main-menu-view #mm-line-bottom #mm-bottom-buttons #mm-settings .btn-text {
-       font-size: 16px !important; /* تكبير حجم النص */
+       font-size: 16px !important; /* ØªÙƒØ¨ÙŠØ± Ø­Ø¬Ù… Ø§Ù„Ù†Øµ */
        opacity: 0 !important;
        display: inline-block !important;
-       transition: opacity 0.6s ease 0.2s !important; /* تأخير ظهور النص 0.2s */
+       transition: opacity 0.6s ease 0.2s !important; /* ØªØ£Ø®ÙŠØ± Ø¸Ù‡ÙˆØ± Ø§Ù„Ù†Øµ 0.2s */
        vertical-align: middle !important;
        font-family: inherit !important;
        font-weight: inherit !important;
        color: white !important;
-       text-shadow: none !important; /* إزالة جميع تأثيرات text-shadow */
+       text-shadow: none !important; /* Ø¥Ø²Ø§Ù„Ø© Ø¬Ù…ÙŠØ¹ ØªØ£Ø«ÙŠØ±Ø§Øª text-shadow */
        width: 0px !important;
        overflow: hidden !important;
        position: absolute !important;
-       left: -9999px !important; /* إخفاء النص خارج الشاشة */
-       top: -2px !important; /* رفع النص للأعلى */
+       left: -9999px !important; /* Ø¥Ø®ÙØ§Ø¡ Ø§Ù„Ù†Øµ Ø®Ø§Ø±Ø¬ Ø§Ù„Ø´Ø§Ø´Ø© */
+       top: -2px !important; /* Ø±ÙØ¹ Ø§Ù„Ù†Øµ Ù„Ù„Ø£Ø¹Ù„Ù‰ */
    }
    
-   /* إظهار النص عند التحويم لجميع الأزرار - بدون حدود */
+   /* Ø¥Ø¸Ù‡Ø§Ø± Ø§Ù„Ù†Øµ Ø¹Ù†Ø¯ Ø§Ù„ØªØ­ÙˆÙŠÙ… Ù„Ø¬Ù…ÙŠØ¹ Ø§Ù„Ø£Ø²Ø±Ø§Ø± - Ø¨Ø¯ÙˆÙ† Ø­Ø¯ÙˆØ¯ */
    #game-wrap #game-cont #stretch-box #main-menu-view #mm-line-bottom #mm-bottom-buttons #op_wup:hover .btn-text,
    #game-wrap #game-cont #stretch-box #main-menu-view #mm-line-bottom #mm-bottom-buttons #mm-store:hover .btn-text,
    #game-wrap #game-cont #stretch-box #main-menu-view #mm-line-bottom #mm-bottom-buttons #mm-leaders:hover .btn-text,
@@ -1286,14 +1279,14 @@
        opacity: 1 !important;
        width: auto !important;
        position: relative !important;
-       left: 0 !important; /* إظهار النص في موضعه الطبيعي */
-       transition: opacity 0.3s ease 0.15s !important; /* تأخير قصير عند الظهور */
-       /* إزالة جميع حدود text-shadow */
+       left: 0 !important; /* Ø¥Ø¸Ù‡Ø§Ø± Ø§Ù„Ù†Øµ ÙÙŠ Ù…ÙˆØ¶Ø¹Ù‡ Ø§Ù„Ø·Ø¨ÙŠØ¹ÙŠ */
+       transition: opacity 0.3s ease 0.15s !important; /* ØªØ£Ø®ÙŠØ± Ù‚ØµÙŠØ± Ø¹Ù†Ø¯ Ø§Ù„Ø¸Ù‡ÙˆØ± */
+       /* Ø¥Ø²Ø§Ù„Ø© Ø¬Ù…ÙŠØ¹ Ø­Ø¯ÙˆØ¯ text-shadow */
    }
    
-   /* زر Tool/Set - الزر الأول */
+   /* Ø²Ø± Tool/Set - Ø§Ù„Ø²Ø± Ø§Ù„Ø£ÙˆÙ„ */
    #game-wrap #game-cont #stretch-box #main-menu-view #mm-line-bottom #mm-bottom-buttons #op_wup {
-       /* الخصائص الأساسية */
+       /* Ø§Ù„Ø®ØµØ§Ø¦Øµ Ø§Ù„Ø£Ø³Ø§Ø³ÙŠØ© */
        overflow: hidden;
        height: 50px;
        line-height: 50px;
@@ -1302,25 +1295,25 @@
        box-sizing: border-box;
        text-align: center;
        cursor: pointer;
-       min-width: 50px; /* تصغير العرض */
-       width: 50px !important; /* عرض ثابت أصغر */
-       display: block; /* تغيير إلى block للعرض العمودي */
+       min-width: 50px; /* ØªØµØºÙŠØ± Ø§Ù„Ø¹Ø±Ø¶ */
+       width: 50px !important; /* Ø¹Ø±Ø¶ Ø«Ø§Ø¨Øª Ø£ØµØºØ± */
+       display: block; /* ØªØºÙŠÙŠØ± Ø¥Ù„Ù‰ block Ù„Ù„Ø¹Ø±Ø¶ Ø§Ù„Ø¹Ù…ÙˆØ¯ÙŠ */
        margin-right: 0;
-       margin-bottom: 11px; /* تقليل المسافة قليلاً */
-       pointer-events: auto !important; /* جعل الزر قابل للنقر */
+       margin-bottom: 11px; /* ØªÙ‚Ù„ÙŠÙ„ Ø§Ù„Ù…Ø³Ø§ÙØ© Ù‚Ù„ÙŠÙ„Ø§Ù‹ */
+       pointer-events: auto !important; /* Ø¬Ø¹Ù„ Ø§Ù„Ø²Ø± Ù‚Ø§Ø¨Ù„ Ù„Ù„Ù†Ù‚Ø± */
        
-       /* التنسيقات الجديدة - حدود سوداء وخلفية بسيطة */
+       /* Ø§Ù„ØªÙ†Ø³ÙŠÙ‚Ø§Øª Ø§Ù„Ø¬Ø¯ÙŠØ¯Ø© - Ø­Ø¯ÙˆØ¯ Ø³ÙˆØ¯Ø§Ø¡ ÙˆØ®Ù„ÙÙŠØ© Ø¨Ø³ÙŠØ·Ø© */
        color: white !important;
        font-weight: bold !important;
-       background: rgba(255, 255, 255, 0.03) !important; /* خلفية بسيطة جداً */
-       backdrop-filter: blur(5px) !important; /* تشويش خفيف جداً */
-       border: 2px solid #000000 !important; /* حدود سوداء */
-       border-right: none !important; /* إزالة الحد الأيمن */
-       outline: none !important; /* إزالة أي outline */
-       border-radius: 10px 0 0 10px !important; /* انحناء في الجانب الأيسر فقط */
+       background: rgba(255, 255, 255, 0.03) !important; /* Ø®Ù„ÙÙŠØ© Ø¨Ø³ÙŠØ·Ø© Ø¬Ø¯Ø§Ù‹ */
+       backdrop-filter: blur(5px) !important; /* ØªØ´ÙˆÙŠØ´ Ø®ÙÙŠÙ Ø¬Ø¯Ø§Ù‹ */
+       border: 2px solid #000000 !important; /* Ø­Ø¯ÙˆØ¯ Ø³ÙˆØ¯Ø§Ø¡ */
+       border-right: none !important; /* Ø¥Ø²Ø§Ù„Ø© Ø§Ù„Ø­Ø¯ Ø§Ù„Ø£ÙŠÙ…Ù† */
+       outline: none !important; /* Ø¥Ø²Ø§Ù„Ø© Ø£ÙŠ outline */
+       border-radius: 10px 0 0 10px !important; /* Ø§Ù†Ø­Ù†Ø§Ø¡ ÙÙŠ Ø§Ù„Ø¬Ø§Ù†Ø¨ Ø§Ù„Ø£ÙŠØ³Ø± ÙÙ‚Ø· */
        box-shadow: 
            -3px 0 3px rgba(0, 0, 0, 0.3),
-           -3px 0 3px rgba(255, 255, 255, 0.5) !important; /* ظل أسود + إشعاع أبيض حول الزر */
+           -3px 0 3px rgba(255, 255, 255, 0.5) !important; /* Ø¸Ù„ Ø£Ø³ÙˆØ¯ + Ø¥Ø´Ø¹Ø§Ø¹ Ø£Ø¨ÙŠØ¶ Ø­ÙˆÙ„ Ø§Ù„Ø²Ø± */
        text-shadow: 
            0 0 2px #fff,
            0 0 4px rgba(255, 255, 255, 0.8) !important;
@@ -1328,14 +1321,14 @@
    }
    
    #game-wrap #game-cont #stretch-box #main-menu-view #mm-line-bottom #mm-bottom-buttons #op_wup:hover {
-       background: rgba(255, 255, 255, 0.15) !important; /* الخلفية تظهر فقط عند التحويم */
-       backdrop-filter: blur(15px) !important; /* التشويش يظهر فقط عند التحويم */
-       border: 2px solid rgba(255, 255, 255, 1) !important; /* حد أبيض أقوى عند التحويم */
+       background: rgba(255, 255, 255, 0.15) !important; /* Ø§Ù„Ø®Ù„ÙÙŠØ© ØªØ¸Ù‡Ø± ÙÙ‚Ø· Ø¹Ù†Ø¯ Ø§Ù„ØªØ­ÙˆÙŠÙ… */
+       backdrop-filter: blur(15px) !important; /* Ø§Ù„ØªØ´ÙˆÙŠØ´ ÙŠØ¸Ù‡Ø± ÙÙ‚Ø· Ø¹Ù†Ø¯ Ø§Ù„ØªØ­ÙˆÙŠÙ… */
+       border: 2px solid rgba(255, 255, 255, 1) !important; /* Ø­Ø¯ Ø£Ø¨ÙŠØ¶ Ø£Ù‚ÙˆÙ‰ Ø¹Ù†Ø¯ Ø§Ù„ØªØ­ÙˆÙŠÙ… */
        border-right: none !important;
        width: 110px !important;
        min-width: 110px !important;
-       padding: 0 8px !important; /* زيادة padding لمنع الالتصاق */
-       text-align: center !important; /* تغيير المحاذاة إلى المنتصف */
+       padding: 0 8px !important; /* Ø²ÙŠØ§Ø¯Ø© padding Ù„Ù…Ù†Ø¹ Ø§Ù„Ø§Ù„ØªØµØ§Ù‚ */
+       text-align: center !important; /* ØªØºÙŠÙŠØ± Ø§Ù„Ù…Ø­Ø§Ø°Ø§Ø© Ø¥Ù„Ù‰ Ø§Ù„Ù…Ù†ØªØµÙ */
        box-shadow: 
            -5px 0 5px rgba(255, 255, 255, 0.7) !important;
        text-shadow: 
@@ -1352,9 +1345,9 @@
        vertical-align: middle;
    }
    
-   /* زر المتجر - الزر الثاني */
+   /* Ø²Ø± Ø§Ù„Ù…ØªØ¬Ø± - Ø§Ù„Ø²Ø± Ø§Ù„Ø«Ø§Ù†ÙŠ */
    #game-wrap #game-cont #stretch-box #main-menu-view #mm-line-bottom #mm-bottom-buttons #mm-store {
-       /* الحفاظ على الخصائص الأصلية للحجم والموقع */
+       /* Ø§Ù„Ø­ÙØ§Ø¸ Ø¹Ù„Ù‰ Ø§Ù„Ø®ØµØ§Ø¦Øµ Ø§Ù„Ø£ØµÙ„ÙŠØ© Ù„Ù„Ø­Ø¬Ù… ÙˆØ§Ù„Ù…ÙˆÙ‚Ø¹ */
        overflow: hidden;
        height: 50px;
        line-height: 50px;
@@ -1362,25 +1355,25 @@
        box-sizing: border-box;
        text-align: center;
        cursor: pointer;
-       min-width: 50px; /* تصغير العرض */
-       width: 50px !important; /* عرض ثابت أصغر */
-       display: block; /* تغيير إلى block للعرض العمودي */
-       float: none; /* إزالة الطفو */
+       min-width: 50px; /* ØªØµØºÙŠØ± Ø§Ù„Ø¹Ø±Ø¶ */
+       width: 50px !important; /* Ø¹Ø±Ø¶ Ø«Ø§Ø¨Øª Ø£ØµØºØ± */
+       display: block; /* ØªØºÙŠÙŠØ± Ø¥Ù„Ù‰ block Ù„Ù„Ø¹Ø±Ø¶ Ø§Ù„Ø¹Ù…ÙˆØ¯ÙŠ */
+       float: none; /* Ø¥Ø²Ø§Ù„Ø© Ø§Ù„Ø·ÙÙˆ */
        margin-right: 0;
-       margin-bottom: 10px; /* مسافة عادية */
+       margin-bottom: 10px; /* Ù…Ø³Ø§ÙØ© Ø¹Ø§Ø¯ÙŠØ© */
        
-       /* التنسيقات الجديدة فقط - حدود سوداء وخلفية بسيطة */
+       /* Ø§Ù„ØªÙ†Ø³ÙŠÙ‚Ø§Øª Ø§Ù„Ø¬Ø¯ÙŠØ¯Ø© ÙÙ‚Ø· - Ø­Ø¯ÙˆØ¯ Ø³ÙˆØ¯Ø§Ø¡ ÙˆØ®Ù„ÙÙŠØ© Ø¨Ø³ÙŠØ·Ø© */
        color: white !important;
        font-weight: bold !important;
-       background: rgba(255, 255, 255, 0.03) !important; /* خلفية بسيطة جداً */
-       backdrop-filter: blur(5px) !important; /* تشويش خفيف جداً */
-       border: 2px solid #000000 !important; /* حدود سوداء */
-       border-right: none !important; /* إزالة الحد الأيمن */
-       outline: none !important; /* إزالة أي outline */
-       border-radius: 10px 0 0 10px !important; /* انحناء في الجانب الأيسر فقط */
+       background: rgba(255, 255, 255, 0.03) !important; /* Ø®Ù„ÙÙŠØ© Ø¨Ø³ÙŠØ·Ø© Ø¬Ø¯Ø§Ù‹ */
+       backdrop-filter: blur(5px) !important; /* ØªØ´ÙˆÙŠØ´ Ø®ÙÙŠÙ Ø¬Ø¯Ø§Ù‹ */
+       border: 2px solid #000000 !important; /* Ø­Ø¯ÙˆØ¯ Ø³ÙˆØ¯Ø§Ø¡ */
+       border-right: none !important; /* Ø¥Ø²Ø§Ù„Ø© Ø§Ù„Ø­Ø¯ Ø§Ù„Ø£ÙŠÙ…Ù† */
+       outline: none !important; /* Ø¥Ø²Ø§Ù„Ø© Ø£ÙŠ outline */
+       border-radius: 10px 0 0 10px !important; /* Ø§Ù†Ø­Ù†Ø§Ø¡ ÙÙŠ Ø§Ù„Ø¬Ø§Ù†Ø¨ Ø§Ù„Ø£ÙŠØ³Ø± ÙÙ‚Ø· */
        box-shadow: 
            -3px 0 3px rgba(0, 0, 0, 0.3),
-           -3px 0 3px rgba(255, 255, 255, 0.5) !important; /* ظل أسود + إشعاع أبيض حول الزر */
+           -3px 0 3px rgba(255, 255, 255, 0.5) !important; /* Ø¸Ù„ Ø£Ø³ÙˆØ¯ + Ø¥Ø´Ø¹Ø§Ø¹ Ø£Ø¨ÙŠØ¶ Ø­ÙˆÙ„ Ø§Ù„Ø²Ø± */
        text-shadow: 
            0 0 2px #fff,
            0 0 4px rgba(255, 255, 255, 0.8) !important;
@@ -1389,12 +1382,12 @@
    
    #game-wrap #game-cont #stretch-box #main-menu-view #mm-line-bottom #mm-bottom-buttons #mm-store:hover {
        background: rgba(255, 255, 255, 0.15) !important;
-       border: 2px solid rgba(255, 255, 255, 1) !important; /* حد أبيض أقوى عند التحويم */
+       border: 2px solid rgba(255, 255, 255, 1) !important; /* Ø­Ø¯ Ø£Ø¨ÙŠØ¶ Ø£Ù‚ÙˆÙ‰ Ø¹Ù†Ø¯ Ø§Ù„ØªØ­ÙˆÙŠÙ… */
        border-right: none !important;
        width: 110px !important;
        min-width: 110px !important;
-       padding: 0 8px !important; /* زيادة padding لمنع الالتصاق */
-       text-align: center !important; /* تغيير المحاذاة إلى المنتصف */
+       padding: 0 8px !important; /* Ø²ÙŠØ§Ø¯Ø© padding Ù„Ù…Ù†Ø¹ Ø§Ù„Ø§Ù„ØªØµØ§Ù‚ */
+       text-align: center !important; /* ØªØºÙŠÙŠØ± Ø§Ù„Ù…Ø­Ø§Ø°Ø§Ø© Ø¥Ù„Ù‰ Ø§Ù„Ù…Ù†ØªØµÙ */
        box-shadow:
            -5px 0 5px rgba(255, 255, 255, 0.7) !important;
        text-shadow: 
@@ -1411,9 +1404,9 @@
        vertical-align: middle;
    }
    
-   /* زر المتصدرين - الزر الثالث */
+   /* Ø²Ø± Ø§Ù„Ù…ØªØµØ¯Ø±ÙŠÙ† - Ø§Ù„Ø²Ø± Ø§Ù„Ø«Ø§Ù„Ø« */
    #game-wrap #game-cont #stretch-box #main-menu-view #mm-line-bottom #mm-bottom-buttons #mm-leaders {
-       /* الحفاظ على الخصائص الأصلية للحجم والموقع */
+       /* Ø§Ù„Ø­ÙØ§Ø¸ Ø¹Ù„Ù‰ Ø§Ù„Ø®ØµØ§Ø¦Øµ Ø§Ù„Ø£ØµÙ„ÙŠØ© Ù„Ù„Ø­Ø¬Ù… ÙˆØ§Ù„Ù…ÙˆÙ‚Ø¹ */
        overflow: hidden;
        height: 50px;
        line-height: 50px;
@@ -1422,24 +1415,24 @@
        box-sizing: border-box;
        text-align: center;
        cursor: pointer;
-       min-width: 50px; /* تصغير العرض */
-       width: 50px !important; /* عرض ثابت أصغر */
-       display: block; /* تغيير إلى block للعرض العمودي */
+       min-width: 50px; /* ØªØµØºÙŠØ± Ø§Ù„Ø¹Ø±Ø¶ */
+       width: 50px !important; /* Ø¹Ø±Ø¶ Ø«Ø§Ø¨Øª Ø£ØµØºØ± */
+       display: block; /* ØªØºÙŠÙŠØ± Ø¥Ù„Ù‰ block Ù„Ù„Ø¹Ø±Ø¶ Ø§Ù„Ø¹Ù…ÙˆØ¯ÙŠ */
        margin-right: 0;
-       margin-bottom: 10px; /* مسافة عادية */
+       margin-bottom: 10px; /* Ù…Ø³Ø§ÙØ© Ø¹Ø§Ø¯ÙŠØ© */
        
-       /* التنسيقات الجديدة فقط - حدود سوداء وخلفية بسيطة */
+       /* Ø§Ù„ØªÙ†Ø³ÙŠÙ‚Ø§Øª Ø§Ù„Ø¬Ø¯ÙŠØ¯Ø© ÙÙ‚Ø· - Ø­Ø¯ÙˆØ¯ Ø³ÙˆØ¯Ø§Ø¡ ÙˆØ®Ù„ÙÙŠØ© Ø¨Ø³ÙŠØ·Ø© */
        color: white !important;
        font-weight: bold !important;
-       background: rgba(255, 255, 255, 0.03) !important; /* خلفية بسيطة جداً */
-       backdrop-filter: blur(5px) !important; /* تشويش خفيف جداً */
-       border: 2px solid #000000 !important; /* حدود سوداء */
-       border-right: none !important; /* إزالة الحد الأيمن */
-       outline: none !important; /* إزالة أي outline */
-       border-radius: 10px 0 0 10px !important; /* انحناء في الجانب الأيسر فقط */
+       background: rgba(255, 255, 255, 0.03) !important; /* Ø®Ù„ÙÙŠØ© Ø¨Ø³ÙŠØ·Ø© Ø¬Ø¯Ø§Ù‹ */
+       backdrop-filter: blur(5px) !important; /* ØªØ´ÙˆÙŠØ´ Ø®ÙÙŠÙ Ø¬Ø¯Ø§Ù‹ */
+       border: 2px solid #000000 !important; /* Ø­Ø¯ÙˆØ¯ Ø³ÙˆØ¯Ø§Ø¡ */
+       border-right: none !important; /* Ø¥Ø²Ø§Ù„Ø© Ø§Ù„Ø­Ø¯ Ø§Ù„Ø£ÙŠÙ…Ù† */
+       outline: none !important; /* Ø¥Ø²Ø§Ù„Ø© Ø£ÙŠ outline */
+       border-radius: 10px 0 0 10px !important; /* Ø§Ù†Ø­Ù†Ø§Ø¡ ÙÙŠ Ø§Ù„Ø¬Ø§Ù†Ø¨ Ø§Ù„Ø£ÙŠØ³Ø± ÙÙ‚Ø· */
        box-shadow: 
            -3px 0 3px rgba(0, 0, 0, 0.3),
-           -3px 0 3px rgba(255, 255, 255, 0.5) !important; /* ظل أسود + إشعاع أبيض حول الزر */
+           -3px 0 3px rgba(255, 255, 255, 0.5) !important; /* Ø¸Ù„ Ø£Ø³ÙˆØ¯ + Ø¥Ø´Ø¹Ø§Ø¹ Ø£Ø¨ÙŠØ¶ Ø­ÙˆÙ„ Ø§Ù„Ø²Ø± */
        text-shadow: 
            0 0 2px #fff,
            0 0 4px rgba(255, 255, 255, 0.8) !important;
@@ -1448,12 +1441,12 @@
    
    #game-wrap #game-cont #stretch-box #main-menu-view #mm-line-bottom #mm-bottom-buttons #mm-leaders:hover {
        background: rgba(255, 255, 255, 0.15) !important;
-       border: 2px solid rgba(255, 255, 255, 1) !important; /* حد أبيض أقوى عند التحويم */
+       border: 2px solid rgba(255, 255, 255, 1) !important; /* Ø­Ø¯ Ø£Ø¨ÙŠØ¶ Ø£Ù‚ÙˆÙ‰ Ø¹Ù†Ø¯ Ø§Ù„ØªØ­ÙˆÙŠÙ… */
        border-right: none !important;
        width: 110px !important;
        min-width: 110px !important;
-       padding: 0 8px !important; /* زيادة padding لمنع الالتصاق */
-       text-align: center !important; /* تغيير المحاذاة إلى المنتصف */
+       padding: 0 8px !important; /* Ø²ÙŠØ§Ø¯Ø© padding Ù„Ù…Ù†Ø¹ Ø§Ù„Ø§Ù„ØªØµØ§Ù‚ */
+       text-align: center !important; /* ØªØºÙŠÙŠØ± Ø§Ù„Ù…Ø­Ø§Ø°Ø§Ø© Ø¥Ù„Ù‰ Ø§Ù„Ù…Ù†ØªØµÙ */
        box-shadow: 
            -5px 0 5px rgba(255, 255, 255, 0.7) !important;
        text-shadow: 
@@ -1470,9 +1463,9 @@
        vertical-align: middle;
    }
    
-   /* زر الإعدادات - الزر الرابع (الأخير) */
+   /* Ø²Ø± Ø§Ù„Ø¥Ø¹Ø¯Ø§Ø¯Ø§Øª - Ø§Ù„Ø²Ø± Ø§Ù„Ø±Ø§Ø¨Ø¹ (Ø§Ù„Ø£Ø®ÙŠØ±) */
    #game-wrap #game-cont #stretch-box #main-menu-view #mm-line-bottom #mm-bottom-buttons #mm-settings {
-       /* الحفاظ على الخصائص الأصلية للحجم والموقع */
+       /* Ø§Ù„Ø­ÙØ§Ø¸ Ø¹Ù„Ù‰ Ø§Ù„Ø®ØµØ§Ø¦Øµ Ø§Ù„Ø£ØµÙ„ÙŠØ© Ù„Ù„Ø­Ø¬Ù… ÙˆØ§Ù„Ù…ÙˆÙ‚Ø¹ */
        overflow: hidden;
        height: 50px;
        line-height: 50px;
@@ -1481,25 +1474,25 @@
        box-sizing: border-box;
        text-align: center;
        cursor: pointer;
-       min-width: 50px; /* تصغير العرض */
-       width: 50px !important; /* عرض ثابت أصغر */
-       display: block; /* تغيير إلى block للعرض العمودي */
+       min-width: 50px; /* ØªØµØºÙŠØ± Ø§Ù„Ø¹Ø±Ø¶ */
+       width: 50px !important; /* Ø¹Ø±Ø¶ Ø«Ø§Ø¨Øª Ø£ØµØºØ± */
+       display: block; /* ØªØºÙŠÙŠØ± Ø¥Ù„Ù‰ block Ù„Ù„Ø¹Ø±Ø¶ Ø§Ù„Ø¹Ù…ÙˆØ¯ÙŠ */
        margin-right: 0;
        margin-left: 0;
-       margin-bottom: 0; /* بدون مسافة للزر الأخير */
+       margin-bottom: 0; /* Ø¨Ø¯ÙˆÙ† Ù…Ø³Ø§ÙØ© Ù„Ù„Ø²Ø± Ø§Ù„Ø£Ø®ÙŠØ± */
        
-       /* التنسيقات الجديدة فقط - حدود سوداء وخلفية بسيطة */
+       /* Ø§Ù„ØªÙ†Ø³ÙŠÙ‚Ø§Øª Ø§Ù„Ø¬Ø¯ÙŠØ¯Ø© ÙÙ‚Ø· - Ø­Ø¯ÙˆØ¯ Ø³ÙˆØ¯Ø§Ø¡ ÙˆØ®Ù„ÙÙŠØ© Ø¨Ø³ÙŠØ·Ø© */
        color: white !important;
        font-weight: bold !important;
-       background: rgba(255, 255, 255, 0.03) !important; /* خلفية بسيطة جداً */
-       backdrop-filter: blur(5px) !important; /* تشويش خفيف جداً */
-       border: 2px solid #000000 !important; /* حدود سوداء */
-       border-right: none !important; /* إزالة الحد الأيمن */
-       outline: none !important; /* إزالة أي outline */
-       border-radius: 10px 0 0 10px !important; /* انحناء في الجانب الأيسر فقط */
+       background: rgba(255, 255, 255, 0.03) !important; /* Ø®Ù„ÙÙŠØ© Ø¨Ø³ÙŠØ·Ø© Ø¬Ø¯Ø§Ù‹ */
+       backdrop-filter: blur(5px) !important; /* ØªØ´ÙˆÙŠØ´ Ø®ÙÙŠÙ Ø¬Ø¯Ø§Ù‹ */
+       border: 2px solid #000000 !important; /* Ø­Ø¯ÙˆØ¯ Ø³ÙˆØ¯Ø§Ø¡ */
+       border-right: none !important; /* Ø¥Ø²Ø§Ù„Ø© Ø§Ù„Ø­Ø¯ Ø§Ù„Ø£ÙŠÙ…Ù† */
+       outline: none !important; /* Ø¥Ø²Ø§Ù„Ø© Ø£ÙŠ outline */
+       border-radius: 10px 0 0 10px !important; /* Ø§Ù†Ø­Ù†Ø§Ø¡ ÙÙŠ Ø§Ù„Ø¬Ø§Ù†Ø¨ Ø§Ù„Ø£ÙŠØ³Ø± ÙÙ‚Ø· */
        box-shadow: 
            -3px 0 3px rgba(0, 0, 0, 0.3),
-           -3px 0 3px rgba(255, 255, 255, 0.5) !important; /* ظل أسود + إشعاع أبيض حول الزر */
+           -3px 0 3px rgba(255, 255, 255, 0.5) !important; /* Ø¸Ù„ Ø£Ø³ÙˆØ¯ + Ø¥Ø´Ø¹Ø§Ø¹ Ø£Ø¨ÙŠØ¶ Ø­ÙˆÙ„ Ø§Ù„Ø²Ø± */
        text-shadow: 
            0 0 2px #fff,
            0 0 4px rgba(255, 255, 255, 0.8) !important;
@@ -1508,12 +1501,12 @@
    
    #game-wrap #game-cont #stretch-box #main-menu-view #mm-line-bottom #mm-bottom-buttons #mm-settings:hover {
        background: rgba(255, 255, 255, 0.15) !important;
-       border: 2px solid rgba(255, 255, 255, 1) !important; /* حد أبيض أقوى عند التحويم */
+       border: 2px solid rgba(255, 255, 255, 1) !important; /* Ø­Ø¯ Ø£Ø¨ÙŠØ¶ Ø£Ù‚ÙˆÙ‰ Ø¹Ù†Ø¯ Ø§Ù„ØªØ­ÙˆÙŠÙ… */
        border-right: none !important;
        width: 110px !important;
        min-width: 110px !important;
-       padding: 0 8px !important; /* زيادة padding لمنع الالتصاق */
-       text-align: center !important; /* تغيير المحاذاة إلى المنتصف */
+       padding: 0 8px !important; /* Ø²ÙŠØ§Ø¯Ø© padding Ù„Ù…Ù†Ø¹ Ø§Ù„Ø§Ù„ØªØµØ§Ù‚ */
+       text-align: center !important; /* ØªØºÙŠÙŠØ± Ø§Ù„Ù…Ø­Ø§Ø°Ø§Ø© Ø¥Ù„Ù‰ Ø§Ù„Ù…Ù†ØªØµÙ */
        box-shadow: 
            -5px 0 5px rgba(255, 255, 255, 0.7) !important;
        text-shadow: 
@@ -1530,7 +1523,7 @@
        vertical-align: middle;
    }
    
-   /* حاوية التاجر */
+   /* Ø­Ø§ÙˆÙŠØ© Ø§Ù„ØªØ§Ø¬Ø± */
    #game-wrap #game-cont #stretch-box #main-menu-view #mm-line-bottom .mm-merchant-cont {
        position: absolute;
        left: 550px;
@@ -1557,7 +1550,7 @@
    
    
    /* ====================================================
-      عرض النوافذ المنبثقة
+      Ø¹Ø±Ø¶ Ø§Ù„Ù†ÙˆØ§ÙØ° Ø§Ù„Ù…Ù†Ø¨Ø«Ù‚Ø©
       ==================================================== */
    #game-wrap #game-cont #stretch-box #popup-view {
        display: none;
@@ -1566,22 +1559,22 @@
    }
    
    #game-wrap #game-cont #stretch-box #popup-view .stretch-container {
-       border: 2px solid rgba(0, 0, 0, 0.5); /* حواف سوداء */
+       border: 2px solid rgba(0, 0, 0, 0.5); /* Ø­ÙˆØ§Ù Ø³ÙˆØ¯Ø§Ø¡ */
        box-shadow: 
-           0px 0px 0px 2px rgba(0, 0, 0, 0.5), /* ظل أسود محدد للحدود */
-           0px 0px 15px 5px rgba(255, 255, 255, 0.3); /* إشعاع أبيض */
+           0px 0px 0px 2px rgba(0, 0, 0, 0.5), /* Ø¸Ù„ Ø£Ø³ÙˆØ¯ Ù…Ø­Ø¯Ø¯ Ù„Ù„Ø­Ø¯ÙˆØ¯ */
+           0px 0px 15px 5px rgba(255, 255, 255, 0.3); /* Ø¥Ø´Ø¹Ø§Ø¹ Ø£Ø¨ÙŠØ¶ */
        background: rgba(47, 46, 68, .4);
        border-radius: 5px;
        overflow: hidden;
    }
    
-   /* رأس النافذة المنبثقة */
+   /* Ø±Ø£Ø³ Ø§Ù„Ù†Ø§ÙØ°Ø© Ø§Ù„Ù…Ù†Ø¨Ø«Ù‚Ø© */
    #game-wrap #game-cont #stretch-box #popup-view .popup-view-head {
        height: 40px;
        background: linear-gradient(145deg, #ff8d00, #ff6600);
    }
    
-   /* زر الرجوع */
+   /* Ø²Ø± Ø§Ù„Ø±Ø¬ÙˆØ¹ */
    #game-wrap #game-cont #stretch-box #popup-view .popup-view-head #popup-menu-back {
        position: absolute;
        height: 40px;
@@ -1607,7 +1600,7 @@
    
    }
    
-   /* تسمية النافذة المنبثقة */
+   /* ØªØ³Ù…ÙŠØ© Ø§Ù„Ù†Ø§ÙØ°Ø© Ø§Ù„Ù…Ù†Ø¨Ø«Ù‚Ø© */
    #game-wrap #game-cont #stretch-box #popup-view .popup-view-head #popup-menu-label {
        position: absolute;
        height: 40px;
@@ -1619,7 +1612,7 @@
        text-align: center;
    }
    
-   /* صندوق العملات في النافذة المنبثقة (تكملة) */
+   /* ØµÙ†Ø¯ÙˆÙ‚ Ø§Ù„Ø¹Ù…Ù„Ø§Øª ÙÙŠ Ø§Ù„Ù†Ø§ÙØ°Ø© Ø§Ù„Ù…Ù†Ø¨Ø«Ù‚Ø© (ØªÙƒÙ…Ù„Ø©) */
    #game-wrap #game-cont #stretch-box #popup-view .popup-view-head #popup-menu-coins-box {
        position: absolute;
        height: 40px;
@@ -1656,7 +1649,7 @@
        font-size: 16px;
    }
    
-   /* زر شراء العملات في النافذة المنبثقة */
+   /* Ø²Ø± Ø´Ø±Ø§Ø¡ Ø§Ù„Ø¹Ù…Ù„Ø§Øª ÙÙŠ Ø§Ù„Ù†Ø§ÙØ°Ø© Ø§Ù„Ù…Ù†Ø¨Ø«Ù‚Ø© */
    #game-wrap #game-cont #stretch-box #popup-view .popup-view-head #popup-menu-coins-box .popup-menu-coins-buy {
        position: absolute;
        top: 0;
@@ -1695,7 +1688,7 @@
    }
    
    /* ====================================================
-      قائمة النافذة المنبثقة
+      Ù‚Ø§Ø¦Ù…Ø© Ø§Ù„Ù†Ø§ÙØ°Ø© Ø§Ù„Ù…Ù†Ø¨Ø«Ù‚Ø©
       ==================================================== */
    #game-wrap #game-cont #stretch-box #popup-view .popup-view-list {
        position: relative;
@@ -1714,7 +1707,7 @@
        bottom: 20px;
    }
    
-   /* عرض الرجاء الانتظار */
+   /* Ø¹Ø±Ø¶ Ø§Ù„Ø±Ø¬Ø§Ø¡ Ø§Ù„Ø§Ù†ØªØ¸Ø§Ø± */
    #game-wrap #game-cont #stretch-box #popup-view .popup-view-list #please-wait-view {
        background: rgba(47, 46, 68, .5);
        width: 100%;
@@ -1735,7 +1728,7 @@
    }
    
    /* ====================================================
-      عرض الملف الشخصي
+      Ø¹Ø±Ø¶ Ø§Ù„Ù…Ù„Ù Ø§Ù„Ø´Ø®ØµÙŠ
       ==================================================== */
    #game-wrap #game-cont #stretch-box #popup-view .popup-view-list #profile-view .profile-user {
        height: 50px;
@@ -1813,7 +1806,7 @@
        background-size: 100px;
    }
    
-   /* إحصائيات الملف الشخصي */
+   /* Ø¥Ø­ØµØ§Ø¦ÙŠØ§Øª Ø§Ù„Ù…Ù„Ù Ø§Ù„Ø´Ø®ØµÙŠ */
    #game-wrap #game-cont #stretch-box #popup-view .popup-view-list #profile-view .profile-stats {
        margin-top: 65px;
        overflow-y: visible;
@@ -1843,7 +1836,7 @@
    }
    
    /* ====================================================
-      عرض المتصدرين
+      Ø¹Ø±Ø¶ Ø§Ù„Ù…ØªØµØ¯Ø±ÙŠÙ†
       ==================================================== */
    #game-wrap #game-cont #stretch-box #popup-view .popup-view-list #leaders-view .buttons .pressed {
        background: #577d2a !important;
@@ -1884,7 +1877,7 @@
        vertical-align: middle;
    }
    
-   /* رأس الجدول */
+   /* Ø±Ø£Ø³ Ø§Ù„Ø¬Ø¯ÙˆÙ„ */
    #game-wrap #game-cont #stretch-box #popup-view .popup-view-list #leaders-view .table-header {
        margin-top: 20px;
        background: rgba(0, 0, 0, .3);
@@ -1931,7 +1924,7 @@
        text-align: right;
    }
    
-   /* جدول أعلى النقاط */
+   /* Ø¬Ø¯ÙˆÙ„ Ø£Ø¹Ù„Ù‰ Ø§Ù„Ù†Ù‚Ø§Ø· */
    #game-wrap #game-cont #stretch-box #popup-view .popup-view-list #leaders-view #highscore-table {
        overflow-y: scroll;
        height: 315px;
@@ -2009,7 +2002,7 @@
    
    
    /* ====================================================
-      عرض المتجر
+      Ø¹Ø±Ø¶ Ø§Ù„Ù…ØªØ¬Ø±
       ==================================================== */
    #game-wrap #game-cont #stretch-box #popup-view .popup-view-list #store-view .store-go-image {
        position: absolute;
@@ -2019,14 +2012,14 @@
        height: 100%;
        object-fit: cover;
        transition: top .2s ease, left .2s ease, width .2s ease, height .2s ease;
-       border-radius: 50%; /* جعل الصور دائرية */
+       border-radius: 50%; /* Ø¬Ø¹Ù„ Ø§Ù„ØµÙˆØ± Ø¯Ø§Ø¦Ø±ÙŠØ© */
    }
    
    #game-wrap #game-cont #stretch-box #popup-view .popup-view-list #store-view .store-go-image:hover {
-       width: 108%; /* زيادة تكبير الصورة */
-       height: 108%; /* زيادة تكبير الصورة */
-       top: -4%; /* تعديل الموضع ليتناسب مع التكبير */
-       left: -4%; /* تعديل الموضع ليتناسب مع التكبير */
+       width: 108%; /* Ø²ÙŠØ§Ø¯Ø© ØªÙƒØ¨ÙŠØ± Ø§Ù„ØµÙˆØ±Ø© */
+       height: 108%; /* Ø²ÙŠØ§Ø¯Ø© ØªÙƒØ¨ÙŠØ± Ø§Ù„ØµÙˆØ±Ø© */
+       top: -4%; /* ØªØ¹Ø¯ÙŠÙ„ Ø§Ù„Ù…ÙˆØ¶Ø¹ Ù„ÙŠØªÙ†Ø§Ø³Ø¨ Ù…Ø¹ Ø§Ù„ØªÙƒØ¨ÙŠØ± */
+       left: -4%; /* ØªØ¹Ø¯ÙŠÙ„ Ø§Ù„Ù…ÙˆØ¶Ø¹ Ù„ÙŠØªÙ†Ø§Ø³Ø¨ Ù…Ø¹ Ø§Ù„ØªÙƒØ¨ÙŠØ± */
    }
    
    #game-wrap #game-cont #stretch-box #popup-view .popup-view-list #store-view .store-go-text {
@@ -2046,19 +2039,19 @@
        border-bottom-right-radius: 16px;
    }
    
-   /* أزرار المتجر */
+   /* Ø£Ø²Ø±Ø§Ø± Ø§Ù„Ù…ØªØ¬Ø± */
    #game-wrap #game-cont #stretch-box #popup-view .popup-view-list #store-view #store-go-wear-button,
    #game-wrap #game-cont #stretch-box #popup-view .popup-view-list #store-view #store-go-skins-button,
    #game-wrap #game-cont #stretch-box #popup-view .popup-view-list #store-view #store-go-coins-button {
        position: absolute;
-       border-radius: 50%; /* جعل الأزرار دائرية */
+       border-radius: 50%; /* Ø¬Ø¹Ù„ Ø§Ù„Ø£Ø²Ø±Ø§Ø± Ø¯Ø§Ø¦Ø±ÙŠØ© */
        overflow: hidden;
        cursor: pointer;
        width: 180px;
        height: 180px;
        top: 110px;
-       box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.7), 0 0 15px rgba(255, 255, 255, 0.8); /* توهج داخلي أسود وخارجي أبيض */
-       border: 2px solid rgba(128, 128, 128, 0.8); /* حدود رمادية بشفافية قليلة */
+       box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.7), 0 0 15px rgba(255, 255, 255, 0.8); /* ØªÙˆÙ‡Ø¬ Ø¯Ø§Ø®Ù„ÙŠ Ø£Ø³ÙˆØ¯ ÙˆØ®Ø§Ø±Ø¬ÙŠ Ø£Ø¨ÙŠØ¶ */
+       border: 2px solid rgba(128, 128, 128, 0.8); /* Ø­Ø¯ÙˆØ¯ Ø±Ù…Ø§Ø¯ÙŠØ© Ø¨Ø´ÙØ§ÙÙŠØ© Ù‚Ù„ÙŠÙ„Ø© */
    }
    
    #game-wrap #game-cont #stretch-box #popup-view .popup-view-list #store-view #store-go-wear-button {
@@ -2074,7 +2067,7 @@
        right: 20px;
    }
    /* ====================================================
-      عرض المظاهر
+      Ø¹Ø±Ø¶ Ø§Ù„Ù…Ø¸Ø§Ù‡Ø±
       ==================================================== */
    #game-wrap #game-cont #stretch-box #popup-view .popup-view-list #skins-view .store-left {
        position: absolute;
@@ -2149,7 +2142,7 @@
        height: 100px;
    }
    
-   /* أزرار التنقل بين المظاهر */
+   /* Ø£Ø²Ø±Ø§Ø± Ø§Ù„ØªÙ†Ù‚Ù„ Ø¨ÙŠÙ† Ø§Ù„Ù…Ø¸Ø§Ù‡Ø± */
    #game-wrap #game-cont #stretch-box #popup-view .popup-view-list #skins-view .store-left .store-view-cont #store-view-prev {
        left: 10px;
        transform: scale(-1, 1);
@@ -2180,7 +2173,7 @@
        stroke: #fa0;
    }
    
-   /* زر الشراء */
+   /* Ø²Ø± Ø§Ù„Ø´Ø±Ø§Ø¡ */
    #game-wrap #game-cont #stretch-box #popup-view .popup-view-list #skins-view .store-left #store-buy-button {
        background-color: #8bc34a;
        color: #fff;
@@ -2224,22 +2217,22 @@
        line-height: 20px;
    }
    
-  /* شريط المظاهر المقفلة */
-  #game-wrap #game-cont #stretch-box #popup-view .popup-view-list #skins-view .store-left #store-locked-bar {
-      position: absolute;
-      bottom: 10px;
-      left: 10px;
-      right: 10px;
-      border: 2px solid #c3c3c3;
-      font-size: 18px;
-      overflow: hidden;
-      height: 60px;
-      border-radius: 4px;
-      text-shadow: 0 0 1px #000;
-      display: none; /* Hidden to make all skins free */
-      align-items: center;
-      text-align: center;
-  }
+   /* Ø´Ø±ÙŠØ· Ø§Ù„Ù…Ø¸Ø§Ù‡Ø± Ø§Ù„Ù…Ù‚ÙÙ„Ø© */
+   #game-wrap #game-cont #stretch-box #popup-view .popup-view-list #skins-view .store-left #store-locked-bar {
+       position: absolute;
+       bottom: 10px;
+       left: 10px;
+       right: 10px;
+       border: 2px solid #c3c3c3;
+       font-size: 18px;
+       overflow: hidden;
+       height: 60px;
+       border-radius: 4px;
+       text-shadow: 0 0 1px #000;
+       display: flex;
+       align-items: center;
+       text-align: center;
+   }
    
    #game-wrap #game-cont #stretch-box #popup-view .popup-view-list #skins-view .store-left #store-locked-bar #store-locked-bar-text {
        box-sizing: border-box;
@@ -2247,7 +2240,7 @@
        width: 100%;
    }
    
-   /* العمود الأيمن في عرض المظاهر */
+   /* Ø§Ù„Ø¹Ù…ÙˆØ¯ Ø§Ù„Ø£ÙŠÙ…Ù† ÙÙŠ Ø¹Ø±Ø¶ Ø§Ù„Ù…Ø¸Ø§Ù‡Ø± */
    #game-wrap #game-cont #stretch-box #popup-view .popup-view-list #skins-view .store-right {
        top: 0;
        right: 0;
@@ -2267,10 +2260,10 @@
    }
    
    #game-wrap #game-cont #stretch-box #popup-view .popup-view-list #skins-view .store-right #store-groups .pressed {
-       background: #0f5f69 !important; /* أزرق فيروزي أغمق بنسبة 40% */
+       background: #0f5f69 !important; /* Ø£Ø²Ø±Ù‚ ÙÙŠØ±ÙˆØ²ÙŠ Ø£ØºÙ…Ù‚ Ø¨Ù†Ø³Ø¨Ø© 40% */
    }
    
-   /* عناصر مجموعات المظاهر */
+   /* Ø¹Ù†Ø§ØµØ± Ù…Ø¬Ù…ÙˆØ¹Ø§Øª Ø§Ù„Ù…Ø¸Ø§Ù‡Ø± */
    #game-wrap #game-cont #stretch-box #popup-view .popup-view-list #skins-view .store-right #store-groups li {
        background-color: #26c6da;
        color: #fff;
@@ -2293,7 +2286,7 @@
        list-style: none;
    }
    
-   /* إزالة جميع الألوان */
+   /* Ø¥Ø²Ø§Ù„Ø© Ø¬Ù…ÙŠØ¹ Ø§Ù„Ø£Ù„ÙˆØ§Ù† */
    #game-wrap #game-cont #stretch-box #popup-view .popup-view-list #skins-view .store-right #store-groups li:hover {
      box-shadow:0 1px 1px 0 rgb(189 139 17 / 97%);
      background-color:#911320;
@@ -2305,11 +2298,11 @@
    
    
    
-   /* تأثيرات التحويم */
+   /* ØªØ£Ø«ÙŠØ±Ø§Øª Ø§Ù„ØªØ­ÙˆÙŠÙ… */
    #game-wrap #game-cont #stretch-box #popup-view .popup-view-list #skins-view .store-right #store-groups li:hover {
-       transform: scale(1.1); /* تكبير عند التحويم */
-       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* إضافة ظل */
-       background-color: #1e88e5; /* تغيير لون الخلفية عند التحويم */
+       transform: scale(1.1); /* ØªÙƒØ¨ÙŠØ± Ø¹Ù†Ø¯ Ø§Ù„ØªØ­ÙˆÙŠÙ… */
+       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Ø¥Ø¶Ø§ÙØ© Ø¸Ù„ */
+       background-color: #1e88e5; /* ØªØºÙŠÙŠØ± Ù„ÙˆÙ† Ø§Ù„Ø®Ù„ÙÙŠØ© Ø¹Ù†Ø¯ Ø§Ù„ØªØ­ÙˆÙŠÙ… */
    }
    
    #game-wrap #game-cont #stretch-box #popup-view .popup-view-list #skins-view .store-right #store-groups li:hover {
@@ -2326,7 +2319,7 @@
    }
    
    /* ====================================================
-      عرض الإكسسوارات
+      Ø¹Ø±Ø¶ Ø§Ù„Ø¥ÙƒØ³Ø³ÙˆØ§Ø±Ø§Øª
       ==================================================== */
    #game-wrap #game-cont #stretch-box #popup-view .popup-view-list #wear-view .wear-types {
        height: 48px;
@@ -2341,7 +2334,7 @@
        transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.5s ease;
    }
    
-   /* أزرار أنواع الإكسسوارات */
+   /* Ø£Ø²Ø±Ø§Ø± Ø£Ù†ÙˆØ§Ø¹ Ø§Ù„Ø¥ÙƒØ³Ø³ÙˆØ§Ø±Ø§Øª */
    #game-wrap #game-cont #stretch-box #popup-view .popup-view-list #wear-view .wear-types li:nth-child(1) {
        left: 0;
        background-color: #f7941d;
@@ -2502,7 +2495,7 @@
        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
    }
    
-   /* أزرار الإكسسوارات بالصور */
+   /* Ø£Ø²Ø±Ø§Ø± Ø§Ù„Ø¥ÙƒØ³Ø³ÙˆØ§Ø±Ø§Øª Ø¨Ø§Ù„ØµÙˆØ± */
    #game-wrap #game-cont #stretch-box #popup-view .popup-view-list #wear-view .wear-types #wear-eyes-button {
      background-repeat: no-repeat;
      background-position: center;
@@ -2539,7 +2532,7 @@
      filter: drop-shadow(0 0 5px rgba(255, 255, 255, 0.5));
    }
    
-   /* زر القبعات (تكملة) */
+   /* Ø²Ø± Ø§Ù„Ù‚Ø¨Ø¹Ø§Øª (ØªÙƒÙ…Ù„Ø©) */
    #game-wrap #game-cont #stretch-box #popup-view .popup-view-list #wear-view .wear-types #wear-hats-button {
      background-repeat: no-repeat;
      background-position: center;
@@ -2553,7 +2546,7 @@
    }
    
    /* ====================================================
-      منتقي لون الإكسسوارات
+      Ù…Ù†ØªÙ‚ÙŠ Ù„ÙˆÙ† Ø§Ù„Ø¥ÙƒØ³Ø³ÙˆØ§Ø±Ø§Øª
       ==================================================== */
    #game-wrap #game-cont #stretch-box #popup-view .popup-view-list #wear-view #wear-tint-chooser {
        height: 50px;
@@ -2579,7 +2572,7 @@
        box-shadow: 0 0 10px rgba(255, 255, 255, 0.6);
    }
    
-   /* وصف الإكسسوارات */
+   /* ÙˆØµÙ Ø§Ù„Ø¥ÙƒØ³Ø³ÙˆØ§Ø±Ø§Øª */
    #game-wrap #game-cont #stretch-box #popup-view .popup-view-list #wear-view #wear-description-cont {
        position: relative;
        height: 70px;
@@ -2624,13 +2617,13 @@
        border-bottom: 1px solid #ffeb3b;
    }
    
-   /* حالة الإكسسوارات */
+   /* Ø­Ø§Ù„Ø© Ø§Ù„Ø¥ÙƒØ³Ø³ÙˆØ§Ø±Ø§Øª */
    #game-wrap #game-cont #stretch-box #popup-view .popup-view-list #wear-view .wear-state {
        height: 60px;
        position: relative;
    }
    
-   /* زر شراء الإكسسوارات */
+   /* Ø²Ø± Ø´Ø±Ø§Ø¡ Ø§Ù„Ø¥ÙƒØ³Ø³ÙˆØ§Ø±Ø§Øª */
    #game-wrap #game-cont #stretch-box #popup-view .popup-view-list #wear-view .wear-state #wear-buy-button {
        background: linear-gradient(145deg, #8bc34a, #7bac39);
        color: #fff;
@@ -2681,7 +2674,7 @@
        line-height: 20px;
    }
    
-   /* تأثير نبض على زر الشراء */
+   /* ØªØ£Ø«ÙŠØ± Ù†Ø¨Ø¶ Ø¹Ù„Ù‰ Ø²Ø± Ø§Ù„Ø´Ø±Ø§Ø¡ */
    @keyframes pulse {
        0% {
            transform: scale(1) translateY(0);
@@ -2701,26 +2694,26 @@
        animation: pulse 1.5s infinite;
    }
    
-  /* شريط الإكسسوارات المقفلة */
-  #game-wrap #game-cont #stretch-box #popup-view .popup-view-list #wear-view .wear-state #wear-locked-bar {
-      position: absolute;
-      bottom: 0;
-      left: 120px;
-      width: 400px;
-      border: 2px solid rgba(195, 195, 195, 0.5);
-      box-sizing: border-box;
-      font-size: 18px;
-      overflow: hidden;
-      height: 60px;
-      border-radius: 10px;
-      text-shadow: 0 1px 3px rgba(0, 0, 0, 0.7);
-      display: none; /* Hidden to make all accessories free */
-      align-items: center;
-      text-align: center;
-      background: rgba(0, 0, 0, 0.3);
-      box-shadow: inset 0 0 15px rgba(0, 0, 0, 0.2);
-      transition: all 0.3s ease;
-  }
+   /* Ø´Ø±ÙŠØ· Ø§Ù„Ø¥ÙƒØ³Ø³ÙˆØ§Ø±Ø§Øª Ø§Ù„Ù…Ù‚ÙÙ„Ø© */
+   #game-wrap #game-cont #stretch-box #popup-view .popup-view-list #wear-view .wear-state #wear-locked-bar {
+       position: absolute;
+       bottom: 0;
+       left: 120px;
+       width: 400px;
+       border: 2px solid rgba(195, 195, 195, 0.5);
+       box-sizing: border-box;
+       font-size: 18px;
+       overflow: hidden;
+       height: 60px;
+       border-radius: 10px;
+       text-shadow: 0 1px 3px rgba(0, 0, 0, 0.7);
+       display: flex;
+       align-items: center;
+       text-align: center;
+       background: rgba(0, 0, 0, 0.3);
+       box-shadow: inset 0 0 15px rgba(0, 0, 0, 0.2);
+       transition: all 0.3s ease;
+   }
    
    #game-wrap #game-cont #stretch-box #popup-view .popup-view-list #wear-view .wear-state #wear-locked-bar:hover {
        border-color: rgba(195, 195, 195, 0.8);
@@ -2740,11 +2733,11 @@
        100% { text-shadow: 0 1px 3px rgba(0, 0, 0, 0.7); }
    }
    
-   /* حاوية عرض الإكسسوارات */
+   /* Ø­Ø§ÙˆÙŠØ© Ø¹Ø±Ø¶ Ø§Ù„Ø¥ÙƒØ³Ø³ÙˆØ§Ø±Ø§Øª */
    #game-wrap #game-cont #stretch-box #popup-view .popup-view-list #wear-view .wear-view-cont {
        left: 45px;
-       top: 20px; /* إضافة هذه الخاصية لتنزيل الحاوية 20 بكسل للأسفل */
-       /* أو يمكنك استخدام: margin-top: 20px; */
+       top: 20px; /* Ø¥Ø¶Ø§ÙØ© Ù‡Ø°Ù‡ Ø§Ù„Ø®Ø§ØµÙŠØ© Ù„ØªÙ†Ø²ÙŠÙ„ Ø§Ù„Ø­Ø§ÙˆÙŠØ© 20 Ø¨ÙƒØ³Ù„ Ù„Ù„Ø£Ø³ÙÙ„ */
+       /* Ø£Ùˆ ÙŠÙ…ÙƒÙ†Ùƒ Ø§Ø³ØªØ®Ø¯Ø§Ù…: margin-top: 20px; */
        height: 200px;
        width: 550px;
        position: relative;
@@ -2772,7 +2765,7 @@
        transform: scale(1.05);
    }
    
-   /* أزرار التنقل بين الإكسسوارات */
+   /* Ø£Ø²Ø±Ø§Ø± Ø§Ù„ØªÙ†Ù‚Ù„ Ø¨ÙŠÙ† Ø§Ù„Ø¥ÙƒØ³Ø³ÙˆØ§Ø±Ø§Øª */
    #game-wrap #game-cont #stretch-box #popup-view .popup-view-list #wear-view .wear-view-cont #wear-view-prev {
        left: 10px;
        transform: scale(-1, 1);
@@ -2822,7 +2815,7 @@
        filter: drop-shadow(0 0 5px rgba(255, 170, 0, 0.7));
    }
    
-   /* تأثير انتقال الإكسسوارات */
+   /* ØªØ£Ø«ÙŠØ± Ø§Ù†ØªÙ‚Ø§Ù„ Ø§Ù„Ø¥ÙƒØ³Ø³ÙˆØ§Ø±Ø§Øª */
    @keyframes slideInRight {
        0% {
            transform: translateX(50px);
@@ -2853,7 +2846,7 @@
        animation: slideInLeft 0.4s ease-out;
    }
    
-   /* تأثير دوران للعناصر التفاعلية */
+   /* ØªØ£Ø«ÙŠØ± Ø¯ÙˆØ±Ø§Ù† Ù„Ù„Ø¹Ù†Ø§ØµØ± Ø§Ù„ØªÙØ§Ø¹Ù„ÙŠØ© */
    @keyframes spin {
        0% { transform: rotate(0deg); }
        100% { transform: rotate(360deg); }
@@ -2863,13 +2856,13 @@
        animation: spin 1.5s linear infinite;
    }
    /* ====================================================
-      عرض العملات
+      Ø¹Ø±Ø¶ Ø§Ù„Ø¹Ù…Ù„Ø§Øª
       ==================================================== */
    #game-wrap #game-cont #stretch-box #popup-view .popup-view-list #coins-view {
        font-size: 18px;
    }
    
-   /* حالة عدم توفر العملات */
+   /* Ø­Ø§Ù„Ø© Ø¹Ø¯Ù… ØªÙˆÙØ± Ø§Ù„Ø¹Ù…Ù„Ø§Øª */
    #game-wrap #game-cont #stretch-box #popup-view .popup-view-list #coins-view .store-coins-unavailable {
        position: absolute;
        height: 100%;
@@ -2907,7 +2900,7 @@
        background: #000;
    }
    
-   /* عمود العملات المجانية */
+   /* Ø¹Ù…ÙˆØ¯ Ø§Ù„Ø¹Ù…Ù„Ø§Øª Ø§Ù„Ù…Ø¬Ø§Ù†ÙŠØ© */
    #game-wrap #game-cont #stretch-box #popup-view .popup-view-list #coins-view .store-coins-free-column {
        position: absolute;
        top: 0;
@@ -2934,7 +2927,7 @@
        text-transform: uppercase;
    }
    
-   /* جدول العملات */
+   /* Ø¬Ø¯ÙˆÙ„ Ø§Ù„Ø¹Ù…Ù„Ø§Øª */
    #game-wrap #game-cont #stretch-box #popup-view .popup-view-list #coins-view .store-coins-table {
        position: absolute;
        top: 24px;
@@ -2964,7 +2957,7 @@
        background: rgba(255, 255, 255, .4) !important;
    }
    
-   /* تلوين مختلف للصفوف */
+   /* ØªÙ„ÙˆÙŠÙ† Ù…Ø®ØªÙ„Ù Ù„Ù„ØµÙÙˆÙ */
    #game-wrap #game-cont #stretch-box #popup-view .popup-view-list #coins-view .store-coins-table .store-coins-row:nth-child(1) > *:nth-child(4) {
        color: #ff520e;
    }
@@ -2985,12 +2978,12 @@
        color: #fcde38;
    }
    
-   /* تلوين مختلف للصفوف (تكملة) */
+   /* ØªÙ„ÙˆÙŠÙ† Ù…Ø®ØªÙ„Ù Ù„Ù„ØµÙÙˆÙ (ØªÙƒÙ…Ù„Ø©) */
    #game-wrap #game-cont #stretch-box #popup-view .popup-view-list #coins-view .store-coins-table .store-coins-row:nth-child(6) > *:nth-child(4) {
        color: #feea5d;
    }
    
-   /* خصائص عناصر الصفوف */
+   /* Ø®ØµØ§Ø¦Øµ Ø¹Ù†Ø§ØµØ± Ø§Ù„ØµÙÙˆÙ */
    #game-wrap #game-cont #stretch-box #popup-view .popup-view-list #coins-view .store-coins-table .store-coins-row > * {
        height: 42px;
        text-align: center;
@@ -3055,7 +3048,7 @@
        border-radius: 4px;
    }
    
-   /* زر الشراء في جدول العملات */
+   /* Ø²Ø± Ø§Ù„Ø´Ø±Ø§Ø¡ ÙÙŠ Ø¬Ø¯ÙˆÙ„ Ø§Ù„Ø¹Ù…Ù„Ø§Øª */
    #game-wrap #game-cont #stretch-box #popup-view .popup-view-list #coins-view .store-coins-table .store-coins-row > *:nth-child(9) {
        width: 110px;
        background-color: #8bc34a;
@@ -3090,7 +3083,7 @@
    }
    
    /* ====================================================
-      عرض الإعدادات
+      Ø¹Ø±Ø¶ Ø§Ù„Ø¥Ø¹Ø¯Ø§Ø¯Ø§Øª
       ==================================================== */
    #game-wrap #game-cont #stretch-box #popup-view .popup-view-list #settings-view {
        font-size: 18px;
@@ -3109,14 +3102,14 @@
        width: 320px;
    }
    
-  /* تعطيل إعدادات الصوت والموسيقى */
-  #game-wrap #game-cont #stretch-box #popup-view .popup-view-list #settings-view #settings-music-enabled-line {
-      display: block; /* Enabled to remove premium restrictions */
-  }
+   /* ØªØ¹Ø·ÙŠÙ„ Ø¥Ø¹Ø¯Ø§Ø¯Ø§Øª Ø§Ù„ØµÙˆØª ÙˆØ§Ù„Ù…ÙˆØ³ÙŠÙ‚Ù‰ */
+   #game-wrap #game-cont #stretch-box #popup-view .popup-view-list #settings-view #settings-music-enabled-line {
+       display: none;
+   }
    
-  #game-wrap #game-cont #stretch-box #popup-view .popup-view-list #settings-view #settings-sfx-enabled-line {
-      display: block; /* Enabled to remove premium restrictions */
-  }
+   #game-wrap #game-cont #stretch-box #popup-view .popup-view-list #settings-view #settings-sfx-enabled-line {
+       display: none;
+   }
    
    #game-wrap #game-cont #stretch-box #popup-view .popup-view-list #settings-view .settings-label {
        vertical-align: top;
@@ -3127,7 +3120,7 @@
        line-height: 32px;
    }
    
-   /* مفاتيح التبديل في الإعدادات */
+   /* Ù…ÙØ§ØªÙŠØ­ Ø§Ù„ØªØ¨Ø¯ÙŠÙ„ ÙÙŠ Ø§Ù„Ø¥Ø¹Ø¯Ø§Ø¯Ø§Øª */
    #game-wrap #game-cont #stretch-box #popup-view .popup-view-list #settings-view .settings-switch {
        vertical-align: top;
        display: inline-block;
@@ -3167,7 +3160,7 @@
        transition: .3s;
    }
    
-   /* زر تسجيل الخروج */
+   /* Ø²Ø± ØªØ³Ø¬ÙŠÙ„ Ø§Ù„Ø®Ø±ÙˆØ¬ */
    #game-wrap #game-cont #stretch-box #popup-view .popup-view-list #settings-view #popup-logout {
        background-color: #f75f55;
        color: #fff;
@@ -3200,7 +3193,7 @@
        vertical-align: middle;
    }
    
-   /* زر حذف الحساب */
+   /* Ø²Ø± Ø­Ø°Ù Ø§Ù„Ø­Ø³Ø§Ø¨ */
    #game-wrap #game-cont #stretch-box #popup-view .popup-view-list #settings-view #popup-delete-account {
        background-color: #f7941d;
        color: #fff;
@@ -3233,7 +3226,7 @@
        vertical-align: middle;
    }
    
-   /* حاوية سحب الموافقة وإعطائها */
+   /* Ø­Ø§ÙˆÙŠØ© Ø³Ø­Ø¨ Ø§Ù„Ù…ÙˆØ§ÙÙ‚Ø© ÙˆØ¥Ø¹Ø·Ø§Ø¦Ù‡Ø§ */
    #game-wrap #game-cont #stretch-box #popup-view .popup-view-list #settings-view #popup-withdraw-give-wrapper {
        position: relative;
        height: 70px;
@@ -3307,14 +3300,14 @@
    }
    
    /* ====================================================
-      عرض تسجيل الدخول
+      Ø¹Ø±Ø¶ ØªØ³Ø¬ÙŠÙ„ Ø§Ù„Ø¯Ø®ÙˆÙ„
       ==================================================== */
    #game-wrap #game-cont #stretch-box #popup-view .popup-view-list #login-view {
        font-size: 18px;
        padding: 120px 150px 0;
    }
    
-   /* زر تسجيل الدخول بالفيسبوك */
+   /* Ø²Ø± ØªØ³Ø¬ÙŠÙ„ Ø§Ù„Ø¯Ø®ÙˆÙ„ Ø¨Ø§Ù„ÙÙŠØ³Ø¨ÙˆÙƒ */
    #game-wrap #game-cont #stretch-box #popup-view .popup-view-list #login-view #popup-login-fb {
        margin-bottom: 20px;
        background-color: #517ad1;
@@ -3348,7 +3341,7 @@
        vertical-align: middle;
    }
    
-   /* زر تسجيل الدخول بجوجل */
+   /* Ø²Ø± ØªØ³Ø¬ÙŠÙ„ Ø§Ù„Ø¯Ø®ÙˆÙ„ Ø¨Ø¬ÙˆØ¬Ù„ */
    #game-wrap #game-cont #stretch-box #popup-view .popup-view-list #login-view #popup-login-gg {
        margin-bottom: 20px;
        background-color: #d34836;
@@ -3383,7 +3376,7 @@
    }
    
    /* ====================================================
-      عرض سحب الموافقة
+      Ø¹Ø±Ø¶ Ø³Ø­Ø¨ Ø§Ù„Ù…ÙˆØ§ÙÙ‚Ø©
       ==================================================== */
    #game-wrap #game-cont #stretch-box #popup-view .popup-view-list #withdraw-consent-view .withdraw-consent-question {
        position: absolute;
@@ -3425,7 +3418,7 @@
        height: 40px;
    }
    
-   /* خيارات سحب الموافقة - نعم */
+   /* Ø®ÙŠØ§Ø±Ø§Øª Ø³Ø­Ø¨ Ø§Ù„Ù…ÙˆØ§ÙÙ‚Ø© - Ù†Ø¹Ù… */
    #game-wrap #game-cont #stretch-box #popup-view .popup-view-list #withdraw-consent-view .withdraw-consent-options #withdraw-consent-yes {
        background-color: #f75f55;
        color: #fff;
@@ -3461,7 +3454,7 @@
        vertical-align: middle;
    }
    
-   /* خيارات سحب الموافقة - لا */
+   /* Ø®ÙŠØ§Ø±Ø§Øª Ø³Ø­Ø¨ Ø§Ù„Ù…ÙˆØ§ÙÙ‚Ø© - Ù„Ø§ */
    #game-wrap #game-cont #stretch-box #popup-view .popup-view-list #withdraw-consent-view .withdraw-consent-options #withdraw-consent-no {
        background-color: #8bc34a;
        color: #fff;
@@ -3498,7 +3491,7 @@
    }
    
    /* ====================================================
-      عرض حذف الحساب
+      Ø¹Ø±Ø¶ Ø­Ø°Ù Ø§Ù„Ø­Ø³Ø§Ø¨
       ==================================================== */
    #game-wrap #game-cont #stretch-box #popup-view .popup-view-list #delete-account-view .delete-account-question {
        background-color: #fff;
@@ -3544,7 +3537,7 @@
        height: 40px;
    }
    
-   /* مؤقت حذف الحساب */
+   /* Ù…Ø¤Ù‚Øª Ø­Ø°Ù Ø§Ù„Ø­Ø³Ø§Ø¨ */
    #game-wrap #game-cont #stretch-box #popup-view .popup-view-list #delete-account-view .delete-account-options #delete-account-timer {
        border-radius: 5px;
        background: #c3c3c3;
@@ -3557,7 +3550,7 @@
        width: 250px;
    }
    
-   /* خيارات حذف الحساب - نعم */
+   /* Ø®ÙŠØ§Ø±Ø§Øª Ø­Ø°Ù Ø§Ù„Ø­Ø³Ø§Ø¨ - Ù†Ø¹Ù… */
    #game-wrap #game-cont #stretch-box #popup-view .popup-view-list #delete-account-view .delete-account-options #delete-account-yes {
        background-color: #f75f55;
        color: #fff;
@@ -3593,7 +3586,7 @@
        vertical-align: middle;
    }
    
-   /* خيارات حذف الحساب - لا */
+   /* Ø®ÙŠØ§Ø±Ø§Øª Ø­Ø°Ù Ø§Ù„Ø­Ø³Ø§Ø¨ - Ù„Ø§ */
    #game-wrap #game-cont #stretch-box #popup-view .popup-view-list #delete-account-view .delete-account-options #delete-account-no {
        background-color: #8bc34a;
        color: #fff;
@@ -3630,7 +3623,7 @@
    }
    
    /* ====================================================
-      عرض التحميل
+      Ø¹Ø±Ø¶ Ø§Ù„ØªØ­Ù…ÙŠÙ„
       ==================================================== */
    #game-wrap #game-cont #stretch-box #loading-view {
        display: none;
@@ -3698,11 +3691,11 @@
    }
    
    /* ====================================================
-      عرض مقيّد
+      Ø¹Ø±Ø¶ Ù…Ù‚ÙŠÙ‘Ø¯
       ==================================================== */
-  #game-wrap #game-cont #stretch-box #restricted-view {
-      display: none !important; /* Force hide to remove all restrictions */
-  }
+   #game-wrap #game-cont #stretch-box #restricted-view {
+       display: none;
+   }
    
    #game-wrap #game-cont #stretch-box #restricted-view .restricted-title {
        position: absolute;
@@ -3725,7 +3718,7 @@
    }
    
    /* ====================================================
-      عرض المحمصة (Toaster View)
+      Ø¹Ø±Ø¶ Ø§Ù„Ù…Ø­Ù…ØµØ© (Toaster View)
       ==================================================== */
    #game-wrap #game-cont #stretch-box #toaster-view {
        display: none;
@@ -3740,7 +3733,7 @@
        transform: translate(-50%, -50%);
    }
    
-   /* محمصة ارتقاء المستوى */
+   /* Ù…Ø­Ù…ØµØ© Ø§Ø±ØªÙ‚Ø§Ø¡ Ø§Ù„Ù…Ø³ØªÙˆÙ‰ */
    #game-wrap #game-cont #stretch-box #toaster-view #toaster-stack .toaster-levelup {
        width: 320px;
        height: 320px;
@@ -3818,7 +3811,7 @@
        vertical-align: middle;
    }
    
-   /* محمصة العملات */
+   /* Ù…Ø­Ù…ØµØ© Ø§Ù„Ø¹Ù…Ù„Ø§Øª */
    #game-wrap #game-cont #stretch-box #toaster-view #toaster-stack .toaster-coins {
        width: 320px;
        height: 320px;
@@ -3882,7 +3875,7 @@
        vertical-align: middle;
    }
    
-   /* محمصة قبول الموافقة */
+   /* Ù…Ø­Ù…ØµØ© Ù‚Ø¨ÙˆÙ„ Ø§Ù„Ù…ÙˆØ§ÙÙ‚Ø© */
    #game-wrap #game-cont #stretch-box #toaster-view #toaster-stack .toaster-consent-accepted {
        width: 960px;
        height: 480px;
@@ -3935,7 +3928,7 @@
        color: #26c6da;
    }
    
-   /* تكملة زر إغلاق قبول الموافقة */
+   /* ØªÙƒÙ…Ù„Ø© Ø²Ø± Ø¥ØºÙ„Ø§Ù‚ Ù‚Ø¨ÙˆÙ„ Ø§Ù„Ù…ÙˆØ§ÙÙ‚Ø© */
    #game-wrap #game-cont #stretch-box #toaster-view #toaster-stack .toaster-consent-accepted .toaster-consent-close {
        background-color: #f7941d;
        color: #fff;
@@ -3975,7 +3968,7 @@
    }
    
    /* ====================================================
-      عرض خطأ اتصال البوابة
+      Ø¹Ø±Ø¶ Ø®Ø·Ø£ Ø§ØªØµØ§Ù„ Ø§Ù„Ø¨ÙˆØ§Ø¨Ø©
       ==================================================== */
    #game-wrap #game-cont #stretch-box #error-gateway-connection-view {
        display: none;
@@ -4065,7 +4058,7 @@
    }
    
    /* ====================================================
-      عرض خطأ اتصال اللعبة
+      Ø¹Ø±Ø¶ Ø®Ø·Ø£ Ø§ØªØµØ§Ù„ Ø§Ù„Ù„Ø¹Ø¨Ø©
       ==================================================== */
    #game-wrap #game-cont #stretch-box #error-game-connection-view {
        display: none;
@@ -4155,7 +4148,7 @@
    }
    
    /* ====================================================
-      عرض النتائج
+      Ø¹Ø±Ø¶ Ø§Ù„Ù†ØªØ§Ø¦Ø¬
       ==================================================== */
    #game-wrap #game-cont #results-view {
        display: none;
@@ -4191,7 +4184,7 @@
        overflow: hidden;
    }
    
-   /* عنوان التهاني للنتائج */
+   /* Ø¹Ù†ÙˆØ§Ù† Ø§Ù„ØªÙ‡Ø§Ù†ÙŠ Ù„Ù„Ù†ØªØ§Ø¦Ø¬ */
    #game-wrap #game-cont #results-view #congrats-bg #congrats-wrap #congrats #final-caption {
        position: absolute;
        top: 0;
@@ -4256,7 +4249,7 @@
        font-size: 20px;
    }
    
-   /* أزرار التحكم في شاشة النتائج */
+   /* Ø£Ø²Ø±Ø§Ø± Ø§Ù„ØªØ­ÙƒÙ… ÙÙŠ Ø´Ø§Ø´Ø© Ø§Ù„Ù†ØªØ§Ø¦Ø¬ */
    #game-wrap #game-cont #results-view #congrats-bg #congrats-wrap #congrats .controls {
        position: absolute;
        bottom: 0;
@@ -4272,17 +4265,17 @@
        left: 15px;
        right: 15px;
        
-       /* اللون الأخضر بتدرج */
+       /* Ø§Ù„Ù„ÙˆÙ† Ø§Ù„Ø£Ø®Ø¶Ø± Ø¨ØªØ¯Ø±Ø¬ */
        background: linear-gradient(135deg, #366500 0%, #4c9618 100%);
        color: #ffffff;
        
-       /* التخطيط والأبعاد (نفس #final-replay) */
+       /* Ø§Ù„ØªØ®Ø·ÙŠØ· ÙˆØ§Ù„Ø£Ø¨Ø¹Ø§Ø¯ (Ù†ÙØ³ #final-replay) */
        height: 50px;
        padding: 0 20px;
        box-sizing: border-box;
        overflow: hidden;
        
-       /* النص */
+       /* Ø§Ù„Ù†Øµ */
        line-height: 50px;
        font-size: 24px;
        font-weight: 600;
@@ -4290,38 +4283,38 @@
        text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
        letter-spacing: 0.5px;
        
-       /* التصميم والحدود (نفس #final-replay) */
+       /* Ø§Ù„ØªØµÙ…ÙŠÙ… ÙˆØ§Ù„Ø­Ø¯ÙˆØ¯ (Ù†ÙØ³ #final-replay) */
        border-radius: 8px;
        border: none;
        outline: none;
        
-       /* الظل والتأثيرات (نفس #final-replay) */
+       /* Ø§Ù„Ø¸Ù„ ÙˆØ§Ù„ØªØ£Ø«ÙŠØ±Ø§Øª (Ù†ÙØ³ #final-replay) */
        box-shadow: 
            0 2px 8px rgba(0, 0, 0, 0.15),
            0 1px 3px rgba(0, 0, 0, 0.1);
        
-       /* التفاعل */
+       /* Ø§Ù„ØªÙØ§Ø¹Ù„ */
        cursor: pointer;
        transition: all 0.3s ease;
        transform-origin: center;
        
-       /* تحسين الأداء */
+       /* ØªØ­Ø³ÙŠÙ† Ø§Ù„Ø£Ø¯Ø§Ø¡ */
        -webkit-font-smoothing: antialiased;
        -moz-osx-font-smoothing: grayscale;
    }
    
    #game-wrap #game-cont #results-view #congrats-bg #congrats-wrap #congrats .controls #final-continue:hover {
-       /* تغيير اللون للأخضر الداكن */
+       /* ØªØºÙŠÙŠØ± Ø§Ù„Ù„ÙˆÙ† Ù„Ù„Ø£Ø®Ø¶Ø± Ø§Ù„Ø¯Ø§ÙƒÙ† */
        background: linear-gradient(135deg, #4c9618 0%, #366500 100%);
        color: #ffffff;
        
-       /* تأثيرات التمرير (نفس #final-replay) */
+       /* ØªØ£Ø«ÙŠØ±Ø§Øª Ø§Ù„ØªÙ…Ø±ÙŠØ± (Ù†ÙØ³ #final-replay) */
        transform: translateY(-1px);
        box-shadow: 
            0 4px 12px rgba(0, 0, 0, 0.2),
            0 2px 6px rgba(0, 0, 0, 0.15);
        
-       /* تأثير إضافي */
+       /* ØªØ£Ø«ÙŠØ± Ø¥Ø¶Ø§ÙÙŠ */
        filter: brightness(1.1);
    }
    
@@ -4344,7 +4337,7 @@
        vertical-align: middle;
    }
    
-   /* تحديث زر مشاركة فيسبوك ليتناسق مع التصميم الجديد */
+   /* ØªØ­Ø¯ÙŠØ« Ø²Ø± Ù…Ø´Ø§Ø±ÙƒØ© ÙÙŠØ³Ø¨ÙˆÙƒ Ù„ÙŠØªÙ†Ø§Ø³Ù‚ Ù…Ø¹ Ø§Ù„ØªØµÙ…ÙŠÙ… Ø§Ù„Ø¬Ø¯ÙŠØ¯ */
    #game-wrap #game-cont #results-view #congrats-bg #congrats-wrap #congrats .controls #final-share-fb {
        position: absolute;
        bottom: 15px;
@@ -4393,7 +4386,7 @@
    
    
    
-   /* نسخة مع تأثير توهج أخضر للزر #final-continue */
+   /* Ù†Ø³Ø®Ø© Ù…Ø¹ ØªØ£Ø«ÙŠØ± ØªÙˆÙ‡Ø¬ Ø£Ø®Ø¶Ø± Ù„Ù„Ø²Ø± #final-continue */
    #game-wrap #game-cont #results-view #congrats-bg #congrats-wrap #congrats .controls #final-continue.glow {
        box-shadow: 
            0 2px 8px rgba(0, 0, 0, 0.15),
@@ -4408,7 +4401,7 @@
            0 0 40px rgba(102, 187, 42, 0.7);
    }
    
-   /* حاوية الإعلان السفلية في النتائج */
+   /* Ø­Ø§ÙˆÙŠØ© Ø§Ù„Ø¥Ø¹Ù„Ø§Ù† Ø§Ù„Ø³ÙÙ„ÙŠØ© ÙÙŠ Ø§Ù„Ù†ØªØ§Ø¦Ø¬ */
    #game-wrap #game-cont #results-view #unl6wj4czdl84o9b {
        position: absolute;
        bottom: 0;
@@ -4441,7 +4434,7 @@
        margin: 0 auto;
    }
    
-   /* تغييرات مسؤولة لارتفاعات مختلفة للشاشة */
+   /* ØªØºÙŠÙŠØ±Ø§Øª Ù…Ø³Ø¤ÙˆÙ„Ø© Ù„Ø§Ø±ØªÙØ§Ø¹Ø§Øª Ù…Ø®ØªÙ„ÙØ© Ù„Ù„Ø´Ø§Ø´Ø© */
    @media(max-height:640px) {
        #game-wrap #game-cont #results-view #congrats-bg #congrats-wrap {
            height: calc(100% - 30px - 90px);
@@ -4465,7 +4458,7 @@
            height: calc(100%);
        }
        #game-wrap #game-cont #results-view #unl6wj4czdl84o9b {
-           display: none !important;
+           display: block !important;
        }
    }
    
@@ -4474,12 +4467,12 @@
            height: calc(100%);
        }
        #game-wrap #game-cont #results-view #unl6wj4czdl84o9b {
-           display: none !important;
+           display: block !important;
        }
    }
    
    /* ====================================================
-      مغلف الاتصال
+      Ù…ØºÙ„Ù Ø§Ù„Ø§ØªØµØ§Ù„
       ==================================================== */
    #contact-wrap {
        height: 100%;
@@ -4532,7 +4525,7 @@
    }
    
    /* ====================================================
-      مغلف الخصوصية
+      Ù…ØºÙ„Ù Ø§Ù„Ø®ØµÙˆØµÙŠØ©
       ==================================================== */
    #privacy-wrap {
        height: 100%;
@@ -4572,7 +4565,7 @@
    }
    
    /* ====================================================
-      مغلف الخطأ
+      Ù…ØºÙ„Ù Ø§Ù„Ø®Ø·Ø£
       ==================================================== */
    #error-wrap {
        height: 100%;
@@ -4604,7 +4597,7 @@
    }
    
    /* ====================================================
-      مغلف الترميز
+      Ù…ØºÙ„Ù Ø§Ù„ØªØ±Ù…ÙŠØ²
       ==================================================== */
    #markup-wrap #markup-header {
        box-shadow: 0 0 20px rgba(0, 0, 0, .25);
@@ -4695,14 +4688,14 @@
    }
    
    /* ====================================================
-      إخفاء عناصر معينة
+      Ø¥Ø®ÙØ§Ø¡ Ø¹Ù†Ø§ØµØ± Ù…Ø¹ÙŠÙ†Ø©
       ==================================================== */
    #aqnvgcpz05orkobh {
        display: none;
    }
    
    /* ====================================================
-      عناصر العنوان والإعدادات
+      Ø¹Ù†Ø§ØµØ± Ø§Ù„Ø¹Ù†ÙˆØ§Ù† ÙˆØ§Ù„Ø¥Ø¹Ø¯Ø§Ø¯Ø§Øª
       ==================================================== */
    #title, #titleSetings {
        text-shadow: 0 0 0 #ff0, 0 0 0.5em #ff0, 0 0 0.4em #ff0;
@@ -4717,31 +4710,31 @@
    }
    
    /* ====================================================
-      حاوية المؤشر
+      Ø­Ø§ÙˆÙŠØ© Ø§Ù„Ù…Ø¤Ø´Ø±
       ==================================================== */
    .cursor-container {
        display: flex;
        flex-wrap: wrap;
        justify-content: center;
-       gap: 15px; /* مسافة بين الرموز */
-       padding: 20px; /* الحشوة حتى لا تلمس الرموز الحدود */
+       gap: 15px; /* Ù…Ø³Ø§ÙØ© Ø¨ÙŠÙ† Ø§Ù„Ø±Ù…ÙˆØ² */
+       padding: 20px; /* Ø§Ù„Ø­Ø´ÙˆØ© Ø­ØªÙ‰ Ù„Ø§ ØªÙ„Ù…Ø³ Ø§Ù„Ø±Ù…ÙˆØ² Ø§Ù„Ø­Ø¯ÙˆØ¯ */
    }
    
    .cursor {
-       width: 50px; /* التأكد من أن الرموز لها أحجام متساوية */
-       height: 50px; /* التأكد من أن الرموز لها أحجام متساوية */
-       object-fit: cover; /* قص الصورة لتناسب الحجم */
-       transition: transform 0.3s ease-in-out; /* تأثير عند التحويم */
+       width: 50px; /* Ø§Ù„ØªØ£ÙƒØ¯ Ù…Ù† Ø£Ù† Ø§Ù„Ø±Ù…ÙˆØ² Ù„Ù‡Ø§ Ø£Ø­Ø¬Ø§Ù… Ù…ØªØ³Ø§ÙˆÙŠØ© */
+       height: 50px; /* Ø§Ù„ØªØ£ÙƒØ¯ Ù…Ù† Ø£Ù† Ø§Ù„Ø±Ù…ÙˆØ² Ù„Ù‡Ø§ Ø£Ø­Ø¬Ø§Ù… Ù…ØªØ³Ø§ÙˆÙŠØ© */
+       object-fit: cover; /* Ù‚Øµ Ø§Ù„ØµÙˆØ±Ø© Ù„ØªÙ†Ø§Ø³Ø¨ Ø§Ù„Ø­Ø¬Ù… */
+       transition: transform 0.3s ease-in-out; /* ØªØ£Ø«ÙŠØ± Ø¹Ù†Ø¯ Ø§Ù„ØªØ­ÙˆÙŠÙ… */
    }
    
    .cursor:hover {
-       transform: scale(1.2); /* تكبير الرمز عند التحويم */
+       transform: scale(1.2); /* ØªÙƒØ¨ÙŠØ± Ø§Ù„Ø±Ù…Ø² Ø¹Ù†Ø¯ Ø§Ù„ØªØ­ÙˆÙŠÙ… */
    }
    
    #default-cursor-btn {
-       margin-top: 20px; /* المسافة من الأعلى */
-       clear: both; /* ضمان أن هذا العنصر ينزل إلى السطر التالي */
-       text-align: center; /* محاذاة المحتوى في الوسط */
+       margin-top: 20px; /* Ø§Ù„Ù…Ø³Ø§ÙØ© Ù…Ù† Ø§Ù„Ø£Ø¹Ù„Ù‰ */
+       clear: both; /* Ø¶Ù…Ø§Ù† Ø£Ù† Ù‡Ø°Ø§ Ø§Ù„Ø¹Ù†ØµØ± ÙŠÙ†Ø²Ù„ Ø¥Ù„Ù‰ Ø§Ù„Ø³Ø·Ø± Ø§Ù„ØªØ§Ù„ÙŠ */
+       text-align: center; /* Ù…Ø­Ø§Ø°Ø§Ø© Ø§Ù„Ù…Ø­ØªÙˆÙ‰ ÙÙŠ Ø§Ù„ÙˆØ³Ø· */
    }
    
    #default-cursor-btn img {
@@ -4751,42 +4744,42 @@
    }
    
    #default-cursor-btn img:hover {
-       transform: scale(1.1); /* زيادة حجم الرمز عند التحويم */
+       transform: scale(1.1); /* Ø²ÙŠØ§Ø¯Ø© Ø­Ø¬Ù… Ø§Ù„Ø±Ù…Ø² Ø¹Ù†Ø¯ Ø§Ù„ØªØ­ÙˆÙŠÙ… */
    }
    
    /* ====================================================
-      حاوية الخلفية
+      Ø­Ø§ÙˆÙŠØ© Ø§Ù„Ø®Ù„ÙÙŠØ©
       ==================================================== */
    .background-container {
        display: grid;
-       grid-template-columns: repeat(4, 1fr); /* 4 أعمدة */
-       gap: 16px; /* المسافة بين الصور */
+       grid-template-columns: repeat(4, 1fr); /* 4 Ø£Ø¹Ù…Ø¯Ø© */
+       gap: 16px; /* Ø§Ù„Ù…Ø³Ø§ÙØ© Ø¨ÙŠÙ† Ø§Ù„ØµÙˆØ± */
        padding: 20px;
        justify-items: center;
-       grid-template-rows: repeat(2, auto); /* 2 صفوف */
+       grid-template-rows: repeat(2, auto); /* 2 ØµÙÙˆÙ */
    }
    
    .background {
-       width: 100%; /* عرض الصورة يساوي عرض خلية الشبكة */
-       height: auto; /* الحفاظ على نسبة الصورة الأصلية */
-       border-radius: 8px; /* حواف دائرية للصورة */
-       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* ظل خفيف للصورة */
-       transition: transform 0.3s ease, box-shadow 0.3s ease; /* تأثير الحركة */
+       width: 100%; /* Ø¹Ø±Ø¶ Ø§Ù„ØµÙˆØ±Ø© ÙŠØ³Ø§ÙˆÙŠ Ø¹Ø±Ø¶ Ø®Ù„ÙŠØ© Ø§Ù„Ø´Ø¨ÙƒØ© */
+       height: auto; /* Ø§Ù„Ø­ÙØ§Ø¸ Ø¹Ù„Ù‰ Ù†Ø³Ø¨Ø© Ø§Ù„ØµÙˆØ±Ø© Ø§Ù„Ø£ØµÙ„ÙŠØ© */
+       border-radius: 8px; /* Ø­ÙˆØ§Ù Ø¯Ø§Ø¦Ø±ÙŠØ© Ù„Ù„ØµÙˆØ±Ø© */
+       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ø¸Ù„ Ø®ÙÙŠÙ Ù„Ù„ØµÙˆØ±Ø© */
+       transition: transform 0.3s ease, box-shadow 0.3s ease; /* ØªØ£Ø«ÙŠØ± Ø§Ù„Ø­Ø±ÙƒØ© */
    }
    
    .background:hover {
-       transform: scale(1.05); /* تكبير الصورة عند التحويم */
-       box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* ظل أقوى عند التحويم */
+       transform: scale(1.05); /* ØªÙƒØ¨ÙŠØ± Ø§Ù„ØµÙˆØ±Ø© Ø¹Ù†Ø¯ Ø§Ù„ØªØ­ÙˆÙŠÙ… */
+       box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Ø¸Ù„ Ø£Ù‚ÙˆÙ‰ Ø¹Ù†Ø¯ Ø§Ù„ØªØ­ÙˆÙŠÙ… */
    }
    
    /* ====================================================
-      اختيار الصالة
+      Ø§Ø®ØªÙŠØ§Ø± Ø§Ù„ØµØ§Ù„Ø©
       ==================================================== */
    
    
    
    /* ====================================================
-      الحاويات والعناصر العامة
+      Ø§Ù„Ø­Ø§ÙˆÙŠØ§Øª ÙˆØ§Ù„Ø¹Ù†Ø§ØµØ± Ø§Ù„Ø¹Ø§Ù…Ø©
       ==================================================== */
    .container {
        /*width: 50%;*/
@@ -4815,7 +4808,7 @@
    }
    
    /* ====================================================
-      معلومات الدودة
+      Ù…Ø¹Ù„ÙˆÙ…Ø§Øª Ø§Ù„Ø¯ÙˆØ¯Ø©
       ==================================================== */
    #wormcerca {
        margin: 1px;
@@ -4896,7 +4889,7 @@
    }
    
    /* ====================================================
-      تحكم التكبير والتصغير
+      ØªØ­ÙƒÙ… Ø§Ù„ØªÙƒØ¨ÙŠØ± ÙˆØ§Ù„ØªØµØºÙŠØ±
       ==================================================== */
    #zoom-container {
        top: 180px;
@@ -4920,13 +4913,13 @@
    }
    
    .key:hover {
-       background-color: #45a049; /* تغيير لون الخلفية عند التحويم */
-       transform: translateY(-5px); /* رفع عند التحويم */
-       box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* ظل أكثر كثافة عند التحويم */
+       background-color: #45a049; /* ØªØºÙŠÙŠØ± Ù„ÙˆÙ† Ø§Ù„Ø®Ù„ÙÙŠØ© Ø¹Ù†Ø¯ Ø§Ù„ØªØ­ÙˆÙŠÙ… */
+       transform: translateY(-5px); /* Ø±ÙØ¹ Ø¹Ù†Ø¯ Ø§Ù„ØªØ­ÙˆÙŠÙ… */
+       box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Ø¸Ù„ Ø£ÙƒØ«Ø± ÙƒØ«Ø§ÙØ© Ø¹Ù†Ø¯ Ø§Ù„ØªØ­ÙˆÙŠÙ… */
    }
    
    .key:active {
-       transform: translateY(2px); /* ضغط لأسفل عند النقر */
+       transform: translateY(2px); /* Ø¶ØºØ· Ù„Ø£Ø³ÙÙ„ Ø¹Ù†Ø¯ Ø§Ù„Ù†Ù‚Ø± */
    }
    
    #key-container {
@@ -4955,7 +4948,7 @@
    }
    
    /* ====================================================
-      إعدادات
+      Ø¥Ø¹Ø¯Ø§Ø¯Ø§Øª
       ==================================================== */
    #settingContent {
        display: none;
@@ -4984,12 +4977,12 @@
        width: 80%;
        height: 10px;
        border-radius: 5px;
-       background: linear-gradient(to right, #4caf50, #2196f3); /* تدرج لوني أخضر */
+       background: linear-gradient(to right, #4caf50, #2196f3); /* ØªØ¯Ø±Ø¬ Ù„ÙˆÙ†ÙŠ Ø£Ø®Ø¶Ø± */
        outline: none;
        transition: background 0.3s ease;
    }
    
-   /* إعدادات للجزء "المؤشر" من شريط التمرير */
+   /* Ø¥Ø¹Ø¯Ø§Ø¯Ø§Øª Ù„Ù„Ø¬Ø²Ø¡ "Ø§Ù„Ù…Ø¤Ø´Ø±" Ù…Ù† Ø´Ø±ÙŠØ· Ø§Ù„ØªÙ…Ø±ÙŠØ± */
    #zoom-slider::-webkit-slider-thumb {
        -webkit-appearance: none;
        appearance: none;
@@ -5003,18 +4996,18 @@
        transition: background 0.3s ease, transform 0.2s ease;
    }
    
-   /* عند التحويم فوق شريط التمرير */
+   /* Ø¹Ù†Ø¯ Ø§Ù„ØªØ­ÙˆÙŠÙ… ÙÙˆÙ‚ Ø´Ø±ÙŠØ· Ø§Ù„ØªÙ…Ø±ÙŠØ± */
    #zoom-slider:hover {
-       background: linear-gradient(to right, #388e3c, #1976d2); /* تغيير التدرج اللوني عند التحويم */
+       background: linear-gradient(to right, #388e3c, #1976d2); /* ØªØºÙŠÙŠØ± Ø§Ù„ØªØ¯Ø±Ø¬ Ø§Ù„Ù„ÙˆÙ†ÙŠ Ø¹Ù†Ø¯ Ø§Ù„ØªØ­ÙˆÙŠÙ… */
    }
    
-   /* عند التحويم فوق المؤشر */
+   /* Ø¹Ù†Ø¯ Ø§Ù„ØªØ­ÙˆÙŠÙ… ÙÙˆÙ‚ Ø§Ù„Ù…Ø¤Ø´Ø± */
    #zoom-slider::-webkit-slider-thumb:hover {
        background: #4caf50;
        transform: scale(1.1);
    }
    
-   /* إعدادات لشريط التمرير في متصفح Firefox */
+   /* Ø¥Ø¹Ø¯Ø§Ø¯Ø§Øª Ù„Ø´Ø±ÙŠØ· Ø§Ù„ØªÙ…Ø±ÙŠØ± ÙÙŠ Ù…ØªØµÙØ­ Firefox */
    #zoom-slider::-moz-range-thumb {
        width: 20px;
        height: 20px;
@@ -5077,7 +5070,7 @@
    }
    
    /* ====================================================
-      أعلام الدول
+      Ø£Ø¹Ù„Ø§Ù… Ø§Ù„Ø¯ÙˆÙ„
       ==================================================== */
    .flag {
        display: block;
@@ -5088,7 +5081,7 @@
    }
    
    /* ====================================================
-      تأثيرات علامات التبويب
+      ØªØ£Ø«ÙŠØ±Ø§Øª Ø¹Ù„Ø§Ù…Ø§Øª Ø§Ù„ØªØ¨ÙˆÙŠØ¨
       ==================================================== */
    .ui-tab:hover {
        background: #fff;
@@ -5113,7 +5106,7 @@
    }
    
    /* ====================================================
-      أعلام الدول المختلفة
+      Ø£Ø¹Ù„Ø§Ù… Ø§Ù„Ø¯ÙˆÙ„ Ø§Ù„Ù…Ø®ØªÙ„ÙØ©
       ==================================================== */
    .mx {
        width: 40px;
@@ -5176,7 +5169,7 @@
    }
    
    /* ====================================================
-      عناصر نصية
+      Ø¹Ù†Ø§ØµØ± Ù†ØµÙŠØ©
       ==================================================== */
    .text-vnxx {
        font-weight: 600;
@@ -5189,7 +5182,7 @@
    }
    
    /* ====================================================
-      الشعار وعناصر الفريق
+      Ø§Ù„Ø´Ø¹Ø§Ø± ÙˆØ¹Ù†Ø§ØµØ± Ø§Ù„ÙØ±ÙŠÙ‚
       ==================================================== */
    .logo {
        text-align: center;
@@ -5211,7 +5204,7 @@
    }
    
    /* ====================================================
-      تأثيرات الفيديو
+      ØªØ£Ø«ÙŠØ±Ø§Øª Ø§Ù„ÙÙŠØ¯ÙŠÙˆ
       ==================================================== */
    .irqfjL {
        position: fixed;
@@ -5237,7 +5230,7 @@
    }
    
    /* ====================================================
-      مخطط الخوادم
+      Ù…Ø®Ø·Ø· Ø§Ù„Ø®ÙˆØ§Ø¯Ù…
       ==================================================== */
    #mapsv {
        display: flex;
@@ -5285,7 +5278,7 @@
    }
    
    /* ====================================================
-      تنسيق الخوادم الفردية
+      ØªÙ†Ø³ÙŠÙ‚ Ø§Ù„Ø®ÙˆØ§Ø¯Ù… Ø§Ù„ÙØ±Ø¯ÙŠØ©
       ==================================================== */
    #svhiep {
        display: flex;
@@ -5355,7 +5348,7 @@
    }
    
    /* ====================================================
-      تراكب النوافذ المنبثقة
+      ØªØ±Ø§ÙƒØ¨ Ø§Ù„Ù†ÙˆØ§ÙØ° Ø§Ù„Ù…Ù†Ø¨Ø«Ù‚Ø©
       ==================================================== */
    .overlay {
        position: fixed;
@@ -5379,10 +5372,10 @@
        color: #2c1b53;
        width: 680px;
        height: 480px;
-       border: 2px solid rgba(0, 0, 0, 0.5); /* حواف سوداء */
+       border: 2px solid rgba(0, 0, 0, 0.5); /* Ø­ÙˆØ§Ù Ø³ÙˆØ¯Ø§Ø¡ */
        box-shadow: 
-           0px 0px 0px 2px rgba(0, 0, 0, 0.5), /* ظل أسود محدد للحدود */
-           0px 0px 15px 5px rgba(255, 255, 255, 0.3); /* إشعاع أبيض */
+           0px 0px 0px 2px rgba(0, 0, 0, 0.5), /* Ø¸Ù„ Ø£Ø³ÙˆØ¯ Ù…Ø­Ø¯Ø¯ Ù„Ù„Ø­Ø¯ÙˆØ¯ */
+           0px 0px 15px 5px rgba(255, 255, 255, 0.3); /* Ø¥Ø´Ø¹Ø§Ø¹ Ø£Ø¨ÙŠØ¶ */
        background: rgba(47, 46, 68, .4);
    }
    
@@ -5403,7 +5396,7 @@
    }
    
    /* ====================================================
-      حقول المعرف
+      Ø­Ù‚ÙˆÙ„ Ø§Ù„Ù…Ø¹Ø±Ù
       ==================================================== */
    .you-id {
        font-size: 18px;
@@ -5440,7 +5433,7 @@
    }
    
    /* ====================================================
-      تنسيق الجداول
+      ØªÙ†Ø³ÙŠÙ‚ Ø§Ù„Ø¬Ø¯Ø§ÙˆÙ„
       ==================================================== */
    table {
        width: 100%;
@@ -5458,7 +5451,7 @@
    }
    
    /* ====================================================
-      عناصر الفصل والعناوين
+      Ø¹Ù†Ø§ØµØ± Ø§Ù„ÙØµÙ„ ÙˆØ§Ù„Ø¹Ù†Ø§ÙˆÙŠÙ†
       ==================================================== */
    .gachngang1 {
        border-bottom: 2px solid #FF0000;
@@ -5483,7 +5476,7 @@
    }
    
    /* ====================================================
-      أزرار وعناصر تحكم
+      Ø£Ø²Ø±Ø§Ø± ÙˆØ¹Ù†Ø§ØµØ± ØªØ­ÙƒÙ…
       ==================================================== */
    #getskin {
        width: 150px;
@@ -5508,7 +5501,7 @@
    }
    
    /* ====================================================
-      رأس الصفحة والعناصر المنزلية
+      Ø±Ø£Ø³ Ø§Ù„ØµÙØ­Ø© ÙˆØ§Ù„Ø¹Ù†Ø§ØµØ± Ø§Ù„Ù…Ù†Ø²Ù„ÙŠØ©
       ==================================================== */
    .phdr1, .home {
        background: #252535 !important;
@@ -5545,7 +5538,7 @@
    }
    
    /* ====================================================
-      قوائم ومعلومات
+      Ù‚ÙˆØ§Ø¦Ù… ÙˆÙ…Ø¹Ù„ÙˆÙ…Ø§Øª
       ==================================================== */
    .bao-list1 {
        margin: 0px 23px 0px 23px;
@@ -5577,7 +5570,7 @@
    }
    
    /* ====================================================
-      معلومات الاتصال والصلاحية
+      Ù…Ø¹Ù„ÙˆÙ…Ø§Øª Ø§Ù„Ø§ØªØµØ§Ù„ ÙˆØ§Ù„ØµÙ„Ø§Ø­ÙŠØ©
       ==================================================== */
    .contact {
        font-weight: bold;
@@ -5611,7 +5604,7 @@
    }
    
    /* ====================================================
-      زر إعادة اللعب
+      Ø²Ø± Ø¥Ø¹Ø§Ø¯Ø© Ø§Ù„Ù„Ø¹Ø¨
       ==================================================== */
    #final-replay {
        position: absolute;
@@ -5619,17 +5612,17 @@
        left: 15px;
        right: 15px;
        
-       /* اللون البرتقالي والخلفية */
+       /* Ø§Ù„Ù„ÙˆÙ† Ø§Ù„Ø¨Ø±ØªÙ‚Ø§Ù„ÙŠ ÙˆØ§Ù„Ø®Ù„ÙÙŠØ© */
        background: linear-gradient(135deg, #e8730c 0%, #e68109 100%);
        color: #ffffff;
        
-       /* التخطيط والأبعاد */
+       /* Ø§Ù„ØªØ®Ø·ÙŠØ· ÙˆØ§Ù„Ø£Ø¨Ø¹Ø§Ø¯ */
        height: 50px;
        padding: 0 20px;
        box-sizing: border-box;
        overflow: hidden;
        
-       /* النص */
+       /* Ø§Ù„Ù†Øµ */
        line-height: 50px;
        font-size: 24px;
        font-weight: 600;
@@ -5637,38 +5630,38 @@
        text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
        letter-spacing: 0.5px;
        
-       /* التصميم والحدود */
+       /* Ø§Ù„ØªØµÙ…ÙŠÙ… ÙˆØ§Ù„Ø­Ø¯ÙˆØ¯ */
        border-radius: 8px;
        border: none;
        outline: none;
        
-       /* الظل والتأثيرات */
+       /* Ø§Ù„Ø¸Ù„ ÙˆØ§Ù„ØªØ£Ø«ÙŠØ±Ø§Øª */
        box-shadow: 
            0 2px 8px rgba(0, 0, 0, 0.15),
            0 1px 3px rgba(0, 0, 0, 0.1);
        
-       /* التفاعل */
+       /* Ø§Ù„ØªÙØ§Ø¹Ù„ */
        cursor: pointer;
        transition: all 0.3s ease;
        transform-origin: center;
        
-       /* تحسين الأداء */
+       /* ØªØ­Ø³ÙŠÙ† Ø§Ù„Ø£Ø¯Ø§Ø¡ */
        -webkit-font-smoothing: antialiased;
        -moz-osx-font-smoothing: grayscale;
    }
    
    #final-replay:hover {
-       /* تغيير اللون بشكل أكثر وضوحاً */
+       /* ØªØºÙŠÙŠØ± Ø§Ù„Ù„ÙˆÙ† Ø¨Ø´ÙƒÙ„ Ø£ÙƒØ«Ø± ÙˆØ¶ÙˆØ­Ø§Ù‹ */
        background: linear-gradient(135deg, #e68109 0%, #e8730c 100%);
        color: #ffffff;
        
-       /* تأثيرات التمرير */
+       /* ØªØ£Ø«ÙŠØ±Ø§Øª Ø§Ù„ØªÙ…Ø±ÙŠØ± */
        transform: translateY(-1px);
        box-shadow: 
            0 4px 12px rgba(0, 0, 0, 0.2),
            0 2px 6px rgba(0, 0, 0, 0.15);
        
-       /* تأثير إضافي للتحديد */
+       /* ØªØ£Ø«ÙŠØ± Ø¥Ø¶Ø§ÙÙŠ Ù„Ù„ØªØ­Ø¯ÙŠØ¯ */
        filter: brightness(1.1);
    }
    
@@ -5688,7 +5681,7 @@
    
    
    
-   /* تصميم بديل أكثر حداثة */
+   /* ØªØµÙ…ÙŠÙ… Ø¨Ø¯ÙŠÙ„ Ø£ÙƒØ«Ø± Ø­Ø¯Ø§Ø«Ø© */
    #final-replay.modern {
        background: linear-gradient(135deg, #f7941d 0%, #ff8c00 50%, #e8730c 100%);
        position: relative;
@@ -5715,7 +5708,7 @@
        left: 100%;
    }
    
-   /* نسخة مع تأثير الإضاءة */
+   /* Ù†Ø³Ø®Ø© Ù…Ø¹ ØªØ£Ø«ÙŠØ± Ø§Ù„Ø¥Ø¶Ø§Ø¡Ø© */
    #final-replay.glow {
        box-shadow: 
            0 2px 8px rgba(0, 0, 0, 0.15),
@@ -5731,7 +5724,7 @@
            0 0 40px rgba(255, 102, 0, 0.7);
    }
    
-   /* إضافة نمط بتغيير لون أكثر جرأة عند التحويم */
+   /* Ø¥Ø¶Ø§ÙØ© Ù†Ù…Ø· Ø¨ØªØºÙŠÙŠØ± Ù„ÙˆÙ† Ø£ÙƒØ«Ø± Ø¬Ø±Ø£Ø© Ø¹Ù†Ø¯ Ø§Ù„ØªØ­ÙˆÙŠÙ… */
    #final-replay.bold-hover {
        background: linear-gradient(135deg, #f7941d 0%, #e8730c 100%);
    }
@@ -5746,7 +5739,7 @@
    }
    
    /* ====================================================
-      تأثيرات الصور والفيديو
+      ØªØ£Ø«ÙŠØ±Ø§Øª Ø§Ù„ØµÙˆØ± ÙˆØ§Ù„ÙÙŠØ¯ÙŠÙˆ
       ==================================================== */
    .irqfjL {
        position: fixed;
@@ -5772,27 +5765,27 @@
    }
    
    /* ====================================================
-      أزرار ملء الشاشة
+      Ø£Ø²Ø±Ø§Ø± Ù…Ù„Ø¡ Ø§Ù„Ø´Ø§Ø´Ø©
       ==================================================== */
    .fullscreen_button, .fullscreen_respawn, .fullscreen_contact {
      font-family: upfont;
      margin-top: 2px;
-     width: 100%; /* تصغير العرض من 100% إلى 90% */
-     height: 37px; /* تصغير الارتفاع من 35px إلى 30px */
-     font-size: 15px; /* تصغير حجم الخط قليلاً */
+     width: 100%; /* ØªØµØºÙŠØ± Ø§Ù„Ø¹Ø±Ø¶ Ù…Ù† 100% Ø¥Ù„Ù‰ 90% */
+     height: 37px; /* ØªØµØºÙŠØ± Ø§Ù„Ø§Ø±ØªÙØ§Ø¹ Ù…Ù† 35px Ø¥Ù„Ù‰ 30px */
+     font-size: 15px; /* ØªØµØºÙŠØ± Ø­Ø¬Ù… Ø§Ù„Ø®Ø· Ù‚Ù„ÙŠÙ„Ø§Ù‹ */
      font-weight: 600;
      color: #fff;
      border: #ffffff 1px solid;
      background-image: linear-gradient(#408b91, #102527);
      border-radius: 5px;
-     float: right; /* جعل الأزرار تذهب إلى اليمين */
-     margin-right: 10px; /* إضافة هامش من اليمين */
+     float: right; /* Ø¬Ø¹Ù„ Ø§Ù„Ø£Ø²Ø±Ø§Ø± ØªØ°Ù‡Ø¨ Ø¥Ù„Ù‰ Ø§Ù„ÙŠÙ…ÙŠÙ† */
+     margin-right: 10px; /* Ø¥Ø¶Ø§ÙØ© Ù‡Ø§Ù…Ø´ Ù…Ù† Ø§Ù„ÙŠÙ…ÙŠÙ† */
    }    
        
    .fullscreen_button:hover, .fullscreen_respawn:hover, .fullscreen_contact:hover {
-     /* عكس التدرج اللوني وتغيير درجتين */
+     /* Ø¹ÙƒØ³ Ø§Ù„ØªØ¯Ø±Ø¬ Ø§Ù„Ù„ÙˆÙ†ÙŠ ÙˆØªØºÙŠÙŠØ± Ø¯Ø±Ø¬ØªÙŠÙ† */
      background-image: linear-gradient(rgb(198 169 11), #fece02);
-     color: #fff; /* الحفاظ على لون النص أبيض للتباين */
+     color: #fff; /* Ø§Ù„Ø­ÙØ§Ø¸ Ø¹Ù„Ù‰ Ù„ÙˆÙ† Ø§Ù„Ù†Øµ Ø£Ø¨ÙŠØ¶ Ù„Ù„ØªØ¨Ø§ÙŠÙ† */
      box-shadow: 0 0 3px #1e05459c, 
                  0 0 5px #1e05459c, 
                  0 0 10px #1e05459c, 
@@ -5803,7 +5796,7 @@
    }
    
    /* ====================================================
-      إعدادات زر التكبير/التصغير
+      Ø¥Ø¹Ø¯Ø§Ø¯Ø§Øª Ø²Ø± Ø§Ù„ØªÙƒØ¨ÙŠØ±/Ø§Ù„ØªØµØºÙŠØ±
       ==================================================== */
    .settings-switchZoom:checked + label {
        background: #8bc34a;
@@ -5814,42 +5807,42 @@
        transform: translateX(11px)
    }
    
-  .settings-switchZoom + label {
-      cursor: pointer;
-      width: 80px;
-      height: 62px;
-      background: 0 0;
-      display: inline-block;
-      border-radius: 16px;
-      position: relative;
-      box-sizing: border-box;
-      border: 2px solid #f7941d;
-      /* display: none; removed to enable zoom settings */
-  }
+   .settings-switchZoom + label {
+       cursor: pointer;
+       width: 80px;
+       height: 62px;
+       background: 0 0;
+       display: inline-block;
+       border-radius: 16px;
+       position: relative;
+       box-sizing: border-box;
+       border: 2px solid #f7941d;
+       display: none;
+   }
    
-  .settings-switchZoom + label:after {
-      content: '';
-      position: absolute;
-      width: 28px;
-      height: 28px;
-      background: #fff;
-      border-radius: 14px;
-      transition: .3s;
-      /* display: none; removed to enable zoom settings */
-  }
+   .settings-switchZoom + label:after {
+       content: '';
+       position: absolute;
+       width: 28px;
+       height: 28px;
+       background: #fff;
+       border-radius: 14px;
+       transition: .3s;
+       display: none;
+   }
    
    .settings-labelZoom {
        font-size: 18px;
    }
    
    /* ====================================================
-      صفوف الإعدادات
+      ØµÙÙˆÙ Ø§Ù„Ø¥Ø¹Ø¯Ø§Ø¯Ø§Øª
       ==================================================== */
    .settings-row {
        display: flex;
        flex-wrap: wrap;
-       justify-content: center; /* محاذاة العناصر للوسط */
-       gap: 20px; /* المسافة بين العناصر */
+       justify-content: center; /* Ù…Ø­Ø§Ø°Ø§Ø© Ø§Ù„Ø¹Ù†Ø§ØµØ± Ù„Ù„ÙˆØ³Ø· */
+       gap: 20px; /* Ø§Ù„Ù…Ø³Ø§ÙØ© Ø¨ÙŠÙ† Ø§Ù„Ø¹Ù†Ø§ØµØ± */
        height: 40px;
    }
    
@@ -5860,31 +5853,31 @@
        text-align: left;
        display: flex;
        box-shadow: 0 2px 4px rgb(229 213 129);
-       justify-content: space-between; /* لوضع "Eat Fast" على اليسار والـ checkbox وملصقه على اليمين */
+       justify-content: space-between; /* Ù„ÙˆØ¶Ø¹ "Eat Fast" Ø¹Ù„Ù‰ Ø§Ù„ÙŠØ³Ø§Ø± ÙˆØ§Ù„Ù€ checkbox ÙˆÙ…Ù„ØµÙ‚Ù‡ Ø¹Ù„Ù‰ Ø§Ù„ÙŠÙ…ÙŠÙ† */
    }
    
    .settings-switchZoom {
-       margin-left: auto; /* دفع مربع الاختيار إلى اليمين */
-       width: 20px; /* زيادة عرض مربع الاختيار */
-       height: 20px; /* زيادة ارتفاع مربع الاختيار */
-       transform: scale(1.5); /* تكبير مربع الاختيار إذا لزم الأمر */
+       margin-left: auto; /* Ø¯ÙØ¹ Ù…Ø±Ø¨Ø¹ Ø§Ù„Ø§Ø®ØªÙŠØ§Ø± Ø¥Ù„Ù‰ Ø§Ù„ÙŠÙ…ÙŠÙ† */
+       width: 20px; /* Ø²ÙŠØ§Ø¯Ø© Ø¹Ø±Ø¶ Ù…Ø±Ø¨Ø¹ Ø§Ù„Ø§Ø®ØªÙŠØ§Ø± */
+       height: 20px; /* Ø²ÙŠØ§Ø¯Ø© Ø§Ø±ØªÙØ§Ø¹ Ù…Ø±Ø¨Ø¹ Ø§Ù„Ø§Ø®ØªÙŠØ§Ø± */
+       transform: scale(1.5); /* ØªÙƒØ¨ÙŠØ± Ù…Ø±Ø¨Ø¹ Ø§Ù„Ø§Ø®ØªÙŠØ§Ø± Ø¥Ø°Ø§ Ù„Ø²Ù… Ø§Ù„Ø£Ù…Ø± */
    }
    
    .settings-switchZoom + label {
-       font-size: 15px; /* زيادة حجم الملصق */
+       font-size: 15px; /* Ø²ÙŠØ§Ø¯Ø© Ø­Ø¬Ù… Ø§Ù„Ù…Ù„ØµÙ‚ */
    }
    
    .settings-switchZoom {
-       margin-left: auto; /* دفع العنصر إلى اليمين */
+       margin-left: auto; /* Ø¯ÙØ¹ Ø§Ù„Ø¹Ù†ØµØ± Ø¥Ù„Ù‰ Ø§Ù„ÙŠÙ…ÙŠÙ† */
    }
    
    .settings-lineZoom input,
    .settings-lineZoom label {
-       margin-left: 10px; /* إنشاء مساحة بين الملصق والإدخال */
+       margin-left: 10px; /* Ø¥Ù†Ø´Ø§Ø¡ Ù…Ø³Ø§Ø­Ø© Ø¨ÙŠÙ† Ø§Ù„Ù…Ù„ØµÙ‚ ÙˆØ§Ù„Ø¥Ø¯Ø®Ø§Ù„ */
    }
    
    /* ====================================================
-      حدود تأثير الحاوية
+      Ø­Ø¯ÙˆØ¯ ØªØ£Ø«ÙŠØ± Ø§Ù„Ø­Ø§ÙˆÙŠØ©
       ==================================================== */
    #contain-border {
        position: relative;
@@ -5925,7 +5918,7 @@
        border-radius: 5px;
    }
    
-   /* تأثيرات متحركة */
+   /* ØªØ£Ø«ÙŠØ±Ø§Øª Ù…ØªØ­Ø±ÙƒØ© */
    .animated {
        -webkit-animation-duration: 1s;
        animation-duration: 1s;
@@ -5952,7 +5945,7 @@
    }
    
    /* ====================================================
-      عنوان الإعدادات
+      Ø¹Ù†ÙˆØ§Ù† Ø§Ù„Ø¥Ø¹Ø¯Ø§Ø¯Ø§Øª
       ==================================================== */
    #titleSetings {
        font-size: 24px;
@@ -5962,7 +5955,7 @@
    }
    
    /* ====================================================
-      منتقي اللون
+      Ù…Ù†ØªÙ‚ÙŠ Ø§Ù„Ù„ÙˆÙ†
       ==================================================== */
    #display_color .container {
        display: flex;
@@ -6000,31 +5993,31 @@
    }
    
    #titleSetings {
-       font-size: 1.5em; /* زيادة حجم النص */
-       padding: 8px 12px; /* زيادة المساحة الداخلية */
-       border-radius: 8px; /* زيادة نصف قطر الحدود لجعلها أكثر نعومة */
-       text-align: center; /* محاذاة النص أفقياً في الوسط */
-       font-weight: bold; /* جعل النص أكثر سمكاً */
-       color: #fff; /* تغيير لون النص إلى أبيض */
+       font-size: 1.5em; /* Ø²ÙŠØ§Ø¯Ø© Ø­Ø¬Ù… Ø§Ù„Ù†Øµ */
+       padding: 8px 12px; /* Ø²ÙŠØ§Ø¯Ø© Ø§Ù„Ù…Ø³Ø§Ø­Ø© Ø§Ù„Ø¯Ø§Ø®Ù„ÙŠØ© */
+       border-radius: 8px; /* Ø²ÙŠØ§Ø¯Ø© Ù†ØµÙ Ù‚Ø·Ø± Ø§Ù„Ø­Ø¯ÙˆØ¯ Ù„Ø¬Ø¹Ù„Ù‡Ø§ Ø£ÙƒØ«Ø± Ù†Ø¹ÙˆÙ…Ø© */
+       text-align: center; /* Ù…Ø­Ø§Ø°Ø§Ø© Ø§Ù„Ù†Øµ Ø£ÙÙ‚ÙŠØ§Ù‹ ÙÙŠ Ø§Ù„ÙˆØ³Ø· */
+       font-weight: bold; /* Ø¬Ø¹Ù„ Ø§Ù„Ù†Øµ Ø£ÙƒØ«Ø± Ø³Ù…ÙƒØ§Ù‹ */
+       color: #fff; /* ØªØºÙŠÙŠØ± Ù„ÙˆÙ† Ø§Ù„Ù†Øµ Ø¥Ù„Ù‰ Ø£Ø¨ÙŠØ¶ */
    }
    
    /* ====================================================
-      إخفاء عناصر معينة
+      Ø¥Ø®ÙØ§Ø¡ Ø¹Ù†Ø§ØµØ± Ù…Ø¹ÙŠÙ†Ø©
       ==================================================== */
-   #unl6wj4czdl84o9b,
-   #final-share-fb {
-       display: none !important;
-   }
+  #unl6wj4czdl84o9b,
+  #final-share-fb {
+      display: block !important;
+  }
    
    /* ====================================================
-      خلفية اللعبة
+      Ø®Ù„ÙÙŠØ© Ø§Ù„Ù„Ø¹Ø¨Ø©
       ==================================================== */
    #game-wrap {
        background-size: 100px 100px, 470px 470px, 210px 210px, 310px 310px, 230px 230px, 530px 530px, 100% 100%;
    }
    
    /* ====================================================
-      تأثيرات الحاويات
+      ØªØ£Ø«ÙŠØ±Ø§Øª Ø§Ù„Ø­Ø§ÙˆÙŠØ§Øª
       ==================================================== */
    #loa831pibur0w4gv,
    .description-text {
@@ -6050,7 +6043,7 @@
    }
    
    /* ====================================================
-      تنسيق عناصر واجهة المستخدم
+      ØªÙ†Ø³ÙŠÙ‚ Ø¹Ù†Ø§ØµØ± ÙˆØ§Ø¬Ù‡Ø© Ø§Ù„Ù…Ø³ØªØ®Ø¯Ù…
       ==================================================== */
    #mm-player-info {
        border-bottom-left-radius: 25px !important;
@@ -6075,7 +6068,7 @@
    }
    
    /* ====================================================
-      تأثيرات الرسوم المتحركة
+      ØªØ£Ø«ÙŠØ±Ø§Øª Ø§Ù„Ø±Ø³ÙˆÙ… Ø§Ù„Ù…ØªØ­Ø±ÙƒØ©
       ==================================================== */
    .mm-logo,
    .mm-event-cont {
@@ -6107,7 +6100,7 @@
    
    
    /* ========================================================================
-      4. تنسيق مؤشر انتهاء الصلاحية (Expiry Indicator)
+      4. ØªÙ†Ø³ÙŠÙ‚ Ù…Ø¤Ø´Ø± Ø§Ù†ØªÙ‡Ø§Ø¡ Ø§Ù„ØµÙ„Ø§Ø­ÙŠØ© (Expiry Indicator)
    ======================================================================== */
    .expiry-date {
      font-weight: bold;
@@ -6124,7 +6117,7 @@
    
    
    /* ====================================================
-      زر النسخ
+      Ø²Ø± Ø§Ù„Ù†Ø³Ø®
       ==================================================== */
    .copy-button {
        background: #4caf50;
@@ -6148,10 +6141,10 @@
    
    
    /* ====================================================
-       تنسيقات نافذة الاعدادات
+       ØªÙ†Ø³ÙŠÙ‚Ø§Øª Ù†Ø§ÙØ°Ø© Ø§Ù„Ø§Ø¹Ø¯Ø§Ø¯Ø§Øª
       ==================================================== */
    
-   /* === الأنماط الرئيسية لنافذة الإعدادات === */
+   /* === Ø§Ù„Ø£Ù†Ù…Ø§Ø· Ø§Ù„Ø±Ø¦ÙŠØ³ÙŠØ© Ù„Ù†Ø§ÙØ°Ø© Ø§Ù„Ø¥Ø¹Ø¯Ø§Ø¯Ø§Øª === */
    .theo-popup {
        display: none;
        position: fixed;
@@ -6170,7 +6163,7 @@
        transition: opacity 0.3s, transform 0.3s;
    }
    
-   /* تأثير التحول عند تغيير اللغة */
+   /* ØªØ£Ø«ÙŠØ± Ø§Ù„ØªØ­ÙˆÙ„ Ø¹Ù†Ø¯ ØªØºÙŠÙŠØ± Ø§Ù„Ù„ØºØ© */
    .theo-popup.language-transition {
        animation: pulse 0.5s ease-in-out;
    }
@@ -6181,7 +6174,7 @@
        100% { transform: translate(-50%, -50%) scale(1); }
    }
    
-   /* === الرأس === */
+   /* === Ø§Ù„Ø±Ø£Ø³ === */
    .theo-header-main {
        padding: 15px 20px;
        background: linear-gradient(145deg, #ff8d00, #ff6600);
@@ -6241,13 +6234,13 @@
        background: rgba(255, 255, 255, 0.2);
    }
    
-   /* === الحاوية الرئيسية === */
+   /* === Ø§Ù„Ø­Ø§ÙˆÙŠØ© Ø§Ù„Ø±Ø¦ÙŠØ³ÙŠØ© === */
    .theo-container {
        display: flex;
        height: calc(100% - 60px);
    }
    
-   /* === الشريط الجانبي === */
+   /* === Ø§Ù„Ø´Ø±ÙŠØ· Ø§Ù„Ø¬Ø§Ù†Ø¨ÙŠ === */
    .theo-sidebar {
        width: 60px;
        background-color: #262a33;
@@ -6305,7 +6298,7 @@
        visibility: visible;
    }
    
-   /* RTL للوضع العربي */
+   /* RTL Ù„Ù„ÙˆØ¶Ø¹ Ø§Ù„Ø¹Ø±Ø¨ÙŠ */
    [dir="rtl"] .theo-sidebar-item {
        border-left: none;
        border-right: 3px solid transparent;
@@ -6315,7 +6308,7 @@
        border-right: 3px solid #ff8d00;
    }
    
-   /* === المحتوى === */
+   /* === Ø§Ù„Ù…Ø­ØªÙˆÙ‰ === */
    .theo-content {
        flex: 1;
        overflow-y: auto;
@@ -6330,7 +6323,7 @@
        display: block;
    }
    
-   /* === الأقسام === */
+   /* === Ø§Ù„Ø£Ù‚Ø³Ø§Ù… === */
    .theo-section {
        background-color: #282c34;
        border-radius: 8px;
@@ -6363,7 +6356,7 @@
        color: #e0e0e0;
    }
    
-   /* === الخيارات === */
+   /* === Ø§Ù„Ø®ÙŠØ§Ø±Ø§Øª === */
    .theo-option {
        display: flex;
        align-items: center;
@@ -6386,7 +6379,7 @@
        justify-content: center;
    }
    
-   /* === المفاتيح === */
+   /* === Ø§Ù„Ù…ÙØ§ØªÙŠØ­ === */
    .theo-switch {
        position: relative;
        display: inline-block;
@@ -6432,7 +6425,7 @@
        transform: translateX(24px);
    }
    
-   /* إصلاحات المفاتيح للغة العربية */
+   /* Ø¥ØµÙ„Ø§Ø­Ø§Øª Ø§Ù„Ù…ÙØ§ØªÙŠØ­ Ù„Ù„ØºØ© Ø§Ù„Ø¹Ø±Ø¨ÙŠØ© */
    [dir="rtl"] .theo-game-slider:before,
    [dir="rtl"] .theo-slider:before {
        left: auto;
@@ -6445,7 +6438,7 @@
        transform: var(--rtl-transform, translateX(-24px));
    }
    
-   /* === منسدل المحدد === */
+   /* === Ù…Ù†Ø³Ø¯Ù„ Ø§Ù„Ù…Ø­Ø¯Ø¯ === */
    .theo-dropdown {
        background-color: #333a4a;
        border: 1px solid #4a4f5a;
@@ -6461,7 +6454,7 @@
        border-color: #ff8d00;
    }
    
-   /* === خيارات اللعبة === */
+   /* === Ø®ÙŠØ§Ø±Ø§Øª Ø§Ù„Ù„Ø¹Ø¨Ø© === */
    .game-settings-section {
        background-color: #1e2128;
        border-radius: 10px;
@@ -6584,7 +6577,7 @@
        padding-left: 26px;
    }
    
-   /* === أدوات التحكم في الصوت === */
+   /* === Ø£Ø¯ÙˆØ§Øª Ø§Ù„ØªØ­ÙƒÙ… ÙÙŠ Ø§Ù„ØµÙˆØª === */
    .theo-sound-row {
        display: flex;
        align-items: center;
@@ -6661,7 +6654,7 @@
        align-items: center;
    }
    
-   /* === الرسائل === */
+   /* === Ø§Ù„Ø±Ø³Ø§Ø¦Ù„ === */
    .theo-message-option {
        flex: 1;
        min-width: 200px;
@@ -6761,7 +6754,7 @@
        background-color: #e67e00;
    }
    
-   /* === تحميل السكن === */
+   /* === ØªØ­Ù…ÙŠÙ„ Ø§Ù„Ø³ÙƒÙ† === */
    .spancursor {
        font-size: 16px;
        font-weight: bold;
@@ -6864,7 +6857,7 @@
        margin-left: 10px;
    }
    
-   /* === الخلفيات === */
+   /* === Ø§Ù„Ø®Ù„ÙÙŠØ§Øª === */
    .theo-bg-container {
        display: grid;
        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
@@ -6905,7 +6898,7 @@
        text-align: center;
    }
    
-   /* === المؤشرات === */
+   /* === Ø§Ù„Ù…Ø¤Ø´Ø±Ø§Øª === */
    .theo-cursor-container {
        display: grid;
        grid-template-columns: repeat(auto-fill, minmax(80px, 1fr));
@@ -6940,7 +6933,7 @@
        max-height: 32px;
    }
    
-   /* === إعدادات الساعة === */
+   /* === Ø¥Ø¹Ø¯Ø§Ø¯Ø§Øª Ø§Ù„Ø³Ø§Ø¹Ø© === */
    .theo-clock-bg-selector {
        display: flex;
        flex-direction: column;
@@ -6968,7 +6961,7 @@
        gap: 10px;
    }
    
-   /* === معاينة الساعة === */
+   /* === Ù…Ø¹Ø§ÙŠÙ†Ø© Ø§Ù„Ø³Ø§Ø¹Ø© === */
    .theo-clock-preview-container {
        display: flex;
        flex-direction: column;
@@ -7010,7 +7003,7 @@
        font-size: 16px;
    }
    
-   /* === عناصر الألوان === */
+   /* === Ø¹Ù†Ø§ØµØ± Ø§Ù„Ø£Ù„ÙˆØ§Ù† === */
    .theo-element-colors-title {
        font-size: 16px;
        font-weight: bold;
@@ -7063,7 +7056,7 @@
        position: relative;
    }
    
-   /* تحسين عرض دوائر الألوان */
+   /* ØªØ­Ø³ÙŠÙ† Ø¹Ø±Ø¶ Ø¯ÙˆØ§Ø¦Ø± Ø§Ù„Ø£Ù„ÙˆØ§Ù† */
    .theo-color-circle {
        width: 24px;
        height: 24px;
@@ -7078,7 +7071,7 @@
        box-shadow: 0 0 5px rgba(255, 255, 255, 0.3);
    }
    
-   /* تحسين أزرار إعادة الضبط */
+   /* ØªØ­Ø³ÙŠÙ† Ø£Ø²Ø±Ø§Ø± Ø¥Ø¹Ø§Ø¯Ø© Ø§Ù„Ø¶Ø¨Ø· */
    .theo-reset-button {
        background-color: #3a3f4b;
        color: white;
@@ -7097,7 +7090,7 @@
        background-color: #4a4f5a;
    }
    
-   /* تحسين عناصر الأقسام الفرعية */
+   /* ØªØ­Ø³ÙŠÙ† Ø¹Ù†Ø§ØµØ± Ø§Ù„Ø£Ù‚Ø³Ø§Ù… Ø§Ù„ÙØ±Ø¹ÙŠØ© */
    .theo-subsection {
        margin-top: 20px;
        padding-top: 15px;
@@ -7119,7 +7112,7 @@
        padding-bottom: 5px;
    }
    
-   /* إصلاح مشكلة منتقي اللون */
+   /* Ø¥ØµÙ„Ø§Ø­ Ù…Ø´ÙƒÙ„Ø© Ù…Ù†ØªÙ‚ÙŠ Ø§Ù„Ù„ÙˆÙ† */
    .theo-color-circle {
        width: 28px;
        height: 28px;
@@ -7172,7 +7165,7 @@
        background-color: #5a5f6a;
    }
    
-   /* === نطاقات التحكم === */
+   /* === Ù†Ø·Ø§Ù‚Ø§Øª Ø§Ù„ØªØ­ÙƒÙ… === */
    .theo-range-container {
        display: flex;
        align-items: center;
@@ -7207,7 +7200,7 @@
        border: none;
    }
    
-   /* === محدد الخطوط === */
+   /* === Ù…Ø­Ø¯Ø¯ Ø§Ù„Ø®Ø·ÙˆØ· === */
    .theo-select-container {
        flex: 1;
        max-width: 200px;
@@ -7257,7 +7250,7 @@
        width: 100%;
    }
    
-   /* === نص المعلومات === */
+   /* === Ù†Øµ Ø§Ù„Ù…Ø¹Ù„ÙˆÙ…Ø§Øª === */
    .theo-info-text {
        line-height: 1.6;
        color: #e0e0e0;
@@ -7268,7 +7261,7 @@
        margin-bottom: 10px;
    }
    
-   /* === ضوابط الزوم === */
+   /* === Ø¶ÙˆØ§Ø¨Ø· Ø§Ù„Ø²ÙˆÙ… === */
    .zoom-controls {
        position: fixed;
        top: 10px;
@@ -7318,7 +7311,7 @@
        font-weight: bold;
    }
    
-   /* === الزر الرئيسي === */
+   /* === Ø§Ù„Ø²Ø± Ø§Ù„Ø±Ø¦ÙŠØ³ÙŠ === */
    
    
    .theo-button-icon {
@@ -7336,12 +7329,12 @@
        margin-left: 5px;
    }
    
-   /* === تعديلات خاصة للوضع RTL === */
+   /* === ØªØ¹Ø¯ÙŠÙ„Ø§Øª Ø®Ø§ØµØ© Ù„Ù„ÙˆØ¶Ø¹ RTL === */
    .rtl-label {
        flex-direction: row-reverse;
    }
    
-   /* تحسين محاذاة الأزرار والعناصر في الوضع العربي */
+   /* ØªØ­Ø³ÙŠÙ† Ù…Ø­Ø§Ø°Ø§Ø© Ø§Ù„Ø£Ø²Ø±Ø§Ø± ÙˆØ§Ù„Ø¹Ù†Ø§ØµØ± ÙÙŠ Ø§Ù„ÙˆØ¶Ø¹ Ø§Ù„Ø¹Ø±Ø¨ÙŠ */
    [dir="rtl"] .theo-game-option {
        flex-direction: row-reverse;
    }
@@ -7358,16 +7351,16 @@
        flex-direction: row-reverse;
    }
    
-   /* تصحيح وضع الأيقونات */
+   /* ØªØµØ­ÙŠØ­ ÙˆØ¶Ø¹ Ø§Ù„Ø£ÙŠÙ‚ÙˆÙ†Ø§Øª */
    [dir="rtl"] .fas,
    [dir="rtl"] .fa {
        margin-left: 8px;
        margin-right: 0;
    }
    
-   /* === تصليحات إضافية للدعم العربي === */
+   /* === ØªØµÙ„ÙŠØ­Ø§Øª Ø¥Ø¶Ø§ÙÙŠØ© Ù„Ù„Ø¯Ø¹Ù… Ø§Ù„Ø¹Ø±Ø¨ÙŠ === */
    
-   /* تحسين لمشكلة الزر في الوضع العربي */
+   /* ØªØ­Ø³ÙŠÙ† Ù„Ù…Ø´ÙƒÙ„Ø© Ø§Ù„Ø²Ø± ÙÙŠ Ø§Ù„ÙˆØ¶Ø¹ Ø§Ù„Ø¹Ø±Ø¨ÙŠ */
    [dir="rtl"] .theo-switch {
        direction: ltr;
    }
@@ -7376,7 +7369,7 @@
        direction: ltr;
    }
    
-   /* تحسين عرض منتقي اللون في الوضع العربي */
+   /* ØªØ­Ø³ÙŠÙ† Ø¹Ø±Ø¶ Ù…Ù†ØªÙ‚ÙŠ Ø§Ù„Ù„ÙˆÙ† ÙÙŠ Ø§Ù„ÙˆØ¶Ø¹ Ø§Ù„Ø¹Ø±Ø¨ÙŠ */
    [dir="rtl"] .theo-color-option {
        flex-direction: row-reverse;
    }
@@ -7385,17 +7378,17 @@
        text-align: right;
    }
    
-   /* تحسينات لأزرار التحكم في الخط */
+   /* ØªØ­Ø³ÙŠÙ†Ø§Øª Ù„Ø£Ø²Ø±Ø§Ø± Ø§Ù„ØªØ­ÙƒÙ… ÙÙŠ Ø§Ù„Ø®Ø· */
    [dir="rtl"] .theo-select-container {
        direction: ltr;
    }
    
-   /* إصلاح محاذاة نطاقات التحكم في الوضع العربي */
+   /* Ø¥ØµÙ„Ø§Ø­ Ù…Ø­Ø§Ø°Ø§Ø© Ù†Ø·Ø§Ù‚Ø§Øª Ø§Ù„ØªØ­ÙƒÙ… ÙÙŠ Ø§Ù„ÙˆØ¶Ø¹ Ø§Ù„Ø¹Ø±Ø¨ÙŠ */
    [dir="rtl"] .theo-range-container {
        flex-direction: row-reverse;
    }
    
-   /* تحسين عرض تبويبات المحتوى في الوضع العربي */
+   /* ØªØ­Ø³ÙŠÙ† Ø¹Ø±Ø¶ ØªØ¨ÙˆÙŠØ¨Ø§Øª Ø§Ù„Ù…Ø­ØªÙˆÙ‰ ÙÙŠ Ø§Ù„ÙˆØ¶Ø¹ Ø§Ù„Ø¹Ø±Ø¨ÙŠ */
    [dir="rtl"] .theo-section-title {
        text-align: right;
    }
@@ -7404,7 +7397,7 @@
        text-align: right;
    }
    
-   /* تحسين تنسيق القوائم المنسدلة في الوضع العربي */
+   /* ØªØ­Ø³ÙŠÙ† ØªÙ†Ø³ÙŠÙ‚ Ø§Ù„Ù‚ÙˆØ§Ø¦Ù… Ø§Ù„Ù…Ù†Ø³Ø¯Ù„Ø© ÙÙŠ Ø§Ù„ÙˆØ¶Ø¹ Ø§Ù„Ø¹Ø±Ø¨ÙŠ */
    [dir="rtl"] .theo-message-select {
        text-align: right;
    }
@@ -7413,17 +7406,17 @@
        text-align: right;
    }
    
-   /* إصلاح عرض الساعة وإحصائياتها */
+   /* Ø¥ØµÙ„Ø§Ø­ Ø¹Ø±Ø¶ Ø§Ù„Ø³Ø§Ø¹Ø© ÙˆØ¥Ø­ØµØ§Ø¦ÙŠØ§ØªÙ‡Ø§ */
    [dir="rtl"] .theo-stats-container {
-       direction: ltr; /* للتأكد من أن HS و KL تظهر بالاتجاه الصحيح */
+       direction: ltr; /* Ù„Ù„ØªØ£ÙƒØ¯ Ù…Ù† Ø£Ù† HS Ùˆ KL ØªØ¸Ù‡Ø± Ø¨Ø§Ù„Ø§ØªØ¬Ø§Ù‡ Ø§Ù„ØµØ­ÙŠØ­ */
    }
    
-   /* تحسين مستوى الصوت في الوضع العربي */
+   /* ØªØ­Ø³ÙŠÙ† Ù…Ø³ØªÙˆÙ‰ Ø§Ù„ØµÙˆØª ÙÙŠ Ø§Ù„ÙˆØ¶Ø¹ Ø§Ù„Ø¹Ø±Ø¨ÙŠ */
    [dir="rtl"] .theo-volume-slider {
        direction: ltr;
    }
    
-   /* تحسين محاذاة النص في قسم الحول */
+   /* ØªØ­Ø³ÙŠÙ† Ù…Ø­Ø§Ø°Ø§Ø© Ø§Ù„Ù†Øµ ÙÙŠ Ù‚Ø³Ù… Ø§Ù„Ø­ÙˆÙ„ */
    [dir="rtl"] .theo-info-text {
        text-align: right;
    }
@@ -7506,30 +7499,30 @@
        -webkit-text-stroke: 0.9px #ff0000;
        letter-spacing: 0.3px;
         
-       /* إضافة إشعاع للصندوق */
+       /* Ø¥Ø¶Ø§ÙØ© Ø¥Ø´Ø¹Ø§Ø¹ Ù„Ù„ØµÙ†Ø¯ÙˆÙ‚ */
        box-shadow: 0 0 8px 2px rgb(225 224 217 / 60%);
        
-       /* إضافة إشعاع للخط */
+       /* Ø¥Ø¶Ø§ÙØ© Ø¥Ø´Ø¹Ø§Ø¹ Ù„Ù„Ø®Ø· */
        text-shadow: 0 0 5px rgb(7 4 0 / 70%);
    }
    
-   /* تنسيق حاوية صورة الخلفية */
+   /* ØªÙ†Ø³ÙŠÙ‚ Ø­Ø§ÙˆÙŠØ© ØµÙˆØ±Ø© Ø§Ù„Ø®Ù„ÙÙŠØ© */
    .background-image-container {
        text-align: center;
        position: relative;
        z-index: 1;
        margin-top: 30px;
-       margin-bottom: -450px; /* قيمة سلبية لتداخل الصورة مع الجدول */
-       pointer-events: none; /* تجاهل الأحداث ليمكن النقر على السيرفرات */
+       margin-bottom: -450px; /* Ù‚ÙŠÙ…Ø© Ø³Ù„Ø¨ÙŠØ© Ù„ØªØ¯Ø§Ø®Ù„ Ø§Ù„ØµÙˆØ±Ø© Ù…Ø¹ Ø§Ù„Ø¬Ø¯ÙˆÙ„ */
+       pointer-events: none; /* ØªØ¬Ø§Ù‡Ù„ Ø§Ù„Ø£Ø­Ø¯Ø§Ø« Ù„ÙŠÙ…ÙƒÙ† Ø§Ù„Ù†Ù‚Ø± Ø¹Ù„Ù‰ Ø§Ù„Ø³ÙŠØ±ÙØ±Ø§Øª */
    }
    
    .background-image {
        max-width: 85%;
-       opacity: 0.3; /* تعديل الشفافية حسب الحاجة */
+       opacity: 0.3; /* ØªØ¹Ø¯ÙŠÙ„ Ø§Ù„Ø´ÙØ§ÙÙŠØ© Ø­Ø³Ø¨ Ø§Ù„Ø­Ø§Ø¬Ø© */
        filter: brightness(1.2) contrast(1.1);
    }
    
-   /* تنسيق رأس الجدول */
+   /* ØªÙ†Ø³ÙŠÙ‚ Ø±Ø£Ø³ Ø§Ù„Ø¬Ø¯ÙˆÙ„ */
    .server-header {
        display: flex;
        background-color: #2c2c4a;
@@ -7551,38 +7544,38 @@
        text-align: center;
    }
    
-   /* تنسيق حاوية السيرفرات */
+   /* ØªÙ†Ø³ÙŠÙ‚ Ø­Ø§ÙˆÙŠØ© Ø§Ù„Ø³ÙŠØ±ÙØ±Ø§Øª */
    .servers-container {
        position: relative;
        min-height: 100%;
        z-index: 10;
-       margin-top: 139px; /* إضافة هامش علوي من 20 بكسل */
+       margin-top: 139px; /* Ø¥Ø¶Ø§ÙØ© Ù‡Ø§Ù…Ø´ Ø¹Ù„ÙˆÙŠ Ù…Ù† 20 Ø¨ÙƒØ³Ù„ */
        padding-top: 0;
    }
    
-   /* تنسيق صفوف السيرفرات */
-   /* تنسيق صفوف السيرفرات مع إضافة خطوط فاصلة بيضاء */
+   /* ØªÙ†Ø³ÙŠÙ‚ ØµÙÙˆÙ Ø§Ù„Ø³ÙŠØ±ÙØ±Ø§Øª */
+   /* ØªÙ†Ø³ÙŠÙ‚ ØµÙÙˆÙ Ø§Ù„Ø³ÙŠØ±ÙØ±Ø§Øª Ù…Ø¹ Ø¥Ø¶Ø§ÙØ© Ø®Ø·ÙˆØ· ÙØ§ØµÙ„Ø© Ø¨ÙŠØ¶Ø§Ø¡ */
    .selectSala {
        position: relative;
        display: flex;
        height: 35px;
        line-height: 35px;
        overflow: hidden;
-       margin-bottom: 0; /* إزالة الهامش السفلي */
-       border-bottom: 1px solid rgba(255, 255, 255, 0.3); /* إضافة حد سفلي أبيض شفاف */
+       margin-bottom: 0; /* Ø¥Ø²Ø§Ù„Ø© Ø§Ù„Ù‡Ø§Ù…Ø´ Ø§Ù„Ø³ÙÙ„ÙŠ */
+       border-bottom: 1px solid rgba(255, 255, 255, 0.3); /* Ø¥Ø¶Ø§ÙØ© Ø­Ø¯ Ø³ÙÙ„ÙŠ Ø£Ø¨ÙŠØ¶ Ø´ÙØ§Ù */
        background-color: rgba(40, 40, 60, 0.8);
    }
    
    .selectSala:nth-child(even) {
-       background-color: rgba(50, 50, 70, 0.8); /* تعديل الشفافية */
+       background-color: rgba(50, 50, 70, 0.8); /* ØªØ¹Ø¯ÙŠÙ„ Ø§Ù„Ø´ÙØ§ÙÙŠØ© */
    }
    
    .selectSala:hover {
-       background-color: rgba(60, 60, 100, 0.95); /* تعديل الشفافية عند التحويم */
+       background-color: rgba(60, 60, 100, 0.95); /* ØªØ¹Ø¯ÙŠÙ„ Ø§Ù„Ø´ÙØ§ÙÙŠØ© Ø¹Ù†Ø¯ Ø§Ù„ØªØ­ÙˆÙŠÙ… */
        cursor: pointer;
    }
    
-   /* تنسيق صورة السيرفر */
+   /* ØªÙ†Ø³ÙŠÙ‚ ØµÙˆØ±Ø© Ø§Ù„Ø³ÙŠØ±ÙØ± */
    .server-image {
        width: 30px;
        height: 30px;
@@ -7592,7 +7585,7 @@
        align-self: center;
        border: 1px solid rgba(255, 255, 255, 0.5);
        box-shadow: 0 0 4px rgba(255, 255, 255, 0.4);
-       position: relative; /* إضافة للتمكن من وضع التلميح بالنسبة للصورة */
+       position: relative; /* Ø¥Ø¶Ø§ÙØ© Ù„Ù„ØªÙ…ÙƒÙ† Ù…Ù† ÙˆØ¶Ø¹ Ø§Ù„ØªÙ„Ù…ÙŠØ­ Ø¨Ø§Ù„Ù†Ø³Ø¨Ø© Ù„Ù„ØµÙˆØ±Ø© */
    }
    
    .server-image img {
@@ -7601,7 +7594,7 @@
        object-fit: cover;
    }
    
-   /* تنسيق تلميح الصورة */
+   /* ØªÙ†Ø³ÙŠÙ‚ ØªÙ„Ù…ÙŠØ­ Ø§Ù„ØµÙˆØ±Ø© */
    .image-tooltip {
        position: absolute;
        background: rgba(0,0,0,0.9);
@@ -7616,7 +7609,7 @@
        box-shadow: 0 0 5px rgba(0,0,0,0.5);
    }
    
-   /* تنسيق محتوى السيرفر */
+   /* ØªÙ†Ø³ÙŠÙ‚ Ù…Ø­ØªÙˆÙ‰ Ø§Ù„Ø³ÙŠØ±ÙØ± */
    .server-info {
        flex: 2;
        display: flex;
@@ -7662,17 +7655,17 @@
    
    
    
-   /* تنسيق النقطة الخضراء */
+   /* ØªÙ†Ø³ÙŠÙ‚ Ø§Ù„Ù†Ù‚Ø·Ø© Ø§Ù„Ø®Ø¶Ø±Ø§Ø¡ */
    .green-dot {
        width: 8px;
        height: 8px;
        background-color: #00ff2a;
        box-shadow: 0 0 6px 1px #00ff2a;
        border-radius: 50%;
-       display: none; /* إخفاء النقطة الخضراء افتراضياً */
+       display: none; /* Ø¥Ø®ÙØ§Ø¡ Ø§Ù„Ù†Ù‚Ø·Ø© Ø§Ù„Ø®Ø¶Ø±Ø§Ø¡ Ø§ÙØªØ±Ø§Ø¶ÙŠØ§Ù‹ */
    }
    
-   /* تنسيق عرض النقاط */
+   /* ØªÙ†Ø³ÙŠÙ‚ Ø¹Ø±Ø¶ Ø§Ù„Ù†Ù‚Ø§Ø· */
    .score-display {
        color: #ffc107;
        font-weight: bold;
@@ -7687,7 +7680,7 @@
        color: #bbbbbb;
    }
    
-   /* تنسيق قائمة اللاعبين المنبثقة */
+   /* ØªÙ†Ø³ÙŠÙ‚ Ù‚Ø§Ø¦Ù…Ø© Ø§Ù„Ù„Ø§Ø¹Ø¨ÙŠÙ† Ø§Ù„Ù…Ù†Ø¨Ø«Ù‚Ø© */
    .player-tooltip {
        position: absolute;
        background: rgba(0,0,0,0.95);
@@ -7728,7 +7721,7 @@
        font-weight: bold;
    }
    
-   /* تنسيق زر التبديل */
+   /* ØªÙ†Ø³ÙŠÙ‚ Ø²Ø± Ø§Ù„ØªØ¨Ø¯ÙŠÙ„ */
    #sort-toggle {
        transition: all 0.3s;
    }
@@ -7743,7 +7736,7 @@
        color: #fff !important;
    }
    
-   /* تنسيق للصور التي تحتوي على روابط */
+   /* ØªÙ†Ø³ÙŠÙ‚ Ù„Ù„ØµÙˆØ± Ø§Ù„ØªÙŠ ØªØ­ØªÙˆÙŠ Ø¹Ù„Ù‰ Ø±ÙˆØ§Ø¨Ø· */
    .server-image-with-link {
        cursor: pointer;
        position: relative;
@@ -7816,7 +7809,7 @@
    
    
    /***********************************
-    * 1. تنسيقات النافذة الرئيسية
+    * 1. ØªÙ†Ø³ÙŠÙ‚Ø§Øª Ø§Ù„Ù†Ø§ÙØ°Ø© Ø§Ù„Ø±Ø¦ÙŠØ³ÙŠØ©
     ***********************************/
    #modal_wup {
      display: none;
@@ -7824,7 +7817,7 @@
      top: 50%;
      left: 50%;
      transform: translate(-50%, -50%);
-     width: 890px; /* تصغير من 800px */
+     width: 890px; /* ØªØµØºÙŠØ± Ù…Ù† 800px */
      height: auto;
      color: #fff;
      border-radius: 10px;
@@ -7832,7 +7825,7 @@
      z-index: 99999 !important;
      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
      transition: opacity 0.3s, transform 0.3s;
-     max-height: 75vh; /* تقليل الارتفاع الأقصى من 80vh إلى 75vh */
+     max-height: 75vh; /* ØªÙ‚Ù„ÙŠÙ„ Ø§Ù„Ø§Ø±ØªÙØ§Ø¹ Ø§Ù„Ø£Ù‚ØµÙ‰ Ù…Ù† 80vh Ø¥Ù„Ù‰ 75vh */
    }
    
    #modal_wup .modal-content {
@@ -7843,7 +7836,7 @@
      border-radius: 10px;
      width: 100% !important;
      max-width: 100% !important;
-     max-height: 75vh !important; /* تقليل الارتفاع من 80vh إلى 75vh */
+     max-height: 75vh !important; /* ØªÙ‚Ù„ÙŠÙ„ Ø§Ù„Ø§Ø±ØªÙØ§Ø¹ Ù…Ù† 80vh Ø¥Ù„Ù‰ 75vh */
      padding: 0 !important;
      z-index: 99999 !important;
      box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
@@ -7851,7 +7844,7 @@
      overflow-x: hidden;
    }
    
-   /* منطقة التراكب */
+   /* Ù…Ù†Ø·Ù‚Ø© Ø§Ù„ØªØ±Ø§ÙƒØ¨ */
    #modal_overlay_wup {
      display: none;
      position: fixed;
@@ -7860,7 +7853,7 @@
      width: 100%;
      height: 100%;
      background-color: rgba(0, 0, 0, 0.5);
-     z-index: 99998 !important; /* قيمة أقل بكثير من النافذة */
+     z-index: 99998 !important; /* Ù‚ÙŠÙ…Ø© Ø£Ù‚Ù„ Ø¨ÙƒØ«ÙŠØ± Ù…Ù† Ø§Ù„Ù†Ø§ÙØ°Ø© */
    }
    
    
@@ -7875,7 +7868,7 @@
      z-index: 50000 !important;
    }
    
-   /* تأثير ظهور النافذة */
+   /* ØªØ£Ø«ÙŠØ± Ø¸Ù‡ÙˆØ± Ø§Ù„Ù†Ø§ÙØ°Ø© */
    @keyframes modalAppear {
      from {
        opacity: 0;
@@ -7887,15 +7880,15 @@
      }
    }
    
-   /* رأس النافذة */
+   /* Ø±Ø£Ø³ Ø§Ù„Ù†Ø§ÙØ°Ø© */
    #modal_wup .modal-header {
      background-color: #ff8a18;
      background: linear-gradient(145deg, rgb(255, 141, 0), rgb(255, 102, 0));
      color: white;
-     padding: 3px 18px; /* تصغير قليلاً */
-     position: sticky; /* جعل الرأس ثابت */
-     top: 0; /* تثبيت في الأعلى */
-     z-index: 100000; /* تأكيد أنه فوق كل شيء */
+     padding: 3px 18px; /* ØªØµØºÙŠØ± Ù‚Ù„ÙŠÙ„Ø§Ù‹ */
+     position: sticky; /* Ø¬Ø¹Ù„ Ø§Ù„Ø±Ø£Ø³ Ø«Ø§Ø¨Øª */
+     top: 0; /* ØªØ«Ø¨ÙŠØª ÙÙŠ Ø§Ù„Ø£Ø¹Ù„Ù‰ */
+     z-index: 100000; /* ØªØ£ÙƒÙŠØ¯ Ø£Ù†Ù‡ ÙÙˆÙ‚ ÙƒÙ„ Ø´ÙŠØ¡ */
      display: flex;
      align-items: center;
      justify-content: space-between;
@@ -7903,14 +7896,14 @@
    
    #modal_wup .modal-title {
      margin: 0;
-     font-size: 22px; /* تصغير قليلاً من 24px */
+     font-size: 22px; /* ØªØµØºÙŠØ± Ù‚Ù„ÙŠÙ„Ø§Ù‹ Ù…Ù† 24px */
      text-align: center;
      flex-grow: 1;
    }
    
    #modal_wup .close {
      color: white;
-     font-size: 28px; /* تصغير قليلاً من 30px */
+     font-size: 28px; /* ØªØµØºÙŠØ± Ù‚Ù„ÙŠÙ„Ø§Ù‹ Ù…Ù† 30px */
      font-weight: bold;
      cursor: pointer;
      padding: 0 10px;
@@ -7922,12 +7915,12 @@
    }
    
    /***********************************
-    * 2. تنسيقات تخطيط الإعدادات
+    * 2. ØªÙ†Ø³ÙŠÙ‚Ø§Øª ØªØ®Ø·ÙŠØ· Ø§Ù„Ø¥Ø¹Ø¯Ø§Ø¯Ø§Øª
     ***********************************/
    .settings-layout {
      display: flex;
-     height: calc(70vh - 60px); /* تقليل الارتفاع */
-     max-height: 650px; /* تقليل الارتفاع الأقصى من 700px */
+     height: calc(70vh - 60px); /* ØªÙ‚Ù„ÙŠÙ„ Ø§Ù„Ø§Ø±ØªÙØ§Ø¹ */
+     max-height: 650px; /* ØªÙ‚Ù„ÙŠÙ„ Ø§Ù„Ø§Ø±ØªÙØ§Ø¹ Ø§Ù„Ø£Ù‚ØµÙ‰ Ù…Ù† 700px */
    }
    
    .settings-sidebar {
@@ -7937,11 +7930,11 @@
      overflow: hidden;
      flex-shrink: 0;
      border-right: 1px solid #3a4160;
-     overflow-y: hidden; /* منع تحريك القائمة الجانبية */
-     position: sticky; /* جعل القائمة الجانبية ثابتة */
-     top: 0; /* تثبيت في الأعلى بعد الرأس */
-     height: 100%; /* تأكيد أن الارتفاع كامل */
-     align-self: flex-start; /* محاذاة مع بداية الحاوية */
+     overflow-y: hidden; /* Ù…Ù†Ø¹ ØªØ­Ø±ÙŠÙƒ Ø§Ù„Ù‚Ø§Ø¦Ù…Ø© Ø§Ù„Ø¬Ø§Ù†Ø¨ÙŠØ© */
+     position: sticky; /* Ø¬Ø¹Ù„ Ø§Ù„Ù‚Ø§Ø¦Ù…Ø© Ø§Ù„Ø¬Ø§Ù†Ø¨ÙŠØ© Ø«Ø§Ø¨ØªØ© */
+     top: 0; /* ØªØ«Ø¨ÙŠØª ÙÙŠ Ø§Ù„Ø£Ø¹Ù„Ù‰ Ø¨Ø¹Ø¯ Ø§Ù„Ø±Ø£Ø³ */
+     height: 100%; /* ØªØ£ÙƒÙŠØ¯ Ø£Ù† Ø§Ù„Ø§Ø±ØªÙØ§Ø¹ ÙƒØ§Ù…Ù„ */
+     align-self: flex-start; /* Ù…Ø­Ø§Ø°Ø§Ø© Ù…Ø¹ Ø¨Ø¯Ø§ÙŠØ© Ø§Ù„Ø­Ø§ÙˆÙŠØ© */
    }
    
    .settings-sidebar:hover {
@@ -7951,7 +7944,7 @@
    .sidebar-item {
      display: flex;
      align-items: center;
-     padding: 11px 14px; /* تصغير قليلاً من 12px 15px */
+     padding: 11px 14px; /* ØªØµØºÙŠØ± Ù‚Ù„ÙŠÙ„Ø§Ù‹ Ù…Ù† 12px 15px */
      cursor: pointer;
      border-left: 3px solid transparent;
      transition: all 0.2s;
@@ -7993,14 +7986,14 @@
    }
    
    /***********************************
-    * 3. تنسيقات المحتوى والتبويبات
+    * 3. ØªÙ†Ø³ÙŠÙ‚Ø§Øª Ø§Ù„Ù…Ø­ØªÙˆÙ‰ ÙˆØ§Ù„ØªØ¨ÙˆÙŠØ¨Ø§Øª
     ***********************************/
-   /* تأكد من أن جميع علامات التبويب مخفية في البداية باستثناء النشطة */
+   /* ØªØ£ÙƒØ¯ Ù…Ù† Ø£Ù† Ø¬Ù…ÙŠØ¹ Ø¹Ù„Ø§Ù…Ø§Øª Ø§Ù„ØªØ¨ÙˆÙŠØ¨ Ù…Ø®ÙÙŠØ© ÙÙŠ Ø§Ù„Ø¨Ø¯Ø§ÙŠØ© Ø¨Ø§Ø³ØªØ«Ù†Ø§Ø¡ Ø§Ù„Ù†Ø´Ø·Ø© */
    .tab-content {
      display: none;
    }
    
-   /* تنسيقات بسيطة للعناوين في التبويبات */
+   /* ØªÙ†Ø³ÙŠÙ‚Ø§Øª Ø¨Ø³ÙŠØ·Ø© Ù„Ù„Ø¹Ù†Ø§ÙˆÙŠÙ† ÙÙŠ Ø§Ù„ØªØ¨ÙˆÙŠØ¨Ø§Øª */
    .tab-content h3 {
      color: #ff8a18;
      border-bottom: 1px solid #323a54;
@@ -8010,13 +8003,13 @@
    
    .section-title {
      color: #ff8a18;
-     font-size: 17px; /* تصغير قليلاً من 18px */
-     margin: 18px 0 14px; /* تصغير قليلاً */
+     font-size: 17px; /* ØªØµØºÙŠØ± Ù‚Ù„ÙŠÙ„Ø§Ù‹ Ù…Ù† 18px */
+     margin: 18px 0 14px; /* ØªØµØºÙŠØ± Ù‚Ù„ÙŠÙ„Ø§Ù‹ */
      padding-bottom: 5px;
      border-bottom: 1px solid #323a54;
    }
    
-   /* تنسيقات العناصر */
+   /* ØªÙ†Ø³ÙŠÙ‚Ø§Øª Ø§Ù„Ø¹Ù†Ø§ØµØ± */
    .setting-group {
      background-color: #262c43;
      border-radius: 8px;
@@ -8026,31 +8019,31 @@
    
    .setting-group-header {
      background-color: #2a3141;
-     padding: 9px 14px; /* تصغير قليلاً من 10px 15px */
+     padding: 9px 14px; /* ØªØµØºÙŠØ± Ù‚Ù„ÙŠÙ„Ø§Ù‹ Ù…Ù† 10px 15px */
      font-weight: bold;
      color: #ff8a18;
    }
    
    .setting-group-content {
-     padding: 14px; /* تصغير قليلاً من 15px */
+     padding: 14px; /* ØªØµØºÙŠØ± Ù‚Ù„ÙŠÙ„Ø§Ù‹ Ù…Ù† 15px */
    }
    
    .setting-row {
      display: flex;
      align-items: center;
-     margin-bottom: 14px; /* تصغير قليلاً من 15px */
+     margin-bottom: 14px; /* ØªØµØºÙŠØ± Ù‚Ù„ÙŠÙ„Ø§Ù‹ Ù…Ù† 15px */
      flex-wrap: wrap;
    }
    
    /***********************************
-    * 4. تنسيقات عناصر التحكم
+    * 4. ØªÙ†Ø³ÙŠÙ‚Ø§Øª Ø¹Ù†Ø§ØµØ± Ø§Ù„ØªØ­ÙƒÙ…
     ***********************************/
-   /* مفتاح التبديل */
+   /* Ù…ÙØªØ§Ø­ Ø§Ù„ØªØ¨Ø¯ÙŠÙ„ */
    .switch {
      position: relative;
      display: inline-block;
-     width: 48px; /* تصغير قليلاً من 50px */
-     height: 23px; /* تصغير قليلاً من 24px */
+     width: 48px; /* ØªØµØºÙŠØ± Ù‚Ù„ÙŠÙ„Ø§Ù‹ Ù…Ù† 50px */
+     height: 23px; /* ØªØµØºÙŠØ± Ù‚Ù„ÙŠÙ„Ø§Ù‹ Ù…Ù† 24px */
      margin-left: auto;
    }
    
@@ -8075,8 +8068,8 @@
    .slider:before {
      position: absolute;
      content: "";
-     height: 17px; /* تصغير قليلاً من 18px */
-     width: 17px; /* تصغير قليلاً من 18px */
+     height: 17px; /* ØªØµØºÙŠØ± Ù‚Ù„ÙŠÙ„Ø§Ù‹ Ù…Ù† 18px */
+     width: 17px; /* ØªØµØºÙŠØ± Ù‚Ù„ÙŠÙ„Ø§Ù‹ Ù…Ù† 18px */
      left: 3px;
      bottom: 3px;
      background-color: white;
@@ -8093,30 +8086,30 @@
    }
    
    input:checked + .slider:before {
-     transform: translateX(25px); /* تعديل بناءً على التصغير */
+     transform: translateX(25px); /* ØªØ¹Ø¯ÙŠÙ„ Ø¨Ù†Ø§Ø¡Ù‹ Ø¹Ù„Ù‰ Ø§Ù„ØªØµØºÙŠØ± */
    }
    
-   /* القوائم المنسدلة وحقول الإدخال */
+   /* Ø§Ù„Ù‚ÙˆØ§Ø¦Ù… Ø§Ù„Ù…Ù†Ø³Ø¯Ù„Ø© ÙˆØ­Ù‚ÙˆÙ„ Ø§Ù„Ø¥Ø¯Ø®Ø§Ù„ */
    select, input[type="text"] {
      background-color: #323a54;
      border: 1px solid #464d6a;
      color: white;
-     padding: 7px 11px; /* تصغير قليلاً من 8px 12px */
+     padding: 7px 11px; /* ØªØµØºÙŠØ± Ù‚Ù„ÙŠÙ„Ø§Ù‹ Ù…Ù† 8px 12px */
      border-radius: 4px;
      width: 100%;
-     /* max-width: 190px; */ /* ØªØµØºÙŠØ± Ù‚Ù„ÙŠÙ„Ø§Ù‹ Ù…Ù† 200px */
+     /* max-width: 190px; */ /* Ã˜ÂªÃ˜ÂµÃ˜ÂºÃ™Å Ã˜Â± Ã™â€šÃ™â€žÃ™Å Ã™â€žÃ˜Â§Ã™â€¹ Ã™â€¦Ã™â€  200px */
    }
    
-   /* شرائط التمرير */
+   /* Ø´Ø±Ø§Ø¦Ø· Ø§Ù„ØªÙ…Ø±ÙŠØ± */
    .slider-control {
      display: flex;
      align-items: center;
      width: 100%;
-     margin-bottom: 14px; /* تصغير قليلاً من 15px */
+     margin-bottom: 14px; /* ØªØµØºÙŠØ± Ù‚Ù„ÙŠÙ„Ø§Ù‹ Ù…Ù† 15px */
    }
    
    .slider-control label {
-     min-width: 145px; /* تصغير قليلاً من 150px */
+     min-width: 145px; /* ØªØµØºÙŠØ± Ù‚Ù„ÙŠÙ„Ø§Ù‹ Ù…Ù† 150px */
      margin-right: 15px;
    }
    
@@ -8137,8 +8130,8 @@
    
    input[type="range"]::-webkit-slider-thumb {
      -webkit-appearance: none;
-     height: 15px; /* تصغير قليلاً من 16px */
-     width: 15px; /* تصغير قليلاً من 16px */
+     height: 15px; /* ØªØµØºÙŠØ± Ù‚Ù„ÙŠÙ„Ø§Ù‹ Ù…Ù† 16px */
+     width: 15px; /* ØªØµØºÙŠØ± Ù‚Ù„ÙŠÙ„Ø§Ù‹ Ù…Ù† 16px */
      border-radius: 50%;
      background: #ff8a18;
      cursor: pointer;
@@ -8162,13 +8155,13 @@
    }
    
    /***********************************
-    * 5. تنسيقات شبكة الخلفيات
+    * 5. ØªÙ†Ø³ÙŠÙ‚Ø§Øª Ø´Ø¨ÙƒØ© Ø§Ù„Ø®Ù„ÙÙŠØ§Øª
     ***********************************/
    .background-grid {
      display: grid;
-     grid-template-columns: repeat(auto-fill, minmax(175px, 1fr)); /* تصغير قليلاً من 180px */
-     gap: 14px; /* تصغير قليلاً من 15px */
-     margin-top: 14px; /* تصغير قليلاً من 15px */
+     grid-template-columns: repeat(auto-fill, minmax(175px, 1fr)); /* ØªØµØºÙŠØ± Ù‚Ù„ÙŠÙ„Ø§Ù‹ Ù…Ù† 180px */
+     gap: 14px; /* ØªØµØºÙŠØ± Ù‚Ù„ÙŠÙ„Ø§Ù‹ Ù…Ù† 15px */
+     margin-top: 14px; /* ØªØµØºÙŠØ± Ù‚Ù„ÙŠÙ„Ø§Ù‹ Ù…Ù† 15px */
    }
    
    .background-item {
@@ -8191,30 +8184,30 @@
    
    .background-item img {
      width: 100%;
-     height: 115px; /* تصغير قليلاً من 120px */
+     height: 115px; /* ØªØµØºÙŠØ± Ù‚Ù„ÙŠÙ„Ø§Ù‹ Ù…Ù† 120px */
      object-fit: cover;
    }
    
    .background-item-name {
-     padding: 7px; /* تصغير قليلاً من 8px */
+     padding: 7px; /* ØªØµØºÙŠØ± Ù‚Ù„ÙŠÙ„Ø§Ù‹ Ù…Ù† 8px */
      text-align: center;
-     font-size: 13px; /* تصغير قليلاً من 14px */
+     font-size: 13px; /* ØªØµØºÙŠØ± Ù‚Ù„ÙŠÙ„Ø§Ù‹ Ù…Ù† 14px */
    }
    
    /***********************************
-    * 6. تنسيقات شبكة المؤشرات
+    * 6. ØªÙ†Ø³ÙŠÙ‚Ø§Øª Ø´Ø¨ÙƒØ© Ø§Ù„Ù…Ø¤Ø´Ø±Ø§Øª
     ***********************************/
    .cursor-container {
      display: grid;
-     grid-template-columns: repeat(auto-fill, minmax(75px, 1fr)); /* تصغير قليلاً من 80px */
-     gap: 9px; /* تصغير قليلاً من 10px */
-     margin-top: 14px; /* تصغير قليلاً من 15px */
+     grid-template-columns: repeat(auto-fill, minmax(75px, 1fr)); /* ØªØµØºÙŠØ± Ù‚Ù„ÙŠÙ„Ø§Ù‹ Ù…Ù† 80px */
+     gap: 9px; /* ØªØµØºÙŠØ± Ù‚Ù„ÙŠÙ„Ø§Ù‹ Ù…Ù† 10px */
+     margin-top: 14px; /* ØªØµØºÙŠØ± Ù‚Ù„ÙŠÙ„Ø§Ù‹ Ù…Ù† 15px */
    }
    
    .cursor-item {
-     width: 58px; /* تصغير قليلاً من 60px */
-     height: 58px; /* تصغير قليلاً من 60px */
-     padding: 9px; /* تصغير قليلاً من 10px */
+     width: 58px; /* ØªØµØºÙŠØ± Ù‚Ù„ÙŠÙ„Ø§Ù‹ Ù…Ù† 60px */
+     height: 58px; /* ØªØµØºÙŠØ± Ù‚Ù„ÙŠÙ„Ø§Ù‹ Ù…Ù† 60px */
+     padding: 9px; /* ØªØµØºÙŠØ± Ù‚Ù„ÙŠÙ„Ø§Ù‹ Ù…Ù† 10px */
      background-color: #323a54;
      border-radius: 8px;
      cursor: pointer;
@@ -8241,18 +8234,18 @@
    }
    
    /***********************************
-    * 7. تنسيقات شبكة الإعدادات
+    * 7. ØªÙ†Ø³ÙŠÙ‚Ø§Øª Ø´Ø¨ÙƒØ© Ø§Ù„Ø¥Ø¹Ø¯Ø§Ø¯Ø§Øª
     ***********************************/
    .settings-grid {
      display: grid;
      grid-template-columns: repeat(3, 1fr);
-     gap: 14px; /* تصغير قليلاً من 15px */
-     margin: 18px 0; /* تصغير قليلاً من 20px */
+     gap: 14px; /* ØªØµØºÙŠØ± Ù‚Ù„ÙŠÙ„Ø§Ù‹ Ù…Ù† 15px */
+     margin: 18px 0; /* ØªØµØºÙŠØ± Ù‚Ù„ÙŠÙ„Ø§Ù‹ Ù…Ù† 20px */
    }
    
    .setting-item {
      background-color: #262c43;
-     padding: 11px; /* تصغير قليلاً من 12px */
+     padding: 11px; /* ØªØµØºÙŠØ± Ù‚Ù„ÙŠÙ„Ø§Ù‹ Ù…Ù† 12px */
      border-radius: 8px;
      display: flex;
      align-items: center;
@@ -8264,26 +8257,26 @@
    }
    
    /***********************************
-    * 8. تنسيقات علامة التبويب حول
+    * 8. ØªÙ†Ø³ÙŠÙ‚Ø§Øª Ø¹Ù„Ø§Ù…Ø© Ø§Ù„ØªØ¨ÙˆÙŠØ¨ Ø­ÙˆÙ„
     ***********************************/
    .about-content {
      background-color: #262c43;
      border-radius: 8px;
-     padding: 18px; /* تصغير قليلاً من 20px */
-     margin-top: 14px; /* تصغير قليلاً من 15px */
+     padding: 18px; /* ØªØµØºÙŠØ± Ù‚Ù„ÙŠÙ„Ø§Ù‹ Ù…Ù† 20px */
+     margin-top: 14px; /* ØªØµØºÙŠØ± Ù‚Ù„ÙŠÙ„Ø§Ù‹ Ù…Ù† 15px */
      line-height: 1.6;
    }
    
    
    
    /***********************************
-    * 10. تنسيقات الأزرار
+    * 10. ØªÙ†Ø³ÙŠÙ‚Ø§Øª Ø§Ù„Ø£Ø²Ø±Ø§Ø±
     ***********************************/
    .action-button {
      background-color: #ff8a18;
      color: white;
      border: none;
-     padding: 7px 14px; /* تصغير قليلاً من 8px 15px */
+     padding: 7px 14px; /* ØªØµØºÙŠØ± Ù‚Ù„ÙŠÙ„Ø§Ù‹ Ù…Ù† 8px 15px */
      border-radius: 4px;
      cursor: pointer;
      font-weight: bold;
@@ -8298,7 +8291,7 @@
      background-color: #3a4160;
      color: white;
      border: none;
-     padding: 7px 14px; /* تصغير قليلاً من 8px 15px */
+     padding: 7px 14px; /* ØªØµØºÙŠØ± Ù‚Ù„ÙŠÙ„Ø§Ù‹ Ù…Ù† 8px 15px */
      border-radius: 4px;
      cursor: pointer;
      transition: all 0.2s;
@@ -8309,17 +8302,17 @@
    }
    
    /***********************************
-    * 11. تنسيقات التلميحات
+    * 11. ØªÙ†Ø³ÙŠÙ‚Ø§Øª Ø§Ù„ØªÙ„Ù…ÙŠØ­Ø§Øª
     ***********************************/
    .tooltiptext { 
      visibility: hidden; 
-     width: 165px; /* تصغير قليلاً من 170px */
+     width: 165px; /* ØªØµØºÙŠØ± Ù‚Ù„ÙŠÙ„Ø§Ù‹ Ù…Ù† 170px */
      background-color: #555; 
      color: #fff; 
      text-align: center; 
      border-radius: 6px; 
-     padding: 7px 5px; /* تصغير قليلاً من 8px 6px */
-     font-size: 11px; /* تصغير قليلاً من 12px */
+     padding: 7px 5px; /* ØªØµØºÙŠØ± Ù‚Ù„ÙŠÙ„Ø§Ù‹ Ù…Ù† 8px 6px */
+     font-size: 11px; /* ØªØµØºÙŠØ± Ù‚Ù„ÙŠÙ„Ø§Ù‹ Ù…Ù† 12px */
      position: absolute; 
      z-index: 1; 
      margin-top: -40px; 
@@ -8330,14 +8323,14 @@
    }
    
    /***********************************
-    * 12. تنسيقات أزرار ملء الشاشة
+    * 12. ØªÙ†Ø³ÙŠÙ‚Ø§Øª Ø£Ø²Ø±Ø§Ø± Ù…Ù„Ø¡ Ø§Ù„Ø´Ø§Ø´Ø©
     ***********************************/
    input#btnFullScreen, input#btnRePlay, .fullscreen_contact {
      font-family: upfont;
      margin-top: 2px;
-     width: 125px; /* تصغير قليلاً من 130px */
-     height: 35px; /* تصغير قليلاً من 37px */
-     font-size: 14px; /* تصغير قليلاً من 15px */
+     width: 125px; /* ØªØµØºÙŠØ± Ù‚Ù„ÙŠÙ„Ø§Ù‹ Ù…Ù† 130px */
+     height: 35px; /* ØªØµØºÙŠØ± Ù‚Ù„ÙŠÙ„Ø§Ù‹ Ù…Ù† 37px */
+     font-size: 14px; /* ØªØµØºÙŠØ± Ù‚Ù„ÙŠÙ„Ø§Ù‹ Ù…Ù† 15px */
      font-weight: 600;
      color: #fff;
      border: #ffffff 1px solid;
@@ -8368,11 +8361,11 @@
      border-radius: 5px;
      margin-top: 5px;
      width: 100%;
-     height: 34px; /* تصغير قليلاً من 35px */
+     height: 34px; /* ØªØµØºÙŠØ± Ù‚Ù„ÙŠÙ„Ø§Ù‹ Ù…Ù† 35px */
    }
    
    /***********************************
-    * 13. تنسيقات أزرار أخرى
+    * 13. ØªÙ†Ø³ÙŠÙ‚Ø§Øª Ø£Ø²Ø±Ø§Ø± Ø£Ø®Ø±Ù‰
     ***********************************/
    button#btn_copy, button#btn_clear_file {
      background-image: linear-gradient(#62a1bd, #008dfe);
@@ -8381,11 +8374,11 @@
      color: white;
      border-color: #ffffff;
      cursor: pointer;
-     padding: 4px 9px; /* تصغير قليلاً من 5px 10px */
+     padding: 4px 9px; /* ØªØµØºÙŠØ± Ù‚Ù„ÙŠÙ„Ø§Ù‹ Ù…Ù† 5px 10px */
    }
    
    /***********************************
-    * 14. تنسيقات div_FullScreen
+    * 14. ØªÙ†Ø³ÙŠÙ‚Ø§Øª div_FullScreen
     ***********************************/
    div.div_FullScreen {
      display: grid !important;
@@ -8401,35 +8394,35 @@
    }
    
    /***********************************
-    * 15. إخفاء عناصر Google وعناصر أخرى
+    * 15. Ø¥Ø®ÙØ§Ø¡ Ø¹Ù†Ø§ØµØ± Google ÙˆØ¹Ù†Ø§ØµØ± Ø£Ø®Ø±Ù‰
     ***********************************/
-   div#update_new_12 {
-     display:none !important;
-   }
+  div#update_new_12 {
+    display:block !important;
+  }
    
-   p#update_new, p#update_new1, p#update_new_2 {
-     display: none !important;
-   }
+  p#update_new, p#update_new1, p#update_new_2 {
+    display: block !important;
+  }
    
-   p#pusg_1 , p#puus1_1, p#pude_1, p#pufr_1 {
-     display:none !important;
-   }
+  p#pusg_1 , p#puus1_1, p#pude_1, p#pufr_1 {
+    display:block !important;
+  }
    
-   iframe#launcher {
-     display: none !important;
-   }
+  iframe#launcher {
+    display: block !important;
+  }
    
-   #mm-merchant-cont,
-   .mm-merchant-cont {
-     display: none !important;
-   }
+  #mm-merchant-cont,
+  .mm-merchant-cont {
+    display: block !important;
+  }
    
-   #btn_crsw {
-     display: none !important;
-   }
+  #btn_crsw {
+    display: block !important;
+  }
    
    /***********************************
-    * 16. حالات العرض والإخفاء العامة
+    * 16. Ø­Ø§Ù„Ø§Øª Ø§Ù„Ø¹Ø±Ø¶ ÙˆØ§Ù„Ø¥Ø®ÙØ§Ø¡ Ø§Ù„Ø¹Ø§Ù…Ø©
     ***********************************/
    div.div_hidden {
      display: none;
@@ -8445,13 +8438,13 @@
    }
    
    /***********************************
-    * 17. تنسيقات للزر غير المفعل للمستخدمين غير المشتركين
+    * 17. ØªÙ†Ø³ÙŠÙ‚Ø§Øª Ù„Ù„Ø²Ø± ØºÙŠØ± Ø§Ù„Ù…ÙØ¹Ù„ Ù„Ù„Ù…Ø³ØªØ®Ø¯Ù…ÙŠÙ† ØºÙŠØ± Ø§Ù„Ù…Ø´ØªØ±ÙƒÙŠÙ†
     ***********************************/
    button#op_wup_inactive {
      overflow: hidden;
-     height: 48px; /* تصغير قليلاً من 50px */
-     line-height: 48px; /* تصغير قليلاً من 50px */
-     font-size: 19px; /* تصغير قليلاً من 20px */
+     height: 48px; /* ØªØµØºÙŠØ± Ù‚Ù„ÙŠÙ„Ø§Ù‹ Ù…Ù† 50px */
+     line-height: 48px; /* ØªØµØºÙŠØ± Ù‚Ù„ÙŠÙ„Ø§Ù‹ Ù…Ù† 50px */
+     font-size: 19px; /* ØªØµØºÙŠØ± Ù‚Ù„ÙŠÙ„Ø§Ù‹ Ù…Ù† 20px */
      padding: 0 10px;
      box-sizing: border-box;
      text-align: center;
@@ -8471,7 +8464,7 @@
    }
    
    /***********************************
-    * 18. نافذة الإعدادات البسيطة لغير المشتركين
+    * 18. Ù†Ø§ÙØ°Ø© Ø§Ù„Ø¥Ø¹Ø¯Ø§Ø¯Ø§Øª Ø§Ù„Ø¨Ø³ÙŠØ·Ø© Ù„ØºÙŠØ± Ø§Ù„Ù…Ø´ØªØ±ÙƒÙŠÙ†
     ***********************************/
    #modal_wup_simple {
      display: none;
@@ -8488,28 +8481,28 @@
    #modal_wup_simple .modal-content {
      background-color: #1e2235;
      color: white;
-     margin: 95px auto !important; /* تصغير قليلاً من 100px */
+     margin: 95px auto !important; /* ØªØµØºÙŠØ± Ù‚Ù„ÙŠÙ„Ø§Ù‹ Ù…Ù† 100px */
      border: 1px solid #ff8a18;
      border-radius: 15px;
      width: 90% !important;
-     max-width: 480px !important; /* تصغير قليلاً من 500px */
-     padding: 18px !important; /* تصغير قليلاً من 20px */
+     max-width: 480px !important; /* ØªØµØºÙŠØ± Ù‚Ù„ÙŠÙ„Ø§Ù‹ Ù…Ù† 500px */
+     padding: 18px !important; /* ØªØµØºÙŠØ± Ù‚Ù„ÙŠÙ„Ø§Ù‹ Ù…Ù† 20px */
      box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
    }
    
    #modal_wup_simple .modal-title {
      color: #ff8a18;
-     font-size: 22px; /* تصغير قليلاً من 24px */
+     font-size: 22px; /* ØªØµØºÙŠØ± Ù‚Ù„ÙŠÙ„Ø§Ù‹ Ù…Ù† 24px */
      text-align: center;
      margin-top: 0;
-     margin-bottom: 18px; /* تصغير قليلاً من 20px */
-     padding-bottom: 9px; /* تصغير قليلاً من 10px */
+     margin-bottom: 18px; /* ØªØµØºÙŠØ± Ù‚Ù„ÙŠÙ„Ø§Ù‹ Ù…Ù† 20px */
+     padding-bottom: 9px; /* ØªØµØºÙŠØ± Ù‚Ù„ÙŠÙ„Ø§Ù‹ Ù…Ù† 10px */
      border-bottom: 1px solid #323a54;
    }
    
    #modal_wup_simple .close {
      color: white;
-     font-size: 28px; /* تصغير قليلاً من 30px */
+     font-size: 28px; /* ØªØµØºÙŠØ± Ù‚Ù„ÙŠÙ„Ø§Ù‹ Ù…Ù† 30px */
      font-weight: bold;
      cursor: pointer;
      position: absolute;
@@ -8518,17 +8511,17 @@
    }
    
    #modal_wup_simple .modal-body {
-     padding: 14px 0; /* تصغير قليلاً من 15px */
+     padding: 14px 0; /* ØªØµØºÙŠØ± Ù‚Ù„ÙŠÙ„Ø§Ù‹ Ù…Ù† 15px */
    }
    
    #modal_wup_simple .discord-link {
      display: block;
      background-color: #5865F2;
      color: white;
-     padding: 11px 18px; /* تصغير قليلاً من 12px 20px */
+     padding: 11px 18px; /* ØªØµØºÙŠØ± Ù‚Ù„ÙŠÙ„Ø§Ù‹ Ù…Ù† 12px 20px */
      text-decoration: none;
      border-radius: 8px;
-     margin: 18px auto; /* تصغير قليلاً من 20px */
+     margin: 18px auto; /* ØªØµØºÙŠØ± Ù‚Ù„ÙŠÙ„Ø§Ù‹ Ù…Ù† 20px */
      text-align: center;
      width: 80%;
      font-weight: bold;
@@ -8542,12 +8535,12 @@
    #modal_wup_simple .info-text {
      text-align: center;
      color: #999;
-     font-size: 13px; /* تصغير قليلاً من 14px */
-     margin-top: 14px; /* تصغير قليلاً من 15px */
+     font-size: 13px; /* ØªØµØºÙŠØ± Ù‚Ù„ÙŠÙ„Ø§Ù‹ Ù…Ù† 14px */
+     margin-top: 14px; /* ØªØµØºÙŠØ± Ù‚Ù„ÙŠÙ„Ø§Ù‹ Ù…Ù† 15px */
    }
    
    /***********************************
-    * 19. نافذة الهيد شوت
+    * 19. Ù†Ø§ÙØ°Ø© Ø§Ù„Ù‡ÙŠØ¯ Ø´ÙˆØª
     ***********************************/
    #headshot-message {
      position: fixed;
@@ -8556,9 +8549,9 @@
      transform: translate(-50%, -50%);
      background-color: rgba(255, 0, 0, 0.6);
      color: white;
-     padding: 9px 18px; /* تصغير قليلاً من 10px 20px */
+     padding: 9px 18px; /* ØªØµØºÙŠØ± Ù‚Ù„ÙŠÙ„Ø§Ù‹ Ù…Ù† 10px 20px */
      border-radius: 5px;
-     font-size: 22px; /* تصغير قليلاً من 24px */
+     font-size: 22px; /* ØªØµØºÙŠØ± Ù‚Ù„ÙŠÙ„Ø§Ù‹ Ù…Ù† 24px */
      font-weight: bold;
      z-index: 9999;
      pointer-events: none;
@@ -8592,40 +8585,40 @@
    }
    
    /***********************************
-    * 20. تنسيق لمنتقي الألوان
+    * 20. ØªÙ†Ø³ÙŠÙ‚ Ù„Ù…Ù†ØªÙ‚ÙŠ Ø§Ù„Ø£Ù„ÙˆØ§Ù†
     ***********************************/
    #laser_color_picker {
      -webkit-appearance: none;
      -moz-appearance: none;
      appearance: none;
-     width: 33px; /* تصغير قليلاً من 35px */
-     height: 33px; /* تصغير قليلاً من 35px */
+     width: 33px; /* ØªØµØºÙŠØ± Ù‚Ù„ÙŠÙ„Ø§Ù‹ Ù…Ù† 35px */
+     height: 33px; /* ØªØµØºÙŠØ± Ù‚Ù„ÙŠÙ„Ø§Ù‹ Ù…Ù† 35px */
      background-color: transparent;
      border: none;
      cursor: pointer;
    }
    
    /***********************************
-    * 21. نظام القطاعات - التصميم الجديد
+    * 21. Ù†Ø¸Ø§Ù… Ø§Ù„Ù‚Ø·Ø§Ø¹Ø§Øª - Ø§Ù„ØªØµÙ…ÙŠÙ… Ø§Ù„Ø¬Ø¯ÙŠØ¯
     ***********************************/
    .sector-system-container {
      background-color: rgba(30, 35, 50, 0.7);
      border-radius: 12px;
-     padding: 14px; /* تصغير قليلاً من 15px */
-     margin-bottom: 18px; /* تصغير قليلاً من 20px */
+     padding: 14px; /* ØªØµØºÙŠØ± Ù‚Ù„ÙŠÙ„Ø§Ù‹ Ù…Ù† 15px */
+     margin-bottom: 18px; /* ØªØµØºÙŠØ± Ù‚Ù„ÙŠÙ„Ø§Ù‹ Ù…Ù† 20px */
      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
    }
    
-   /* نمط خاص لعناصر التحكم بالشفافية */
+   /* Ù†Ù…Ø· Ø®Ø§Øµ Ù„Ø¹Ù†Ø§ØµØ± Ø§Ù„ØªØ­ÙƒÙ… Ø¨Ø§Ù„Ø´ÙØ§ÙÙŠØ© */
    .opacity-control {
      display: flex;
      align-items: center;
-     gap: 9px; /* تصغير قليلاً من 10px */
+     gap: 9px; /* ØªØµØºÙŠØ± Ù‚Ù„ÙŠÙ„Ø§Ù‹ Ù…Ù† 10px */
      width: 100%; 
    }
    
    .small-slider {
-     width: 115px; /* تصغير قليلاً من 120px */
+     width: 115px; /* ØªØµØºÙŠØ± Ù‚Ù„ÙŠÙ„Ø§Ù‹ Ù…Ù† 120px */
      height: 8px;
      background: #383e52;
      outline: none;
@@ -8635,14 +8628,14 @@
    
    .small-slider::-webkit-slider-thumb {
      appearance: none;
-     width: 15px; /* تصغير قليلاً من 16px */
-     height: 15px; /* تصغير قليلاً من 16px */
+     width: 15px; /* ØªØµØºÙŠØ± Ù‚Ù„ÙŠÙ„Ø§Ù‹ Ù…Ù† 16px */
+     height: 15px; /* ØªØµØºÙŠØ± Ù‚Ù„ÙŠÙ„Ø§Ù‹ Ù…Ù† 16px */
      border-radius: 50%;
      background: #ff8c1a;
      cursor: pointer;
    }
    
-   /* صف تفعيل النظام */
+   /* ØµÙ ØªÙØ¹ÙŠÙ„ Ø§Ù„Ù†Ø¸Ø§Ù… */
    .sector-toggle-row {
      display: flex;
      justify-content: space-between;
@@ -8652,16 +8645,16 @@
    
    .toggle-label {
      font-weight: 600;
-     font-size: 14px; /* تصغير قليلاً من 15px */
+     font-size: 14px; /* ØªØµØºÙŠØ± Ù‚Ù„ÙŠÙ„Ø§Ù‹ Ù…Ù† 15px */
      color: #fff;
    }
    
-   /* مفتاح التبديل */
+   /* Ù…ÙØªØ§Ø­ Ø§Ù„ØªØ¨Ø¯ÙŠÙ„ */
    .toggle-switch {
      position: relative;
      display: inline-block;
-     width: 52px; /* تصغير قليلاً من 54px */
-     height: 26px; /* تصغير قليلاً من 28px */
+     width: 52px; /* ØªØµØºÙŠØ± Ù‚Ù„ÙŠÙ„Ø§Ù‹ Ù…Ù† 54px */
+     height: 26px; /* ØªØµØºÙŠØ± Ù‚Ù„ÙŠÙ„Ø§Ù‹ Ù…Ù† 28px */
    }
    
    .toggle-switch input {
@@ -8685,8 +8678,8 @@
    .toggle-slider:before {
      position: absolute;
      content: "";
-     height: 19px; /* تصغير قليلاً من 20px */
-     width: 19px; /* تصغير قليلاً من 20px */
+     height: 19px; /* ØªØµØºÙŠØ± Ù‚Ù„ÙŠÙ„Ø§Ù‹ Ù…Ù† 20px */
+     width: 19px; /* ØªØµØºÙŠØ± Ù‚Ù„ÙŠÙ„Ø§Ù‹ Ù…Ù† 20px */
      left: 4px;
      bottom: 4px;
      background-color: white;
@@ -8699,61 +8692,61 @@
    }
    
    input:checked + .toggle-slider:before {
-     transform: translateX(25px); /* تعديل بناءً على التصغير */
+     transform: translateX(25px); /* ØªØ¹Ø¯ÙŠÙ„ Ø¨Ù†Ø§Ø¡Ù‹ Ø¹Ù„Ù‰ Ø§Ù„ØªØµØºÙŠØ± */
    }
    
-   /* لوحة الإعدادات */
+   /* Ù„ÙˆØ­Ø© Ø§Ù„Ø¥Ø¹Ø¯Ø§Ø¯Ø§Øª */
    .sector-settings-panel {
-     margin-top: 14px; /* تصغير قليلاً من 15px */
+     margin-top: 14px; /* ØªØµØºÙŠØ± Ù‚Ù„ÙŠÙ„Ø§Ù‹ Ù…Ù† 15px */
      background-color: rgba(20, 25, 40, 0.7);
      border-radius: 8px;
-     padding: 14px; /* تصغير قليلاً من 15px */
+     padding: 14px; /* ØªØµØºÙŠØ± Ù‚Ù„ÙŠÙ„Ø§Ù‹ Ù…Ù† 15px */
      transition: all 0.3s ease;
    }
    
    .sector-main-settings {
-     margin-bottom: 14px; /* تصغير قليلاً من 15px */
+     margin-bottom: 14px; /* ØªØµØºÙŠØ± Ù‚Ù„ÙŠÙ„Ø§Ù‹ Ù…Ù† 15px */
      border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-     padding-bottom: 9px; /* تصغير قليلاً من 10px */
+     padding-bottom: 9px; /* ØªØµØºÙŠØ± Ù‚Ù„ÙŠÙ„Ø§Ù‹ Ù…Ù† 10px */
    }
    
-   /* صفوف الإعدادات */
+   /* ØµÙÙˆÙ Ø§Ù„Ø¥Ø¹Ø¯Ø§Ø¯Ø§Øª */
    .setting-row {
      display: flex;
      justify-content: space-between;
      align-items: center;
-     margin-bottom: 11px; /* تصغير قليلاً من 12px */
+     margin-bottom: 11px; /* ØªØµØºÙŠØ± Ù‚Ù„ÙŠÙ„Ø§Ù‹ Ù…Ù† 12px */
    }
    
    .setting-label {
-     font-size: 13px; /* تصغير قليلاً من 14px */
+     font-size: 13px; /* ØªØµØºÙŠØ± Ù‚Ù„ÙŠÙ„Ø§Ù‹ Ù…Ù† 14px */
      color: #eaeaea;
    }
    
    .setting-control {
-     width: 125px; /* تصغير قليلاً من 130px */
+     width: 125px; /* ØªØµØºÙŠØ± Ù‚Ù„ÙŠÙ„Ø§Ù‹ Ù…Ù† 130px */
      text-align: right;
    }
    
-   /* منتقي الألوان */
+   /* Ù…Ù†ØªÙ‚ÙŠ Ø§Ù„Ø£Ù„ÙˆØ§Ù† */
    .color-picker {
-     width: 30px; /* تصغير قليلاً من 32px */
-     height: 30px; /* تصغير قليلاً من 32px */
+     width: 30px; /* ØªØµØºÙŠØ± Ù‚Ù„ÙŠÙ„Ø§Ù‹ Ù…Ù† 32px */
+     height: 30px; /* ØªØµØºÙŠØ± Ù‚Ù„ÙŠÙ„Ø§Ù‹ Ù…Ù† 32px */
      border: none;
      border-radius: 4px;
      cursor: pointer;
      background-color: transparent;
    }
    
-   /* القائمة المنسدلة */
+   /* Ø§Ù„Ù‚Ø§Ø¦Ù…Ø© Ø§Ù„Ù…Ù†Ø³Ø¯Ù„Ø© */
    .sector-select {
      width: 100%;
-     padding: 5px 9px; /* تصغير قليلاً من 6px 10px */
+     padding: 5px 9px; /* ØªØµØºÙŠØ± Ù‚Ù„ÙŠÙ„Ø§Ù‹ Ù…Ù† 6px 10px */
      background-color: #2a2f40;
      color: #eaeaea;
      border: 1px solid #444;
      border-radius: 4px;
-     font-size: 13px; /* تصغير قليلاً من 14px */
+     font-size: 13px; /* ØªØµØºÙŠØ± Ù‚Ù„ÙŠÙ„Ø§Ù‹ Ù…Ù† 14px */
      appearance: none;
      background-image: url("data:image/svg+xml;utf8,<svg fill='white' height='24' viewBox='0 0 24 24' width='24' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/></svg>");
      background-repeat: no-repeat;
@@ -8766,29 +8759,29 @@
      border-color: #ff8c1a;
    }
    
-   /* خيارات التقاطعات */
+   /* Ø®ÙŠØ§Ø±Ø§Øª Ø§Ù„ØªÙ‚Ø§Ø·Ø¹Ø§Øª */
    .sector-lines-options {
-     margin-top: 9px; /* تصغير قليلاً من 10px */
-     padding-top: 9px; /* تصغير قليلاً من 10px */
+     margin-top: 9px; /* ØªØµØºÙŠØ± Ù‚Ù„ÙŠÙ„Ø§Ù‹ Ù…Ù† 10px */
+     padding-top: 9px; /* ØªØµØºÙŠØ± Ù‚Ù„ÙŠÙ„Ø§Ù‹ Ù…Ù† 10px */
      border-top: 1px solid rgba(255, 255, 255, 0.1);
    }
    
-   /* صفوف شريط التمرير */
+   /* ØµÙÙˆÙ Ø´Ø±ÙŠØ· Ø§Ù„ØªÙ…Ø±ÙŠØ± */
    .slider-row {
-     margin-bottom: 14px; /* تصغير قليلاً من 15px */
+     margin-bottom: 14px; /* ØªØµØºÙŠØ± Ù‚Ù„ÙŠÙ„Ø§Ù‹ Ù…Ù† 15px */
    }
    
    .slider-label {
      display: block;
-     font-size: 13px; /* تصغير قليلاً من 14px */
+     font-size: 13px; /* ØªØµØºÙŠØ± Ù‚Ù„ÙŠÙ„Ø§Ù‹ Ù…Ù† 14px */
      color: #eaeaea;
-     margin-bottom: 7px; /* تصغير قليلاً من 8px */
+     margin-bottom: 7px; /* ØªØµØºÙŠØ± Ù‚Ù„ÙŠÙ„Ø§Ù‹ Ù…Ù† 8px */
    }
    
    .slider-control {
      display: flex;
      align-items: center;
-     gap: 9px; /* تصغير قليلاً من 10px */
+     gap: 9px; /* ØªØµØºÙŠØ± Ù‚Ù„ÙŠÙ„Ø§Ù‹ Ù…Ù† 10px */
    }
    
    .sector-slider {
@@ -8802,51 +8795,51 @@
    
    .sector-slider::-webkit-slider-thumb {
      appearance: none;
-     width: 15px; /* تصغير قليلاً من 16px */
-     height: 15px; /* تصغير قليلاً من 16px */
+     width: 15px; /* ØªØµØºÙŠØ± Ù‚Ù„ÙŠÙ„Ø§Ù‹ Ù…Ù† 16px */
+     height: 15px; /* ØªØµØºÙŠØ± Ù‚Ù„ÙŠÙ„Ø§Ù‹ Ù…Ù† 16px */
      border-radius: 50%;
      background: #ff8c1a;
      cursor: pointer;
    }
    
    .slider-value {
-     min-width: 35px; /* تصغير قليلاً من 36px */
+     min-width: 35px; /* ØªØµØºÙŠØ± Ù‚Ù„ÙŠÙ„Ø§Ù‹ Ù…Ù† 36px */
      text-align: center;
      font-weight: 600;
      color: #ff8c1a;
-     font-size: 12px; /* تصغير قليلاً من 13px */
+     font-size: 12px; /* ØªØµØºÙŠØ± Ù‚Ù„ÙŠÙ„Ø§Ù‹ Ù…Ù† 13px */
    }
    
-   /* الاختصارات */
+   /* Ø§Ù„Ø§Ø®ØªØµØ§Ø±Ø§Øª */
    .sector-shortcuts {
-     margin-top: 14px; /* تصغير قليلاً من 15px */
-     padding-top: 11px; /* تصغير قليلاً من 12px */
+     margin-top: 14px; /* ØªØµØºÙŠØ± Ù‚Ù„ÙŠÙ„Ø§Ù‹ Ù…Ù† 15px */
+     padding-top: 11px; /* ØªØµØºÙŠØ± Ù‚Ù„ÙŠÙ„Ø§Ù‹ Ù…Ù† 12px */
      border-top: 1px solid rgba(255, 255, 255, 0.1);
    }
    
    .shortcuts-title {
      font-weight: 600;
-     font-size: 13px; /* تصغير قليلاً من 14px */
+     font-size: 13px; /* ØªØµØºÙŠØ± Ù‚Ù„ÙŠÙ„Ø§Ù‹ Ù…Ù† 14px */
      color: #eaeaea;
-     margin-bottom: 7px; /* تصغير قليلاً من 8px */
+     margin-bottom: 7px; /* ØªØµØºÙŠØ± Ù‚Ù„ÙŠÙ„Ø§Ù‹ Ù…Ù† 8px */
    }
    
    .shortcuts-content {
      display: flex;
      justify-content: space-between;
      flex-wrap: wrap;
-     font-size: 12px; /* تصغير قليلاً من 13px */
+     font-size: 12px; /* ØªØµØºÙŠØ± Ù‚Ù„ÙŠÙ„Ø§Ù‹ Ù…Ù† 13px */
      color: #b4b6bd;
    }
    
    .shortcut-item {
-     margin-right: 9px; /* تصغير قليلاً من 10px */
+     margin-right: 9px; /* ØªØµØºÙŠØ± Ù‚Ù„ÙŠÙ„Ø§Ù‹ Ù…Ù† 10px */
    }
    
    .shortcut-item strong {
      display: inline-block;
-     min-width: 17px; /* تصغير قليلاً من 18px */
-     height: 17px; /* تصغير قليلاً من 18px */
+     min-width: 17px; /* ØªØµØºÙŠØ± Ù‚Ù„ÙŠÙ„Ø§Ù‹ Ù…Ù† 18px */
+     height: 17px; /* ØªØµØºÙŠØ± Ù‚Ù„ÙŠÙ„Ø§Ù‹ Ù…Ù† 18px */
      background-color: rgba(255, 255, 255, 0.1);
      border-radius: 3px;
      text-align: center;
@@ -8856,18 +8849,18 @@
    }
    
    /***********************************
-    * 22. تنسيقات إعدادات الصوت
+    * 22. ØªÙ†Ø³ÙŠÙ‚Ø§Øª Ø¥Ø¹Ø¯Ø§Ø¯Ø§Øª Ø§Ù„ØµÙˆØª
     ***********************************/
    .sound-settings-container {
      color: white;
      font-family: Arial, sans-serif;
-     max-width: 980px; /* تصغير قليلاً من 1000px */
+     max-width: 980px; /* ØªØµØºÙŠØ± Ù‚Ù„ÙŠÙ„Ø§Ù‹ Ù…Ù† 1000px */
      margin: 0 auto;
      background-color: #1a1e2d;
    }
    
    .setting-group {
-     padding: 9px; /* تصغير قليلاً من 10px */
+     padding: 9px; /* ØªØµØºÙŠØ± Ù‚Ù„ÙŠÙ„Ø§Ù‹ Ù…Ù† 10px */
    }
    
    .settings-row {
@@ -8880,7 +8873,7 @@
    
    .sound-effects-title {
      color: #ff8c00;
-     font-size: 15px; /* تصغير قليلاً من 16px */
+     font-size: 15px; /* ØªØµØºÙŠØ± Ù‚Ù„ÙŠÙ„Ø§Ù‹ Ù…Ù† 16px */
      font-weight: bold;
      padding: 0 2px;
      margin: 0;
@@ -8888,7 +8881,7 @@
    }
    
    .setting-label {
-     font-size: 13px; /* تصغير قليلاً من 14px */
+     font-size: 13px; /* ØªØµØºÙŠØ± Ù‚Ù„ÙŠÙ„Ø§Ù‹ Ù…Ù† 14px */
      color: #fff;
    }
    
@@ -8897,22 +8890,22 @@
      color: white;
      border: none;
      border-radius: 5px;
-     padding: 7px 9px; /* تصغير قليلاً من 8px 10px */
-     width: 135px; /* تصغير قليلاً من 140px */
+     padding: 7px 9px; /* ØªØµØºÙŠØ± Ù‚Ù„ÙŠÙ„Ø§Ù‹ Ù…Ù† 8px 10px */
+     width: 135px; /* ØªØµØºÙŠØ± Ù‚Ù„ÙŠÙ„Ø§Ù‹ Ù…Ù† 140px */
    }
    
    .sound-toggle {
      display: flex;
      align-items: center;
-     gap: 9px; /* تصغير قليلاً من 10px */
+     gap: 9px; /* ØªØµØºÙŠØ± Ù‚Ù„ÙŠÙ„Ø§Ù‹ Ù…Ù† 10px */
      margin-left: auto;
    }
    
    .switch {
      position: relative;
      display: inline-block;
-     width: 48px; /* تصغير قليلاً من 50px */
-     height: 23px; /* تصغير قليلاً من 24px */
+     width: 48px; /* ØªØµØºÙŠØ± Ù‚Ù„ÙŠÙ„Ø§Ù‹ Ù…Ù† 50px */
+     height: 23px; /* ØªØµØºÙŠØ± Ù‚Ù„ÙŠÙ„Ø§Ù‹ Ù…Ù† 24px */
    }
    
    .switch input {
@@ -8930,14 +8923,14 @@
      bottom: 0;
      background-color: #3d465d;
      transition: .4s;
-     border-radius: 23px; /* تعديل ليتناسب مع التصغير */
+     border-radius: 23px; /* ØªØ¹Ø¯ÙŠÙ„ Ù„ÙŠØªÙ†Ø§Ø³Ø¨ Ù…Ø¹ Ø§Ù„ØªØµØºÙŠØ± */
    }
    
    .slider:before {
      position: absolute;
      content: "";
-     height: 15px; /* تصغير قليلاً من 16px */
-     width: 15px; /* تصغير قليلاً من 16px */
+     height: 15px; /* ØªØµØºÙŠØ± Ù‚Ù„ÙŠÙ„Ø§Ù‹ Ù…Ù† 16px */
+     width: 15px; /* ØªØµØºÙŠØ± Ù‚Ù„ÙŠÙ„Ø§Ù‹ Ù…Ù† 16px */
      left: 4px;
      bottom: 4px;
      background-color: white;
@@ -8950,11 +8943,11 @@
    }
    
    input:checked + .slider:before {
-     transform: translateX(25px); /* تعديل بناءً على التصغير */
+     transform: translateX(25px); /* ØªØ¹Ø¯ÙŠÙ„ Ø¨Ù†Ø§Ø¡Ù‹ Ø¹Ù„Ù‰ Ø§Ù„ØªØµØºÙŠØ± */
    }
    
    select, #sound_effect_selector, #monster_kill_selector {
-     width: 115px; /* تصغير قليلاً من 150px */
+     width: 115px; /* ØªØµØºÙŠØ± Ù‚Ù„ÙŠÙ„Ø§Ù‹ Ù…Ù† 150px */
      margin-right: 5px;
    }
    
@@ -8963,27 +8956,27 @@
      align-items: center;
      flex: 1;
      justify-content: center;
-     margin: 0 9px; /* تصغير قليلاً من 10px */
+     margin: 0 9px; /* ØªØµØºÙŠØ± Ù‚Ù„ÙŠÙ„Ø§Ù‹ Ù…Ù† 10px */
    }
    
    #volume_value {
      display: inline-block;
-     min-width: 24px; /* تصغير قليلاً من 25px */
+     min-width: 24px; /* ØªØµØºÙŠØ± Ù‚Ù„ÙŠÙ„Ø§Ù‹ Ù…Ù† 25px */
      text-align: center;
      margin-left: 5px;
    }
    
    #volume_slider {
      width: 100%;
-     max-width: 145px; /* تصغير قليلاً من 150px */
+     max-width: 145px; /* ØªØµØºÙŠØ± Ù‚Ù„ÙŠÙ„Ø§Ù‹ Ù…Ù† 150px */
    }
    
-   /* CSS إجباري للموبايل - أضف في أعلى ملف CSS */
+   /* CSS Ø¥Ø¬Ø¨Ø§Ø±ÙŠ Ù„Ù„Ù…ÙˆØ¨Ø§ÙŠÙ„ - Ø£Ø¶Ù ÙÙŠ Ø£Ø¹Ù„Ù‰ Ù…Ù„Ù CSS */
    
-   /* إجبار النافذة على الظهور على الموبايل */
+   /* Ø¥Ø¬Ø¨Ø§Ø± Ø§Ù„Ù†Ø§ÙØ°Ø© Ø¹Ù„Ù‰ Ø§Ù„Ø¸Ù‡ÙˆØ± Ø¹Ù„Ù‰ Ø§Ù„Ù…ÙˆØ¨Ø§ÙŠÙ„ */
    @media only screen and (max-width: 768px) {
        
-       /* إجبار النافذة على الظهور */
+       /* Ø¥Ø¬Ø¨Ø§Ø± Ø§Ù„Ù†Ø§ÙØ°Ø© Ø¹Ù„Ù‰ Ø§Ù„Ø¸Ù‡ÙˆØ± */
        #modal_wup {
            display: block !important;
            position: fixed !important;
@@ -9025,7 +9018,7 @@
            overflow: hidden !important;
        }
        
-       /* الهيدر */
+       /* Ø§Ù„Ù‡ÙŠØ¯Ø± */
        .modal-header {
            position: relative !important;
            width: 100% !important;
@@ -9058,7 +9051,7 @@
            z-index: 10 !important;
        }
        
-       /* التخطيط */
+       /* Ø§Ù„ØªØ®Ø·ÙŠØ· */
        .settings-layout {
            flex: 1 !important;
            display: flex !important;
@@ -9067,7 +9060,7 @@
            overflow: hidden !important;
        }
        
-       /* المحتوى */
+       /* Ø§Ù„Ù…Ø­ØªÙˆÙ‰ */
        .settings-content {
            flex: 1 !important;
            overflow-y: auto !important;
@@ -9076,7 +9069,7 @@
            -webkit-overflow-scrolling: touch !important;
        }
        
-       /* الشريط الجانبي في الأسفل */
+       /* Ø§Ù„Ø´Ø±ÙŠØ· Ø§Ù„Ø¬Ø§Ù†Ø¨ÙŠ ÙÙŠ Ø§Ù„Ø£Ø³ÙÙ„ */
        .settings-sidebar {
            position: fixed !important;
            bottom: 0 !important;
@@ -9129,12 +9122,12 @@
            color: #fff !important;
        }
        
-       /* إخفاء overlay */
-       #modal_overlay_wup {
-           display: none !important;
-       }
+       /* Ø¥Ø®ÙØ§Ø¡ overlay */
+      #modal_overlay_wup {
+          display: block !important;
+      }
        
-       /* منع scroll الصفحة */
+       /* Ù…Ù†Ø¹ scroll Ø§Ù„ØµÙØ­Ø© */
        body {
            overflow: hidden !important;
            position: fixed !important;
@@ -9143,7 +9136,7 @@
        }
    }
    
-   /* للشاشات الصغيرة جداً */
+   /* Ù„Ù„Ø´Ø§Ø´Ø§Øª Ø§Ù„ØµØºÙŠØ±Ø© Ø¬Ø¯Ø§Ù‹ */
    @media only screen and (max-width: 480px) {
        .sidebar-item span {
            font-size: 8px !important;
@@ -9158,18 +9151,18 @@
    
    
    .setting-item {
-     display: flex;          /* يجعل كل العناصر الداخلية تصطف أفقيًا */
-     align-items: center;    /* محاذاة العناصر عموديًا في وسط السطر */
-     justify-content: space-between; /* يضع مسافة بين العناصر ويدفع بالأزرار إلى اليمين */
+     display: flex;          /* ÙŠØ¬Ø¹Ù„ ÙƒÙ„ Ø§Ù„Ø¹Ù†Ø§ØµØ± Ø§Ù„Ø¯Ø§Ø®Ù„ÙŠØ© ØªØµØ·Ù Ø£ÙÙ‚ÙŠÙ‹Ø§ */
+     align-items: center;    /* Ù…Ø­Ø§Ø°Ø§Ø© Ø§Ù„Ø¹Ù†Ø§ØµØ± Ø¹Ù…ÙˆØ¯ÙŠÙ‹Ø§ ÙÙŠ ÙˆØ³Ø· Ø§Ù„Ø³Ø·Ø± */
+     justify-content: space-between; /* ÙŠØ¶Ø¹ Ù…Ø³Ø§ÙØ© Ø¨ÙŠÙ† Ø§Ù„Ø¹Ù†Ø§ØµØ± ÙˆÙŠØ¯ÙØ¹ Ø¨Ø§Ù„Ø£Ø²Ø±Ø§Ø± Ø¥Ù„Ù‰ Ø§Ù„ÙŠÙ…ÙŠÙ† */
    }
    
    .theo-game-label {
      display: flex;
      align-items: center;
-     gap: 8px;              /* يضيف مسافة بين الأيقونة والنص */
+     gap: 8px;              /* ÙŠØ¶ÙŠÙ Ù…Ø³Ø§ÙØ© Ø¨ÙŠÙ† Ø§Ù„Ø£ÙŠÙ‚ÙˆÙ†Ø© ÙˆØ§Ù„Ù†Øµ */
    }
    
-   /* تنسيق موجّه فقط لعناصر محددة - سيتجاوز أي تنسيقات سابقة */
+   /* ØªÙ†Ø³ÙŠÙ‚ Ù…ÙˆØ¬Ù‘Ù‡ ÙÙ‚Ø· Ù„Ø¹Ù†Ø§ØµØ± Ù…Ø­Ø¯Ø¯Ø© - Ø³ÙŠØªØ¬Ø§ÙˆØ² Ø£ÙŠ ØªÙ†Ø³ÙŠÙ‚Ø§Øª Ø³Ø§Ø¨Ù‚Ø© */
    #div_save.setting-item {
      display: flex !important;
      align-items: center !important;
@@ -9177,19 +9170,19 @@
      padding: 10px !important;
    }
    
-   /* تنسيق خاص للتسمية والأيقونة */
+   /* ØªÙ†Ø³ÙŠÙ‚ Ø®Ø§Øµ Ù„Ù„ØªØ³Ù…ÙŠØ© ÙˆØ§Ù„Ø£ÙŠÙ‚ÙˆÙ†Ø© */
    #div_save .theo-game-label {
      display: flex !important;
      align-items: center !important;
      gap: 8px !important;
    }
    
-   /* تنسيق زر التبديل */
+   /* ØªÙ†Ø³ÙŠÙ‚ Ø²Ø± Ø§Ù„ØªØ¨Ø¯ÙŠÙ„ */
    #div_save .switch {
      margin-left: auto !important;
    }
    
-   /* تنسيق محدد للقوائم المنسدلة الثلاث */
+   /* ØªÙ†Ø³ÙŠÙ‚ Ù…Ø­Ø¯Ø¯ Ù„Ù„Ù‚ÙˆØ§Ø¦Ù… Ø§Ù„Ù…Ù†Ø³Ø¯Ù„Ø© Ø§Ù„Ø«Ù„Ø§Ø« */
    #div_w1.setting-item, #div_sm.setting-item, #div_top.setting-item {
      display: flex !important;
      align-items: center !important;
@@ -9197,7 +9190,7 @@
      padding: 10px !important;
    }
    
-   /* تنسيق القوائم المنسدلة نفسها */
+   /* ØªÙ†Ø³ÙŠÙ‚ Ø§Ù„Ù‚ÙˆØ§Ø¦Ù… Ø§Ù„Ù…Ù†Ø³Ø¯Ù„Ø© Ù†ÙØ³Ù‡Ø§ */
    #sel_sc, #sel_sm, #sel_top {
      width: 110px !important;
      max-width: 110px !important;
@@ -9208,35 +9201,35 @@
      background: linear-gradient(135deg, rgba(21, 209, 148, 0.7), rgba(16, 163, 127, 0.7)) !important;
      border: 1px solid rgba(255, 255, 255, 0.6) !important;
      transform: translateY(-1px) !important;
-     color: #ffffff !important;
+     color: #ffffff !important;  <!-- Ù‡Ù†Ø§ Ø£ÙŠØ¶Ø§Ù‹ -->
    }
    
    
    
    
    
-   /* زيادة المسافات بين عناصر المؤشرات فقط دون تغيير حجمها */
+   /* Ø²ÙŠØ§Ø¯Ø© Ø§Ù„Ù…Ø³Ø§ÙØ§Øª Ø¨ÙŠÙ† Ø¹Ù†Ø§ØµØ± Ø§Ù„Ù…Ø¤Ø´Ø±Ø§Øª ÙÙ‚Ø· Ø¯ÙˆÙ† ØªØºÙŠÙŠØ± Ø­Ø¬Ù…Ù‡Ø§ */
    .cursor-container {
      display: grid;
      grid-template-columns: repeat(auto-fill, minmax(75px, 1fr));
-     gap: 10px; /* زيادة المسافة بين العناصر */
-     margin: 25px 10px; /* إضافة هوامش للحاوية نفسها */
+     gap: 10px; /* Ø²ÙŠØ§Ø¯Ø© Ø§Ù„Ù…Ø³Ø§ÙØ© Ø¨ÙŠÙ† Ø§Ù„Ø¹Ù†Ø§ØµØ± */
+     margin: 25px 10px; /* Ø¥Ø¶Ø§ÙØ© Ù‡ÙˆØ§Ù…Ø´ Ù„Ù„Ø­Ø§ÙˆÙŠØ© Ù†ÙØ³Ù‡Ø§ */
    }
    
-   /* الحفاظ على حجم عناصر المؤشرات كما هي */
+   /* Ø§Ù„Ø­ÙØ§Ø¸ Ø¹Ù„Ù‰ Ø­Ø¬Ù… Ø¹Ù†Ø§ØµØ± Ø§Ù„Ù…Ø¤Ø´Ø±Ø§Øª ÙƒÙ…Ø§ Ù‡ÙŠ */
    .cursor-item {
-     width: 58px; /* الحفاظ على نفس الحجم الحالي */
-     height: 58px; /* الحفاظ على نفس الحجم الحالي */
-     padding: 9px; /* الحفاظ على نفس التباعد الداخلي */
+     width: 58px; /* Ø§Ù„Ø­ÙØ§Ø¸ Ø¹Ù„Ù‰ Ù†ÙØ³ Ø§Ù„Ø­Ø¬Ù… Ø§Ù„Ø­Ø§Ù„ÙŠ */
+     height: 58px; /* Ø§Ù„Ø­ÙØ§Ø¸ Ø¹Ù„Ù‰ Ù†ÙØ³ Ø§Ù„Ø­Ø¬Ù… Ø§Ù„Ø­Ø§Ù„ÙŠ */
+     padding: 9px; /* Ø§Ù„Ø­ÙØ§Ø¸ Ø¹Ù„Ù‰ Ù†ÙØ³ Ø§Ù„ØªØ¨Ø§Ø¹Ø¯ Ø§Ù„Ø¯Ø§Ø®Ù„ÙŠ */
      background-color: #1e2235;
      border-radius: 8px;
-     border: 1px solid #323a54; /* حدود أرق */
+     border: 1px solid #323a54; /* Ø­Ø¯ÙˆØ¯ Ø£Ø±Ù‚ */
      display: flex;
      align-items: center;
      justify-content: center;
    }
    
-   /* إضافة حدود مميزة للعنصر النشط */
+   /* Ø¥Ø¶Ø§ÙØ© Ø­Ø¯ÙˆØ¯ Ù…Ù…ÙŠØ²Ø© Ù„Ù„Ø¹Ù†ØµØ± Ø§Ù„Ù†Ø´Ø· */
    .cursor-item.active {
      border: 2px solid #ff8a18;
      box-shadow: 0 0 8px rgba(255, 138, 24, 0.3);
@@ -9423,12 +9416,12 @@
            inset 0 1px 2px rgba(0, 0, 0, 0.1) !important;
    }
    
-   /* تعديل موضع زر الإغلاق */
+   /* ØªØ¹Ø¯ÙŠÙ„ Ù…ÙˆØ¶Ø¹ Ø²Ø± Ø§Ù„Ø¥ØºÙ„Ø§Ù‚ */
    .close {
        right: 15px !important;
    }
    
-   /* للشاشات الصغيرة */
+   /* Ù„Ù„Ø´Ø§Ø´Ø§Øª Ø§Ù„ØµØºÙŠØ±Ø© */
    @media (max-width: 768px) {
        .language-switcher {
            right: 45px !important;
