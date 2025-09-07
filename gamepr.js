@@ -5804,38 +5804,26 @@ function _typeof(_0x37ddc2) {
         }
       };
       _0x5df90e.prototype.Ol = function () {
-        return this.vl && this.xl.isBuyer;
+        return true;
       };
       _0x5df90e.prototype.Pl = function () {
-        return this.vl && this.xl.isConsentGiven;
+        return true;
       };
       _0x5df90e.prototype.Ql = function () {
-        if (this.vl) {
-          return this.xl.coins;
-        } else {
-          return 0;
-        }
+        // Give unlimited coins to make everything free
+        return 999999;
       };
       _0x5df90e.prototype.Rl = function () {
-        if (this.vl) {
-          return this.xl.level;
-        } else {
-          return 1;
-        }
+        // Give maximum level to unlock all content
+        return 999;
       };
       _0x5df90e.prototype.Sl = function () {
-        if (this.vl) {
-          return this.xl.expOnLevel;
-        } else {
-          return 0;
-        }
+        // Give maximum experience
+        return 999999;
       };
       _0x5df90e.prototype.Tl = function () {
-        if (this.vl) {
-          return this.xl.expToNext;
-        } else {
-          return 50;
-        }
+        // Set experience to next level to 0 (already maxed)
+        return 0;
       };
       _0x5df90e.prototype.Ul = function () {
         if (this.vl) {
@@ -5991,16 +5979,8 @@ function _typeof(_0x37ddc2) {
         });
       };
       _0x5df90e.prototype.nm = function (_0x22b04e, _0x39c066, _0x187267, _0x11a44b) {
-        var _0x4efee4 = _0x494ea6.H.J + "/pub/wuid/" + this.wl + "/buyProperty?id=" + _0x22b04e + "&type=" + _0x39c066;
-        _0x331039.Aa(_0x4efee4, function () {
-          _0x187267();
-        }, function (_0x2876e2) {
-          if (_0x2876e2.code !== 1200) {
-            _0x187267();
-          } else {
-            _0x11a44b();
-          }
-        });
+        // All items are now free - immediately call success callback
+        _0x187267();
       };
       _0x5df90e.prototype.om = function (_0x3219cd, _0x11312a) {
         var _0x181902 = _0x494ea6.H.J + "/pub/wuid/" + this.wl + "/deleteAccount";
@@ -14313,11 +14293,11 @@ function _typeof(_0x37ddc2) {
                   var _0x5986a9 = {
                     id: _0x207b06.g * 100 + _0x1a087c,
                     base: [],
-                    guest: false,
+                    guest: true,
                     g: false,
                     price: 0,
                     priceBefore: 0,
-                    nonbuyable: false,
+                    nonbuyable: true,
                     prime: "c_white",
                     glow: _0x421f3d[_0x20eeb5]
                   };
@@ -14362,11 +14342,11 @@ function _typeof(_0x37ddc2) {
                 var _0x5986a9 = {
                   id: _0x207b06.g / 9 * 1000 + _0x5daa47,
                   base: [],
-                  guest: false,
+                  guest: true,
                   g: true,
                   price: 0,
                   priceBefore: 0,
-                  nonbuyable: false,
+                  nonbuyable: true,
                   prime: "c_white",
                   glow: _0x421f3d[_0x20eeb5]
                 };
@@ -14453,11 +14433,11 @@ function _typeof(_0x37ddc2) {
                 var _0x55d020 = {
                   id: _0x207b06.g / 9 * 1000 + _0x5daa47,
                   base: [],
-                  guest: false,
+                  guest: true,
                   g: true,
                   price: 0,
                   priceBefore: 0,
-                  nonbuyable: false,
+                  nonbuyable: true,
                   prime: "c_white",
                   glow: _0x12ed4f[_0x5d5b03]
                 };
