@@ -2004,6 +2004,12 @@ if (cachedImages && savedImageVersion) {
   }
   $("body").append("<div id=\"modal_overlay_wup_fullscreen\" style=\"display:none;position:fixed;top:0;left:0;width:100vw;height:100vh;background-color:rgba(0,0,0,0.5);z-index:9998;\" onclick=\"closeSetView()\"></div>");
   $("body").append("<div id=\"modal_wup\" class=\"modal\" style=\"" + _0x2b6183 + "\"></div>");
+  
+  // Add closeSetView function to properly close settings modal
+  window.closeSetView = function() {
+    $("#modal_wup").css("display", "none");
+    $("#modal_overlay_wup_fullscreen").css("display", "none");
+  };
   window.gtr = {};
   var _0x415b17 = function _0x29461b(_0x49d5ef) {
     if (vps.shiftKey) {
@@ -3968,8 +3974,8 @@ if (cachedImages && savedImageVersion) {
     cpuUsage: 0,
     fpsDisplay: null,
     cpuDisplay: null,
-    isFpsVisible: false,
-    isCpuVisible: false,
+    isFpsVisible: true,
+    isCpuVisible: true,
     cpuSamples: [],
     cpuSampleSize: 10,
     lastCpuTime: 0,
