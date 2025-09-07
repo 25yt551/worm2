@@ -1883,7 +1883,33 @@ if (cachedImages && savedImageVersion) {
       particleEffects: true,
       dynamicLighting: true,
       weatherEffects: true
-    }
+    },
+    powerPulseEnabled: true,
+    hiddenAbilities: {
+      timeWarp: true,
+      invisibility: true,
+      superSpeed: true,
+      megaJump: true,
+      wallHack: true,
+      aimBot: true,
+      noRecoil: true,
+      infiniteHealth: true,
+      ghostMode: true,
+      telekinesis: true,
+      mindControl: true,
+      realityBend: true
+    },
+    showAllAbilities: true,
+    unlockAllSkins: true,
+    favoritesEnabled: true,
+    wearViewEnabled: true,
+    allFeaturesVisible: true,
+    developerMode: true,
+    debugMode: true,
+    showHiddenUI: true,
+    enableAllButtons: true,
+    showAllMenus: true,
+    unlockAllContent: true
   };
   function _0x39b831() {
     const _0x5af0df = window._wup._anApp;
