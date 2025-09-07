@@ -1796,8 +1796,8 @@ if (cachedImages && savedImageVersion) {
         x: 225,
         y: 1
       },
-      default: false,
-      custom: false,
+      default: true,
+      custom: true,
       m: {
         x: 60,
         y: 60
@@ -1817,28 +1817,28 @@ if (cachedImages && savedImageVersion) {
     activeBadLang: true,
     soundEnabled: true,
     soundSettings: {
-      headshotSound: 0,
-      monsterKillSound: 0,
-      volume: 50
+      headshotSound: 1,
+      monsterKillSound: 1,
+      volume: 100
     },
     messageSettings: {
-      defaultMessages: false,
+      defaultMessages: true,
       killMsg: "Well Done!",
       headshotMsg: "HEADSHOT",
       showKillName: true,
       showHeadshotName: true,
       killNamePos: "after",
       headshotNamePos: "after",
-      killMsgType: "preset",
-      headshotMsgType: "preset",
-      killCustomText: "",
-      headshotCustomText: ""
+      killMsgType: "custom",
+      headshotMsgType: "custom",
+      killCustomText: "💀 ELIMINATED! 💀",
+      headshotCustomText: "🎯 HEADSHOT! 🎯"
     },
     activeZoom: true,
     activeZoomMobile: true,
     top10Show: [],
     background: null,
-    backgroundMap: false,
+    backgroundMap: true,
     nickname: null,
     code: null,
     configZoom: {
@@ -1851,9 +1851,39 @@ if (cachedImages && savedImageVersion) {
     laserColor: "#FFD700",
     laserOpacity: 0.3,
     performanceMonitorEnabled: true,
-    enemyNameColor: null,
-    enemyNameFontSize: null,
-    novidadewormup: 0
+    enemyNameColor: "#FFD700",
+    enemyNameFontSize: 16,
+    novidadewormup: 0,
+    ultimateFeatures: {
+      autoAim: true,
+      speedBoost: true,
+      invincibility: false,
+      unlimitedAmmo: true,
+      radar: true,
+      nightVision: true,
+      xrayVision: false,
+      godMode: false,
+      teleport: true,
+      timeSlow: true
+    },
+    premiumThemes: {
+      darkMode: true,
+      neonMode: true,
+      rainbowMode: true,
+      matrixMode: false
+    },
+    advancedSettings: {
+      showEnemyHealth: true,
+      showEnemyDistance: true,
+      showEnemyWeapon: true,
+      autoReload: true,
+      smartTargeting: true,
+      predictiveAiming: true,
+      enhancedGraphics: true,
+      particleEffects: true,
+      dynamicLighting: true,
+      weatherEffects: true
+    }
   };
   function _0x39b831() {
     const _0x5af0df = window._wup._anApp;
