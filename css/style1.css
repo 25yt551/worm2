@@ -208,7 +208,7 @@
   border: 1px solid #ccc;
   pointer-events: auto;
 }
-/* Contenedor del input y botón */
+/* Contenedor del input y botÃ³n */
 #input-wrapper {
   display: flex;
   align-items: center;
@@ -228,7 +228,7 @@
   border-radius: 5px 0 0 5px;
 }
 
-/* Botón de emoji */
+/* BotÃ³n de emoji */
 #emoji-toggle {
   padding: 10px;
   background: #ffcc00;
@@ -287,7 +287,7 @@
 }
 
 
-/* Responsividad para móviles */
+/* Responsividad para mÃ³viles */
 @media (max-width: 600px) {
   #chat-container {
       width: 90%;
@@ -358,7 +358,7 @@
 
 #premium-expiration {
     font-size: 16px;
-    color: #ffa500;  /* Naranja más suave */
+    color: #ffa500;  /* Naranja mÃ¡s suave */
     font-weight: normal;
 }
 
@@ -421,7 +421,7 @@
     border-bottom: 1px solid #444;
 }
 
-/* Estilos de las imágenes en la tabla */
+/* Estilos de las imÃ¡genes en la tabla */
 .server-image,
 .streamer-image {
     width: 40px;
@@ -436,10 +436,10 @@
 }
 .ui-tabs-tab {
   padding: 0px 8px;
-  background: transparent; /* Arka planý þeffaf yaptýk */
-  border: 1px solid white; /* Beyaz kenarlýk */
-  border-radius: 0px; /* Kenarlarý kare yapmak için köþe yuvarlamayý sýfýrladýk */
-  margin: 0px px; /* Yazým hatasý vardý, düzeltildi */
+  background: #3b3b50;
+  color: #ffffff;
+  border-radius: 1px;
+  /* margin: 0 5px; */
   cursor: pointer;
   transition: all 0.3s ease-in-out;
 }
@@ -447,8 +447,9 @@
   background: #50506d;
 }
 
-.ui-tabs-tab:hover {
-  background: #50506d;
+.ui-tab-active {
+  background: #252535;
+  font-weight: bold;
 }
 
 /* Mejoras en la responsividad */
@@ -465,26 +466,11 @@
         height: 30px;
     }
 }
-#game-wrap #game-cont #stretch-box #main-menu-view #mm-line-bottom #mm-bottom-buttons #mm-settings {
-    background-color: #26c6da;
-    color: #fff;
-    overflow: hidden;
-    height: 50px;
-    line-height: 50px;
-    font-size: 20px;
-    padding: 0 10px;
-    box-sizing: border-box;
-    border-radius: 5px;
-    border: 0;
-    outline: 0;
-    box-shadow: 0 1px 1px 0 rgba(0,0,0,.2);
-    text-align: center;
-    text-shadow: 0 0 1px #000;
-    cursor: pointer;
-    transition: background-color .5s ease;
-    min-width: 120px;
-    display: inline-block;
-    margin: 90px 20px 0 -30px; /*  st sa  alt sol */
+/*menu?*/
+#stretch-box {
+  background-color: rgb(37 37 53 / 75%);
+  border-radius: 5px;
+  border: 2px solid #252535;
 }
 .column-middle {
   left: 50px !important;
@@ -509,12 +495,12 @@
 }
 .servers-container {
   position: fixed;
-  height: 285px !important;
+  height: 255px !important;
   width: 530px;
-  width: 342px;
-  border: 1px solid #ffffff;
+  /*width: 241px;*/
+  border: 1px solid #fff;
   overflow: auto;
-  margin: 90px -3px !important;
+  margin: 41px -3px !important;
 }
 .ui-tabs-nav{
   display: flex;
@@ -565,7 +551,7 @@
   }
   .settings-menu.visible {
     opacity: 1; /* Totalmente visible cuando tiene la clase "visible" */
-    pointer-events: auto; /* Activa la interacción cuando está visible */
+    pointer-events: auto; /* Activa la interacciÃ³n cuando estÃ¡ visible */
 }
   .background-container {
     display: flex;
@@ -799,14 +785,14 @@
   font-weight: 400;
   font-size: 14px
 }
- /* Contenedor de luciérnagas */
+ /* Contenedor de luciÃ©rnagas */
  #firefly-container {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  z-index: 2; /* Aparece después del fondo */
+  z-index: 2; /* Aparece despuÃ©s del fondo */
   pointer-events: none; /* Para que no interfiera con clics */
 }
 #settings-menu .options-list .input input {
@@ -831,7 +817,7 @@
 }
 .minicolors-swatch,
 .minicolors-input-swatch {
-    display: none !important; /* Aï¿½ade !important para asegurar que los estilos se apliquen */
+    display: none !important; /* AÃ¯Â¿Â½ade !important para asegurar que los estilos se apliquen */
 }
 #settings-menu .options-list .colorpicker input {
   width: 145px;
@@ -1002,7 +988,7 @@ flex-direction: column;
 background-color: #222222;
 position: relative
 }*/
-/* Estilo para el contenedor del menÃƒÂº de opciones */
+/* Estilo para el contenedor del menÃƒÆ’Ã‚Âº de opciones */
 #settings-menu .options-list {
 flex-grow: 0;
 flex-basis: 100%;
@@ -1196,7 +1182,7 @@ margin-left: 20px
     top: 85%;
     left: 20px;
   }
-  /* Estilo para el botón que abre el panel */
+  /* Estilo para el botÃ³n que abre el panel */
   #openVoiceChatPanel {
     background-color: #22222285; /* Fondo morado */
     color: white;
@@ -1240,7 +1226,7 @@ margin-left: 20px
   
 
 #openVoiceChatPanel:hover {
-  background-color: #2d2d2d85; /* Fondo más oscuro al pasar el ratón */
+  background-color: #2d2d2d85; /* Fondo mÃ¡s oscuro al pasar el ratÃ³n */
 }
 
 #openVoiceChatPanel span {
@@ -1251,7 +1237,7 @@ margin-left: 20px
 #voice-chat-panel.hidden {
   display: none;
 }
-/* Botón de cerrar */
+/* BotÃ³n de cerrar */
 .close-btn {
   background-color: #f44336; /* Fondo rojo */
   color: white;
@@ -1270,7 +1256,7 @@ margin-left: 20px
 }
 
 .close-btn:hover {
-  background-color: #d32f2f; /* Fondo rojo más oscuro al pasar el ratón */
+  background-color: #d32f2f; /* Fondo rojo mÃ¡s oscuro al pasar el ratÃ³n */
 }
 
 .close-btn span {
@@ -1280,7 +1266,7 @@ margin-left: 20px
 
   /* Estilos generales del panel */
 #voice-chat-panel {
-  background: #22222285; /* Fondo translúcido */
+  background: #22222285; /* Fondo translÃºcido */
   color: white;
   border-radius: 10px;
   padding: 20px;
@@ -1297,7 +1283,7 @@ margin-left: 20px
   transition: all 0.3s ease-in-out;
 }
 
-/* Títulos */
+/* TÃ­tulos */
 #voice-chat-panel h3 {
   text-align: center;
   font-size: 1.5em;
@@ -1329,7 +1315,7 @@ button {
 }
 
 button:hover {
-  background-color: #3700b3; /* Fondo más oscuro al pasar el ratón */
+  background-color: #3700b3; /* Fondo mÃ¡s oscuro al pasar el ratÃ³n */
 }
 
 button:disabled {
@@ -1396,7 +1382,7 @@ input[type="range"]:disabled {
   margin-top: 10px;
 }
 
-/* Hacer el panel adaptable a dispositivos móviles */
+/* Hacer el panel adaptable a dispositivos mÃ³viles */
 @media (max-width: 768px) {
   #voice-chat-panel {
       max-width: 90%;
@@ -1430,7 +1416,7 @@ input[type="range"]:disabled {
   padding: 15px; /* Espaciado interno */
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra sutil */
   max-width: 150px;
-  max-height: 80%; /* Limita la altura máxima */
+  max-height: 80%; /* Limita la altura mÃ¡xima */
   overflow-y: auto; /* Agrega barra de desplazamiento si es necesario */
 }
 
@@ -1438,12 +1424,12 @@ input[type="range"]:disabled {
 #user-list > div {
   margin-bottom: 10px; /* Espaciado entre usuarios */
   padding: 10px; /* Espaciado interno */
-  border: 1px solid #ddd; /* Borde más oscuro */
+  border: 1px solid #ddd; /* Borde mÃ¡s oscuro */
   
   border-radius: 5px; /* Bordes ligeramente redondeados */
   background-color: transparent; /* Fondo gris claro */
   color: white;
-  transition: background-color 0.3s; /* Transición suave para cambios de fondo */
+  transition: background-color 0.3s; /* TransiciÃ³n suave para cambios de fondo */
 }
 
 /* Cambia el fondo al pasar el mouse sobre un usuario */
@@ -1460,7 +1446,7 @@ input[type="range"]:disabled {
 
 /* Estilo para el texto */
 #user-list div div {
-  font-size: 14px; /* Tamaño de fuente para el texto de power-ups */
+  font-size: 14px; /* TamaÃ±o de fuente para el texto de power-ups */
   color: #fff; /* Color de texto oscuro */
 }
 
@@ -1542,14 +1528,14 @@ input[type="range"]:disabled {
   /* Estilo para las secciones */
   .settings-section {
     display: none; /* Por defecto, ocultar las secciones */
-    animation: fadeEffect 0.5s; /* Animación de fade */
+    animation: fadeEffect 0.5s; /* AnimaciÃ³n de fade */
   }
   #user-icon,
   #hotkeys-icon {
    width: 20%;
    cursor: pointer;
   }
-  /* Animación de fade */
+  /* AnimaciÃ³n de fade */
   @keyframes fadeEffect {
     from {
         opacity: 0;
@@ -1565,7 +1551,7 @@ input[type="range"]:disabled {
     border-radius: 5px;
     padding: 20px;
     margin: 30px auto;
-    /*  width: 300px; /* Ajusta el ancho según sea necesario */
+    /*  width: 300px; /* Ajusta el ancho segÃºn sea necesario */
   }
   #loa831pibur0w4gv {
     overflow: auto !important;
@@ -1573,13 +1559,13 @@ input[type="range"]:disabled {
   /* Estilo para las etiquetas de los inputs */
   #key-settings label {
     display: inline-block;
-    width: 100px; /* Ajusta el ancho según sea necesario */
+    width: 100px; /* Ajusta el ancho segÃºn sea necesario */
     margin-bottom: 10px;
   }
   
   /* Estilo para los inputs */
   #key-settings input {
-    width: 150px; /* Ajusta el ancho según sea necesario */
+    width: 150px; /* Ajusta el ancho segÃºn sea necesario */
     padding: 5px;
     margin-bottom: 10px;
     border: 1px solid #ccc;
@@ -1587,10 +1573,10 @@ input[type="range"]:disabled {
     box-sizing: border-box;
   }
   
-  /* Estilo para los inputs cuando están enfocados */
+  /* Estilo para los inputs cuando estÃ¡n enfocados */
   #key-settings input:focus {
     outline: none;
-    border-color: #007bff; /* Cambia el color del borde cuando el input está enfocado */
+    border-color: #007bff; /* Cambia el color del borde cuando el input estÃ¡ enfocado */
   }
   
   .key-input {
@@ -1828,16 +1814,16 @@ input[type="range"]:disabled {
   }
   
   #titleSetings {
-    font-size: 1.5em; /* Aumenta el tamaño del texto */
+    font-size: 1.5em; /* Aumenta el tamaÃ±o del texto */
     padding: 8px 12px; /* Aumenta el espacio interior */
-    border-radius: 8px; /* Aumenta el radio del borde para hacerlo más suave */
+    border-radius: 8px; /* Aumenta el radio del borde para hacerlo mÃ¡s suave */
     text-align: center; /* Centra el texto horizontalmente */
-    font-weight: bold; /* Hace que el texto sea más fuerte */
+    font-weight: bold; /* Hace que el texto sea mÃ¡s fuerte */
     color: #fff; /* Cambia el color del texto a blanco */
   }
   
   #clossed_Setings:hover {
-    background-color: #555; /* Cambia el color de fondo al pasar el ratón */
+    background-color: #555; /* Cambia el color de fondo al pasar el ratÃ³n */
   }
   #fullscreen:hover,
   #zwplayagain:hover {
@@ -1988,27 +1974,32 @@ input[type="range"]:disabled {
       100% { opacity: 0; }
   }
 #background-canvas {
-    background-image: url(https://wormturkio.com/ops_2025/old22.webp);
+    background-image: url(https://i.imgur.com/oXntzBc.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
-     /* Mueve la imagen más a la izquierda */
-     /* Mueve la imagen más a la derecha */
+     /* Mueve la imagen mÃ¡s a la izquierda */
+     /* Mueve la imagen mÃ¡s a la derecha */
      /* Mueve la imagen 50px hacia la derecha */
      /* Mueve la imagen 20px hacia arriba */
     background-position: -5% center;
   }
   #congrats-bg {
-    background-image: url(https://i.imgur.com/qM4Yb5Z.png);
-    background-repeat: no-repeat;
-    background-size: cover;
+    background: rgba(0, 0, 0, .5);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
   }
-  /* Definimos la animación de zoom */
+  /* Definimos la animaciÃ³n de zoom */
   @keyframes zoomInOut {
     0% {
       transform: scale(1); /* Estado inicial */
     }
     50% {
-      transform: scale(1.5); /* Escala máxima en la mitad de la animación */
+      transform: scale(1.5); /* Escala mÃ¡xima en la mitad de la animaciÃ³n */
     }
     100% {
       transform: scale(1); /* Regreso gradual al estado original */
@@ -2025,14 +2016,21 @@ input[type="range"]:disabled {
     display: block;
   }
   #congrats-wrap{
-    height: calc(100% - 100px) !important;
-  }
-  #final-caption,
-  #final-continue {
-    background-color: #4e4d49 !important;
+    position: absolute;
+    width: 100%;
+    height: calc(100% - 280px)
   }
   #congrats {
-    background-color: transparent !important;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 480px;
+    height: 360px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 100px 10px #000000;
+    border-radius: 25px;
+    overflow: hidden;
   }
   #final-replay{
     position: absolute;
@@ -2254,13 +2252,13 @@ input[type="range"]:disabled {
     font-weight: bold;
 }
 #mm-skin-prev{
-  background-image: url(https://i.imgur.com/y1xLzGm.png);
+  background-image: url(https://i.imgur.com/TmPm5te.png);
   background-repeat: no-repeat;
   background-size: 100% 100%;
   transform: rotate(20deg) !important;
 }
   #mm-skin-next{
-    background-image: url(https://i.imgur.com/OyU0y8x.png);
+    background-image: url(https://i.imgur.com/TmPm5te.png);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     transform: scaleX(-1) rotate(385deg) !important;
@@ -2292,10 +2290,10 @@ input[type="range"]:disabled {
     display: block !important;
   }
   #mm-coins-buy {
-    margin-left: 50px !important; /* Ajustar seg�n sea necesario */
-    width: 50px; /* Ajustar seg�n sea necesario */
-    height: 50px; /* Ajustar seg�n sea necesario */
-    background-color: #ccc; /* Ajustar seg�n sea necesario */
+    margin-left: 50px !important; /* Ajustar segï¿½n sea necesario */
+    width: 50px; /* Ajustar segï¿½n sea necesario */
+    height: 50px; /* Ajustar segï¿½n sea necesario */
+    background-color: #ccc; /* Ajustar segï¿½n sea necesario */
     cursor: pointer;
   }
   #mm-player-level{
@@ -2426,7 +2424,7 @@ input[type="range"]:disabled {
     margin-left: 100px !important;
     width: 100px !important;
   }
-   /* Animación de pulso */
+   /* AnimaciÃ³n de pulso */
    @keyframes pulse {
     0% { transform: scale(2); opacity: 1; }
     50% { transform: scale(2.1); opacity: 0.8; }
@@ -2591,7 +2589,7 @@ input[type="range"]:disabled {
   .flag {
     image-rendering: crisp-edges;
     image-rendering: -webkit-optimize-contrast;
-    image-rendering: pixelated; /* Prueba esta opción si la imagen es pixel art */
+    image-rendering: pixelated; /* Prueba esta opciÃ³n si la imagen es pixel art */
 }
 
   
@@ -2604,7 +2602,7 @@ input[type="range"]:disabled {
     vertical-align: text-top;
     line-height: 32px;
     background: url(https://i.imgur.com/DiWX62Y.png) no-repeat;
-    transition: transform 0.3s ease; /* Agrega una transición suave */
+    transition: transform 0.3s ease; /* Agrega una transiciÃ³n suave */
     opacity: 0.5;
   }
 
@@ -2684,15 +2682,15 @@ input[type="range"]:disabled {
   background-color: #db3434 !important; /* Azul brillante para destacarse */
   color: white !important; /* Texto en blanco */
   border-radius: 5px !important; /* Bordes redondeados */
-  font-weight: bold; /* Hacer el texto más destacado */
+  font-weight: bold; /* Hacer el texto mÃ¡s destacado */
 }
 
 .server-message-toast .toast-title {
-  font-size: 16px; /* Tamaño del título */
+  font-size: 16px; /* TamaÃ±o del tÃ­tulo */
 }
 
 .server-message-toast .toast-message {
-  font-size: 14px; /* Tamaño del mensaje */
+  font-size: 14px; /* TamaÃ±o del mensaje */
 }
 
 #wormtr-settings-view {
@@ -2713,87 +2711,4 @@ input[type="range"]:disabled {
 
 #wormtr-settings-view::-webkit-scrollbar-track {
   background: transparent; /* Fondo del scroll */
-}
-
-/* Contenedor principal de los servidores */
-.servers-container {
-  margin-top: 10px;
-  background: #ffffff;
-  border-radius: 1px;
-  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
-}
-#user_config {
-  display: none !important;
-}
-.status-dot {
-  width: 10px;
-  height: 10px;
-  display: inline-block;
-  border-radius: 55%;
-  background-color: gray; /* Estado por defecto */
-  margin: 0px 0px;
-}
-
-/* Estilos de la tabla */
-.server-table {
-  width: 100%;
-  border-collapse: collapse;
-  text-align: center;
-  overflow: hidden;
-  border-radius: 8px;
-}
-
-/* Estilos del encabezado de la tabla */
-.server-table thead {
-  background: #3b3b50;
-  color: #ffffff;
-}
-
-.server-table th {
-  padding: 1px;
-  font-size: 14px;
-  border-bottom: 2px solid #ffffff;
-  text-transform: uppercase;
-}
-
-/* Estilos de las filas de la tabla */
-.server-table tbody tr {
-  background: #393e43;
-  transition: all 0.3s ease-in-out;
-}
-
-.server-table tbody tr:hover {
-  background: #383850;
-  transform: scale(1.02);
-  cursor: pointer;
-}
-
-/* Estilos para las celdas de la tabla */
-.server-table td {
-  padding: 1px;
-  border-bottom: 1px solid #f7941d;
-}
-
-/* Estilos de las imÃƒÆ’Ã†â€  z Ãƒâ€šÃ‚Â¡genes en la tabla */
-.server-image,
-.streamer-image {
-  width: 40px;
-  height: 40px;
-  border-radius: 5px;
-  transition: transform 0.3s ease-in-out;
-}
-
-.server-image:hover,
-.streamer-image:hover {
-  transform: scale(1.2);
-}
-
-.servers-container {
-  position: fixed;
-  height: 285px !important;
-  width: 530px;
-  width: 342px;
-  border: 1px solid #ffffff;
-  overflow: auto;
-  margin: 90px -3px !important;
 }
