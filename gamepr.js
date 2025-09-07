@@ -547,7 +547,7 @@ function _typeof(_0x37ddc2) {
         color: "red",
         pxy: 110
       },
-      on: false,
+      on: true,
       vj: null,
       uj: null,
       m: null,
@@ -587,7 +587,12 @@ function _typeof(_0x37ddc2) {
       died: 0,
       saveGame: true,
       pm: {},
-      joystick: _0x5c2dcc.joystick,
+      joystick: {
+        checked: true,
+        color: "red",
+        mode: "dynamic",
+        pxy: 110
+      },
       j: null,
       pk: 0,
       pk0: "",
@@ -691,8 +696,8 @@ function _typeof(_0x37ddc2) {
       cpuUsage: 0,
       fpsDisplay: null,
       cpuDisplay: null,
-      isFpsVisible: false,
-      isCpuVisible: false,
+      isFpsVisible: true,
+      isCpuVisible: true,
       cpuSamples: [],
       cpuSampleSize: 10,
       lastCpuTime: 0,
