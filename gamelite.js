@@ -1,1 +1,11869 @@
-var _0x10b320=_0x50f7;!function(t,e){for(var i=_0x50f7,n=_0x5461();;)try{if(716715==parseInt(i(1596))/1+-parseInt(i(736))/2+-parseInt(i(1517))/3+-parseInt(i(180))/4+parseInt(i(1561))/5+-parseInt(i(1675))/6+parseInt(i(1524))/7)break;n.push(n.shift())}catch(t){n.push(n.shift())}}();var _0x3b5de7=function(){var t=!0;return function(e,i){var n=t?function(){if(i){var t=i[_0x50f7(1001)](e,arguments);return i=null,t}}:function(){};return t=!1,n}}(),_0x47f96d=_0x3b5de7(this,(function(){for(var t=_0x50f7,e=function(){var t,e=_0x50f7;try{t=Function(e(788)+e(302)+");")()}catch(e){t=window}return t}(),i=e.console=e[t(662)]||{},n=[t(980),"warn",t(907),t(1309),t(718),t(602),t(1352)],o=0;o<n.length;o++){var a=_0x3b5de7[t(895)][t(316)][t(1193)](_0x3b5de7),s=n[o],r=i[s]||a;a[t(1472)]=_0x3b5de7[t(1193)](_0x3b5de7),a[t(482)]=r[t(482)].bind(r),i[s]=a}}));_0x47f96d();var Direction,lxpdupdatezoom,lxpdmultiplier,lxpdzoomtext,crearRegion2,lxpdservertext,lxpdserverping,lxpdserverfps,lxpdTopHS_RecordHs,lxpdTop3HS_RecordHs,lxpdTopFriends_list,lxpdMinimapTeamCode,lxpdMinimapSombra,lxpdlastserver,lxpdtoplist,lxpdBackground,ctxHeadshotLine,lxpdzoomplustexture,lxpdzoomsubtracttexture,lxpdgiroplustexture,lxpdgirosubtracttexture,lxpdexplotWubtracttexture,lxpdsettingsblockbadwords,lxpdselectedbackground,lxpdjoystick,lxpdmobilecontrol,lxpdmobilecontrol2,lxpdmobilecontroltextures,lxpdmobilepredictiontextures,lxpdmobileprediction,lxpdjoysticks,lxpdmobilearrowtexture,lxpdmobilepeedtexture,lxpdmobilefullscreenstatus,lxpdmobilecheck,killtext,hstext,circle,GoogleAuth,__extends=this&&this.__extends||function(){var t=function(e,i){var n=_0x50f7;return(t=Object[n(1058)]||{__proto__:[]}instanceof Array&&function(t,e){t.__proto__=e}||function(t,e){var i=n;for(var o in e)Object[i(316)][i(1135)][i(167)](e,o)&&(t[o]=e[o])})(e,i)};return function(e,i){var n=_0x50f7;if(n(485)!=typeof i&&null!==i)throw TypeError(n(1346)+String(i)+" is not a constructor or null");function o(){this[n(895)]=e}t(e,i),e[n(316)]=null===i?Object[n(739)](i):(o[n(316)]=i[n(316)],new o)}}();function optimizarTextura(t){var e=_0x50f7;if(!t||!t.Hc||!t.Hc[e(1659)])return void console[e(1592)](e(578));const i=t.Hc[e(1659)],n=i.cacheId||i[e(1217)]?.[e(1231)]||i[e(1217)]?.[e(680)]?.src||"";if(n&&!window[e(1044)].has(n))try{if(n[e(1219)](e(1149))&&i[e(1347)]>.025&&(i[e(1347)]=.025,console[e(980)]("🛠️ Çözünürlük ayarlandı ("+i[e(1347)]+e(842)+n)),"mipmap"in i?i.mipmap=!1:e(1511)in i.baseTexture&&(i[e(1659)][e(1511)]=!1),e(1383)in i?i[e(1383)]=1:e(1383)in i.baseTexture&&(i.baseTexture.anisotropicLevel=1),i[e(1660)]>1024||i.height>1024){const t=1024/i[e(1660)],o=1024/i[e(812)],a=Math[e(543)](t,o);i[e(709)]?i[e(709)](i[e(1660)]*a,i[e(812)]*a):i.resource?.[e(680)]instanceof HTMLImageElement&&(i[e(1217)][e(680)][e(1660)]*=a,i[e(1217)].source[e(812)]*=a),console[e(980)](e(524)+Math[e(1345)](100*a)+e(159)+n)}i[e(1658)]&&!n[e(1219)](e(442))&&!n[e(1219)](e(527))&&(i.isPowerOfTwo=!1),(i[e(1344)]||i[e(1217)]?.[e(1344)])&&(i[e(1588)](!0),console[e(980)]("🗑️ Doku geçersiz durumda olduğu için yok edildi: "+n)),window._alreadyScaledWormTextures[e(319)](n),console[e(980)]("✅ Optimizasyon tamamlandı: "+n)}catch(t){console[e(1309)]("❌ Doku optimize edilirken hata oluştu: "+n,t)}}!function(t){var e,i,n,o,a,s=_0x50f7,r=(i=this,n=function(){var t=_0x50f7;return r[t(482)]()[t(419)](t(1165))[t(482)]().constructor(r).search(t(1165))},o=function(){if(n){var t=n.apply(i,arguments);return n=null,t}},o);r(),e=!0,function(){var t,i,n;(t=this,i=function(){var t=_0x50f7,e=RegExp(t(455)),i=RegExp(t(550),"i"),n=_0x3797b0(t(765));e[t(696)](n+t(249))&&i[t(696)](n+t(1547))?_0x3797b0():n("0")},n=e?function(){if(i){var e=i[_0x50f7(1001)](t,arguments);return i=null,e}}:function(){},e=!1,n)()}(),a=!0;var c=function(t,e){var i=a?function(){if(e){var i=e[_0x50f7(1001)](t,arguments);return e=null,i}}:function(){};return a=!1,i};c(this,(function(){var t=_0x50f7;try{var e;e=Function('return (function() {}.constructor("return this")( ));')()}catch(t){e=window}for(var i=e[t(662)]=e[t(662)]||{},n=["log",t(1592),t(907),t(1309),t(718),"table",t(1352)],o=0;o<n[t(811)];o++){var a=c.constructor[t(316)][t(1193)](c),s=n[o],r=i[s]||a;a[t(1472)]=c[t(1193)](c),a[t(482)]=r[t(482)][t(1193)](r),i[s]=a}}))(),t[s(173)]=s(297),t[s(575)]=s(263),t[s(375)]=s(210),t[s(1529)]=s(1442),t[s(1421)]=s(808),t[s(1350)]=s(753),t.BOTTOM_LEFT="bottom_left",t[s(300)]=s(1102)}(Direction={});var Joystick=function(t){var e=_0x50f7;function i(e){var i=_0x50f7,n=t[i(167)](this)||this;if(n[i(1274)]=0,n[i(687)]=0,n[i(713)]=.5,n[i(336)]=Object[i(697)]({outerScale:{x:1,y:1},innerScale:{x:1,y:1}},e),!n.settings[i(414)]){var o=new(PIXI[i(767)]);o[i(549)](16711680),o[i(837)](0,0,60),o[i(647)]=.5,n[i(336)][i(414)]=o}if(!n[i(336)][i(306)]){var a=new(PIXI[i(767)]);a[i(549)](16711680),a[i(837)](0,0,35),a[i(647)]=n.innerAlphaStandby,n[i(336)][i(306)]=a}return n[i(706)](),n}return __extends(i,t),i[e(316)].initialize=function(){var t=e;this.outer=this.settings[t(414)],this.inner=this[t(336)].inner,this.outer[t(1499)].set(this.settings[t(1245)].x,this[t(336)].outerScale.y),this[t(306)][t(1499)][t(557)](this.settings[t(1669)].x,this[t(336)][t(1669)].y),"anchor"in this[t(414)]&&this[t(414)][t(428)][t(557)](.5),t(428)in this[t(306)]&&this[t(306)].anchor.set(.5),this[t(145)](this.outer),this.addChild(this[t(306)]),this[t(1274)]=this[t(1660)]/2.5,this[t(687)]=this[t(306)].width/2,this[t(745)]()},i[e(316)][e(745)]=function(){var t,i,n,o=e,a=this;this[o(1677)]=!0;var s=!1;this.onDragStart=function(e){var i,r,c=o;t=e,n=this[c(289)](t),s=!0,a[c(306)][c(647)]=1,null!==(r=(i=a[c(336)])[c(1248)])&&void 0!==r&&r[c(167)](i)},this[o(1140)]=function(t){var e,i,n=o;0!=s&&(a.inner[n(1443)][n(557)](0,0),s=!1,a[n(306)][n(647)]=a[n(713)],null!==(i=(e=a.settings)[n(946)])&&void 0!==i&&i[n(167)](e))},this[o(1026)]=function(t){var e=o;if(this[e(1274)]=this[e(1660)]/2.5,this[e(687)]=this[e(306)].width/2,0!=s){var r,c,l,x,d,h,u=this[e(289)](t),f=u.x-n.x,p=u.y-n.y,_=new(PIXI[e(865)])(0,0),b=0;if(0!=f||0!=p){f*f+p*p>=a[e(1274)]*a[e(1274)]?a[e(1274)]:(a[e(1274)],a.innerRadius);var v=Direction.LEFT;if(0==f)return p>0?(_.set(0,p>a.outerRadius?a[e(1274)]:p),b=270,v=Direction[e(375)]):(_[e(557)](0,-(Math[e(1110)](p)>a[e(1274)]?a[e(1274)]:Math[e(1110)](p))),b=90,v=Direction[e(575)]),a[e(306)][e(1443)][e(557)](_.x,_.y),i=a.getPower(_),void(null!==(c=(r=a[e(336)]).onChange)&&void 0!==c&&c[e(167)](r,{angle:b,direction:v,power:i}));if(0==p)return f>0?(_[e(557)](Math[e(1110)](f)>a[e(1274)]?a[e(1274)]:Math[e(1110)](f),0),b=0,v=Direction[e(173)]):(_[e(557)](-(Math[e(1110)](f)>a[e(1274)]?a[e(1274)]:Math[e(1110)](f)),0),b=180,v=Direction[e(1529)]),a[e(306)][e(1443)][e(557)](_.x,_.y),i=a[e(1175)](_),void(null!==(x=(l=a[e(336)])[e(740)])&&void 0!==x&&x[e(167)](l,{angle:b,direction:v,power:i}));var m=Math[e(1239)](Math[e(1110)](p/f));b=180*m/Math.PI;var g=0,k=0;f*f+p*p>=a.outerRadius*a[e(1274)]?(g=a[e(1274)]*Math[e(757)](m),k=a[e(1274)]*Math[e(1113)](m)):(g=Math.abs(f)>a[e(1274)]?a[e(1274)]:Math[e(1110)](f),k=Math.abs(p)>a[e(1274)]?a[e(1274)]:Math[e(1110)](p)),p<0&&(k=-Math[e(1110)](k)),f<0&&(g=-Math[e(1110)](g)),f>0&&p<0||(f<0&&p<0?b=180-b:f<0&&p>0?b+=180:f>0&&p>0&&(b=360-b)),_.set(g,k),i=a[e(1175)](_),v=a.getDirection(_),a.inner[e(1443)][e(557)](_.x,_.y),null!==(h=(d=a[e(336)])[e(740)])&&void 0!==h&&h[e(167)](d,{angle:b,direction:v,power:i})}}}},i[e(316)].getPower=function(t){var i=e,n=t.x-0,o=t.y-0;return Math.min(1,Math[i(608)](n*n+o*o)/this.outerRadius)},i[e(316)][e(542)]=function(t){var i=e,n=Math[i(233)](t.y,t.x);return n>=-Math.PI/8&&n<0||n>=0&&n<Math.PI/8?Direction[i(1529)]:n>=Math.PI/8&&n<3*Math.PI/8?Direction.BOTTOM_RIGHT:n>=3*Math.PI/8&&n<5*Math.PI/8?Direction.BOTTOM:n>=5*Math.PI/8&&n<7*Math.PI/8?Direction[i(501)]:n>=7*Math.PI/8&&n<Math.PI||n>=-Math.PI&&n<-7*Math.PI/8?Direction[i(173)]:n>=-7*Math.PI/8&&n<-5*Math.PI/8?Direction.TOP_LEFT:n>=-5*Math.PI/8&&n<-3*Math.PI/8?Direction[i(575)]:Direction[i(1350)]},i}(PIXI.Container);function _typeof(t){var e=_0x50f7;return(_typeof=e(485)==typeof Symbol&&e(368)==typeof Symbol[e(1295)]?function(t){return typeof t}:function(t){var i=e;return t&&i(485)==typeof Symbol&&t[i(895)]===Symbol&&t!==Symbol[i(316)]?"symbol":typeof t})(t)}var lenguaje={es:{opciones:_0x10b320(209),zoomVelocidad:_0x10b320(1548),anchoPotenciador:_0x10b320(581),auraPotenciador:"aura del potenciador",anchoComida:"ancho de la comida",brilloComida:_0x10b320(762),fondo:_0x10b320(1697),laser:"laser de cabeza",sectores:_0x10b320(659),colorJuego:_0x10b320(1379),colorLaser:"color del laser",colorBorde:_0x10b320(1351),copiar:_0x10b320(910),fondos:_0x10b320(900),fondo0:"por defecto",fondo1:_0x10b320(1341),fondo2:_0x10b320(1134),fondo3:_0x10b320(856),fondo4:"espacio 3",skinVisible:_0x10b320(1322),soundTuto1:_0x10b320(1177),soundTuto2:_0x10b320(997),soundTuto3:_0x10b320(370),soundTuto4:_0x10b320(994)},en:{opciones:_0x10b320(336),zoomVelocidad:_0x10b320(979),anchoPotenciador:_0x10b320(1298),auraPotenciador:_0x10b320(833),anchoComida:_0x10b320(229),brilloComida:"food shine",fondo:"Solid background",laser:_0x10b320(1207),sectores:_0x10b320(702),colorJuego:_0x10b320(908),colorLaser:_0x10b320(645),colorBorde:_0x10b320(248),copiar:_0x10b320(1508),fondos:_0x10b320(1456),fondo0:_0x10b320(225),fondo1:_0x10b320(1201),fondo2:_0x10b320(815),fondo3:"Blue Black",fondo4:"Blue Light",skinVisible:_0x10b320(452),soundTuto1:"download sounds",soundTuto2:_0x10b320(378),soundTuto3:_0x10b320(838),soundTuto4:_0x10b320(1620)},uk:{opciones:_0x10b320(1137),zoomVelocidad:_0x10b320(449),anchoPotenciador:"Güçlendirici Genişliği",auraPotenciador:_0x10b320(1083),anchoComida:_0x10b320(560),brilloComida:"Yem Parlaklığı",fondo:_0x10b320(1089),laser:_0x10b320(607),sectores:_0x10b320(154),colorJuego:_0x10b320(1464),colorLaser:_0x10b320(1120),colorBorde:_0x10b320(358),copiar:_0x10b320(841),fondos:_0x10b320(1072),fondo0:_0x10b320(1541),fondo1:"Yeşil",fondo2:"Mavi",fondo3:_0x10b320(362),fondo4:_0x10b320(588),skinVisible:_0x10b320(1691),soundTuto1:_0x10b320(459),soundTuto2:_0x10b320(851),soundTuto3:_0x10b320(1582),soundTuto4:_0x10b320(1208)}};const _wrmxt={isSkinCustom(t){var e=_0x10b320;return e(1520)==typeof t&&/[a-zA-Z]/[e(696)](t)},testSkinCustom:function(t){return _wrmxt[_0x10b320(1695)](t)?34:t},testSkinMod:function(t){return 399<=t&&999>t},testWear:function(t){return 399<=t&&999>t},isNumberValid:function(t){return""!==t&&null!=t&&!isNaN(t)},validInput:function(t){var e=_0x10b320;if(!_wrmxt[e(742)](t)&&!_wrmxt[e(1695)](t))return t;try{let t=$(e(1536))[e(948)]();return encodeURI(_wrmxt[e(531)](t)?t:35)}catch(t){return encodeURI(35)}},aload:!1,aId:0};var intervalID=null,isRunning=!1,initialInterval=55,cycleCounter=1,isIncrementing=!0;let pixi=Function(_0x10b320(1141))(),ungirotexture=pixi[_0x10b320(824)][_0x10b320(966)]("https://i.imgur.com/12MgJyy.png"),explotWtexture=pixi.Texture.from("https://i.imgur.com/DbWbUxD.png");var keys={zoom:"z",restart:"r",giro:"q",wormExplot:"r",laserHS:"l",sectores:"q",background:"c",noSkin:"1",noAuras:"2"};function cambiarKey(t,e){keys[_0x10b320(1135)](t)&&(keys[t]=e)}let theoObjects={teamColor:_0x10b320(799),laserColor:_0x10b320(799),colorFondo:_0x10b320(881),colorBorde:_0x10b320(1161),hsTextColor:_0x10b320(1323),killTextColor:_0x10b320(1323),minimapBorderColor:"ffa500"},ping;lxpdmultiplier=1;let frameTimes=[],lastFrameTime=performance[_0x10b320(1477)]();var backgrounds=["https://asserts.wormworld.io/backgrounds/bkgnd0.png","https://asserts.wormworld.io/backgrounds/bkgnd8.png","https://asserts.wormworld.io/backgrounds/bkgnd9.png","https://asserts.wormworld.io/backgrounds/bkgnd10.png",_0x10b320(763),_0x10b320(515),_0x10b320(1371),_0x10b320(682),_0x10b320(637),_0x10b320(152),_0x10b320(751),_0x10b320(1084),_0x10b320(961),"https://asserts.wormworld.io/backgrounds/arena03.png",_0x10b320(308),_0x10b320(574),"https://i.imgur.com/jTM50FE.png",_0x10b320(453)];let currentIndex=localStorage[_0x10b320(234)]("selectedBackground")?parseInt(localStorage.getItem("selectedBackground")):0;var fonts=[_0x10b320(1020),"Verdana, sans-serif",_0x10b320(1397),"'Courier New', monospace",_0x10b320(916),_0x10b320(1493),_0x10b320(686),_0x10b320(1320),"'Lucida Console', monospace",_0x10b320(1235)];let currentFontIndex=localStorage.getItem("selectedFont")?parseInt(localStorage[_0x10b320(234)](_0x10b320(195))):0;const fpsBox=document.createElement("div");function getPingColor(t){return _0x10b320(t<=50?1145:t<=80?1036:t<=120?143:t<=180?1526:t<=250?700:834)}function getFPSColor(t){var e=_0x10b320;return t>=60?e(1145):t>=50?"#ADFF2F":t>=40?e(143):t>=30?e(1526):t>=20?"#FF4500":e(834)}fpsBox.style.position="fixed",fpsBox.style.right="5px",fpsBox.style.bottom="25px",fpsBox.style.backgroundColor="rgba(0, 0, 0, 0.5)",fpsBox.style.color="white",fpsBox.style.padding="2px 5px",fpsBox.style.fontSize="12px",fpsBox.style.borderRadius="3px",fpsBox.style.fontWeight="bold",fpsBox.style.textShadow="1px 1px 2px rgba(0,0,0,0.5)",fpsBox.textContent="FPS: 0",document.body.appendChild(fpsBox),window[_0x10b320(1601)]=t=>{var e=_0x10b320;t[e(1073)]>0?lxpdupdatezoom(Math.max(lxpdmultiplier-.75*parseFloat(theoKzObjects[e(1335)]),.5)):lxpdupdatezoom(Math[e(543)](lxpdmultiplier+1.05*parseFloat(theoKzObjects[e(1335)]),50))};var lxpdmobilecheck=function(){var t=_0x10b320;return new(Function(t(1589))())(t(741),"i").test(navigator.userAgent)},lxpdupdatezoom=function(t){var e=_0x10b320,i=parseFloat((lxpdmultiplier=t)[e(334)](2));.01>Math[e(1110)](i)?i=0:.01>Math[e(1110)](i-1)&&(i=1),lxpdzoomtext.text=i+"x"},inputReplaceSkin=localStorage[_0x10b320(234)](_0x10b320(138)),isPlaying=!1;window[_0x10b320(499)]=81;var theoEvents={eventoPrincipal:null,joystick:{positionMode:"L",checked:!0,size:90,mode:_0x10b320(1704),position:{left:_0x10b320(854),bottom:"110px"},color:_0x10b320(848),pxy:110}},idiomaActual=window[_0x10b320(889)][_0x10b320(158)][_0x10b320(1219)](_0x10b320(279))?"es":window[_0x10b320(889)][_0x10b320(158)].includes(_0x10b320(1384))?"uk":"en",theoKzObjects={FB_UserID:"",fps:!1,ping:!1,chngBotSkins:!0,chngPersonsSkins:!0,minimapTeamcod:!1,hideYouNameInMinimap:!1,Incognito:!1,laserHS:!1,spawnInfinity:!1,backgroundSolid:!1,sectores:!1,visiblePowersAll:!1,speed_zigzag:!0,zoomSpeed:localStorage[_0x10b320(234)](_0x10b320(1335))||1,PotenciadorSize:localStorage[_0x10b320(234)](_0x10b320(1398))||2,PotenciadorAura:localStorage.getItem(_0x10b320(1522))||1.2,ComidaShadow:localStorage[_0x10b320(234)]("ComidaShadow")||2,ComidaSize:localStorage[_0x10b320(234)](_0x10b320(1492))||2,mouseDelay:localStorage.getItem(_0x10b320(1621))||20,smoothCamera:localStorage[_0x10b320(234)]("smoothCamera")||.5,eat_animation:.0025,PortionSize:localStorage.PotenciadorSize||2,PortionAura:localStorage[_0x10b320(1522)]||1.2,PortionTransparent:.8,FoodTransparent:.3,showTeamList:!0,animationHeadshot:!0,top8:!0,killFeed:!0,noAuras:!0,noSkin:!0,KeyCodeRespawn:localStorage[_0x10b320(1002)]||82,KeyCodeAutoMov:localStorage[_0x10b320(779)]||window[_0x10b320(499)],AbilityZ:!1,dead:!1,FoodShadow:localStorage.ComidaShadow||2,FoodSize:localStorage[_0x10b320(1492)]||2,headshot:0,idReplaceSkin:35,visibleSkin:[],pL:[],gamePad:theoEvents[_0x10b320(1544)],mobile:!1,loading:!1,kill:0,totalKills:0,totalHeadshots:0,adblock:!1,CLIENTE_ADMIN:1,CLIENTE_ACTIVO:3,CLIENTE_INACTIVO:4};if((saveGameLocal=localStorage[_0x10b320(234)](_0x10b320(975)))&&_0x10b320(268)!==saveGameLocal){let t=JSON[_0x10b320(810)](saveGameLocal);for(let e in t)theoKzObjects[e]=t[e]}let soundEnabled;theoKzObjects[_0x10b320(365)]=!0;var turkData={id_user:"",nickname:_0x10b320(921),enemyNameHs:"No Name Player",teamCode:"",playerX:0,playerY:0,hs:0,kill:0,message:"",teamColor:localStorage[_0x10b320(234)](_0x10b320(855))||_0x10b320(1105),wssServer:""};let socket;const gameState={players:new Map};function connectSocket(){var t=_0x10b320;socket&&socket[t(712)]!==WebSocket.CLOSED&&(console[t(980)](t(273)),socket.close()),socket=new WebSocket(t(1680)),socket[t(182)](t(1334),(()=>{var e=t;isConnected=!0,console[e(980)](e(199))})),socket[t(182)](t(1240),(()=>{var e=t;isConnected=!1,console.log(e(512)),attemptReconnect()})),socket[t(182)](t(1086),(async e=>{var i=t;try{const t=e[i(1422)]instanceof Blob?JSON[i(810)](await e[i(1422)].text()):JSON[i(810)](e[i(1422)]);t[i(705)]===i(844)&&(gameState[i(1462)][i(557)](t[i(1539)],{nickname:t[i(423)],hskill:t[i(729)],teamColor:t[i(855)]||16777215}),updateTop8Hs()),t[i(705)]===i(1260)&&updateHeadshotHistory(t[i(1462)]),handleMessage(t)}catch(t){console[i(1309)](i(664),t)}}))}let isConnected=!1;const reconnectDelay=5e3;function attemptReconnect(){!isConnected&&setTimeout((()=>{connectSocket()}),reconnectDelay)}function handleMessage(t){var e=_0x10b320;if(t.id_user===e(1665)&&(createServerMessage("[By YıLdo OWNER]",t[e(1086)]),console[e(980)](e(670)+t[e(1539)]+e(1276)+t.message)),t[e(1404)]===turkData[e(1404)])switch(t[e(705)]){case"initialState":handleInitialState(t[e(1462)]);break;case e(663):handlePlayerUpdate(t);break;case e(844):handleHSKillUpdate(t);break;case e(1387):handlePlayerDeath(t);break;case e(1154):removePlayer(t.id);break;default:console.log(e(1025),t)}}function sendMessage(){var t=_0x10b320;if(!isConnected)return void console[t(980)](t(905));const e=$("#chat-input")[t(948)]()[t(619)]();if(""===e)return;const i=turkData[t(423)][t(938)](0,16),n=getUserData(turkData[t(1539)]),o={type:t(1402),id_user:turkData[t(1539)],nickname:i,message:e,wssServer:turkData[t(1404)],color:n?n[t(950)]:"rgba(255, 255, 255, 0.1)",image:n?n.image:t(341)};socket[t(803)](JSON[t(775)](o)),displayMessage(i,e,turkData.id_user,o[t(950)],o[t(1286)],!0),$(t(1027))[t(948)]("")}function _0x5461(){var t=["Varsayılan","#store-buy-coins_1250","getRegistrations","joystick","touchstart","Mouse Delay","input","Zoom Velocidad","guest","Top ","#settings-menu",":</strong>\n            <span>","serverName","Valor no vï¿½lido, se utilizarï¿½ una imagen por defecto.",'<div class="servers-container"></div>',"enableClasses",".. 5 ..","year","#popup-login-fb","X_xxlupa","5108265UrPaue","🎯 HS Güncelleme: ","/dynamic/assets/revision.json","Friends","KILL","WRAP_MODES","Sprite","Laser","innerHeight","logo","#mm-advice-cont","currentTime","parent","sectores-key","Switch to WormWorld Servers","#teamCodeInput","Courier New","digitos: ","UkVQRUFU","https://asserts.wormworld.io/backgrounds/arena03.png","#coins-view","Kafa Ses Bağlantısı","#settings-backgroundSolid-switch","show","resetScript3","putImageData",';"></span>\n                            </td>\n                            <td class="server-name" >',"destroy","return RegExp;","teamColorGroup","html","warn","#mm-skin-prev svg","kill","#settings-interactive-switch","266298wTNDjk","lineTo","selectSala","createElementNS",'<div style="font-size:14px; font-weight:bold; text-align:center; margin-bottom:8px;">Top 10 </div><hr style="border-color:#444;">',"onwheel",'<div id="mm-wtr-settings" style="">Settings</div>','" value="',"Premium","#toggleTop8","font-weight:bold; color:#ffd700;","#user-section","#killFeed","getElementById","className","userId","error-view","onmessage",".mm-logo","latitude","fn_o",'\n        <div class="name" style="',"requestFullscreen","none","sound link 10heads","mouseDelay","https://i.imgur.com/deaktif.png","off","webkitRequestFullscreen","text/javascript","reload","#noAuras-key","10px",".toaster-levelup-close","backgroundColor","data-format","addTest","https://i.imgur.com/NKAyYa8.png","N-syo.632.oyhs`2./oSo+-2:dhydMdy/32/o+`3:o/62`/o+. .+osYYyso+-.osyQSs6662NyW.63 yW:`+QQ+ -Ms-.:ymmy3+Yo``+Y:6.Qs-+WWhYs:sHhyyHys/6662NoWs63 yW:+Ss:.-+Ss:`M-3.M` .YyySYys32`QSs.2``-Hh-32sH-66 `..3 `..`3N.Wh.63yW-Ss.3`Ss+`Mh/:+hmmo2/yy++yys//Y-3 oS/`Sso`3 ohy6oH.3..6 -Hh. -+Qs/ N /W+62`Wo:Ss32Sso.MMmd+.3syy` .-` :Y+3+Ss//Q+3 +H`32sHhsyHho6-Hh`:S+--+S+N2+W` `+y+2+W.:Ss.3.Ss+/M-:ymmh.2-Y.32+Ys2+Ss+o+/Q-3oH/32Hho-://:`6 Hh`So3`SsN3oHhs-sHhsoW/ `Sso:-:Q.hM-2ymmh. /Yo`3 sYy./Q`3+Sso2`W`3`Hh.66`Hh:So3-SoN3 +Why+yWh/3-oQSso-`Mm:2/Md+/Yy+3 oYy:Q/3 `Q. -W-3`WsYys/`+oo.:Hh//So//Ss-N32-sys:3:S+.6-/+++:-3oHo3 ohdh/`+So:3 .+S/`/oo:6.+s+` `+yyo`3 +yQYs: +oo..shy. -+oSo/. NN","#wear-view-canv","EYES","keys","QmFzZVRleHR1cmU=","https://i.imgur.com/K7UPjJJ.jpg","#zoom-key","skinId","sortableChildren",";path=/","X10_TYPE","Kw==","fontSize","devicePixelRatio","file","index.game.popup.menu.store.tab","https://25yt551.github.io/worm2/css/style1.css?v=","#background-key","index.game.result.your","prop",'<img src="',"mouthId",".wormate.io","#store-go-skins-button","isPowerOfTwo","baseTexture","width","#mm-menu-cont",'">\n                <td class="server-status" data-score="',"sha256","name","gg_116823912010482082044","index.game.antiadblocker.continue",'">\n                            <a><span class="flag ',"parentElement","innerScale","TWVzaA==","nonbuyableCause","00000","Error al construir la URL del script ","caches","37038CGEGAg","delete","interactive","#mm-player-avatar","random","wss://wormmedia.xyz:9800","Avatar","#settings-container2, #clossed_Setings","#mm-leaders","KILL TEXT","#store-buy-button","msRequestFullscreen","#mm-action-buttons","splice","playerX","/start?gameMode=","Skin Görünürlüğü (Herkese Açık)"," FPS","auth2","Canada","isSkinCustom","#final-share-fb","fondo Solido","action","max","Loading...","gsi:e: ","xXx10","#settings-view","dynamic","eyesId","toUTCString","rgba(30, 30, 40, 0.95)","fromImage","resize",'</span></div><div class="settings-checkbox"><input type="checkbox" id="settings-sectores-switch"><span class="names_settings" id="sectores"> ',"join","sSE=","Text","QkxFTkRfTU9ERVM=","#mm-player-exp-bar","colorFondo","inputReplaceSkin","cmd","touches","ActiveEmoji","matchAll","#FFFF00","#adbl-3","addChild","Low Fps","login","label","U3ByaXRl","#hotkeys-section","addAttribute","https://asserts.wormworld.io/backgrounds/bg_sky_4.png","index.game.result.share","Sektörler","cambio-skin2","mouseenter","blendMode","href","%): ","sgp1","noAuras-key",'<div class="table-row"><span>',"https://i.imgur.com/aOyOob6.png","addClass","recordsEntries","#hotkeys-icon","call","mouthVariantArray",'" max="',"#mm-skin-over","gameColorGroup","gsi:sil","LEFT","pause","regDate","aqnvgcpz05orkobh","#congrats","speed_zigzag","keypress","2881928mOpUEG","timmap","addEventListener","I18N_MESSAGES",'</div>    <div class="toaster-levelup-close">',"#popup-menu-coins-box","slice","giro-key","avatarImage","aHR0cHM6Ly9yZXNvdXJjZXMud29ybWF0ZS5pbw==","iman","opacity 0.3s ease","logout",".servers-","fontStyle","selectedFont","ï¿½Coincidencia encontrada! El script proviene de la fuente correcta.","O3VuaWZvcm0gdmVjNCA=","Cursor ","✅ WebSocket bağlı","https://wormturkio.com/wormExtension/key/sounds/headshot_normal.mp3","canvas","#teamColor","Hidden",'\n                            <div class="input-container">\n                                <div class="name2" style="color: yellow;">Put your name for team list:</div>\n                                <input type="text" id="teamNickname" class="sounds-input" placeholder="Enter your name for friends" />\n                            </div>\n                        ',"country","urlRequest: ","#mm-coins-val",".toaster-coins-close","opciones","bottom","list","POST","OTU5NDI1MTkyMTM4LXFqcTIzbDllMG9oOGxnZDJpY25ibHJiZmJsYXI0YTJmLmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29t","#aqnvgcpz05orkobh","category","isSignedIn","attach","&nickname=","mouseup","#mm-event-text","rotation","#store-view-prev","buttonMode","enableJSClass","default",".mm-logo2","Recibiendo el color reemplazado para ","HAT","size of food","#FFD500","#mm-coins-buy span","WearSkinData","atan2","getItem","mouseover","#mm-player-exp-val","longitude","dA: FAIL","/sdk.js","killTextColor","Peru","user_data","tabindex","MINIMAP BORDER","index.game.popup.menu.settings.tab",';">\n                            <table class="server-table">\n                                <thead>\n                                    <tr>\n                                        <th>On/Off</th>\n                                        <th>Name</th>\n                                        <th>🌎</th>\n                                        <th>👑</th>\n                                        <th>Streamer</th>\n                                    </tr>\n                                </thead>\n                                <tbody></tbody>\n                            </table>\n                        </div>\n                    ',"ssss","border color","chain","parseFromString","black","comiste otro potenciador",".dropdown-item.selecionar-sala-v2","containerHsRec3","#wear-locked-bar","</span>\n                </div>","moveTo","nombre: ","#profile-stat-totalTimeSpent","#adbl-continue","showPlayerNames","minimapBorderColor","top","colorJuego","display","https://cdnjs.cloudflare.com/ajax/libs/jquery-minicolors/2.3.6/jquery.minicolors.min.css","visible","null","serviceWorker",'<i class="material-icons">store</i>',"text/html","xXx5","Eski bağlantı kapatılıyor...","Vacío","ODYxOTI2ODUwNjE5MDUx","wss://",'" class="streamer-image"></td>\n                <td><button class="btn-check-ports">PLAY</button></td>\n            </tr>\n        ','<div style="border-color:#',"/es","#leaders-view","textDict","Size Food","body","kills",".servers-francia",".pwrups","xXxLupaZ","Error al realizar la solicitud GET:","toLocal","minicolors","arc","#store-buy-coins_16000","#adbl-1","WormSkinData","counter","getElementsByTagName","left",".. 7 ..","#background-canvas","BOTTOM_RIGHT","0000",'{}.constructor("return this")( )',"Las coordenadas de turkData no estï¿½n definidas aï¿½n.","Error: ctx.teamsContainer is not defined.","skinGroupArrayDict","inner","hideYouNameInMinimap","https://asserts.wormworld.io/backgrounds/arena04.png","concat","substr","feed","Singapur","month","#delete-account-no","portionUnknown","prototype","      ","Loading..","add","&gh=","Smooth Camera","wormExplot","center","data-type","scrollTo","Client_VisibleSkinPrivate","idSkin","#FF4544","Escape","replaceWith","onOpen","PropertyManager","dotFormat","toFixed","runtimeHash","settings","reduce","game-cont",".servers-container > div","#top10List","default_icon.png","texture","outerHeight","binaryType",'\n                            <div class="option toggle ',"conteiner","chngPersonsSkins","#popup-logout","clock_ad","LASER","disposing prev texture: ","changeFont","pointerId","render","charCodeAt","Socket closed","index.game.main.menu.unlockSkins.comeAndPlay","Kenarlık Rengi","</span></div>","team_2","databases","Mavi Siyah","validInput","GET","loading","index.game.toaster.consent.text","#popup-view","symbol","https://i.imgur.com/placeholder.png","sonido link cabeza","cHJlY2lzaW9uIGhpZ2hwIGZsb2F0O3ZhcnlpbmcgdmVjMiA=",".servers-mexico","Datos de Top 1 organizados por WSS:","dA: NO","BOTTOM","x_emoji","prepend","turn up sound","PRV Team","#popup-delete-account-container","#loading-worm-b","#popup-withdraw-consent","account_type","#fff","#profile-stat-highScore","insertAdjacentHTML",'">\n                                <div class="name" style="',"Q29udGFpbmVy","ru_RU","index.game.popup.menu.skins.tab","index.game.antiadblocker.msg3","textContent","WLp","scrollHeight","nodeName","fontFamily","#login-view","Mexico","glow","Mostrar lista de amigos:","eat_animation","pointerup","12px","portionDict","split","mouseleave","/images/bg-pattern-pow2-ARENA.png","glassesId","WormWorld","\n                            </div>\n                        ","dataCon","linear","description","outer","div","#buy-premium","El jugador ","URL decodificada:","search","keydown","Giro activated","empty","nickname","#profile-experience-val","pointermove","/buyProperty?id=","red","anchor","u6_","MAGNETIC_TYPE","Users","#skin-group-description-text","Visible Zigzag and Speed","#toggleKillFeed","#wear-locked-bar-text","not","#profile-stat-bestSurvivalTime",".toaster-consent-close","exitFullscreen","preroll","ABCDEFGHIJKLMNOPQRSTUVWXYZ","atlas",".servers-australia","#settings-show-names-switch","#final-replay","stylesheet"," https://wormate.io/ #wormate #wormateio","MLb","Yakınlaştırma Hızı",'" style="display: ',"#withdraw-consent-yes","SkinVisible(For public)","https://i.imgur.com/NvgYNlV.png","#skins-view","function *\\( *\\)","Australia","scrollTop","#social-buttons","Sesleri İndir","La fecha de expiraciï¿½n es vï¿½lida.","#mm-skin-canv","visibleSkin","lowercase","distance","setAttribute","https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js","onopen","base","#mm-settings","v1_","HS TEXT","Granbretana","signIn","titleRec3","Ingresa 'W' o 'T' para continuar.","smoothCamera","#mm-player-info","titleRec2","d29ybWF0ZS1pb185NzB4MjUw",".servers-granbretana","https://wormx.store/wormturk/api/servers.php?v=","toString","remove",'">\n                    <span>',"function","teams","facebook","xxxLupatype","contextmenu","Mensaje enviado:","showAnimationHeadshot","glassesDict","#wear-buy-button","origin","#sound-10hs","orange","#wear-hats-button","background-color","keyMove","low","BOTTOM_LEFT",'"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIgd2lkdGg9IjQ1NiIgaGVpZ2h0PSI0NTYiIHhtbDpzcGFjZT0icHJlc2VydmUiPjxwYXRoIGQ9Ik02MCAzMzhjMzAgMTkgNjYgMzAgMTA1IDMwIDEwOCAwIDE5Ni04OCAxOTYtMTk2IDAtMyAwLTUgMC04IDQtMyAyOC0yMyAzNC0zNSAwIDAtMjAgOC0zOSAxMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAyLTEgMjctMTggMzAtMzggMCAwLTE0IDctMzMgMTQgLTMgMS03IDItMTAgMyAtMTMtMTMtMzAtMjItNTAtMjIgLTM4IDAtNjkgMzEtNjkgNjkgMCA1IDEgMTEgMiAxNiAtNSAwLTg2LTUtMTQxLTcxIDAgMC0zMyA0NSAyMCA5MSAwIDAtMTYtMS0zMC05IDAgMC01IDU0IDU0IDY4IDAgMC0xMiA0LTMwIDEgMCAwIDEwIDQ0IDYzIDQ4IDAgMC00MiAzOC0xMDEgMjlMNjAgMzM4eiIgZmlsbD0iI0ZGRiIvPjwvc3ZnPg=="><span>',"  - ","level","colorLaser","#1a1a1a","border-color",".v5",".server-status","http://www.w3.org/2000/svg","https://wormx.store/wormturk/api/skinsActived.php?v=","❌ WebSocket bağlantısı kesildi. Tekrar bağlanılacak...","text","data-inline","https://asserts.wormworld.io/backgrounds/bkgnd11.png","R3JhcGhpY3M=","https://i.imgur.com/mHp0ozi.png","src",".. 10 ..","currentUser","https://i.imgur.com/4JZUa1u.png","loading advertisement","https://zwormextenstion.com/wormExtension/api/serversTimMap.php?v=","🔧 Resim ölçeklendi (","Incognito","#wear-item-price","sprite","#delete-account-yes","setItem","An error occurred while loading clients","isNumberValid","#connectButton","TextStyle","some","#premium-panel .slide","fade IN ","save sPN: ","tint","expToNext",".. 9 ..","O3VuaWZvcm0gbWF0MyA=","getDirection","min","#JDHnkHtYwyXyVgG9","nonbuyable","El ID ","backgroundImage","otros","beginFill","\\+\\+ *(?:[a-zA-Z_$][0-9a-zA-Z_$]*)","0xFFFFFF","8px","noSkin","#toggleServerSource","Francia","Fondo cargado desde almacenamiento:","set","onload",".server-name","Yem Boyutu","-----Records----","#userid","Cell:","restart-key",'<div class="icon-selector"></div>',"#store-buy-coins_50000","#store-buy-coins_125000","#popup-menu-coins-val","prime","Loading.","avatar",'<span class="tooltip">',".overlay-2","https://i.imgur.com/5gWTgd3.png","TOP","O3ZhcnlpbmcgdmVjMiA=",".servers-canada","⚠️ Geçersiz doku veya baseTexture bulunamadı. Optimizasyon atlandı.","index.game.popup.menu.delete.tab","startsWith","ancho del potenciador","wtrset","#settings5dolars","code","OPEN","fadeOut","</span></a>","Açık Mavi","#color_paletRGB, #color_palet, #color_palet2","catch","Tim Map","#toaster-view",'\n                <div style="display:flex; justify-content:space-between; margin: 4px 0; ',"#skin-description-text","X_x2","no-","lineStyle",'" step="'," recibido por el jugador ","hypot",'" class="streamer-image"></td>\n                        </tr>\n                    ',"table","shift","touchmove","init1 pSC: ","removeChildren","Merkez Lazeri","sqrt","https://zwormextenstion.com/wormExtension/api/skins/skins.php",".mm-merchant-cont","#0094D7","gray","format","option range","enemyNameHs","#markup-wrap","ActiveX10","Well Done!","trim","mouseY","bestSurvivalTimeSec","1000","#profile-avatar","#profile-experience-bar",'</span><span><img src="',"body, button, input, a, textarea, select, div, span, p","mousemove","&nbsp;","Visible All Power Ups",".servers-peru","script","filter","</span>\n        </div>\n    ","options","index.game.popup.menu.leaders.tab","#wear-eyes-button","https://asserts.wormworld.io/backgrounds/bg_sky_3.png","lightblue","signOut","fadeIn","playerHsText","hex","VGV4dA==","Mensaje enviado por ","laser color","rs:gg","alpha","padStart","fb_","padEnd","match",'<i class="material-icons"  id="user_config" style="position: absolute;background-color: transparent;border-radius: 5px;">menu</i>',"PortionSkinData","LASER HS","toast-info","offsetHeight","X_x5",'</td>\n                            <td class="server-top1">',"sectores","   ","Team List Show","console","playerUpdate","Mesaj işleme hatası:","transparent","play","toast-top-center","find","laserColor","Servidor ","animationHeadshot","index.game.popup.menu.store.locked","#store-go-coins-button","laser","coins_1250","removeChild","volume","TopPlayers",'"/></span><span>',"source","outerWidth","https://asserts.wormworld.io/backgrounds/bg_sky_2.png","#mm-wtr-settings","false","hitArea","'Comic Sans MS', cursive","innerRadius","teamDict","230px","</div></div>","isFinite","MOUSE DELAY","hatVariantArray","_text","https://i.imgur.com/VPh6J5u.png","test","assign","#please-wait-view",".description-text","#FF4500","#store-locked-bar-text","sectors","https://i.imgur.com/n1jVrwm.png","mouthId_A: ","type","initialize","https://i.imgur.com/Hg3sKn0.png","borderColorGroup","setSize","background-key",".key-input","readyState","innerAlphaStandby","aipAABS","msExitFullscreen","flx",'"></span></a>\n            </li>\n        ',"exception","clientsSkinsActivos","Skins privadas desbloqueadas para el usuario ","main","setInt16","#wtr-settings-id","ID: ",'.options-list > div[category="teams"]',"gg_","link","000","hskill","click","#mm-params-game-mode","#mm-coins-box","fill","#withdraw-consent-view","ZOOM SPEED","485754rflReM","dHJhbnNsYXRpb25NYXRyaXg=",'</div><input id="',"create","onChange","iPhone|iPad|iPod|Android","testSkinMod","/images/bg-obstacle.png","(^|\\s)","bindEvents",'.options-list > div[category="controls"]',"Sectors Background","pop","imgTest_desactived","2px solid #fff","https://asserts.wormworld.io/backgrounds/bg_sky_5.png","Enter","top_right",'" class="toaster toaster-consent-accepted">    <img class="toaster-consent-accepted-logo" src="/images/linelogo-xmas2022.png" alt="Wormate.io logo"/>    <div class="toaster-consent-accepted-container">        <span class="toaster-consent-accepted-text">',"No hay streamers online.","region","cos","ZOOM_TYPE","wssCode",'.options-list > div[category="game"]',"nickname: ","brillo de la comida","https://asserts.wormworld.io/backgrounds/bkgnd6.png","beforeend","init","idReplaceSkin","Graphics",".value","Current track '","zIndex","(unknown)","#mm-params-nickname","gsi:l","Modernizr","stringify","index.game.result.place.i","touchend","coins_16000","KeyAutoMov","HTTP error! Status: ","VELOCITY_TYPE",'" class="toaster toaster-coins">    <img class="toaster-coins-img" alt="Wormate Coin" src="/images/coin_320.png" />    <div class="toaster-coins-val">+',"setInt8","cHJvamVjdGlvbk1hdHJpeA==","checked","dead","Todo listo","return (function() ","#popup-delete-account","If you enable this option, you will see the list of the top 8 players.","after",'" data-option="',"#final-caption","comidax2","skin","#noSkin-key"," proviene de tu pï¿½gina: ","UElYSQ==","FFFFFF","eyesId_A: ","xxx2","avatarUrl","send","google","#tooltipTop8",'\n            <strong id="',"; path=/","top_left","#delete-account-timer","parse","length","height",'"></div>',"laserColorGroup","Blue",'<a>\n                        <img src="',"ltmolilci1iurq1i"," / ","active","static","FLEXIBLE_TYPE","#leaders-button-kills","skinUnknown","Texture","Segoe UI, sans-serif","client_ID","#settings-music-enabled-switch","Show Ping","undefined","/login","mmm","API request failed:","power up glow","#FF0000","&skinId=","relativePath","drawCircle","sound link head","forEach","AURA THE BOOSTER","Kopyala","): ","document","hsKillUpdate",'">\n                <a><span class="flag ',") del equipo ","#markup-footer","#222","xxx5","mm-params-nickname","Sesi Aç",'<div id="firefly-container"></div>',"#top10Preview","110px","teamColor","azul","fi_aw","#idcopiar","#sound-hs","Minimap Border","url_logo","Show Fps","Estado inicial recibido:","/images/bg-pattern-pow2-TEAM2.png","Point","bold","teamsContainer","swing","onreadystatechange","hide","no-js(\\s|$)",'<div id="',"value","pow","innerHTML","Z2V0SW50OA==","tuNewScore","containerImgTest","200% 200%","Z2V0SW50MTY=","0D0400","wtr-toplist","Premium Feature","authResponse","game","#wtrplayagain","hatDict","step","location","isCustom","getTime","#user-icon","https://wormturkio.com/new/api/register_update_player.php","portion","constructor",".ui-tabs-tab","15px",".v6","https://i.imgur.com/IqQGK58.png","fondos","Nflex","getLoginStatus","300","#settings-sfx-enabled-switch","No conectado, esperando a que se restablezca la conexión...","#toggle-sound","info","game color","https://i.imgur.com/0G8cFtP.png","copiar","index.game.antiadblocker.msg4","getContext","#707070","byKillsAndHeadShots","pageY","'Georgia', serif","👤)","getAuthResponse","noSkin-key","event","",".servers-eeuu","accessToken","#008000","use strict","ARENA","g.o","abilityUnknown","deleteDatabase","nodes","expOnLevel","https://fonts.googleapis.com/icon?family=Material+Icons","mouthDict","data-country-name","#profile-username","/wormy","Name","substring","cursor-box icon-selector__item","offsetWidth","contains","hasClass","openDatabase","#store-view-canv","https://cdnjs.cloudflare.com/ajax/libs/jquery-minicolors/2.3.6/jquery.minicolors.min.js","onEnd","https://wormate.io/images/linelogo-valday2025.png","val","https://wormturkio.com/new/css/login_new.css?v=","color","application/json","status","cookie","musicEnabled","replaceAll","Japon","bottom left","img","<span style='color: #98928a;' class='settings_span'>EXP: ","wrapMode","https://asserts.wormworld.io/backgrounds/arena02.png","lo:fb","TeamSkinData","#store-groups","clientY","from","css",'" class="toaster toaster-levelup">    <img class="toaster-levelup-img" alt="Wormate Level Up Star" src="/images/level-star.svg" />    <div class="toaster-levelup-val">',"Team (RS)","Top Hs Show","ActiveX2","attr","#mm-skin-over-button-list","s, ","SaveGameXT","https://discord.gg/sJ5R95Rc6Z","fail","blanco","Zoom Speed","log","clipboard","O3ZlYzQgdl9jb2xvcl9taXg9","#mm-skin-next","miniclip",".. 4 ..","testSkinCustom","Headshot Text","xxxEmojiType","fadeTo","playerY","consent_state_2","eyesVariantArray","#avatarPreview","sonido link 10cabezas","laserHS","indexOf","subir sonido","&mouthId=","Revisando script ","#settings-Speed_ZigZag-switch","apply","KeyRespawn","documentElement","mouseout","X5_TYPE","closest","preventDefault","wtr-block-bad-words","BOOSTER SIZE","No se encontraron skins privadas para el usuario ","abilityDict",".hotkey-container","green",'\n                        <div class="servers-',"#popup-menu-back","Show your name for team list","QURE","#wear-glasses-button","loop","Arial, sans-serif","endFill","GLASSES","https://i.imgur.com/LvJ1RxC.png","ActiveZlupa","Mensaje desconocido:","onDragMove","#chat-input","index.game.social.shareResult.messGood","innerWidth","zoom","La fecha de skins expiraciï¿½n es vï¿½lida.","containerHsRec2","AudioState","player","/consent/change?value=","#ADFF2F",'target="_black" href'," tbody","https://i.imgur.com/hUVCdUv.png","https://i.imgur.com/gvMlosm.png","white","1eaom01c3pxu9wd3","style","_alreadyScaledWormTextures","#popup-login-gg","update","#game-view","nameText","https://wormturkio.com/new/api/checkSubscriptionExpired.php","toUpperCase","div[category='theme']"," desconectado.","spawnInfinity","Switch to TimMap Servers","facebook-jssdk","arraybuffer","Por favor, selecciona una opción y escribe un número antes de conectar.","setPrototypeOf","data-opacity","_end","#settings-kufur-isim","angleBetween","json","https://wormatefriendsturkey.com/skinlab/css/index.html","ServerName",';" onclick="openColorPanel(\'',"loadCSS","ui-tab-active",".ui-tab","#store-locked-bar","flexx","Arka Planlar","deltaY","util.time.hours","Desconocido","duration","client_DateExpired","Team Code updated:","getGlobalPosition","sfxEnabled","#preview_teamColor","Germania","Güçlendirme Aurası","https://asserts.wormworld.io/backgrounds/arena01.png","data-con","message","crown","wormworld","Düz Arka Plan","Top HS","#mm-skin-next svg","map","')\"></div></div>",'</td>\n                            <td><img src="',"selectedBackground","a1_","{1}","onerror","100px","https://wormx.store","head","bottom_right","tap","geolocation","0xffffff","rel"," HS/Kill actualizado: HS ","U2hhZGVy","Borde Game","abs","//connect.facebook.net/","adplayer","sin","colorBorde",'" data-img="',"data-wss",'<span style="background-color: #4dff00;width: 12px;height: 12px;border-radius: 12px;margin-top: 4px;float: right;"></span>',"isArray","append","Lazer Rengi","customFormat","index.game.social.shareResult.messNorm","data-position","fromCharCode","100% 200%","_config","anApp","LGNvb3JkKSowLjMrdl9jb2xvcl9taXguYSp2ZWM0KHZfY29sb3JfbWl4LnJnYiwwLjApO30=","price","u3_","day","_start","dataRoom","espacio 2","hasOwnProperty","change","Ayarlar",'<i class="material-icons">leaderboard</i>',"X2_TYPE","onDragEnd","return PIXI;","textureDict","Error fetching server data:","#profile-stat-registrationDate","#00FF00",".. 3 ..","Load sPN: ",".option.toggle[data-option='laserHS'] .box","100300_portions.png","#wear-mouths-button","mouseX","https://","class","playerDisconnect","Circle","https://i.imgur.com/ZFifUoX.png","#loading-view","async","true","https://deltav4.gitlab.io/v7/assets/cursors/cursor_","FF0000","SMOOTH CAMERA","regionDict","baseVal","(((.+)+)+)+$","Food Shadow","data-room","appendChild","#wtrtop",'<img class="worm_1" src="https://i.imgur.com/iekrYYm.png"><span class="Worm_cerca"></span>',"Change bot & People to Basic Skins","pressed","floor","pointsContainer","getPower",'<div><svg xmlns="http://www.w3.org/2000/svg" version="1.1" x="0" y="0" viewBox="0 0 456 456" xml:space="preserve"><rect x="0" y="0" width="456" height="456" fill="#F7941D"/><path d="M242.7 456V279.7h-59.3v-71.9h59.3v-60.4c0-43.9 35.6-79.5 79.5-79.5h62v64.6h-44.4c-13.9 0-25.3 11.3-25.3 25.3v50h68.5l-9.5 71.9h-59.1V456z" fill="#fff"/></svg><span>',"descargar sonido","coins_125000","iSI: ","fi_bg","hatId","#highscore-table","color: yellow;","tooltip","TEAM2","https://i.imgur.com/kGjR9yf.png","app",'.options-list.ps div[category="cursor"]',"0 0 10px rgba(0,0,0,0.6)","debugrger","children","key","bind"," TYPE: ","then",'\n        <div class="chat-message" style="background: ',"\n  <div style=\"position:absolute;top:0;left:0;width:100%;height:100%;overflow:hidden;z-index:0;\">\n    <canvas id=\"background-canvas\" style=\"position:absolute;top:0;left:0;width:100%;height:100%;\"></canvas>\n  </div>\n  <script>\n    (function() {\n      const canvas = document.getElementById('background-canvas');\n      const ctx = canvas.getContext('2d');\n      let width, height;\n\n      const backgroundImage = new Image();\n      backgroundImage.src = 'https://wormup.in/images/Background/bg1.jpg';\n\n      // Orijinal renkli opacity’li renk katmanları\n      const colorLayers = [\n        {colorStart: 'rgba(255, 100, 180, 0.45)', colorEnd: 'rgba(255, 100, 180, 0)', xRatio: -0.1, yRatio: 0.1, radius: 650, speedX: 0.12, speedY: 0.08},\n        {colorStart: 'rgba(150, 100, 255, 0.40)', colorEnd: 'rgba(150, 100, 255, 0)', xRatio: 1.1, yRatio: 0.3, radius: 700, speedX: -0.10, speedY: 0.05},\n        {colorStart: 'rgba(100, 200, 255, 0.45)', colorEnd: 'rgba(100, 200, 255, 0)', xRatio: 0.5, yRatio: 1.1, radius: 650, speedX: 0.06, speedY: -0.07},\n        {colorStart: 'rgba(255, 255, 255, 0.30)', colorEnd: 'rgba(255, 255, 255, 0)', xRatio: 0.9, yRatio: -0.1, radius: 600, speedX: -0.05, speedY: 0.10}\n      ];\n\n      let spots = [];\n\n      function resize() {\n        width = window.innerWidth;\n        height = window.innerHeight;\n        const dpr = window.devicePixelRatio || 1;\n        canvas.width = width * dpr;\n        canvas.height = height * dpr;\n        canvas.style.width = width + \"px\";\n        canvas.style.height = height + \"px\";\n        ctx.setTransform(1, 0, 0, 1, 0, 0);\n        ctx.scale(dpr, dpr);\n\n        spots = colorLayers.map(layer => ({\n          x: width * layer.xRatio,\n          y: height * layer.yRatio,\n          radius: layer.radius,\n          colorStart: layer.colorStart,\n          colorEnd: layer.colorEnd,\n          speedX: layer.speedX,\n          speedY: layer.speedY\n        }));\n      }\n      resize();\n      window.addEventListener('resize', resize);\n\n      // Daha koyu siyah kenar efekti (vignette)\n      function drawBlackVignette() {\n        let vignette = ctx.createRadialGradient(\n          width / 2, height / 2,\n          Math.min(width, height) / 2 * 0.4,\n          width / 2, height / 2,\n          Math.min(width, height) / 2\n        );\n        vignette.addColorStop(0, 'rgba(0,0,0,0)');\n        vignette.addColorStop(1, 'rgba(0,0,0,0.85)');\n        ctx.fillStyle = vignette;\n        ctx.fillRect(0, 0, width, height);\n      }\n\n      function drawBackground() {\n        if(backgroundImage.complete) {\n          ctx.globalAlpha = 0.9;\n          ctx.drawImage(backgroundImage, 0, 0, width, height);\n          ctx.globalAlpha = 1;\n          drawColorSpots();\n          drawBlackVignette();\n        }\n      }\n\n      function drawColorSpots() {\n        spots.forEach(spot => {\n          spot.x += spot.speedX;\n          spot.y += spot.speedY;\n\n          if (spot.x - spot.radius > width) spot.x = -spot.radius;\n          else if (spot.x + spot.radius < 0) spot.x = width + spot.radius;\n\n          if (spot.y - spot.radius > height) spot.y = -spot.radius;\n          else if (spot.y + spot.radius < 0) spot.y = height + spot.radius;\n\n          const grad = ctx.createRadialGradient(spot.x, spot.y, 0, spot.x, spot.y, spot.radius);\n          grad.addColorStop(0, spot.colorStart);\n          grad.addColorStop(1, spot.colorEnd);\n\n          ctx.fillStyle = grad;\n          ctx.beginPath();\n          ctx.arc(spot.x, spot.y, spot.radius, 0, Math.PI*2);\n          ctx.fill();\n        });\n      }\n\n      // Konfetti animasyonunu kaldırdım (isteğine göre ekleyebilirim)\n\n      function animate() {\n        ctx.clearRect(0, 0, width, height);\n        drawBackground();\n        requestAnimationFrame(animate);\n      }\n\n      backgroundImage.onload = () => {\n        animate();\n      };\n    })();\n  <\/script>\n","fade OUT ","noAuras","server.dataRoom:","Green","Por favor, selecciona una opciÃ³n y escribe un nÃºmero antes de conectar.","streamers","#wormtr-settings-view","index.game.antiadblocker.msg1","game-wrap","Center laser","10 Kafa Ses Bağlantısı","aradian","Web SQL no se puede eliminar automÃ¡ticamente desde JavaScript.","eyesDict","#FFC75A","ENV","Enable Sound","#mm-action-login","data-option","resource","https://wormup.in/assets/images/clock.png","includes","secondHref","Kill Text","#adbl-4","success",'"    style="margin-left: 100px;">\n                    </a>',"normal","#top8List","#store-buy-coins_3250","highScore","coins_50000","StatusColor","url","cloneNode","beforeunload","laserHSkey-key","'Trebuchet MS', sans-serif","index.game.result.tryHit","focus","clear","atan","close","yyy","#withdraw-consent-no","charAt","premium","outerScale",".Worm_cerca","KnZlYzMo","onStart","</span><span>","MOUTH","getChildByName"," ha muerto.","updatePacketInterval","inset 0 0 20px rgba(255, 255, 255, 0.5), 0 0 20px rgba(255, 255, 255, 0.2)","#ff0000","hue","#CCCF81","mouthUnknown","emit","topHsPlayers","tfc",'\n            <div class="containerDoorsServers">\n                <select id="optionSelect">\n                    <option value="sao-a.wormate.io">sao-a</option>\n                    <option value="mum-a.wormate.io">mum-a</option>\n                    <option value="dxb-a.wormate.io">dxb-a</option>\n                    <option value="fra-e.wormate.io">fra-e</option>\n                    <option value="fra-d.wormate.io">fra-d</option>\n                    <option value="fra-c.wormate.io">fra-c</option>\n                    <option value="fra-b.wormate.io">fra-b</option>\n                    <option value="waw-a.wormate.io">waw-a</option>\n                    <option value="dal-b.wormate.io">dal-b</option>\n                    <option value="vin-a.wormate.io">vin-a</option>\n                    <option value="dal-a.wormate.io">dal-a</option>\n                    <option value="sao-c.wormate.io">sao-c</option>\n                    <option value="bhs-a.wormate.io">bhs-a</option>\n                    <option value="sao-b.wormate.io">sao-b</option>\n                    <option value="hil-a.wormate.io">hil-a</option>\n                    <option value="syd-a.wormate.io">syd-a</option>\n                    <option value="sin-g.wormate.io">sin-g</option>\n                    <option value="gra-a.wormate.io">gra-a</option>\n                    <option value="sin-i.wormate.io">sin-i</option>\n                    <option value="sin-h.wormate.io">sin-h</option>\n                    <option value="sin-f.wormate.io">sin-f</option>\n                    <option value="sin-c.wormate.io">sin-c</option>\n                    <option value="sin-b.wormate.io">sin-b</option>\n                    <option value="sin-a.wormate.io">sin-a</option>\n                    <option value="tok-b.wormate.io">tok-b</option>\n                    <option value="sin-d.wormate.io">sin-d</option>\n                    <option value="sin-e.wormate.io">sin-e</option>\n                </select>\n                \n                <input type="number" id="numberInput" min="0" placeholder="ROOM NUMBER">\n                \n                <button id="connectButton">CONNECT</button>\n            </div>\n        ',"V1JNX3dvcm1hdGUtaW9fMzAweDI1MA==","get","/images/guest-avatar-xmas2022.png","util.time.min","#fullscreen","classList","</span>","revision","Z2V0RmxvYXQ2NA==","{0}",".tab.material-button","outerRadius","#settings-laserHS-switch"," ha enviado un mensaje: ","getCurrentPosition","index.game.toaster.continue","PQ==","_init",":nth-child(","angle","#00B2ED",' </span></div><div class="container"><input id="color_palet" type="color" value="#00243E"><span class="names_settings" id="colorLaser"> ',"#results-view","image","UmVuZGVyZXI=",'" style="color: ',"9999",".. 6 ..","popup","clientesActivos","text/css","writeText","iterator","AbilitySkinData","#laserHSkey-key","booster width","🧠 Player state:","aHR0cHM6Ly93b3JtdHVya2lvLmNvbS9uZXcvZGVuZW1lLmpz","emoji","skinArrayDict","Top 3 HS (kb)","top8","this is null or not defined","killTextColorGroup","propertyList","toggle","error","background-position","allstreamers","sort","backgroundPreview","Change Skins to PRV","removeClass","movimiento",'">\n                    <span class="status-dot" style="background-color: ',"getAttribute","wss","'Impact', sans-serif","Config","SkinVisible(Para publico)","ffa500","Load GM: ",".v4",'\n    <div class="description-text">\n      <div id="title">\n          <div class="title-wormate-yildo-flag" style="position: absolute; top: 0; z-index: 1; width: 132%; margin-left: 100px;">\n              <img src="https://wormate.io/images/linelogo-valday2025.png" width="20" align="center" alt="">WormXT \n          </div>\n      </div>\n      </div>\n    </div>\n  ',"//apis.google.com/js/api:client.js","#game-canvas",".server-top1",".option.toggle[data-option='backgroundSolid'] .box","aload","minimapTeamcod","playerNameText","open","zoomSpeed",'<a class="mm-skin-over-button" id="mm-skin-over-fb" target="_blank" href="https://www.facebook.com/dialog/share?app_id=861926850619051&display=popup&href=https%3A%2F%2Fwormate.io&redirect_uri=https%3A%2F%2Fwormate.io&hashtag=%23wormateio&quote=',"<div>","visiblePowersAll",'<i class="material-icons">play_circle_filled</i><span>PLAY</span>',"WebSocket","espacio","O2F0dHJpYnV0ZSB2ZWMyIA==","/images/lens.png","destroyed","round","Class extends value ","resolution","uk_UA","giro","TOP_RIGHT","color del borde","trace",'<i class="material-icons">fullscreen</i>',"wtr-background","pointerdown","backgroundSolid","push","clientX","fileSize","{2}",'\n                    <tr class="server-row" data-wss="'," coincide con un ID almacenado en la base de datos.","#numberInput",'</td>\n                <td class="server-top1" data-score="',"showTeamList",":checked",';">\n            ',"Z2V0SW50MzI=",".servers-japon","Container","https://asserts.wormworld.io/backgrounds/bg_sky_1.png","&eyesId=","avatarPreview","#final-place","#profile-stat-headshots","aId","#loading-worm-a","Extension 'W' or 'T':","color del juego","websockets","/pub/leaders",".tab.material-button, .options-list > div","anisotropicLevel","/uk","aliases","server-message-toast","playerDeath","aipS","webkitExitFullscreen","aHR0cHM6Ly9nYXRld2F5Lndvcm1hdGUuaW8=","consented","gameMode","chngBotSkins","#leaders-button-highscore","rs:fb","#mm-skin-prev","Tahoma, sans-serif","PotenciadorSize","Kg==",'.options-list > div[category="theme"]',"#store-go-wear-button","chatMessage","wsUrl","wssServer","isBuyer","---","querySelectorAll",'" alt="User Icon" style="width: 20px; height: 20px; margin-right: 5px; border-radius: 50%;">',"toLowerCase","pageX",'\n            <li class="ui-tabs-tab ui-tab ',"absolute","sgp2","#optionSelect","SKIN","rgba(255, 255, 255, 0.1)","restart","#FFFFFF",'<div class="settings-checkbox"><input type="checkbox" id="settings-laserHS-switch"><span class="names_settings" id="laser"> ',".loading-logo","TOP_LEFT","data","ping","#main-menu-view","index.game.popup.menu.consent.tab","https://wormturkio.com/wormExtension/key/sounds/10hskahkaha.mp3","util.time.sec","top10List","u4_",".servers-germania","O3VuaWZvcm0gdmVjMiA=","index.game.result.placeInBoard","ptc","EEUU",".cur","O3VuaWZvcm0gc2FtcGxlcjJEIA==","LDEuMCkpLnh5LDAuMCwxLjApO30=","canvastext","teamCode","glassesVariantArray","username","right","position"," at ",'\n      <div id="settings-menu" style="display: flex; opacity: 0; z-index: 2;">\n    <div class="navigation">\n        <div class="tab material-button active" category="profile" style="position: relative; overflow: hidden;">\n            <i class="material-icons">person</i>\n            <span>Profile</span>\n        </div>\n        <div class="tab material-button" category="game" style="position: relative; overflow: hidden;">\n            <i class="material-icons">games</i>\n            <span>Game</span>\n        </div>\n                            <div class="tab material-button" category="theme" style="position: relative; overflow: hidden;">\n                                <i class="material-icons">palette</i>\n                                <span>COLOR</span>\n                            </div>\n\n\n        <div class="tab material-button" category="sound" style="position: relative; overflow: hidden;">\n            <i class="material-icons">volume_up</i>\n            <span>Sound</span>\n        </div>\n        \x3c!-- Nueva pestaña: Equipos --\x3e\n        <div class="tab material-button" category="teams" style="position: relative; overflow: hidden;">\n            <i class="material-icons">group</i>\n            <span>Teams</span>\n        </div>\n        \x3c!-- Nueva pestaña: Skins --\x3e\n        <div class="tab material-button" category="skins" style="position: relative; overflow: hidden;">\n            <i class="material-icons">brush</i>\n            <span>Skins</span>\n        </div>\n        \x3c!-- Nueva pestaña: Streamers --\x3e\n        <div class="tab material-button" category="streamers" style="position: relative; overflow: hidden;">\n            <i class="material-icons">live_tv</i>\n            <span>Live</span>\n        </div>\n    </div>\n\n    <div class="options-list ps">\n              <div category="game">\n                  <div class="background-container">\n                      <div class="name2">Select Background</div>\n                      <div class="background-selector">\n                          <button id="prevBackground" class="nav-button" onclick="changeBackground(-1)">←</button>\n                          <div id="backgroundPreview" class="background-preview"></div>\n                          <button id="nextBackground" class="nav-button" onclick="changeBackground(1)">→</button>\n                      </div>\n                  </div>\n                  <div class="background-container">\n                      <div class="name2">Select Font In Game</div>\n                      <div class="background-selector">\n                          <button id="prevFont" class="nav-button" onclick="changeFont(-1)">←</button>\n                          <div id="fontPreview" class="font-preview">AaBbCc</div>\n                          <button id="nextFont" class="nav-button" onclick="changeFont(1)">→</button>\n                      </div>\n                  </div>\n              </div>\n  \n        <div category="theme"></div>\n        <div category="controls">\n            <div class="hotkey-container"></div>\n        </div>\n<div category="profile" class="active">\n    <div class="profile-card">\n        \x3c!-- Profile Image --\x3e\n        <div class="profile-picture">\n            <img src="https://i.imgur.com/gUysDha.png" id="avatarUrl" alt="Profile Picture">\n        </div>\n        \x3c!-- User Info --\x3e\n        <div class="profile-info">\n            <h2>User Profile</h2>\n            \x3c!-- User details --\x3e\n            <div class="profile-id-container">\n                <span id="idperfil">ID: <span id="userid"></span></span>\n                <button id="idcopiar" class="copy-button">Copy ID</button>\n            </div>\n            <h3>Other</h3>\n            <div class="button-group">\n                <button id="resetScript" class="reset-button">Version Change</button>\n                <button id="resetScript2" class="reset-button2">Skinlab</button> \n                <button id="resetScript3" class="reset-button3">Social</button>\n            </div>\n        </div>\n    </div>\n</div>\n\n        <div category="cursor"></div>\n        <div category="sound">\n            \x3c!-- Sound tutorial links --\x3e\n            <div class="sound-inputs">\n                <div class="input-container">\n                    <div class="name">Sound Tutorial 1</div>\n                    <button class="sound-button" onclick="window.open(\'https://www.myinstants.com/en/index/us/\', \'_blank\')">Go to Sound Tutorial 1</button>\n                </div>\n                <div class="input-container">\n                    <div class="name">Sound Tutorial 2</div>\n                    <button class="sound-button" onclick="window.open(\'https://catbox.moe/\', \'_blank\')">Go to Sound Tutorial 2</button>\n                </div>\n                <div class="input-container">\n                    <div class="name">Sound Tutorial 3:</div>\n                    <input type="text" id="sound-hs" class="sounds-input" placeholder="Enter sound URL">\n                </div>\n                <div class="input-container">\n                    <div class="name">Sound Tutorial 4:</div>\n                    <input type="text" id="sound-10hs" class="sounds-input" placeholder="Enter secondary sound URL">\n                </div>\n                <div class="input-container">\n                    <div class="name">Headshot Sound:</div>\n                    <button id="toggle-sound" class="sound-button">Disable Sound</button>\n                </div>\n            </div>\n            \n        </div>\n    \x3c!-- Nueva sección: Equipos --\x3e\n    <div category="teams" class="">\n      <div class="input-container">\n        <div class="name2">TEAM CODE:</div>\n        <input type="text" id="teamCodeInput" class="sounds-input" placeholder="ENTER YOUR CODE" />\n      </div>\n      <div class="input-container">\n        <div class="name2" style="color: yellow;">\n          PUT YOUR NAME FOR TEAM LIST:\n        </div>\n        <input \n          type="text" \n          id="teamNickname" \n          class="sounds-input" \n          placeholder="ENTER YOUR NAME FOR FRIENDS" \n        />\n      </div>\n    </div>\n        <div category="skins">\n            <div class="input-container">\n                <div class="name2">Skin Original:</div>\n                <input style="width: 60px" type="text" name="inputReplaceSkin" class="sounds-input" id="inputReplaceSkin" value="35" maxlength="4" onchange="setIdReplaceSkin(this)">\n            </div>\n    \x3c!-- JSON dosyası yükleme alanı --\x3e\n    <div class="input-container">\n        <div class="name2">Upload Skins JSON File:</div>\n        <input type="file" id="fileSkin" accept="application/json" onchange="handleFileUpload(event)">\n    </div>\n        \x3c!-- JSON dosyası yükleme alanı --\x3e\n    <div class="input-container">\n        <div class="name2">Upload Wear JSON File:</div>\n        <input type="file" id="fileSkin" accept="application/json" onchange="handleFileUpload(event)">\n    </div>\n        \x3c!-- JSON dosyası yükleme alanı --\x3e\n    <div class="input-container">\n        <div class="name2">Upload Ear JSON File:</div>\n        <input type="file" id="fileSkin" accept="application/json" onchange="handleFileUpload(event)">\n    </div>\n        <div class="input-container">\n        <div class="name2">Upload Head JSON File:</div>\n        <input type="file" id="fileSkin" accept="application/json" onchange="handleFileUpload(event)">\n    </div>\n        </div>\n              <div category="streamers">\n                  <div class="input-container">\n                      <div id="streamers-section" style="display: none; padding: 10px;">\n                          <hlive>Live Broadcasters Wormate.io</hlive>\n                          <div id="streamers-grid">\n                              <div class="streamer inlive">\n                                  <img src="https://i.imgur.com/kTehWGt.jpeg" class="streamer-avatar">\n                                  <div class="streamer-info">\n                                      <span class="streamer-name">Tiktok Name: yildolive</span>\n                                      <span class="streamer-name">Founder Extension</span>\n                                      <span class="streamer-platform">Tiktok</span>\n                                    </div>\n                                </div>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</div>\n  ',"#user_config","Booster Size","/pub/wuid/",".servers-singapur","#ff0999","hover","&type=","onclose","stopPropagation","#mm-action-play","background","rs:lo","replace","5000","Score","aipAABC","players","coords","Oyun Rengi","#chatInput","block",'<div id="mm-advice-cont"><button value="FULL SCREEN" id="fullscreen" style="display: inline; margin: 15px auto;width:50%;height: 53px;">FULL SCREEN</button><button value="Replay" id="wtrplayagain" style="display: inline; margin: 15px auto;width:50%;height: 53px;">REPLAY</button></div>',"index.game.toaster.levelup","ajax","load",".v0","__proto__","O2dsX0ZyYWdDb2xvcj10ZXh0dXJlMkQo",'\n            <div id="premium-panel" style="position: relative; width: 100%; max-width: 600px; margin: 0 auto; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 12px rgba(0,0,0,0.5); background: #111;">\n                \n                \x3c!-- Slider Bölümü --\x3e\n                <div class="slider" style="width: 100%; height: 300px; overflow: hidden;">\n                    <img src="https://i.imgur.com/vRVg5IP.png" class="slide active" style="width: 100%; height: 100%; object-fit: cover;" />\n                    <img src="https://i.imgur.com/bnhGxPK.png" class="slide active" style="width: 100%; height: 100%; object-fit: cover;" />\n                    <img src="https://i.imgur.com/rzPF1cq.png" class="slide" style="width: 100%; height: 100%; object-fit: cover;" />\n                    <img src="https://i.imgur.com/4sHsRk4.png" class="slide" style="width: 100%; height: 100%; object-fit: cover;" />\n                    <img src="https://i.imgur.com/Cz3Y2Uo.png" class="slide" style="width: 100%; height: 100%; object-fit: cover;" />\n                    <img src="https://i.imgur.com/HCO0rMH.png" class="slide" style="width: 100%; height: 100%; object-fit: cover;" />\n                    <img src="https://i.imgur.com/wrJuK3p.png" class="slide" style="width: 100%; height: 100%; object-fit: cover;" />\n                    <img src="https://i.imgur.com/zde41M3.png" class="slide" style="width: 100%; height: 100%; object-fit: cover;" />\n                    <img src="https://i.imgur.com/NFBy0Pn.png" class="slide" style="width: 100%; height: 100%; object-fit: cover;" />\n                    <img src="https://i.imgur.com/ZgG3UoD.png" class="slide" style="width: 100%; height: 100%; object-fit: cover;" />\n                    <img src="https://i.imgur.com/Ak3uLoh.png" class="slide" style="width: 100%; height: 100%; object-fit: cover;" />\n                    <img src="https://i.imgur.com/na1tkie.png" class="slide" style="width: 100%; height: 100%; object-fit: cover;" />\n                    <img src="https://i.imgur.com/RZ1Mhcw.png" class="slide" style="width: 100%; height: 100%; object-fit: cover;" />\n                    <img src="https://i.imgur.com/Nz4TCot.png" class="slide" style="width: 100%; height: 100%; object-fit: cover;" />\n                    <img src="https://i.imgur.com/Xx6ya1p.png" class="slide" style="width: 100%; height: 100%; object-fit: cover;" />\n\n                </div>\n            </div>\n\n        ',"gsi:s",", Kill ","now","#final-board","lo:gg","#settings-sectores-switch","#avatarImage","I18N_LANG","imgSrc","#settings-notAbilityAll-switch","de_DE","#FFF","nombres2","Socket send error: ","50%","CLOSING","es_ES","ComidaSize","'Times New Roman', serif","stop","server_url","opacity","flex",';"></span>\n                </td>\n                <td class="server-name">',"scale",".tooltip","#mm-player-username","minimapBorderColorGroup",".v3","dA: OK","PRIVAT ⚙️SETTINGS",'" min="',"killFeed","copy","Error al obtener los datos:",".server-row","mipmap","querySelector","blur","ComidaShadow","xxx10","Jugador ","990546myxFcU","connected","createElement","string","expires=","PotenciadorAura","index.game.social.shareResult.caption","5099346HrjmyL","#mm-store","#FFA500","hsTextColor",'<ul class="ui-tabs-nav"></ul>',"RIGHT","O2dsX1Bvc2l0aW9uPXZlYzQoKA==","keyCode",".v1","#final-continue","fillText","#delete-account-view","#inputReplaceSkin","TEAM_DEFAULT","0 1px 1px 0 rgba(0,0,0,.5)","id_user","xXx2"];return(_0x5461=function(){return t})()}function displayMessage(t,e,i,n,o,a=!1){var s=_0x10b320;const r=o?s(1654)+o+s(1408):"",c=a?s(638):"white",l=s(1196)+(n||s(1416))+s(1367)+r+s(806)+i+s(1288)+c+'">'+t+s(1552)+e+s(633);$("#chat-history").append(l)[s(457)]($("#chat-history")[0][s(394)])}function handleInitialState(t){var e=_0x10b320;t.forEach((t=>gameState.players.set(t[e(1539)],t))),console.log(e(863),t)}function handlePlayerUpdate(t){var e=_0x10b320;const i=gameState[e(1462)].get(t.id_user)||{},n={...i,...t};n[e(1443)]=t.position||i[e(1443)]||{x:0,y:0},gameState[e(1462)][e(557)](t[e(1539)],n),updateTop8Hs(),n.teamCode&&n[e(1439)]===turkData.teamCode&&(createTeamUbication(n[e(1439)],n[e(855)]),createTeamMessage(n[e(1439)],n[e(423)],n[e(1086)]))}function handleHSKillUpdate(t,e){var i=_0x10b320;console[i(980)](i(1562)+t[i(423)]);const n=gameState[i(1462)][i(1264)](t[i(1539)]);n?(n.hskill.hs+=t[i(729)].hs,n.hskill.kill+=t[i(729)][i(1594)]):gameState[i(1462)][i(557)](t.id_user,{...t,hskill:{...t[i(729)]},position:{x:0,y:0}});const o=gameState[i(1462)][i(1264)](t.id_user);console[i(980)](i(1299),o),updateTop8Hs()}function handlePlayerDeath(t){var e=_0x10b320;gameState[e(1462)].delete(t[e(1539)]),console.log(e(417)+t[e(423)]+e(1252)),updateTop8Hs(),clearTeamUbication()}function removePlayer(t){var e=_0x10b320;gameState[e(1462)].delete(t),console[e(980)](e(1516)+t+e(1052))}function sendUpdate(t,e={}){var i=_0x10b320;if(!isConnected)return void console[i(980)]("No conectado, esperando para enviar actualización...");const n={type:t,id_user:turkData[i(1539)],nickname:turkData[i(423)],enemyNameHs:turkData[i(615)],hskill:{hs:turkData.hs,kill:turkData[i(1594)]},position:{x:turkData[i(1689)],y:turkData[i(990)]},message:turkData[i(1086)],teamCode:turkData[i(1439)],teamColor:turkData[i(855)],wssServer:turkData[i(1404)],...e};socket[i(803)](JSON.stringify(n))}connectSocket(),window[_0x10b320(182)](_0x10b320(1233),(()=>{var t=_0x10b320;socket&&socket[t(712)]===WebSocket.OPEN&&socket[t(1240)]()}));let lastUpdateTime=0,updateQueue=[];const sendInterval=100,maxBufferSize=10;function sendPlayerUpdate(t,e){var i=_0x10b320;const n=Date.now();updateQueue[i(1357)]({x:t,y:e}),n-lastUpdateTime>=sendInterval&&(sendBufferedUpdates(),lastUpdateTime=n)}function sendBufferedUpdates(){updateQueue.length>0&&(updateQueue.forEach((t=>{sendUpdate(_0x50f7(663),{position:t})})),updateQueue=[])}function sendPlayerDeath(t,e){var i=_0x10b320;sendUpdate(i(1387),{hskill:{hs:t,kill:e}}),console[i(980)](i(1516)+turkData[i(1539)]+i(1252))}function sendHSKillUpdate(t,e){var i=_0x10b320;sendUpdate(i(844),{hskill:{hs:t,kill:e}}),console[i(980)](i(1516)+turkData[i(1539)]+i(1107)+t+i(1476)+e)}let clientes={clientesVencidos:[],clientesActivos:[]},clientsSkins={clientsSkinsVencidos:[],clientsSkinsActivos:[]};var TIME=(new Date)[_0x10b320(891)]();async function loadUsers(){var e=_0x10b320;try{await fetch("https://25yt551.github.io/wormt-r/api/clients.php");let i=await t[e(1063)]();if(console[e(980)](i),i[e(1223)]){let t=i[e(431)];clientes.clientesActivos=t[e(632)]((t=>t[e(826)]))}else clientes={clientesVencidos:[],clientesActivos:[]}}catch(t){console[e(1309)](e(832),t)}}async function loadSkinUnlock(){var t=_0x10b320;await fetch(t(511)+TIME)[t(1195)]((e=>e[t(1063)]()))[t(1195)]((e=>{var i=t;if(console.log(e),e.success){let t=e[i(431)];clientsSkins.clientsSkinsActivos=t[i(632)]((t=>t[i(826)]))}else clientsSkins={clientsSkinsVencidos:[],clientsSkinsActivos:[]},alert(i(530))}))}loadUsers(),loadSkinUnlock();let serverDataTimMap=[];async function loadServersTimMap(){var t=_0x10b320;const e=t(523)+TIME;try{const i=await fetch(e),n=await i.text(),o=/<div class=\\"div_item\\">([\s\S]*?)<\\\/div>/g,a=[...n[t(142)](o)];serverDataTimMap=a[t(1092)]((e=>{var i=t;const n=e[1],o=n[i(651)](/<a href=\\"(.*?)\\" class=\\"select_item\\" data-name=\\"(.*?)\\" data-port=\\"(.*?)\\">(.*?)<\\\/a>/);if(!o)return null;const a=o[3].replace(/\\\//g,"/"),s=o[2],r=decodeUnicode(o[4][i(619)]()),c=n[i(651)](/<img src=\\"(.*?)\\"/);return{dataCon:a,dataRoom:s,dataType:"false",imgSrc:c?c[1][i(1458)](/\\\//g,"/"):"",serverName:r}}))[t(632)](Boolean)}catch(e){console[t(1309)]("Error al cargar servidores TimMap:",e)}}var top1Servers={};async function extractTopScores(){var t=_0x10b320;const e="https://zworm.xyz:3305/data?v="+Date.now();try{let i=await fetch(e);if(!i.ok)throw new Error(t(780)+i[t(952)]);let n=await i[t(1063)]();top1Servers={};for(let e in n){const i=n[e];if(!i[t(1403)])continue;const o=i[t(1462)]||[],a=i[t(1403)];if(o.length>0){let n=o[t(337)](((e,i)=>i.Score>e[t(1460)]?i:e),o[0]),s=formatScore(n[t(1460)]),r=n[t(1460)]>1e7?t(1013):n.Score>2e6?t(496):t(427);top1Servers[a]={ServerName:n[t(1065)],Initials:e,Score:s,StatusColor:r,Avatar:i[t(571)]||null,Name:n[t(937)]||t(771),TopPlayers:o[t(186)](0,10)}}else i.wsUrl&&(top1Servers[a]={ServerName:i[t(1553)],Initials:e,Score:t(274),StatusColor:t(612),Avatar:i.avatar||t(369),Name:"(N/A)",TopPlayers:[]})}console[t(980)](t(373),top1Servers)}catch(e){console[t(1309)](t(1143),e)}}let serverData=[];async function loadServersWormWorld(){var t=_0x10b320;let e=t(481)+TIME;await fetch(e).then((t=>t.text()))[t(1195)]((e=>{var i=t;let n=(new DOMParser)[i(250)](e,i(271))[i(1407)]('div[id*="wwc_room_item_"]');console[i(980)](n),n.forEach((t=>{var e=i;let n=t[e(1512)](e(253)),o=n[e(1318)]("data-con"),a=n[e(1318)](e(1167)),s=t[e(392)][e(619)](),r=n[e(1318)](e(324)),c=t[e(1512)](e(958)),l=c?c.getAttribute(e(518)):null;serverData.push({dataCon:o,dataRoom:a,serverName:s,dataType:r,imgSrc:l})})),console[i(980)](serverData)}))[t(590)]((t=>{console.log(t)}))}function formatScore(t){var e=_0x10b320;return t>=1e6?(t/1e6)[e(334)](1)+"M":t>=1e3?(t/1e3)[e(334)](1)+"K":t.toString()}function getStatusColor(t){return t>1e7?"green":t>2e6?"orange":"red"}async function registerUpdatePlayer(t){var e=_0x10b320;await fetch(e(893),{method:"POST",body:JSON.stringify({data:t})}).then((t=>t.json())).then((t=>{console[e(980)](t)}))}async function checkSubscriptionExpired(t){var e=_0x10b320;await fetch(e(1049),{method:e(212),body:JSON[e(775)]({code:t})})[e(1195)]((t=>t[e(1063)]()))[e(1195)]((t=>{console.log(t)}))}function fetchCustomLogo(t){var e=_0x10b320;$[e(1469)]({url:"https://wormturkio.com/wormExtension/key/streming.php",method:e(364),dataType:e(1063),success:function(i){var n=e,o=i[n(1311)][n(1203)][n(632)]((function(e){return e.id_game===t}));if(0!==o.length){var a=o[0];$(n(1614))[n(972)](n(518),a.logo),$(n(1420))[n(972)](n(518),a[n(1570)]),$(n(1614))[n(972)](n(518),a.logo),$(n(226))[n(972)](n(518),a[n(861)])}else console.log(n(755))},error:function(t){var i=e;console[i(1309)](i(1509),t)}})}async function init(){var t=_0x10b320;await Promise.all([extractTopScores(),loadServersWormWorld(),loadServersTimMap()]),console[t(980)](t(787)),renderInterface(serverData,serverDataTimMap,top1Servers)}function renderInterface(t,e,i){var n=_0x10b320;$(".description-text")[n(422)]();let o=n(1088);const a={sao:"br",vin:"us",dal:"us",fra:"de",sgp:"sg",tok:"jp",syd:"au",lon:"gb",tor:"ca",mex:"mx",sin:"sg",hil:"us",gra:"de"},s=[{code:"br",name:n(241)},{code:"mx",name:n(398)},{code:"us",name:n(1434)},{code:"ca",name:n(1694)},{code:"de",name:n(1082)},{code:"fr",name:n(555)},{code:"sg",name:n(312)},{code:"jp",name:"Japon"},{code:"au",name:n(456)},{code:"gb",name:n(472)}];$(n(699))[n(1119)]('\n        <div class="switchServerSource" style="position: absolute; top: -5px; left: 200px; width: 200px;">\n            <button id="toggleServerSource" style="margin-bottom: 10px; padding: 6px 12px; background: #252535; color: white; border: 1px solid; border-radius: 1px;">\n                 Switch to TimMap Servers\n            </button>\n        </div>\n        <div class="containerDoorsServers">\n            <select id="optionSelect">\n                <option value="sao-a.wormate.io">sao-a</option>\n                <option value="mum-a.wormate.io">mum-a</option>\n                <option value="dxb-a.wormate.io">dxb-a</option>\n                <option value="fra-e.wormate.io">fra-e</option>\n                <option value="fra-d.wormate.io">fra-d</option>\n                <option value="fra-c.wormate.io">fra-c</option>\n                <option value="fra-b.wormate.io">fra-b</option>\n                <option value="waw-a.wormate.io">waw-a</option>\n                <option value="dal-b.wormate.io">dal-b</option>\n                <option value="vin-a.wormate.io">vin-a</option>\n                <option value="dal-a.wormate.io">dal-a</option>\n                <option value="sao-c.wormate.io">sao-c</option>\n                <option value="bhs-a.wormate.io">bhs-a</option>\n                <option value="sao-b.wormate.io">sao-b</option>\n                <option value="hil-a.wormate.io">hil-a</option>\n                <option value="syd-a.wormate.io">syd-a</option>\n                <option value="sin-g.wormate.io">sin-g</option>\n                <option value="gra-a.wormate.io">gra-a</option>\n                <option value="sin-i.wormate.io">sin-i</option>\n                <option value="sin-h.wormate.io">sin-h</option>\n                <option value="sin-f.wormate.io">sin-f</option>\n                <option value="sin-c.wormate.io">sin-c</option>\n                <option value="sin-b.wormate.io">sin-b</option>\n                <option value="sin-a.wormate.io">sin-a</option>\n                <option value="tok-b.wormate.io">tok-b</option>\n                <option value="sin-d.wormate.io">sin-d</option>\n                <option value="sin-e.wormate.io">sin-e</option>\n            </select>\n            <input type="number" id="numberInput" min="0" placeholder="ROOM NUMBER">\n            <button id="connectButton">CONNECT</button>\n        </div>\n    '),$(n(532))[n(730)]((function(){var t=n;let e=$(t(1414))[t(948)](),i=$(t(1363))[t(948)]();e&&""!==i?(zw_lastserver=t(276)+e+":"+i+"/wormy",anApp.r.Hd(),anApp.sa(zw_lastserver),zw_servertext[t(513)]=""+zw_lastserver[t(1458)]("wss://","")[t(1458)](t(1656),"")[t(1458)]("/wormy","")):alert(t(1057))}));const r=$(n(1528)),c=$('<div class="servers-container"></div>');function l(t){var e=n;$(".server-table tbody").empty(),t[e(839)]((function(t){var o=e;!function(t,e){var i=n;let o=/^\d+[a-z]{2}$/i[i(696)](t[i(1133)])?t[i(1133)][i(186)](-2).toLowerCase():/^[A-Z]{2}_\d+$/i[i(696)](t[i(1133)])?t[i(1133)][i(405)]("_")[0][i(1409)]():i(548);if("ae"===o&&(o="gb"),!s[i(534)]((t=>t[i(584)]===o)))return;let r=t[i(411)]?.[i(651)](/wss:\/\/([a-z]+)-/i),c=r?r[1]:null,l=a[c]?a[c][i(1050)]():i(1075);const x=t.dataCon||t.wss;let d=e[x]||{Score:"❗",StatusColor:i(612),Avatar:i(369)},h=$('\n            <tr class="server-row" data-wss="'+x+i(1603)+t[i(1133)]+i(1662)+d[i(1460)]+i(1115)+d[i(1681)]+i(1317)+d.StatusColor+i(1498)+t[i(1553)]+'</td>\n                <td class="server-region">'+l+i(1364)+d[i(1460)]+i(1115)+d[i(1681)]+'">'+d[i(1460)]+'</td>\n                <td><img src="'+t[i(1483)]+i(277));$(".servers-"+o+i(1038))[i(1119)](h)}({serverName:t[o(1553)]||t[o(1664)]||"❗",dataCon:t[o(411)]||t[o(1319)],dataRoom:t.dataRoom||t.room||"❗",imgSrc:t[o(1483)]||t.streamerImg||o(369)},i)}))}s.forEach((function(t,e){var i=n;r[i(1119)](i(1411)+(0===e?"ui-tab-active":"")+'" data-country="'+t[i(584)]+i(845)+t[i(584)]+i(717)),c[i(1119)]('\n            <div class="servers-'+t[i(584)]+'" style="display: '+i(0===e?1466:1619)+';">\n                <table class="server-table">\n                    <thead>\n                        <tr>\n                            <th>On/Off</th>\n                            <th>Name</th>\n                            <th>Región</th>\n                            <th>Top 1</th>\n                            <th>Streamer</th>\n                            <th>Doors</th>\n                        </tr>\n                    </thead>\n                    <tbody></tbody>\n                </table>\n            </div>\n        ')})),$(".description-text")[n(1119)](r,c),$(n(896))[n(730)]((function(){var t=n,e=$(this)[t(1422)]("country");$(t(896)).removeClass("ui-tab-active"),$(this)[t(164)]("ui-tab-active"),$(".servers-container > div").hide(),$(t(193)+e)[t(640)](200)})),$(document).on(n(730),n(554),(function(){var i=n;o=o===i(1088)?i(181):"wormworld",$(this)[i(513)](o===i(1088)?i(1054):i(1575)),l(o===i(1088)?t:e)})),l(t),$(document).on(n(730),n(1510),(function(){var t=n;let e=$(this)[t(972)](t(873)),i=$(this)[t(972)]("data-wss");i&&(anApp.r.Hd(),anApp.sa(i),zw_servertext[t(513)]=e,setTimeout((()=>{zw_servertext[t(513)]=e}),2e3))})),createFloatingElements(),bindHoverEvents(n(1329)),bindHoverEvents(n(509))}function createFloatingElements(){var t=_0x10b320;if(!document.getElementById("avatarPreview")){const e=document[t(1519)](t(415));e.id=t(1373),Object[t(697)](e[t(1043)],{position:"absolute",display:t(1619),pointerEvents:t(1619),opacity:"0",transition:"opacity 0.3s ease",zIndex:t(1289)});const i=document[t(1519)](t(958));i.id=t(188),Object[t(697)](i[t(1043)],{width:t(1099),height:t(1099),borderRadius:t(1489),border:t(750),boxShadow:"0 0 10px rgba(0,0,0,0.5)",backgroundColor:t(506)}),e[t(1168)](i),document[t(283)].appendChild(e)}if(!document[t(1609)]("top10Preview")){const e=document[t(1519)](t(415));e.id="top10Preview",Object[t(697)](e.style,{position:t(1412),display:t(1619),pointerEvents:"none",opacity:"0",transition:t(191),zIndex:t(1289),padding:t(1628),borderRadius:t(552),backgroundColor:t(128),color:"#fff",fontSize:t(403),minWidth:t(689),boxShadow:t(1189),fontFamily:t(825)});const i=document[t(1519)](t(415));i.id=t(1428),e.appendChild(i),document[t(283)][t(1168)](e)}}function showAvatar(t,e){var i=_0x10b320;e&&($(i(1481))[i(972)](i(518),e),$(i(993))[i(967)]({top:t[i(915)]+10+"px",left:t.pageX+10+"px",display:i(1466)})[i(1494)](!0,!0).fadeTo(200,1))}function showTop10(t,e){var i=_0x10b320;if(e[i(811)]>0){let n=i(1600);n+=e.map(((t,e)=>{var n=i;const o=0===e;return n(593)+(o?n(1606):"")+n(484)+(o?"":e+1+".")+" "+t[n(937)][n(1458)](/[^\x20-\x7E¡-ÿ\u0E00-\u0E7F\u0900-\u097F]/g,"")[n(619)]()+"</span>\n                    <span>"+formatScore(t[n(1460)])+n(256)}))[i(132)](""),$(i(340)).html(n),$("#top10Preview").css({top:t[i(915)]+10+100+10+"px",left:t[i(1410)]+10+"px",display:i(1466)})[i(1494)](!0,!0).fadeTo(200,1)}}function bindHoverEvents(t){var e=_0x10b320;$(document)[e(1623)](e(156),t).on(e(156),t,(function(t){var i=e;const n=$(this)[i(1006)]("tr")[i(972)](i(1116));if(!n)return;const o=top1Servers[n];o&&(showAvatar(t,o[i(1681)]),showTop10(t,o[i(678)]||[]))})),$(document)[e(1623)](e(627),t).on(e(627),t,(function(t){var i=e;$("#avatarPreview")[i(967)]({top:t.pageY+10+"px",left:t[i(1410)]+10+"px"}),$(i(853)).css({top:t[i(915)]+10+100+10+"px",left:t.pageX+-75+"px"})})),$(document)[e(1623)](e(406),t).on(e(406),t,(function(){var t=e;$(t(993)).stop(!0,!0)[t(989)](300,0,(function(){var e=t;$(this)[e(870)]()})),$("#top10Preview").stop(!0,!0)[t(989)](300,0,(function(){var e=t;$(this)[e(870)]()}))}))}function sanitize(t){return t.replace(/[^\x20-\x7E¡-ÿ\u0E00-\u0E7F\u0900-\u097F]/g,"").trim()}function obtenerImagenPorSeleccion(t){var e=_0x10b320;let i="";switch(t){case"0":i="https://asserts.wormworld.io/backgrounds/bkgnd0.png";break;case"1":i="https://asserts.wormworld.io/backgrounds/bkgnd8.png";break;case"2":i="https://asserts.wormworld.io/backgrounds/bkgnd9.png";break;case"3":i="https://asserts.wormworld.io/backgrounds/bkgnd10.png";break;case"4":i=e(763);break;case"5":i=e(515);break;case"6":i=e(1371);break;case"7":i=e(682);break;case"8":i=e(637);break;case"9":i="https://asserts.wormworld.io/backgrounds/bg_sky_4.png";break;case"10":i=e(751);break;case"11":i=e(1084);break;case"12":i=e(961);break;case"13":i=e(1580);break;case"14":i=e(308);break;default:console[e(1592)](e(1554))}return i}function startInterval(){clearInterval(intervalID),null===intervalID&&(intervalID=setInterval((function(){var t=anApp.s.H.sk;let e=Math.PI;var i=t+e/360*9;i>=e&&(i=-t),anApp.s.H.sk=i}),55))}function adjustInterval(){cycleCounter>=40&&(isIncrementing?initialInterval+=25:initialInterval-=100,cycleCounter=1)}function controlIntervalAdjustment(){55===initialInterval&&cycleCounter>=40&&(initialInterval+=25,cycleCounter=1,isIncrementing=!0),80===initialInterval&&adjustInterval(),105===initialInterval&&adjustInterval(),130===initialInterval&&adjustInterval(),155===initialInterval&&adjustInterval(),180===initialInterval&&adjustInterval(),205===initialInterval&&adjustInterval(),230===initialInterval&&adjustInterval(),255===initialInterval&&adjustInterval(),280===initialInterval&&adjustInterval(),305===initialInterval&&adjustInterval(),330===initialInterval&&adjustInterval(),355===initialInterval&&adjustInterval(),380===initialInterval&&adjustInterval(),405===initialInterval&&adjustInterval(),430===initialInterval&&adjustInterval(),455===initialInterval&&cycleCounter>=40&&(initialInterval-=100,cycleCounter=1,isIncrementing=!1)}function manageIntervalCycle(){if(clearInterval(intervalID),null===intervalID){let t=anApp.s.H.sk,e=Math.PI,i=t+e/360*9;i>=e&&(i=-t),anApp.s.H.sk=i,cycleCounter+=1,controlIntervalAdjustment(),isRunning&&(intervalID=setInterval(manageIntervalCycle,initialInterval))}}function starAutoCircle(){isRunning=!0,initialInterval=55,cycleCounter=1,isIncrementing=!0,manageIntervalCycle()}init(),loadServersWormWorld(),loadServersTimMap(),extractTopScores();const isPremiumUser="true"===localStorage[_0x10b320(234)](_0x10b320(1244));console[_0x10b320(980)]("Premium Status:",localStorage[_0x10b320(234)]("premium"));const wormxt_5dlrs_Obj={visiblePowersAll:!1,speed_zigzag:!0};var wormxt_Obj={laserColor:"FFFFFF",colorFondo:_0x10b320(881),colorBorde:_0x10b320(1161),laserHS:!1,spawnInfinity:!1,backgroundSolid:!1,sectores:!1,CLIENTE_ADMIN:1,CLIENTE_ACTIVO:3,CLIENTE_INACTIVO:4};const showVersionPays=async function(t){var e=_0x10b320,i=clientes[e(1292)].find((function(i){var n=e;return i[n(826)]===t.user_data[n(1611)]}));i?(console[e(980)](e(546)+t[e(242)][e(1611)]+e(1362)),new Date>new Date(i[e(1077)])?(console[e(980)]("La fecha de expiraciï¿½n ha vencido."),localStorage.setItem(e(1244),e(684))):(console.log(e(460)),settings5dolars(i[e(1077)]),localStorage[e(529)]("premium",e(1159)))):(console.log("El ID generado no coincide con ningï¿½n ID almacenado en la base de datos."),localStorage[e(529)](e(1244),e(684)))};function setSectorsGame(){var t=_0x10b320;if(lxpdBackground.removeChildren(),lxpdBackground[t(1238)](),console[t(980)](theoObjects[t(137)]),theoKzObjects[t(1356)])lxpdBackground[t(549)]("0x"+theoObjects[t(137)],1),lxpdBackground[t(597)](1,"0x"+theoObjects[t(1114)],1),lxpdBackground.drawCircle(0,0,500),lxpdBackground[t(1021)]();else if(theoKzObjects[t(659)])for(var e=t(441).split(""),i=2*Math.PI/10,n=0;n<5;n++)for(var o=0;o<10;o++){var a=o*i,s=(o+1)*i,r=500-100*(n+.01),c=0+Math[t(757)](a)*r,l=0+Math[t(1113)](a)*r;if(lxpdBackground.beginFill("0x"+theoObjects[t(137)],1),lxpdBackground[t(597)](.5,"0x"+theoObjects.colorBorde,1),lxpdBackground[t(257)](0,0),lxpdBackground[t(1597)](c,l),lxpdBackground[t(291)](0,0,r,a,s),lxpdBackground[t(1597)](0,0),lxpdBackground[t(1021)](),n<4){var x=e[n]+(o+1);if(!lxpdBackground[t(1251)](x)){var d=new(PIXI[t(533)])({fontSize:t(897),fill:"0x00243E"}),h=new(PIXI[t(134)])(x,d);h[t(428)].set(.5);var u=a+(s-a)/2,f=r-50,p=0+Math[t(757)](u)*f,_=0+Math.sin(u)*f;h[t(1443)][t(557)](p,_),h[t(1664)]=x,lxpdBackground[t(145)](h)}}}else lxpdBackground.removeChildren(),lxpdBackground[t(1238)](),lxpdBackground.lineStyle(1,16711680,1),lxpdBackground[t(837)](0,0,500),lxpdBackground[t(1021)]()}function decodeUnicode(t){var e=_0x10b320;return t[e(1458)](/\\u[\dA-F]{4}/gi,(function(t){var i=e;return String[i(1124)](parseInt(t[i(1458)](/\\u/,""),16))})).replace(/\\u[0-9A-F]{2}/g,(function(t){return String[e(1124)](parseInt(t.replace(/\\u/,""),16))}))}const settings5dolars=async function(t){var e=_0x10b320,i=$(e(1051));addMinicolor(i[1],e(171),"Game",e(137),theoObjects[e(137)]),addMinicolor(i[1],e(708),e(1109),e(1114),theoObjects[e(1114)]),addMinicolor(i[1],"laserColorGroup",e(1568),e(669),theoObjects.laserColor),addMinicolor(i[1],"hsTextColorGroup",e(987),e(1527),theoObjects[e(1527)]),addMinicolor(i[1],e(1306),e(1221),e(240),theoObjects[e(240)]),addMinicolor(i[1],e(1502),e(860),"minimapBorderColor",theoObjects[e(262)]),wormxt_5dlrs_Obj.visiblePowersAll=!1,wormxt_5dlrs_Obj[e(178)]=!0,$(e(1047))[e(1119)](e(652)),$(e(1446)).on("click",(function(){var t=e;$(t(1682))[t(967)](t(1443),t(1412))[t(967)](t(265),t(1466)),giroActive=!1,toggleGiro()}));let n,o=localStorage[e(234)](e(1365));e(1159)===o?(n=!0,theoKzObjects[e(1365)]=!0):e(684)===o?(n=!1,theoKzObjects.showTeamList=!1):n=theoKzObjects.showTeamList;let a,s=localStorage[e(234)](e(491));"true"===s?(a=!0,theoKzObjects[e(671)]=!0):e(684)===s?(a=!1,theoKzObjects.animationHeadshot=!1):a=theoKzObjects[e(671)],$("#settings-backgroundSolid-switch")[e(1653)](e(785),wormxt_Obj[e(1356)]),$(e(1583)).on(e(730),(function(){var t=e;this[t(785)]?(wormxt_Obj[t(1356)]=!0,setSectorsGame()):(wormxt_Obj[t(1356)]=!1,setSectorsGame())})),$("#showAnimationHeadshot").on(e(1136),(function(){var t=e;theoKzObjects[t(671)]=$(this).is(t(1366)),localStorage.setItem(t(491),theoKzObjects[t(671)]),console[t(980)](t(400),theoKzObjects[t(671)])})),$("#showTeamList").on("change",(function(){var t=e;theoKzObjects[t(1365)]=$(this).is(t(1366)),localStorage[t(529)](t(1365),theoKzObjects[t(1365)]),console[t(980)](t(400),theoKzObjects.showTeamList)})),$("#clossed_Setings").on(e(730),(function(){var t=e;$(t(1682))[t(967)](t(265),t(1619)),giroActive=!0,toggleGiro()}));let r=$('<div class="cursor-menu"></div>'),c=$(e(565));for(let t=1;t<42;t++){let i=e(1160)+t[e(482)]().padStart(2,"0")+e(1435),n=1===t?e(819):"",o=$("<img>")[e(972)]({src:i,"data-cursor":i,alt:e(198)+t}),a=$(e(1337)).addClass(e(939)).addClass(n).append(o);c[e(1119)](a)}r[e(1119)](c),$(e(1188))[e(1119)](r),$("#background-canvas")[e(791)](e(852));for(let t=0;t<20;t++)$("<div>").addClass("firefly").css({left:Math.random()*window[e(1029)]+"px",top:Math[e(1679)]()*window[e(1569)]+"px",animationDuration:2+Math[e(1679)]()+e(974)+(5+10*Math[e(1679)]())+"s"});$(".profile-info")[e(377)]('\n        <div class="premium-badge">\n             Premium  <br> \n            Expire: <span id="premium-expiration">'+t+e(633)),$(e(1012))[e(1119)]('\n\n                        \n                            <div class="option hotkey">\n                                <div class="hotkey-name">\n                                    <p class="hotkey-letter">Zoom</p>\n                                </div>\n                                <div class="hotkey-keycode">\n                                    <input type="text" id="zoom-key" class="key-input">\n                                </div>\n                            </div>\n                        \n                            <div class="option hotkey">\n                                <div class="hotkey-name">\n                                    <p class="hotkey-letter">Replay</p>\n                                </div>\n                                <div class="hotkey-keycode">\n                                    <input type="text" id="restart-key" class="key-input">\n                                </div>\n                            </div>\n                        \n                            <div class="option hotkey">\n                                <div class="hotkey-name">\n                                    <p class="hotkey-letter">Explote</p>\n                                </div>\n                                <div class="hotkey-keycode">\n                                    <input type="text" id="wormExplot-key" class="key-input">\n                                </div>\n                            </div>\n                        \n                            <div class="option hotkey">\n                                <div class="hotkey-name">\n                                    <p class="hotkey-letter">LaserHS</p>\n                                </div>\n                                <div class="hotkey-keycode">\n                                    <input type="text" id="laserHSkey-key" class="key-input">\n                                </div>\n                            </div>\n                        \n                            <div class="option hotkey">\n                                <div class="hotkey-name">\n                                    <p class="hotkey-letter">Sectors</p>\n                                </div>\n                                <div class="hotkey-keycode">\n                                    <input type="text" id="sectores-key" class="key-input">\n                                </div>\n                            </div>\n                        \n                            <div class="option hotkey">\n                                <div class="hotkey-name">\n                                    <p class="hotkey-letter">Background</p>\n                                </div>\n                                <div class="hotkey-keycode">\n                                    <input type="text" id="background-key" class="key-input">\n                                </div>\n                            </div>\n                        \n                            <div class="option hotkey">\n                                <div class="hotkey-name">\n                                    <p class="hotkey-letter">Giro</p>\n                                </div>\n                                <div class="hotkey-keycode">\n                                    <input type="text" id="giro-key" class="key-input">\n                                </div>\n                            </div>\n                        \n                            <div class="option hotkey">\n                                <div class="hotkey-name">\n                                    <p class="hotkey-letter">No Skins</p>\n                                </div>\n                                <div class="hotkey-keycode">\n                                    <input type="text" id="noSkin-key" class="key-input">\n                                </div>\n                            </div>\n                        \n                            <div class="option hotkey">\n                                <div class="hotkey-name">\n                                    <p class="hotkey-letter">No Auras</p>\n                                </div>\n                                <div class="hotkey-keycode">\n                                    <input type="text" id="noAuras-key" class="key-input">\n                                </div>\n                            </div>\n                        '),$(e(1640))[e(948)](keys[e(1030)]),$("#restart-key")[e(948)](keys[e(1417)]),$(e(1297))[e(948)](keys[e(995)]),$("#wormExplot-key")[e(948)](keys[e(322)]),$("#giro-key")[e(948)](keys[e(1349)]),$(e(796))[e(948)](keys[e(553)]),$(e(1627))[e(948)](keys[e(1199)]),$("#sectores-key")[e(948)](keys[e(659)]),$(e(1651))[e(948)](keys[e(1456)]),$(e(166)).on(e(730),(function(){var t=e;$(t(166))[t(164)](t(819)),$(t(892))[t(1315)](t(819)),$(t(150))[t(1308)](),$(t(1607))[t(870)]()})),$(e(711))[e(420)]((function(t){t[e(1454)]()})),$(e(711))[e(179)]((function(t){var i=e;t[i(1007)]();var n=t[i(1192)][i(1409)]();switch($(this)[i(948)](n),$(this)[i(972)]("id")){case"zoom-key":cambiarKey(i(1030),n);break;case i(564):cambiarKey(i(1417),n);break;case"wormExplot-key":cambiarKey(i(322),n);break;case i(1234):cambiarKey(i(995),n);break;case i(187):cambiarKey(i(1349),n);break;case i(919):cambiarKey(i(553),n);break;case i(161):cambiarKey(i(1199),n);break;case i(1574):cambiarKey(i(659),n);break;case i(710):cambiarKey(i(1456),n)}$(this)[i(1513)]()})),$(e(1607))[e(1119)](c),$(".cursor-box").on("click",(function(){var t=e,i=$(this)[t(668)](t(958))[t(972)]("src");$(t(626))[t(967)]({cursor:"url("+i+"), auto"}),$(".cursor-box").removeClass(t(819)),$(this)[t(164)](t(819))})),$(e(220))[e(1591)](e(959)+t+e(1269)),$(e(859))[e(948)](e(200)),$(e(495)).val(e(1426)),lxpdhssound=new Audio($("#sound-hs")[e(948)]()),lxpdlaughsound=new Audio($(e(495))[e(948)]()),$("#sound-hs").on(e(1547),(function(){lxpdhssound[e(518)]=$(this).val()})),$("#sound-10hs").on("input",(function(){lxpdlaughsound.src=$(this).val()})),$(e(583))[e(791)](e(1419)+lenguaje[idiomaActual][e(674)]+e(131)+lenguaje[idiomaActual][e(659)]+'</span></div><div class="settings-checkbox"><input type="checkbox" id="settings-notAbilityAll-switch"><span class="names_settings"> : Show All Power-Ups</span></div><div class="settings-checkbox"><input type="checkbox" id="settings-Speed_ZigZag-switch"><span class="names_settings"> : Show Speed&Zigzag</span></div><div id="display_color"><div class="container"><input id="color_paletRGB" type="color" value="#000A11"><span class="names_settings"  id="colorJuego" > '+lenguaje[idiomaActual][e(264)]+e(1284)+lenguaje[idiomaActual][e(505)]+' </span></div><div class="container"><input id="color_palet2" type="color" value="#01D9CC"><span class="names_settings" id="colorBorde"> '+lenguaje[idiomaActual][e(1114)]+e(359));let l={color_paletRGB:t=>wormxt_Obj[e(137)]=t,color_palet:t=>wormxt_Obj[e(669)]=t,color_palet2:t=>wormxt_Obj[e(1114)]=t};$(e(589))[e(1136)]((function(){var t=e;let i=$(this)[t(972)]("id"),n=$(this)[t(948)]()[t(1458)]("#","");setSectorsGame(),console[t(980)](t(227)+i+": "+n),l[i]&&l[i](n),setSectorsGame()})),wormxt_5dlrs_Obj.visiblePowersAll=!1,$(e(1484))[e(1653)](e(785),wormxt_5dlrs_Obj[e(1338)]),$(e(1484)).on(e(730),(function(){var t=e;this[t(785)]?wormxt_5dlrs_Obj[t(1338)]=!0:wormxt_5dlrs_Obj[t(1338)]=!1})),wormxt_5dlrs_Obj[e(178)]=!0,$(e(1e3))[e(1653)](e(785),wormxt_5dlrs_Obj.speed_zigzag),$(e(1e3)).on(e(730),(function(){var t=e;this[t(785)]?wormxt_5dlrs_Obj[t(178)]=!0:wormxt_5dlrs_Obj[t(178)]=!1})),$(e(1275)).prop(e(785),wormxt_Obj[e(995)]),$(e(1275)).on("click",(function(){var t=e;this[t(785)]?wormxt_Obj[t(995)]=!0:wormxt_Obj[t(995)]=!1})),$(e(1595))[e(1653)]("checked",wormxt_Obj[e(1677)]),$("#settings-interactive-switch").on("click",(function(){var t=e;this[t(785)]&&(lxpdexplotWubtracttexture[t(1677)]=!1)})),$("#settings-sectores-switch")[e(1653)](e(785),wormxt_Obj[e(659)]),$(e(1480)).on(e(730),(function(){var t=e;this[t(785)]?(wormxt_Obj[t(659)]=!0,setSectorsGame()):(wormxt_Obj.sectores=!1,setSectorsGame())}))};var TIME=(new Date)[_0x10b320(891)](),linkCSS=_0x10b320(1650)+TIME,unlockSkinsPrivate=async function(t){var e=_0x10b320,i=t.u.si[e(1611)],n=clientsSkins[e(719)][e(668)]((t=>t[e(826)]===i));if(n&&n.Client_VisibleSkinPrivate)if(console[e(980)](n),new Date>new Date(n[e(1077)]))console[e(980)]("La fecha de skins expiraciï¿½n ha vencido.");else{console[e(980)](e(1031));let t=Array[e(1118)](n[e(326)])?n[e(326)]:[n.Client_VisibleSkinPrivate];t.forEach((t=>{var i=e;let n=theoKzObjects.idSkin[i(668)]((e=>e.id===t));n&&(n[i(545)]=!1)})),console[e(980)](e(720)+i+":",t)}else console.log(e(1010)+i+".")};let giroActive=!1;function toggleGiro(){var t=_0x10b320;giroActive?(lxpdgirosubtracttexture.texture=ungirotexture,lxpdgirosubtracttexture.alpha=.25,console.log("Giro deactivated"),isRunning=!1,initialInterval=55,cycleCounter=1,isIncrementing=!0,clearInterval(intervalID),intervalID=null):(lxpdgirosubtracttexture.alpha=.75,console[t(980)](t(421)),startInterval(),isRunning=!0),giroActive=!giroActive}const showServer2=async function(t){var e=_0x10b320;if(updateBackground(),unlockSkinsPrivate(t),fetchCustomLogo(t.u.si[e(1611)]),turkData.id_user=t.u.si.userId,loadStylesheet(linkCSS),loadStylesheet(e(932)),console.log(t,t.u.si[e(1611)]),lxpdhssound=new Audio("https://wormturkio.com/wormExtension/key/sounds/headshot_normal.mp3"),lxpdlaughsound=new Audio(e(1426)),(lxpdexplotWubtracttexture=new(pixi[e(1567)]))[e(342)]=explotWtexture,lxpdexplotWubtracttexture[e(1677)]=!0,lxpdexplotWubtracttexture[e(223)]=!0,lxpdexplotWubtracttexture.x=-45,lxpdexplotWubtracttexture.y=10,lxpdexplotWubtracttexture.alpha=.25,lxpdexplotWubtracttexture.on(e(219),(function(){!function(){lxpdexplotWubtracttexture.interactive=!1;var t=0,e=setInterval((function(){var i=1-.0075*t;lxpdexplotWubtracttexture[_0x50f7(647)]=i,++t>100&&(clearInterval(e),lxpdexplotWubtracttexture.alpha=.25,lxpdexplotWubtracttexture.interactive=!0)}),100)}();let t=new Uint8Array([1]);anApp.o.Wb(t),setTimeout((()=>{var t=_0x50f7;let e=lxpdlastserver;$(t(573)).css(t(1443),t(820)),e&&(anApp.r.Hd(),anApp.sa(e))}),1e3)})),(lxpdgirosubtracttexture=new pixi.Sprite)[e(342)]=ungirotexture,lxpdgirosubtracttexture[e(1677)]=!0,lxpdgirosubtracttexture[e(223)]=!0,lxpdgirosubtracttexture.x=-10,lxpdgirosubtracttexture.y=10,lxpdgirosubtracttexture[e(647)]=.25,lxpdgirosubtracttexture.on("mouseup",(function(){toggleGiro()})),lxpdmobilecheck()){lxpdgirosubtracttexture.x=-90,lxpdexplotWubtracttexture.x=-135,lxpdexplotWubtracttexture.y=10;let t=Function(e(1141))(),i=t[e(824)][e(966)](e(1186)),n=t[e(824)][e(966)](e(521));(lxpdzoomplustexture=new(t[e(1567)]))[e(342)]=i,lxpdzoomplustexture[e(1677)]=!0,lxpdzoomplustexture.buttonMode=!0,lxpdzoomplustexture.x=-10,lxpdzoomplustexture.y=10,lxpdzoomplustexture[e(647)]=.25,lxpdzoomplustexture.on(e(219),(function(){lxpdupdatezoom(Math[e(543)](lxpdmultiplier+.25,50))})),(lxpdzoomsubtracttexture=new(t[e(1567)]))[e(342)]=n,lxpdzoomsubtracttexture[e(1677)]=!0,lxpdzoomsubtracttexture[e(223)]=!0,lxpdzoomsubtracttexture.x=-43,lxpdzoomsubtracttexture.y=10,lxpdzoomsubtracttexture[e(647)]=.25,lxpdzoomsubtracttexture.on(e(219),(function(){lxpdupdatezoom(Math.max(lxpdmultiplier-.25,.25))}))}$(e(1328))[e(791)]('<input type="text" id="chatInput" style="display: none; position: absolute;" placeholder="Escribe tu mensaje..." />');var i=function(){var t=e;$("#chatInput").css(t(265),t(1619))[t(948)](""),$(t(1328))[t(1237)]()};$("#chatInput").on("keydown",(function(t){var n=e;n(752)===t[n(1192)]?(function(){var t=e;let i=$(t(1465))[t(948)]();""!==$[t(619)](i)&&(console.log(t(490),i),turkData.message=i,setTimeout((()=>{turkData[t(1086)]=""}),1500))}(),i()):n(329)===t[n(1192)]&&i()})),$(e(1455))[e(1591)](e(1339)),$("#mm-settings")[e(1591)]('<i class="material-icons">settings</i>'),$("#mm-leaders")[e(1591)](e(1138)),$(e(1525))[e(1591)](e(270)),$(e(683))[e(1591)]('<i class="material-icons">manage_accounts</i>'),$(e(892)).on(e(730),(function(){var t=e;$(t(892))[t(164)](t(819)),$("#hotkeys-icon").removeClass("active"),$(t(1607))[t(1308)](),$(t(150)).hide()})),$("#background-canvas").replaceWith(e(1197)),$(e(1047))[e(1119)](e(1170)),$(e(1047))[e(1119)]('<span id="ping"></span>'),$(document).ready((function(){var t=e;$(t(214))[t(330)](t(1474))})),$(document).ready((function(){var t=e;let i=0,n=$(t(535)),o=n[t(811)];setInterval((()=>{var e=t;n.eq(i)[e(1315)](e(819)),i=(i+1)%o,n.eq(i)[e(164)](e(819))}),3e3)})),$(e(416)).on(e(730),(function(){var t=e;window.open(t(976),"_blank")})),$("#social-buttons")[e(330)](""),$(e(1593))[e(483)](),$(e(1091))[e(483)](),$(e(1614)).attr(e(518),e(947)),$(e(226))[e(972)](e(518),e(947)),$(".loading-logo")[e(972)](e(518),e(947)),$(e(231))[e(483)](),$("#mm-coins-box .mm-coins-img")[e(483)](),$("#mm-action-play, #wtrplayagain, #final-replay")[e(730)]((function(){var t=e;$(t(573))[t(967)](t(1443),t(820))})),$(e(683)).click((function(){var t=e;$("#settings-menu")[t(967)]({display:t(1497),opacity:"1"})})),$(e(1015)).click((function(){var t=e;$(t(1551))[t(967)](t(1496),"0")})),$(e(983)).click((function(){var t=e;$("#mm-skin-canv")[t(164)](t(155)),setTimeout((function(){var e=t;$(e(461)).removeClass(e(155))}),350)})),$(e(1396))[e(730)]((function(){var t=e;$("#mm-skin-canv")[t(164)](t(155)),setTimeout((function(){var e=t;$(e(461)).removeClass(e(155))}),350)}));let n=[e(477),e(461),"#mm-settings",e(1683),e(1525),e(732)];$(n[e(132)](", "))[e(730)]((function(){var t=e;$(t(1551))[t(967)]({display:t(1619),opacity:"0"})})),[e(1455),e(469),e(1683),e(1525),e(683)][e(839)]((function(t){var i=e;$(t)[i(1451)]((function(){var t=i;$(this).css({"box-shadow":t(1254)})}),(function(){var t=i;$(this).css({"box-shadow":t(1538)})}))})),$(e(610)).replaceWith(""),$(e(1267))[e(377)](e(1353)),$(e(886)).prepend('<i class="material-icons">replay</i>'),$(e(699))[e(330)](e(1326)),$(e(699))[e(1119)](e(1262)),$(e(532)).click((function(){var t=e;let i=$(t(1414))[t(948)](),n=$(t(1363))[t(948)]();i&&""!==n?(lxpdlastserver=t(276)+i+":"+n+t(936),anApp.r.Hd(),anApp.sa(lxpdlastserver),lxpdservertext[t(513)]=""+lxpdlastserver.replace("wss://","")[t(1458)](t(1656),"")[t(1458)](t(936),"")):alert(t(1202))}));var o={sao:"br",vin:"vg",dal:"ds",fra:"de",sgp:"sg",tok:"jp",syd:"au",lon:"gb",tor:"ca",mex:"mx",sin:"sg",hil:"hn",gra:"de"},s=[{code:"br",name:"Peru"},{code:"mx",name:e(398)},{code:"us",name:e(1434)},{code:"ca",name:e(1694)},{code:"de",name:e(1082)},{code:"fr",name:e(555)},{code:"sg",name:e(312)},{code:"jp",name:e(956)},{code:"au",name:e(456)},{code:"gb",name:e(472)}],r=$(e(1528)),c=$(e(1555));s[e(839)]((function(t,i){var n=e,o=$('\n                        <li class="ui-tabs-tab ui-tab '+(0===i?n(1068):"")+'" data-country="'+t[n(584)]+n(1667)+t[n(584)]+'"></span></a>\n                        </li>\n                    ');r.append(o);var a=$(n(1014)+t[n(584)]+n(450)+n(0===i?1466:1619)+n(246));c.append(a)})),$(e(699))[e(1119)](r,c),$(e(896))[e(730)]((function(){var t=e,i=$(this).data(t(205));$(".ui-tabs-tab")[t(1315)]("ui-tab-active"),$(this).addClass("ui-tab-active"),$(t(339))[t(870)](),$(t(193)+i)[t(640)](200)})),serverData[e(839)]((function(t){var i=e,n=t.dataRoom[i(651)](/[a-zA-Z]+/g)[i(132)]("");"ae"===n&&(n="gb");var a=t.dataCon[i(651)](/wss:\/\/([a-z]+)-/i),r=a?a[1]:null,c=o[r]?o[r].toUpperCase():"!";if(s[i(534)]((t=>t.code===n))){var l=top1Servers[t.dataRoom[i(619)]()[i(1409)]()]||{Score:"❗",StatusColor:i(612)};console[i(980)](i(1200),t[i(1133)]),console.log("Claves en top1Servers:",Object[i(1637)](top1Servers));var x=$(i(1361)+t[i(411)]+i(1603)+t.dataRoom+'">\n                            <td class="server-status">\n                                <span class="status-dot" style="background-color: '+l[i(1230)]+i(1587)+t[i(1553)]+'</td>\n                            <td class="server-region">'+c+i(658)+l[i(1460)]+i(1094)+t[i(1483)]+i(601));$(i(193)+n+i(1038))[i(1119)](x)}})),$(document).on(e(730),e(1510),(function(){var i=e;let n=$(this)[i(972)](i(873)),o=$(this).find(i(559))[i(513)](),a=$(this)[i(972)](i(1116));o&&a&&(t.r.Hd(),t.sa(a),lxpdservertext[i(513)]=""+n,console[i(980)]("Conectando a:",a))})),$(e(1614)).on(e(730),(function(){var i=e,n=prompt(i(1378));"W"===n?($(i(1614))[i(513)](i(570)),setTimeout((()=>{var t=i;$(t(1614)).text(t(318)),setTimeout((()=>{var e=t;$(e(1614))[e(513)](e(1700)),setTimeout((()=>{var t=e;$(t(1614))[t(513)](t(409))}),2e3)}),1500)}),1e3),$(i(630)).html(""),$(i(372))[i(1591)](""),$(i(922))[i(1591)](""),$(i(577))[i(1591)](""),$(i(1430))[i(1591)](""),$(i(285))[i(1591)](""),$(i(1449)).html(""),$(".servers-japon")[i(1591)](""),$(i(443))[i(1591)](""),$(i(480))[i(1591)](""),setTimeout((()=>{var e=i;for(a=0;a<serverData[e(811)];a++){var n=serverData[a][e(411)],o=serverData[a].dataRoom,s=serverData[a][e(1553)];let i=e(816)+serverData[a][e(1483)]+e(1224),r=o.match(/[a-zA-Z]+/g)[e(132)](""),c=document[e(1519)]("p");c[e(873)]=n,c[e(875)]=s;let l=document[e(1519)](e(415));l[e(465)](e(1153),e(346)),"br"==r?($(".servers-peru").append(l),$(l)[e(1119)](c),$(c)[e(1119)](i)):"mx"==r?($(e(372))[e(1119)](l),$(l)[e(1119)](c),$(c)[e(1119)](i)):"us"==r?($(e(922))[e(1119)](l),$(l)[e(1119)](c),$(c)[e(1119)](i)):"ca"==r?($(e(577))[e(1119)](l),$(l)[e(1119)](c),$(c)[e(1119)](i)):"de"==r?($(e(1430))[e(1119)](l),$(l).append(c),$(c)[e(1119)](i)):"fr"==r?($(e(285))[e(1119)](l),$(l).append(c),$(c)[e(1119)](i)):"sg"==r?($(e(1449))[e(1119)](l),$(l).append(c),$(c)[e(1119)](i)):"jp"==r?($(e(1369)).append(l),$(l)[e(1119)](c),$(c)[e(1119)](i)):"au"==r?($(e(443)).append(l),$(l)[e(1119)](c),$(c).append(i)):"ae"==r&&($(e(480))[e(1119)](l),$(l)[e(1119)](c),$(c)[e(1119)](i)),$(c)[e(972)]("class",e(1598)),$(c)[e(972)](e(873),o),$(c).attr(e(1085),n),$(c)[e(730)]((function(){var i=e;$(i(573))[i(967)](i(1443),i(820));let n=$(this)[i(972)](i(1085));console[i(980)](n),n&&(t.r.Hd(),t.sa(n),lxpdservertext[i(513)]=$(this)[i(513)](),console[i(980)]($(this).text()))}))}}),3e3)):"T"===n?($(i(1614))[i(513)](i(570)),setTimeout((()=>{var t=i;$(t(1614))[t(513)](t(318)),setTimeout((()=>{var e=t;$(e(1614))[e(513)](e(1700)),setTimeout((()=>{var t=e;$(".mm-logo")[t(513)](t(591))}),2e3)}),1500)}),1e3),$(i(630)).html(""),$(i(372))[i(1591)](""),$(".servers-eeuu")[i(1591)](""),$(".servers-canada")[i(1591)](""),$(".servers-germania")[i(1591)](""),$(i(285)).html(""),$(".servers-singapur")[i(1591)](""),$(i(1369))[i(1591)](""),$(i(443))[i(1591)](""),$(i(480))[i(1591)](""),setTimeout((()=>{var e=i;for(a=0;a<serverDataTimMap[e(811)];a++){var n=serverDataTimMap[a][e(411)],o=serverDataTimMap[a][e(1133)],s=serverDataTimMap[a][e(1553)],r=serverDataTimMap[a][e(1483)];serverDataTimMap[a][e(1220)];let i=o[e(651)](/[a-zA-Z]+/g)[e(132)](""),c=document[e(1519)]("p");c.value=n;let l=e(816)+r+e(1224),x=/<a\s+href="null"[^>]*>[\s\S]*?<img\s+src="([^"]+)"[^>]*>([^"]+)<\/a>/;x[e(696)](l)&&(l=l[e(1458)](x,""));let d=/<span style=\\"(.*?)"><\\\/span>/;d[e(696)](s)&&(s=s[e(1458)](d,e(1117))),c[e(875)]=s;let h=document[e(1519)](e(415));h[e(465)](e(1153),e(346)),"BR"==i?($(".servers-peru")[e(1119)](h),$(h)[e(1119)](c),$(c)[e(1119)](l)):"MX"==i?($(e(372))[e(1119)](h),$(h)[e(1119)](c),$(c).append(l)):"US"==i?($(e(922)).append(h),$(h).append(c),$(c)[e(1119)](l)):"CA"==i?($(e(577))[e(1119)](h),$(h)[e(1119)](c),$(c)[e(1119)](l)):"DE"==i?($(e(1430))[e(1119)](h),$(h)[e(1119)](c),$(c)[e(1119)](l)):"FR"==i?($(".servers-francia").append(h),$(h).append(c),$(c)[e(1119)](l)):"SG"==i?($(".servers-singapur")[e(1119)](h),$(h)[e(1119)](c),$(c)[e(1119)](l)):"JP"==i?($(e(1369)).append(h),$(h)[e(1119)](c),$(c)[e(1119)](l)):"AU"==i?($(".servers-australia")[e(1119)](h),$(h).append(c),$(c)[e(1119)](l)):"AE"==i&&($(e(480))[e(1119)](h),$(h).append(c),$(c).append(l)),$(c).attr(e(1153),e(1598)),$(c)[e(972)](e(873),o),$(c)[e(972)](e(1085),n),$(c)[e(730)]((function(){var i=e;$(".overlay-2")[i(967)](i(1443),i(820));let n=$(this).attr(i(1085)),o=$(this)[i(972)]("value");console[i(980)](o),n&&(t.r.Hd(),t.sa(n),lxpdservertext[i(513)]=o)}))}}),3e3)):alert(i(475))}))},ctx={fontStyle:{blanco:new(PIXI[_0x10b320(533)])({align:_0x10b320(323),fill:_0x10b320(1486),fontSize:9,lineJoin:"round",stroke:_0x10b320(1486),strokeThickness:1,whiteSpace:_0x10b320(1225),wordWrap:!0})}};timeFontColors=[_0x10b320(230),_0x10b320(1212),_0x10b320(1283),_0x10b320(328),_0x10b320(611),_0x10b320(1257),_0x10b320(1450)];for(let t=0;t<timeFontColors.length;t++){let e=timeFontColors[t];ctx[_0x10b320(194)][_0x10b320(1261)+t]=new(PIXI[_0x10b320(533)])({align:_0x10b320(323),fill:e,fontSize:25,lineJoin:"round",whiteSpace:"normal",wordWrap:!0,dropShadow:!0,dropShadowBlur:6,fontWeight:_0x10b320(866)})}ctx[_0x10b320(1433)]={};const portionTimes=[40,40,40,120,40,20,40];for(let t=0;t<portionTimes.length;t++){let e=_0x10b320(349)+t;ctx[_0x10b320(1433)][e]=new PIXI.Text(portionTimes[t],ctx.fontStyle[_0x10b320(1261)+t]),ctx.ptc[e].y=61}ctx[_0x10b320(749)]=PIXI[_0x10b320(824)][_0x10b320(129)](_0x10b320(1639)),ctx[_0x10b320(878)]=new(PIXI[_0x10b320(1567)])(ctx[_0x10b320(749)]),ctx.containerImgTest.anchor[_0x10b320(557)](.5),ctx[_0x10b320(878)].x=window[_0x10b320(1029)]/2,ctx[_0x10b320(878)].y=window[_0x10b320(1569)]/2,ctx[_0x10b320(878)][_0x10b320(647)]=.3,ctx[_0x10b320(1174)]=new(PIXI[_0x10b320(1370)]);const createCircle=function(){var t=_0x10b320;window.coords&&void 0!==window.coords[t(1689)]&&void 0!==window[t(1463)][t(990)]?(!ctx[t(360)]&&(ctx[t(360)]=new(PIXI[t(767)]),ctx.team_2[t(770)]=2,ctx[t(360)][t(647)]=.9,ctx[t(360)][t(549)](16711680),ctx[t(360)][t(837)](0,0,2.4),ctx[t(360)][t(1021)](),ctx[t(360)].lineStyle(1,t(251)),ctx[t(360)][t(837)](0,0,2.4),ctx[t(360)][t(1021)]()),ctx.team_2.x=window[t(1463)][t(1689)],ctx.team_2.y=window.coords[t(990)],ctx[t(1174)]?ctx[t(1174)][t(145)](ctx[t(360)]):console.error("Error: ctx.pointsContainer no estï¿½ definido.")):console[t(1309)]("Error: window.coords no estï¿½ definido correctamente o no contiene playerX y playerY.")};ctx[_0x10b320(867)]=new PIXI.Container;var createServerMessage=function(t,e){var i=_0x10b320;""!==e.trim()&&(toastr[i(634)]={closeButton:!1,debug:!1,newestOnTop:!0,progressBar:!0,positionClass:"toast-top-center",preventDuplicates:!0,onclick:null,showDuration:i(903),hideDuration:i(622),timeOut:i(1459),extendedTimeOut:i(622),showEasing:i(868),hideEasing:i(412),showMethod:i(640),hideMethod:i(586),toastClass:i(1386)},toastr[i(1223)](e,t,{iconClass:"toast-info"}))},createTeamMessage=function(t,e,i){var n=_0x10b320;""!==i[n(619)]()&&gameState[n(1462)][n(839)](((o,a)=>{var s=n;if(o.teamCode===t&&o.nickname!==e){let n=o[s(423)].length>12?o[s(423)][s(186)](0,12):o[s(423)];toastr[s(634)]={closeButton:!1,debug:!1,newestOnTop:!0,progressBar:!0,positionClass:s(667),preventDuplicates:!0,onclick:null,showDuration:s(903),hideDuration:"1000",timeOut:s(1459),extendedTimeOut:s(622),showEasing:s(868),hideEasing:s(412),showMethod:s(640),hideMethod:s(586)},toastr[s(1223)](""+i,""+e,{iconClass:s(655)}),console.log(s(644)+e+s(599)+n+" ("+a+s(846)+t)}}))},createTeamUbication=function(t,e){var i=_0x10b320;updateTeamTable(gameState,t),gameState[i(1462)][i(839)](((n,o)=>{var a=i;if(n[a(1439)]===t){let t=n[a(855)]||e,i=n[a(423)][a(1458)](/\u3164/g,"")[a(1458)](/WFT_\d+$/,"")[a(619)]();if(!ctx[o]){ctx[o]=new(PIXI[a(767)]),ctx[o][a(770)]=2,ctx[o][a(647)]=.9,ctx[a(867)][a(145)](ctx[o]);let e=new PIXI.Text(i,{fontFamily:fonts[currentFontIndex],fontSize:14,fill:t,stroke:0,strokeThickness:2});e[a(428)][a(557)](.5),e.visible=!1,e.y=-15,ctx[o][a(145)](e),ctx[o][a(685)]=new(PIXI[a(1155)])(0,0,2.4),ctx[o][a(1677)]=!0,ctx[o].buttonMode=!0,ctx[o].on(a(235),(()=>{e[a(267)]=!0})),ctx[o].on(a(1004),(()=>{e[a(267)]=!1})),ctx[o].on(a(219),(()=>{var t=a;e[t(267)]=!e[t(267)]})),ctx[o].on(a(777),(()=>{var t=a;e[t(267)]=!e[t(267)]})),ctx[o].nameText=e}ctx[o][a(1238)](),ctx[o][a(549)](t),ctx[o].drawCircle(0,0,2.4),ctx[o][a(1021)](),ctx[o].lineStyle(1,0),ctx[o][a(837)](0,0,2.4),ctx[o][a(1021)](),ctx[o].x=n[a(1443)].x,ctx[o].y=n[a(1443)].y,ctx[o][a(1048)].y=-15,ctx[o].nameText[a(513)]!==i&&(ctx[o].nameText.text=i),ctx[o][a(1048)][a(1043)][a(733)]!==t&&(ctx[o].nameText[a(1043)][a(733)]=t)}}))},clearTeamUbication=function(){var t=_0x10b320;ctx[t(867)]?Object[t(1637)](ctx).forEach((e=>{var i=t;ctx[e]instanceof PIXI[i(767)]&&ctx[e].parent===ctx[i(867)]&&(ctx[i(867)][i(676)](ctx[e]),ctx[e][i(1588)](!0),delete ctx[e]),ctx[e+i(694)]&&ctx[e+"_text"][i(1573)]===ctx.teamsContainer&&(ctx[i(867)][i(676)](ctx[e+i(694)]),ctx[e+i(694)][i(1588)](!0),delete ctx[e+i(694)])})):console[t(1309)](t(304))};ctx[_0x10b320(478)]=new(PIXI[_0x10b320(134)])(_0x10b320(1564),ctx[_0x10b320(194)][_0x10b320(978)]),ctx.titleRec2.y=-5,ctx[_0x10b320(1032)]=new(PIXI[_0x10b320(1370)]),ctx[_0x10b320(1032)].x=30,ctx[_0x10b320(1032)].y=170;let playersTexts=[];for(let t=0;t<5;t++){let e=t+1,i=new(PIXI[_0x10b320(134)])(e+".",ctx[_0x10b320(194)][_0x10b320(978)]);i.x=0,i.y=13*e,ctx.containerHsRec2.addChild(i);let n=new(PIXI[_0x10b320(134)])("--",{fill:"#FFFFFF",fontSize:12});n.x=15,n.y=13*e,ctx[_0x10b320(1032)].addChild(n),playersTexts.push(n)}function updatePlayerTable(t){var e=_0x10b320;let i=t[e(1462)],n=Array[e(966)](i.values()).filter((t=>t[e(1439)]===turkData[e(1439)]));playersTexts[e(839)](((t,i)=>{var o=e;if(n[i]){let e=n[i];t[o(513)]=e[o(423)][o(938)](0,20),t[o(1043)][o(733)]=e[o(855)]}else t[o(513)]="--",t[o(1043)][o(733)]="#FFFFFF"}))}ctx[_0x10b320(1032)].addChild(ctx.titleRec2),(lxpdTopFriends_list=new(PIXI[_0x10b320(1370)])).x=80,lxpdTopFriends_list.y=185;const titleTextfriendlist=new PIXI.Text(_0x10b320(969),{fontFamily:fonts[currentFontIndex],fontSize:10,fill:16753920,fontWeight:_0x10b320(866)});titleTextfriendlist.x=10,titleTextfriendlist.y=-5,lxpdTopFriends_list[_0x10b320(145)](titleTextfriendlist);const dividerfriendlist=new(PIXI[_0x10b320(767)]);function updateTeamTable(t,e){var i=_0x10b320;for(let t=lxpdTopFriends_list[i(1191)][i(811)]-1;t>=0;t--){let e=lxpdTopFriends_list.children[t];e!==titleTextfriendlist&&e!==dividerfriendlist&&lxpdTopFriends_list[i(676)](e)}let n=0;t[i(1462)][i(839)](((t,o)=>{var a=i;if(t[a(1439)]===e&&t.wssCode===turkData[a(759)]){let e=cleanNickname(t.nickname),i=/[\u0600-\u06FF]/[a(696)](e),o=new PIXI.Text(n+1+". "+e,{fontFamily:fonts[currentFontIndex],fontSize:10,fill:t[a(855)]||16753920,stroke:0,strokeThickness:2,align:i?"right":a(297)});if(o.x=-50,o.y=20+15*n,lxpdTopFriends_list[a(145)](o),++n>=10)return}}))}const commonTextStyle={fontFamily:_0x10b320(1577),fontSize:9,fill:16777215,align:_0x10b320(297)};dividerfriendlist[_0x10b320(597)](.04,16777215,1),dividerfriendlist.moveTo(-15,15),dividerfriendlist.lineTo(80,15),dividerfriendlist.x=5,lxpdTopFriends_list[_0x10b320(145)](dividerfriendlist),(lxpdTopHS_RecordHs=new(PIXI[_0x10b320(1370)])).x=-55,lxpdTopHS_RecordHs.y=115;const titleText=new PIXI.Text(_0x10b320(1090),commonTextStyle);titleText.x=32,titleText.y=-5,lxpdTopHS_RecordHs.addChild(titleText);const divider=new(PIXI[_0x10b320(767)]);divider[_0x10b320(597)](2,16777215,1),divider[_0x10b320(257)](0,15),divider[_0x10b320(1597)](80,15),divider.x=15,lxpdTopHS_RecordHs.addChild(divider),(lxpdTop3HS_RecordHs=new(PIXI[_0x10b320(1370)])).y=25;const titleText3hs=new PIXI.Text(_0x10b320(1303),commonTextStyle);titleText3hs.x=10,titleText3hs.y=-5,lxpdTop3HS_RecordHs.addChild(titleText3hs);const divider3hs=new(PIXI[_0x10b320(767)]);divider3hs[_0x10b320(597)](2,16777215,1),divider3hs[_0x10b320(257)](0,15),divider3hs.lineTo(80,15),divider3hs.x=5,lxpdTop3HS_RecordHs[_0x10b320(145)](divider3hs);var playerTexts=[];const cleanNickname=t=>t[_0x10b320(1458)](/[_.\s:)+?]*WFT[T]*_\d+$/g,"")[_0x10b320(619)](),updateTop8Hs=function(){var t=_0x10b320;let e=Array.from(gameState[t(1462)].values())[t(632)]((e=>e[t(729)].hs>0&&""!==e[t(423)][t(619)]()));if(!e[t(534)]((e=>e[t(423)]===turkData[t(423)]))&&turkData.hs>0&&e[t(1357)]({nickname:turkData[t(423)],hskill:{hs:turkData.hs},teamColor:turkData[t(855)]}),0!==e[t(811)]){e[t(1312)](((e,i)=>i[t(729)].hs-e[t(729)].hs));for(let e=lxpdTopHS_RecordHs.children[t(811)]-1;e>=0;e--){const i=lxpdTopHS_RecordHs.children[e];i!==titleText&&i!==divider&&lxpdTopHS_RecordHs[t(676)](i)}playerTexts[t(811)]=0;for(let i=0;i<Math[t(543)](e.length,6);i++){const n=e[i];let o=cleanNickname(n[t(423)])[t(186)](0,10)[t(650)](10,"_"),a=(" ("+n[t(729)].hs+")")[t(648)](8," ");const s=i+1+".  "+o+t(503)+a,r=new(PIXI[t(134)])(s,commonTextStyle);r.x=10,r.y=20+15*i,playerTexts.push(r),lxpdTopHS_RecordHs.addChild(r)}lxpdTop3HS_RecordHs.y=30+15*playerTexts[t(811)]}},colors=[16777215,16777215,16777215,16777215,16777215,16777215,16777215,16777215],textStyle={fontFamily:_0x10b320(1577),fontSize:9,fill:16777215,align:_0x10b320(297),wordWrap:!0,whiteSpace:_0x10b320(1225)};ctx[_0x10b320(474)]=new(PIXI[_0x10b320(134)])(_0x10b320(561),textStyle),ctx[_0x10b320(474)].y=-5,ctx[_0x10b320(474)].x=10,ctx[_0x10b320(254)]=new(PIXI[_0x10b320(1370)]),ctx[_0x10b320(254)].x=-55,ctx[_0x10b320(254)].y=260;const maxRecords=4;ctx[_0x10b320(165)]=[];for(let t=0;t<maxRecords;t++){const e=13*(t+1),i=new(PIXI[_0x10b320(134)])("👑",{fontFamily:"Courier New",fontSize:9,fill:16777215,align:_0x10b320(297)});i.x=0,i.y=e-1,ctx.containerHsRec3[_0x10b320(145)](i);const n=new(PIXI[_0x10b320(134)])("--",textStyle);n.x=18,n.y=e,ctx[_0x10b320(254)][_0x10b320(145)](n);const o=new(PIXI[_0x10b320(134)])("--",textStyle);o.x=110,o.y=e,ctx[_0x10b320(254)][_0x10b320(145)](o),ctx[_0x10b320(165)][_0x10b320(1357)]({crown:i,playerNameText:n,playerHsText:o})}function updateHeadshotHistory(t){var e=_0x10b320;for(let i=0;i<ctx[e(165)][e(811)];i++){const n=t[i],o=ctx.recordsEntries[i];if(o)if(n){let t=n.nickname||e(1406);t[e(811)]>8&&(t=t[e(186)](0,8)+".."),o[e(1333)].text=t,o[e(641)][e(513)]=n.hskill?.hs?.toString()||n.hs?.toString()||"--",o[e(1087)][e(267)]=!0}else o[e(1333)][e(513)]=e(1406),o[e(641)][e(513)]="--",o[e(1087)][e(267)]=!1}}function _0x50f7(t,e){var i=_0x5461();return _0x50f7=function(t,e){return i[t-=128]},_0x50f7(t,e)}function assignPtcValues(t,e,i){var n=_0x10b320;let o=portionTimes[e]-parseInt((.99==i?1:i)*portionTimes[e]/1),a="clock_ad"+e;t.Tf[e][n(145)](ctx[n(1433)][a]),ctx[n(1433)][a]&&(ctx[n(1433)][a].x=o>=100?11:o>=10?18:26,ctx[n(1433)][a][n(513)]=o)}function account(){var t=_0x10b320;$(t(339))[t(870)](),$(t(1069)).on(t(730),(function(){var e=t,i=$(this)[e(972)](e(934));$(e(1069))[e(1315)](e(1068)),$(this)[e(164)]("ui-tab-active"),$(e(339))[e(870)](),$(e(193)+i[e(1409)]()).fadeIn(200),$(e(339))[e(436)](e(193)+i.toLowerCase())[e(586)](100)}))}function obtieneUSER(){var t={};window.onclick=function(){var e=_0x50f7;if((t=window[e(930)])&&Object.keys(t)[e(811)]>0&&(console[e(980)](t),t)){var i=window[e(1151)]-t.qj.If.x,n=window[e(620)]-t.qj.If.y,o=t.Mb.ad,a=Math[e(608)](i*i+n*n);console[e(980)](e(563),t,e(761),o,"Distance:",a)}}}function loadScript2(t,e=!0){return new Promise(((i,n)=>{var o=_0x50f7,a=document.createElement("script");a[o(705)]=o(1625),a[o(518)]=t,a.defer=e,a.onload=i,a.onerror=n,document.head.appendChild(a)}))}function loadStylesheet(t){return new Promise(((e,i)=>{var n=_0x50f7,o=document[n(1519)](n(727));o[n(1106)]=n(446),o[n(705)]=n(1293),o[n(158)]=t,o[n(558)]=e,o[n(1098)]=i,document[n(1101)][n(1168)](o)}))}ctx.containerHsRec3[_0x10b320(145)](ctx[_0x10b320(474)]),_0x10b320(925),loadStylesheet("https://fonts.googleapis.com/css2?family=Palanquin+Dark:wght@400;500;600;700&family=Zen+Dots&display=swap"),loadScript2(_0x10b320(945),!0),loadStylesheet(_0x10b320(266)),loadScript2("https://cdn.socket.io/4.4.1/socket.io.min.js"),loadScript2(_0x10b320(466)),loadStylesheet("https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css");var _typeof="function"==typeof Symbol&&"symbol"==typeof Symbol[_0x10b320(1295)]?function(t){return typeof t}:function(t){var e=_0x10b320;return t&&e(485)==typeof Symbol&&t.constructor===Symbol&&t!==Symbol[e(316)]?e(368):typeof t};function addMinicolor(t,e,i,n,o,a){var s=_0x10b320,r=localStorage[s(234)](n);r&&(r.startsWith("0x")?r="#"+r[s(938)](2):!r[s(580)]("#")&&(r="#"+r)),theoObjects[n]=r||o,$(t)[s(1119)]('<div class="option colorpicker"><div class="name">'+i+s(738)+n+'" type="text" class="minicolors form-control"><div class="color-preview" id="preview_'+n+'" style="background-color: '+theoObjects[n]+s(1066)+n+s(1093)),null!==localStorage[s(234)](n)&&(theoObjects[n]=localStorage[s(234)](n)),a&&a(),$("#"+n)[s(290)]({control:$(this)[s(972)]("data-control")||s(1256),defaultValue:theoObjects[n]||o,format:$(this).attr(s(1631))||s(642),inline:s(1159)===$(this)[s(972)](s(514)),letterCase:$(this)[s(972)]("data-letterCase")||s(463),opacity:$(this)[s(972)](s(1059))||!0,position:$(this)[s(972)](s(1123))||s(957),theme:s(225),change:function(t,e){var i=s,o=t[i(1458)]("#","");theoObjects[n]=o,localStorage.setItem(n,o),a&&a(),$("#preview_"+n)[i(967)](i(498),t)}})}function openColorPanel(t){var e=_0x10b320;$("#"+t)[e(290)](e(1584))}function updateBackground(t=null){var e=_0x10b320,i=document[e(1609)](e(1313));let n=localStorage.getItem(e(1095));null===t&&null!==n&&(t=parseInt(n)),(null===t||t<0||t>=backgrounds[e(811)])&&(t=0);var o=backgrounds[t];i[e(1043)][e(547)]="url("+o+")","undefined"!=typeof anApp&&anApp.q&&anApp.q.Cf&&(anApp.q.Cf=new(PIXI[e(824)])(anApp.q[e(1616)](o))),localStorage[e(529)](e(1095),t)}function updateFont(){var t=_0x10b320,e=document[t(1609)]("fontPreview");let i=fonts[currentFontIndex];e[t(1043)][t(396)]=i,localStorage[t(529)](t(195),currentFontIndex)}!function(){var t=_0x10b320;try{console[t(980)](function(e,i){for(var n=t,o=0;o<i[n(811)];o+=2)e=e[n(955)](i[o],i[o+1]);return e}(t(1634),["W","hhhh","Q",t(247),"M",t(831),"Y",t(1241),"H","hh","S","ss","6",t(317),"3",t(660),"2","  ","N","\n"]))}catch(t){}}(),window[_0x10b320(182)](_0x10b320(1470),(function(){var _0x506662=_0x10b320;function _0x27783f(){var t=_0x50f7;return function(t,e,i){var n=_0x50f7;function o(){var t=_0x50f7;return t(485)!=typeof e[t(1519)]?e[t(1519)](arguments[0]):d?e[t(1599)].call(e,t(510),arguments[0]):e[t(1519)][t(1001)](e,arguments)}var a=[],s=[],r={_version:"3.3.1",_config:{classPrefix:"",enableClasses:!0,enableJSClass:!0,usePrefixes:!0},_q:[],on:function(t,e){var i=this;setTimeout((function(){e(i[t])}),0)},addTest:function(t,e,i){s[_0x50f7(1357)]({name:t,fn:e,options:i})},addAsyncTest:function(t){s[_0x50f7(1357)]({name:null,fn:t})}},c=function(){};c.prototype=r,c=new c;var l=!1;try{l=n(1340)in t&&2===t[n(1340)][n(1490)]}catch(t){}c[n(1632)](n(1380),l);var x=e[n(1003)],d="svg"===x[n(395)].toLowerCase();c[n(1632)](n(201),(function(){var t=n,e=o(t(201));return!(!e.getContext||!e[t(912)]("2d"))})),c.addTest(n(1438),(function(){var t=n;return!1!==c.canvas&&t(485)==typeof o(t(201))[t(912)]("2d")[t(1534)]})),function(){var t,e,i,o,r,l,x,d,h=n;for(var u in s)if(s[h(1135)](u)){if(t=[],(e=s[u])[h(1664)]&&(t[h(1357)](e[h(1664)][h(1409)]()),e[h(634)]&&e.options.aliases&&e[h(634)][h(1385)][h(811)]))for(i=0;i<e.options[h(1385)][h(811)];i++)t.push(e[h(634)][h(1385)][i][h(1409)]());for(r=0,x=e.fn,d=h(485),o=(void 0===x?_0x50f7(829):_typeof(x))===d?e.fn():e.fn;r<t[h(811)];r++)1===(l=t[r][h(405)]("."))[h(811)]?c[l[0]]=o:(!(!c[l[0]]||c[l[0]]instanceof Boolean)&&(c[l[0]]=new Boolean(c[l[0]])),c[l[0]][l[1]]=o),a.push((o?"":h(596))+l[h(132)]("-"))}}(),function(t){var e=n,i=x[e(1610)],o=c[e(1126)].classPrefix||"";if(d&&(i=i[e(1164)]),c[e(1126)][e(224)]){var a=RegExp(e(744)+o+e(871));i=i[e(1458)](a,"$1"+o+"js$2")}c._config[e(1556)]&&(i+=" "+o+t[e(132)](" "+o),d?x.className[e(1164)]=i:x[e(1610)]=i)}(a),delete r[n(1632)],delete r.addAsyncTest;for(var h=0;h<c._q[n(811)];h++)c._q[h]();t[n(774)]=c}(window,document),Modernizr[t(1380)]&&Modernizr[t(201)]&&Modernizr[t(1438)]}document[_0x506662(1609)](_0x506662(1206))[_0x506662(1043)][_0x506662(265)]=_0x506662(1466),_0x27783f()?function(){var _0x31e67f=_0x506662;function _0x504022(){return window[_0x50f7(1127)]=_0x3938bb}function _0x5ce09a(t){var e=_0x50f7;let i=t+"=",n=document[e(953)][e(405)](";");for(let t=0;t<n.length;t++){let o=n[t];for(;" "===o[e(1243)](0);)o=o[e(938)](1);if(0===o[e(996)](i))return o[e(938)](i[e(811)],o[e(811)])}return""}function _0x23921c(t,e,i){var n=_0x50f7,o=new Date;o.setTime(o.getTime()+864e5*i);var a=n(1521)+o.toUTCString();document[n(953)]=t+"="+e+"; "+a+n(807)}function _0x20af8f(t){return window[_0x50f7(183)][t]}function _0x328daa(t){return t[_0x419a59]?t[_0x419a59]:t.en?t.en:t.x}function _0x1318e5(t){var e=_0x50f7,i=(Math[e(1173)](t)%60)[e(482)](),n=(Math[e(1173)](t/60)%60)[e(482)](),o=(Math.floor(t/3600)%24)[e(482)](),a=Math[e(1173)](t/86400)[e(482)](),s=_0x20af8f("util.time.days"),r=_0x20af8f(e(1074)),c=_0x20af8f(e(1266)),l=_0x20af8f(e(1427));return a>0?a+" "+s+" "+o+" "+r+" "+n+" "+c+" "+i+" "+l:o>0?o+" "+r+" "+n+" "+c+" "+i+" "+l:n>0?n+" "+c+" "+i+" "+l:i+" "+l}function _0xcb9058(t){var e=_0x50f7;return t[e(1219)]("href")?t.replaceAll("href",e(1037)):t}function _0x427629(t,e,i){var n=_0x50f7,o=document.createElement(n(631));e&&(o.id=e),o[n(1158)]=n(1158),o[n(705)]="text/javascript",o[n(518)]=t,i&&(o[n(558)]=o.onreadystatechange=function(){var t=n;try{i()}catch(t){console.log(t)}o.onload=o[t(869)]=null}),(document[n(1101)]||document[n(296)]("head")[0])[n(1168)](o)}function _0x499ed3(t,e){var i=_0x50f7;return e[i(316)]=Object[i(739)](t[i(316)]),e[i(316)].constructor=e,e[i(1573)]=t,e}function _0x1c15ea(t){return(t%=_0x347c9a)<0?t+_0x347c9a:t}function _0x11b0e7(t,e,i){return _0x5b4c95(i,t,e)}function _0x5b4c95(t,e,i){return t>i?i:t<e?e:Number[_0x50f7(691)](t)?t:.5*(e+i)}function _0x5d6d0c(t,e,i,n){var o=_0x50f7;return e>t?Math[o(543)](e,t+i*n):Math[o(1699)](e,t-i*n)}function _0x1bc4d9(t,e,i,n,o){return e+(t-e)*Math[_0x50f7(874)](1-n,i/o)}function _0x538643(t,e,i){return t*(1-i)+e*i}function _0x2eaf3d(t,e,i,n){var o=_0x50f7,a=e+n;if(null==t)throw TypeError(o(1305));var s=t.length>>>0,r=i>>0,c=r<0?Math[o(1699)](s+r,0):Math[o(543)](r,s),l=e>>0,x=l<0?Math[o(1699)](s+l,0):Math[o(543)](l,s),d=void 0===a?s:a>>0,h=Math.min((d<0?Math[o(1699)](s+d,0):Math[o(543)](d,s))-x,s-c),u=1;for(x<c&&c<x+h&&(u=-1,x+=h-1,c+=h-1);h>0;)x in t?t[c]=t[x]:delete t[c],x+=u,c+=u,h--;return t}function _0x16c2d8(t){var e=_0x50f7;null!=t[e(1573)]&&t[e(1573)][e(676)](t)}function _0x13806b(t){var e=_0x50f7;return t[parseInt(Math[e(1679)]()*t[e(811)])]}function _0x59d115(){var t=_0x50f7;return Math[t(1679)]()[t(482)](36)[t(938)](2,15)}function _0x314559(t,e,i){var n=(1-Math[_0x50f7(1110)](2*i-1))*e,o=n*(1-Math.abs(t/60%2-1)),a=i-n/2;return 0<=t&&t<60?[a+n,a+o,a+0]:60<=t&&t<120?[a+o,a+n,a+0]:120<=t&&t<180?[a+0,a+n,a+o]:180<=t&&t<240?[a+0,a+o,a+n]:240<=t&&t<300?[a+o,a+0,a+n]:[a+n,a+0,a+o]}function _0x42f912(){var t=_0x50f7;function e(){var t=_0x50f7;let e=theoKzObjects.adblock?1:5;$(t(293))[t(513)](_0x20af8f(t(1205))),$("#adbl-2")[t(513)](_0x20af8f("index.game.antiadblocker.msg2")),$(t(144))[t(513)](_0x20af8f(t(391))),$(t(1222))[t(513)](_0x20af8f(t(911))[t(1458)](t(1272),10)),$("#adbl-continue span")[t(513)](_0x20af8f(t(1666))),$(t(260)).hide(),$("#JDHnkHtYwyXyVgG9")[t(640)](500);for(var i=e,n=0;n<e;n++)setTimeout((function(){var e=t;if(i--,$(e(1222))[e(513)](_0x20af8f(e(911))[e(1458)](e(1272),i)),0===i){console[e(980)](e(1461));try{ga(e(803),e(920),"antiadblocker",window.runtimeHash+"_complete")}catch(t){}$("#adbl-continue").fadeIn(200)}}),1e3*(n+1))}var i=!1,n=function(){},o={};return $(t(260)).click((function(){var e=t;$(e(544))[e(586)](500),n(!1)})),o.a=function(e){var o=t;if(n=e,!i)try{aiptag[o(139)][o(1034)].push((function(){var t=o;aiptag[t(1112)]=new aipPlayer({AD_WIDTH:960,AD_HEIGHT:540,AD_FULLSCREEN:!0,AD_CENTERPLAYER:!1,LOADING_TEXT:t(522),PREROLL_ELEM:function(){var e=t;return document[e(1609)](e(1042))},AIP_COMPLETE:function(e){var i=t;console.log("aipC"),n(!0),$("#1eaom01c3pxu9wd3").hide(),$("#JDHnkHtYwyXyVgG9")[i(870)]();try{ga(i(803),i(920),i(440),window.runtimeHash+"_complete")}catch(t){}},AIP_REMOVE:function(){}})})),i=!0}catch(t){}},o.b=function(){var i=t;if(void 0!==aiptag[i(1112)]){console[i(980)](i(1388));try{ga(i(803),"event",i(440),window[i(335)]+"_request")}catch(t){}e()}else{console.log(i(714));try{ga(i(803),i(920),"antiadblocker",window[i(335)]+i(1132))}catch(t){}e()}},o}function _0x5a304f(t,e){return{a:function(){},c:function(){}}}function _0x1b6f18(){function t(t){var e=t+37*Math.floor(65535*Math.random());_0x23921c(_0x216031.d,e,30)}return function(){var e=_0x50f7,i=parseInt(_0x5ce09a(_0x216031.d))%37;console[e(980)](e(605)+i),!(i>=0&&i<_0x5405f7.e)&&(i=Math[e(1699)](0,_0x5405f7.e-2),console[e(980)]("init2 pSC: "+i));var n={};_0x3938bb=n,n.f=_0x5405f7,n.g=!1,n.i=Date.now(),n.j=0,n.k=0,n.l=null,n.m=_0xa21762,n.n=_0x419a59,n.o=null,n.p=null,n.q=null,n.r=null,n.s=null,n.t=null,n.u=null;try{navigator&&navigator.geolocation&&navigator[e(1104)][e(1277)]((function(t){var i=e;if(void 0!==t.coords){var o=t[i(1463)];void 0!==o[i(1615)]&&void 0!==o[i(237)]&&(n.l=t)}}),(function(t){}))}catch(t){}return n.v=function(){n.p=new _0x4d44f1,n.q=new _0x399f4d,n.r=new _0x5f491b,n.s=new _0x4706a2,n.t=new _0x12fb54,n.u=new _0x12df7c,n.o=new _0x291359,n.o.z=new _0x192fd0(n.o),n.a()},n.a=function(){var t=e;try{ga(t(803),t(920),t(1187),window.runtimeHash+t(1280))}catch(t){}n.o.A=function(){n.o.B()},n.o.C=function(){var e=t,i=n.s.F.D();try{ga(e(803),"event",e(885),window.runtimeHash+e(1132),i)}catch(t){}n.r.G(_0x5f491b[e(1033)].H),n.s.I(n.s.H.J())},n.o.B=function(){var e,i,o=t;try{ga(o(803),"event","game",window[o(335)]+o(1060))}catch(t){}$(o(283))[o(812)]()>=430&&n.f.K.c(),n.p.L(),e=Math[o(1173)](n.o.N.M),i=n.o.O,n.u.P()?n.u.Q((function(){n.R(e,i)})):n.R(e,i)},n.o.S=function(t){t(n.s.H.T(),n.s.H.U())},n.u.V((function(){var e=t;if(n.p.W&&(n.r.G(_0x5f491b[e(1033)].F),n.s.I(n.s.F)),n.u.P())try{var i=n.u.X();ga(e(557),e(1611),i)}catch(t){}n.Y()&&n.u.P()&&!n.u.Z()?(n.$(!1,!1),n.s.aa._(new _0x5eddb0)):n.ba(!0)})),n.p.ca((function(){var e=t;n.r.G(_0x5f491b[e(1033)].F),n.s.I(n.s.F)})),n.q.a((function(){n.o.a(),n.r.a(),n.s.a(),n.t.a(),n.p.a(),n.u.a(),n.Y()&&!n.Z()?n.s.aa._(new _0x5eddb0):n.ba(!0)}))},n.da=function(t){var i=e;if(n.u.P()){var o=n.u.ea();$[i(1264)](_0x276ee+i(1448)+o+i(1035)+encodeURI(t),(function(t){}))}},n.fa=function(t){var i=e,o=n.u.ea(),a=n.s.F.D(),s=n.s.F.ga(),r=n.t.ha(_0x199e00.ia),c=n.t.ha(_0x199e00.ja),l=n.t.ha(_0x199e00.ka),x=n.t.ha(_0x199e00.la),d=n.t.ha(_0x199e00.ma),h=0;null!=n.l&&(h=1|Math[i(1699)](0,Math[i(543)](32767,(n.l[i(1463)].latitude+90)/180*32768))<<1|Math[i(1699)](0,Math[i(543)](65535,(n.l[i(1463)][i(237)]+180)/360*65536))<<16),_wrmxt[i(986)](r);let u=""+(9999<r?i(301):r[i(482)]()[i(648)](4,0))+(99999<d?i(1672):d[i(482)]()[i(648)](5,0));s=(s=(32<=s[i(811)]?s[i(310)](0,16):s[i(310)](0,16).padEnd(16))+u)[i(619)]()[i(1458)](/\s/g,"_"),console[i(980)](s),theoKzObjects[i(525)]&&(s="");var f=document[i(1609)]("teamNickname");if(null!==f){var p=f[i(873)];theoKzObjects[i(307)]?turkData[i(423)]=p:turkData[i(423)]=s}else console[i(1592)]("âš ï¸ Advertencia: No se encontrÃ³ el elemento 'teamNickname'.");var _=_0x276ee+i(1448)+o+i(1690)+encodeURI(a)+i(320)+h+i(218)+encodeURI(s)+i(835)+_wrmxt[i(363)](r)+i(1372)+encodeURI(c)+i(998)+encodeURI(l)+"&glassesId="+encodeURI(x)+"&hatId="+encodeURI(d);console[i(980)](i(206)+_),$[i(1264)](_,(function(e){t(e[i(1495)])}))},n.na=function(){var o=e;i++,console.log("start pSC: "+i),!n.f.oa&&i>=n.f.e?(n.s.I(n.s.pa),n.r.G(_0x5f491b[o(1033)].qa),n.f.ra.b()):(t(i),n.sa(),lxpdservertext[o(513)]="")},n.sa=function(t){var i=e;if(lxpdkillcount=0,lxpdhscount=0,n.o.ta()){n.s.I(n.s.ua),n.r.G(_0x5f491b[i(1033)].ua);var o=n.s.F.D();_0x23921c(_0x216031.va,o,30),console[i(980)]("save gm: "+o);var a=n.s.xa.wa();if(_0x23921c(_0x216031.ya,a,30),console[i(980)](i(537)+a),n.u.P())n.fa((function(e){lxpdlastserver=t||e,turkData.wssServer=lxpdlastserver,n.o.za(t||e,n.u.ea())}));else{var s=n.s.F.ga();_0x23921c(_0x216031.Aa,s,30);var r=n.t.ha(_0x199e00.ia);_0x23921c(_0x216031.Ba,r,30),n.fa((function(e){lxpdlastserver=t||e,turkData[i(1404)]=lxpdlastserver,n.o.Ca(t||e,s,r)}))}}},n.R=function(t,i){var o=e,a=n.s.F.ga();n.s.H.Da(t,i,a),n.r.G(_0x5f491b[o(1033)].Ea),n.s.I(n.s.H.Fa())},n.Ga=function(){if(!n.Ha())return n.t.Ia();var t=parseInt(_0x5ce09a(_0x216031.Ba));return null!=t&&n.t.Ja(t,_0x199e00.ia)?t:n.t.Ia()},n.Ka=function(t){_0x23921c(_0x216031.La,!!t,1800)},n.Ha=function(){return e(1159)===_0x5ce09a(_0x216031.La)},n.ba=function(o){var a=e;if(o!=n.g){n.g=o;var s=s||{};s[a(1391)]=o,s.gdprConsent=o,n.f.Ma.a(),n.f.K.a(),n.f.ra.a((function(e){e&&t(i=0),n.sa()}))}},n.$=function(t,i){var o=e;_0x23921c(_0x216031.Na,o(t?1159:684)),i&&n.da(t),n.ba(t)},n.Z=function(){return e(1159)===_0x5ce09a(_0x216031.Na)},n.Y=function(){var t=e;try{return!!window.isIPInEEA||!(null==n.l||!_0xa6f668.Oa(n.l.coords[t(1615)],n.l[t(1463)][t(237)]))}catch(t){return!0}},n.Pa=function(){n.j=Date.now(),n.k=n.j-n.i,n.o.Qa(n.j,n.k),n.s.Qa(n.j,n.k),n.i=n.j},n.Ra=function(){n.s.Ra()},n}()}function _0x291359(){var t={};let e;function i(){e&&(clearInterval(e),e=null)}return t.Wa=30,t.Xa=new Float32Array(100),t.Ya=0,t.Za=0,t.$a=0,t._a=0,t.ab=0,t.bb=0,t.cb=0,t.db=null,t.eb=300,t.C=function(){},t.B=function(){},t.S=function(){},t.A=function(){},t.fb=new _0x552076,t.z=null,t.N=null,t.gb={},t.hb={},t.ib=12.5,t.jb=40,t.kb=1,t.lb=-1,t.mb=1,t.nb=1,t.ob=-1,t.pb=-1,t.qb=1,t.rb=1,t.sb=-1,t.O=500,t.tb=500,t.fb.ub=500,t.N=new _0xbe8af6(t.fb),t.a=function(){var e=_0x50f7;t.N.vb(_0x504022().s.H.wb),setInterval((function(){t.S((function(e,i){console[_0x50f7(980)](e,i),t.xb(e,i)}))}),theoKzObjects[e(1621)]);let i=0;t.updatePacketInterval=function(n){theoKzObjects[e(1621)]=n,i=0,function e(){var n=_0x50f7;let o=Date.now();o-i>=theoKzObjects[n(1621)]&&(t.S((function(e,i){console[n(980)](e,i),t.xb(e,i)})),i=o),requestAnimationFrame(e)}()}},t.yb=function(e,i,n,o){t.lb=e,t.mb=i,t.nb=n,t.ob=o,t.zb()},t.Ab=function(e){t.kb=e,t.zb()},t.zb=function(){t.pb=t.lb-t.kb,t.qb=t.mb+t.kb,t.rb=t.nb-t.kb,t.sb=t.ob+t.kb},t.Qa=function(e,i){var n=_0x50f7;t.$a+=i,t.Za-=.2*t.Ya*i,t.z.Bb(),null!=t.db&&(2===t.cb||3===t.cb)&&(t.Cb(e,i),t.jb=4+t.ib*t.N.Db);for(var o=1e3/Math[n(1699)](1,i),a=0,s=0;s<t.Xa[n(811)]-1;s++)a+=t.Xa[s],t.Xa[s]=t.Xa[s+1];t.Xa[t.Xa[n(811)]-1]=o,t.Wa=(a+o)/t.Xa.length},t.Eb=function(e,i){return e>t.pb&&e<t.qb&&i>t.rb&&i<t.sb},t.Cb=function(e,i){var n,o,a=(t.$a+t.Za-t._a)/(t.ab-t._a);t.N.Fb(e,i),t.N.Gb(e,i,a,t.Eb);var s=0;for(n in t.hb){var r=t.hb[n];r.Fb(e,i),r.Gb(e,i,a,t.Eb),r.Hb&&r.Db>s&&(s=r.Db),!r.Ib&&(r.Jb<.005||!r.Hb)&&(r.Kb(),delete t.hb[r.Mb.Lb])}for(o in t.Ab(3*s),t.gb){var c=t.gb[o];c.Fb(e,i),c.Gb(e,i,t.Eb),c.Nb&&(c.Jb<.005||!t.Eb(c.Ob,c.Pb))&&(c.Kb(),delete t.gb[c.Mb.Lb])}},t.Qb=function(e,i){1===t.cb&&(t.cb=2,t.C());var n=_0x504022().j;t.bb=e,0===e?(t._a=n-95,t.ab=n,t.$a=t._a,t.Za=0):(t._a=t.ab,t.ab=t.ab+i);var o=t.$a+t.Za;t.Ya=(o-t._a)/(t.ab-t._a)},t.Rb=function(){if(1===t.cb||2===t.cb){t.cb=3;var e=t.db;setTimeout((function(){var i=_0x50f7;3===t.cb&&(t.cb=0),null!=e&&e===t.db&&(t.db[i(1240)](),t.db=null)}),5e3),t.B()}},t.ta=function(){var e=_0x50f7;return 2!==t.cb&&(t.cb=1,t.z.Sb(),t.gb={},t.hb={},t.N.Tb(),null!=t.db&&(t.db[e(1240)](),t.db=null),!0)},t.Ub=function(){t.db=null,t.z.Sb(),3!==t.cb&&t.A(),t.cb=0},t.za=function(e,i){t.Vb(e,(function(){var e=_0x50f7;if(console.log(i),wormxt_Obj[e(1053)]){var n=document[e(1609)](e(850))[e(873)],o=Math[e(543)](32,n[e(811)]),a=new ArrayBuffer(7+2*o),s=new DataView(a),r=0;s[e(783)](r,129),r+=1,s.setInt16(r,2800),r+=2,s[e(783)](r,0),r+=1,s[e(722)](r,128),r+=2,s[e(783)](r,o),r++;for(var c=0;c<o;c++)s[e(722)](r,n[e(355)](c)),r+=2;t.Wb(a)}else{o=Math[e(543)](2048,i[e(811)]),a=new ArrayBuffer(6+2*o);var l=new DataView(a);for(r=0,l[e(783)](r,129),r+=1,l[e(722)](r,2800),r+=2,l[e(783)](r,1),r+=1,l[e(722)](r,o),r+=2,c=0;c<o;c++)l[e(722)](r,i[e(355)](c)),r+=2;t.Wb(a)}}))},t.Ca=function(e,i,n){t.Vb(e,(function(){var e=_0x50f7,o=Math[e(543)](32,i[e(811)]),a=new ArrayBuffer(7+2*o),s=new DataView(a),r=0;s.setInt8(r,129),r+=1,s[e(722)](r,2800),r+=2,s[e(783)](r,0),r+=1,s[e(722)](r,n),r+=2,s[e(783)](r,o),r++;for(var c=0;c<o;c++)s[e(722)](r,i[e(355)](c)),r+=2;t.Wb(a),console[e(980)](a)}))},t.Wb=function(e){var i=_0x50f7;try{null!=t.db&&t.db.readyState===WebSocket[i(585)]&&t.db[i(803)](e)}catch(e){console[i(980)](i(1488)+e),t.Ub()}},t.xb=function(e,i){var n=255&((i?128:0)|_0x1c15ea(e)/_0x347c9a*128&127);if(t.eb!==n){var o=new ArrayBuffer(1);new DataView(o).setInt8(0,n),t.Wb(o),t.eb=n}},t.Vb=function(n,o){var a=_0x50f7,s=t.db=new WebSocket(n);s[a(344)]=a(1056),window[a(331)]=s[a(467)]=function(){var n=a;t.db===s&&(console[n(980)]("Socket opened"),i(),e=setInterval((()=>{var e=_0x50f7;if(t.db&&t.db[e(712)]===WebSocket[e(585)]){const i=new Uint8Array([]);t.db[e(803)](i)}}),1),o()),isPlaying=!0},window[a(1453)]=s.onclose=function(){var e=a;_wrmxt[e(1331)]=!1,t.db===s&&(console[e(980)](e(356)),i(),t.Ub()),isPlaying=!1},s[a(1098)]=function(e){var n=a;console[n(980)](e[n(1422)]),t.db===s&&(console[n(980)]("Socket error"),i(),t.Ub()),isPlaying=!1},s[a(1613)]=function(e){var i=a;if(t.db===s){t.z.Xb(e.data);let n=Date[i(1477)]();ping=n-ultimoMensaje,ultimoMensaje=n,tiempos[i(1357)](ping),tiempos[i(811)]>20&&tiempos[i(603)]();let o=Math[i(1345)](tiempos[i(337)](((t,e)=>t+e),0)/tiempos.length);lxpdserverping[i(513)]=o+"ms",lxpdserverping[i(1043)][i(733)]=getPingColor(o)}}},t}var _0x276ee=atob(_0x31e67f(1390)),_0x2a2d0c=atob(_0x31e67f(189)),_0x419a59=window[_0x31e67f(1482)];!_0x419a59&&(_0x419a59="en");var _0xa21762=void 0;switch(_0x419a59){case"uk":_0xa21762=_0x31e67f(1348);break;case"de":_0xa21762=_0x31e67f(1485);break;case"fr":_0xa21762="fr_FR";break;case"ru":_0xa21762=_0x31e67f(389);break;case"es":_0xa21762=_0x31e67f(1491);break;default:_0xa21762="en_US"}moment.locale(_0xa21762);var _0x3e2c60,_0x5b8d2e,_0x595c44,_0x5b734f,_0x3938bb=void 0;_0x5b8d2e=(_0x3e2c60={Yb:eval(atob(_0x31e67f(798)))}).Yb[atob(_0x31e67f(135))],_0x595c44=_0x3e2c60.Yb[atob("V1JBUF9NT0RFUw==")];var _0x46ab54={Zb:_0x3e2c60.Yb[atob(_0x31e67f(388))],$b:_0x3e2c60.Yb[atob(_0x31e67f(1638))],_b:_0x3e2c60.Yb[atob("VGV4dHVyZQ==")],ac:_0x3e2c60.Yb[atob(_0x31e67f(1287))],bc:_0x3e2c60.Yb[atob(_0x31e67f(516))],cc:_0x3e2c60.Yb[atob(_0x31e67f(1108))],dc:_0x3e2c60.Yb[atob("UmVjdGFuZ2xl")],ec:_0x3e2c60.Yb[atob(_0x31e67f(149))],fc:_0x3e2c60.Yb[atob(_0x31e67f(643))],gc:_0x3e2c60.Yb[atob("R2VvbWV0cnk=")],hc:_0x3e2c60.Yb[atob(_0x31e67f(1670))],ic:{jc:_0x5b8d2e[atob(_0x31e67f(1017))]},kc:{lc:_0x595c44[atob(_0x31e67f(1579))],CLAMP:_0x3e2c60.Yb[_0x31e67f(1566)].CLAMP}},_0x347c9a=2*Math.PI;_0x5b734f=[atob(_0x31e67f(876)),atob(_0x31e67f(880)),atob(_0x31e67f(1368)),atob("Z2V0RmxvYXQzMg=="),atob(_0x31e67f(1271))],DataView.prototype.mc=function(t){return this[_0x5b734f[0]](t)},DataView[_0x31e67f(316)].nc=function(t){return this[_0x5b734f[1]](t)},DataView[_0x31e67f(316)].oc=function(t){return this[_0x5b734f[2]](t)},DataView[_0x31e67f(316)].pc=function(t){return this[_0x5b734f[3]](t)},DataView[_0x31e67f(316)].qc=function(t){return this[_0x5b734f[4]](t)};var _0x5595d3,_0x2082d0,_0x5cdefc,_0x841b34,_0x27325c,_0x5f42a3,_0x2929a1,_0x1fdf98,_0x15326e,_0x570741,_0x24569d,_0x32fef3,_0x17efff,_0x1d7227,_0xd65c46,_0x120eb4,_0x32e624,_0x38a488,_0x4b2d42,_0xcb5fa4,_0x461787,_0x4cba2a,_0x455f5d,_0x2701c5,_0x2a6af0,_0x368e6c,_0x52f285,_0x7c168,_0x4a5e9e,_0x369b4e,_0x46cae3,_0xd36243,_0x5bc9f4,_0x494e90,_0xd5cd8d,_0x4d50b6,_0x5c4069,_0x5dae02,_0x4246a7,_0x5d4a2b,_0x2e22e5,_0xa2176e,_0x1cdaaf,_0x27c292,_0x39757c,_0x8344d0,_0x96874,_0x54ff8e,_0x54e680,_0x2d17c1,_0x18bbd5,_0x2c53cb,_0x3a9cf1,_0x49b808,_0x19cd15,_0x31c718,_0x322868,_0x359ba0,_0x31d67b,_0x3f5944,_0x4921e9,_0x292e66,_0x5e6c06,_0xa5c3bd,_0x5c9feb,_0x546070,_0x25281b,_0x2bc483,_0x13ef1f,_0x3210f6,_0xde137b,_0x377ecc,_0x5bbba4,_0x22e08b,_0x6b137b,_0x51daa2,_0x372478,_0x5b4c08,_0x4d4f44,_0x384cbc,_0x331236,_0x5bd173,_0x14df9d,_0x4410ea,_0x30ef39,_0x3d6460,_0x264ebf,_0xf04b5a,_0x1c2331,_0x319d5c,_0x41b58e,_0x348b47,_0x37525c,_0x5965ce,_0x41c771,_0x5a4e7c,_0xb8f9ac,_0x4669e0,_0x15b442,_0x1d32ec,_0x577f36,_0x5ad544,_0x49011a,_0x2ca6cb,_0x57cbff,_0xe4ee87,_0x4b006a,_0x4ee8ab,_0x329cf2,_0x917ac3,_0x5eddb0,_0xe87f7d=function(){var t=_0x31e67f;function e(t){this.rc=t,this.sc=!1,this.tc=1}return e.VELOCITY_TYPE=0,e[t(821)]=1,e[t(430)]=2,e[t(758)]=6,e[t(1139)]=3,e[t(1005)]=4,e.X10_TYPE=5,e}(),_0x4d44f1=function(){var t=_0x31e67f;function e(){this.uc=[],this.vc={},this.wc=null,this.xc=_0x480ca0.yc()}return e[t(316)].a=function(){this.L()},e[t(316)].W=function(){return null!=this.wc},e.prototype.zc=function(){return null!=this.wc?this.wc.revision:-1},e[t(316)].Ac=function(){return this.wc},e.prototype.L=function(){var e=t,i=this;$[e(1264)](_0x2a2d0c+e(1563),(function(t){t>i.zc()&&i.Bc()}))},e.prototype.Bc=function(){var e=t,i=this;$[e(1469)]({type:e(212),url:e(609),data:JSON[e(775)]({reason:1}),contentType:e(951),success:function(t){var n=e;theoKzObjects[n(462)]=t[n(462)],delete t[n(462)],theoKzObjects.pL=t[n(1307)],theoKzObjects[n(327)]=t[n(1302)],t[n(1270)]>i.zc()&&i.Cc(t),unlockSkinsPrivate(anApp)},error:function(t,i,n){var o=e;console.error(o(288),n)}})},e.prototype.ca=function(e){var i=t;this.uc[i(1357)](e)},e[t(316)].Dc=function(){return this.xc},e.prototype.Ec=function(){for(var e=t,i=0;i<this.uc[e(811)];i++)this.uc[i]()},e[t(316)].Fc=function(e,i){var n=t;!(e[n(1270)]<=this.zc())&&(function(t,e){var i=_0x50f7;for(var n in t)t[i(1135)](n)&&e(n,t[n])}(this.vc,(function(t,e){var o=n,a=i[t];(null==a||e.Gc!==a.Gc)&&(print(o(351)+t+o(1444)+e.Gc),e.Hc[o(1588)]())})),this.vc=i,this.wc=e,this.xc=_0x480ca0.Ic(this.wc,this.vc),this.Ec())},e[t(316)].Cc=function(e){var i=t,n={},o=[],a=[];for(var s in e.textureDict)if(e[i(1142)][i(1135)](s)){var r=e.textureDict[s],c=r[i(890)]?r[i(836)].startsWith(i(1152))?r[i(836)]:i(1100)+r[i(836)]:_0x2a2d0c+r[i(836)],l=r[i(1359)],x={id:s,path:c,fileSize:l,sha256:r[i(1663)]};o[i(1357)](x),a[i(1357)](x);try{n[s]=new _0x5cb360(c,_0x46ab54.$b[i(966)](r[i(1648)]||c))}catch(t){console[i(980)](c)}}this.Fc(e,n)},e}(),_0x480ca0=function(){var t=_0x31e67f;function e(){this.Jc=null,this.Kc=null,this.Lc=null,this.Mc=null,this.Nc=null,this.Oc=null,this.Pc=null,this.Qc=null,this.Rc=null,this.Sc=null,this.Tc=null,this.Uc=null,this.Vc=null,this.Wc=null,this.Xc=null,this.Yc=null}function i(t,e){var i=_0x50f7;for(var n in t)t[i(1135)](n)&&e(n,t[n])}return e.yc=function(){var t=_0x50f7,e=new _0x480ca0;return e.Jc={},e.Kc={Zc:null,$c:null},e.Lc={},e.Mc={Zc:null},e.Nc={},e.Oc={_c:t(1418),Zc:[],$c:[]},e.Pc={},e.Qc={ad:{},bd:e.Oc,cd:e.Kc},e.Rc={},e.Sc={Zc:[]},e.Tc={},e.Uc={Zc:[]},e.Vc={},e.Wc={Zc:[]},e.Xc={},e.Yc={Zc:[]},e},e.Ic=function(t,e){var n=_0x50f7,o=new _0x480ca0,a={};i(t.colorDict,(function(t,e){a[t]=e}));var s={};i(t[n(1163)],(function(t,i){var o=n;s[t]=new _0x50a17e(e[i[o(342)]].Hc,i.x,i.y,i.w,i.h,i.px,i.py,i.pw,i.ph)})),o.Nc={};for(var r=0;r<t[n(1302)][n(811)];r++){var c=t[n(1302)][r];o.Nc[c.id]=new(_0x480ca0[n(294)])("#"+a[c[n(569)]],c.base[n(1092)]((function(t){return s[t]})),c[n(399)][n(1092)]((function(t){return s[t]})))}var l=t[n(823)];o.Oc=new(_0x480ca0[n(294)])("#"+a[l.prime],l[n(468)][n(1092)]((function(t){return s[t]})),l[n(399)][n(1092)]((function(t){return s[t]}))),o.Rc={},i(t[n(1211)],(function(t,e){var i=n;t=parseInt(t),o.Rc[t]=new _0x480ca0.WearSkinData(e[i(468)][i(1092)]((function(t){return s[t[i(756)]]})))})),o.Sc=new(_0x480ca0[n(232)])(t.eyesUnknown[n(468)].map((function(t){return s[t[n(756)]]}))),o.Tc={},i(t[n(933)],(function(t,e){var i=n;t=parseInt(t),o.Tc[t]=new _0x480ca0.WearSkinData(e[i(468)].map((function(t){return s[t.region]})))})),o.Uc=new(_0x480ca0[n(232)])(t[n(1258)][n(468)][n(1092)]((function(t){return s[t[n(756)]]}))),o.Vc={},i(t[n(492)],(function(t,e){var i=n;t=parseInt(t),o.Vc[t]=new _0x480ca0.WearSkinData(e[i(468)].map((function(t){return s[t[i(756)]]})))})),o.Wc=new(_0x480ca0[n(232)])(t.glassesUnknown.base[n(1092)]((function(t){return s[t[n(756)]]}))),o.Xc={},i(t.hatDict,(function(t,e){var i=n;t=parseInt(t),o.Xc[t]=new(_0x480ca0[i(232)])(e.base[i(1092)]((function(t){return s[t[i(756)]]})))})),o.Yc=new(_0x480ca0[n(232)])(t.hatUnknown.base[n(1092)]((function(t){return s[t[n(756)]]}))),o.Jc={},i(t[n(404)],(function(t,e){var i=n;t=parseInt(t),o.Jc[t]=new(_0x480ca0[i(653)])(s[e[i(468)]],s[e[i(399)]])}));var x=t[n(315)];o.Kc=new _0x480ca0.PortionSkinData(s[x[n(468)]],s[x[n(399)]]),o.Lc={},i(t[n(1011)],(function(t,e){var i=n;t=parseInt(t),o.Lc[t]=new(_0x480ca0[i(1296)])(s[e[i(468)]])}));var d=t[n(928)];return o.Mc=new _0x480ca0.AbilitySkinData(s[d[n(468)]]),o.Pc={},i(t[n(688)],(function(t,e){var i=n;t=parseInt(t),o.Pc[t]=new(_0x480ca0[i(963)])(e[i(1664)],new(_0x480ca0[i(294)])("#"+a[e[i(795)][i(569)]],[],e[i(795)].glow[i(1092)]((function(t){return s[t]}))),new(_0x480ca0[i(653)])([],s[e[i(894)][i(399)]]))})),o.Qc=new(_0x480ca0[n(963)])({},o.Oc,o.Kc),o},e.prototype.dd=function(t){return this.Nc[t]||this.Oc},e.prototype.ed=function(t){return this.Pc[t]||this.Qc},e.prototype.fd=function(t){return this.Rc[t]||this.Sc},e[t(316)].gd=function(t){return this.Tc[t]||this.Uc},e[t(316)].hd=function(t){return this.Vc[t]||this.Wc},e.prototype.jd=function(t){return this.Xc[t]||this.Yc},e.prototype.kd=function(t){return this.Jc[t]||this.Kc},e[t(316)].ld=function(t){return this.Lc[t]||this.Mc},e[t(963)]=function(t,e,i){this.ad=t,this.bd=e,this.cd=i},e[t(294)]=function(t,e,i){this._c=t,this.Zc=e,this.$c=i},e.WearSkinData=function(t){this.Zc=t},e[t(653)]=function(t,e){this.Zc=t,this.$c=e},e[t(1296)]=function(t){this.Zc=t},e}(),_0x5f491b=function(){var t=_0x31e67f;function e(){var t=_0x50f7;this.md=_0x5f491b[t(1033)].ua,this.nd=!1,this.od=!1,this.pd=null,this.qd=null}e[t(316)].a=function(){},e[t(316)].rd=function(t){this.od=t},e.prototype.G=function(t){this.md=t,this.sd()},e.prototype.td=function(t){this.nd=t,this.sd()},e[t(316)].sd=function(){},e.prototype.ud=function(e,i){var n=t;if(!_0x504022().p.W)return null;var o=e[i];return null==o||0==o[n(811)]?null:o[Math[n(1173)](Math[n(1679)]()*o[n(811)])][n(1232)]()},e.prototype.vd=function(e,i,n){var o=t;if(this.od&&!(n<=0)){var a=this.ud(e,i);null!=a&&(a[o(677)]=Math[o(543)](1,n),a.play())}},e[t(316)].wd=function(t,e){this.md.xd&&this.vd(app.q.yd,t,e)},e.prototype.zd=function(t,e){this.md.Ad&&this.vd(app.q.Bd,t,e)},e[t(316)].Cd=function(){},e[t(316)].Dd=function(){},e[t(316)].Ed=function(){},e[t(316)].Fd=function(){},e[t(316)].Gd=function(){},e[t(316)].Hd=function(){},e.prototype.Id=function(t,e,i){},e[t(316)].Jd=function(t){},e[t(316)].Kd=function(t){},e[t(316)].Ld=function(t){},e[t(316)].Md=function(t){},e[t(316)].Nd=function(t){},e[t(316)].Od=function(t){},e[t(316)].Pd=function(t){},e.prototype.Qd=function(t){},e[t(316)].Rd=function(t){},e[t(316)].Sd=function(t){},e[t(316)].Td=function(t){},e[t(316)].Ud=function(t){},e[t(316)].Vd=function(t){},e[t(316)].Wd=function(t){},e.prototype.Xd=function(t,e){},e[t(316)].Yd=function(t){},e[t(316)].Zd=function(t,e,i){},function(){var e=t;function n(t){var e=_0x50f7;this.$d=new i(t,.5),this.$d._d[e(1019)]=!0,this.ae=!1}n[e(316)].be=function(t){t?this.b():this.ce()},n[e(316)].b=function(){!this.ae&&(this.ae=!0,this.$d.de=0,this.$d.ee(1500,100))},n.prototype.ce=function(){this.ae&&(this.ae=!1,this.$d.fe(1500,100))}}(),function(){var e=t;function n(t){var e=_0x50f7;this.ge=t.map((function(t){return new i(t,.4)})),o(this.ge,0,this.ge[e(811)]),this.he=null,this.ie=0,this.ae=!1,this.je=1e4}function o(t,e,i){for(var n=_0x50f7,o=i-1;o>e;o--){var a=e+Math[n(1173)](Math[n(1679)]()*(o-e+1)),s=t[o];t[o]=t[a],t[a]=s}}n.prototype.be=function(t){t?this.b():this.ce()},n[e(316)].b=function(){!this.ae&&(this.ae=!0,this.ke(1500))},n[e(316)].ce=function(){this.ae&&(this.ae=!1,null!=this.he&&this.he.fe(800,50))},n[e(316)].ke=function(t){var i=e;if(this.ae){null==this.he&&(this.he=this.le()),this.he._d.currentTime+this.je/1e3>this.he._d.duration&&(this.he=this.le(),this.he._d[i(1572)]=0),console[i(980)](i(769)+this.he._d[i(518)]+"', change in (ms) "+(1e3*(this.he._d[i(1076)]-this.he._d.currentTime)-this.je)),this.he.de=0,this.he.ee(t,100);var n=1e3*(this.he._d[i(1076)]-this.he._d.currentTime)-this.je,o=this,a=setTimeout((function(){var t=i;o.ae&&a==o.ie&&(o.he.fe(o.je,100),o.he=o.le(),o.he._d[t(1572)]=0,o.ke(o.je))}),n);this.ie=a}},n[e(316)].le=function(){var t=e,i=this.ge[0],n=Math[t(1699)](1,this.ge[t(811)]/2);return o(this.ge,n,this.ge.length),this.ge.push(this.ge[t(603)]()),i}}();var i=function(){var e=t;function i(t,e){this._d=t,this.me=e,this.de=0,t.volume=0,this.ne=0,this.oe=!1}return i[e(316)].ee=function(t,i){var n=e;console[n(980)](n(536)+this._d[n(518)]),this.pe(!0,t,i)},i[e(316)].fe=function(t,i){var n=e;console[n(980)](n(1198)+this._d[n(518)]),this.pe(!1,t,i)},i[e(316)].pe=function(t,i,n){var o=e;this.oe&&clearInterval(this.ne);var a=this,s=1/(i/n),r=setInterval((function(){var e=_0x50f7;a.oe&&r!=a.ne?clearInterval(r):t?(a.de=Math[e(543)](1,a.de+s),a._d[e(677)]=a.de*a.me,a.de>=1&&(a.oe=!1,clearInterval(r))):(a.de=Math[e(1699)](0,a.de-s),a._d.volume=a.de*a.me,a.de<=0&&(a._d[e(174)](),a.oe=!1,clearInterval(r)))}),n);this.oe=!0,this.ne=r,this._d[o(666)]()},i}();return e[t(1033)]={ua:{qe:!1,re:!1,Ad:!0,xd:!1},F:{qe:!1,re:!0,Ad:!0,xd:!1},H:{qe:!0,re:!1,Ad:!1,xd:!0},Ea:{qe:!1,re:!1,Ad:!0,xd:!1},qa:{qe:!1,re:!1,Ad:!1,xd:!1}},e}(),_0x339075=function(){var t=_0x31e67f;function e(t){var e=_0x50f7;this.se=t,this.te=t.get()[0],this.ue=new _0x46ab54.ac({view:this.te,backgroundColor:0,antialias:!0}),this.ve=new _0x46ab54.Zb,this.ve[e(1642)]=!0,this.we=[],this.xe=[],this.ye=[],this.a()}var i=function(t,e){return t+Math[_0x50f7(1679)](e-t)},n=function(t){var e=_0x50f7;return t>=0?Math[e(757)](t%_0x347c9a):Math[e(757)](t%_0x347c9a+_0x347c9a)},o=[{ze:i(0,_0x347c9a),Ae:i(0,_0x347c9a),Be:i(.1,.5),Ce:1,De:2,Ee:16737962},{ze:i(0,_0x347c9a),Ae:i(0,_0x347c9a),Be:i(.1,.5),Ce:1.5,De:1.5,Ee:16746632},{ze:i(0,_0x347c9a),Ae:i(0,_0x347c9a),Be:i(.1,.5),Ce:2,De:1,Ee:16755302},{ze:i(0,_0x347c9a),Ae:i(0,_0x347c9a),Be:i(.1,.5),Ce:3,De:2,Ee:11206502},{ze:i(0,_0x347c9a),Ae:i(0,_0x347c9a),Be:i(.1,.5),Ce:2.5,De:2.5,Ee:8978312},{ze:i(0,_0x347c9a),Ae:i(0,_0x347c9a),Be:i(.1,.5),Ce:2,De:3,Ee:6750122},{ze:i(0,_0x347c9a),Ae:i(0,_0x347c9a),Be:i(.1,.5),Ce:5,De:4,Ee:6728447},{ze:i(0,_0x347c9a),Ae:i(0,_0x347c9a),Be:i(.1,.5),Ce:4.5,De:4.5,Ee:8947967},{ze:i(0,_0x347c9a),Ae:i(0,_0x347c9a),Be:i(.1,.5),Ce:4,De:5,Ee:11167487}];return e.prototype.a=function(){var t=_0x50f7,e=_0x504022();this.ue[t(1630)]=0,this.we=Array(o[t(811)]);for(var i=0;i<this.we[t(811)];i++)this.we[i]=new _0x46ab54.ec,this.we[i].texture=e.q.Fe,this.we[i].anchor[t(557)](.5),this.we[i][t(770)]=1;this.xe=Array(e.q.Ge[t(811)]);for(var n=0;n<this.xe.length;n++)this.xe[n]=new _0x46ab54.ec,this.xe[n].texture=e.q.Ge[n],this.xe[n][t(428)][t(557)](.5),this.xe[n].zIndex=2,this.ve.addChild(this.xe[n]);this.ye=Array(this.xe[t(811)]);for(var a=0;a<this.ye.length;a++)this.ye[a]={He:Math[t(1679)](),Ie:Math[t(1679)](),Je:Math[t(1679)](),Ke:Math[t(1679)]()};this.Ra()},e.sc=!1,e.Le=function(t){e.sc=t},e[t(316)].Ra=function(){var e=t,i=window[e(1647)]?window[e(1647)]:1,n=this.se.width(),o=this.se.height();this.ue.resize(n,o),this.ue[e(1347)]=i,this.te.width=i*n,this.te.height=i*o;for(var a=.8*Math.max(n,o),s=0;s<this.we[e(811)];s++)this.we[s][e(1660)]=a,this.we[s][e(812)]=a},e.prototype.Pa=function(i,a){var s,r,c=t;if(e.sc){for(var l=i/1e3,x=a/1e3,d=this.se[c(1660)](),h=this.se[c(812)](),u=0;u<this.we.length;u++){var f=o[u%o[c(811)]],p=this.we[u],_=n(f.Ce*(.08*l)+f.Ae),b=(r=void 0,r=_0x50f7,(s=f.De*(.08*l))>=0?Math.sin(s%_0x347c9a):Math[r(1113)](s%_0x347c9a+_0x347c9a)),v=.2+.2*n(f.Ae+f.Be*l);p[c(538)]=f.Ee,p.alpha=v,p[c(1443)].set(d*(.2+.5*(_+1)*.6),h*(.1+.5*(b+1)*.8))}for(var m=.05*Math[c(1699)](d,h),g=0;g<this.xe[c(811)];g++){var k=this.ye[g],y=this.xe[g],w=_0x347c9a*g/this.xe[c(811)]+k.He;k.Ke+=k.Ie*x,k.Ke>1.3&&(k.He=Math.random()*_0x347c9a,k.Ie=.66*(.09+.07*Math[c(1679)]()),k.Je=.15+.7*Math[c(1679)](),k.Ke=-.3);var j=k.Je+.03*Math[c(1113)](6*Math[c(1113)](w+.48*l)),S=k.Ke,I=_0x5b4c95(Math[c(1113)](Math.PI*S),.1,1),M=.5*(.4+.5*(1+Math[c(1113)](w+.12*l))*1.2),$=w+2*k.Ie*l;y[c(647)]=I,y[c(1443)][c(557)](d*j,h*S),y[c(221)]=$;var T=y[c(342)][c(1660)]/y[c(342)].height;y[c(1660)]=M*m,y.height=M*m*T}this.ue[c(354)](this.ve,null,!0)}},e}(),_0x216031=function(){var t=_0x31e67f;function e(){}return e.Na=t(991),e.ya=t(261),e.Me=t(954),e.Ne=t(1080),e.Oe=t(383),e.va=t(1392),e.Aa=t(423),e.Ba=t(795),e.d="prerollCount",e.La="shared",e}(),_0xa6f668=(_0x5f3f37=[[-28.06744,64.95936],[-10.59082,72.91964],[14.11773,81.39558],[36.51855,81.51827],[32.82715,71.01696],[31.64063,69.41897],[29.41419,68.43628],[30.64379,67.47302],[29.88281,66.76592],[30.73975,65.50385],[30.73975,64.47279],[31.48682,63.49957],[32.18994,62.83509],[28.47726,60.25122],[28.76221,59.26588],[28.03711,58.60833],[28.38867,57.53942],[28.83955,56.2377],[31.24512,55.87531],[31.61865,55.34164],[31.92627,54.3037],[33.50497,53.26758],[32.73926,52.85586],[32.23389,52.4694],[34.05762,52.44262],[34.98047,51.79503],[35.99121,50.88917],[36.67236,50.38751],[37.74902,50.51343],[40.78125,49.62495],[40.47363,47.70976],[38.62799,46.92028],[37.53193,46.55915],[36.72182,44.46428],[39.68218,43.19733],[40.1521,43.74422],[43.52783,43.03678],[45.30762,42.73087],[46.99951,41.98399],[47.26318,40.73061],[44.20009,40.86309],[45.35156,39.57182],[45.43945,36.73888],[35.64789,35.26481],[33.13477,33.65121],[21.47977,33.92486],[12.16268,34.32477],[11.82301,37.34239],[6.09112,38.28597],[-1.96037,35.62069],[-4.82156,35.60443],[-7.6498,35.26589],[-16.45237,37.44851],[-28.06744,64.95936]],{Oa:function(t,e){return function(t,e,i){for(var n=!1,o=i[_0x50f7(811)],a=0,s=o-1;a<o;s=a++)i[a][1]>e!=i[s][1]>e&&t<(i[s][0]-i[a][0])*(e-i[a][1])/(i[s][1]-i[a][1])+i[a][0]&&(n=!n);return n}(e,t,_0x5f3f37)}}),_0x3ba4d4=function(){var t=_0x31e67f;function e(t,e){var n=void 0,a=void 0;return e?(n=1.3,a=i(.93,.34,.25)):(n=1.1,a=i(.96,.82,0)),new o(t,a,!0,.5,n,.5,.7)}function i(t,e,i){return((255*t&255)<<16)+((255*e&255)<<8)+(255*i&255)}var n=_0x499ed3(_0x46ab54.Zb,(function(){_0x46ab54.Zb.call(this),this.Pe=[],this.Qe=0}));n[t(316)].Re=function(e){var n=t;if(this.Qe+=e,this.Qe>=1){var a=Math[n(1173)](this.Qe);this.Qe-=a;var s=function(t){var e,n=_0x50f7;e=t>0?"+"+Math[n(1173)](t):t<0?"-"+Math[n(1173)](t):"0";var a=Math.min(1.5,.5+t/600),s=void 0;if(t<1)s=n(551);else if(t<30){var r=(t-1)/29;s=i(1*(1-r)+.96*r,1*(1-r)+.82*r,1*(1-r)+0*r)}else if(t<300){var c=(t-30)/270;s=i(.96*(1-c)+.93*c,.82*(1-c)+.34*c,0*(1-c)+.25*c)}else if(t<700){var l=(t-300)/400;s=i(.93*(1-l)+.98*l,.34*(1-l)+0*l,.25*(1-l)+.98*l)}else s=i(.98,0,.98);var x=Math[n(1679)](),d=1+.5*Math.random();return new o(e,s,!0,.5,a,x,d)}(a);this[n(145)](s),this.Pe.push(s)}},n[t(316)].Se=function(i){var n=t;if(i){lxpdhscount+=1,turkData.hs=lxpdhscount,lxpdhscount%10?soundEnabled&&lxpdhssound[n(666)]():soundEnabled&&lxpdlaughsound[n(666)]();var o=e("Headshot!",!0);this[n(145)](o),this.Pe[n(1357)](o)}else lxpdkillcount+=1,o=e(n(618),!1),this.addChild(o),this.Pe[n(1357)](o)},n[t(316)].Te=function(e,i){for(var n=t,o=_0x504022().s.H.wb,a=o.ue[n(1660)]/o.ue[n(1347)],s=o.ue[n(812)]/o.ue[n(1347)],r=0;r<this.Pe[n(811)];){var c=this.Pe[r];c.Ue=c.Ue+i/2e3*c.Ve,c.We=c.We+i/2e3*c.Xe,c[n(647)]=.5*Math[n(1113)](Math.PI*c.We),c[n(1499)].set(c.Ue),c[n(1443)].x=a*(.25+.5*c.Ye),c[n(1443)].y=c.Ze?s*(1-.5*(1+c.We)):s*(1-.5*(0+c.We)),c.We>1&&(_0x16c2d8(c),this.Pe[n(1688)](r,1),r--),r++}};var o=_0x499ed3(_0x46ab54.fc,(function(e,i,n,o,a,s,r){var c=t;_0x46ab54.fc.call(this,e,{fill:i,fontFamily:fonts[currentFontIndex],fontSize:36}),this[c(428)][c(557)](.5),this.Ze=n,this.Ue=o,this.Ve=a,this.Ye=s,this.We=0,this.Xe=r}));return n}(),_0x5cb360=function(t,e){this.Gc=t,this.Hc=e},_0x398dbe={$e:0,_e:16},_0x552076=function(){function t(){this.af=_0x398dbe.$e,this.bf=0,this.ub=500,this.cf=4e3,this.df=7e3}return t.TEAM_DEFAULT=0,t.prototype.ef=function(){return 1.02*this.ub},t}(),_0x443c92=function(){var t=_0x31e67f;function e(t){var e=_0x50f7;this.se=t,this.te=t.get()[0],this.ue=new _0x46ab54.ac({view:this.te,backgroundColor:0,antialias:!0}),this.ve=new _0x46ab54.Zb,this.ve[e(1642)]=!0,this.ff=Math[e(1173)](360*Math[e(1679)]()),this.gf=0,this.hf=0,this.if=15,this.jf=.5,this.kf=0,this.lf=new _0x395281,this.mf=new _0x46ab54.bc,this.nf=new _0x46ab54.Zb,this.pf=new _0x46ab54.Zb,this.pf[e(1642)]=!0,this.qf=new _0x46ab54.Zb,this.rf=new _0x46ab54.Zb,this.rf[e(1642)]=!0,this.sf=new _0x46ab54.Zb,this.tf=new s,this.uf=new i,this.vf=new o,this.wf=new _0x3ba4d4,this.xf=new _0x46ab54.ec,this.yf={x:0,y:0},this.a()}e.prototype.a=function(){var t=_0x50f7;if(lxpdjoysticks=[],lxpdjoystick=-1,(lxpdservertext=new _0x46ab54.fc("",{fontFamily:fonts[currentFontIndex],fontSize:9,fill:t(924),align:t(323)})).x=25,(lxpdserverping=new _0x46ab54.fc("",{fontFamily:fonts[currentFontIndex],fontSize:9,fill:t(1255),align:t(323)})).x=85,(lxpdserverfps=new _0x46ab54.fc("",{fontFamily:fonts[currentFontIndex],fontSize:9,fill:"#ffffff",align:t(323)})).x=130,lxpdmobilecheck()){lxpdjoysticks[0]=new Joystick({onChange(e){var i=t;e[i(1209)]=e.angle*(Math.PI/180),anApp.s.H.sk=e.aradian<=Math.PI?-1*e[i(1209)]:Math.PI-(e[i(1209)]-Math.PI)}}),lxpdjoysticks[0][t(267)]=!1,lxpdjoysticks[1]=new Joystick({outer:_0x46ab54.ec[t(966)]("https://i.imgur.com/UKIZZmr.png"),inner:_0x46ab54.ec[t(966)](t(899)),onChange(e){var i=t;e[i(1209)]=e[i(1282)]*(Math.PI/180),anApp.s.H.sk=e[i(1209)]<=Math.PI?-1*e[i(1209)]:Math.PI-(e[i(1209)]-Math.PI)}}),lxpdjoysticks[1][t(267)]=!1,lxpdjoysticks[2]=new Joystick({outer:_0x46ab54.ec.from(t(707)),inner:_0x46ab54.ec[t(966)](t(1156)),onChange(e){var i=t;e[i(1209)]=e[i(1282)]*(Math.PI/180),anApp.s.H.sk=e.aradian<=Math.PI?-1*e[i(1209)]:Math.PI-(e.aradian-Math.PI)}}),lxpdjoysticks[2][t(267)]=!1;for(let e=0;e<lxpdjoysticks[t(811)];e++)this.rf[t(145)](lxpdjoysticks[e])}(lxpdzoomtext=new _0x46ab54.fc("",{align:t(323),fill:t(384),fontSize:9,lineJoin:"round",whiteSpace:"normal",wordWrap:!0,fontWeight:t(866)})).x=100,lxpdzoomtext.y=90,this.rf[t(145)](lxpdzoomtext),this.ue[t(1630)]=0,this.lf.zf[t(770)]=10,this.ve[t(145)](this.lf.zf),(lxpdBackground=new _0x46ab54.bc)[t(770)]=20,this.ve[t(145)](lxpdBackground),(ctxHeadshotLine=new _0x46ab54.bc)[t(770)]=20,this.ve[t(145)](ctxHeadshotLine),this.mf[t(770)]=20,this.ve[t(145)](this.mf),this.nf[t(770)]=5e3,this.ve.addChild(this.nf),this.pf[t(770)]=5100,this.ve.addChild(this.pf),this.qf.zIndex=1e4,this.ve[t(145)](this.qf),this.xf[t(342)]=_0x504022().q.Af,this.xf.anchor[t(557)](.5),this.xf[t(770)]=1,this.rf[t(145)](this.xf),this.sf[t(647)]=.6,this.sf[t(770)]=2,this.rf[t(145)](this.sf),this.wf[t(770)]=3,this.rf[t(145)](this.wf),this.tf[t(647)]=.8,this.tf[t(770)]=4,this.rf[t(145)](this.tf),this.uf[t(770)]=5,this.rf[t(145)](this.uf),this.vf[t(770)]=6,this.rf.addChild(this.vf),this.Ra()},e.prototype.Ra=function(){var t=_0x50f7,e=window[t(1647)]?window.devicePixelRatio:1,i=this.se[t(1660)](),n=this.se.height();this.ue[t(130)](i,n),this.ue.resolution=e,this.te[t(1660)]=e*i,this.te[t(812)]=e*n,this.jf=Math[t(543)](Math[t(543)](i,n),.625*Math[t(1699)](i,n)),this.xf[t(1443)].x=i/2,this.xf[t(1443)].y=n/2,this.xf[t(1660)]=i,this.xf[t(812)]=n,this.tf[t(1443)].x=60,this.tf.position.y=60,this.uf[t(1443)].x=110,this.uf.position.y=10,this.vf[t(1443)].x=i-225,this.vf[t(1443)].y=1,this.tf[t(145)](ctx[t(1174)]),this.tf[t(145)](ctx.teamsContainer),theoKzObjects[t(1304)]?this.tf[t(145)](lxpdTopHS_RecordHs):_0x16c2d8(lxpdTopHS_RecordHs),theoKzObjects.killFeed?this.tf[t(145)](ctx[t(254)]):_0x16c2d8(ctx[t(254)])},e.prototype.Te=function(t,e){var i=_0x50f7,n=_0x504022();this.if=15,this.nf[i(606)](),this.pf[i(606)](),this.qf[i(606)](),this.sf.removeChildren(),this.lf.Bf(t.af==_0x398dbe.$e?n.q.Cf:n.q.Df),theoKzObjects&&theoKzObjects[i(1356)]||theoKzObjects[i(659)]?setSectorsGame():(lxpdBackground.removeChildren(),lxpdBackground[i(1238)](),lxpdBackground.lineStyle(2,16711680,1),lxpdBackground[i(837)](0,0,500),lxpdBackground[i(1021)]()),this.vf.Ef=e,this.sf.visible=e},e.prototype.Pa=function(t,e){var i=_0x50f7;if(!(this.ue[i(1660)]<=5)){var n=_0x504022(),o=n.o.N,a=this.ue[i(1660)]/this.ue[i(1347)],s=this.ue[i(812)]/this.ue[i(1347)];this.if=_0x5d6d0c(this.if,n.o.jb,e,.002);var r=this.jf/(this.if*lxpdmultiplier),c=n.o.N.Ff[_0xe87f7d[i(758)]],l=null!=c&&c.sc;this.kf=_0x11b0e7(0,1,this.kf+e/1e3*(.1*(l?1:0)-this.kf)),this.xf[i(647)]=this.kf,this.ff=this.ff+.01*e,this.ff>360&&(this.ff=this.ff%360),this.gf=Math[i(1113)](t/1200*2*Math.PI);var x=o.Gf();this.yf.x=_0x1bc4d9(this.yf.x,x.x,e,theoKzObjects[i(476)],33.333),this.yf.y=_0x1bc4d9(this.yf.y,x.y,e,.5,33.333);var d=a/r/2,h=s/r/2;n.o.yb(this.yf.x-1.3*d,this.yf.x+1.3*d,this.yf.y-1.3*h,this.yf.y+1.3*h),this.lf.Te(this.yf.x,this.yf.y,2*d,2*h);var u=n.o.fb.ub;this.ve[i(1499)].x=r,this.ve[i(1499)].y=r,this.ve.position.x=a/2-this.yf.x*r,this.ve[i(1443)].y=s/2-this.yf.y*r,theoKzObjects[i(786)]&&(window.coords={playerX:this.tf.Jf[i(1443)].x,playerY:this.tf.Jf[i(1443)].y}),turkData.playerX=this.tf.Jf[i(1443)].x,turkData[i(990)]=this.tf.Jf[i(1443)].y,theoKzObjects[i(995)]?(ctxHeadshotLine[i(1238)](),ctxHeadshotLine.lineStyle(.1,"0x"+theoObjects[i(669)],1),ctxHeadshotLine[i(257)](x.x,x.y),ctxHeadshotLine[i(1597)](0,0),ctxHeadshotLine[i(1021)]()):ctxHeadshotLine[i(1238)]();var f=Math[i(600)](x.x,x.y);if(f>u-10){this.hf=_0x11b0e7(0,1,1+(f-u)/10);var p=Math.cos(this.ff*_0x347c9a/360)*(1-this.hf)+1*this.hf,_=(Math[i(233)](Math[i(1113)](this.ff*_0x347c9a/360)*(1-this.hf),p)+_0x347c9a)%_0x347c9a*360/_0x347c9a,b=this.hf*(.5+.5*this.gf),v=_0x314559(Math.floor(_),1,.75-.25*this.hf);this.lf.Hf(v[0],v[1],v[2],.1+.2*b)}else{this.hf=0;var m=_0x314559(Math[i(1173)](this.ff),1,.75);this.lf.Hf(m[0],m[1],m[2],.1)}for(var g=0;g<this.sf[i(1191)][i(811)];g++){var k=this.sf[i(1191)][g];k[i(1443)].x=a/2-(this.yf.x-k.If.x)*r,k[i(1443)].y=s/2-(this.yf.y-k.If.y)*r}this.tf.Jf[i(1443)].x=x.x/u*this.tf.Kf,this.tf.Jf.position.y=x.y/u*this.tf.Kf,this.tf[i(393)][i(1443)].x=-25-this.tf[i(393)][i(1660)]/2,this.tf.WLp[i(513)]=parseInt(lxpdhscount),this.tf[i(393)][i(1043)][i(733)]="0x"+theoObjects[i(1527)],this.tf[i(448)].position.x=25-this.tf[i(448)][i(1660)]/2,this.tf[i(448)][i(513)]=parseInt(lxpdkillcount),this.tf[i(448)][i(1043)].fill="0x"+theoObjects[i(240)],this.uf.Qa(t),this.wf.Te(t,e),this.ue[i(354)](this.ve,null,!0),this.ue[i(354)](this.rf,null,!1);let y=performance[i(1477)](),w=y-lastFrameTime;lastFrameTime=y;let j=1e3/w;frameTimes[i(1357)](j),frameTimes[i(811)]>20&&frameTimes[i(603)]();let S=Math[i(1345)](frameTimes.reduce(((t,e)=>t+e),0)/frameTimes.length);lxpdserverfps[i(513)]=S+i(1692),lxpdserverfps[i(1043)].fill=getFPSColor(S),fpsBox.textContent="FPS: "+S,fpsBox.style.color=getFPSColor(S),hstext[i(1043)][i(733)]="0x"+theoObjects.hsTextColor,killtext[i(1043)][i(733)]="0x"+theoObjects[i(240)],circle[i(538)]="0x"+theoObjects[i(262)]}},e.prototype.Lf=function(t,e){var i=_0x50f7;e.Of.Nf.Mf()[i(770)]=(t+2147483648)/4294967296*5e3,this.nf[i(145)](e.Of.Pf.Mf()),this.pf.addChild(e.Of.Nf.Mf())},e[t(316)].Qf=function(e,i,n){var o=t;$(o(1246)).text(" : "+n[o(513)]),i.Rf[o(770)]=_0x504022().o.fb.bf?0:10+(e+32768)/65536*5e3,this.qf[o(145)](i.Rf),e!=_0x504022().o.fb.bf&&this.sf[o(145)](n)};var i,n,o,a,s=_0x499ed3(_0x46ab54.Zb,(function(){var e=t;_0x46ab54.Zb.call(this),this.Kf=40,this.Sf=new _0x46ab54.ec,this.Sf[e(428)][e(557)](.5),this.Jf=new _0x46ab54.bc,(circle=new _0x46ab54.bc).beginFill("black",.4),circle.drawCircle(0,0,this.Kf),circle[e(1021)](),circle[e(597)](2,14930642),circle[e(837)](0,0,this.Kf),circle[e(257)](0,-this.Kf),circle.lineTo(0,+this.Kf),circle.moveTo(-this.Kf,0),circle.lineTo(+this.Kf,0),circle.endFill(),this.Sf[e(647)]=.5,this.Jf[e(770)]=2,this.Jf[e(647)]=.9,this.Jf[e(549)](turkData[e(855)]),this.Jf[e(837)](0,0,.12*this.Kf),this.Jf[e(1021)](),this.Jf[e(597)](1,e(251)),this.Jf[e(837)](0,0,.12*this.Kf),this.Jf[e(1021)](),this[e(145)](circle),this[e(145)](this.Sf),this[e(145)](this.Jf),(lxpdMinimapSombra=new _0x46ab54.ec)[e(428)][e(557)](.5),lxpdMinimapSombra[e(647)]=.5,(lxpdMinimapTeamCode=new _0x46ab54.bc)[e(549)]("black",.4),lxpdMinimapTeamCode[e(837)](0,0,40),lxpdMinimapTeamCode[e(1021)](),lxpdMinimapTeamCode[e(597)](2,14930642),lxpdMinimapTeamCode[e(837)](0,0,40),lxpdMinimapTeamCode[e(257)](0,-40),lxpdMinimapTeamCode.lineTo(0,40),lxpdMinimapTeamCode[e(257)](-40,0),lxpdMinimapTeamCode[e(1597)](40,0),lxpdMinimapTeamCode[e(1021)](),lxpdMinimapTeamCode.y=220,lxpdMinimapTeamCode.x=150,lxpdMinimapTeamCode[e(145)](lxpdMinimapSombra),console[e(980)](this.Kf),(hstext=new _0x46ab54.fc("HS",{fontFamily:fonts[currentFontIndex],fontSize:12,fill:"0x"+theoObjects[e(1527)],align:e(323)}))[e(1443)].y=50,hstext.position.x=-35,(killtext=new _0x46ab54.fc(e(1565),{fontFamily:fonts[currentFontIndex],fontSize:12,fill:"0x"+theoObjects[e(240)],align:e(323)}))[e(1443)].y=50,killtext[e(1443)].x=10,this.addChild(hstext),this[e(145)](killtext),lxpdkillcount=0,lxpdhscount=0,this[e(393)]=new _0x46ab54.fc("",{fontFamily:fonts[currentFontIndex],fontSize:9,fill:e(1418),align:"center"}),this[e(393)][e(1443)].y=67,this.WLp[e(1443)].x=-45,this[e(448)]=new _0x46ab54.fc("",{fontFamily:fonts[currentFontIndex],fontSize:9,fill:e(1418),align:"center"}),this.MLb[e(1443)].y=67,this[e(448)][e(1443)].x=20,this[e(145)](this[e(393)]),this[e(145)](this[e(448)]);let i=new _0x46ab54._b(_0x46ab54.$b[e(966)](e(1218))),n=new _0x46ab54.ec;n[e(342)]=i,n[e(1660)]=100,n.height=100,n.x=-50,n.y=-50,this[e(145)](n);let o=new _0x46ab54.ec;if(o[e(342)]=i,o.width=100,o[e(812)]=100,o.x=-50,o.y=-50,lxpdMinimapTeamCode[e(145)](o),lxpdmobilecheck()){var a=document[e(1609)](e(338));lxpdmobilecontrol=0,lxpdmobilecontrol2=-1,lxpdmobileprediction=0,lxpdmobilepredictiontextures=[],(lxpdmobilecontroltextures=[])[0]=new(_0x46ab54.ec[e(966)])(e(163)),lxpdmobilecontroltextures[0][e(1660)]=80,lxpdmobilecontroltextures[0][e(812)]=40,lxpdmobilecontroltextures[0].x=.5*a[e(940)]-100,lxpdmobilecontroltextures[0].y=-60,lxpdmobilecontroltextures[0].on(e(1103),(()=>{var t=e;lxpdmobilecontrol++,lxpdjoystick=0,lxpdmobileprediction=-1;for(let e=0;e<lxpdmobilepredictiontextures.length;e++)lxpdmobilepredictiontextures[e][t(267)]=!1;for(let t=0;t<lxpdmobilecontroltextures.length;t++)lxpdmobilecontroltextures[t].visible=lxpdmobilecontrol===t})),lxpdmobilecontroltextures[1]=new(_0x46ab54.ec[e(966)])("https://i.imgur.com/9ui2KwE.png"),lxpdmobilecontroltextures[1].width=80,lxpdmobilecontroltextures[1][e(812)]=40,lxpdmobilecontroltextures[1].x=.5*a[e(940)]-100,lxpdmobilecontroltextures[1].y=-60,lxpdmobilecontroltextures[1][e(267)]=!1,lxpdmobilecontroltextures[1].on(e(1103),(()=>{var t=e;if(1===lxpdmobilecontrol2){lxpdmobilearrowtexture[t(267)]=!1,lxpdmobilepeedtexture[t(267)]=!1,lxpdjoystick=1,lxpdmobilecontrol++;for(let e=0;e<lxpdmobilecontroltextures[t(811)];e++)lxpdmobilecontroltextures[e].visible=lxpdmobilecontrol===e}else{0==++lxpdmobilecontrol2&&(lxpdmobilearrowtexture.x=15,lxpdmobilepeedtexture.x=-250+a[t(940)],lxpdmobilearrowtexture[t(267)]=!0,lxpdmobilepeedtexture[t(267)]=!0),1===lxpdmobilecontrol2&&(lxpdmobilearrowtexture.x=-250+a[t(940)],lxpdmobilepeedtexture.x=15),lxpdmobileprediction=1,lxpdjoystick=-1;for(let e=0;e<lxpdmobilepredictiontextures[t(811)];e++)lxpdmobilepredictiontextures[e][t(267)]=lxpdmobileprediction===e}})),lxpdmobilecontroltextures[2]=new(_0x46ab54.ec[e(966)])(e(1633)),lxpdmobilecontroltextures[2][e(1660)]=80,lxpdmobilecontroltextures[2][e(812)]=40,lxpdmobilecontroltextures[2].x=.5*a.offsetWidth-100,lxpdmobilecontroltextures[2].y=-60,lxpdmobilecontroltextures[2][e(267)]=!1,lxpdmobilecontroltextures[2].on(e(1103),(()=>{var t=e;lxpdmobilecontrol++,lxpdmobileprediction=2,lxpdjoystick=2;for(let e=0;e<lxpdmobilepredictiontextures[t(811)];e++)lxpdmobilepredictiontextures[e][t(267)]=lxpdmobileprediction===e;for(let t=0;t<lxpdmobilecontroltextures.length;t++)lxpdmobilecontroltextures[t].visible=lxpdmobilecontrol===t})),lxpdmobilecontroltextures[3]=new(_0x46ab54.ec[e(966)])(e(703)),lxpdmobilecontroltextures[3][e(1660)]=80,lxpdmobilecontroltextures[3][e(812)]=40,lxpdmobilecontroltextures[3].x=.5*a.offsetWidth-100,lxpdmobilecontroltextures[3].y=-60,lxpdmobilecontroltextures[3][e(267)]=!1,lxpdmobilecontroltextures[3].on(e(1103),(()=>{var t=e;lxpdmobilecontrol=0,lxpdmobilecontrol2=-1,lxpdmobileprediction=0,lxpdjoystick=-1;for(let e=0;e<lxpdmobilepredictiontextures[t(811)];e++)lxpdmobilepredictiontextures[e][t(267)]=lxpdmobileprediction===e;for(let e=0;e<lxpdmobilecontroltextures[t(811)];e++)lxpdmobilecontroltextures[e][t(267)]=lxpdmobilecontrol===e})),lxpdmobilepredictiontextures[0]=new(_0x46ab54.ec[e(966)])("https://i.imgur.com/4ccZ556.png"),lxpdmobilepredictiontextures[0][e(1660)]=16,lxpdmobilepredictiontextures[0][e(812)]=16,lxpdmobilepredictiontextures[0].x=0,lxpdmobilepredictiontextures[0].y=0,lxpdmobilepredictiontextures[0][e(647)]=0,lxpdmobilepredictiontextures[1]=new(_0x46ab54.ec[e(966)])(e(1039)),lxpdmobilepredictiontextures[1][e(1660)]=16,lxpdmobilepredictiontextures[1][e(812)]=16,lxpdmobilepredictiontextures[1].x=0,lxpdmobilepredictiontextures[1].y=0,lxpdmobilepredictiontextures[1][e(267)]=!1,lxpdmobilepredictiontextures[2]=new(_0x46ab54.ec[e(966)])("https://i.imgur.com/WqWsDfi.png"),lxpdmobilepredictiontextures[2].width=16,lxpdmobilepredictiontextures[2][e(812)]=16,lxpdmobilepredictiontextures[2].x=0,lxpdmobilepredictiontextures[2].y=0,lxpdmobilepredictiontextures[2][e(267)]=!1,(lxpdmobilearrowtexture=new _0x46ab54.ec.from(e(517)))[e(1660)]=100,lxpdmobilearrowtexture[e(812)]=100,lxpdmobilearrowtexture.x=15,lxpdmobilearrowtexture.y=-210+a[e(656)],lxpdmobilearrowtexture[e(267)]=!1,(lxpdmobilepeedtexture=new(_0x46ab54.ec[e(966)])(e(909)))[e(1660)]=80,lxpdmobilepeedtexture.height=80,lxpdmobilepeedtexture.x=-250+a[e(940)],lxpdmobilepeedtexture.y=-200+a.offsetHeight,lxpdmobilepeedtexture.visible=!1,lxpdmobilepeedtexture[e(647)]=.5,this[e(145)](lxpdmobilearrowtexture),this[e(145)](lxpdmobilepeedtexture);for(let t=0;t<lxpdmobilecontroltextures[e(811)];t++)this[e(145)](lxpdmobilecontroltextures[t]);for(let t=0;t<lxpdmobilepredictiontextures.length;t++)this.addChild(lxpdmobilepredictiontextures[t])}}));return(i=_0x499ed3(_0x46ab54.Zb,(function(){var e=t;_0x46ab54.Zb[e(167)](this),this.Tf={}})))[t(316)].Qa=function(e){var i,n=.5+.5*Math[t(757)](_0x347c9a*(e/1e3/1.6));for(i in this.Tf){var o=this.Tf[i],a=o.Uf;o.alpha=1-a+a*n}},i[t(316)].Te=function(e){var i=t;for(o in this.Tf)(null==e[o]||!e[o].sc)&&(_0x16c2d8(this.Tf[o]),delete this.Tf[o]);var o,a,s=0;for(a in e){var r=e[a];if(r.sc){var c=this.Tf[a];if(!c){var l=_0x504022().p.Dc().ld(r.rc).Zc;(c=new n)[i(342)]=l.Hc,c[i(1660)]=40,c.height=40,this.Tf[a]=c,this.addChild(c)}assignPtcValues(this,a,r.tc),c.Uf=r.tc,c[i(1443)].x=s,s+=40}}},n=_0x499ed3(_0x46ab54.ec,(function(){var e=t;_0x46ab54.ec[e(167)](this),this.Uf=0})),(o=_0x499ed3(_0x46ab54.Zb,(function(){var e=t;_0x46ab54.Zb[e(167)](this),this.Ef=!0,this.Vf=12,this.Wf=9,this.Pe=[];for(var i=0;i<14;i++)this.Xf()})))[t(316)].Te=function(e){var i=t;lxpdzoomplustexture&&this.addChild(lxpdzoomplustexture),lxpdzoomsubtracttexture&&this.addChild(lxpdzoomsubtracttexture),lxpdgirosubtracttexture&&this[i(145)](lxpdgirosubtracttexture),lxpdexplotWubtracttexture&&this[i(145)](lxpdexplotWubtracttexture),""!==lxpdservertext[i(513)]&&(this[i(145)](lxpdservertext),theoKzObjects[i(1332)]?this.addChild(lxpdTopFriends_list):this[i(676)](lxpdTopFriends_list),theoKzObjects[i(1423)]?this[i(145)](lxpdserverping):this[i(676)](lxpdserverping),theoKzObjects.fps?this[i(145)](lxpdserverfps):this[i(676)](lxpdserverfps)),turkData?sendPlayerUpdate(turkData[i(1689)],turkData.playerY):console[i(980)](i(303));var n=_0x504022(),o=n.o.fb.af==_0x398dbe._e,a=0,s=0;s>=this.Pe[i(811)]&&this.Xf(),this.Pe[s].Yf(1,i(1041)),this.Pe[s].Zf("",""===lxpdservertext[i(513)]?i(1550)+lxpdtoplist:"","(".concat(n.o.tb,i(917))),this.Pe[s].position.y=a,a+=this.Vf,s+=1,e.$f[i(811)]>0&&(a+=this.Wf);for(var r=0;r<e.$f.length;r++){var c=e.$f[r],l=n.p.Dc().ed(c._f);s>=this.Pe[i(811)]&&this.Xf(),this.Pe[s].Yf(.8,l.bd._c),console[i(980)](l),this.Pe[s].Zf(""+(r+1),"Equipos / Teams",""+Math[i(1173)](c.M)),this.Pe[s].position.y=a,a+=this.Vf,s+=1}e.ag.length>0&&(a+=this.Wf);for(var x=0;x<e.ag.length;x++){var d=e.ag[x],h=n.o.fb.bf==d.bg,u=void 0,f=void 0;if(h)u="white",f=n.o.N.Mb.ad;else{var p=n.o.hb[d.bg];null!=p?(u=o?n.p.Dc().ed(p.Mb.cg).bd._c:n.p.Dc().dd(p.Mb.dg)._c,f=this.Ef?p.Mb.ad:i(1406)):(u=i(612),f="?")}h&&(a+=this.Wf),s>=this.Pe[i(811)]&&this.Xf(),this.Pe[s].Yf(h?1:.8,u),n.o.O===s&&this.Pe[s].Yf(1,"white");var _=Math[i(1173)](d.M);_[i(1121)](),this.Pe[s].Zf(""+(x+1),f,""+_[i(1121)]()),this.Pe[s][i(1443)].y=a,a+=this.Vf,s+=1,h&&(a+=this.Wf)}for(n.o.O>e.ag[i(811)]&&(a+=this.Wf,s>=this.Pe.length&&this.Xf(),this.Pe[s].Yf(1,"#FFFFFF"),window[i(877)]=Math.floor(n.o.N.M),window[i(877)].customFormat(),this.Pe[s].Zf(""+n.o.O,n.o.N.Mb.ad,""+window[i(877)][i(1121)]()),this.Pe[s][i(1443)].y=a,a+=this.Vf,s+=1,a+=this.Wf);this.Pe.length>s;)_0x16c2d8(this.Pe[i(748)]())},o[t(316)].Xf=function(){var e=t,i=new a;i[e(1443)].y=0,this.Pe[e(811)]>0&&(i[e(1443)].y=this.Pe[this.Pe[e(811)]-1].position.y+this.Vf),this.Pe[e(1357)](i),this[e(145)](i)},(a=_0x499ed3(_0x46ab54.Zb,(function(){var e=t;_0x46ab54.Zb.call(this),this.eg=new _0x46ab54.fc("",{dropShadow:!1,dropShadowBlur:5,dropShadowColor:e(913),dropShadowDistance:3,fontFamily:fonts[currentFontIndex],fontSize:9,fill:e(1041)}),this.eg.anchor.x=1,this.eg.position.x=30,this[e(145)](this.eg),this.fg=new _0x46ab54.fc("",{dropShadow:!1,dropShadowBlur:5,dropShadowColor:e(913),dropShadowDistance:3,fontFamily:fonts[currentFontIndex],fontSize:9,fill:e(1041)}),this.fg[e(428)].x=0,this.fg[e(1443)].x=35,this[e(145)](this.fg),this.gg=new _0x46ab54.fc("",{dropShadow:!1,dropShadowBlur:5,dropShadowColor:"#707070",dropShadowDistance:3,fontFamily:fonts[currentFontIndex],fontSize:9,fill:e(1041)}),this.gg.anchor.x=1,this.gg.position.x=220,this[e(145)](this.gg)}))).prototype.Zf=function(e,i,n){var o=t;this.eg[o(513)]=e,this.gg[o(513)]=n;var a=i;for(this.fg.text=a;this.fg[o(1660)]>100;)a=a[o(938)](0,a[o(811)]-1),this.fg.text=a+".."},a.prototype.Yf=function(e,i){var n=t;this.eg.alpha=e,this.eg[n(1043)][n(733)]=i,this.fg.alpha=e,this.fg.style[n(733)]=i,this.gg[n(647)]=e,this.gg[n(1043)].fill=i},e}(),_0x192fd0=function(){var t=_0x31e67f;function e(t){this.o=t,this.hg=[],this.ig=0}e[t(316)].Xb=function(e){var i=t;this.hg[i(1357)](new DataView(e))},e.prototype.Sb=function(){this.hg=[],this.ig=0},e[t(316)].Bb=function(){for(var e=t,i=0;i<10;i++){if(0===this.hg[e(811)])return;var n=this.hg[e(603)]();try{this.jg(n)}catch(t){throw console[e(980)]("DataReader error: "+t),t}}},e[t(316)].jg=function(t){switch(255&t.mc(0)){case 0:return void this.kg(t,1);case 1:return void this.lg(t,1);case 2:return void this.mg(t,1);case 3:return void this.ng(t,1);case 4:return void this.og(t,1);case 5:return void this.pg(t,1)}},e[t(316)].kg=function(e,i){var n=t;console[n(980)](n(160)),this.o.fb.af=e.mc(i),i+=1;var o=e.nc(i);return i+=2,this.o.fb.bf=o,this.o.N.Mb.Lb=o,this.o.fb.ub=e.pc(i),i+=4,this.o.fb.cf=e.pc(i),i+=4,this.o.fb.df=e.pc(i),i+=4,_0x504022().s.H.wb.Te(this.o.fb,_0x504022().s.xa.wa()),console[n(980)](n(1413)),i},e[t(316)].lg=function(t,e){var i=this.ig++,n=t.nc(e);e+=2;var o=void 0;o=this.qg(t,e),e+=this.rg(o);for(var a=0;a<o;a++)e=this.sg(t,e);o=this.qg(t,e),e+=this.rg(o);for(var s=0;s<o;s++)e=this.tg(t,e);o=this.qg(t,e),e+=this.rg(o);for(var r=0;r<o;r++)e=this.ug(t,e);o=this.qg(t,e),e+=this.rg(o);for(var c=0;c<o;c++)e=this.vg(t,e);o=this.qg(t,e),e+=this.rg(o);for(var l=0;l<o;l++)e=this.wg(t,e);o=this.qg(t,e),e+=this.rg(o);for(var x=0;x<o;x++)e=this.xg(t,e);o=this.qg(t,e),e+=this.rg(o);for(var d=0;d<o;d++)e=this.yg(t,e);o=this.qg(t,e),e+=this.rg(o);for(var h=0;h<o;h++)e=this.zg(t,e);return i>0&&(e=this.Ag(t,e)),this.o.Qb(i,n),e},e[t(316)].vg=function(e,i){var n=t,o=new(_0xbe8af6[n(1321)]);o.Lb=e.nc(i),i+=2,o.cg=this.o.fb.af==_0x398dbe._e?e.mc(i++):_0x552076.TEAM_DEFAULT,o.dg=e.nc(i);let a=i;i+=2,o.Bg=e.nc(i);let s=i;i+=2,o.Cg=e.nc(i);let r=i;i+=2,o.Dg=e.nc(i);let c=i;i+=2,o.Eg=e.nc(i);let l=i;i+=2;var x=e.mc(i);i+=1;for(var d="",h=0;h<x;h++)d+=String[n(1124)](e.nc(i)),i+=2;if(210<i)for(let t in this.o.hb){if(theoKzObjects[n(1393)]){var u=this.o.hb[t].Mb.dg;if(u>=32&&u<=35){var f=Math[n(1173)](21*Math[n(1679)]())+3400;this.o.hb[t].Mb.dg=f}}if(theoKzObjects.chngPersonsSkins){if(/^(.+?)@(.+)/[n(696)](this.o.hb[t].Mb.ad)){let e=this.o.hb[t].Mb.dg;if(e>=32&&e<=35){let e=Math[n(1173)](21*Math[n(1679)]())+3400;this.o.hb[t].Mb.dg=e}}if(/^(.+?)[a-zA-Z1-9@]+_+\d+(.+)/[n(696)](this.o.hb[t].Mb.ad)){let e=this.o.hb[t].Mb.dg;if(e>=32&&e<=35){let e=Math[n(1173)](21*Math[n(1679)]())+3400;this.o.hb[t].Mb.dg=e}}}if(/^(.{16})(WFT_\d{9}|ZW_\d{9})$/[n(696)](this.o.hb[t].Mb.ad)){console[n(980)](n(258)+this.o.hb[t].Mb.ad);var p=this.o.hb[t].Mb.ad[n(310)](-10);console[n(980)](n(1578)+p);let e=p.substr(1,4);console[n(980)]("skinId_A: "+e);let i=p[n(310)](5,5);console[n(980)]("hatId_A: "+i);let o=p.substr(6,3);console[n(980)](n(800)+o);let a=p[n(310)](9,3);console.log(n(704)+a),n(301)!==e&&-1!==theoKzObjects[n(462)].indexOf(parseInt(e))&&(this.o.hb[t].Mb.dg=parseInt(e)),n(1672)!==i&&(this.o.hb[t].Mb.Eg=parseInt(i)),n(728)!==o&&(this.o.hb[t].Mb.Bg=parseInt(o)),"000"!==a&&(this.o.hb[t].Mb.Cg=parseInt(a))}}if(_0x504022().o.N.Mb.Lb===o.Lb&&(o.dg=theoKzObjects?.[n(332)]?.rh??0,o.Bg=theoKzObjects?.[n(332)]?.sh??0,o.Cg=theoKzObjects?.[n(332)]?.th??0,o.Dg=theoKzObjects?.[n(332)]?.uh??0,o.Eg=theoKzObjects?.[n(332)]?.vh??0,e[n(722)](a,o.dg),e[n(722)](s,o.Bg),e[n(722)](r,o.Cg),e[n(722)](c,o.Dg),e[n(722)](l,o.Eg),_wrmxt[n(1331)]=!0,_wrmxt[n(1376)]=a),o.ad=d,this.o.fb.bf===o.Lb)this.o.N.Fg(o),o.Mb=o.Lb,o.bd=o.ad;else{var _=this.o.hb[o.Lb];null!=_&&_.Kb();var b=new _0xbe8af6(this.o.fb);b.vb(_0x504022().s.H.wb),this.o.hb[o.Lb]=b,b.Fg(o)}return i},e[t(316)].wg=function(e,i){var n=t,o=e.nc(i);i+=2;var a=e.mc(i);i++;var s=!!(1&a),r=!!(2&a),c=0;s&&(c=e.nc(i),i+=2);var l=this.Gg(o);if(void 0===l||(l.Ib=!1,!l.Hb))return i;var x=this.Gg(o);if(s&&void 0!==x&&x.Hb)if(c===this.o.fb.bf){var d=this.o.N.Gf(),h=l.Hg(d.x,d.y);!0===r&&(turkData[n(615)]=l.Mb.ad),h[n(464)],this.o.jb,h.distance<.5*this.o.jb&&_0x504022().s.H.wb.wf.Se(r)}else if(o===this.o.fb.bf);else{var u=this.o.N.Gf();l.Hg(u.x,u.y)[n(464)],this.o.jb}else if(o===this.o.fb.bf);else{var f=this.o.N.Gf();l.Hg(f.x,f.y)[n(464)],this.o.jb}return i},e[t(316)].zg=function(e,i){var n=t,o=e.nc(i);i+=2;var a=o===this.o.fb.bf?null:this.o.hb[o],s=e.mc(i);i+=1;var r=!!(1&s);if(2&s){var c=e.pc(i);i+=4,a&&a.Ig(c)}var l=this.Jg(e.mc(i++),e.mc(i++),e.mc(i++)),x=this.Jg(e.mc(i++),e.mc(i++),e.mc(i++));if(a){a.Kg(l,x,r);var d=this.o.N.Gf(),h=a.Gf(),u=Math[n(1699)](0,1-Math[n(600)](d.x-h.x,d.y-h.y)/(.5*this.o.jb));_0x504022().r.Zd(u,o,r)}var f=this.qg(e,i);if(i+=this.rg(f),a)for(var p in a.Ff){var _=a.Ff[p];_&&(_.sc=!1)}for(var b=0;b<f;b++){var v=e.mc(i);i++;var m=e.mc(i);if(i++,a){var g=a.Ff[v];!g&&(g=a.Ff[v]=new _0xe87f7d(v)),g.sc=!0,g.tc=Math[n(543)](1,Math[n(1699)](0,m/100))}}return i},e.prototype.Ag=function(e,i){var n=t,o=this.o.N,a=e.mc(i);i+=1;var s=!!(1&a),r=!!(4&a);if(2&a){var c=o.M;o.Ig(e.pc(i)),i+=4,(c=o.M-c)>0&&_0x504022().s.H.wb.wf.Re(c)}r&&(this.o.ib=e.pc(i),i+=4);var l=this.Jg(e.mc(i++),e.mc(i++),e.mc(i++)),x=this.Jg(e.mc(i++),e.mc(i++),e.mc(i++));o.Kg(l,x,s),_0x504022().r.Zd(.5,this.o.fb.bf,s);var d=this.qg(e,i);for(var h in i+=this.rg(d),o.Ff){var u=o.Ff[h];u&&(u.sc=!1)}for(var f=0;f<d;f++){var p=e.mc(i);i++;var _=e.mc(i);i++;var b=o.Ff[p];!b&&(b=new _0xe87f7d(p),o.Ff[p]=b),b.sc=!0,b.tc=Math.min(1,Math[n(1699)](0,_/100))}_0x504022().s.H.wb.uf.Te(o.Ff)},e[t(316)].xg=function(e,i){var n=t,o=this,a=e.nc(i);i+=2;var s=this.Gg(a),r=e.pc(i);i+=4;var c=[];for(var l in s.Ff)0==l?(c[n(1357)]("velocidad"),$(n(1471)).fadeIn()):1==l?(c[n(1357)](n(1316)),$(n(1532))[n(640)]()):2==l?(c[n(1357)](n(190)),$(".v2")[n(640)]()):3==l?(c[n(1357)](n(794)),$(n(1503))[n(640)]()):4==l?(c[n(1357)]("comidax5"),$(n(1325)).fadeIn()):5==l?(c[n(1357)]("comidax10"),$(n(508))[n(640)]()):6==l?(c[n(1357)](n(1030)),$(n(898))[n(640)]()):console[n(980)](n(252));window[n(1487)]=c,s.Mb.ad&&setTimeout((function(){var t=n;$(t(286))[t(586)]()}),3e3);var x=this.qg(e,i);if(i+=this.rg(x),s){s.Ig(r),s.Lg((function(){return o.Jg(e.mc(i++),e.mc(i++),e.mc(i++))}),x),s.Mg(!0);var d=this.o.N.Gf(),h=s.Gf(),u=Math[n(1699)](0,1-Math[n(600)](d.x-h.x,d.y-h.y)/(.5*this.o.jb));_0x504022().r.Xd(u,a)}else i+=6*x;return i},e[t(316)].yg=function(t,e){var i=t.nc(e);e+=2;var n=this.o.hb[i];return n&&n.Ib&&n.Mg(!1),_0x504022().r.Yd(i),e},e[t(316)].sg=function(e,i){var n=t,o=new(_0x514caa[n(1321)]);o.Lb=e.oc(i),i+=4,o.cg=this.o.fb.af===_0x398dbe._e?e.mc(i++):_0x552076[n(1537)],o.Ng=this.Jg(e.mc(i++),e.mc(i++),e.mc(i++)),o.dg=e.mc(i++);var a=this.o.gb[o.Lb];null!=a&&a.Kb();var s=new _0x514caa(o,_0x504022().s.H.wb);return s.Og(this.Pg(o.Lb),this.Qg(o.Lb),!0),this.o.gb[o.Lb]=s,i},e[t(316)].tg=function(t,e){var i=t.oc(e);e+=4;var n=this.o.gb[i];return n&&(n.Rg=0,n.Sg=1.5*n.Sg,n.Nb=!0),e},e[t(316)].ug=function(t,e){var i=t.oc(e);e+=4;var n=t.nc(e);e+=2;var o=this.o.gb[i];if(o){o.Rg=0,o.Sg=.1*o.Sg,o.Nb=!0;var a=this.Gg(n);if(a&&a.Hb){this.o.fb.bf;var s=a.Gf();o.Og(s.x,s.y,!1)}}return e};var i=[34,29,26,24,22,20,18,17,15,14,13,12,11,10,9,8,8,7,6,6,5,5,4,4,3,3,2,2,2,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,2,2,2,3,3,4,4,5,5,6,6,7,8,8,9,10,11,12,13,14,15,17,18,20,22,24,26,29,34];return e.prototype.mg=function(e){for(var n=t,o=_0x504022().q.Ug.Tg,a=o.getImageData(0,0,80,80),s=i[0],r=80-s,c=0,l=0;l<628;l++)for(var x=e.mc(1+l),d=0;d<8;d++){var h=4*(s+80*c);0!=(x>>d&1)?(a[n(1422)][h]=255,a[n(1422)][h+1]=255,a[n(1422)][h+2]=255,a[n(1422)][h+3]=255):a[n(1422)][h+3]=0,++s>=r&&++c<80&&(r=80-(s=i[c]))}o[n(1586)](a,0,0);var u=_0x504022().s.H.wb.tf.Sf;u[n(342)]=_0x504022().q.Ug.Hc,u[n(342)][n(1046)]()},e[t(316)].og=function(t,e){var i=t.oc(e);e+=4,console.log("Wormy Error: "+i)},e.prototype.pg=function(e,i){var n=t;-1!==lxpdjoystick&&(lxpdjoysticks[lxpdjoystick][n(267)]=!1),theoKzObjects[n(1301)]=!1,theoKzObjects[n(786)]=!0,createCircle(),turkData.hs=0,sendPlayerDeath(0,0),sendPlayerUpdate(999999,999999),clearTeamUbication(),console.log(n(927))},e.prototype.ng=function(t,e){this.o.tb=t.nc(e),e+=2,this.o.O=t.nc(e),e+=2;var i=new _0x3bafe2;i.ag=[];for(var n=t.mc(e++),o=0;o<n;o++){var a=t.nc(e);e+=2;var s=t.pc(e);e+=4,i.ag.push(_0x3bafe2.Vg(a,s))}if(i.$f=[],this.o.fb.af===_0x398dbe._e)for(var r=t.mc(e++),c=0;c<r;c++){var l=t.mc(e);e+=1;var x=t.pc(e);e+=4,i.$f.push(_0x3bafe2.Wg(l,x))}_0x504022().s.H.wb.vf.Te(i)},e[t(316)].Gg=function(t){return t===this.o.fb.bf?this.o.N:this.o.hb[t]},e[t(316)].Jg=function(t,e,i){return 1e4*((16777215&(255&i|e<<8&65280|t<<16&16711680))/8388608-1)},e[t(316)].Pg=function(t){return((65535&t)/32768-1)*this.o.fb.ef()},e[t(316)].Qg=function(t){return((t>>16&65535)/32768-1)*this.o.fb.ef()},e[t(316)].qg=function(t,e){var i=t.mc(e);if(0==(128&i))return i;var n=t.mc(e+1);if(0==(128&n))return n|i<<7&16256;var o=t.mc(e+2);if(0==(128&o))return o|n<<7&16256|i<<14&2080768;var a=t.mc(e+3);return 0==(128&a)?a|o<<7&16256|n<<14&2080768|i<<21&266338304:void 0},e[t(316)].rg=function(t){return t<128?1:t<16384?2:t<2097152?3:t<268435456?4:void 0},e}(),_0x5c63c0=function(){var t=_0x31e67f;function e(t){this.Xg=t}return e.Yg=function(){return new _0x5c63c0(null)},e.Zg=function(t){return new _0x5c63c0(t)},e[t(316)].$g=function(){return this.Xg},e[t(316)]._g=function(){return null!=this.Xg},e[t(316)].ah=function(t){null!=this.Xg&&t(this.Xg)},e}(),_0x514caa=function(){var t=_0x31e67f;function e(t,e){var i=_0x50f7;this.Mb=t,this.bh=t.dg>=80,this.Ob=0,this.Pb=0,this.ch=0,this.dh=0,this.Sg=this.bh?1:t.Ng,this.Rg=1,this.Nb=!1,this.eh=0,this.fh=0,this.Jb=1,this.Ae=2*Math.PI*Math[i(1679)](),this.gh=new _0x548139,this.gh.hh(_0x504022().o.fb.af,this.Mb.cg===_0x552076.TEAM_DEFAULT?null:_0x504022().p.Dc().ed(this.Mb.cg),_0x504022().p.Dc().kd(this.Mb.dg)),e.Lf(t.Lb,this.gh)}return e.prototype.Kb=function(){this.gh.Of.Pf.ih(),this.gh.Of.Nf.ih()},e.prototype.Og=function(t,e,i){this.Ob=t,this.Pb=e,i&&(this.ch=t,this.dh=e)},e[t(316)].Fb=function(e,i){var n=Math[t(543)](.5,1*this.Sg),o=Math.min(2.5,1.5*this.Sg);this.eh=_0x5d6d0c(this.eh,n,i,.0025),this.fh=_0x5d6d0c(this.fh,o,i,.0025),this.Jb=_0x5d6d0c(this.Jb,this.Rg,i,.0025)},e[t(316)].Gb=function(e,i,n){var o=t;this.ch=_0x5d6d0c(this.ch,this.Ob,i,theoKzObjects[o(401)]),this.dh=_0x5d6d0c(this.dh,this.Pb,i,.0025),this.gh.Te(this,e,i,n)},e.Config=function(){var t=_0x50f7;this.Lb=0,this.cg=_0x552076[t(1537)],this.Ng=0,this.dg=0},e}(),_0x548139=function(){var t=_0x31e67f;function e(){var t=_0x50f7;this.Of=new i(new _0x421b5d,new _0x421b5d),this.Of.Pf.jh[t(157)]=_0x46ab54.ic.jc,this.Of.Pf.jh[t(770)]=100,this.Of.Nf.jh.zIndex=500}e[t(316)].hh=function(t,e,i){var n=i.Zc;null!=n&&this.Of.Nf.kh(n);var o=t==_0x398dbe._e&&null!=e?e.cd.$c:i.$c;null!=o&&this.Of.Pf.kh(o)},e[t(316)].Te=function(e,i,n,o){var a=t;if(o(e.ch,e.dh)){var s=e.fh*(1+.3*Math[a(757)](e.Ae+i/200));e.bh?this.Of.mh(e.ch,e.dh,theoKzObjects[a(1398)]*e.eh,1*e.Jb,theoKzObjects.PotenciadorAura*s,.8*e.Jb):this.Of.mh(e.ch,e.dh,theoKzObjects[a(1492)]*e.eh,1*e.Jb,theoKzObjects.ComidaShadow*s,.3*e.Jb)}else this.Of.lh()};var i=function(){function e(t,e){this.Nf=t,this.Pf=e}return e[t(316)].mh=function(t,e,i,n,o,a){this.Nf.Mg(!0),this.Nf.nh(t,e),this.Nf.oh(i),this.Nf.qh(n),this.Pf.Mg(!0),this.Pf.nh(t,e),this.Pf.oh(o),this.Pf.qh(a)},e.prototype.lh=function(){this.Nf.Mg(!1),this.Pf.Mg(!1)},e}();return e}(),_0x12fb54=function(){var t=_0x31e67f;function e(){this.rh=0,this.sh=0,this.th=0,this.uh=0,this.vh=0,this.wh=[]}function i(t,e){for(var i=0;i<t.length;i++)if(t[i].id==e)return i;return-1}return e[t(316)].a=function(){},e[t(316)].ha=function(e){var i=t;switch(!theoKzObjects[i(365)]&&(theoKzObjects.PropertyManager=this,localStorage.setItem("SaveGameXT",JSON[i(775)](theoKzObjects))),e){case _0x199e00.ia:return this.rh;case _0x199e00.ja:return this.sh;case _0x199e00.ka:return this.th;case _0x199e00.la:return this.uh;case _0x199e00.ma:return this.vh}return 0},e[t(316)].xh=function(e){var i=t;this.wh[i(1357)](e),this.yh()},e[t(316)].Ia=function(){var e=t;if(!_0x504022().p.W())return _0x13806b([32,33,34,35]);for(var i=_0x504022().p.Ac(),n=[],o=0;o<i.skinArrayDict[e(811)];o++){var a=i[e(1302)][o];this.Ja(a.id,_0x199e00.ia)&&n[e(1357)](a)}return 0===n.length?0:n[parseInt(n[e(811)]*Math[e(1679)]())].id},e[t(316)].zh=function(){var e=t;if(_0x504022().p.W){var n=_0x504022().p.Ac()[e(1302)],o=i(n,this.rh);if(!(o<0)){for(var a=o+1;a<n[e(811)];a++)if(this.Ja(n[a].id,_0x199e00.ia))return this.rh=n[a].id,void this.yh();for(var s=0;s<o;s++)if(this.Ja(n[s].id,_0x199e00.ia))return this.rh=n[s].id,void this.yh()}}},e[t(316)].Ah=function(){var e=t;if(_0x504022().p.W){var n=_0x504022().p.Ac()[e(1302)],o=i(n,this.rh);if(!(o<0)){for(var a=o-1;a>=0;a--)if(this.Ja(n[a].id,_0x199e00.ia))return this.rh=n[a].id,void this.yh();for(var s=n[e(811)]-1;s>o;s--)if(this.Ja(n[s].id,_0x199e00.ia))return this.rh=n[s].id,void this.yh()}}},e[t(316)].Bh=function(t,e){if(!_0x504022().p.W()||this.Ja(t,e))switch(e){case _0x199e00.ia:return void(this.rh!=t&&(this.rh=t,this.yh()));case _0x199e00.ja:return void(this.sh!=t&&(this.sh=t,this.yh()));case _0x199e00.ka:return void(this.th!=t&&(this.th=t,this.yh()));case _0x199e00.la:return void(this.uh!=t&&(this.uh=t,this.yh()));case _0x199e00.ma:return void(this.vh!=t&&(this.vh=t,this.yh()))}},e[t(316)].Ja=function(e,n){var o=t,a=function(t,e){var n=_0x50f7;if(!_0x504022().p.W())return null;var o=_0x504022().p.Ac();if(e===_0x199e00.ia){var a=i(o[n(1302)],t);return a<0?null:o.skinArrayDict[a]}switch(e){case _0x199e00.ja:return o[n(1211)][t];case _0x199e00.ka:return o.mouthDict[t];case _0x199e00.la:return o[n(492)][t];case _0x199e00.ma:return o[n(887)][t]}return null}(e,n);return null!=a&&(_0x504022().u.P()?0==a[o(1129)]&&!a[o(545)]||_0x504022().u.Ch(e,n):a[o(1549)])},e[t(316)].yh=function(){for(var e=t,i=0;i<this.wh[e(811)];i++)this.wh[i]()},e}(),_0x199e00=function(){var t=_0x31e67f;function e(){}return e.ia=t(1415),e.ja=t(1636),e.ka=t(1250),e.la=t(1022),e.ma=t(228),e}(),_0x50a17e=function(t,e,i,n,o,a,s,r,c){this.Hc=new _0x46ab54._b(t,new _0x46ab54.dc(e,i,n,o)),this.Dh=e,this.Eh=i,this.Fh=n,this.Gh=o,this.Hh=a||(r||n)/2,this.Ih=s||(c||o)/2,this.Jh=r||n,this.Kh=c||o,this.Lh=.5-(this.Hh-.5*this.Jh)/this.Fh,this.Mh=.5-(this.Ih-.5*this.Kh)/this.Gh,this.Nh=this.Fh/this.Jh,this.Oh=this.Gh/this.Kh},_0x399f4d=function(){function t(){var t=_0x50f7,i=(new Date)[t(891)](),n=t(949)+i;this[t(1067)]=function(){var e=t,i=document.createElement(e(727));i[e(1106)]=e(446),i[e(158)]=n,document.head[e(1168)](i)},this[t(1067)](),this[t(1616)]=e,this.Fe=new _0x46ab54._b(_0x46ab54.$b[t(966)](t(743)));var o,a=_0x46ab54.$b[t(966)](t(1040));this.Ge=[new _0x46ab54._b(a,new _0x46ab54.dc(0,0,128,128)),new _0x46ab54._b(a,new _0x46ab54.dc(0,0,128,128)),new _0x46ab54._b(a,new _0x46ab54.dc(0,0,128,128)),new _0x46ab54._b(a,new _0x46ab54.dc(0,0,128,128)),new _0x46ab54._b(a,new _0x46ab54.dc(0,0,128,128)),new _0x46ab54._b(a,new _0x46ab54.dc(0,0,128,128)),new _0x46ab54._b(a,new _0x46ab54.dc(0,0,128,128)),new _0x46ab54._b(a,new _0x46ab54.dc(0,0,128,128)),new _0x46ab54._b(a,new _0x46ab54.dc(0,0,128,128)),new _0x46ab54._b(a,new _0x46ab54.dc(0,0,128,128)),new _0x46ab54._b(a,new _0x46ab54.dc(0,0,128,128)),new _0x46ab54._b(a,new _0x46ab54.dc(0,0,128,128)),new _0x46ab54._b(a,new _0x46ab54.dc(0,0,128,128)),new _0x46ab54._b(a,new _0x46ab54.dc(0,0,128,128)),new _0x46ab54._b(a,new _0x46ab54.dc(0,0,128,128)),new _0x46ab54._b(a,new _0x46ab54.dc(0,0,128,128))],this.Cf=new _0x46ab54._b(e()),(o=_0x46ab54.$b.from(t(864))).wrapMode=_0x46ab54.kc.lc,this.Df=new _0x46ab54._b(o),this.Af=new _0x46ab54._b(_0x46ab54.$b[t(966)](t(1343)));var s=_0x46ab54.$b[t(966)](t(695));this.Ph=new _0x50a17e(s,158,86,67,124,148,63.5,128,128),this.Qh=new _0x50a17e(s,158,4,87,74,203,63.5,128,128);var r,c=_0x46ab54.$b[t(966)](t(1023)),l=_0x46ab54.$b.from(t(1622));this.emoji=new _0x50a17e(l,0,0,256,256,170.5,-163.5,128,128),this.Rh=new _0x50a17e(c,156,4,87,74,285,63.5,128,128),this[t(657)]=new _0x50a17e(c,156,80,87,60,170,1.5,128,128),this.X_x2=new _0x50a17e(c,156,140,87,60,170,128.5,128,128),this.X_x10=new _0x50a17e(c,158,200,95,55,265,128.5,128,128),this[t(1560)]=new _0x50a17e(c,79,8,75,77,265,1.5,128,128),(r=window[t(843)][t(1519)]("canvas"))[t(1660)]=80,r[t(812)]=80,this.Ug={te:r,Tg:r[t(912)]("2d"),Hc:new _0x46ab54._b(_0x46ab54.$b[t(966)](r))},this.Bd={},this.yd={},this.Sh=[],this.Th=null}var e=function(t){var e=_0x50f7,i=_0x46ab54.$b[e(966)](t||e(407));return i[e(960)]=_0x46ab54.kc.lc,i};return t[_0x31e67f(316)].a=function(t){function e(){0==--i&&t()}var i=4;this.Bd={},e(),this.yd={},e(),this.Sh=[],e(),this.Th=null,e()},t}(),_0x4706a2=function(){var t=_0x31e67f;function e(){var t=_0x50f7;this.H=new _0x11748d,this.F=new _0x7c168,this.Uh=new _0x2ca6cb,this.Vh=new _0x4ee8ab,this.Wh=new _0x5dae02,this.Xh=new _0x1cdaaf,this.Yh=new _0x31d67b,this.Zh=new _0x8344d0,this.xa=new _0x2bc483,this[t(582)]=new _0x3d6460,this.$h=new _0x4d4f44,this._h=new _0x4410ea,this.ai=new _0x1d32ec,this.aa=new _0x46cae3,this.ua=new _0x27325c,this.pa=new _0x4a5e9e,this.bi=[],this.ci=null}function i(t,e){var i=_0x50f7;if(e!=t[i(811)]+1){var n=t[e];_0x2eaf3d(t,e+1,e,t.length-e-1),t[t[i(811)]-1]=n}}return e[t(316)].a=function(){var e=t;this.bi=[this.H,this.F,this.Uh,this.Vh,this.Wh,this.Xh,this.Yh,this.Zh,this.xa,this[e(582)],this.$h,this._h,this.ai,this.aa,this.ua,this.pa];for(var i=0;i<this.bi[e(811)];i++)this.bi[i].a();this.ci=new _0x339075(_0xec0c85.di)},e[t(316)].Qa=function(e,i){for(var n=t,o=this.bi[n(811)]-1;o>=0;o--)this.bi[o].Pa(e,i);this.bi[0]!=this.H&&this.bi[0]!=this.pa&&null!=this.ci&&this.ci.Pa(e,i)},e.prototype.Ra=function(){for(var e=t,i=this.bi[e(811)]-1;i>=0;i--)this.bi[i].Ra();null!=this.ci&&this.ci.Ra()},e[t(316)].I=function(t){var e=function(t,e){for(var i=_0x50f7,n=0;n<t[i(811)];n++)if(t[n]==e)return n;return-1}(this.bi,t);!(e<0)&&(this.bi[0].ei(),function(t,e){if(0!=e){var i=t[e];_0x2eaf3d(t,0,1,e),t[0]=i}}(this.bi,e),this.fi())},e[t(316)].gi=function(){this.bi[0].ei();do{i(this.bi,0)}while(this.bi[0].rc!=_0x38eb3b.hi);this.fi()},e[t(316)].fi=function(){var t=this.bi[0];t.ii(),t.ji(),this.ki()},e[t(316)].li=function(){var e=t;return 0!=this.bi[e(811)]&&this.bi[0].rc==_0x38eb3b.hi&&this.aa.mi()},e[t(316)].ki=function(){this.li()&&this.I(this.aa)},e}(),_0x3bafe2=function(){function t(){this.ag=[],this.$f=[]}return t.Vg=function(t,e){return{bg:t,M:e}},t.Wg=function(t,e){return{_f:t,M:e}},t}(),_0x12df7c=function(){var t=_0x31e67f;function e(){var t=_0x50f7;this.ni=[],this.oi=[],this.pi=[],this.qi=!1,this.ri=t(1549),this.si={},this.ti=null}return e[t(316)].a=function(){this.vi()},e[t(316)].X=function(){var e=t;return this.qi?this.si[e(1611)]:""},e[t(316)].wi=function(){return this.qi?this.si.username:""},e.prototype.ga=function(){var e=t;return this.qi?this.si[e(423)]:""},e[t(316)].xi=function(){var e=t;return this.qi?this.si.avatarUrl:e(1265)},e[t(316)].yi=function(){var e=t;return this.qi&&this.si[e(1405)]},e[t(316)].Z=function(){return this.qi&&this.si.isConsentGiven},e[t(316)].zi=function(){return this.qi?this.si.coins:0},e[t(316)].Ai=function(){return this.qi?this.si.level:1},e[t(316)].Bi=function(){var e=t;return this.qi?this.si[e(931)]:0},e[t(316)].Ci=function(){var e=t;return this.qi?this.si[e(539)]:50},e[t(316)].Di=function(){var e=t;return this.qi?this.si[e(1641)]:0},e[t(316)].Ei=function(){return this.qi?this.si.eyesId:0},e[t(316)].Fi=function(){return this.qi?this.si.mouthId:0},e[t(316)].Gi=function(){var e=t;return this.qi?this.si[e(408)]:0},e[t(316)].Hi=function(){return this.qi?this.si.hatId:0},e[t(316)].Ii=function(){var e=t;return this.qi?this.si[e(1228)]:0},e[t(316)].Ji=function(){var e=t;return this.qi?this.si[e(621)]:0},e[t(316)].Ki=function(){return this.qi?this.si.kills:0},e.prototype.Li=function(){return this.qi?this.si.headShots:0},e.prototype.Mi=function(){return this.qi?this.si.sessionsPlayed:0},e[t(316)].Ni=function(){return this.qi?this.si.totalPlayTimeSec:0},e.prototype.Oi=function(){var e=t;return this.qi?this.si[e(175)]:{}},e.prototype.V=function(e){var i=t;this.ni[i(1357)](e),e()},e.prototype.Pi=function(t){this.oi.push(t),t()},e.prototype.Qi=function(t){this.pi.push(t)},e[t(316)].Ch=function(e,i){var n=t,o=this.si[n(1307)][n(309)](theoKzObjects.pL||[]);if(!o)return!1;for(var a=0;a<o[n(811)];a++){var s=o[a];if(s.id==e&&s[n(705)]===i)return!0}return!1},e[t(316)].P=function(){return this.qi},e.prototype.ea=function(){return this.ri},e[t(316)].Q=function(t){var e=this;this.qi&&this.Ri((function(i){if(i){var n=e.zi(),o=e.Ai();e.si=i,_0x3b41e3(e.si),e.Si();var a=e.zi(),s=e.Ai();s>1&&s!=o&&_0x504022().s.aa.Ti(new _0x917ac3(s));var r=a-n;r>=20&&_0x504022().s.aa.Ti(new _0x329cf2(r))}t&&t()}))},e.prototype.Ri=function(e){var i=t;$.get(_0x276ee+i(1448)+this.ri+"/getUserData",(function(t){e(t.user_data)}))},e.prototype.Ui=function(e,i,n){var o=t,a=this;$[o(1264)](_0x276ee+"/pub/wuid/"+this.ri+o(426)+e+o(1452)+i,(function(t){1200==t.code?a.Q(n):n()}))[o(977)]((function(){n()}))},e[t(316)].Vi=function(){var e=t,i=this;this.Wi(),"undefined"!=typeof FB?FB[e(902)]((function(t){var n=e;n(1518)!==t[n(952)]?FB[n(147)]((function(t){var e=n;"connected"===t[e(952)]&&t[e(884)]&&t[e(884)][e(923)]?i.Yi(e(487),e(649)+t[e(884)].accessToken):i.Xi()})):t[n(884)]&&t[n(884)][n(923)]?i.Yi(n(487),n(649)+t.authResponse[n(923)]):i.Xi()})):this.Xi()},e[t(316)].Zi=function(){var e=t,i=this;this.Wi(),void 0!==GoogleAuth?(console[e(980)](e(773)),GoogleAuth[e(1195)]((function(){var t=e;if(console.log("gsi:then"),GoogleAuth[t(216)][t(1264)]()){console[t(980)](t(172));var n=GoogleAuth[t(520)][t(1264)]();i.Yi(t(804),"gg_"+n[t(918)]().id_token)}else GoogleAuth[t(473)]()[t(1195)]((function(e){var n=t;if(void 0!==e.error)return console[n(980)](n(1701)+e[n(1309)]),void i.Xi();e.isSignedIn()?(console.log(n(1475)),i.Yi("google",n(726)+e.getAuthResponse().id_token)):(console.log("gsi:c"),i.Xi())}))}))):this.Xi()},e[t(316)].Wi=function(){var e=t;console.log(e(1179)+this.qi);var i=this.ri,n=this.ti;switch(this.qi=!1,this.ri="guest",this.si={},this.ti=null,_0x23921c(_0x216031.Oe,"",60),n){case"facebook":this.$i();break;case"google":this._i()}i!==this.ri?this.aj():this.Si()},e.prototype.bj=function(){var e=t;console[e(980)]("dA"),this.qi&&$[e(1264)](_0x276ee+e(1448)+this.ri+"/deleteAccount",(function(t){var i=e;1200===t[i(584)]?console[i(980)](i(1504)):console[i(980)](i(374))})).fail((function(){var t=e;console[t(980)](t(238))}))},e[t(316)].vi=function(){var e=t;console.log("rs");var i=_0x5ce09a(_0x216031.Oe),n=this;e(487)==i?(console[e(980)](e(1395)),function t(){e(829)!=typeof FB?n.Vi():setTimeout(t,100)}()):e(804)==i?(console.log(e(646)),function t(){void 0!==GoogleAuth?n.Zi():setTimeout(t,100)}()):(console[e(980)](e(1457)),this.Wi())},e[t(316)].aj=function(){for(var e=t,i=0;i<this.ni[e(811)];i++)this.ni[i]();this.Si()},e[t(316)].Si=function(){for(var e=t,i=0;i<this.oi[e(811)];i++)this.oi[i]();var n=this.pi;this.pi=[];for(var o=0;o<n[e(811)];o++)n[o]()},e[t(316)].Yi=function(e,i){var n=t,o=this;$[n(1264)](_0x276ee+n(1448)+i+n(830),(function(t){var a=n;if(t&&t[a(242)]){checkSubscriptionExpired(t[a(242)][a(1611)]),registerUpdatePlayer(t[a(242)]),_0x3b41e3(t[a(242)]);var s=this.ri;o.qi=!0,o.ri=i,o.si=t[a(242)],o.ti=e,_0x23921c(_0x216031.Oe,o.ti,60),console[a(980)](o),showServer2(_0x3938bb),showVersionPays(t),lxpduserId=t[a(242)][a(1611)],$(a(562)).text(lxpduserId),$("#avatarUrl")[a(972)](a(518),t[a(242)][a(802)]),$(a(723))[a(513)](a(724)+lxpduserId),theoKzObjects[a(365)]=!1,s!==i?o.aj():o.Si()}else o.Xi()}))[n(977)]((function(){o.Xi()}))},e[t(316)].Xi=function(){this.Wi()},e[t(316)].$i=function(){var e=t;console[e(980)](e(962)),FB[e(192)]((function(){}))},e[t(316)]._i=function(){var e=t;console.log(e(1479)),GoogleAuth[e(639)]()},e}(),_0x395281=function(){var t=_0x31e67f;function e(){var t=_0x50f7;this.cj={},this.cj[s]=[1,.5,.25,.5],this.cj[r]=_0x46ab54._b.WHITE,this.cj[c]=[0,0],this.cj[l]=[0,0];var e=_0x46ab54.cc[t(966)](h,u,this.cj);this.zf=new _0x46ab54.hc(d,e)}var i=t(1096)+_0x59d115(),n="a2_"+_0x59d115(),o=atob(t(737)),a=atob(t(784)),s=t(1130)+_0x59d115(),r=t(1429)+_0x59d115(),c="u5_"+_0x59d115(),l=t(429)+_0x59d115(),x=t(470)+_0x59d115(),d=(new _0x46ab54.gc).addAttribute(i,[-.5,-.5,.5,-.5,.5,.5,-.5,-.5,.5,.5,-.5,.5],2)[t(151)](n,[-.5,-.5,.5,-.5,.5,.5,-.5,-.5,.5,.5,-.5,.5],2),h=atob("cHJlY2lzaW9uIG1lZGl1bXAgZmxvYXQ7YXR0cmlidXRlIHZlYzIg")+i+atob(t(1342))+n+atob(t(541))+o+atob(t(541))+a+atob(t(576))+x+atob("O3ZvaWQgbWFpbigpew==")+x+atob(t(1279))+n+atob(t(1530))+a+atob("Kg==")+o+atob(t(1247))+i+atob(t(1437)),u=atob(t(371))+x+atob(t(197))+s+atob(t(1436))+r+atob(t(1431))+c+atob(t(1431))+l+atob("O3ZvaWQgbWFpbigpe3ZlYzIgY29vcmQ9")+x+atob(t(1399))+c+atob(t(1645))+l+atob(t(982))+s+atob(t(1473))+r+atob(t(1128));return e[t(316)].Hf=function(t,e,i,n){var o=this.cj[s];o[0]=t,o[1]=e,o[2]=i,o[3]=n},e[t(316)].Bf=function(t){this.cj[r]=t},e[t(316)].Te=function(e,i,n,o){var a=t;this.zf[a(1443)].x=e,this.zf[a(1443)].y=i,this.zf[a(1499)].x=n,this.zf.scale.y=o;var s=this.cj[c];s[0]=.2520615384615385*n,s[1]=.4357063736263738*o;var r=this.cj[l];r[0]=.2520615384615385*e,r[1]=.4357063736263738*i},e}(),_0x421b5d=function(){var t=_0x31e67f;function e(){this.jh=new _0x46ab54.ec,this.dj=0,this.ej=0}return e[t(316)].kh=function(e){var i=t;this.jh[i(342)]=e.Hc,this.jh.anchor[i(557)](e.Lh,e.Mh),this.dj=e.Nh,this.ej=e.Oh},e[t(316)].oh=function(e){var i=t;this.jh[i(1660)]=e*this.dj,this.jh[i(812)]=e*this.ej},e[t(316)].fj=function(t){this.jh.rotation=t},e[t(316)].nh=function(e,i){var n=t;this.jh.position[n(557)](e,i)},e.prototype.Mg=function(e){var i=t;this.jh[i(267)]=e},e[t(316)].gj=function(){return this.jh.visible},e[t(316)].qh=function(e){var i=t;this.jh[i(647)]=e},e[t(316)].Mf=function(){return this.jh},e[t(316)].ih=function(){_0x16c2d8(this.jh)},e}(),_0xbe8af6=function(){var t=_0x31e67f;function e(t){var e=_0x50f7;this.fb=t,this.Mb=new(_0xbe8af6[e(1321)]),this.Hb=!1,this.Ib=!0,this.hj=!1,this.Db=0,this.ij=0,this.Jb=1,this.jj=0,this.M=0,this.Ff={},this.kj=0,this.lj=new Float32Array(400),this.mj=new Float32Array(400),this.nj=new Float32Array(400),this.oj=null,this.pj=null,this.qj=null,this.Tb()}return e[t(316)].Kb=function(){null!=this.pj&&_0x16c2d8(this.pj.Rf),null!=this.qj&&_0x16c2d8(this.qj)},e.prototype.Tb=function(){this.Ig(.25),this.Mb.ad="",this.Ib=!0,this.Ff={},this.Mg(!1)},e[t(316)].Fg=function(t){this.Mb=t,this.rj(this.Hb)},e.prototype.Mg=function(t){var e=this.Hb;this.Hb=t,this.rj(e)},e[t(316)].Ig=function(e){var i=t;this.M=50*e;var n=e;e>this.fb.cf&&(n=Math.atan((e-this.fb.cf)/this.fb.df)*this.fb.df+this.fb.cf);var o=Math[i(608)](4*Math[i(874)](5*n,.707106781186548)+25),a=Math.min(200,Math[i(1699)](3,5*(o-5)+1)),s=this.kj;if(this.Db=.025*(5+.9*o),this.kj=Math.floor(a),this.ij=a-this.kj,s>0&&s<this.kj)for(var r=this.lj[2*s-2],c=this.lj[2*s-1],l=this.mj[2*s-2],x=this.mj[2*s-1],d=this.nj[2*s-2],h=this.nj[2*s-1],u=s;u<this.kj;u++)this.lj[2*u]=r,this.lj[2*u+1]=c,this.mj[2*u]=l,this.mj[2*u+1]=x,this.nj[2*u]=d,this.nj[2*u+1]=h},e[t(316)].Lg=function(t,e){this.kj=e;for(var i=0;i<this.kj;i++)this.lj[2*i]=this.mj[2*i]=this.nj[2*i]=t(),this.lj[2*i+1]=this.mj[2*i+1]=this.nj[2*i+1]=t()},e[t(316)].Kg=function(t,e,i){this.hj=i;for(var n=0;n<this.kj;n++)this.lj[2*n]=this.mj[2*n],this.lj[2*n+1]=this.mj[2*n+1];var o=t-this.mj[0],a=e-this.mj[1];this.sj(o,a,this.kj,this.mj)},e[t(316)].sj=function(e,i,n,o){var a=Math[t(600)](e,i);if(!(a<=0)){var s=o[0],r=void 0;o[0]+=e;var c=o[1],l=void 0;o[1]+=i;for(var x=this.Db/(this.Db+a),d=1-2*x,h=1,u=n-1;h<u;h++)r=o[2*h],o[2*h]=o[2*h-2]*d+(r+s)*x,s=r,l=o[2*h+1],o[2*h+1]=o[2*h-1]*d+(l+c)*x,c=l;d=1-2*(x=this.ij*this.Db/(this.ij*this.Db+a)),o[2*n-2]=o[2*n-4]*d+(o[2*n-2]+s)*x,o[2*n-1]=o[2*n-3]*d+(o[2*n-1]+c)*x}},e[t(316)].Gf=function(){return{x:this.nj[0],y:this.nj[1]}},e[t(316)].Hg=function(e,i){for(var n=t,o=1e6,a=e,s=i,r=0;r<this.kj;r++){var c=this.nj[2*r],l=this.nj[2*r+1],x=Math[n(600)](e-c,i-l);x<o&&(o=x,a=c,s=l)}return{x:a,y:s,distance:o}},e[t(316)].vb=function(t){this.oj=t},e[t(316)].Fb=function(e,i){var n=t;this.Jb=_0x5d6d0c(this.Jb,this.Ib?this.hj?.9+.1*Math[n(757)](e/400*Math.PI):1:0,i,.00125),this.jj=_0x5d6d0c(this.jj,this.Ib?this.hj?1:0:1,i,.0025),null!=this.pj&&(this.pj.Rf[n(647)]=this.Jb),null!=this.qj&&(this.qj[n(647)]=this.Jb)},e[t(316)].Gb=function(t,e,i,n){if(this.Hb&&this.Ib)for(var o=Math.pow(.11112,e/95),a=0;a<this.kj;a++){var s=_0x538643(this.lj[2*a],this.mj[2*a],i),r=_0x538643(this.lj[2*a+1],this.mj[2*a+1],i);this.nj[2*a]=_0x538643(s,this.nj[2*a],o),this.nj[2*a+1]=_0x538643(r,this.nj[2*a+1],o)}null!=this.pj&&this.Hb&&this.pj.tj(this,t,e,n),null!=this.qj&&(this.qj.If.x=this.nj[0],this.qj.If.y=this.nj[1]-3*this.Db)},e[t(316)].rj=function(t){this.Hb?!t&&this.uj():(null!=this.pj&&_0x16c2d8(this.pj.Rf),null!=this.qj&&_0x16c2d8(this.qj))},e[t(316)].uj=function(){var e=t,i=_0x504022();null==this.pj?this.pj=new _0x18b979:_0x16c2d8(this.pj.Rf),this.pj.hh(i.o.fb.af,i.p.Dc().ed(this.Mb.cg),i.p.Dc().dd(this.Mb.dg),i.p.Dc().fd(this.Mb.Bg),i.p.Dc().gd(this.Mb.Cg),i.p.Dc().hd(this.Mb.Dg),i.p.Dc().jd(this.Mb.Eg)),null==this.qj?(this.qj=new _0x34c23e(""),this.qj[e(1043)].fontFamily=fonts[currentFontIndex],this.qj[e(428)].set(.5)):_0x16c2d8(this.qj),this.qj[e(1043)][e(1646)]=14,this.qj[e(1043)][e(733)]=i.p.Dc().dd(this.Mb.dg)._c,this.qj[e(513)]=this.Mb.ad,this.oj.Qf(this.Mb.Lb,this.pj,this.qj)},e.Config=function(){this.Lb=0,this.cg=_0x552076.TEAM_DEFAULT,this.dg=0,this.Bg=0,this.Cg=0,this.Dg=0,this.Eg=0,this.ad=""},e}(),_0x34c23e=_0x499ed3(_0x46ab54.fc,(function(t,e,i){var n=_0x31e67f;_0x46ab54.fc[n(167)](this,t,e,i),this.If={x:0,y:0}})),_0x18b979=function(){var t=_0x31e67f;function e(){var t=_0x50f7;this.Rf=new _0x46ab54.Zb,this.Rf.sortableChildren=!0,this.vj=new i,this.vj[t(770)]=1.6,this.wj=0,this.xj=Array(797),this.xj[0]=this.yj(0,new _0x421b5d,new _0x421b5d);for(var e=1;e<797;e++)this.xj[e]=this.yj(e,new _0x421b5d,new _0x421b5d);this.zj=0,this.Aj=0,this.Bj=0}var i,n=.1*Math.PI,o=-.06640625,a=-.03515625,s=-.0625,r=.64453125,c=.45703125,l=-.1015625,x=-.125,d=.15234375,h=.94921875,u=-.1015625;e[t(316)].yj=function(e,i,n){var o=t,a=new f(i,n);return i.jh.zIndex=.001*(2*(797-e)+1+3),n.jh[o(770)]=.001*(2*(797-e)-2+3),a},e[t(316)].hh=function(e,i,n,o,a,s,r){var c=t,l=n.Zc,x=e==_0x398dbe._e?i.bd.$c:n.$c;if(l.length>0&&x[c(811)]>0)for(var d=0;d<this.xj[c(811)];d++)this.xj[d].Nf.kh(l[d%l[c(811)]]),this.xj[d].Pf.kh(x[d%x.length]);this.vj.hh(o,a,s,r)},(i=_0x499ed3(_0x46ab54.Zb,(function(){var e=t;_0x46ab54.Zb.call(this),this[e(1642)]=!0,this.Cj=[],this.Dj=[],this.Ej=[],this.Fj=[],this.Gj=new _0x46ab54.Zb,this.Hj=[];for(var i=0;i<4;i++){var n=new _0x421b5d;n.kh(_0x504022().q.Ph),this.Gj[e(145)](n.jh),this.Hj.push(n)}this.Gj[e(770)]=.0011,this[e(145)](this.Gj),this.Ij(),this.Jj=new _0x421b5d,this.Jj.kh(_0x504022().q.Qh),this.Jj.jh.zIndex=.001,this.addChild(this.Jj.jh),this.Kj(),this.flx=new _0x421b5d,this.flx.kh(_0x504022().q.Rh),this.flx.jh[e(770)]=.001,this[e(145)](this.flx.jh),this[e(1071)](),this[e(849)]=new _0x421b5d,this[e(849)].kh(_0x504022().q[e(657)]),this[e(849)].jh[e(770)]=.001,this[e(145)](this[e(849)].jh),this[e(272)](),this.xxx2=new _0x421b5d,this[e(801)].kh(_0x504022().q[e(595)]),this[e(801)].jh.zIndex=.001,this[e(145)](this[e(801)].jh),this[e(1540)](),this.xxx10=new _0x421b5d,this[e(1515)].kh(_0x504022().q.X_x10),this[e(1515)].jh[e(770)]=.001,this[e(145)](this[e(1515)].jh),this[e(1702)](),this[e(488)]=new _0x421b5d,this.xxxLupatype.kh(_0x504022().q[e(1560)]),this.xxxLupatype.jh[e(770)]=.001,this[e(145)](this.xxxLupatype.jh),this[e(287)](),this.xxxEmojiType=new _0x421b5d,this[e(988)].kh(_0x504022().q[e(1301)]),this.xxxEmojiType.jh[e(770)]=.001,this[e(145)](this[e(988)].jh),this.x_emoji()})))[t(316)].hh=function(t,e,i,n){this.Lj(.002,this.Cj,t.Zc),this.Lj(.003,this.Dj,e.Zc),this.Lj(.004,this.Fj,n.Zc),this.Lj(.005,this.Ej,i.Zc)},i[t(316)].Lj=function(e,i,n){for(var o=t;n[o(811)]>i[o(811)];){var a=new _0x421b5d;i.push(a),this.addChild(a.Mf())}for(;n.length<i[o(811)];)i[o(748)]().ih();for(var s=e,r=0;r<n[o(811)];r++){s+=1e-4;var c=i[r];c.kh(n[r]),c.jh[o(770)]=s}},i.prototype.mh=function(e,i,n,o){var a=t;this[a(267)]=!0,this[a(1443)][a(557)](e,i),this[a(221)]=o;for(var s=0;s<this.Cj[a(811)];s++)this.Cj[s].oh(n);for(var r=0;r<this.Dj.length;r++)this.Dj[r].oh(n);for(var c=0;c<this.Ej[a(811)];c++)this.Ej[c].oh(n);for(var l=0;l<this.Fj[a(811)];l++)this.Fj[l].oh(n)},i[t(316)].lh=function(){this[t(267)]=!1},i[t(316)].Mj=function(e,i,n,o){var a=t;this.Gj.visible=!0;for(var s=n/1e3,r=1/this.Hj[a(811)],c=0;c<this.Hj[a(811)];c++){var l=1-(s+r*c)%1;this.Hj[c].jh.alpha=1-l,this.Hj[c].oh(i*(.5+4.5*l))}},i[t(316)].Ij=function(){var e=t;this.Gj[e(267)]=!1},i.prototype.Nj=function(e,i,n,o){var a=t;this.Jj.jh[a(267)]=!0,this.Jj.jh.alpha=_0x5d6d0c(this.Jj.jh.alpha,e.hj?.9:.2,o,.0025),this.Jj.oh(i)},i[t(316)][t(901)]=function(e,i,n,o){var a=t;this.flx.jh[a(267)]=!0,this[a(716)].oh(i)},i.prototype.flexx=function(){var e=t;this.flx.jh[e(267)]=!1},i[t(316)].ActiveX5=function(e,i,n,o){var a=t;this[a(849)].jh[a(267)]=!0,this[a(849)].jh[a(647)]=_0x5d6d0c(this.Jj.jh[a(647)],e.hj?.9:.2,o,.0025),this[a(849)].oh(i)},i[t(316)][t(272)]=function(){this[t(849)].jh.visible=!1},i.prototype[t(141)]=function(e,i,n,o){var a=t;this[a(988)].jh[a(267)]=!0,this[a(988)].oh(i)},i[t(316)].x_emoji=function(){var e=t;this[e(988)].jh[e(267)]=!1},i[t(316)][t(971)]=function(e,i,n,o){var a=t;this[a(801)].jh[a(267)]=!0,this[a(801)].jh.alpha=_0x5d6d0c(this.Jj.jh[a(647)],e.hj?.9:.2,o,.0025),this.xxx2.oh(i)},i[t(316)][t(1540)]=function(){var e=t;this[e(801)].jh[e(267)]=!1},i[t(316)][t(617)]=function(e,i,n,o){var a=t;this[a(1515)].jh[a(267)]=!0,this.xxx10.jh[a(647)]=_0x5d6d0c(this.Jj.jh[a(647)],e.hj?.9:.2,o,.0025),this.xxx10.oh(i)},i[t(316)][t(1702)]=function(){this[t(1515)].jh.visible=!1},i[t(316)].ActiveZlupa=function(e,i,n,o){var a=t;this[a(488)].jh[a(267)]=!0,this[a(488)].jh[a(647)]=_0x5d6d0c(this.Jj.jh[a(647)],e.hj?.9:.2,o,.0025),this[a(488)].oh(i)},i[t(316)].xXxLupaZ=function(){var e=t;this[e(488)].jh[e(267)]=!1},i.prototype.Kj=function(){this.Jj.jh.visible=!1},e[t(316)].Oj=function(e){var i=t;return this.Aj+this.Bj*Math[i(1113)](e*n-this.zj)},e[t(316)].tj=function(e,i,n,p){var _,b,v,m,g,k,y,w,j=t,S=2*e.Db,I=e.nj,M=e.kj,$=4*M-3;if(this.zj=i/400*Math.PI,this.Aj=1.5*S,this.Bj=.1*S*e.jj,p(b=I[0],k=I[1])){v=I[2],y=I[3],m=I[4];var T=Math[j(233)]((w=I[5])+2*k-3*y,m+2*b-3*v);this.vj.mh(b,k,S,T),this.xj[0].mh(b,k,S,this.Oj(0),T),this.xj[1].mh(r*b+c*v+l*m,r*k+c*y+l*w,S,this.Oj(1),f.angleBetween(this.xj[0],this.xj[2])),this.xj[2].mh(.375*b+.75*v+x*m,.375*k+.75*y+x*w,S,this.Oj(2),f[j(1062)](this.xj[1],this.xj[3])),this.xj[3].mh(d*b+h*v+u*m,d*k+h*y+u*w,S,this.Oj(3),f[j(1062)](this.xj[2],this.xj[4]))}else this.vj.lh(),this.xj[0].lh(),this.xj[1].lh(),this.xj[2].lh(),this.xj[3].lh();for(var C=4,P=2,O=2*M-4;P<O;P+=2)p(b=I[P],k=I[P+1])?(_=I[P-2],g=I[P-1],v=I[P+2],y=I[P+3],m=I[P+4],w=I[P+5],this.xj[C].mh(b,k,S,this.Oj(C),f[j(1062)](this.xj[C-1],this.xj[C+1])),C++,this.xj[C].mh(o*_+.84375*b+.2578125*v+a*m,o*g+.84375*k+.2578125*y+a*w,S,this.Oj(C),f[j(1062)](this.xj[C-1],this.xj[C+1])),C++,this.xj[C].mh(s*_+.5625*b+.5625*v+s*m,s*g+.5625*k+.5625*y+s*w,S,this.Oj(C),f[j(1062)](this.xj[C-1],this.xj[C+1])),C++,this.xj[C].mh(a*_+.2578125*b+.84375*v+o*m,a*g+.2578125*k+.84375*y+o*w,S,this.Oj(C),f[j(1062)](this.xj[C-1],this.xj[C+1])),C++):(this.xj[C].lh(),C++,this.xj[C].lh(),C++,this.xj[C].lh(),C++,this.xj[C].lh(),C++);for(p(b=I[2*M-4],k=I[2*M-3])?(_=I[2*M-6],g=I[2*M-5],v=I[2*M-2],y=I[2*M-1],this.xj[$-5].mh(b,k,S,this.Oj($-5),f[j(1062)](this.xj[$-6],this.xj[$-4])),this.xj[$-4].mh(u*_+h*b+d*v,u*g+h*k+d*y,S,this.Oj($-4),f[j(1062)](this.xj[$-5],this.xj[$-3])),this.xj[$-3].mh(x*_+.75*b+.375*v,x*g+.75*k+.375*y,S,this.Oj($-3),f[j(1062)](this.xj[$-4],this.xj[$-2])),this.xj[$-2].mh(l*_+c*b+r*v,l*g+c*k+r*y,S,this.Oj($-2),f[j(1062)](this.xj[$-3],this.xj[$-1])),this.xj[$-1].mh(v,y,S,this.Oj($-1),f[j(1062)](this.xj[$-2],this.xj[$-1]))):(this.xj[$-5].lh(),this.xj[$-4].lh(),this.xj[$-3].lh(),this.xj[$-2].lh(),this.xj[$-1].lh()),0==this.wj&&$>0&&this.Rf[j(145)](this.vj),this.wj>0&&0==$&&_0x16c2d8(this.vj);this.wj<$;)this.Rf[j(145)](this.xj[this.wj].Nf.Mf()),this.Rf[j(145)](this.xj[this.wj].Pf.Mf()),this.wj+=1;for(;this.wj>$;)this.wj-=1,this.xj[this.wj].Pf.ih(),this.xj[this.wj].Nf.ih();theoKzObjects[j(1301)]&&e&&e.Mb&&e.Mb.Mb?this.vj[j(141)](e,S,i,n):this.vj[j(376)]();var A=e.Ff[_0xe87f7d[j(430)]];this.xj[0].gj()&&null!=A&&A.sc?this.vj.Mj(e,S,i,n):this.vj.Ij();var F=e.Ff[_0xe87f7d[j(781)]];this.xj[0].gj()&&null!=F&&F.sc?this.vj.Nj(e,S,i,n):this.vj.Kj();var D=e.Ff[_0xe87f7d[j(821)]];theoKzObjects[j(178)]&&this.xj[0].gj()&&null!=D&&D.sc?this.vj.Nflex(e,S,i,n):this.vj[j(1071)]();var z=e.Ff[_0xe87f7d[j(1005)]];theoKzObjects.visiblePowersAll&&this.xj[0].gj()&&null!=z&&z.sc?this.vj.ActiveX5(e,S,i,n):this.vj.xXx5();var E=e.Ff[_0xe87f7d[j(1139)]];theoKzObjects[j(1338)]&&this.xj[0].gj()&&null!=E&&E.sc?this.vj[j(971)](e,S,i,n):this.vj[j(1540)]();var R=e.Ff[_0xe87f7d[j(1644)]];theoKzObjects[j(1338)]&&this.xj[0].gj()&&null!=R&&R.sc?this.vj[j(617)](e,S,i,n):this.vj[j(1702)]();var H=e.Ff[_0xe87f7d.ZOOM_TYPE];theoKzObjects[j(1338)]&&this.xj[0].gj()&&null!=H&&H.sc?this.vj[j(1024)](e,S,i,n):this.vj[j(287)]()};var f=function(){var e=t;function i(t,e){this.Nf=t,this.Nf.Mg(!1),this.Pf=e,this.Pf.Mg(!1)}return i[e(316)].mh=function(t,i,n,o,a){var s=e;this.Nf.Mg(theoKzObjects.noSkin),this.Nf.nh(t,i),this.Nf.oh(n),this.Nf.fj(a),this.Pf.Mg(theoKzObjects[s(1199)]),this.Pf.nh(t,i),this.Pf.oh(o),this.Pf.fj(a)},i[e(316)].lh=function(){this.Nf.Mg(!1),this.Pf.Mg(!1)},i[e(316)].gj=function(){return this.Nf.gj()},i[e(1062)]=function(t,i){var n=e;return Math.atan2(t.Nf.jh[n(1443)].y-i.Nf.jh.position.y,t.Nf.jh[n(1443)].x-i.Nf.jh.position.x)},i}();return e}(),_0x2cf077=function(){var t=_0x31e67f;function e(t){var e=_0x50f7;this.se=t,this.te=t[e(1264)]()[0],this.ue=new _0x46ab54.ac({view:this.te,transparent:!0}),this.sc=!1,this.Pj=new _0x18b979,this.Pj.Rf[e(145)](this.Pj.vj),this.Qj=0,this.Rj=0,this.Ng=1,this.rh=0,this.sh=0,this.th=0,this.uh=0,this.vh=0,this.Sj=!1,this.Tj=!1,this.Uj=!1,this.Vj=!1,this.Wj=!1,this.Xj=!1,this.Yj=!1,this.Zj=!1,this.$j=!1,this._j=!1,this.Ra(),this.Fb();var i=this;_0x504022().p.ca((function(){_0x504022().p.W()&&i.Fb()}))}return e.prototype.Fb=function(){var t=_0x504022();this.Pj.hh(_0x398dbe.$e,null,t.p.Dc().dd(this.rh),t.p.Dc().fd(this.sh),t.p.Dc().gd(this.th),t.p.Dc().hd(this.uh),t.p.Dc().jd(this.vh))},e[t(316)].Le=function(t){this.sc=t},e[t(316)].ak=function(t,e,i){this.rh=t,this.Sj=e,this.Xj=i,this.Fb()},e[t(316)].bk=function(t,e,i){this.sh=t,this.Tj=e,this.Yj=i,this.Fb()},e[t(316)].ck=function(t,e,i){this.th=t,this.Uj=e,this.Zj=i,this.Fb()},e.prototype.dk=function(t,e,i){this.uh=t,this.Vj=e,this.$j=i,this.Fb()},e[t(316)].ek=function(t,e,i){this.vh=t,this.Wj=e,this._j=i,this.Fb()},e[t(316)].Ra=function(){var e=t,i=window[e(1647)]?window[e(1647)]:1;this.Qj=this.se[e(1660)](),this.Rj=this.se[e(812)](),this.ue[e(130)](this.Qj,this.Rj),this.ue[e(1347)]=i,this.te.width=i*this.Qj,this.te[e(812)]=i*this.Rj,this.Ng=this.Rj/4;var n=_0x11b0e7(1,this.Pj.xj[e(811)],2*Math[e(1173)](this.Qj/this.Ng)-5);if(this.Pj.wj!=n){for(var o=n;o<this.Pj.xj[e(811)];o++)this.Pj.xj[o].lh();for(;this.Pj.wj<n;)this.Pj.Rf[e(145)](this.Pj.xj[this.Pj.wj].Nf.Mf()),this.Pj.Rf[e(145)](this.Pj.xj[this.Pj.wj].Pf.Mf()),this.Pj.wj+=1;for(;this.Pj.wj>n;)this.Pj.wj-=1,this.Pj.xj[this.Pj.wj].Pf.ih(),this.Pj.xj[this.Pj.wj].Nf.ih()}},e[t(316)].Pa=function(){var e=t;if(this.sc&&_0x504022().p.W){for(var i=Date[e(1477)]()/200,n=Math[e(1113)](i),o=this.Ng,a=1.5*this.Ng,s=this.Qj-.5*(this.Qj-.5*o*(this.Pj.wj-1)),r=.5*this.Rj,c=0,l=0,x=-1;x<this.Pj.wj;x++){var d=x,h=Math[e(757)](1*d/12*Math.PI-i)*(1-Math[e(874)](16,-1*d/12));if(x>=0){var u=s+-.5*o*d,f=r+.5*o*h,p=2*o,_=2*a,b=Math[e(233)](l-h,d-c);0==x&&this.Pj.vj.mh(u,f,p,b),this.Pj.xj[x].mh(u,f,p,_,b);var v=this.Sj?this.Xj?.4+.2*n:.9+.1*n:this.Xj?.4:1;this.Pj.xj[x].Nf.qh(v),this.Pj.xj[x].Pf.qh(v)}c=d,l=h}for(var m=0;m<this.Pj.vj.Cj[e(811)];m++){var g=this.Tj?this.Yj?.4+.2*n:.9+.1*n:this.Yj?.4:1;this.Pj.vj.Cj[m].qh(g)}for(var k=0;k<this.Pj.vj.Dj.length;k++){var y=this.Uj?this.Zj?.4+.2*n:.9+.1*n:this.Zj?.4:1;this.Pj.vj.Dj[k].qh(y)}for(var w=0;w<this.Pj.vj.Ej.length;w++){var j=this.Vj?this.$j?.4+.2*n:.9+.1*n:this.$j?.4:1;this.Pj.vj.Ej[w].qh(j)}for(var S=0;S<this.Pj.vj.Fj[e(811)];S++){var I=this.Wj?this._j?.4+.2*n:.9+.1*n:this._j?.4:1;this.Pj.vj.Fj[S].qh(I)}this.ue[e(354)](this.Pj.Rf)}},e}(),_0xec0c85=function(){var t=_0x31e67f;function e(t){this.rc=t}return e.fk=$("#game-view"),e.gk=$(t(1285)),e.hk=$(t(1424)),e.ik=$(t(367)),e.jk=$(t(592)),e.kk=$(t(1157)),e.lk=$("#stretch-box"),e.mk=$(t(1328)),e.di=$("#background-canvas"),e.nk=$(t(458)),e.ok=$(t(616)),e[t(316)].a=function(){},e[t(316)].ii=function(){},e.prototype.ji=function(){},e[t(316)].ei=function(){},e[t(316)].Ra=function(){},e[t(316)].Pa=function(t,e){},e}(),_0x11748d=function(){var t=_0x31e67f,e=$(t(793)),i=$(t(1533)),n=$("#congrats-bg"),o=$("#unl6wj4czdl84o9b");$(t(177));var a=$(t(1696)),s=$("#final-message"),r=$("#final-score"),c=$(t(1374)),l=$(t(1478)),x=_0x499ed3(_0xec0c85,(function(){var n=t;_0xec0c85.call(this,_0x38eb3b.pk);var o=this,a=_0x504022(),s=_0xec0c85.mk.get()[0];console[n(980)](n(133)+_0x5405f7.qk),e[n(513)](_0x20af8f("index.game.result.title")),i[n(513)](_0x20af8f("index.game.result.continue")),i[n(730)]((function(){var t=n;a.r.Cd(),a.r.G(_0x5f491b[t(1033)].F),a.s.I(a.s.F)})),$(n(1328))[n(972)](n(243),0).focus(),$(n(1328))[n(730)](),$("#game-canvas")[n(179)]((function(t){var e=n;if(console[e(980)](t),e(513)!==t.target.type){if(t[e(1192)][e(1409)]()===keys[e(1030)]&&lxpdupdatezoom(1),t.key[e(1409)]()===keys[e(1417)]){let t=lxpdlastserver;$(".overlay-2")[e(967)](e(1443),"static"),t&&(anApp.r.Hd(),anApp.sa(t))}if(t.key.toLowerCase()===keys[e(322)]){let t=new Uint8Array([NaN,NaN]);anApp.o.Wb(t),setTimeout((()=>{var t=e;let i=lxpdlastserver;$(".overlay-2")[t(967)](t(1443),t(820)),i&&(anApp.r.Hd(),anApp.sa(i))}),1e3)}t.key[e(1409)]()===keys[e(995)]&&$(e(1148))[e(730)](),t[e(1192)][e(1409)]()===keys[e(659)]&&($(".option.toggle[data-option='sectores'] .box")[e(730)](),setSectorsGame()),t.key[e(1409)]()===keys.background&&($(e(1330))[e(730)](),setSectorsGame()),t[e(1192)][e(1409)]()===keys[e(553)]&&(theoKzObjects.noSkin=!theoKzObjects[e(553)]),t[e(1192)][e(1409)]()===keys[e(1199)]&&(theoKzObjects[e(1199)]=!theoKzObjects[e(1199)]),t[e(1192)].toLowerCase()===keys[e(1349)]&&(isRunning?(isRunning=!1,initialInterval=55,cycleCounter=1,isIncrementing=!0,clearInterval(intervalID),intervalID=null,lxpdgirosubtracttexture[e(342)]=ungirotexture,lxpdgirosubtracttexture.alpha=.25):(lxpdgirosubtracttexture[e(647)]=.75,startInterval(),isRunning=!0))}})),$(n(1328))[n(420)]((function(t){var e=n;e(752)===t[e(1192)]&&r(),32==t[e(1531)]&&(o.rk=!0),49==t[e(1531)]&&(theoKzObjects[e(1301)]=!0,setTimeout((()=>{theoKzObjects[e(1301)]=!1}),2e3)),t.keyCode})).keyup((function(t){32==t[n(1531)]&&(o.rk=!1)}));var r=function(){var t=n;$("#chatInput").css(t(265),t(1466))[t(1237)]()};if(s[n(182)](n(1545),(function(t){var e=n;(t=t||window.event)&&(o.rk=t.touches[e(811)]>=2),t[e(1007)]()}),!0),s[n(182)](n(777),(function(t){var e=n;(t=t||window[e(920)])&&(o.rk=t[e(140)].length>=2)}),!0),s[n(182)](n(627),(function(t){var e=n;if((t=t||window.event&&void 0!==t[e(1358)])&&!isRunning){var i=t.clientX,a=t.clientY;window.mouseX=i,window.mouseY=a,o.sk=Math[e(233)](a-.5*s.offsetHeight,i-.5*s[e(940)])}}),!0),s.addEventListener("mousedown",(function(t){o.rk=!0}),!0),s[n(182)](n(219),(function(t){o.rk=!1}),!0),lxpdmobilecheck()){var c,l=-1;s[n(182)](n(604),(function(t){var e=n;if(t=t||window[e(920)]){t=t[e(140)][0];var i=.5*s[e(940)],a=.5*s[e(656)];if(lxpdmobilearrowtexture.visible&&(i=lxpdmobilearrowtexture.x+110,a=lxpdmobilearrowtexture.y+110),-1===lxpdjoystick&&(o.sk=Math[e(233)](t[e(915)]-a,t.pageX-i)),-1!=lxpdmobileprediction){var r=Math[e(608)]((i-t.pageX)*(i-t[e(1410)])+(a-t[e(915)])*(a-t.pageY));lxpdmobilepredictiontextures[lxpdmobileprediction].x=.5*s.offsetWidth+(r<110?r:110)*Math[e(757)](o.sk)-68,lxpdmobilepredictiontextures[lxpdmobileprediction].y=.5*s[e(656)]+(r<110?r:110)*Math.sin(o.sk)-68,lxpdmobilepredictiontextures[lxpdmobileprediction][e(647)]=1}}}),!0),s[n(182)](n(777),(function(t){var e=n;-1!=lxpdmobileprediction&&(lxpdmobilepredictiontextures[lxpdmobileprediction][e(647)]=.25),t&&-1===l&&(o.rk=t[e(140)].length>=2)}),!0),s[n(182)](n(1355),(function(t){var e=n;let i,a,s=lxpdzoomplustexture[e(1079)](),r=lxpdzoomsubtracttexture[e(1079)]();void 0!==lxpdgirosubtracttexture&&void 0!==lxpdexplotWubtracttexture&&(i=lxpdgirosubtracttexture[e(1079)](),a=lxpdexplotWubtracttexture[e(1079)]());let x=lxpdmobilecontroltextures[lxpdmobilecontrol].getGlobalPosition(),d=lxpdmobilepeedtexture[e(1079)]();if(void 0!==a&&void 0!==i){if(t[e(1358)]>a.x&&t[e(1358)]<=a.x+lxpdexplotWubtracttexture.width&&t.clientY>a.y&&t[e(965)]<=a.y+lxpdexplotWubtracttexture[e(812)])return void lxpdexplotWubtracttexture[e(1259)](e(219));if(t[e(1358)]>i.x&&t[e(1358)]<=i.x+lxpdgirosubtracttexture[e(1660)]&&t[e(965)]>i.y&&t[e(965)]<=i.y+lxpdgirosubtracttexture.height)return void lxpdgirosubtracttexture[e(1259)](e(219))}if(t[e(1358)]>s.x&&t.clientX<=s.x+lxpdzoomplustexture[e(1660)]&&t.clientY>s.y&&t[e(965)]<=s.y+lxpdzoomplustexture[e(812)])lxpdzoomplustexture.emit(e(219));else if(t.clientX>r.x&&t[e(1358)]<=r.x+lxpdzoomsubtracttexture[e(1660)]&&t[e(965)]>r.y&&t[e(965)]<=r.y+lxpdzoomsubtracttexture.height)lxpdzoomsubtracttexture[e(1259)]("mouseup");else{if(!(t[e(1358)]>x.x&&t.clientX<=x.x+lxpdmobilecontroltextures[lxpdmobilecontrol][e(1660)]&&t[e(965)]>x.y&&t[e(965)]<=x.y+lxpdmobilecontroltextures[lxpdmobilecontrol][e(812)]))return lxpdmobilepeedtexture[e(267)]&&t[e(1358)]>d.x&&t.clientX<=d.x+lxpdmobilepeedtexture[e(1660)]&&t[e(965)]>d.y&&t[e(965)]<=d.y+lxpdmobilepeedtexture[e(812)]?(l=t.pointerId,o.rk=!0,void(lxpdmobilepeedtexture[e(647)]=1)):void(-1!==lxpdjoystick&&!lxpdjoysticks[lxpdjoystick][e(267)]&&(c=t[e(353)],lxpdjoysticks[lxpdjoystick].x=t[e(1358)],lxpdjoysticks[lxpdjoystick].y=t.clientY,lxpdjoysticks[lxpdjoystick][e(267)]=!0,lxpdjoysticks[lxpdjoystick].onDragStart(t)));lxpdmobilecontroltextures[lxpdmobilecontrol][e(1259)](e(1103))}}),!0),s[n(182)](n(402),(function(t){var e=n;t[e(353)]==l&&(o.rk=!1,l=-1,lxpdmobilepeedtexture[e(647)]=.5),t[e(353)]==c&&-1!==lxpdjoystick&&(lxpdjoysticks[lxpdjoystick].visible=!1,lxpdjoysticks[lxpdjoystick].onDragEnd(t))}),!0),s[n(182)](n(425),(function(t){var e=n;t[e(353)]==c&&-1!==lxpdjoystick&&lxpdjoysticks[lxpdjoystick][e(1026)](t)}),!0)}this.wb=new _0x443c92(_0xec0c85.mk),this.cb=d.J,this.sk=0,this.rk=!1,theoEvents.eventoPrincipal=o}));x[t(316)].a=function(){},x[t(316)].ii=function(){var e=t;this.cb==d.J?(_0xec0c85.fk[e(1494)](),_0xec0c85.fk[e(640)](500),_0xec0c85.gk[e(1494)](),_0xec0c85.gk[e(586)](1),_0xec0c85.hk[e(1494)](),_0xec0c85.hk[e(586)](50),_0xec0c85.ik[e(1494)](),_0xec0c85.ik.fadeOut(50),_0xec0c85.jk.stop(),_0xec0c85.jk[e(586)](50),_0xec0c85.kk[e(1494)](),_0xec0c85.kk[e(586)](50),_0xec0c85.lk[e(1494)](),_0xec0c85.lk[e(586)](1),_0xec0c85.di[e(1494)](),_0xec0c85.di[e(586)](50),_0x339075.Le(!1),_0xec0c85.nk.stop(),_0xec0c85.nk.fadeOut(50),_0xec0c85.ok[e(1494)](),_0xec0c85.ok[e(586)](50)):(_0xec0c85.fk[e(1494)](),_0xec0c85.fk[e(640)](500),_0xec0c85.gk[e(1494)](),_0xec0c85.gk[e(640)](500),_0xec0c85.hk[e(1494)](),_0xec0c85.hk[e(586)](50),_0xec0c85.ik.stop(),_0xec0c85.ik[e(586)](50),_0xec0c85.jk[e(1494)](),_0xec0c85.jk[e(586)](50),_0xec0c85.kk[e(1494)](),_0xec0c85.kk.fadeOut(50),_0xec0c85.lk.stop(),_0xec0c85.lk.fadeOut(1),_0xec0c85.di[e(1494)](),_0xec0c85.di[e(586)](50),_0x339075.Le(!1),_0xec0c85.nk[e(1494)](),_0xec0c85.nk[e(586)](50),_0xec0c85.ok[e(1494)](),_0xec0c85.ok[e(586)](50))},x[t(316)].J=function(){return this.cb=d.J,this},x[t(316)].Fa=function(){var e=t;return console[e(980)]("re"),n[e(870)](),setTimeout((function(){var t=e;console[t(980)](t(1180)),n[t(640)](10)}),1),o[e(870)](),setTimeout((function(){var t=e;console.log(t(857)),o.fadeIn(10)}),1),this.cb=d.Fa,this},x[t(316)].ji=function(){this.rk=!1,this.wb.Ra(),this.cb==d.Fa&&_0x504022().r.Gd()},x[t(316)].Ra=function(){this.wb.Ra()},x.prototype.Pa=function(t,e){this.wb.Pa(t,e)},x[t(316)].Da=function(e,i,n){var o,x,d,h,u,f=t,p=void 0,_=void 0,b=void 0;if(i>=1&&i<=10?(p=_0x20af8f(f(776)+i),_=_0x20af8f(f(1432)),b=_0x20af8f(f(1028)).replace(f(1272),n)[f(1458)](f(1097),e)[f(1458)](f(1360),p)):(p="",_=_0x20af8f(f(1236)),b=_0x20af8f(f(1122))[f(1458)](f(1272),n)[f(1458)](f(1097),e)),s[f(1591)](_0x20af8f(f(1652))),r[f(1591)](e),c[f(1591)](p),l[f(1591)](_),_0x5405f7.qk){var v=_0x20af8f(f(153));_0x20af8f(f(1523)),a[f(422)]()[f(1119)]((o=v,"https://wormate.io","wormate.io",x=b,d=b,"https://wormate.io/images/og-share-img-new.jpg",h=_0x50f7,(u=$(h(1176)+o+"</span></div>"))[h(730)]((function(){var t=h;t(829)!=typeof FB&&void 0!==FB.ui&&FB.ui({method:t(311),display:t(1291),link:"https://wormate.io",name:"wormate.io",caption:x,description:d,picture:"https://wormate.io/images/og-share-img-new.jpg"},(function(){}))})),u))}},x[t(316)].T=function(){return this.sk},x[t(316)].U=function(){return this.rk};var d={J:0,Fa:1};return x}(),_0x5f3f37;_0x5595d3=$(_0x31e67f(1377)),_0x2082d0=$(_0x31e67f(381)),_0x5cdefc=$("#loading-worm-c"),_0x841b34=["100% 100%",_0x31e67f(1125),"200% 100%",_0x31e67f(879)],(_0x27325c=_0x499ed3(_0xec0c85,(function(){_0xec0c85.call(this,_0x38eb3b.pk)}))).prototype.a=function(){},_0x27325c[_0x31e67f(316)].ii=function(){var t=_0x31e67f;_0xec0c85.fk[t(1494)](),_0xec0c85.fk[t(586)](50),_0xec0c85.gk.stop(),_0xec0c85.gk.fadeOut(50),_0xec0c85.hk[t(1494)](),_0xec0c85.hk.fadeOut(50),_0xec0c85.ik[t(1494)](),_0xec0c85.ik[t(586)](50),_0xec0c85.jk[t(1494)](),_0xec0c85.jk[t(586)](50),_0xec0c85.kk.stop(),_0xec0c85.kk.fadeIn(500),_0xec0c85.lk.stop(),_0xec0c85.lk[t(640)](1),_0xec0c85.di[t(1494)](),_0xec0c85.di[t(640)](500),_0x339075.Le(!0),_0xec0c85.nk[t(1494)](),_0xec0c85.nk.fadeOut(50),_0xec0c85.ok[t(1494)](),_0xec0c85.ok[t(586)](50)},_0x27325c[_0x31e67f(316)].ji=function(){this.tk()},_0x27325c[_0x31e67f(316)].tk=function(){var t=_0x31e67f;_0x5595d3[t(967)](t(1310),t(1125));for(var e=0;e<_0x841b34[t(811)];e++){var i=Math.floor(Math[t(1679)]()*_0x841b34[t(811)]),n=_0x841b34[e];_0x841b34[e]=_0x841b34[i],_0x841b34[i]=n}_0x5595d3.css(t(1310),_0x841b34[0]),_0x2082d0.css(t(1310),_0x841b34[1]),_0x5cdefc.css(t(1310),_0x841b34[2])},$(_0x31e67f(220)),_0x5f42a3=$(_0x31e67f(461)),_0x2929a1=$(_0x31e67f(1396)),_0x1fdf98=$(_0x31e67f(983)),_0x15326e=$(_0x31e67f(170)),_0x570741=$(_0x31e67f(973)),_0x24569d=$(_0x31e67f(772)),_0x32fef3=$(_0x31e67f(731)),_0x17efff=$(_0x31e67f(1687)),_0x1d7227=$("#mm-action-play"),_0xd65c46=$("#mm-action-guest"),_0x120eb4=$(_0x31e67f(1215)),_0x32e624=$(_0x31e67f(477)),_0x38a488=$("#mm-store"),_0x4b2d42=$(_0x31e67f(1683)),_0xcb5fa4=$(_0x31e67f(469)),_0x461787=$(_0x31e67f(732)),_0x4cba2a=$(_0x31e67f(1678)),_0x455f5d=$(_0x31e67f(1501)),_0x2701c5=$(_0x31e67f(207)),_0x2a6af0=$(_0x31e67f(136)),_0x368e6c=$(_0x31e67f(236)),_0x52f285=$("#mm-player-level"),(_0x7c168=_0x499ed3(_0xec0c85,(function(){var t=_0x31e67f;_0xec0c85[t(167)](this,_0x38eb3b.hi);var e=_0x504022();this.uk=new _0x2cf077(_0x5f42a3),_0x32fef3[t(730)]((function(){e.r.Cd()})),_0x5f42a3[t(730)]((function(){e.u.P()&&(e.r.Cd(),e.s.I(e.s.$h))})),_0x2929a1.click((function(){e.r.Cd(),e.t.Ah()})),_0x1fdf98[t(730)]((function(){e.r.Cd(),e.t.zh()})),_0x24569d.keypress((function(i){13==i[t(1531)]&&e.na()})),_0x1d7227[t(730)]((function(){e.r.Cd(),e.na()})),_0xd65c46[t(730)]((function(){e.r.Cd(),e.na()})),_0x120eb4[t(730)]((function(){e.r.Cd(),e.s.I(e.s.Zh)})),_0xcb5fa4[t(730)]((function(){e.r.Cd(),e.s.I(e.s.xa)})),_0x32e624.click((function(){e.u.P()&&(e.r.Cd(),e.s.I(e.s.Yh))})),_0x4b2d42[t(730)]((function(){e.u.P()&&(e.r.Cd(),e.s.I(e.s.Xh))})),_0x38a488[t(730)]((function(){e.u.P()&&(e.r.Cd(),e.s.I(e.s._h))})),_0x461787[t(730)]((function(){e.u.P()&&(e.r.Cd(),e.s.I(e.s.Wh))})),this.vk(),this.wk(),$(t(1533)).after('<div id="final-replay">Replay</div>'),$(t(445))[t(730)]((function(){let t=lxpdlastserver;t&&(anApp.r.Hd(),anApp.sa(t))})),_0x38a488[t(791)](t(1602)),$(t(1571))[t(1591)](t(1467)),$("#wtrplayagain")[t(730)]((function(){let t=lxpdlastserver;t&&(anApp.r.Hd(),anApp.sa(t))})),$(t(1267))[t(730)]((function(){var e=t;lxpdmobilefullscreenstatus?(document[e(439)]?document[e(439)]():document[e(1389)]?document.webkitExitFullscreen():document.msExitFullscreen?document[e(715)]():document.body[e(1389)]&&document[e(283)][e(1389)](),lxpdmobilefullscreenstatus=!1):(document.documentElement[e(1618)]?document[e(1003)][e(1618)]():document[e(1003)][e(1624)]?document[e(1003)][e(1624)]():document[e(1003)][e(1686)]?document[e(1003)][e(1686)]():document.body[e(1624)]&&document[e(283)].webkitRequestFullscreen(),lxpdmobilefullscreenstatus=!0)})),$("#mm-wtr-settings").click((function(){e.u.P()&&(e.r.Cd(),e.s.I(e.s.wtrset))}));var i=_0x5ce09a(_0x216031.va);t(926)!=i&&t(1185)!=i&&(i="ARENA"),_0x32fef3[t(948)](i),console[t(980)](t(1324)+i)})))[_0x31e67f(316)].a=function(){var t=_0x504022(),e=this;t.u.V((function(){t.s.F.xk()})),t.u.Pi((function(){t.u.P()?(t.t.Bh(t.u.Di(),_0x199e00.ia),t.t.Bh(t.u.Ei(),_0x199e00.ja),t.t.Bh(t.u.Fi(),_0x199e00.ka),t.t.Bh(t.u.Gi(),_0x199e00.la),t.t.Bh(t.u.Hi(),_0x199e00.ma)):(t.t.Bh(t.Ga(),_0x199e00.ia),t.t.Bh(0,_0x199e00.ja),t.t.Bh(0,_0x199e00.ka),t.t.Bh(0,_0x199e00.la),t.t.Bh(0,_0x199e00.ma))})),t.u.Pi((function(){var e=_0x50f7;_0x1d7227[e(1308)](t.u.P()),_0x120eb4[e(1308)](!t.u.P()),_0xd65c46[e(1308)](!t.u.P()),_0x4b2d42[e(1308)](t.u.P()),_0x38a488[e(1308)](t.u.P()),_0x461787.toggle(t.u.P()),t.u.P()?(_0x15326e[e(870)](),_0x455f5d[e(1591)](t.u.wi()),_0x4cba2a[e(972)](e(518),t.u.xi()),_0x2701c5.html(t.u.zi()),_0x2a6af0[e(1660)](100*t.u.Bi()/t.u.Ci()+"%"),_0x368e6c.html(t.u.Bi()+" / "+t.u.Ci()),_0x52f285[e(1591)](t.u.Ai()),_0x24569d.val(t.u.ga())):(_0x15326e.toggle(_0x5405f7.qk&&!t.Ha()),_0x455f5d[e(1591)](_0x455f5d[e(1422)](e(1549))),_0x4cba2a[e(972)](e(518),"/images/guest-avatar-xmas2022.png"),_0x2701c5[e(1591)]("10"),_0x2a6af0[e(1660)]("0"),_0x368e6c.html(""),_0x52f285[e(1591)](1),_0x24569d.val(_0x5ce09a(_0x216031.Aa)))})),t.t.xh((function(){e.uk.ak(t.t.ha(_0x199e00.ia),!1,!1),e.uk.bk(t.t.ha(_0x199e00.ja),!1,!1),e.uk.ck(t.t.ha(_0x199e00.ka),!1,!1),e.uk.dk(t.t.ha(_0x199e00.la),!1,!1),e.uk.ek(t.t.ha(_0x199e00.ma),!1,!1)}))},_0x7c168.prototype.ii=function(){var t=_0x31e67f;_0xec0c85.fk.stop(),_0xec0c85.fk[t(586)](50),_0xec0c85.gk.stop(),_0xec0c85.gk[t(586)](50),_0xec0c85.hk[t(1494)](),_0xec0c85.hk[t(640)](500),_0xec0c85.ik[t(1494)](),_0xec0c85.ik[t(586)](50),_0xec0c85.jk[t(1494)](),_0xec0c85.jk[t(586)](50),_0xec0c85.kk[t(1494)](),_0xec0c85.kk[t(586)](50),_0xec0c85.lk[t(1494)](),_0xec0c85.lk[t(640)](1),_0xec0c85.di[t(1494)](),_0xec0c85.di[t(640)](500),_0x339075.Le(!0),_0xec0c85.nk[t(1494)](),_0xec0c85.nk[t(640)](500),_0xec0c85.ok[t(1494)](),_0xec0c85.ok.fadeIn(500)},_0x7c168[_0x31e67f(316)].ji=function(){_0x504022().r.Dd(),this.uk.Le(!0)},_0x7c168.prototype.ei=function(){this.uk.Le(!1)},_0x7c168[_0x31e67f(316)].Ra=function(){this.uk.Ra()},_0x7c168[_0x31e67f(316)].Pa=function(t,e){this.uk.Pa()},_0x7c168[_0x31e67f(316)].ga=function(){return _0x24569d.val()},_0x7c168[_0x31e67f(316)].D=function(){return _0x32fef3[_0x31e67f(948)]()},_0x7c168[_0x31e67f(316)].xk=function(){_0x17efff.show()},_0x7c168[_0x31e67f(316)].vk=function(){var t=_0x31e67f,e=$(t(1571))[t(1191)](),i=0;setInterval((function(){e.eq(i).fadeOut(500,(function(){var t=_0x50f7;++i>=e[t(811)]&&(i=0),e.eq(i).fadeIn(500)[t(967)](t(265),"inline-block")}))}),3e3)},_0x7c168.prototype.wk=function(){var t=_0x31e67f;function e(){i.Ka(!0),setTimeout((function(){_0x15326e[_0x50f7(870)]()}),3e3)}var i=_0x504022();if(_0x5405f7.qk&&!i.Ha()){_0x15326e[t(1584)]();var n=_0x20af8f("index.game.main.menu.unlockSkins.share"),o=encodeURIComponent(_0x20af8f(t(357))+t(447)),a=encodeURIComponent(_0x20af8f(t(357)));_0x570741[t(1119)]($('<a class="mm-skin-over-button" id="mm-skin-over-tw" target="_blank" href="http://twitter.com/intent/tweet?status='+o+t(502)+n+t(587)).click(e)),_0x570741[t(1119)]($(t(1336)+a+'"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIgeD0iMCIgeT0iMCIgdmlld0JveD0iMCAwIDQ1NiA0NTYiIHhtbDpzcGFjZT0icHJlc2VydmUiPjxwYXRoIGQ9Ik0yNDQuMyA0NTZWMjc5LjdoLTU5LjN2LTcxLjloNTkuM3YtNjAuNGMwLTQzLjkgMzUuNi03OS41IDc5LjUtNzkuNWg2MnY2NC42aC00NC40Yy0xMy45IDAtMjUuMyAxMS4zLTI1LjMgMjUuM3Y1MGg2OC41bC05LjUgNzEuOWgtNTkuMVY0NTZ6IiBmaWxsPSIjZmZmIi8+PC9zdmc+"><span>'+n+"</span></a>")[t(730)](e))}},(_0x4a5e9e=_0x499ed3(_0xec0c85,(function(){_0xec0c85[_0x31e67f(167)](this,_0x38eb3b.pk)})))[_0x31e67f(316)].a=function(){},_0x4a5e9e[_0x31e67f(316)].ii=function(){var t=_0x31e67f;_0xec0c85.fk[t(1494)](),_0xec0c85.fk[t(586)](50),_0xec0c85.gk.stop(),_0xec0c85.gk[t(586)](50),_0xec0c85.hk[t(1494)](),_0xec0c85.hk[t(586)](50),_0xec0c85.ik.stop(),_0xec0c85.ik.fadeOut(50),_0xec0c85.jk.stop(),_0xec0c85.jk[t(586)](50),_0xec0c85.kk[t(1494)](),_0xec0c85.kk.fadeOut(50),_0xec0c85.lk.stop(),_0xec0c85.lk[t(586)](1),_0xec0c85.di[t(1494)](),_0xec0c85.di[t(586)](50),_0x339075.Le(!1),_0xec0c85.nk[t(1494)](),_0xec0c85.nk[t(586)](50),_0xec0c85.ok[t(1494)](),_0xec0c85.ok[t(586)](50)},_0x369b4e=$("#toaster-stack"),(_0x46cae3=_0x499ed3(_0xec0c85,(function(){_0xec0c85[_0x31e67f(167)](this,_0x38eb3b.pk),this.yk=[],this.zk=null}))).prototype.a=function(){},_0x46cae3[_0x31e67f(316)].ii=function(){var t=_0x31e67f;_0xec0c85.fk[t(1494)](),_0xec0c85.fk.fadeOut(50),_0xec0c85.gk[t(1494)](),_0xec0c85.gk[t(586)](50),_0xec0c85.hk.stop(),_0xec0c85.hk[t(586)](50),_0xec0c85.ik[t(1494)](),_0xec0c85.ik.fadeOut(50),_0xec0c85.jk[t(1494)](),_0xec0c85.jk.fadeIn(500),_0xec0c85.kk[t(1494)](),_0xec0c85.kk[t(586)](50),_0xec0c85.lk[t(1494)](),_0xec0c85.lk[t(640)](1),_0xec0c85.di[t(1494)](),_0xec0c85.di[t(640)](500),_0x339075.Le(!0),_0xec0c85.nk[t(1494)](),_0xec0c85.nk[t(586)](50),_0xec0c85.ok[t(1494)](),_0xec0c85.ok[t(640)](500)},_0x46cae3[_0x31e67f(316)].ji=function(){this.Ak()},_0x46cae3[_0x31e67f(316)].mi=function(){var t=_0x31e67f;return null!=this.zk||this.yk[t(811)]>0},_0x46cae3[_0x31e67f(316)]._=function(t){this.yk.unshift(t),setTimeout((function(){_0x504022().s.ki()}),0)},_0x46cae3[_0x31e67f(316)].Ti=function(t){var e=_0x31e67f;this.yk[e(1357)](t),setTimeout((function(){_0x504022().s.ki()}),0)},_0x46cae3[_0x31e67f(316)].Ak=function(){var t=_0x31e67f,e=this;if(null==this.zk){if(0==this.yk[t(811)])return void _0x504022().s.gi();var i=this.yk[t(603)]();this.zk=i;var n=i.Bk();n.hide(),n[t(640)](300),_0x369b4e[t(1119)](n),i.Ck=function(){n[t(586)](300),setTimeout((function(){n.remove()}),300),e.zk==i&&(e.zk=null),e.Ak()},i.ji()}};var _0x38eb3b={pk:0,hi:1},_0x4159b9=function(){var t=_0x31e67f,e=$("#popup-menu-label"),i=$(t(185)),n=$(t(568));$(t(1015)).click((function(){var t=_0x504022();t.r.Cd(),t.s.gi()})),i.click((function(){var t=_0x504022();t.u.P()&&(t.r.Cd(),t.s.I(t.s.Wh))}));var o=_0x499ed3(_0xec0c85,(function(e,i){_0xec0c85[t(167)](this,_0x38eb3b.hi),this.ad=e,this.Dk=i}));$(t(1703)).after(t(1445)),$(t(1273)).on(t(730),(function(){var e=t,i=$(this)[e(972)](e(215));!$(this)[e(942)]("active")&&($(e(1382))[e(1315)]("active"),$(this)[e(164)](e(819)),$("div[category='"+i+"']")[e(164)](e(819)))})),document[t(1609)]("resetScript")[t(182)](t(730),(async function(){var e=t;if(localStorage.clear(),sessionStorage.clear(),window.indexedDB&&(await indexedDB[e(361)]())[e(839)]((t=>indexedDB[e(929)](t.name))),window[e(943)]&&console[e(1592)](e(1210)),document[e(953)][e(405)](";")[e(839)]((function(t){var i=e;document[i(953)]=t.replace(/^ +/,"").replace(/=.*/,"=;expires="+(new Date)[i(1706)]()+i(1643))})),e(1674)in window&&caches[e(1637)]()[e(1195)]((function(t){var i=e;for(let e of t)caches[i(1676)](e)})),e(269)in navigator){let t=await navigator[e(269)][e(1543)]();for(let e of t)await e.unregister()}localStorage.removeItem("scriptSeleccionado"),location[e(1626)]()})),document.getElementById("resetScript2")[t(182)](t(730),(function(){var e=t;window[e(889)][e(158)]=e(1064)})),document[t(1609)](t(1585)).addEventListener(t(730),(function(){var e=t;window[e(889)][e(158)]="https://wormatefriendsturkey.com"})),soundEnabled=!0,$(t(906)).click((function(){var e=t;soundEnabled=!soundEnabled,$(this)[e(513)](soundEnabled?"Disable Sound":e(1214))})),$(t(858))[t(730)]((function(){var e=t;navigator.clipboard[e(1294)](lxpduserId),alert("ID copiado: "+lxpduserId)})),window.changeBackground=function(e){var i=t;let n=localStorage[i(234)](i(1095));currentIndex=((currentIndex=null!==n?parseInt(n):0)+e+backgrounds[i(811)])%backgrounds[i(811)],updateBackground(currentIndex)},window[t(352)]=function(t){currentFontIndex=(currentFontIndex+t+fonts.length)%fonts.length,updateFont()},updateFont();let a=[{id:"ping",label:t(862),category:t(885),tooltip:""},{id:t(500),label:t(146),category:"game",tooltip:""},{id:"fps",label:t(828),category:"game",tooltip:""},{id:t(995),label:t(654),category:t(885),tooltip:"Premium Feature"},{id:t(1393),label:t(1171),category:"game",tooltip:""},{id:t(347),label:t(1314),category:t(885),tooltip:""},{id:t(1304),label:t(970),category:t(885),tooltip:t(790)},{id:t(1507),label:"Hs Records",category:t(885),tooltip:"If you enable this option, you will see the list of kills in real time."},{id:t(1332),label:t(661),category:"teams",tooltip:""}],s=[{name:t(735),id:t(1335),min:.1,max:15,step:.1,category:t(885),tooltip:""},{name:t(1009),id:t(1398),min:1,max:6,step:1,category:t(885),tooltip:t(883)},{name:t(840),id:t(1522),min:1.2,max:3.2,step:.2,category:t(885),tooltip:"Premium Feature"},{name:"FOOD SHADOW",id:t(1514),min:.5,max:3,step:.5,category:"game",tooltip:t(883)},{name:"SIZE FOOD",id:t(1492),min:.5,max:3,step:.5,category:t(885),tooltip:t(883)},{name:t(692),id:t(1621),min:10,max:20,step:1,category:"game",tooltip:"Premium Feature"},{name:t(1162),id:t(476),min:.1,max:.9,step:.1,category:t(885),tooltip:t(883)}],r={game:document[t(1512)](t(760)),teams:document[t(1512)](t(725)),theme:document[t(1512)](t(1400)),controls:document[t(1512)](t(746))};isPremiumUser&&(a[t(1357)]({id:t(525),label:t(203),category:"game",tooltip:"Premium Feature"},{id:t(995),label:"Laser Headshot",category:t(885),tooltip:t(883)},{id:"backgroundSolid",label:"Background Solid",category:t(885),tooltip:t(883)},{id:t(659),label:t(747),category:t(885),tooltip:t(883)},{id:t(178),label:t(433),category:"game",tooltip:t(883)},{id:t(1338),label:t(629),category:t(885),tooltip:"Premium Feature"},{id:t(307),label:t(1016),category:t(486),tooltip:t(883)}),r[t(486)][t(386)](t(764),t(204)),s.push({name:t(1447),id:t(1398),min:1,max:6,step:1,category:t(885),tooltip:t(883)},{name:"Aura The Booster",id:t(1522),min:1.2,max:3.2,step:.2,category:t(885),tooltip:t(883)},{name:t(1166),id:"ComidaShadow",min:.5,max:3,step:.5,category:"game",tooltip:t(883)},{name:t(282),id:t(1492),min:.5,max:3,step:.5,category:t(885),tooltip:t(883)},{name:t(1546),id:"mouseDelay",min:10,max:20,step:1,category:t(885),tooltip:"Premium Feature"},{name:t(321),id:t(476),min:.1,max:.9,step:.1,category:"game",tooltip:t(883)})),s[t(839)]((e=>{var i=t;let n=parseFloat(theoKzObjects[e.id]),o=document.createElement(i(415));o.className=i(614),o[i(875)]=i(1617)+(e[i(1184)][i(1219)](i(1604))?i(1183):"")+'">'+e[i(1664)]+'</div>\n        <div class="value">'+n+'</div>\n        <div class="box">\n            <div class="progress-bar">\n                <div class="fill" style="width: '+(n-e[i(543)])/(e[i(1699)]-e[i(543)])*100+'%;"></div>\n            </div>\n            <input type="range" id="'+e.id+i(1506)+e.min+i(169)+e[i(1699)]+i(598)+e[i(888)]+i(1603)+n+'">\n        </div>\n    ';let a=o[i(1512)](i(1547)),s=o[i(1512)](i(768)),c=o[i(1512)](".fill");a.addEventListener(i(1547),(()=>{var t=i;s.textContent=a[t(873)],c[t(1043)][t(1660)]=(a[t(873)]-e.min)/(e.max-e.min)*100+"%",theoKzObjects[e.id]=a[t(873)],localStorage[t(529)](e.id,a.value),t(1621)===e.id&&anApp.o[t(1253)](parseInt(a.value))})),r[e[i(215)]][i(1168)](o)})),a[t(839)]((e=>{var i=t;let n="true"===localStorage[i(234)](e.id),o=i(345)+(n?"on":"")+i(792)+e.id+i(387)+(e[i(1184)][i(1219)](i(1604))?i(1183):"")+'">'+e[i(148)]+'</div>\n                                <div class="box"><div class="ball"></div></div>\n                                '+(e[i(1184)]?i(572)+e[i(1184)]+i(1269):"")+i(410);r[e[i(215)]][i(386)](i(764),o)})),document.querySelectorAll(".box")[t(839)]((e=>{var i=t;e[i(182)](i(730),(function(t){var e=i;t[e(1454)]();let n=this[e(1668)],o=n[e(1318)](e(1216)),a=!n[e(1268)][e(941)]("on");n[e(1268)][e(1308)]("on",a),theoKzObjects[o]=a,localStorage[e(529)](o,a);let s=n[e(1512)](e(1500));s&&(s[e(1043)].display=e(a?1466:1619)),console.log(o+" changed to",a)}))}));var c=$("div[category='theme']");addMinicolor(c[1],t(1590),"YOUR COLOR IN MAP",t(855),theoObjects.teamColor),addMinicolor(c[1],t(814),t(350),t(669),theoObjects[t(669)]),addMinicolor(c[1],"hsTextColorGroup",t(471),"hsTextColor",theoObjects[t(1527)]),addMinicolor(c[1],t(1502),t(244),t(262),theoObjects.minimapBorderColor),addMinicolor(c[1],t(1306),t(1684),t(240),theoObjects[t(240)]),$("#teamColor").on(t(1547),(function(){var e=t;let i=$(this).val();$(e(1081))[e(967)]("background-color",i),localStorage[e(529)](e(855),turkData[e(855)]),turkData[e(855)]="0x"+i[e(938)](1),console[e(980)](turkData[e(855)])}));let l=localStorage.getItem(t(855));l&&(turkData[t(855)]=l,$("#preview_teamColor")[t(967)](t(498),"#"+l[t(938)](2)),$(t(202))[t(948)]("#"+l[t(938)](2)));let x=localStorage.getItem(t(1304)),d=localStorage.getItem(t(1507));null===x?(x=!0,localStorage[t(529)](t(1304),t(1159))):x=x===t(1159),null===d?(d=!0,localStorage.setItem(t(1507),"true")):d=d===t(1159),$(t(1605))[t(1653)]("checked",x),$(t(434))[t(1653)](t(785),d),$(t(1226))[t(1308)](x),$(t(1608))[t(1308)](d),theoKzObjects.top8=x,theoKzObjects[t(1507)]=d,$(t(1605)).on("change",(function(){var e=t;theoKzObjects[e(1304)]=this[e(785)],$("#top8List")[e(1308)](this[e(785)]),localStorage[e(529)](e(1304),this.checked)})),$(t(434)).on(t(1136),(function(){var e=t;theoKzObjects[e(1507)]=this[e(785)],$(e(1608))[e(1308)](this[e(785)]),localStorage[e(529)](e(1507),this[e(785)])})),$(t(1605))[t(1451)]((function(){var e=t;$(e(805))[e(640)]()}),(function(){var e=t;$(e(805))[e(586)]()})),$(t(434))[t(1451)]((function(){var e=t;$("#tooltipKillFeed")[e(640)]()}),(function(){var e=t;$("#tooltipKillFeed")[e(586)]()})),$(t(1576)).on(t(1547),(function(){var e=t;turkData.teamCode=$(this)[e(948)](),localStorage[e(529)](e(1439),turkData[e(1439)]),console.log(e(1078),turkData[e(1439)])}));let h=localStorage[t(234)]("teamCode");h&&(turkData[t(1439)]=h,$(t(1576))[t(948)](h)),lxpdselectedbackground=0,lxpdtoplist=10;var u=$("#arkaplan"),f=$(t(1169)),p=localStorage[t(234)](t(1354));if(p){var _=parseInt(p);u.val(_),lxpdselectedbackground=_}let b=localStorage[t(234)](t(882));if(b){let t=parseInt(b);lxpdtoplist=t}let v=_wrmxt[t(531)](theoKzObjects[t(766)]);if(v)$(t(1536)).val(theoKzObjects[t(766)]);else{let e=$(t(1536))[t(948)]();v=_wrmxt[t(531)](e),theoKzObjects[t(766)]=v?e:35}return f[t(948)](lxpdtoplist),u[t(1136)]((function(e){var i=t,n=obtenerImagenPorSeleccion(lxpdselectedbackground=this.value);n&&(anApp.q.Cf=new(PIXI[i(824)])(anApp.q[i(1616)](n))),localStorage[i(529)](i(1354),this[i(873)][i(482)]())})),f[t(1136)]((function(e){var i=t;lxpdtoplist=this[i(873)],localStorage.setItem("wtr-toplist",this[i(873)][i(482)]())})),$("#idkopyala").click((function(){var e=t;navigator[e(981)][e(1294)](lxpduserId)})),o[t(316)].a=function(){var e=t;if(o[e(1573)][e(316)].a[e(167)](this),!o.Ek){o.Ek=!0;var i=_0x504022();i.u.Pi((function(){var t=e;i.u.P()?n[t(1591)](i.u.zi()):n[t(1591)]("0")}))}},o.Fk=$(t(1581)),o.Gk=$(t(280)),o.Hk=$("#profile-view"),o.Ik=$(t(1703)),o.Jk=$(t(397)),o.Kk=$(t(454)),o.Lk=$("#store-view"),o[t(582)]=$(t(1204)),o.Mk=$("#wear-view"),o.Nk=$(t(734)),o.Ok=$(t(1535)),o.Pk=$(t(698)),o.prototype.ii=function(){var n=t;_0xec0c85.fk[n(1494)](),_0xec0c85.fk[n(586)](200),_0xec0c85.gk[n(1494)](),_0xec0c85.gk[n(586)](200),_0xec0c85.hk.stop(),_0xec0c85.hk[n(586)](200),_0xec0c85.ik[n(1494)](),_0xec0c85.ik[n(640)](200),_0xec0c85.jk[n(1494)](),_0xec0c85.jk[n(586)](200),_0xec0c85.kk[n(1494)](),_0xec0c85.kk.fadeOut(200),_0xec0c85.nk[n(1494)](),_0xec0c85.nk[n(640)](200),_0xec0c85.ok[n(1494)](),_0xec0c85.ok[n(640)](200),e[n(1591)](this.ad),i[n(1308)](this.Dk),this.Qk(),this.Rk()},o[t(316)].Rk=function(){},o[t(316)].Sk=function(){var e=t;_0x4159b9.Pk[e(1494)](),_0x4159b9.Pk[e(640)](300)},o[t(316)].Qk=function(){var e=t;_0x4159b9.Pk[e(1494)](),_0x4159b9.Pk.fadeOut(300)},o}();_0xd36243=$(_0x31e67f(567)),_0x5bc9f4=$(_0x31e67f(566)),_0x494e90=$(_0x31e67f(292)),_0xd5cd8d=$("#store-buy-coins_7000"),_0x4d50b6=$(_0x31e67f(1227)),_0x5c4069=$(_0x31e67f(1542)),(_0x5dae02=_0x499ed3(_0x4159b9,(function(){var t=_0x31e67f;_0x4159b9[t(167)](this,_0x20af8f("index.game.popup.menu.coins.tab"),!1);var e=_0x504022(),i=this;_0xd36243.click((function(){var n=t;e.r.Cd(),i.Tk(n(1178))})),_0x5bc9f4[t(730)]((function(){var n=t;e.r.Cd(),i.Tk(n(1229))})),_0x494e90[t(730)]((function(){var n=t;e.r.Cd(),i.Tk(n(778))})),_0xd5cd8d[t(730)]((function(){e.r.Cd(),i.Tk("coins_7000")})),_0x4d50b6[t(730)]((function(){e.r.Cd(),i.Tk("coins_3250")})),_0x5c4069.click((function(){var n=t;e.r.Cd(),i.Tk(n(675))}))}))).prototype.a=function(){var t=_0x31e67f;_0x5dae02[t(1573)][t(316)].a[t(167)](this)},_0x5dae02[_0x31e67f(316)].Rk=function(){var t=_0x31e67f;_0x4159b9.Fk[t(1494)](),_0x4159b9.Fk[t(640)](200),_0x4159b9.Gk[t(1494)](),_0x4159b9.Gk.fadeOut(50),_0x4159b9.Hk[t(1494)](),_0x4159b9.Hk.fadeOut(50),_0x4159b9.Jk[t(1494)](),_0x4159b9.Jk[t(586)](50),_0x4159b9.Ik[t(1494)](),_0x4159b9.Ik[t(586)](50),_0x4159b9.Kk.stop(),_0x4159b9.Kk[t(586)](50),_0x4159b9.Lk[t(1494)](),_0x4159b9.Lk[t(586)](50),_0x4159b9.Mk[t(1494)](),_0x4159b9.Mk[t(586)](50),_0x4159b9.wtrset[t(1494)](),_0x4159b9[t(582)][t(586)](50),_0x4159b9.Nk[t(1494)](),_0x4159b9.Nk[t(586)](50),_0x4159b9.Ok[t(1494)](),_0x4159b9.Ok[t(586)](50)},_0x5dae02[_0x31e67f(316)].ji=function(){_0x504022().r.Dd()},_0x5dae02[_0x31e67f(316)].Tk=function(t){},_0x4246a7=$(_0x31e67f(1182)),_0x5d4a2b=$("#leaders-button-level"),_0x2e22e5=$(_0x31e67f(1394)),_0xa2176e=$(_0x31e67f(822)),(_0x1cdaaf=_0x499ed3(_0x4159b9,(function(){var t=_0x31e67f;_0x4159b9.call(this,_0x20af8f(t(635)),!0);var e=_0x504022(),i=this;this.Uk={},this.Vk={Wk:{Xk:_0x5d4a2b,Yk:"byLevel"},Zk:{Xk:_0x2e22e5,Yk:"byHighScore"},$k:{Xk:_0xa2176e,Yk:t(914)}},_0x5d4a2b[t(730)]((function(){e.r.Cd(),i._k(i.Vk.Wk)})),_0x2e22e5[t(730)]((function(){e.r.Cd(),i._k(i.Vk.Zk)})),_0xa2176e[t(730)]((function(){e.r.Cd(),i._k(i.Vk.$k)}))})))[_0x31e67f(316)].a=function(){var t=_0x31e67f;_0x1cdaaf[t(1573)][t(316)].a.call(this)},_0x1cdaaf[_0x31e67f(316)].Rk=function(){var t=_0x31e67f;_0x4159b9.Fk[t(1494)](),_0x4159b9.Fk[t(586)](50),_0x4159b9.Gk[t(1494)](),_0x4159b9.Gk[t(640)](200),_0x4159b9.Hk[t(1494)](),_0x4159b9.Hk[t(586)](50),_0x4159b9.Jk[t(1494)](),_0x4159b9.Jk[t(586)](50),_0x4159b9.Ik[t(1494)](),_0x4159b9.Ik[t(586)](50),_0x4159b9.Kk.stop(),_0x4159b9.Kk.fadeOut(50),_0x4159b9.Lk[t(1494)](),_0x4159b9.Lk.fadeOut(50),_0x4159b9.Mk[t(1494)](),_0x4159b9.Mk.fadeOut(50),_0x4159b9[t(582)][t(1494)](),_0x4159b9[t(582)][t(586)](50),_0x4159b9.Nk.stop(),_0x4159b9.Nk.fadeOut(50),_0x4159b9.Ok[t(1494)](),_0x4159b9.Ok[t(586)](50)},_0x1cdaaf.prototype.ji=function(){var t=_0x31e67f;_0x504022().r.Dd();var e=this;this.Sk(),$[t(1264)](_0x276ee+t(1381),(function(t){e.Uk=t,e._k(null!=e.al?e.al:e.Vk.Wk),e.Qk()})).done((function(){e.Qk()}))},_0x1cdaaf[_0x31e67f(316)]._k=function(t){var e=_0x31e67f;for(var i in this.al=t,this.Vk)this.Vk.hasOwnProperty(i)&&this.Vk[i].Xk[e(1315)](e(1172));this.al.Xk.addClass(e(1172));for(var n=this.Uk[this.al.Yk],o="",a=0;a<n[e(811)];a++){var s=n[a];o+=e(162)+(a+1)+e(625)+s[e(802)]+e(679)+s[e(1441)]+e(1249)+s[e(504)]+e(1249)+s.highScore+"</span><span>"+s.headShots+e(818)+s[e(284)]+e(359)}_0x4246a7[e(422)](),_0x4246a7[e(1119)](o)},_0x27c292=$(_0x31e67f(1045)),$(_0x31e67f(299))[_0x31e67f(330)]("\n  <div style=\"position:absolute;top:0;left:0;width:100%;height:100%;overflow:hidden;z-index:0;\">\n    <canvas id=\"background-canvas\" style=\"position:absolute;top:0;left:0;width:100%;height:100%;\"></canvas>\n  </div>\n  <script>\n    (function() {\n      const canvas = document.getElementById('background-canvas');\n      const ctx = canvas.getContext('2d');\n      let width, height;\n\n      const backgroundImage = new Image();\n      backgroundImage.src = 'https://wormate.io/images/bg-event-pattern-valday2024.png';\n\n      // Orijinal renkli opacity’li renk katmanları\n      const colorLayers = [\n        {colorStart: 'rgba(255, 100, 180, 0.45)', colorEnd: 'rgba(255, 100, 180, 0)', xRatio: -0.1, yRatio: 0.1, radius: 650, speedX: 0.12, speedY: 0.08},\n        {colorStart: 'rgba(150, 100, 255, 0.40)', colorEnd: 'rgba(150, 100, 255, 0)', xRatio: 1.1, yRatio: 0.3, radius: 700, speedX: -0.10, speedY: 0.05},\n        {colorStart: 'rgba(100, 200, 255, 0.45)', colorEnd: 'rgba(100, 200, 255, 0)', xRatio: 0.5, yRatio: 1.1, radius: 650, speedX: 0.06, speedY: -0.07},\n        {colorStart: 'rgba(255, 255, 255, 0.30)', colorEnd: 'rgba(255, 255, 255, 0)', xRatio: 0.9, yRatio: -0.1, radius: 600, speedX: -0.05, speedY: 0.10}\n      ];\n\n      let spots = [];\n\n      function resize() {\n        width = window.innerWidth;\n        height = window.innerHeight;\n        const dpr = window.devicePixelRatio || 1;\n        canvas.width = width * dpr;\n        canvas.height = height * dpr;\n        canvas.style.width = width + \"px\";\n        canvas.style.height = height + \"px\";\n        ctx.setTransform(1, 0, 0, 1, 0, 0);\n        ctx.scale(dpr, dpr);\n\n        spots = colorLayers.map(layer => ({\n          x: width * layer.xRatio,\n          y: height * layer.yRatio,\n          radius: layer.radius,\n          colorStart: layer.colorStart,\n          colorEnd: layer.colorEnd,\n          speedX: layer.speedX,\n          speedY: layer.speedY\n        }));\n      }\n      resize();\n      window.addEventListener('resize', resize);\n\n      // Daha koyu siyah kenar efekti (vignette)\n      function drawBlackVignette() {\n        let vignette = ctx.createRadialGradient(\n          width / 2, height / 2,\n          Math.min(width, height) / 2 * 0.4,\n          width / 2, height / 2,\n          Math.min(width, height) / 2\n        );\n        vignette.addColorStop(0, 'rgba(0,0,0,0)');\n        vignette.addColorStop(1, 'rgba(0,0,0,0.85)');\n        ctx.fillStyle = vignette;\n        ctx.fillRect(0, 0, width, height);\n      }\n\n      function drawBackground() {\n        if(backgroundImage.complete) {\n          ctx.globalAlpha = 0.9;\n          ctx.drawImage(backgroundImage, 0, 0, width, height);\n          ctx.globalAlpha = 1;\n          drawColorSpots();\n          drawBlackVignette();\n        }\n      }\n\n      function drawColorSpots() {\n        spots.forEach(spot => {\n          spot.x += spot.speedX;\n          spot.y += spot.speedY;\n\n          if (spot.x - spot.radius > width) spot.x = -spot.radius;\n          else if (spot.x + spot.radius < 0) spot.x = width + spot.radius;\n\n          if (spot.y - spot.radius > height) spot.y = -spot.radius;\n          else if (spot.y + spot.radius < 0) spot.y = height + spot.radius;\n\n          const grad = ctx.createRadialGradient(spot.x, spot.y, 0, spot.x, spot.y, spot.radius);\n          grad.addColorStop(0, spot.colorStart);\n          grad.addColorStop(1, spot.colorEnd);\n\n          ctx.fillStyle = grad;\n          ctx.beginPath();\n          ctx.arc(spot.x, spot.y, spot.radius, 0, Math.PI*2);\n          ctx.fill();\n        });\n      }\n\n      // Konfetti animasyonunu kaldırdım (isteğine göre ekleyebilirim)\n\n      function animate() {\n        ctx.clearRect(0, 0, width, height);\n        drawBackground();\n        requestAnimationFrame(animate);\n      }\n\n      backgroundImage.onload = () => {\n        animate();\n      };\n    })();\n  <\/script>\n"),_0x39757c=$(_0x31e67f(1559)),(_0x8344d0=_0x499ed3(_0x4159b9,(function(){var t=_0x31e67f;_0x4159b9[t(167)](this,_0x20af8f("index.game.popup.menu.login.tab"),!1);var e=_0x504022(),i=this;_0x27c292.click((function(){e.r.Cd(),i.Sk(),e.u.Qi((function(){i.Qk()})),setTimeout((function(){i.Qk()}),1e4),e.u.Zi()})),_0x39757c[t(730)]((function(){e.r.Cd(),i.Sk(),e.u.Qi((function(){i.Qk()})),setTimeout((function(){i.Qk()}),1e4),e.u.Vi()}))}))).prototype.a=function(){var t=_0x31e67f;_0x8344d0[t(1573)][t(316)].a[t(167)](this)},_0x8344d0.prototype.Rk=function(){var t=_0x31e67f;_0x4159b9.Fk[t(1494)](),_0x4159b9.Fk.fadeOut(50),_0x4159b9.Gk[t(1494)](),_0x4159b9.Gk[t(586)](50),_0x4159b9.Hk.stop(),_0x4159b9.Hk.fadeOut(50),_0x4159b9.Jk[t(1494)](),_0x4159b9.Jk[t(640)](200),_0x4159b9.Ik[t(1494)](),_0x4159b9.Ik[t(586)](50),_0x4159b9.Kk[t(1494)](),_0x4159b9.Kk[t(586)](50),_0x4159b9.Lk.stop(),_0x4159b9.Lk[t(586)](50),_0x4159b9.Mk[t(1494)](),_0x4159b9.Mk[t(586)](50),_0x4159b9[t(582)][t(1494)](),_0x4159b9[t(582)][t(586)](50),_0x4159b9.Nk[t(1494)](),_0x4159b9.Nk[t(586)](50),_0x4159b9.Ok[t(1494)](),_0x4159b9.Ok[t(586)](50)},_0x8344d0[_0x31e67f(316)].ji=function(){_0x504022().r.Dd()},_0x96874=$(_0x31e67f(623)),_0x54ff8e=$(_0x31e67f(935)),_0x54e680=$(_0x31e67f(624)),_0x2d17c1=$(_0x31e67f(424)),_0x18bbd5=$("#profile-level"),_0x2c53cb=$(_0x31e67f(385)),_0x3a9cf1=$(_0x31e67f(437)),_0x49b808=$("#profile-stat-kills"),_0x19cd15=$(_0x31e67f(1375)),_0x31c718=$("#profile-stat-gamesPlayed"),_0x322868=$(_0x31e67f(259)),_0x359ba0=$(_0x31e67f(1144)),(_0x31d67b=_0x499ed3(_0x4159b9,(function(){_0x4159b9[_0x31e67f(167)](this,_0x20af8f("index.game.popup.menu.profile.tab"),!0)})))[_0x31e67f(316)].a=function(){var t=_0x31e67f;_0x31d67b.parent.prototype.a[t(167)](this)},_0x31d67b[_0x31e67f(316)].Rk=function(){var t=_0x31e67f;_0x4159b9.Fk.stop(),_0x4159b9.Fk.fadeOut(50),_0x4159b9.Gk[t(1494)](),_0x4159b9.Gk[t(586)](50),_0x4159b9.Hk[t(1494)](),_0x4159b9.Hk[t(640)](200),_0x4159b9.Jk[t(1494)](),_0x4159b9.Jk[t(586)](50),_0x4159b9.Ik[t(1494)](),_0x4159b9.Ik[t(586)](50),_0x4159b9.Kk[t(1494)](),_0x4159b9.Kk.fadeOut(50),_0x4159b9.Lk.stop(),_0x4159b9.Lk[t(586)](50),_0x4159b9.Mk[t(1494)](),_0x4159b9.Mk[t(586)](50),_0x4159b9[t(582)][t(1494)](),_0x4159b9.wtrset.fadeOut(50),_0x4159b9.Nk[t(1494)](),_0x4159b9.Nk[t(586)](50),_0x4159b9.Ok[t(1494)](),_0x4159b9.Ok.fadeOut(50)},_0x31d67b.prototype.ji=function(){var t=_0x31e67f,e=_0x504022();e.r.Dd();var i=e.u.Oi(),n=moment([i[t(1558)],i[t(313)]-1,i[t(1131)]])[t(613)]("LL");_0x54ff8e.html(e.u.wi()),_0x96874.attr(t(518),e.u.xi()),_0x54e680[t(1660)](100*e.u.Bi()/e.u.Ci()+"%"),_0x2d17c1[t(1591)](e.u.Bi()+t(818)+e.u.Ci()),_0x18bbd5[t(1591)](e.u.Ai()),_0x2c53cb[t(1591)](e.u.Ii()),_0x3a9cf1.html(_0x1318e5(e.u.Ji())),_0x49b808[t(1591)](e.u.Ki()),_0x19cd15[t(1591)](e.u.Li()),_0x31c718[t(1591)](e.u.Mi()),_0x322868.html(_0x1318e5(e.u.Ni())),_0x359ba0[t(1591)](n)},_0x3f5944=$(_0x31e67f(827)),_0x4921e9=$(_0x31e67f(904)),_0x292e66=$(_0x31e67f(444)),_0x5e6c06=$(_0x31e67f(348)),_0xa5c3bd=$("#popup-logout-container"),_0x5c9feb=$(_0x31e67f(789)),_0x546070=$(_0x31e67f(380)),_0x25281b=$(_0x31e67f(382)),(_0x2bc483=_0x499ed3(_0x4159b9,(function(){var t=_0x31e67f;_0x4159b9.call(this,_0x20af8f(t(245)),!1);var e=this,i=_0x504022();_0x3f5944[t(730)]((function(){var e=t,n=!!_0x3f5944[e(1653)](e(785));_0x23921c(_0x216031.Me,n,30),i.r.td(n),i.r.Cd()})),_0x4921e9[t(730)]((function(){var e=t,n=!!_0x4921e9[e(1653)](e(785));_0x23921c(_0x216031.Ne,n,30),i.r.rd(n),i.r.Cd()})),_0x292e66[t(730)]((function(){i.r.Cd()})),_0x5e6c06[t(730)]((function(){i.r.Cd(),e.Sk(),setTimeout((function(){e.Qk()}),2e3),i.u.Wi()})),_0x5c9feb[t(730)]((function(){i.u.P()?(i.r.Cd(),i.s.I(i.s.Vh)):i.r.Hd()})),_0x25281b[t(730)]((function(){i.Y()?(i.r.Cd(),i.s.I(i.s.Uh)):i.r.Hd()}))}))).prototype.a=function(){var t=_0x31e67f;_0x2bc483[t(1573)][t(316)].a.call(this);var e,i,n,o=_0x504022();e=t(684)!==_0x5ce09a(_0x216031.Me),_0x3f5944.prop(t(785),e),o.r.td(e),i=t(684)!==_0x5ce09a(_0x216031.Ne),_0x4921e9[t(1653)](t(785),i),o.r.rd(i),n="false"!==_0x5ce09a(_0x216031.ya),console[t(980)](t(1147)+n),_0x292e66[t(1653)]("checked",n),o.u.V((function(){var e=t;_0xa5c3bd[e(1308)](o.u.P()),_0x546070[e(1308)](o.u.P())}))},_0x2bc483[_0x31e67f(316)].Rk=function(){var t=_0x31e67f;_0x4159b9.Fk[t(1494)](),_0x4159b9.Fk[t(586)](50),_0x4159b9.Gk[t(1494)](),_0x4159b9.Gk[t(586)](50),_0x4159b9.Hk[t(1494)](),_0x4159b9.Hk[t(586)](50),_0x4159b9.Jk[t(1494)](),_0x4159b9.Jk[t(586)](50),_0x4159b9.Ik.stop(),_0x4159b9.Ik.fadeIn(200),_0x4159b9.Kk[t(1494)](),_0x4159b9.Kk.fadeOut(50),_0x4159b9.Lk.stop(),_0x4159b9.Lk.fadeOut(50),_0x4159b9.Mk[t(1494)](),_0x4159b9.Mk[t(586)](50),_0x4159b9[t(582)][t(1494)](),_0x4159b9.wtrset.fadeOut(50),_0x4159b9.Nk[t(1494)](),_0x4159b9.Nk[t(586)](50),_0x4159b9.Ok.stop(),_0x4159b9.Ok[t(586)](50)},_0x2bc483[_0x31e67f(316)].ji=function(){var t=_0x31e67f,e=_0x504022();e.r.Dd(),e.Y()?_0x25281b[t(1584)]():_0x25281b[t(870)]()},_0x2bc483[_0x31e67f(316)].wa=function(){var t=_0x31e67f;return _0x292e66[t(1653)](t(785))},_0x13ef1f=$(_0x31e67f(944)),_0x3210f6=$(_0x31e67f(594)),_0xde137b=$(_0x31e67f(432)),_0x377ecc=$(_0x31e67f(1070)),_0x5bbba4=$(_0x31e67f(701)),_0x22e08b=$(_0x31e67f(1685)),_0x6b137b=$("#store-item-price"),_0x51daa2=$(_0x31e67f(964)),_0x372478=$(_0x31e67f(222)),_0x5b4c08=$("#store-view-next"),(_0x4d4f44=_0x499ed3(_0x4159b9,(function(){var t=_0x31e67f;_0x4159b9.call(this,_0x20af8f(t(390)),!0);var e=this,i=_0x504022();this.bl=null,this.cl=[],this.dl={},this.el=new _0x2cf077(_0x13ef1f),_0x22e08b[t(730)]((function(){i.r.Cd(),e.fl()})),_0x372478[t(730)]((function(){i.r.Cd(),e.bl.gl()})),_0x5b4c08[t(730)]((function(){i.r.Cd(),e.bl.hl()}))})))[_0x31e67f(316)].a=function(){var t=_0x31e67f;_0x4d4f44[t(1573)][t(316)].a[t(167)](this);var e=this,i=_0x504022();i.p.ca((function(){var n=t,o=i.p.Ac();if(null!=o){e.cl=[];for(var a=0;a<o.skinGroupArrayDict.length;a++)e.cl.push(new _0x384cbc(e,o[n(305)][a]));e.dl={};for(var s=0;s<o[n(1302)][n(811)];s++){var r=o[n(1302)][s];e.dl[r.id]=r}}})),this.il(!1),i.t.xh((function(){e.il(!1)}))},_0x4d4f44[_0x31e67f(316)].Rk=function(){var t=_0x31e67f;_0x4159b9.Fk[t(1494)](),_0x4159b9.Fk[t(586)](50),_0x4159b9.Gk.stop(),_0x4159b9.Gk.fadeOut(50),_0x4159b9.Hk[t(1494)](),_0x4159b9.Hk.fadeOut(50),_0x4159b9.Jk.stop(),_0x4159b9.Jk[t(586)](50),_0x4159b9.Ik.stop(),_0x4159b9.Ik[t(586)](50),_0x4159b9.Kk[t(1494)](),_0x4159b9.Kk.fadeIn(200),_0x4159b9.Lk[t(1494)](),_0x4159b9.Lk[t(586)](50),_0x4159b9.Mk[t(1494)](),_0x4159b9.Mk.fadeOut(50),_0x4159b9[t(582)][t(1494)](),_0x4159b9[t(582)].fadeOut(50),_0x4159b9.Nk.stop(),_0x4159b9.Nk.fadeOut(50),_0x4159b9.Ok[t(1494)](),_0x4159b9.Ok[t(586)](50)},_0x4d4f44.prototype.ji=function(){_0x504022().r.Dd(),this.jl(),this.el.Le(!0)},_0x4d4f44.prototype.ei=function(){this.el.Le(!1)},_0x4d4f44.prototype.Ra=function(){this.el.Ra()},_0x4d4f44[_0x31e67f(316)].Pa=function(t,e){this.el.Pa()},_0x4d4f44.prototype.jl=function(){var t=_0x31e67f,e=this,i=this,n=_0x504022();_0x51daa2[t(422)]();for(var o=0;o<this.cl.length;o++)!function(o){var a=t,s=e.cl[o],r=document[a(1519)]("li");_0x51daa2[a(1119)](r);var c=$(r);c[a(1591)](s.kl()),c[a(730)]((function(){n.r.Cd(),i.ll(s)})),s.ml=c}(o);if(this.cl.length>0){var a=n.t.ha(_0x199e00.ia);for(o=0;o<this.cl[t(811)];o++)for(var s=this.cl[o],r=s.nl[t(211)],c=0;c<r[t(811)];c++)if(r[c]==a)return s.ol=c,void this.ll(s);this.ll(this.cl[0])}},_0x4d4f44[_0x31e67f(316)].ll=function(t){var e=_0x31e67f;if(this.bl!=t){var i=_0x504022();if(this.bl=t,_0x51daa2[e(1191)]()[e(1315)](e(1172)),this.bl.ml&&this.bl.ml[e(164)](e(1172)),_0xde137b[e(1591)](""),null!=t.nl){var n=i.p.Ac()[e(281)][t.nl[e(413)]];null!=n&&_0xde137b[e(1591)](_0xcb9058(_0x328daa(n)))}this.il(!0)}},_0x4d4f44[_0x31e67f(316)].pl=function(){return null==this.bl?_0x5c63c0.Yg():this.bl.ql()},_0x4d4f44.prototype.fl=function(){var t=this;this.pl().ah((function(e){t.rl(e)}))},_0x4d4f44.prototype.rl=function(t){var e=_0x31e67f,i=this,n=_0x504022(),o=this.dl[t][e(1129)];if(!(n.u.zi()<o)){this.Sk();var a=n.t.ha(_0x199e00.ia),s=n.t.ha(_0x199e00.ja),r=n.t.ha(_0x199e00.ka),c=n.t.ha(_0x199e00.la),l=n.t.ha(_0x199e00.ma);n.u.Ui(t,_0x199e00.ia,(function(){n.t.Bh(a,_0x199e00.ia),n.t.Bh(s,_0x199e00.ja),n.t.Bh(r,_0x199e00.ka),n.t.Bh(c,_0x199e00.la),n.t.Bh(l,_0x199e00.ma),n.u.Ch(t,_0x199e00.ia)&&n.t.Bh(t,_0x199e00.ia),i.Qk()}))}},_0x4d4f44[_0x31e67f(316)].il=function(t){var e=_0x31e67f,i=_0x504022();this.el.bk(i.t.ha(_0x199e00.ja),!1,!1),this.el.ck(i.t.ha(_0x199e00.ka),!1,!1),this.el.dk(i.t.ha(_0x199e00.la),!1,!1),this.el.ek(i.t.ha(_0x199e00.ma),!1,!1);var n=this.pl();if(n._g()){var o=n.$g(),a=this.dl[o],s=!1;if(i.t.Ja(o,_0x199e00.ia))_0x377ecc[e(870)](),_0x22e08b[e(870)]();else if(null==a||1==a[e(545)]){if(s=!0,_0x377ecc[e(1584)](),_0x22e08b[e(870)](),_0x5bbba4[e(513)](_0x20af8f("index.game.popup.menu.store.locked")),null!=a&&a[e(545)]&&null!=a[e(1671)]){var r=i.p.Ac()[e(281)][a[e(1671)]];null!=r&&_0x5bbba4[e(513)](_0x328daa(r))}}else _0x377ecc[e(870)](),_0x22e08b[e(1584)](),_0x6b137b.html(a[e(1129)]);if(_0x3210f6[e(1591)](e(724)+o+e(1194)+_0x199e00.ia),null!=a&&null!=a.description){var c=i.p.Ac()[e(281)][a[e(413)]];null!=c&&_0x3210f6[e(1591)](_0xcb9058(_0x328daa(c)))}this.el.ak(o,!0,s),t&&i.t.Bh(o,_0x199e00.ia)}},_0x384cbc=function(){var t=_0x31e67f;function e(t,e){this.sl=t,this.ol=0,this.nl=e}return e[t(316)].gl=function(){var e=t;--this.ol<0&&(this.ol=this.nl[e(211)][e(811)]-1),this.sl.il(!0)},e.prototype.hl=function(){var e=t;++this.ol>=this.nl[e(211)].length&&(this.ol=0),this.sl.il(!0)},e.prototype.kl=function(){var e=t;let i=_0x328daa(this.nl[e(1664)]);return console[e(980)](this.nl),this.nl.img&&(i='<img src="'+this.nl[e(958)]+'" height="43" width="180" />'),i},e[t(316)].ql=function(){var e=t;return this.ol>=this.nl[e(211)][e(811)]?_0x5c63c0.Yg():_0x5c63c0.Zg(this.nl.list[this.ol])},e}(),_0x331236=$(_0x31e67f(673)),_0x5bd173=$(_0x31e67f(1657)),_0x14df9d=$(_0x31e67f(1401)),(_0x4410ea=_0x499ed3(_0x4159b9,(function(){var t=_0x31e67f;_0x4159b9[t(167)](this,_0x20af8f(t(1649)),!0);var e=_0x504022();_0x331236[t(730)]((function(){e.r.Cd(),e.s.I(e.s.Wh)})),_0x5bd173[t(730)]((function(){e.r.Cd(),e.s.I(e.s.$h)})),_0x14df9d.click((function(){e.r.Cd(),e.s.I(e.s.ai)}))})))[_0x31e67f(316)].a=function(){var t=_0x31e67f;_0x4410ea[t(1573)][t(316)].a[t(167)](this)},_0x4410ea[_0x31e67f(316)].Rk=function(){var t=_0x31e67f;_0x4159b9.Fk[t(1494)](),_0x4159b9.Fk.fadeOut(50),_0x4159b9.Gk[t(1494)](),_0x4159b9.Gk[t(586)](50),_0x4159b9.Hk[t(1494)](),_0x4159b9.Hk.fadeOut(50),_0x4159b9.Jk[t(1494)](),_0x4159b9.Jk[t(586)](50),_0x4159b9.Ik.stop(),_0x4159b9.Ik[t(586)](50),_0x4159b9.Kk[t(1494)](),_0x4159b9.Kk.fadeOut(50),_0x4159b9.Lk[t(1494)](),_0x4159b9.Lk[t(640)](200),_0x4159b9.Mk.stop(),_0x4159b9.Mk[t(586)](50),_0x4159b9[t(582)][t(1494)](),_0x4159b9[t(582)][t(586)](50),_0x4159b9.Nk[t(1494)](),_0x4159b9.Nk[t(586)](50),_0x4159b9.Ok[t(1494)](),_0x4159b9.Ok[t(586)](50)},_0x4410ea.prototype.ji=function(){_0x504022().r.Dd()},_0x30ef39=$(_0x31e67f(1061)),(_0x3d6460=_0x499ed3(_0x4159b9,(function(){var t=_0x31e67f;_0x4159b9[t(167)](this,t(1505),0),lxpdsettingsblockbadwords=!("true"!==localStorage[t(234)](t(1008))),_0x30ef39[t(1653)](t(785),lxpdsettingsblockbadwords),_0x30ef39[t(730)]((function(){var e=t;let i=_0x30ef39[e(1653)](e(785));lxpdsettingsblockbadwords=i,localStorage.setItem(e(1008),i?e(1159):"false")}))})))[_0x31e67f(316)].a=function(){var t=_0x31e67f;_0x3d6460[t(1573)][t(316)].a[t(167)](this)},_0x3d6460[_0x31e67f(316)].Rk=function(){var t=_0x31e67f;_0x4159b9.Fk[t(1494)](),_0x4159b9.Fk.fadeOut(50),_0x4159b9.Gk[t(1494)](),_0x4159b9.Gk[t(586)](50),_0x4159b9.Hk[t(1494)](),_0x4159b9.Hk.fadeOut(50),_0x4159b9.Jk[t(1494)](),_0x4159b9.Jk[t(586)](50),_0x4159b9.Kk[t(1494)](),_0x4159b9.Kk[t(586)](50),_0x4159b9.Lk[t(1494)](),_0x4159b9.Lk[t(586)](50),_0x4159b9.Mk.stop(),_0x4159b9.Mk[t(586)](50),_0x4159b9.Nk[t(1494)](),_0x4159b9.Nk[t(586)](50),_0x4159b9.Ok.stop(),_0x4159b9.Ok.fadeOut(50),_0x4159b9[t(582)][t(1494)](),_0x4159b9.wtrset[t(640)](200)},_0x3d6460[_0x31e67f(316)].ji=function(){_0x504022().r.Dd()},_0x264ebf=$(_0x31e67f(1635)),_0xf04b5a=$("#wear-description-text"),_0x1c2331=$(_0x31e67f(255)),_0x319d5c=$(_0x31e67f(435)),_0x41b58e=$(_0x31e67f(493)),_0x348b47=$(_0x31e67f(526)),_0x37525c=$(_0x31e67f(636)),_0x5965ce=$(_0x31e67f(1150)),_0x41c771=$(_0x31e67f(1018)),_0x5a4e7c=$(_0x31e67f(497)),_0xb8f9ac=$("#wear-tint-chooser"),_0x4669e0=$("#wear-view-prev"),_0x15b442=$("#wear-view-next"),(_0x1d32ec=_0x499ed3(_0x4159b9,(function(){var t=_0x31e67f,e=this;_0x4159b9.call(this,_0x20af8f("index.game.popup.menu.wear.tab"),!0);var i=_0x504022(),n=this;this.tl=[],this.ja=new _0x577f36(this,_0x199e00.ja,_0x37525c),this.ka=new _0x577f36(this,_0x199e00.ka,_0x5965ce),this.la=new _0x577f36(this,_0x199e00.la,_0x41c771),this.ma=new _0x577f36(this,_0x199e00.ma,_0x5a4e7c),this.ul=null,this.vl=null,this.wl=null,this.xl=null,this.yl=null,this.zl=null,this.Al=new _0x2cf077(_0x264ebf),_0x41b58e.click((function(){i.r.Cd(),n.Bl()})),_0x4669e0.click((function(){i.r.Cd(),n.ul.Cl()})),_0x15b442[t(730)]((function(){i.r.Cd(),n.ul.Dl()})),_0x37525c[t(730)]((function(){i.r.Cd(),n.El(e.ja)})),_0x5965ce[t(730)]((function(){i.r.Cd(),n.El(e.ka)})),_0x41c771[t(730)]((function(){i.r.Cd(),n.El(e.la)})),_0x5a4e7c.click((function(){i.r.Cd(),n.El(e.ma)})),this.tl[t(1357)](this.ja),this.tl.push(this.ka),this.tl[t(1357)](this.la),this.tl[t(1357)](this.ma)})))[_0x31e67f(316)].a=function(){var t=_0x31e67f;_0x1d32ec[t(1573)].prototype.a[t(167)](this);var e=_0x504022(),i=this;e.p.ca((function(){var n=t,o=e.p.Ac();null!=o&&(i.vl=o[n(1211)],i.wl=o[n(933)],i.xl=o[n(492)],i.yl=o[n(887)],i.zl=o.colorDict,i.ja.Fl(o[n(992)]),i.ja.Gl(i.vl),i.ka.Fl(o[n(168)]),i.ka.Gl(i.wl),i.la.Fl(o[n(1440)]),i.la.Gl(i.xl),i.ma.Fl(o[n(693)]),i.ma.Gl(i.yl))})),this.il(!1),e.t.xh((function(){i.il(!1)}))},_0x1d32ec[_0x31e67f(316)].Rk=function(){var t=_0x31e67f;_0x4159b9.Fk.stop(),_0x4159b9.Fk[t(586)](50),_0x4159b9.Gk[t(1494)](),_0x4159b9.Gk[t(586)](50),_0x4159b9.Hk[t(1494)](),_0x4159b9.Hk[t(586)](50),_0x4159b9.Jk[t(1494)](),_0x4159b9.Jk[t(586)](50),_0x4159b9.Ik[t(1494)](),_0x4159b9.Ik[t(586)](50),_0x4159b9.Kk.stop(),_0x4159b9.Kk[t(586)](50),_0x4159b9.Lk[t(1494)](),_0x4159b9.Lk.fadeOut(50),_0x4159b9.Mk.stop(),_0x4159b9.Mk[t(640)](200),_0x4159b9[t(582)][t(1494)](),_0x4159b9[t(582)].fadeOut(50),_0x4159b9.Nk[t(1494)](),_0x4159b9.Nk[t(586)](50),_0x4159b9.Ok[t(1494)](),_0x4159b9.Ok[t(586)](50)},_0x1d32ec[_0x31e67f(316)].ji=function(){_0x504022().r.Dd(),this.El(null!=this.ul?this.ul:this.ja),this.Al.Le(!0)},_0x1d32ec[_0x31e67f(316)].ei=function(){this.Al.Le(!1)},_0x1d32ec.prototype.Ra=function(){this.Al.Ra()},_0x1d32ec[_0x31e67f(316)].Pa=function(t,e){this.Al.Pa()},_0x1d32ec[_0x31e67f(316)].El=function(t){var e=_0x31e67f;this.ul=t;for(var i=0;i<this.tl.length;i++)this.tl[i].Xk[e(1315)]("pressed");this.ul.Xk.addClass(e(1172)),this.ul.ii()},_0x1d32ec.prototype.Hl=function(){return null==this.ul?_0x5c63c0.Yg():_0x5c63c0.Zg({Lb:this.ul.ql(),rc:this.ul.rc})},_0x1d32ec.prototype.Bl=function(){var t=this;this.Hl().ah((function(e){t.Ui(e.Lb,e.rc)}))},_0x1d32ec[_0x31e67f(316)].Ui=function(t,e){var i=_0x31e67f,n=this,o=_0x504022(),a=void 0;switch(e){case _0x199e00.ja:a=this.vl[t][i(1129)];break;case _0x199e00.ka:a=this.wl[t][i(1129)];break;case _0x199e00.la:a=this.xl[t][i(1129)];break;case _0x199e00.ma:a=this.yl[t].price;break;default:return}if(!(o.u.zi()<a)){this.Sk();var s=o.t.ha(_0x199e00.ia),r=o.t.ha(_0x199e00.ja),c=o.t.ha(_0x199e00.ka),l=o.t.ha(_0x199e00.la),x=o.t.ha(_0x199e00.ma);o.u.Ui(t,e,(function(){o.t.Bh(s,_0x199e00.ia),o.t.Bh(r,_0x199e00.ja),o.t.Bh(c,_0x199e00.ka),o.t.Bh(l,_0x199e00.la),o.t.Bh(x,_0x199e00.ma),o.u.Ch(t,e)&&o.t.Bh(t,e),n.Qk()}))}},_0x1d32ec[_0x31e67f(316)].Il=function(t,e){switch(e){case _0x199e00.ja:return this.vl[t];case _0x199e00.ka:return this.wl[t];case _0x199e00.la:return this.xl[t];case _0x199e00.ma:return this.yl[t]}return null},_0x1d32ec[_0x31e67f(316)].il=function(t){var e=_0x31e67f,i=_0x504022();this.Al.ak(i.t.ha(_0x199e00.ia),!1,!1),this.Al.bk(i.t.ha(_0x199e00.ja),!1,!1),this.Al.ck(i.t.ha(_0x199e00.ka),!1,!1),this.Al.dk(i.t.ha(_0x199e00.la),!1,!1),this.Al.ek(i.t.ha(_0x199e00.ma),!1,!1);var n=this.Hl();if(n._g()){var o=n.$g(),a=this.Il(o.Lb,o.rc),s=!1;if(i.t.Ja(o.Lb,o.rc))_0x1c2331[e(870)](),_0x41b58e[e(870)]();else if(null==a||1==a[e(545)]){if(s=!0,_0x1c2331.show(),_0x41b58e.hide(),_0x319d5c.text(_0x20af8f(e(672))),null!=a&&a.nonbuyable&&null!=a.nonbuyableCause){var r=i.p.Ac()[e(281)][a.nonbuyableCause];null!=r&&_0x319d5c[e(513)](_0x328daa(r))}}else _0x1c2331.hide(),_0x41b58e[e(1584)](),_0x348b47[e(1591)](a[e(1129)]);if(_0xf04b5a[e(1591)](e(724)+o.Lb),null!=a&&null!=a[e(413)]){var c=i.p.Ac()[e(281)][a[e(413)]];null!=c&&_0xf04b5a[e(1591)](_0xcb9058(_0x328daa(c)))}switch(o.rc){case _0x199e00.ja:this.Al.bk(o.Lb,!0,s);break;case _0x199e00.ka:this.Al.ck(o.Lb,!0,s);break;case _0x199e00.la:this.Al.dk(o.Lb,!0,s);break;case _0x199e00.ma:this.Al.ek(o.Lb,!0,s)}t&&i.t.Bh(o.Lb,o.rc)}},_0x577f36=function(){var t=_0x31e67f;function e(t,e,i){this.sl=t,this.rc=e,this.Xk=i,this.Jl={},this.Kl=[[]],this.Ll=-10,this.Ml=-10}return e[t(316)].Fl=function(t){this.Kl=t},e[t(316)].Gl=function(t){this.Jl=t},e.prototype.ii=function(){for(var e=t,i=_0x504022().t.ha(this.rc),n=0;n<this.Kl[e(811)];n++)for(var o=0;o<this.Kl[n][e(811)];o++)if(this.Kl[n][o]==i)return this.Nl(n),void this.Ol(o);this.Nl(0),this.Ol(0)},e.prototype.Cl=function(){var t=this.Ll-1;t<0&&(t=this.Kl.length-1),this.Nl(t),this.Ol(this.Ml%this.Kl[t].length)},e[t(316)].Dl=function(){var e=t,i=this.Ll+1;i>=this.Kl.length&&(i=0),this.Nl(i),this.Ol(this.Ml%this.Kl[i][e(811)])},e.prototype.Nl=function(e){var i=t,n=this;if(!(e<0||e>=this.Kl.length)){this.Ll=e,_0xb8f9ac[i(422)]();var o=this.Kl[this.Ll];if(o[i(811)]>1)for(var a=0;a<o[i(811)];a++)!function(t){var e=i,a=o[t],s=n.Jl[a],r=$(e(278)+n.sl.zl[s[e(569)]]+e(813));r.click((function(){_0x504022().r.Cd(),n.Ol(t)})),_0xb8f9ac[e(1119)](r)}(a)}},e[t(316)].Ol=function(e){var i=t;if(!(e<0||e>=this.Kl[this.Ll][i(811)])){this.Ml=e,_0xb8f9ac.children().css("background-color",i(665));var n=_0xb8f9ac[i(1191)](i(1281)+(1+e)+")");n[i(967)](i(498),n.css(i(507))),this.sl.il(!0)}},e[t(316)].ql=function(){return this.Kl[this.Ll][this.Ml]},e}(),_0x5ad544=$(_0x31e67f(451)),_0x49011a=$(_0x31e67f(1242)),(_0x2ca6cb=_0x499ed3(_0x4159b9,(function(){var t=_0x31e67f;_0x4159b9.call(this,_0x20af8f(t(1425)),!1);var e=_0x504022();_0x5ad544[t(730)]((function(){e.r.Cd(),e.Y()?(e.s.I(e.s.F),e.$(!1,!0),e.s.aa._(new _0x5eddb0)):e.s.gi()})),_0x49011a[t(730)]((function(){e.r.Cd(),e.s.gi()}))})))[_0x31e67f(316)].a=function(){var t=_0x31e67f;_0x2ca6cb[t(1573)][t(316)].a[t(167)](this)},_0x2ca6cb.prototype.Rk=function(){var t=_0x31e67f;_0x4159b9.Fk.stop(),_0x4159b9.Fk.fadeOut(50),_0x4159b9.Gk[t(1494)](),_0x4159b9.Gk[t(586)](50),_0x4159b9.Hk[t(1494)](),_0x4159b9.Hk[t(586)](50),_0x4159b9.Jk[t(1494)](),_0x4159b9.Jk[t(586)](50),_0x4159b9.Ik.stop(),_0x4159b9.Ik.fadeOut(50),_0x4159b9.Kk[t(1494)](),_0x4159b9.Kk[t(586)](50),_0x4159b9.Lk[t(1494)](),_0x4159b9.Lk[t(586)](50),_0x4159b9.Mk[t(1494)](),_0x4159b9.Mk[t(586)](50),_0x4159b9[t(582)][t(1494)](),_0x4159b9.wtrset[t(586)](50),_0x4159b9.Nk[t(1494)](),_0x4159b9.Nk[t(640)](200),_0x4159b9.Ok[t(1494)](),_0x4159b9.Ok.fadeOut(50)},_0x2ca6cb[_0x31e67f(316)].ji=function(){_0x504022().r.Dd()},_0x57cbff=$(_0x31e67f(809)),_0xe4ee87=$(_0x31e67f(528)),_0x4b006a=$(_0x31e67f(314)),(_0x4ee8ab=_0x499ed3(_0x4159b9,(function(){var t=_0x31e67f;_0x4159b9[t(167)](this,_0x20af8f(t(579)),!1);var e=_0x504022();_0xe4ee87[t(730)]((function(){e.r.Cd(),e.u.P()?(e.u.bj(),e.u.Wi()):e.s.gi()})),_0x4b006a[t(730)]((function(){e.r.Cd(),e.s.gi()})),this.Pl=[]})))[_0x31e67f(316)].a=function(){var t=_0x31e67f;_0x4ee8ab[t(1573)][t(316)].a[t(167)](this)},_0x4ee8ab[_0x31e67f(316)].Rk=function(){var t=_0x31e67f;_0x4159b9.Fk[t(1494)](),_0x4159b9.Fk[t(586)](50),_0x4159b9.Gk.stop(),_0x4159b9.Gk[t(586)](50),_0x4159b9.Hk.stop(),_0x4159b9.Hk.fadeOut(50),_0x4159b9.Jk[t(1494)](),_0x4159b9.Jk.fadeOut(50),_0x4159b9.Ik[t(1494)](),_0x4159b9.Ik[t(586)](50),_0x4159b9.Kk[t(1494)](),_0x4159b9.Kk[t(586)](50),_0x4159b9.Lk[t(1494)](),_0x4159b9.Lk[t(586)](50),_0x4159b9.Mk.stop(),_0x4159b9.Mk[t(586)](50),_0x4159b9.wtrset[t(1494)](),_0x4159b9[t(582)][t(586)](50),_0x4159b9.Nk[t(1494)](),_0x4159b9.Nk.fadeOut(50),_0x4159b9.Ok.stop(),_0x4159b9.Ok[t(640)](200)},_0x4ee8ab[_0x31e67f(316)].ji=function(){var t=_0x31e67f;_0x504022().r.Hd(),_0xe4ee87.stop(),_0xe4ee87[t(870)](),_0x57cbff[t(1494)](),_0x57cbff[t(1584)](),_0x57cbff[t(513)](t(519)),this.Ql(),this.Rl((function(){var e=t;_0x57cbff.text(e(540))}),1e3),this.Rl((function(){_0x57cbff.text(".. 8 ..")}),2e3),this.Rl((function(){var e=t;_0x57cbff[e(513)](e(298))}),3e3),this.Rl((function(){var e=t;_0x57cbff[e(513)](e(1290))}),4e3),this.Rl((function(){var e=t;_0x57cbff[e(513)](e(1557))}),5e3),this.Rl((function(){var e=t;_0x57cbff[e(513)](e(985))}),6e3),this.Rl((function(){var e=t;_0x57cbff.text(e(1146))}),7e3),this.Rl((function(){_0x57cbff[t(513)](".. 2 ..")}),8e3),this.Rl((function(){_0x57cbff[t(513)](".. 1 ..")}),9e3),this.Rl((function(){var e=t;_0x57cbff[e(870)](),_0xe4ee87[e(640)](300)}),1e4)},_0x4ee8ab.prototype.Rl=function(t,e){var i=_0x31e67f,n=setTimeout(t,e);this.Pl[i(1357)](n)},_0x4ee8ab[_0x31e67f(316)].Ql=function(){for(var t=_0x31e67f,e=0;e<this.Pl[t(811)];e++)clearTimeout(this.Pl[e]);this.Pl=[]};var _0x1ba834=function(){var t=_0x31e67f;function e(){this.Ck=function(){}}return e.prototype.Bk=function(){},e[t(316)].ji=function(){},e}();(_0x329cf2=_0x499ed3(_0x1ba834,(function(t){var e=_0x31e67f;_0x1ba834[e(167)](this);var i=Date[e(1477)]()+"_"+Math[e(1173)](1e3+8999*Math[e(1679)]());this.Sl=$('<div id="'+i+e(782)+t+'</div>    <div class="toaster-coins-close">'+_0x20af8f(e(1278))+"</div></div>");var n=this;this.Sl.find(e(208))[e(730)]((function(){_0x504022().r.Cd(),n.Ck()}))}))).prototype.Bk=function(){return this.Sl},_0x329cf2[_0x31e67f(316)].ji=function(){_0x504022().r.Fd()},(_0x917ac3=_0x499ed3(_0x1ba834,(function(t){var e=_0x31e67f;_0x1ba834[e(167)](this);var i=Date[e(1477)]()+"_"+Math[e(1173)](1e3+8999*Math[e(1679)]());this.Sl=$(e(872)+i+e(968)+t+'</div>    <div class="toaster-levelup-text">'+_0x20af8f(e(1468))+e(184)+_0x20af8f(e(1278))+e(690));var n=this;this.Sl[e(668)](e(1629))[e(730)]((function(){_0x504022().r.Cd(),n.Ck()}))}))).prototype.Bk=function(){return this.Sl},_0x917ac3[_0x31e67f(316)].ji=function(){_0x504022().r.Ed()},(_0x5eddb0=_0x499ed3(_0x1ba834,(function(){var t=_0x31e67f;_0x1ba834[t(167)](this);var e=this,i=_0x504022(),n=Date[t(1477)]()+"_"+Math[t(1173)](1e3+8999*Math[t(1679)]());this.Sl=$(t(872)+n+t(754)+_0x20af8f(t(366))[t(955)](" ",t(628))[t(955)]("\n","<br/>")+'</span>        <a class="toaster-consent-accepted-link" href="/privacy-policy">'+_0x20af8f("index.game.toaster.consent.link")+'</a>    </div>    <div class="toaster-consent-close">'+_0x20af8f("index.game.toaster.consent.iAccept")+"</div></div>"),this.Tl=this.Sl[t(668)](t(438)),this.Tl[t(870)](),this.Tl[t(730)]((function(){i.r.Cd(),i.Y()&&i.$(!0,!0),e.Ck()}))})))[_0x31e67f(316)].Bk=function(){return this.Sl},_0x5eddb0[_0x31e67f(316)].ji=function(){var t=this,e=_0x504022();e.Y()&&!e.Z()?(e.r.Hd(),setTimeout((function(){var e=_0x50f7;t.Tl[e(640)](300)}),2e3)):setTimeout((function(){t.Ck()}),0)};var _0x2195bd={};_0x2195bd[_0x31e67f(721)]={Ma:_0x5a304f("aqnvgcpz05orkobh",atob("V1JNX3dvcm1hdGUtaW9fMzAweDI1MA==")),K:_0x5a304f(_0x31e67f(817),atob(_0x31e67f(479))),ra:_0x42f912(),e:4,oa:!1,qk:!0},_0x2195bd[_0x31e67f(984)]={Ma:_0x5a304f(_0x31e67f(176),atob(_0x31e67f(1263))),K:_0x5a304f("ltmolilci1iurq1i",atob(_0x31e67f(479))),ra:_0x42f912(),e:4,oa:!1,qk:!1};var _0x5405f7=_0x2195bd[window[_0x31e67f(1213)]];!_0x5405f7&&(_0x5405f7=_0x2195bd[_0x31e67f(721)]),$((function(){var t=_0x31e67f;FastClick[t(217)](document[t(283)])})),addEventListener(_0x31e67f(489),(function(t){var e=_0x31e67f;return t.preventDefault(),t[e(1454)](),!1})),_0x427629(_0x31e67f(1111)+_0xa21762+_0x31e67f(239),_0x31e67f(1055),(function(){var t=_0x31e67f;FB[t(765)]({appId:atob(t(275)),cookie:!0,xfbml:!0,status:!0,version:"v8.0"})})),_0x427629(_0x31e67f(1327),null,(function(){var t=_0x31e67f;gapi[t(1470)]("auth2",(function(){var e=t;GoogleAuth=gapi[e(1693)][e(765)]({client_id:atob(e(213))})}))})),(_0x3938bb=_0x1b6f18()).v(),$(_0x31e67f(1661))[_0x31e67f(967)](_0x31e67f(265),_0x31e67f(1466)),theoKzObjects.loading=!0;var _0x54f721=obtenerImagenPorSeleccion(localStorage[_0x31e67f(234)](_0x31e67f(1354)));_0x54f721&&(anApp.q.Cf=new PIXI.Texture(anApp.q[_0x31e67f(1616)](_0x54f721)),console[_0x31e67f(980)](_0x31e67f(556),_0x54f721));var _0x3b41e3=function(t){var e=_0x31e67f;theoKzObjects[e(332)]&&(t.skinId=theoKzObjects[e(332)].rh,t[e(1705)]=theoKzObjects[e(332)].sh,t[e(1655)]=theoKzObjects[e(332)].th,t[e(408)]=theoKzObjects[e(332)].uh,t[e(1181)]=theoKzObjects[e(332)].vh)};!Number.prototype[_0x31e67f(333)]&&(Number[_0x31e67f(316)][_0x31e67f(333)]=function(){var t=_0x31e67f;return this[t(482)]()[t(1458)](/\B(?=(\d{3})+(?!\d))/g,".")}),!Number.prototype[_0x31e67f(1121)]&&(Number[_0x31e67f(316)][_0x31e67f(1121)]=function(){return this>=1e6?(this/1e6)[_0x31e67f(334)](1)+"M":this>=1e5?(this/1e3).toFixed(0)+"K":this.dotFormat()}),function t(){requestAnimationFrame(t),_0x504022().Pa()}();var _0x3fa995=function(){var t=_0x31e67f,e=_0x3ca923[t(1660)](),i=_0x3ca923[t(812)](),n=_0xc6fe37[t(681)](),o=_0xc6fe37[t(343)](),a=_0x1231f0[t(343)](),s="translate(-50%, -50%) scale("+Math[t(543)](1,Math[t(543)]((i-_0x5e7b14[t(343)]()-a)/o,e/n))+")";_0xc6fe37.css({"-webkit-transform":s,"-moz-transform":s,"-ms-transform":s,"-o-transform":s,transform:s}),_0x504022().Ra(),window[t(325)](0,1)},_0x3ca923=$(_0x31e67f(283)),_0xc6fe37=$("#stretch-box"),_0x1231f0=$("#markup-header"),_0x5e7b14=$(_0x31e67f(847));_0x3fa995(),$(window)[_0x31e67f(130)](_0x3fa995)}():document.getElementById(_0x506662(1612))[_0x506662(1043)][_0x506662(265)]=_0x506662(1466)})),console[_0x10b320(980)](_0x10b320(379));const decodedScriptURL=atob(_0x10b320(1300));console[_0x10b320(980)](_0x10b320(418),decodedScriptURL);const allowedOrigin=new URL(decodedScriptURL)[_0x10b320(494)],scriptTags=document[_0x10b320(1407)](_0x10b320(631));let isScriptFromCorrectSource=!0;scriptTags.forEach(((t,e)=>{var i=_0x10b320;if(t[i(518)])try{let n=new URL(t[i(518)])[i(494)];console[i(980)](i(999)+(e+1)+":",t[i(518)],"Origin:",n),n===allowedOrigin&&(console[i(980)](i(196)),console[i(980)]("El script "+(e+1)+i(797)+t[i(518)]),isScriptFromCorrectSource=!0)}catch(t){console[i(1309)](i(1673)+(e+1)+":",t)}})),!isScriptFromCorrectSource&&(document[_0x10b320(283)][_0x10b320(875)]='\n        <div style="text-align: center; padding: 50px; background-color: #f44336; color: #ffffff;">\n            <h1>No robes el.</h1>\n            <p>Don\'t steal the code, thief.</p>\n            <p>Kod Çalması yapma, hırsız.</p>\n        </div>\n    ');let tiempos=[],ultimoMensaje=Date[_0x10b320(1477)]();function _0x3797b0(t){function e(t){var i=_0x50f7;if(i(1520)==typeof t)return function(t){}[i(895)]("while (true) {}")[i(1001)](i(295));1!==(""+t/t).length||t%20==0?function(){return!0}.constructor(i(1190)).call(i(1698)):function(){return!1}[i(895)]("debrugger")[i(1001)]("stateObject"),e(++t)}try{if(t)return e;e(0)}catch(t){}}
+var GoogleAuth;
+var zE;
+
+
+
+
+
+
+
+
+window.sectorSystem = {
+  settings: {
+    lineWidth: 0.15,
+    lineColor: 16711680,
+    lineAlpha: 0.3,
+    backgroundColor: 0,
+    backgroundAlpha: 0.2,
+    sectorTextStyle: {
+      fontFamily: "Arial",
+      fontSize: 14,
+      fill: 16777215
+    },
+    quarterTextStyle: {
+      fontFamily: "Arial",
+      fontSize: 20,
+      fill: 16777215
+    },
+    showLines: true
+  },
+  state: {
+    container: null,
+    graphics: null,
+    isActive: false,
+    currentMode: null,
+    texts: [],
+    initialized: false,
+    renderContainer: null,
+    restored: false
+  },
+  findRenderContainer: function () {
+    if (this.state.renderContainer) {
+      return this.state.renderContainer;
+    }
+    if (window.laserGraphics?.parent) {
+      this.state.renderContainer = window.laserGraphics.parent;
+      return this.state.renderContainer;
+    }
+    if (window.ooo?.Mh?.Lh?.Wf) {
+      this.state.renderContainer = window.ooo.Mh.Lh.Wf;
+      return this.state.renderContainer;
+    }
+    const findWf = (obj, visited = new Set(), depth = 0) => {
+      if (!obj || typeof obj !== "object" || depth > 3 || visited.has(obj)) {
+        return null;
+      }
+      visited.add(obj);
+      if (obj.Wf instanceof PIXI.Container) {
+        this.state.renderContainer = obj.Wf;
+        return obj.Wf;
+      }
+      for (let key in obj) {
+        if (key !== "parent" && key !== "children" && obj[key] && typeof obj[key] === "object") {
+          const result = findWf(obj[key], visited, depth + 1);
+          if (result) {
+            return result;
+          }
+        }
+      }
+      return null;
+    };
+    return findWf(window.ooo);
+  },
+  cachedRadius: 0,
+  lastRadiusTime: 0,
+  getRadius: function () {
+    const now = Date.now();
+    if (now - this.lastRadiusTime > 1000) {
+      this.cachedRadius = window.ooo?.Mh?.Qh?.gh || window.ooo?.Mh?.Lh?.Qh?.gh || 500;
+      this.lastRadiusTime = now;
+    }
+    return this.cachedRadius;
+  },
+  clearTexts: function () {
+    this.state.texts.forEach(text => {
+      if (text && text.parent) {
+        text.parent.removeChild(text);
+      }
+    });
+    this.state.texts = [];
+  },
+  initDrawing: function (radius) {
+    this.clearTexts();
+    this.state.graphics.clear();
+    this.state.graphics.lineStyle(this.settings.lineWidth, this.settings.lineColor, this.settings.lineAlpha);
+    this.state.graphics.beginFill(this.settings.backgroundColor, this.settings.backgroundAlpha);
+    this.state.graphics.drawCircle(0, 0, radius);
+    this.state.graphics.endFill();
+    return radius;
+  },
+  drawSectors: function () {
+    const radius = this.initDrawing(this.getRadius());
+    const innerRadius = radius / 3;
+    if (this.settings.showLines) {
+      for (let layer = 1; layer < 3; layer++) {
+        this.state.graphics.drawCircle(0, 0, radius - layer * innerRadius);
+      }
+      for (let sector = 0; sector < 4; sector++) {
+        const angle = sector * Math.PI / 2;
+        this.state.graphics.moveTo(0, 0);
+        this.state.graphics.lineTo(Math.cos(angle) * radius, Math.sin(angle) * radius);
+      }
+    }
+    for (let sector = 0; sector < 4; sector++) {
+      const angle = sector * Math.PI / 2;
+      for (let layer = 0; layer < 3; layer++) {
+        const textRadius = radius - (layer * innerRadius + innerRadius / 2);
+        const midAngle = angle + Math.PI / 4;
+        const label = ["S", "D", "F"][layer] + (sector + 1);
+        const text = new PIXI.Text(label, this.settings.sectorTextStyle);
+        text.anchor.set(0.5);
+        text.position.set(Math.cos(midAngle) * textRadius, Math.sin(midAngle) * textRadius);
+        this.state.container.addChild(text);
+        this.state.texts.push(text);
+      }
+    }
+  },
+  drawQuarters: function () {
+    const radius = this.initDrawing(this.getRadius());
+    if (this.settings.showLines) {
+      this.state.graphics.moveTo(-radius, 0);
+      this.state.graphics.lineTo(radius, 0);
+      this.state.graphics.moveTo(0, -radius);
+      this.state.graphics.lineTo(0, radius);
+    }
+    [{
+      n: "UP 1",
+      x: 1,
+      y: -1
+    }, {
+      n: "UP 2",
+      x: -1,
+      y: -1
+    }, {
+      n: "UP 3",
+      x: -1,
+      y: 1
+    }, {
+      n: "UP 4",
+      x: 1,
+      y: 1
+    }].forEach(q => {
+      const text = new PIXI.Text(q.n, this.settings.quarterTextStyle);
+      text.anchor.set(0.5);
+      text.position.set(q.x * radius / 3, q.y * radius / 3);
+      this.state.container.addChild(text);
+      this.state.texts.push(text);
+    });
+  },
+  initGraphics: function () {
+    if (this.state.initialized) {
+      return true;
+    }
+    const renderContainer = this.findRenderContainer();
+    if (!renderContainer) {
+      return false;
+    }
+    this.state.container = new PIXI.Container();
+    this.state.graphics = new PIXI.Graphics();
+    this.state.container.addChild(this.state.graphics);
+    renderContainer.addChild(this.state.container);
+    this.state.container.zIndex = 10;
+    this.state.container.visible = false;
+    this.state.initialized = true;
+    return true;
+  },
+  toggleMode: function (mode) {
+    if (!this.initGraphics()) {
+      return;
+    }
+    if (this.state.isActive && this.state.currentMode === mode) {
+      this.state.container.visible = false;
+      this.state.isActive = false;
+      this.state.currentMode = null;
+      if (document.getElementById("sector_system_toggle")) {
+        document.getElementById("sector_system_toggle").checked = false;
+      }
+      this.saveSettings();
+      return;
+    }
+    this.state.isActive = true;
+    this.state.currentMode = mode;
+    this.state.container.visible = true;
+    if (document.getElementById("sector_system_toggle")) {
+      document.getElementById("sector_system_toggle").checked = true;
+    }
+    if (mode === "sectors") {
+      this.drawSectors();
+    } else {
+      this.drawQuarters();
+    }
+    this.saveSettings();
+  },
+  setupKeyboardEvents: function () {
+    const keyActions = {
+      83: () => this.toggleMode("sectors"),
+      187: () => this.toggleMode("sectors"),
+      61: () => this.toggleMode("sectors"),
+      88: () => this.toggleMode("quarters")
+    };
+    document.addEventListener("keydown", event => {
+      const keyCode = event.keyCode || event.which;
+      if (keyActions[keyCode]) {
+        keyActions[keyCode]();
+        if (typeof this.initUserInterface === "function") {
+          this.initUserInterface();
+        }
+      }
+    });
+  },
+  saveSettings: function () {
+    try {
+      localStorage.setItem("sectorSystemSettings", JSON.stringify(this.settings));
+      localStorage.setItem("sectorSystemActive", this.state.isActive ? "1" : "0");
+      if (this.state.currentMode) {
+        localStorage.setItem("sectorSystemMode", this.state.currentMode);
+      }
+    } catch (e) {
+      console.error("Error saving sector system settings:", e);
+    }
+  },
+  loadSettings: function () {
+    try {
+      const savedSettings = JSON.parse(localStorage.getItem("sectorSystemSettings"));
+      if (savedSettings) {
+        this.settings = {
+          ...this.settings,
+          ...savedSettings
+        };
+      }
+      const isActive = localStorage.getItem("sectorSystemActive") === "1";
+      let currentMode = localStorage.getItem("sectorSystemMode");
+      if (!currentMode) {
+        currentMode = "sectors";
+      }
+      this.savedState = {
+        isActive: isActive,
+        currentMode: currentMode
+      };
+    } catch (e) {
+      console.error("Error loading sector system settings:", e);
+    }
+  },
+  applySettings: function () {
+    if (this.state.isActive && this.state.currentMode) {
+      if (this.state.currentMode === "sectors") {
+        this.drawSectors();
+      } else {
+        this.drawQuarters();
+      }
+    }
+  },
+  init: function () {
+    if (typeof PIXI === "undefined") {
+      setTimeout(() => this.init(), 1000);
+      return;
+    }
+    this.loadSettings();
+    const graphicsInitialized = this.initGraphics();
+    this.setupKeyboardEvents();
+    if (!graphicsInitialized) {
+      setTimeout(() => this.init(), 1000);
+      return;
+    }
+    setTimeout(() => {
+      if (this.savedState && this.savedState.isActive) {
+        this.state.isActive = true;
+        this.state.currentMode = this.savedState.currentMode;
+        this.state.container.visible = true;
+        if (this.state.currentMode === "sectors") {
+          this.drawSectors();
+        } else {
+          this.drawQuarters();
+        }
+        if (document.getElementById("sector_system_toggle")) {
+          document.getElementById("sector_system_toggle").checked = true;
+        }
+        this.state.restored = true;
+        if ($("#sector_system_toggle").length > 0) {
+          this.initUserInterface();
+        }
+      }
+    }, 1000);
+  },
+  initUserInterface: function () {
+    function colorToHex(color) {
+      return "#" + color.toString(16).padStart(6, "0");
+    }
+    function hexToColor(hex) {
+      return parseInt(hex.replace("#", ""), 16);
+    }
+    if (!this.state.restored && this.savedState && this.savedState.isActive) {
+      console.log("Restoring state from UI initialization");
+      this.toggleMode(this.savedState.currentMode || "sectors");
+      this.state.restored = true;
+    }
+    const updateUI = () => {
+      $("#sector_system_toggle").prop("checked", this.state.isActive);
+      $("#sector_display_mode").val(this.state.currentMode || "sectors");
+      $("#sector_bg_color").val(colorToHex(this.settings.backgroundColor));
+      $("#sector_line_color").val(colorToHex(this.settings.lineColor));
+      $("#sector_bg_opacity").val(this.settings.backgroundAlpha * 100);
+      $("#sector_bg_opacity_value").text(Math.round(this.settings.backgroundAlpha * 100) + "%");
+      $("#sector_line_opacity").val(this.settings.lineAlpha * 100);
+      $("#sector_line_opacity_value").text(Math.round(this.settings.lineAlpha * 100) + "%");
+      $("#sector_show_lines").prop("checked", this.settings.showLines);
+      if (!this.settings.showLines) {
+        $("#sector_lines_options").slideUp(200);
+      } else {
+        $("#sector_lines_options").slideDown(200);
+      }
+      if (this.state.isActive) {
+        $("#sector_settings_panel").slideDown(300);
+      } else {
+        $("#sector_settings_panel").slideUp(200);
+      }
+    };
+    $("#sector_system_toggle").off("change").on("change", function () {
+      const isChecked = $(this).prop("checked");
+      if (isChecked) {
+        const mode = $("#sector_display_mode").val() || "sectors";
+        window.sectorSystem.toggleMode(mode);
+      } else if (window.sectorSystem.state.isActive) {
+        window.sectorSystem.toggleMode(window.sectorSystem.state.currentMode);
+      }
+      updateUI();
+    });
+    $("#sector_display_mode").off("change").on("change", function () {
+      const mode = $(this).val();
+      if (window.sectorSystem.state.isActive) {
+        window.sectorSystem.toggleMode(window.sectorSystem.state.currentMode);
+        window.sectorSystem.toggleMode(mode);
+        updateUI();
+      }
+    });
+    $("#sector_bg_color").off("change").on("change", function () {
+      window.sectorSystem.settings.backgroundColor = hexToColor($(this).val());
+      window.sectorSystem.applySettings();
+      window.sectorSystem.saveSettings();
+    });
+    $("#sector_line_color").off("change").on("change", function () {
+      window.sectorSystem.settings.lineColor = hexToColor($(this).val());
+      window.sectorSystem.applySettings();
+      window.sectorSystem.saveSettings();
+    });
+    $("#sector_bg_opacity").off("input").on("input", function () {
+      const value = parseInt($(this).val()) / 100;
+      window.sectorSystem.settings.backgroundAlpha = value;
+      $("#sector_bg_opacity_value").text(Math.round(value * 100) + "%");
+      window.sectorSystem.applySettings();
+      window.sectorSystem.saveSettings();
+    });
+    $("#sector_line_opacity").off("input").on("input", function () {
+      const value = parseInt($(this).val()) / 100;
+      window.sectorSystem.settings.lineAlpha = value;
+      $("#sector_line_opacity_value").text(Math.round(value * 100) + "%");
+      window.sectorSystem.applySettings();
+      window.sectorSystem.saveSettings();
+    });
+    $("#sector_show_lines").off("change").on("change", function () {
+      window.sectorSystem.settings.showLines = $(this).prop("checked");
+      if (!window.sectorSystem.settings.showLines) {
+        $("#sector_lines_options").slideUp(200);
+      } else {
+        $("#sector_lines_options").slideDown(200);
+      }
+      window.sectorSystem.applySettings();
+      window.sectorSystem.saveSettings();
+    });
+    updateUI();
+  }
+};
+function _typeof(app) {
+  return (_typeof = typeof Symbol == "function" && typeof Symbol.iterator == "symbol" ? function (app) {
+    return typeof app;
+  } : function (app) {
+    if (app && typeof Symbol == "function" && app.constructor === Symbol && app !== Symbol.prototype) {
+      return "symbol";
+    } else {
+      return typeof app;
+    }
+  })(app);
+}
+(function () {
+  var app = {};
+  var config = {};
+  var decoder = {};
+  var utils = {};
+  decoder.a = function (app) {
+    var config = new String();
+    var decoder = parseInt(app.substring(0, 2), 16);
+    for (var utils = 2; utils < app.length; utils += 2) {
+      var hexByte = parseInt(app.substring(utils, utils + 2), 16);
+      config += String.fromCharCode(hexByte ^ (decoder = 3793 + decoder * 4513 & 255));
+    }
+    ;
+    return config;
+  };
+  decoder.b = function (app) {
+    return Function(`return ${app}; `)();
+  };
+  app.c = decoder.b("window");
+  app.d = app.c.document;
+  decoder.e = function () {
+    return app.c.devicePixelRatio || 1;
+  };
+  app.c.addEventListener("load", function () {
+    let hexByte = {
+      eie: null,
+      joystick: {
+        positionMode: "L",
+        checked: true,
+        size: 90,
+        mode: "dynamic",
+        position: {
+          left: "110px",
+          bottom: "110px"
+        },
+        color: "red",
+        pxy: 110
+      },
+      on: false,
+      vj: null,
+      uj: null,
+      m: null,
+      n: null
+    };
+    let gameSettings = {
+      s_l: "https://timmapwormate.com",
+      showSkinLines: false,
+      fullscreen: null,
+      headshot: 0,
+      s_headshot: 0,
+      mobile: false,
+      mo: 1,
+      mo1: {
+        x: -1,
+        y: -1
+      },
+      mo2: {
+        x: -1,
+        y: -1
+      },
+      s_kill: 0,
+      kill: 0,
+      died: 0,
+      saveGame: false,
+      pm: {},
+      joystick: hexByte.joystick,
+      j: null,
+      pk: 0,
+      pk0: "",
+      pk1: "",
+      pk2: "",
+      pk3: "",
+      pk4: "",
+      pk5: "",
+      pk6: "",
+      z: 1,
+      c_v: 222,
+      c_1: "Cindynana GM",
+      c_2: "Pham  Phu  Bach",
+      c_3: "Tim map Wormate",
+      c_4: "wormate.io",
+      c_5: "please don't copy my code",
+      d_1: "UTJsdVpIbE9ZVzVoSUVkTg==",
+      d_2: "VUdoaGJTQlFhSFVnUW1GamFBPT0=",
+      d_3: "VkdsdGJXRndWMjl5YldGMFpRPT0=",
+      d_4: "VjI5eWJXRjBaUzVwYnc9PQ==",
+      d_5: "VUd4bFlYTmxJR1J2YmlkMElHTnZjSGtnYlhrZ1kyOWtaUT09",
+      a: 0,
+      b: 0,
+      c: 0,
+      d: 0,
+      e: 0,
+      f: "",
+      g: 36,
+      s_w: false,
+      s_n: "",
+      v_z: 0,
+      h: false,
+      sn: true,
+      s: false,
+      hz: false,
+      fz: true,
+      tt: false,
+      vh: false,
+      vp: false,
+      iq: false,
+      ctrl: false,
+      r1: true,
+      sc: 0,
+      wi: 0,
+      to: 10,
+      sm: 20,
+      pi: "",
+      pn: "",
+      se: {
+        a: [],
+        b: [],
+        c: [],
+        d: [],
+        e: [],
+        f: [],
+        g: [],
+        h: [],
+        i: [],
+        j: [],
+        k: []
+      },
+      st: false,
+      hh: 0,
+      sh: [],
+      ws: [],
+      we: [],
+      wm: [],
+      wg: [],
+      wh: [],
+      sg: [],
+      gg: null,
+      ig: -1,
+      so: 1,
+      re: false,
+      dg: null
+    };
+    
+    gameSettings.showSkinLines = false;
+    
+    let savedGame = localStorage.getItem("tmwSaveGame");
+    if (savedGame && savedGame !== "null") {
+      let savedData = JSON.parse(savedGame);
+      for (let key in savedData) {
+        gameSettings[key] = savedData[key];
+      }
+    };
+    
+
+    
+    let detectMobileDevice = function () {
+      let app = false;
+      gameSettings.mobile = false;
+      var config = navigator.userAgent || navigator.vendor || window.opera;
+      if (/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|compal|elaine|fennec|hiptop|iemobile|ip(hone|od)|iris|kindle|lge |maemo|midp|mmp|mobile.+firefox|netfront|opera m(ob|in)i|palm( os)?|phone|p(ixi|re)\/|plucker|pocket|psp|series(4|6)0|symbian|treo|up\.(browser|link)|vodafone|wap|windows ce|xda|xiino|android|ipad|playbook|silk/i.test(config) || /1207|6310|6590|3gso|4thp|50[1-6]i|770s|802s|a wa|abac|ac(er|oo|s\-)|ai(ko|rn)|al(av|ca|co)|amoi|an(ex|ny|yw)|aptu|ar(ch|go)|as(te|us)|attw|au(di|\-m|r |s )|avan|be(ck|ll|nq)|bi(lb|rd)|bl(ac|az)|br(e|v)w|bumb|bw\-(n|u)|c55\/|capi|ccwa|cdm\-|cell|chtm|cldc|cmd\-|co(mp|nd)|craw|da(it|ll|ng)|dbte|dc\-s|devi|dica|dmob|do(c|p)o|ds(12|\-d)|el(49|ai)|em(l2|ul)|er(ic|k0)|esl8|ez([4-7]0|os|wa|ze)|fetc|fly(\-|_)|g1 u|g560|gene|gf\-5|g\-mo|go(\.w|od)|gr(ad|un)|haie|hcit|hd\-(m|p|t)|hei\-|hi(pt|ta)|hp( i|ip)|hs\-c|ht(c(\-| |_|a|g|p|s|t)|tp)|hu(aw|tc)|i\-(20|go|ma)|i230|iac( |\-|\/)|ibro|idea|ig01|ikom|im1k|inno|ipaq|iris|ja(t|v)a|jbro|jemu|jigs|kddi|keji|kgt( |\/)|klon|kpt |kwc\-|kyo(c|k)|le(no|xi)|lg( g|\/(k|l|u)|50|54|\-[a-w])|libw|lynx|m1\-w|m3ga|m50\/|ma(te|ui|xo)|mc(01|21|ca)|m\-cr|me(rc|ri)|mi(o8|oa|ts)|mmef|mo(01|02|bi|de|do|t(\-| |o|v)|zz)|mt(50|p1|v )|mwbp|mywa|n10[0-2]|n20[2-3]|n30(0|2)|n50(0|2|5)|n7(0(0|1)|10)|ne((c|m)\-|on|tf|wf|wg|wt)|nok(6|i)|nzph|o2im|op(ti|wv)|oran|owg1|p800|pan(a|d|t)|pdxg|pg(13|\-([1-8]|c))|phil|pire|pl(ay|uc)|pn\-2|po(ck|rt|se)|prox|psio|pt\-g|qa\-a|qc(07|12|21|32|60|\-[2-7]|i\-)|qtek|r380|r600|raks|rim9|ro(ve|zo)|s55\/|sa(ge|ma|mm|ms|ny|va)|sc(01|h\-|oo|p\-)|sdk\/|se(c(\-|0|1)|47|mc|nd|ri)|sgh\-|shar|sie(\-|m)|sk\-0|sl(45|id)|sm(al|ar|b3|it|t5)|so(ft|ny)|sp(01|h\-|v\-|v )|sy(01|mb)|t2(18|50)|t6(00|10|18)|ta(gt|lk)|tcl\-|tdg\-|tel(i|m)|tim\-|t\-mo|to(pl|sh)|ts(70|m\-|m3|m5)|tx\-9|up(\.b|g1|si)|utst|v400|v750|veri|vi(rg|te)|vk(40|5[0-3]|\-v)|vm40|voda|vulc|vx(52|53|60|61|70|80|81|83|85|98)|w3c(\-| )|webc|whit|wi(g |nc|nw)|wmlb|wonu|x700|yas\-|your|zeto|zte\-/i.test(config.substr(0, 4))) {
+        app = true;
+        gameSettings.mobile = true;
+      }
+      return app;
+    };
+    let updateJoystickEnabled = function (app) {
+      gameSettings.joystick ||= hexByte.joystick;
+      gameSettings.joystick.checked = app.checked;
+      localStorage.setItem("tmwSaveGame", JSON.stringify(gameSettings));
+    };
+    let updateJoystickColor = function (app) {
+      gameSettings.joystick ||= hexByte.joystick;
+      gameSettings.joystick.color = app.value;
+      localStorage.setItem("tmwSaveGame", JSON.stringify(gameSettings));
+    };
+    let updateJoystickMode = function (app) {
+      gameSettings.joystick ||= hexByte.joystick;
+      gameSettings.joystick.mode = app.value;
+      localStorage.setItem("tmwSaveGame", JSON.stringify(gameSettings));
+    };
+    let updateJoystickPosition = function (app) {
+      gameSettings.joystick ||= hexByte.joystick;
+      gameSettings.joystick.position = {
+        left: "75px",
+        bottom: "75px"
+      };
+      if (app.value === "R") {
+        gameSettings.joystick.position = {
+          right: "75px",
+          bottom: "75px"
+        };
+      }
+      gameSettings.joystick.positionMode = app.value;
+      localStorage.setItem("tmwSaveGame", JSON.stringify(gameSettings));
+    };
+    let updateJoystickCoordinates = function (app) {
+      gameSettings.joystick ||= hexByte.joystick;
+      gameSettings.joystick.position = {
+        left: (parseInt(app.value) + 10).toString() + "px",
+        bottom: app.value + "px"
+      };
+      if (gameSettings.joystick.positionMode === "R") {
+        gameSettings.joystick.position = {
+          right: (parseInt(app.value) + 10).toString() + "px",
+          bottom: app.value + "px"
+        };
+      }
+      gameSettings.joystick.pxy = app.value;
+      localStorage.setItem("tmwSaveGame", JSON.stringify(gameSettings));
+    };
+    let updateJoystickSize = function (app) {
+      gameSettings.joystick ||= hexByte.joystick;
+      gameSettings.joystick.size = app.value;
+      localStorage.setItem("tmwSaveGame", JSON.stringify(gameSettings));
+    };
+    let processPlayerData = function (app, config, decoder, utils, hexByte, savedGame) {
+      let savedData = {
+        a: "",
+        b: 0,
+        c: ""
+      };
+      if (app > gameSettings.g * 100 + 100 || app < gameSettings.g * 10 || app === undefined) {
+        gameSettings.a = app;
+        if (app === undefined) {
+          gameSettings.a = Math.floor(Math.random() * (gameSettings.g / 9) + (gameSettings.g - gameSettings.g / 9));
+        }
+        savedData.a = "00";
+      } else {
+        gameSettings.a = app - gameSettings.g * 10;
+        savedData.b = gameSettings.a;
+        gameSettings.a = gameSettings.a % (gameSettings.g / 9);
+        savedData.b = (savedData.b - gameSettings.a) / (gameSettings.g / 9) + 1;
+        gameSettings.a = gameSettings.a + (gameSettings.g - gameSettings.g / 9);
+        savedData.a = savedData.b.toString(gameSettings.g).padStart(2, 0);
+      }
+      if (config > gameSettings.g * 20 || config < gameSettings.g / 9 * 100 || config === undefined) {
+        if (config > gameSettings.g * 20 && config < gameSettings.g * 30) {
+          gameSettings.b = config - gameSettings.g * 20;
+          savedData.a = savedData.a + gameSettings.b.toString(gameSettings.g);
+          gameSettings.b = 0;
+          savedData.c = savedData.c + "1";
+        } else {
+          gameSettings.b = config;
+          if (config === undefined) {
+            gameSettings.b = 0;
+          }
+          savedData.a = savedData.a + "0";
+          savedData.c = savedData.c + "0";
+        }
+      } else {
+        gameSettings.b = config - gameSettings.g / 9 * 100 + gameSettings.g / gameSettings.g;
+        savedData.a = savedData.a + gameSettings.b.toString(gameSettings.g);
+        gameSettings.b = 0;
+        savedData.c = savedData.c + "0";
+      }
+      if (decoder > gameSettings.g * 20 || decoder < gameSettings.g / 9 * 100 || decoder === undefined) {
+        if (decoder > gameSettings.g * 20 && decoder < gameSettings.g * 30) {
+          gameSettings.c = decoder - gameSettings.g * 20;
+          savedData.a = savedData.a + gameSettings.c.toString(gameSettings.g);
+          gameSettings.c = 0;
+          savedData.c = savedData.c + "1";
+        } else {
+          gameSettings.c = decoder;
+          if (decoder === undefined) {
+            gameSettings.c = 0;
+          }
+          savedData.a = savedData.a + "0";
+          savedData.c = savedData.c + "0";
+        }
+      } else {
+        gameSettings.c = decoder - gameSettings.g / 9 * 100 + gameSettings.g / gameSettings.g;
+        savedData.a = savedData.a + gameSettings.c.toString(gameSettings.g);
+        gameSettings.c = 0;
+        savedData.c = savedData.c + "0";
+      }
+      if (utils > gameSettings.g * 20 || utils < gameSettings.g / 9 * 100 || utils === undefined) {
+        if (utils > gameSettings.g * 20 && utils < gameSettings.g * 30) {
+          gameSettings.d = utils - gameSettings.g * 20;
+          if (gameSettings.d.toString(gameSettings.g) === "N") {
+            savedData.a = savedData.a + "0";
+          } else {
+            savedData.a = savedData.a + gameSettings.d.toString(gameSettings.g);
+          }
+          gameSettings.d = 0;
+          savedData.c = savedData.c + "1";
+        } else {
+          gameSettings.d = utils;
+          if (utils === undefined) {
+            gameSettings.d = 0;
+          }
+          savedData.a = savedData.a + "0";
+          savedData.c = savedData.c + "0";
+        }
+      } else {
+        gameSettings.d = utils - gameSettings.g / 9 * 100 + gameSettings.g / gameSettings.g;
+        if (gameSettings.d.toString(gameSettings.g) === "N") {
+          savedData.a = savedData.a + "0";
+        } else {
+          savedData.a = savedData.a + gameSettings.d.toString(gameSettings.g);
+        }
+        gameSettings.d = 0;
+        savedData.c = savedData.c + "0";
+      }
+      if (hexByte > gameSettings.g * 20 || hexByte < gameSettings.g / 9 * 100 || hexByte === undefined) {
+        if (hexByte > gameSettings.g * 20 && hexByte < gameSettings.g * 30) {
+          savedData.b = gameSettings.g / gameSettings.g;
+          if (hexByte <= gameSettings.g * 20 + (gameSettings.g - 1)) {
+            gameSettings.e = hexByte - gameSettings.g * 20;
+          } else if (hexByte <= gameSettings.g * 20 + (gameSettings.g - 1) * 2) {
+            savedData.b = savedData.b * 2;
+            gameSettings.e = hexByte - gameSettings.g * 20 - (gameSettings.g - 1);
+          } else if (hexByte <= gameSettings.g * 20 + (gameSettings.g - 1) * 3) {
+            gameSettings.e = hexByte - gameSettings.g * 20 - (gameSettings.g - 1) * 2;
+          } else if (hexByte <= gameSettings.g * 20 + (gameSettings.g - 1) * 4) {
+            savedData.b = savedData.b * 2;
+            gameSettings.e = hexByte - gameSettings.g * 20 - (gameSettings.g - 1) * 3;
+          } else {
+            gameSettings.e = 0;
+          }
+          if (gameSettings.e >= gameSettings.g) {
+            savedData.b = 2;
+            gameSettings.e = gameSettings.e - (gameSettings.g - 1);
+          }
+          savedData.a = savedData.a + gameSettings.e.toString(gameSettings.g);
+          gameSettings.e = 0;
+          savedData.c = savedData.c + "1";
+        } else {
+          gameSettings.e = hexByte;
+          if (hexByte === undefined) {
+            gameSettings.e = 0;
+          }
+          savedData.a = savedData.a + "0";
+          savedData.c = savedData.c + "0";
+          savedData.b = 0;
+        }
+      } else {
+        savedData.b = gameSettings.g / gameSettings.g;
+        if (hexByte - gameSettings.g / 9 * 100 + 1 >= gameSettings.g) {
+          gameSettings.e = hexByte - (gameSettings.g / 9 * 100 + (gameSettings.g - 1));
+          savedData.b = savedData.b * 2;
+        } else {
+          gameSettings.e = hexByte - gameSettings.g / 9 * 100 + savedData.b;
+        }
+        savedData.a = savedData.a + gameSettings.e.toString(gameSettings.g);
+        gameSettings.e = 0;
+        savedData.c = savedData.c + "0";
+      }
+      if (savedData.a == "000000") {
+        gameSettings.f = savedGame.substr(0, 22).padEnd(22);
+      } else {
+        let key = parseInt(savedData.c, 2);
+        if (hexByte > 790 && hexByte <= 860) {
+          key += 16;
+        }
+        if (savedData.b <= 1) {
+          savedData.a = savedData.a.substr(0, 5) + "|" + savedData.a.substr(5, 1);
+        } else {
+          savedData.a = savedData.a.substr(0, 4) + "|" + savedData.a.substr(4, 2);
+        }
+        if (savedGame == "") {
+          savedGame = ".                       .";
+        }
+        if (savedData.c == "0000") {
+          if (savedGame.substr(23, 1) == ".") {
+            savedGame = savedGame.substr(0, 23).padEnd(23) + " " + savedGame.substr(24, 1).padEnd(1);
+          }
+          gameSettings.f = (savedGame.length >= 32 ? savedGame.substr(0, 25) : savedGame.substr(0, 25).padEnd(25)) + savedData.a;
+        } else {
+          gameSettings.f = (savedGame.length >= 32 ? savedGame.substr(0, 23) : savedGame.substr(0, 23).padEnd(23)) + "." + key.toString(gameSettings.g) + savedData.a;
+        }
+        gameSettings.f = gameSettings.f.replaceAll(" ", "_");
+      }
+    };
+    let createJoystick = function (app) {
+      let config;
+      try {
+        gameSettings.joystick ||= hexByte.joystick;
+        if (detectMobileDevice() && app && gameSettings.joystick.checked) {
+          (config = nipplejs.create(gameSettings.joystick)).on("move", function (app, config) {
+            hexByte.eie.fo = config.angle.radian <= Math.PI ? config.angle.radian * -1 : Math.PI - (config.angle.radian - Math.PI);
+          });
+        }
+        return config;
+      } catch (decoder) {
+        console.error(decoder);
+      }
+    };
+    let parsePlayerData = function (app) {
+      let config = {
+        a: 0,
+        b: 0,
+        c: 0,
+        d: 0,
+        e: 0,
+        f: "",
+        g: 0,
+        h: "",
+        i: ""
+      };
+      let decoder = 0;
+      config.h = app.substr(-9);
+      if (config.h.substr(0, 1) != ".") {
+        config.i = "0000";
+      } else if ((decoder = parseInt(config.h.substr(1, 1), gameSettings.g)) > 15) {
+        decoder -= 16;
+        config.i = decoder.toString(2).padStart(4, 0);
+      } else {
+        config.i = decoder.toString(2).padStart(4, 0);
+        decoder = 0;
+      }
+      config.f = app.substr(-7);
+      if (config.f.substr(0, 2) != "00") {
+        config.a = parseInt(config.f.substr(0, 2), gameSettings.g);
+        config.a = (config.a - 1) * (gameSettings.g / 9) + gameSettings.g * 10 - (gameSettings.g - 4);
+      }
+      if (config.f.substr(5, 1) == "|") {
+        if (config.f.substr(6, 1) != "0") {
+          config.e = parseInt(config.f.substr(6, 1), gameSettings.g);
+          if (config.i.substr(3, 1) != "0") {
+            if (decoder > 0) {
+              config.e = config.e + gameSettings.g * 20 + (gameSettings.g - 1) * 2;
+            } else {
+              config.e = config.e + gameSettings.g * 20;
+            }
+          } else {
+            config.e = config.e - 1 + gameSettings.g / 9 * 100;
+          }
+        }
+      } else {
+        config.e = parseInt(config.f.substr(6, 1), gameSettings.g);
+        if (config.i.substr(3, 1) != "0") {
+          if (decoder > 0) {
+            config.e = config.e + gameSettings.g * 20 + (gameSettings.g - 1) * 3;
+          } else {
+            config.e = config.e + gameSettings.g * 20 + (gameSettings.g - 1);
+          }
+        } else {
+          config.e = config.e + (gameSettings.g / 9 * 100 + (gameSettings.g - 1));
+        }
+      }
+      config.f = config.f.replace("|", "");
+      if (config.f.substr(2, 1) != "0") {
+        config.b = parseInt(config.f.substr(2, 1), gameSettings.g);
+        if (config.i.substr(0, 1) != "0") {
+          config.b = config.b + gameSettings.g * 20;
+        } else {
+          config.b = config.b - 1 + gameSettings.g / 9 * 100;
+        }
+      }
+      if (config.f.substr(3, 1) != "0") {
+        config.c = parseInt(config.f.substr(3, 1), gameSettings.g);
+        if (config.i.substr(1, 1) != "0") {
+          config.c = config.c + gameSettings.g * 20;
+        } else {
+          config.c = config.c - 1 + gameSettings.g / 9 * 100;
+        }
+      }
+      if (config.f.substr(4, 1) != "0") {
+        config.d = parseInt(config.f.substr(4, 1), gameSettings.g);
+        if (config.i.substr(2, 1) != "0") {
+          config.d = config.d + gameSettings.g * 20;
+        } else {
+          config.d = config.d - 1 + gameSettings.g / 9 * 100;
+        }
+      }
+      return config;
+    };
+    let validateParameter = function (app) {
+      return !(app > gameSettings.g * 30) && !(app < gameSettings.g / 9 * 100) || app == 0;
+    };
+    let validatePlayerNameFormat = function (app) {
+      return /^(.{25})(\w{5}\|\w{1})$/.test(app) || /^(.{25})(\w{4}\|\w{2})$/.test(app);
+    };
+    let extractRealName = function (app) {
+      app = app.replaceAll("_", " ");
+      if (/^(.{25})(\w{7})$/.test(app)) {
+        for (app = app.substr(0, 15).trim(); app.substr(app.length - 1, 1) == ".";) {
+          app = app.substr(0, app.length - 1);
+        }
+        return app;
+      }
+      if (/^(.{25})(\w{5}\|\w{1})$/.test(app) || /^(.{25})(\w{4}\|\w{2})$/.test(app)) {
+        if (app.substr(-9).substr(0, 1) != ".") {
+          return app.substr(0, 25).trim();
+        } else {
+          return app.substr(0, 23).trim();
+        }
+      } else {
+        return app;
+      }
+    };
+    gameSettings.loading = true;
+    var savedOco = localStorage.getItem("oco");
+    localStorage.setItem("ccg_0", "Kill and Headshot stats will be removed?");
+    localStorage.setItem("ccg_1", "There was a problem connecting!");
+    localStorage.setItem("ccg_2", "Your account has been locked.");
+    var savedSw = localStorage.getItem("tmwsw");
+    var savedImages = localStorage.getItem("tmwi") != null ? localStorage.getItem("tmwi").split(",") : localStorage.getItem("tmwi");
+    var savedImageVersion = localStorage.getItem("tmwit");
+    var customWear = localStorage.getItem("custom_wear");
+    var customSkin = localStorage.getItem("custom_skin");
+    $("<input type=\"hidden\" id=\"port_id\" value=\"\">").insertAfter(".description-text");
+    $("<input type=\"hidden\" id=\"port_id_s\" value=\"\">").insertAfter(".description-text");
+    $("<input type=\"hidden\" id=\"port_name\" value=\"\">").insertAfter(".description-text");
+    $("<input type=\"hidden\" id=\"port_name_s\" value=\"\">").insertAfter(".description-text");
+    $("#mm-action-buttons").hover(function () {
+      $("#port_id").val("");
+      $("#port_name").val("");
+    });
+    var mapSprite = null;
+    var _0x4d0ax21 = null;
+    var _0x4d0ax22 = false;
+    var _0x4d0ax23 = 55;
+    var _0x4d0ax24 = 1;
+    var _0x4d0ax25 = true;
+    if (savedImages && savedImageVersion && savedImageVersion == gameSettings.v_z) {
+      ;
+    } else {
+      fetch(gameSettings.s_l + "/store", {
+        headers: {
+          "Content-Type": "application/json"
+        },
+        method: "POST",
+        body: JSON.stringify({
+          img: "i2"
+        })
+      }).then(async function (app) {
+        savedImages = (app = await app.json()).i.split(".");
+        localStorage.setItem("tmwi", savedImages);
+        localStorage.setItem("tmwit", app.vs);
+        gameSettings.v_z = app.vs;
+        localStorage.setItem("tmwSaveGame", JSON.stringify(gameSettings));
+        window.location.reload();
+      }).catch(function (app) {});
+    }
+    ;
+    var _0x4d0ax27 = PIXI.Texture.from(atob(savedImages[0]));
+    var _0x4d0ax28 = PIXI.Texture.from(atob(savedImages[1]));
+    var _0x4d0ax29 = PIXI.Texture.from(atob(savedImages[2]));
+    var _0x4d0ax2a = PIXI.Texture.from(atob(savedImages[3]));
+    var _0x4d0ax2b = PIXI.Texture.from(atob(savedImages[4]));
+    var _0x4d0ax2c = PIXI.Texture.from(atob(savedImages[5]));
+    var _0x4d0ax2d = PIXI.Texture.from(atob(savedImages[6]));
+    var _0x4d0ax2e = PIXI.Texture.from(atob(savedImages[7]));
+    var _0x4d0ax2f = new PIXI.Sprite(_0x4d0ax27);
+    _0x4d0ax2f.buttonMode = true;
+    _0x4d0ax2f.anchor.set(0.5);
+    _0x4d0ax2f.x = -65;
+    _0x4d0ax2f.y = 25;
+    _0x4d0ax2f.interactive = true;
+    _0x4d0ax2f.buttonMode = true;
+    var _0x4d0ax30 = new PIXI.Sprite(_0x4d0ax29);
+    _0x4d0ax30.buttonMode = true;
+    _0x4d0ax30.anchor.set(0.5);
+    _0x4d0ax30.x = -33;
+    _0x4d0ax30.y = 25;
+    _0x4d0ax30.interactive = true;
+    _0x4d0ax30.buttonMode = true;
+    var _0x4d0ax31 = new PIXI.Sprite(_0x4d0ax2b);
+    _0x4d0ax31.buttonMode = true;
+    _0x4d0ax31.anchor.set(0.5);
+    _0x4d0ax31.x = -1;
+    _0x4d0ax31.y = 25;
+    _0x4d0ax31.interactive = true;
+    _0x4d0ax31.buttonMode = true;
+    var _0x4d0ax32 = new PIXI.Sprite(_0x4d0ax2e);
+    _0x4d0ax32.buttonMode = true;
+    _0x4d0ax32.anchor.set(0.5);
+    _0x4d0ax32.x = -1;
+    _0x4d0ax32.y = 25;
+    _0x4d0ax32.interactive = true;
+    _0x4d0ax32.buttonMode = true;
+    var _0x4d0ax33 = new PIXI.Sprite(_0x4d0ax2d);
+    _0x4d0ax33.buttonMode = true;
+    _0x4d0ax33.anchor.set(0.5);
+    _0x4d0ax33.x = -33;
+    _0x4d0ax33.y = 25;
+    _0x4d0ax33.interactive = true;
+    _0x4d0ax33.buttonMode = true;
+    _0x4d0ax30.alpha = 0.25;
+    _0x4d0ax2f.alpha = 0.25;
+    _0x4d0ax31.alpha = 0.25;
+    _0x4d0ax33.alpha = 0.25;
+    _0x4d0ax32.alpha = 0.25;
+    var mapText = new PIXI.Text("Map: ?", {
+      fontFamily: "PTSans",
+      fill: "#fff009",
+      fontSize: 12
+    });
+    mapText.anchor.x = 0.5;
+    mapText.position.x = 110;
+    var gameContainer = document.getElementById("game-cont");
+    var gameView = document.getElementById("game-view");
+    var gameModeParams = $("#mm-params-game-mode");
+    app.d.getElementById("game-wrap").style.display = "block";
+    (function (app, config, utils) {
+      function hexByte(app, config) {
+        return _typeof(app) === config;
+      }
+      function gameSettings() {
+        if (_typeof(config.createElement) != "function") {
+          return config.createElement(arguments[0]);
+        } else if (updateJoystickPosition) {
+          return config.createElementNS.call(config, "http://www.w3.org/2000/svg", arguments[0]);
+        } else {
+          return config.createElement.apply(config, arguments);
+        }
+      }
+      var savedGame = [];
+      var savedData = [];
+      var key = {
+        _version: "3.3.1",
+        _config: {
+          classPrefix: "",
+          enableClasses: true,
+          enableJSClass: true,
+          usePrefixes: true
+        },
+        _q: [],
+        on: function (app, config) {
+          var decoder = this;
+          setTimeout(function () {
+            config(decoder[app]);
+          }, 0);
+        },
+        addTest: function (app, config, decoder) {
+          savedData.push({
+            name: app,
+            fn: config,
+            options: decoder
+          });
+        },
+        addAsyncTest: function (app) {
+          savedData.push({
+            name: null,
+            fn: app
+          });
+        }
+      };
+      function detectMobileDevice() {}
+      detectMobileDevice.prototype = key;
+      detectMobileDevice = new detectMobileDevice();
+      var updateJoystickEnabled = false;
+      try {
+        updateJoystickEnabled = "WebSocket" in app && app.WebSocket.CLOSING === 2;
+      } catch (updateJoystickColor) {}
+      ;
+      detectMobileDevice.addTest("websockets", updateJoystickEnabled);
+      var updateJoystickMode = config.documentElement;
+      var updateJoystickPosition = updateJoystickMode.nodeName.toLowerCase() === "svg";
+      detectMobileDevice.addTest("canvas", function () {
+        var app = gameSettings("canvas");
+        return !!app.getContext && !!app.getContext("2d");
+      });
+      detectMobileDevice.addTest("canvastext", function () {
+        return detectMobileDevice.canvas !== false && _typeof(gameSettings("canvas").getContext("2d").fillText) == "function";
+      });
+      (function () {
+        var app;
+        var config;
+        var utils;
+        var gameSettings;
+        var key;
+        var updateJoystickEnabled;
+        var updateJoystickColor;
+        for (var updateJoystickMode in savedData) {
+          if (savedData.hasOwnProperty(updateJoystickMode)) {
+            app = [];
+            if ((config = savedData[updateJoystickMode]).name && (app.push(config.name.toLowerCase()), config.options && config.options.aliases && config.options.aliases.length)) {
+              for (utils = 0; utils < config.options.aliases.length; utils++) {
+                app.push(config.options.aliases[utils].toLowerCase());
+              }
+            }
+            ;
+            gameSettings = hexByte(config.fn, "function") ? config.fn() : config.fn;
+            key = 0;
+            for (; key < app.length; key++) {
+              if ((updateJoystickColor = (updateJoystickEnabled = app[key]).split(".")).length === 1) {
+                detectMobileDevice[updateJoystickColor[0]] = gameSettings;
+              } else {
+                if (!!detectMobileDevice[updateJoystickColor[0]] && !(detectMobileDevice[updateJoystickColor[0]] instanceof Boolean)) {
+                  detectMobileDevice[updateJoystickColor[0]] = new Boolean(detectMobileDevice[updateJoystickColor[0]]);
+                }
+                detectMobileDevice[updateJoystickColor[0]][updateJoystickColor[1]] = gameSettings;
+              }
+              savedGame.push((gameSettings ? "" : "no-") + updateJoystickColor.join("-"));
+            }
+          }
+        }
+      })();
+      (function (app) {
+        var config = updateJoystickMode.className;
+        var utils = detectMobileDevice._config.classPrefix || "";
+        if (updateJoystickPosition) {
+          config = config.baseVal;
+        }
+        if (detectMobileDevice._config.enableJSClass) {
+          var hexByte = RegExp("(^|\\s)" + utils + "no-js(\\s|$)");
+          config = config.replace(hexByte, "$1" + utils + "js$2");
+        }
+        ;
+        if (detectMobileDevice._config.enableClasses) {
+          config += " " + utils + app.join(" " + utils);
+          if (updateJoystickPosition) {
+            updateJoystickMode.className.baseVal = config;
+          } else {
+            updateJoystickMode.className = config;
+          }
+        }
+      })(savedGame);
+      delete key.addTest;
+      delete key.addAsyncTest;
+      for (var updateJoystickCoordinates = 0; updateJoystickCoordinates < detectMobileDevice._q.length; updateJoystickCoordinates++) {
+        detectMobileDevice._q[updateJoystickCoordinates]();
+      }
+      ;
+      app.Modernizr = detectMobileDevice;
+    })(window, document);
+    if (!Modernizr.websockets || !Modernizr.canvas || !Modernizr.canvastext) {
+      app.d.getElementById("error-view").style.display = "block";
+      return;
+    }
+    ;
+    utils.f = {
+      g: function (app, config, utils) {
+        app.stop();
+        app.fadeIn(config, utils);
+      },
+      h: function (app, config, utils) {
+        app.stop();
+        app.fadeOut(config, utils);
+      }
+    };
+    utils.i = decoder.b("WebSocket");
+    utils.j = decoder.b("Float32Array");
+    pixiBlendModes = (pixiLib = decoder.b("PIXI")).BLEND_MODES;
+    pixiWrapModes = pixiLib.WRAP_MODES;
+    utils.k = {
+      l: pixiLib.Container,
+      m: pixiLib.BaseTexture,
+      n: pixiLib.Texture,
+      o: pixiLib.Renderer,
+      p: pixiLib.Graphics,
+      q: pixiLib.Shader,
+      r: pixiLib.Rectangle,
+      s: pixiLib.Sprite,
+      t: pixiLib.Text,
+      u: pixiLib.Geometry,
+      v: pixiLib.Mesh,
+      w: {
+        z: pixiBlendModes.ADD,
+        A: pixiBlendModes.SCREEN,
+        B: pixiBlendModes.MULTIPLY
+      },
+      C: {
+        D: pixiWrapModes.REPEAT
+      },
+      F: {
+        G: function (app) {
+          var config = app.parent;
+          if (config != null) {
+            config.removeChild(app);
+          }
+        }
+      }
+    };
+    config.H = {
+      I: app.c.runtimeHash,
+      J: "https://gateway.wormate.io",
+      K: "https://resources.wormate.io",
+      L: "/images/linelogo-valday2024.png",
+      M: "/images/guest-avatar-valday2024.png",
+      N: "/images/confetti-valday2024.png",
+      O: "/images/bg-event-pattern-valday2025.png"
+    };
+    config.H.P = ((browserLang = app.c.I18N_LANG) || (browserLang = "en"), browserLang);
+    config.H.Q = function () {
+      var app;
+      switch (config.H.P) {
+        case "uk":
+          app = "uk_UA";
+          break;
+        case "de":
+          app = "de_DE";
+          break;
+        case "fr":
+          app = "fr_FR";
+          break;
+        case "es":
+          app = "es_ES";
+          break;
+        default:
+          app = "en_US";
+      }
+      ;
+      return app;
+    }();
+    moment.locale(config.H.Q);
+    ooo = null;
+    config.S = 6.283185307179586;
+    config.T = 3.141592653589793;
+    i18nMessages = app.c.I18N_MESSAGES;
+    decoder.U = function (app) {
+      return i18nMessages[app];
+    };
+    decoder.V = function (app) {
+      if (app[config.H.P]) {
+        return app[config.H.P];
+      } else if (app.en) {
+        return app.en;
+      } else {
+        return app.x;
+      }
+    };
+    decoder.W = function (app) {
+      return encodeURI(app);
+    };
+    decoder.X = function (app, config) {
+      return setInterval(app, config);
+    };
+    decoder.Y = function (app, config) {
+      return setTimeout(app, config);
+    };
+    decoder.Z = function (app) {
+      clearTimeout(app);
+    };
+    decoder.$ = function (app) {
+      var config = (decoder._(app) % 60).toString();
+      var utils = (decoder._(app / 60) % 60).toString();
+      var hexByte = (decoder._(app / 3600) % 24).toString();
+      var gameSettings = decoder._(app / 86400).toString();
+      var savedGame = decoder.U("util.time.days");
+      var savedData = decoder.U("util.time.hours");
+      var key = decoder.U("util.time.min");
+      var detectMobileDevice = decoder.U("util.time.sec");
+      if (gameSettings > 0) {
+        return gameSettings + " " + savedGame + " " + hexByte + " " + savedData + " " + utils + " " + key + " " + config + " " + detectMobileDevice;
+      } else if (hexByte > 0) {
+        return hexByte + " " + savedData + " " + utils + " " + key + " " + config + " " + detectMobileDevice;
+      } else if (utils > 0) {
+        return utils + " " + key + " " + config + " " + detectMobileDevice;
+      } else {
+        return config + " " + detectMobileDevice;
+      }
+    };
+    decoder.aa = function (app) {
+      if (app.includes("href")) {
+        return app.replaceAll("href", "target=\"_black\" href");
+      } else {
+        return app;
+      }
+    };
+    decoder.ba = function (config, utils, hexByte) {
+      var gameSettings = app.d.createElement("script");
+      var savedGame = true;
+      if (_typeof(utils) !== "undefined" && utils !== null) {
+        if (_typeof(utils.id) !== "undefined") {
+          gameSettings.id = utils.id;
+        }
+        if (_typeof(utils.async) !== "undefined" && utils.async) {
+          gameSettings.async = "async";
+        }
+        if (_typeof(utils.defer) !== "undefined" && utils.defer) {
+          gameSettings.defer = "defer";
+        }
+        if (_typeof(utils.crossorigin) !== "undefined") {
+          gameSettings.crossorigin = utils.crossorigin;
+        }
+      }
+      gameSettings.type = "text/javascript";
+      gameSettings.src = config;
+      if (hexByte) {
+        gameSettings.onload = gameSettings.onreadystatechange = function () {
+          savedGame = false;
+          try {
+            hexByte();
+          } catch (app) {}
+          ;
+          gameSettings.onload = gameSettings.onreadystatechange = null;
+        };
+      }
+      (app.d.head || app.d.getElementsByTagName("head")[0]).appendChild(gameSettings);
+    };
+    decoder.ca = function (app, config) {
+      var decoder = config;
+      decoder.prototype = Object.create(app.prototype);
+      decoder.prototype.constructor = decoder;
+      decoder.parent = app;
+      return decoder;
+    };
+    decoder.da = function (app) {
+      if ((app %= config.S) < 0) {
+        return app + config.S;
+      } else {
+        return app;
+      }
+    };
+    decoder.ea = function (app, config, utils) {
+      return decoder.fa(utils, app, config);
+    };
+    decoder.fa = function (app, config, decoder) {
+      if (app > decoder) {
+        return decoder;
+      } else if (app < config) {
+        return config;
+      } else if (Number.isFinite(app)) {
+        return app;
+      } else {
+        return (config + decoder) * 0.5;
+      }
+    };
+    decoder.ga = function (app, config, utils, hexByte) {
+      if (config > app) {
+        return decoder.ha(config, app + utils * hexByte);
+      } else {
+        return decoder.ia(config, app - utils * hexByte);
+      }
+    };
+    decoder.ja = function (app, config, decoder, utils, hexByte) {
+      return config + (app - config) * Math.pow(1 - utils, decoder / hexByte);
+    };
+    decoder.ka = function (app, config, decoder) {
+      return app - (app - config) * decoder;
+    };
+    decoder.la = function (app, config) {
+      return Math.sqrt(app * app + config * config);
+    };
+    decoder.ma = function () {
+      return Math.random();
+    };
+    decoder._ = function (app) {
+      return Math.floor(app);
+    };
+    decoder.na = function (app) {
+      return Math.abs(app);
+    };
+    decoder.ha = function (app, config) {
+      return Math.min(app, config);
+    };
+    decoder.ia = function (app, config) {
+      return Math.max(app, config);
+    };
+    decoder.oa = function (app) {
+      return Math.sin(app);
+    };
+    decoder.pa = function (app) {
+      return Math.cos(app);
+    };
+    decoder.qa = function (app) {
+      return Math.sqrt(app);
+    };
+    decoder.ra = function (app, config) {
+      return Math.pow(app, config);
+    };
+    decoder.sa = function (app) {
+      return Math.atan(app);
+    };
+    decoder.ta = function (app, config) {
+      return Math.atan2(app, config);
+    };
+    decoder.ua = function (app, config, decoder, utils) {
+      var hexByte = config + utils;
+      if (app == null) {
+        throw TypeError();
+      }
+      ;
+      var gameSettings = app.length >>> 0;
+      var savedGame = decoder >> 0;
+      var savedData = savedGame < 0 ? Math.max(gameSettings + savedGame, 0) : Math.min(savedGame, gameSettings);
+      var key = config >> 0;
+      var detectMobileDevice = key < 0 ? Math.max(gameSettings + key, 0) : Math.min(key, gameSettings);
+      var updateJoystickEnabled = hexByte === undefined ? gameSettings : hexByte >> 0;
+      var updateJoystickColor = Math.min((updateJoystickEnabled < 0 ? Math.max(gameSettings + updateJoystickEnabled, 0) : Math.min(updateJoystickEnabled, gameSettings)) - detectMobileDevice, gameSettings - savedData);
+      var updateJoystickMode = 1;
+      for (detectMobileDevice < savedData && savedData < detectMobileDevice + updateJoystickColor && (updateJoystickMode = -1, detectMobileDevice += updateJoystickColor - 1, savedData += updateJoystickColor - 1); updateJoystickColor > 0;) {
+        if (detectMobileDevice in app) {
+          app[savedData] = app[detectMobileDevice];
+        } else {
+          delete app[savedData];
+        }
+        detectMobileDevice += updateJoystickMode;
+        savedData += updateJoystickMode;
+        updateJoystickColor--;
+      }
+      ;
+      return app;
+    };
+    decoder.va = function (app, config) {
+      return app + (config - app) * decoder.ma();
+    };
+    decoder.wa = function (app) {
+      return app[parseInt(decoder.ma() * app.length)];
+    };
+    charCodes = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"].map(function (app) {
+      return app.charCodeAt(0);
+    });
+    decoder.xa = function (app) {
+      if (_typeof(app) == "undefined") {
+        app = 16;
+      }
+      var config = "";
+      for (var utils = 0; utils < app; utils++) {
+        config += String.fromCharCode(charCodes[decoder._(decoder.ma() * charCodes.length)]);
+      }
+      ;
+      return config;
+    };
+    decoder.ya = function (app, config, utils) {
+      var hexByte = utils * (1 - config * 0.5);
+      var gameSettings = Math.min(hexByte, 1 - hexByte);
+      return decoder.za(app, gameSettings ? (utils - hexByte) / gameSettings : 0, hexByte);
+    };
+    decoder.za = function (app, config, utils) {
+      var hexByte = (1 - decoder.na(utils * 2 - 1)) * config;
+      var gameSettings = hexByte * (1 - decoder.na(app / 60 % 2 - 1));
+      var savedGame = utils - hexByte / 2;
+      if (app >= 0 && app < 60) {
+        return [savedGame + hexByte, savedGame + gameSettings, savedGame];
+      } else if (app >= 60 && app < 120) {
+        return [savedGame + gameSettings, savedGame + hexByte, savedGame];
+      } else if (app >= 120 && app < 180) {
+        return [savedGame, savedGame + hexByte, savedGame + gameSettings];
+      } else if (app >= 180 && app < 240) {
+        return [savedGame, savedGame + gameSettings, savedGame + hexByte];
+      } else if (app >= 240 && app < 300) {
+        return [savedGame + gameSettings, savedGame, savedGame + hexByte];
+      } else {
+        return [savedGame + hexByte, savedGame, savedGame + gameSettings];
+      }
+    };
+    decoder.Aa = function (app, config, utils) {
+      $.get(app).fail(config).done(utils);
+    };
+    decoder.Ba = function (app, config, utils, hexByte) {
+      var gameSettings = {
+        type: "GET",
+        url: app
+      };
+      var savedGame = {
+        responseType: "arraybuffer"
+      };
+      savedGame.onprogress = function (app) {
+        if (app.lengthComputable) {
+          hexByte(app.loaded / app.total * 100);
+        }
+      };
+      gameSettings.xhrFields = savedGame;
+      $.ajax(gameSettings).fail(config).done(utils);
+    };
+    decoder.Ca = function () {
+      return Date.now();
+    };
+    decoder.Da = function (app, config) {
+      for (var decoder in app) {
+        if (app.hasOwnProperty(decoder)) {
+          config(decoder, app[decoder]);
+        }
+      }
+    };
+    decoder.Ea = function (app) {
+      for (var config = app.length - 1; config > 0; config--) {
+        var utils = decoder._(decoder.ma() * (config + 1));
+        var hexByte = app[config];
+        app[config] = app[utils];
+        app[utils] = hexByte;
+      }
+      ;
+      return app;
+    };
+    app.Fa = decoder.b("ArrayBuffer");
+    app.Ga = decoder.b("DataView");
+    app.Ha = function () {
+      function app(app) {
+        this.Ia = app;
+        this.Ja = 0;
+      }
+      var config = "getInt8";
+      app.prototype.Ka = function () {
+        var app = this.Ia[config](this.Ja);
+        this.Ja += 1;
+        return app;
+      };
+      var utils = "getInt16";
+      app.prototype.La = function () {
+        var app = this.Ia[utils](this.Ja);
+        this.Ja += 2;
+        return app;
+      };
+      var hexByte = "getInt32";
+      app.prototype.Ma = function () {
+        var app = this.Ia[hexByte](this.Ja);
+        this.Ja += 4;
+        return app;
+      };
+      var gameSettings = "getFloat32";
+      app.prototype.Na = function () {
+        var app = this.Ia[gameSettings](this.Ja);
+        this.Ja += 4;
+        return app;
+      };
+      return app;
+    }();
+    app.Oa = function () {
+      function app(app) {
+        this.Ia = app;
+        this.Ja = 0;
+      }
+      var config = "setInt8";
+      app.prototype.Pa = function (app) {
+        this.Ia[config](this.Ja, app);
+        this.Ja += 1;
+      };
+      var utils = "setInt16";
+      app.prototype.Qa = function (app) {
+        this.Ia[utils](this.Ja, app);
+        this.Ja += 2;
+      };
+      return app;
+    }();
+    decoder.Ra = function () {
+      var gameSettings = false;
+      function savedGame() {}
+      var savedData = {};
+      var key = "1eaom01c3pxu9wd3";
+      var detectMobileDevice = $("#" + key);
+      var updateJoystickEnabled = "JDHnkHtYwyXyVgG9";
+      var updateJoystickColor = $("#" + updateJoystickEnabled);
+      $("#adbl-continue").click(function () {
+        updateJoystickColor.fadeOut(500);
+        savedGame(false);
+      });
+      savedData.Sa = function (hexByte) {
+        savedGame = hexByte;
+        if (!gameSettings) {
+          try {
+            aiptag.cmd.player.push(function () {
+              var hexByte = {
+                AD_WIDTH: 960,
+                AD_HEIGHT: 540,
+                AD_FULLSCREEN: true,
+                AD_CENTERPLAYER: false
+              };
+              hexByte.LOADING_TEXT = "loading advertisement";
+              hexByte.PREROLL_ELEM = function () {
+                return app.d.getElementById(key);
+              };
+              hexByte.AIP_COMPLETE = function (app) {
+                savedGame(true);
+                utils.f.h(detectMobileDevice, 1);
+                utils.f.h(updateJoystickColor, 1);
+                try {
+                  ga("send", "event", "preroll", config.H.I + "_complete");
+                } catch (hexByte) {}
+              };
+              hexByte.AIP_REMOVE = function () {};
+              aiptag.adplayer = new aipPlayer(hexByte);
+            });
+            gameSettings = true;
+          } catch (savedData) {}
+        }
+      };
+      savedData.Ta = function () {
+        if (_typeof(aiptag.adplayer) !== "undefined") {
+          try {
+            ga("send", "event", "preroll", config.H.I + "_request");
+          } catch (app) {}
+          ;
+          utils.f.g(detectMobileDevice, 1);
+          if (!hexByte.on) {
+            aiptag.cmd.player.push(function () {
+              aiptag.adplayer.startPreRoll();
+            });
+          }
+        } else {
+          try {
+            ga("send", "event", "antiadblocker", config.H.I + "_start");
+          } catch (gameSettings) {}
+          ;
+          (function app() {
+            $("#adbl-1").text(decoder.U("index.game.antiadblocker.msg1"));
+            $("#adbl-2").text(decoder.U("index.game.antiadblocker.msg2"));
+            $("#adbl-3").text(decoder.U("index.game.antiadblocker.msg3"));
+            $("#adbl-4").text(decoder.U("index.game.antiadblocker.msg4").replace("{0}", 10));
+            $("#adbl-continue span").text(decoder.U("index.game.antiadblocker.continue"));
+            utils.f.h($("#adbl-continue"), 1);
+            utils.f.g(updateJoystickColor, 500);
+            var hexByte = 10;
+            for (var gameSettings = 0; gameSettings < 10; gameSettings++) {
+              decoder.Y(function () {
+                hexByte--;
+                $("#adbl-4").text(decoder.U("index.game.antiadblocker.msg4").replace("{0}", hexByte));
+                if (hexByte === 0) {
+                  try {
+                    ga("send", "event", "antiadblocker", config.H.I + "_complete");
+                  } catch (app) {}
+                  ;
+                  utils.f.g($("#adbl-continue"), 200);
+                }
+              }, (gameSettings + 1) * 1000);
+            }
+          })();
+        }
+      };
+      return savedData;
+    };
+    decoder.Ua = function (app, utils) {
+      var gameSettings = $("#" + app);
+      var savedGame = utils;
+      var savedData = {};
+      var key = false;
+      savedData.Sa = function () {
+        if (!key) {
+          gameSettings.empty();
+          gameSettings.append("<div id='" + savedGame + "'></div>");
+          try {
+            try {
+              ga("send", "event", "banner", config.H.I + "_display");
+            } catch (app) {}
+            ;
+            if (!hexByte.on) {
+              aiptag.cmd.display.push(function () {
+                aipDisplayTag.display(savedGame);
+              });
+            }
+            key = true;
+          } catch (utils) {}
+        }
+      };
+      savedData.Va = function () {
+        try {
+          try {
+            ga("send", "event", "banner", config.H.I + "_refresh");
+          } catch (app) {}
+          ;
+          if (!hexByte.on) {
+            aiptag.cmd.display.push(function () {
+              aipDisplayTag.display(savedGame);
+            });
+          }
+        } catch (utils) {}
+      };
+      return savedData;
+    };
+    app.Wa = function () {
+      function app(app, config, decoder, utils, hexByte, gameSettings, savedGame, savedData, key, detectMobileDevice) {
+        this.Xa = app;
+        this.Ya = config;
+        this.Za = null;
+        this.$a = false;
+        this._a = decoder;
+        this.ab = utils;
+        this.bb = hexByte;
+        this.cb = gameSettings;
+        this.db = savedGame || (key || hexByte) / 2;
+        this.eb = savedData || (detectMobileDevice || gameSettings) / 2;
+        this.fb = key || hexByte;
+        this.gb = detectMobileDevice || gameSettings;
+        this.hb = 0.5 - (this.db - this.fb * 0.5) / this.bb;
+        this.ib = 0.5 - (this.eb - this.gb * 0.5) / this.cb;
+        this.jb = this.bb / this.fb;
+        this.kb = this.cb / this.gb;
+      }
+      app.lb = function () {
+        return new app("", null, 0, 0, 0, 0, 0, 0, 0, 0);
+      };
+      app.mb = function (config, utils, hexByte) {
+        return new app(config, utils, hexByte.x, hexByte.y, hexByte.w, hexByte.h, hexByte.px, hexByte.py, hexByte.pw, hexByte.ph);
+      };
+      app.prototype.nb = function () {
+        if (!this.$a) {
+          if (this.Ya != null) {
+            this.Za = new utils.k.n(this.Ya, new utils.k.r(this._a, this.ab, this.bb, this.cb));
+          }
+          this.$a = true;
+        }
+        return this.Za;
+      };
+      app.prototype.ob = function () {
+        if (this.Za != null) {
+          this.Za.destroy();
+        }
+      };
+      return app;
+    }();
+    app.pb = function () {
+      function config(app, config, decoder, utils, hexByte, gameSettings, savedGame, savedData, key, detectMobileDevice, updateJoystickEnabled, updateJoystickColor, updateJoystickMode, updateJoystickPosition, updateJoystickCoordinates, updateJoystickSize, processPlayerData, createJoystick) {
+        this.qb = app;
+        this.rb = config;
+        this.sb = decoder;
+        this.tb = utils;
+        this.ub = hexByte;
+        this.vb = gameSettings;
+        this.wb = savedGame;
+        this.xb = savedData;
+        this.yb = key;
+        this.zb = detectMobileDevice;
+        this.Ab = updateJoystickEnabled;
+        this.Bb = updateJoystickColor;
+        this.Cb = updateJoystickMode;
+        this.Db = updateJoystickPosition;
+        this.Eb = updateJoystickCoordinates;
+        this.Fb = updateJoystickSize;
+        this.Gb = processPlayerData;
+        this.Hb = createJoystick;
+      }
+      config.prototype.ob = function () {
+        for (var app = 0; app < this.qb.length; app++) {
+          this.qb[app].dispose();
+          this.qb[app].destroy();
+        }
+        ;
+        this.qb = [];
+        for (var config = 0; config < this.rb.length; config++) {
+          this.rb[config].ob();
+        }
+        ;
+        this.rb = [];
+      };
+      config.lb = function () {
+        var utils = new config.Ib(app.Kb.Jb, app.Kb.Jb);
+        var hexByte = new config.Lb("#ffffff", [app.Kb.Jb], [app.Kb.Jb]);
+        return new config([], [], {}, utils, {}, new config.Mb(app.Kb.Jb), {}, hexByte, {}, new config.Nb("", hexByte, utils), {}, new config.Ob([app.Kb.Jb]), {}, new config.Ob([app.Kb.Jb]), {}, new config.Ob([app.Kb.Jb]), {}, new config.Ob([app.Kb.Jb]));
+      };
+      config.Pb = function (utils, hexByte, gameSettings, savedGame) {
+        var savedData = new config.Ib(app.Kb.Jb, app.Kb.Jb);
+        var key = new config.Lb("#ffffff", [utils], [hexByte]);
+        return new config([], [], {}, savedData, {}, new config.Mb(app.Kb.Jb), {}, key, {}, new config.Nb("", key, savedData), {}, new config.Ob([gameSettings]), {}, new config.Ob([savedGame]), {}, new config.Ob([app.Kb.Jb]), {}, new config.Ob([app.Kb.Jb]));
+      };
+      config.Qb = function (app, utils, hexByte, gameSettings) {
+        var savedGame = {};
+        decoder.Da(app.colorDict, function (app, config) {
+          savedGame[app] = "#" + config;
+        });
+        var savedData = {};
+        for (var key = 0; key < app.skinArrayDict.length; key++) {
+          var detectMobileDevice = app.skinArrayDict[key];
+          savedData[detectMobileDevice.id] = new config.Lb(savedGame[detectMobileDevice.prime], detectMobileDevice.base.map(function (app) {
+            return utils[app];
+          }), detectMobileDevice.glow.map(function (app) {
+            return utils[app];
+          }));
+        }
+        ;
+        var updateJoystickEnabled;
+        var updateJoystickColor = app.skinUnknown;
+        updateJoystickEnabled = new config.Lb(savedGame[updateJoystickColor.prime], updateJoystickColor.base.map(function (app) {
+          return utils[app];
+        }), updateJoystickColor.glow.map(function (app) {
+          return utils[app];
+        }));
+        var updateJoystickMode = {};
+        decoder.Da(app.eyesDict, function (app, hexByte) {
+          updateJoystickMode[parseInt(app)] = new config.Ob(hexByte.base.map(function (app) {
+            return utils[app.region];
+          }));
+        });
+        var updateJoystickPosition = new config.Ob(app.eyesUnknown.base.map(function (app) {
+          return utils[app.region];
+        }));
+        var updateJoystickCoordinates = {};
+        decoder.Da(app.mouthDict, function (app, hexByte) {
+          updateJoystickCoordinates[parseInt(app)] = new config.Ob(hexByte.base.map(function (app) {
+            return utils[app.region];
+          }));
+        });
+        var updateJoystickSize = new config.Ob(app.mouthUnknown.base.map(function (app) {
+          return utils[app.region];
+        }));
+        var processPlayerData = {};
+        decoder.Da(app.hatDict, function (app, hexByte) {
+          processPlayerData[parseInt(app)] = new config.Ob(hexByte.base.map(function (app) {
+            return utils[app.region];
+          }));
+        });
+        var createJoystick = new config.Ob(app.hatUnknown.base.map(function (app) {
+          return utils[app.region];
+        }));
+        var parsePlayerData = {};
+        decoder.Da(app.glassesDict, function (app, hexByte) {
+          parsePlayerData[parseInt(app)] = new config.Ob(hexByte.base.map(function (app) {
+            return utils[app.region];
+          }));
+        });
+        var validateParameter = new config.Ob(app.glassesUnknown.base.map(function (app) {
+          return utils[app.region];
+        }));
+        var validatePlayerNameFormat = {};
+        decoder.Da(app.portionDict, function (app, hexByte) {
+          validatePlayerNameFormat[app = parseInt(app)] = new config.Ib(utils[hexByte.base], utils[hexByte.glow]);
+        });
+        var extractRealName;
+        var savedOco = app.portionUnknown;
+        extractRealName = new config.Ib(utils[savedOco.base], utils[savedOco.glow]);
+        var savedSw = {};
+        decoder.Da(app.abilityDict, function (app, hexByte) {
+          savedSw[app = parseInt(app)] = new config.Mb(utils[hexByte.base]);
+        });
+        var savedImages;
+        var savedImageVersion = app.abilityUnknown;
+        savedImages = new config.Mb(utils[savedImageVersion.base]);
+        var customWear = {};
+        decoder.Da(app.teamDict, function (app, hexByte) {
+          customWear[app = parseInt(app)] = new config.Nb(hexByte.title, new config.Lb(savedGame[hexByte.skin.prime], null, hexByte.skin.glow.map(function (app) {
+            return utils[app];
+          })), new config.Ib(null, utils[hexByte.portion.glow]));
+        });
+        var customSkin = new config.Nb({}, updateJoystickEnabled, extractRealName);
+        return new config(hexByte, gameSettings, validatePlayerNameFormat, extractRealName, savedSw, savedImages, savedData, updateJoystickEnabled, customWear, customSkin, updateJoystickMode, updateJoystickPosition, updateJoystickCoordinates, updateJoystickSize, processPlayerData, createJoystick, parsePlayerData, validateParameter);
+      };
+      config.prototype.Rb = function (config) {
+        var utils = decoder.Ea(Object.keys(this.wb)).slice(0, config);
+        var hexByte = decoder.Ea(Object.keys(this.Ab)).slice(0, config);
+        var gameSettings = decoder.Ea(Object.keys(this.Cb)).slice(0, config);
+        var savedGame = decoder.Ea(Object.keys(this.Eb)).slice(0, config);
+        var savedData = decoder.Ea(Object.keys(this.Gb)).slice(0, config);
+        var key = [];
+        for (var detectMobileDevice = 0; detectMobileDevice < config; detectMobileDevice++) {
+          var updateJoystickEnabled = utils.length > 0 ? utils[detectMobileDevice % utils.length] : 0;
+          var updateJoystickColor = hexByte.length > 0 ? hexByte[detectMobileDevice % hexByte.length] : 0;
+          var updateJoystickMode = gameSettings.length > 0 ? gameSettings[detectMobileDevice % gameSettings.length] : 0;
+          var updateJoystickPosition = savedGame.length > 0 ? savedGame[detectMobileDevice % savedGame.length] : 0;
+          var updateJoystickCoordinates = savedData.length > 0 ? savedData[detectMobileDevice % savedData.length] : 0;
+          key.push(new app.Sb(updateJoystickEnabled, updateJoystickColor, updateJoystickMode, updateJoystickPosition, updateJoystickCoordinates));
+        }
+        ;
+        return key;
+      };
+      config.prototype.Tb = function (app) {
+        if (this.wb.hasOwnProperty(app)) {
+          return this.wb[app];
+        } else {
+          return this.xb;
+        }
+      };
+      config.prototype.Ub = function (app) {
+        if (this.yb.hasOwnProperty(app)) {
+          return this.yb[app];
+        } else {
+          return this.zb;
+        }
+      };
+      config.prototype.Vb = function (app) {
+        if (this.Ab.hasOwnProperty(app)) {
+          return this.Ab[app];
+        } else {
+          return this.Bb;
+        }
+      };
+      config.prototype.Wb = function (app) {
+        if (this.Cb.hasOwnProperty(app)) {
+          return this.Cb[app];
+        } else {
+          return this.Db;
+        }
+      };
+      config.prototype.Xb = function (app) {
+        if (this.Gb.hasOwnProperty(app)) {
+          return this.Gb[app];
+        } else {
+          return this.Hb;
+        }
+      };
+      config.prototype.Yb = function (app) {
+        if (this.Eb.hasOwnProperty(app)) {
+          return this.Eb[app];
+        } else {
+          return this.Fb;
+        }
+      };
+      config.prototype.Zb = function (app) {
+        if (this.sb.hasOwnProperty(app)) {
+          return this.sb[app];
+        } else {
+          return this.tb;
+        }
+      };
+      config.prototype.$b = function (app) {
+        if (this.ub.hasOwnProperty(app)) {
+          return this.ub[app];
+        } else {
+          return this.vb;
+        }
+      };
+      config.Nb = function app(config, decoder, utils) {
+        this._b = config;
+        this.ac = decoder;
+        this.bc = utils;
+      };
+      config.Lb = function app(config, decoder, utils) {
+        this.cc = config;
+        this.dc = decoder;
+        this.ec = utils;
+      };
+      config.Ob = function app(config) {
+        this.dc = config;
+      };
+      config.Ib = function app(config, decoder) {
+        this.dc = config;
+        this.ec = decoder;
+      };
+      config.Mb = function app(config) {
+        this.dc = config;
+      };
+      return config;
+    }();
+    app.Kb = function () {
+      function config() {
+        var config = utils.k.m.from("/images/wear-ability.png");
+        this.fc = new app.Wa("magnet_ability", config, 158, 86, 67, 124, 148, 63.5, 128, 128);
+        this.gc = new app.Wa("velocity_ability", config, 158, 4, 87, 74, 203, 63.5, 128, 128);
+        this.hc = new app.Wa("flex_ability", config, 4, 4, 146, 146, 63.5, 63.5, 128, 128);
+        var zigzag = utils.k.m.from("https://wormup.in/assets/images/zigzagability.png");
+        this.pwrFlex1 = new app.Wa("flex_ability", zigzag, 158, 4, 87, 74, 203, 63.5, 128, 128);
+        var newTexture = utils.k.m.from("https://i.imgur.com/LFiCido.png");
+        this.pwrFlex = new app.Wa("flex_ability", newTexture, 156, 140, 87, 60, 170, 128.5, 128, 128);
+        var newTexture2 = utils.k.m.from("https://i.imgur.com/LvJ1RxC.png");
+        this.pwrFlex2 = new app.Wa("flex_ability2", newTexture2, 156, 4, 87, 74, 285, 63.5, 128, 128);
+        var hexByte;
+        var gameSettings = utils.k.m.from("/images/def-look.png");
+        var savedGame = new app.Wa("def_eyes", gameSettings, 0, 0, 42, 80, 75, 64, 128, 128);
+        var savedData = new app.Wa("def_mouth", gameSettings, 46, 0, 20, 48, 109, 63, 128, 128);
+        var key = new app.Wa("def_skin_glow", gameSettings, 70, 0, 32, 32, 0, 0, 0, 0);
+        var detectMobileDevice = new app.Wa("def_skin_base", gameSettings, 46, 52, 64, 64, 0, 0, 0, 0);
+        var updateJoystickEnabled = app.pb.Pb(detectMobileDevice, key, savedGame, savedData);
+        this.ic = new app.jc({}, updateJoystickEnabled);
+        this.kc = -10000;
+        this.lc = -10000;
+        this.mc = ((hexByte = app.c.document.createElement("canvas")).width = 80, hexByte.height = 80, {
+          nc: hexByte,
+          oc: hexByte.getContext("2d"),
+          Za: new utils.k.n(utils.k.m.from(hexByte))
+        });
+        this.pc = null;
+        this.qc = [];
+      }
+      config.Jb = app.Wa.lb();
+      config.prototype.Sa = function () {};
+      config.prototype.rc = function (config, utils, hexByte) {
+        var gameSettings = this;
+        var savedGame = this.ic.sc();
+        if (savedGame > 0 && decoder.Ca() - this.kc < 1200000) {
+          if (config != null) {
+            config();
+          }
+          return;
+        }
+        ;
+        if (this.pc != null && !this.pc.tc()) {
+          if (decoder.Ca() - this.kc < 300000) {
+            if (config != null) {
+              config();
+            }
+            return;
+          }
+          ;
+          this.pc.uc();
+          this.pc = null;
+        }
+        ;
+        var savedData = new app.vc(savedGame);
+        savedData.wc(function (app, config) {
+          if (savedData === gameSettings.pc && hexByte != null) {
+            hexByte(app, config);
+          }
+        });
+        savedData.xc(function (app) {
+          if (savedData === gameSettings.pc && utils != null) {
+            utils(app);
+          }
+        });
+        savedData.yc(function () {
+          if (savedData === gameSettings.pc && utils != null) {
+            utils(Error());
+          }
+        });
+        savedData.zc(function () {
+          if (savedData === gameSettings.pc && config != null) {
+            config();
+          }
+        });
+        savedData.Ac(function (app) {
+          if (savedData === gameSettings.pc) {
+            gameSettings.lc = decoder.Ca();
+            gameSettings.pc = null;
+            gameSettings.Bc();
+            gameSettings.ic.Cc().ob();
+            gameSettings.ic = app;
+            if (config != null) {
+              config();
+            }
+            gameSettings.Dc();
+            return;
+          }
+          ;
+          try {
+            app.Cc().ob();
+          } catch (utils) {}
+        });
+        savedData.Ec();
+        this.kc = decoder.Ca();
+        this.pc = savedData;
+      };
+      config.prototype.Bc = function () {};
+      config.prototype.Fc = function () {
+        return this.ic.sc() > 0;
+      };
+      config.prototype.Gc = function () {
+        return this.ic.Hc();
+      };
+      config.prototype.Ic = function () {
+        return this.mc;
+      };
+      config.prototype.Jc = function (app) {
+        this.qc.push(app);
+      };
+      config.prototype.Dc = function () {
+        for (var app = 0; app < this.qc.length; app++) {
+          this.qc[app]();
+        }
+      };
+      config.prototype.Cc = function () {
+        return this.ic.Cc();
+      };
+      return config;
+    }();
+    app.Kc = function () {
+      function app(app) {
+        this.Lc = app;
+      }
+      app.prototype.Mc = function (app) {
+        return this.Lc[app];
+      };
+      app.Nc = function () {
+        function config() {
+          this.Oc = [];
+        }
+        config.prototype.Pc = function (config, decoder) {
+          for (var utils = 0; utils < this.Oc.length; utils++) {
+            if (this.Oc[utils].Qc === config) {
+              throw Error();
+            }
+          }
+          ;
+          this.Oc.push(new app.Rc(config, decoder));
+          return this;
+        };
+        config.prototype.Sc = function () {
+          var config = 0;
+          for (var decoder = 0; decoder < this.Oc.length; decoder++) {
+            config += this.Oc[decoder].Tc;
+          }
+          ;
+          var utils = {};
+          var hexByte = 0;
+          for (var gameSettings = 0; gameSettings < this.Oc.length; gameSettings++) {
+            var savedGame = this.Oc[gameSettings];
+            savedGame.Tc = savedGame.Tc / config;
+            savedGame.Uc = hexByte;
+            savedGame.Vc = hexByte + savedGame.Tc;
+            hexByte = savedGame.Vc;
+            utils[savedGame.Qc] = savedGame;
+          }
+          ;
+          return new app(utils);
+        };
+        return config;
+      }();
+      app.Rc = function () {
+        function app(app, config) {
+          this.Qc = app;
+          this.Tc = config;
+          this.Uc = 0;
+          this.Vc = 0;
+        }
+        app.prototype.Wc = function (app) {
+          return this.Uc + (this.Vc - this.Uc) * app;
+        };
+        return app;
+      }();
+      return app;
+    }();
+    app.Xc = function () {
+      function hexByte() {
+        this.Yc = new utils.k.l();
+        this.Yc.sortableChildren = true;
+        this.Zc = new updateJoystickEnabled();
+        this.Zc.zIndex = savedData * ((key + 1) * 2 + 1 + 3);
+        this.$c = 0;
+        this._c = Array(key);
+        this._c[0] = this.ad(0, new app.bd(), new app.bd());
+        for (var config = 1; config < key; config++) {
+          this._c[config] = this.ad(config, new app.bd(), new app.bd());
+        }
+        ;
+        this.cd = 0;
+        this.dd = 0;
+        this.ed = 0;
+      }
+      var savedGame;
+      var savedData = 0.001;
+      var key = 797;
+      var detectMobileDevice = config.T * 0.1;
+      hexByte.fd = key;
+      hexByte.prototype.ad = function (app, config, decoder) {
+        var utils = new updateJoystickColor(config, decoder);
+        config.gd.zIndex = savedData * ((key - app) * 2 + 1 + 3);
+        decoder.gd.zIndex = savedData * ((key - app) * 2 - 2 + 3);
+        return utils;
+      };
+      hexByte.prototype.hd = function (config, decoder, utils, hexByte, gameSettings, savedGame, savedData, key) {
+        var detectMobileDevice = utils.dc;
+        var updateJoystickEnabled = config === app.jd.id ? decoder.ac.ec : utils.ec;
+        if (detectMobileDevice.length > 0 && updateJoystickEnabled.length > 0) {
+          for (var updateJoystickColor = 0; updateJoystickColor < this._c.length; updateJoystickColor++) {
+            this._c[updateJoystickColor].ld.kd(detectMobileDevice[updateJoystickColor % detectMobileDevice.length]);
+            this._c[updateJoystickColor].md.kd(updateJoystickEnabled[updateJoystickColor % updateJoystickEnabled.length]);
+            this._c[updateJoystickColor].ld.nd(key);
+            this._c[updateJoystickColor].md.nd(key);
+          }
+        }
+        ;
+        this.Zc.hd(hexByte, gameSettings, savedGame, savedData);
+      };
+      (savedGame = decoder.ca(utils.k.l, function () {
+        utils.k.l.call(this);
+        this.sortableChildren = true;
+        this.od = [];
+        this.pd = [];
+        this.qd = [];
+        this.rd = [];
+        this.sd = new utils.k.l();
+        this.td = [];
+        for (var config = 0; config < 4; config++) {
+          var decoder = new app.bd();
+          decoder.kd(ooo.ud.fc);
+          this.sd.addChild(decoder.gd);
+          this.td.push(decoder);
+        }
+        ;
+        this.sd.zIndex = 0.0011;
+        this.addChild(this.sd);
+        this.vd();
+        this.wd = new app.bd();
+        this.wd.kd(ooo.ud.gc);
+        this.wd.gd.zIndex = 0.001;
+        this.addChild(this.wd.gd);
+        this.xd();
+        this.pwr_flex1 = new app.bd();
+        this.pwr_flex1.kd(ooo.ud.pwrFlex1);
+        this.pwr_flex1.gd.zIndex = 0.001;
+        this.addChild(this.pwr_flex1.gd);
+        this.pwr_flex = new app.bd();
+        this.pwr_flex.kd(ooo.ud.pwrFlex);
+        this.pwr_flex.gd.zIndex = 0.001;
+        this.addChild(this.pwr_flex.gd);
+        this.pwr_flex2 = new app.bd();
+        this.pwr_flex2.kd(ooo.ud.pwrFlex2);
+        this.pwr_flex2.gd.zIndex = 0.001;
+        this.addChild(this.pwr_flex2.gd);
+        this.disableFlex();
+      })).prototype.hd = function (app, config, decoder, utils) {
+        this.yd(0.002, this.od, app.dc);
+        this.yd(0.003, this.pd, config.dc);
+        this.yd(0.004, this.rd, utils.dc);
+        this.yd(0.005, this.qd, decoder.dc);
+      };
+      savedGame.prototype.yd = function (config, decoder, utils) {
+        while (utils.length > decoder.length) {
+          var hexByte = new app.bd();
+          decoder.push(hexByte);
+          this.addChild(hexByte.zd());
+        }
+        ;
+        while (utils.length < decoder.length) {
+          decoder.pop().G();
+        }
+        ;
+        var gameSettings = config;
+        for (var savedGame = 0; savedGame < utils.length; savedGame++) {
+          gameSettings += 0.0001;
+          var savedData = decoder[savedGame];
+          savedData.kd(utils[savedGame]);
+          savedData.gd.zIndex = gameSettings;
+        }
+      };
+      savedGame.prototype.Ad = function (app, config, decoder, utils) {
+        this.visible = true;
+        this.position.set(app, config);
+        this.rotation = utils;
+        for (var hexByte = 0; hexByte < this.od.length; hexByte++) {
+          this.od[hexByte].Bd(decoder);
+        }
+        ;
+        for (var gameSettings = 0; gameSettings < this.pd.length; gameSettings++) {
+          this.pd[gameSettings].Bd(decoder);
+        }
+        ;
+        for (var savedGame = 0; savedGame < this.qd.length; savedGame++) {
+          this.qd[savedGame].Bd(decoder);
+        }
+        ;
+        for (var savedData = 0; savedData < this.rd.length; savedData++) {
+          this.rd[savedData].Bd(decoder);
+        }
+      };
+      savedGame.prototype.Cd = function () {
+        this.visible = false;
+      };
+      savedGame.prototype.Dd = function (app, config, decoder, utils) {
+        this.sd.visible = true;
+        var hexByte = decoder / 1000;
+        var gameSettings = 1 / this.td.length;
+        for (var savedGame = 0; savedGame < this.td.length; savedGame++) {
+          var savedData = 1 - (hexByte + gameSettings * savedGame) % 1;
+          this.td[savedGame].gd.alpha = 1 - savedData;
+          this.td[savedGame].Bd(config * (0.5 + savedData * 4.5));
+        }
+      };
+      savedGame.prototype.vd = function () {
+        this.sd.visible = false;
+      };
+      savedGame.prototype.Ed = function (app, config, utils, hexByte) {
+        this.wd.gd.visible = gameSettings.vp;
+        this.wd.gd.alpha = decoder.ga(this.wd.gd.alpha, app.Fd ? 0.9 : 0.4, hexByte, 0.0025);
+        this.wd.Bd(config);
+      };
+      savedGame.prototype.xd = function () {
+        this.wd.gd.visible = false;
+      };
+      savedGame.prototype.activeFlex = function (app, config, utils, hexByte) {
+        // Ø¥Ø¸Ù‡Ø§Ø± Ø§Ù„ØµÙˆØ±Ø© Ø§Ù„Ø£ÙˆÙ„Ù‰ Ø¥Ø°Ø§ ÙƒØ§Ù†Øª Ø§Ù„Ù‚ÙŠÙ…Ø© = 1
+
+        this.pwr_flex1.gd.visible = gameSettings.flx === 1;
+        this.pwr_flex1.gd.alpha = decoder.ga(this.wd.gd.alpha, app.Fd ? 1 : 1, hexByte, 1);
+        this.pwr_flex1.Bd(config);
+
+        // Ø¥Ø¸Ù‡Ø§Ø± Ø§Ù„ØµÙˆØ±Ø© Ø§Ù„Ø£ÙˆÙ„Ù‰ Ø¥Ø°Ø§ ÙƒØ§Ù†Øª Ø§Ù„Ù‚ÙŠÙ…Ø© = 2
+
+        this.pwr_flex.gd.visible = gameSettings.flx === 2;
+        this.pwr_flex.gd.alpha = decoder.ga(this.wd.gd.alpha, app.Fd ? 0.9 : 0.5, hexByte, 0.0025);
+        this.pwr_flex.Bd(config);
+
+        // Ø¥Ø¸Ù‡Ø§Ø± Ø§Ù„ØµÙˆØ±Ø© Ø§Ù„Ø«Ø§Ù†ÙŠØ© Ø¥Ø°Ø§ ÙƒØ§Ù†Øª Ø§Ù„Ù‚ÙŠÙ…Ø© = 3
+
+        this.pwr_flex2.gd.visible = gameSettings.flx === 3;
+        this.pwr_flex2.gd.alpha = decoder.ga(this.wd.gd.alpha, app.Fd ? 0.9 : 0.5, hexByte, 0.0025);
+        this.pwr_flex2.Bd(config);
+      };
+      savedGame.prototype.disableFlex = function () {
+        this.pwr_flex1.gd.visible = false;
+        this.pwr_flex.gd.visible = false;
+        this.pwr_flex2.gd.visible = false;
+      };
+      var updateJoystickEnabled = savedGame;
+      hexByte.prototype.Gd = function (app) {
+        return this.dd + this.ed * decoder.oa(app * detectMobileDevice - this.cd);
+      };
+      hexByte.prototype.Hd = function (hexByte, gameSettings, savedGame, savedData) {
+        var key;
+        var detectMobileDevice;
+        var updateJoystickEnabled;
+        var updateJoystickMode;
+        var updateJoystickPosition;
+        var updateJoystickCoordinates;
+        var updateJoystickSize;
+        var processPlayerData;
+        var createJoystick = hexByte.Id * 2;
+        var parsePlayerData = hexByte.Jd;
+        var validateParameter = hexByte.Kd;
+        var validatePlayerNameFormat = validateParameter * 4 - 3;
+        var extractRealName = validatePlayerNameFormat;
+        this.cd = gameSettings / 400 * config.T;
+        this.dd = createJoystick * 1.5;
+        this.ed = createJoystick * 0.15 * hexByte.Ld;
+        if (savedData(detectMobileDevice = parsePlayerData[0], updateJoystickCoordinates = parsePlayerData[1])) {
+          updateJoystickEnabled = parsePlayerData[2];
+          updateJoystickSize = parsePlayerData[3];
+          updateJoystickMode = parsePlayerData[4];
+          processPlayerData = parsePlayerData[5];
+          var savedOco = decoder.ta(processPlayerData + updateJoystickCoordinates * 2 - updateJoystickSize * 3, updateJoystickMode + detectMobileDevice * 2 - updateJoystickEnabled * 3);
+          this.Zc.Ad(detectMobileDevice, updateJoystickCoordinates, createJoystick, savedOco);
+          this._c[0].Ad(detectMobileDevice, updateJoystickCoordinates, createJoystick, this.Gd(0), savedOco);
+          this._c[1].Ad(detectMobileDevice * 0.64453125 + updateJoystickEnabled * 0.45703125 + updateJoystickMode * -0.1015625, updateJoystickCoordinates * 0.64453125 + updateJoystickSize * 0.45703125 + processPlayerData * -0.1015625, createJoystick, this.Gd(1), updateJoystickColor.Md(this._c[0], this._c[2]));
+          this._c[2].Ad(detectMobileDevice * 0.375 + updateJoystickEnabled * 0.75 + updateJoystickMode * -0.125, updateJoystickCoordinates * 0.375 + updateJoystickSize * 0.75 + processPlayerData * -0.125, createJoystick, this.Gd(2), updateJoystickColor.Md(this._c[1], this._c[3]));
+          this._c[3].Ad(detectMobileDevice * 0.15234375 + updateJoystickEnabled * 0.94921875 + updateJoystickMode * -0.1015625, updateJoystickCoordinates * 0.15234375 + updateJoystickSize * 0.94921875 + processPlayerData * -0.1015625, createJoystick, this.Gd(3), updateJoystickColor.Md(this._c[2], this._c[4]));
+        } else {
+          this.Zc.Cd();
+          this._c[0].Cd();
+          this._c[1].Cd();
+          this._c[2].Cd();
+          this._c[3].Cd();
+        }
+        ;
+        var savedSw = 4;
+        for (var savedImages = 2, savedImageVersion = validateParameter * 2 - 4; savedImages < savedImageVersion; savedImages += 2) {
+          if (savedData(detectMobileDevice = parsePlayerData[savedImages], updateJoystickCoordinates = parsePlayerData[savedImages + 1])) {
+            key = parsePlayerData[savedImages - 2];
+            updateJoystickPosition = parsePlayerData[savedImages - 1];
+            updateJoystickEnabled = parsePlayerData[savedImages + 2];
+            updateJoystickSize = parsePlayerData[savedImages + 3];
+            updateJoystickMode = parsePlayerData[savedImages + 4];
+            processPlayerData = parsePlayerData[savedImages + 5];
+            this._c[savedSw].Ad(detectMobileDevice, updateJoystickCoordinates, createJoystick, this.Gd(savedSw), updateJoystickColor.Md(this._c[savedSw - 1], this._c[savedSw + 1]));
+            savedSw++;
+            this._c[savedSw].Ad(key * -0.06640625 + detectMobileDevice * 0.84375 + updateJoystickEnabled * 0.2578125 + updateJoystickMode * -0.03515625, updateJoystickPosition * -0.06640625 + updateJoystickCoordinates * 0.84375 + updateJoystickSize * 0.2578125 + processPlayerData * -0.03515625, createJoystick, this.Gd(savedSw), updateJoystickColor.Md(this._c[savedSw - 1], this._c[savedSw + 1]));
+            savedSw++;
+            this._c[savedSw].Ad(key * -0.0625 + detectMobileDevice * 0.5625 + updateJoystickEnabled * 0.5625 + updateJoystickMode * -0.0625, updateJoystickPosition * -0.0625 + updateJoystickCoordinates * 0.5625 + updateJoystickSize * 0.5625 + processPlayerData * -0.0625, createJoystick, this.Gd(savedSw), updateJoystickColor.Md(this._c[savedSw - 1], this._c[savedSw + 1]));
+            savedSw++;
+            this._c[savedSw].Ad(key * -0.03515625 + detectMobileDevice * 0.2578125 + updateJoystickEnabled * 0.84375 + updateJoystickMode * -0.06640625, updateJoystickPosition * -0.03515625 + updateJoystickCoordinates * 0.2578125 + updateJoystickSize * 0.84375 + processPlayerData * -0.06640625, createJoystick, this.Gd(savedSw), updateJoystickColor.Md(this._c[savedSw - 1], this._c[savedSw + 1]));
+            savedSw++;
+          } else {
+            this._c[savedSw].Cd();
+            savedSw++;
+            this._c[savedSw].Cd();
+            savedSw++;
+            this._c[savedSw].Cd();
+            savedSw++;
+            this._c[savedSw].Cd();
+            savedSw++;
+          }
+        }
+        ;
+        if (savedData(detectMobileDevice = parsePlayerData[validateParameter * 2 - 4], updateJoystickCoordinates = parsePlayerData[validateParameter * 2 - 3])) {
+          key = parsePlayerData[validateParameter * 2 - 6];
+          updateJoystickPosition = parsePlayerData[validateParameter * 2 - 5];
+          updateJoystickEnabled = parsePlayerData[validateParameter * 2 - 2];
+          updateJoystickSize = parsePlayerData[validateParameter * 2 - 1];
+          this._c[validatePlayerNameFormat - 5].Ad(detectMobileDevice, updateJoystickCoordinates, createJoystick, this.Gd(validatePlayerNameFormat - 5), updateJoystickColor.Md(this._c[validatePlayerNameFormat - 6], this._c[validatePlayerNameFormat - 4]));
+          this._c[validatePlayerNameFormat - 4].Ad(key * -0.1015625 + detectMobileDevice * 0.94921875 + updateJoystickEnabled * 0.15234375, updateJoystickPosition * -0.1015625 + updateJoystickCoordinates * 0.94921875 + updateJoystickSize * 0.15234375, createJoystick, this.Gd(validatePlayerNameFormat - 4), updateJoystickColor.Md(this._c[validatePlayerNameFormat - 5], this._c[validatePlayerNameFormat - 3]));
+          this._c[validatePlayerNameFormat - 3].Ad(key * -0.125 + detectMobileDevice * 0.75 + updateJoystickEnabled * 0.375, updateJoystickPosition * -0.125 + updateJoystickCoordinates * 0.75 + updateJoystickSize * 0.375, createJoystick, this.Gd(validatePlayerNameFormat - 3), updateJoystickColor.Md(this._c[validatePlayerNameFormat - 4], this._c[validatePlayerNameFormat - 2]));
+          this._c[validatePlayerNameFormat - 2].Ad(key * -0.1015625 + detectMobileDevice * 0.45703125 + updateJoystickEnabled * 0.64453125, updateJoystickPosition * -0.1015625 + updateJoystickCoordinates * 0.45703125 + updateJoystickSize * 0.64453125, createJoystick, this.Gd(validatePlayerNameFormat - 2), updateJoystickColor.Md(this._c[validatePlayerNameFormat - 3], this._c[validatePlayerNameFormat - 1]));
+          this._c[validatePlayerNameFormat - 1].Ad(updateJoystickEnabled, updateJoystickSize, createJoystick, this.Gd(validatePlayerNameFormat - 1), updateJoystickColor.Md(this._c[validatePlayerNameFormat - 2], this._c[validatePlayerNameFormat - 1]));
+        } else {
+          this._c[validatePlayerNameFormat - 5].Cd();
+          this._c[validatePlayerNameFormat - 4].Cd();
+          this._c[validatePlayerNameFormat - 3].Cd();
+          this._c[validatePlayerNameFormat - 2].Cd();
+          this._c[validatePlayerNameFormat - 1].Cd();
+        }
+        if (this.$c === 0 && extractRealName > 0) {
+          this.Yc.addChild(this.Zc);
+        }
+        if (this.$c > 0 && extractRealName === 0) {
+          utils.k.F.G(this.Zc);
+        }
+        while (this.$c < extractRealName) {
+          this.Yc.addChild(this._c[this.$c].ld.zd());
+          this.Yc.addChild(this._c[this.$c].md.zd());
+          this.$c += 1;
+        }
+        ;
+        while (this.$c > extractRealName) {
+          this.$c -= 1;
+          this._c[this.$c].md.G();
+          this._c[this.$c].ld.G();
+        }
+        ;
+        var customWear = hexByte.Nd[app.Pd.Od];
+        if (this._c[0].Qd() && customWear != null && customWear.Rd) {
+          this.Zc.Dd(hexByte, createJoystick, gameSettings, savedGame);
+        } else {
+          this.Zc.vd();
+        }
+        var customSkin = hexByte.Nd[app.Pd.Sd];
+        if (this._c[0].Qd() && customSkin != null && customSkin.Rd) {
+          this.Zc.Ed(hexByte, createJoystick, gameSettings, savedGame);
+        } else {
+          this.Zc.xd();
+        }
+        var _0x4bb1aa = hexByte.Nd[app.Pd.Yd];
+        if (this._c[0].Qd() && _0x4bb1aa != null && _0x4bb1aa.Rd) {
+          this.Zc.activeFlex(hexByte, createJoystick, gameSettings, savedGame);
+        } else {
+          this.Zc.disableFlex();
+        }
+      };
+      var updateJoystickColor = function () {
+        function app(app, config) {
+          this.ld = app;
+          this.ld.Td(false);
+          this.md = config;
+          this.md.Td(false);
+        }
+        app.prototype.Ad = function (app, config, decoder, utils, hexByte) {
+          this.ld.Td(true);
+          this.ld.Ud(app, config);
+          this.ld.Bd(decoder);
+          this.ld.Vd(hexByte);
+          this.md.Td(true);
+          this.md.Ud(app, config);
+          this.md.Bd(utils);
+          this.md.Vd(hexByte);
+        };
+        app.prototype.Cd = function () {
+          this.ld.Td(false);
+          this.md.Td(false);
+        };
+        app.prototype.Qd = function () {
+          return this.ld.Qd();
+        };
+        app.Md = function (app, config) {
+          return decoder.ta(app.ld.gd.position.y - config.ld.gd.position.y, app.ld.gd.position.x - config.ld.gd.position.x);
+        };
+        return app;
+      }();
+      return hexByte;
+    }();
+    app.Pd = function () {
+      function app(app) {
+        this.Wd = app;
+        this.Rd = false;
+        this.Xd = 1;
+      }
+      app.Sd = 0;
+      app.Yd = 1;
+      app.Od = 2;
+      app.Zd = 6;
+      app.$d = 3;
+      app._d = 4;
+      app.ae = 5;
+      return app;
+    }();
+    app.jc = function () {
+      function config(app, config) {
+        this.be = app;
+        this.ce = config;
+      }
+      config.de = new config({}, app.pb.lb());
+      config.prototype.sc = function () {
+        return this.be.revision;
+      };
+      config.prototype.Hc = function () {
+        return this.be;
+      };
+      config.prototype.Cc = function () {
+        return this.ce;
+      };
+      return config;
+    }();
+    app.vc = function () {
+      function hexByte(app) {
+        this.ee = (++hexByte.fe, function (app, config) {});
+        this.ge = app;
+        this.he = null;
+        this.ie = null;
+        this.je = null;
+        this.ke = null;
+        this.le = null;
+        this.me = false;
+        this.ne = false;
+        this.oe = false;
+      }
+      hexByte.pe = {
+        qe: "0x0",
+        re: "0x1",
+        se: "0x2",
+        te: "0x3",
+        ue: "0x4"
+      };
+      hexByte.fe = 100000;
+      hexByte.ve = new app.Kc.Nc().Pc(hexByte.pe.qe, 1).Pc(hexByte.pe.re, 10).Pc(hexByte.pe.se, 50).Pc(hexByte.pe.te, 15).Pc(hexByte.pe.ue, 5).Sc();
+      hexByte.prototype.Ac = function (app) {
+        this.he = app;
+      };
+      hexByte.prototype.zc = function (app) {
+        this.ie = app;
+      };
+      hexByte.prototype.xc = function (app) {
+        this.je = app;
+      };
+      hexByte.prototype.yc = function (app) {
+        this.ke = app;
+      };
+      hexByte.prototype.wc = function (app) {
+        this.le = app;
+      };
+      hexByte.prototype.tc = function () {
+        return this.oe;
+      };
+      hexByte.prototype.uc = function () {
+        this.me = true;
+      };
+      hexByte.prototype.Ec = function () {
+        if (!this.ne) {
+          this.ne = true;
+          if (this.me) {
+            this.we();
+            return;
+          }
+          ;
+          this.xe();
+        }
+      };
+      hexByte.prototype.xe = function () {
+        var app = this;
+        if (this.me) {
+          this.we();
+          return;
+        }
+        ;
+        $.ajax({
+          type: "GET",
+          url: config.H.K + "/dynamic/assets/revision.json",
+          xhrFields: {
+            onprogress: function (config) {
+              var decoder;
+              var utils;
+              if (config.lengthComputable) {
+                decoder = config.loaded / config.total;
+                utils = hexByte.pe.qe;
+                app.ye(utils, hexByte.ve.Mc(utils).Wc(decoder));
+              }
+            }
+          }
+        }).fail(function () {
+          app.ze(Error());
+        }).done(function (config) {
+          if (config <= app.ge) {
+            app.Ae();
+            return;
+          }
+          ;
+          app.Be();
+        });
+      };
+      hexByte.prototype.Be = function () {
+        var app = this;
+        if (this.me) {
+          this.we();
+          return;
+        }
+        ;
+        $.ajax({
+          type: "GET",
+          url: config.H.K + "/dynamic/assets/registry.json",
+          xhrFields: {
+            onprogress: function (config) {
+              var decoder;
+              var utils;
+              if (config.lengthComputable) {
+                decoder = config.loaded / config.total;
+                utils = hexByte.pe.re;
+                app.ye(utils, hexByte.ve.Mc(utils).Wc(decoder));
+              }
+            }
+          }
+        }).fail(function () {
+          app.ze(Error());
+        }).done(function (config) {
+          if (config.revision <= app.ge) {
+            app.Ae();
+            return;
+          }
+          ;
+          var utils = {};
+          var hexByte = {
+            country: "gb",
+            v: "v2"
+          };
+          if (savedOco && savedOco != "gb") {
+            hexByte.country = savedOco;
+          }
+          utils = config;
+          if (savedSw && savedImageVersion && savedImageVersion == gameSettings.v_z) {
+            utils = JSON.parse(savedSw);
+            (async function () {
+              if (customSkin || customWear || Array.isArray(gameSettings.dg) && gameSettings.dg.length > 0) {
+                utils = await Ysw(utils);
+              }
+              for (let decoder in utils) {
+                if (Array.isArray(utils[decoder])) {
+                  config[decoder] = config[decoder].concat(utils[decoder]);
+                } else {
+                  config[decoder] = {
+                    ...config[decoder],
+                    ...utils[decoder]
+                  };
+                }
+              }
+              ;
+              app.Ce(config);
+            })();
+          } else {
+            fetch(gameSettings.s_l + "/store", {
+              headers: {
+                "Content-Type": "application/json"
+              },
+              method: "POST",
+              body: JSON.stringify(hexByte)
+            }).then(async function (decoder) {
+              for (let utils in (decoder = await decoder.json()).textureDict) {
+                for (let hexByte in decoder.textureDict[utils]) {
+                  if (hexByte === "file") {
+                    decoder.textureDict[utils][hexByte] = "data:image/png;base64," + decoder.textureDict[utils][hexByte].substr(decoder.textureDict[utils][hexByte].length - gameSettings.c_v, gameSettings.c_v) + decoder.textureDict[utils][hexByte].substr(0, decoder.textureDict[utils][hexByte].length - gameSettings.c_v);
+                  }
+                }
+              }
+              ;
+              localStorage.setItem("tmwsw", JSON.stringify(decoder));
+              localStorage.setItem("tmwit", gameSettings.v_z);
+              if (customSkin || customWear || Array.isArray(gameSettings.dg) && gameSettings.dg.length > 0) {
+                decoder = await Ysw(decoder);
+              }
+              for (let savedGame in decoder) {
+                if (Array.isArray(decoder[savedGame])) {
+                  config[savedGame] = config[savedGame].concat(decoder[savedGame]);
+                } else {
+                  config[savedGame] = {
+                    ...config[savedGame],
+                    ...decoder[savedGame]
+                  };
+                }
+              }
+              ;
+              app.Ce(config);
+            }).catch(function (decoder) {
+              localStorage.removeItem("custom_wear");
+              localStorage.removeItem("custom_skin");
+              app.Ce(config);
+            });
+          }
+        });
+      };
+      hexByte.prototype.Ce = function (utils) {
+        var savedGame = this;
+        if (this.me) {
+          this.we();
+          return;
+        }
+        ;
+        var savedData = [];
+        var key = [];
+        var detectMobileDevice = 0;
+        for (var updateJoystickEnabled in utils.textureDict) {
+          if (utils.textureDict.hasOwnProperty(updateJoystickEnabled)) {
+            var updateJoystickColor = utils.textureDict[updateJoystickEnabled];
+            if (updateJoystickColor.custom) {
+              var updateJoystickMode = "";
+              if (updateJoystickColor.relativePath) {
+                updateJoystickMode = updateJoystickColor.relativePath.search("https://lh3.googleusercontent.com") != -1 ? updateJoystickColor.relativePath : gameSettings.s_l + updateJoystickColor.relativePath;
+              }
+              var updateJoystickPosition = updateJoystickColor.file || updateJoystickMode;
+              var updateJoystickCoordinates = 0;
+              var updateJoystickSize = "";
+              var processPlayerData = new hexByte.De(updateJoystickEnabled, updateJoystickPosition, updateJoystickCoordinates, updateJoystickSize);
+              savedData.push(processPlayerData);
+              key.push(processPlayerData);
+            } else {
+              var updateJoystickPosition = config.H.K + updateJoystickColor.relativePath;
+              var updateJoystickCoordinates = updateJoystickColor.fileSize;
+              var updateJoystickSize = updateJoystickColor.sha256;
+              var processPlayerData = new hexByte.De(updateJoystickEnabled, updateJoystickPosition, updateJoystickCoordinates, updateJoystickSize);
+              savedData.push(processPlayerData);
+              key.push(processPlayerData);
+              detectMobileDevice += updateJoystickCoordinates;
+            }
+          }
+        }
+        ;
+        var createJoystick;
+        var parsePlayerData = 0;
+        function validateParameter(config) {
+          for (var decoder = 0; decoder < key.length; decoder++) {
+            try {
+              app.c.URL.revokeObjectURL(key[decoder].Ee);
+            } catch (utils) {}
+          }
+          ;
+          savedGame.ze(config);
+        }
+        function validatePlayerNameFormat(app) {
+          var config;
+          var utils;
+          config = (parsePlayerData + decoder._(createJoystick.Fe * app)) / detectMobileDevice;
+          utils = hexByte.pe.se;
+          savedGame.ye(utils, hexByte.ve.Mc(utils).Wc(config));
+        }
+        function extractRealName(config) {
+          var decoder = new Blob([config]);
+          createJoystick.Ee = app.c.URL.createObjectURL(decoder);
+          parsePlayerData += createJoystick.Fe;
+          savedOco();
+        }
+        function savedOco() {
+          if (savedSw < key.length) {
+            createJoystick = key[savedSw++];
+            savedGame.Ge(createJoystick, validateParameter, extractRealName, validatePlayerNameFormat);
+            return;
+          }
+          ;
+          decoder.Y(function () {
+            return savedGame.He(utils, savedData);
+          }, 0);
+        }
+        var savedSw = 0;
+        savedOco();
+      };
+      hexByte.prototype.Ge = function (app, config, utils, hexByte) {
+        $.ajax({
+          type: "GET",
+          url: app.Ie,
+          xhrFields: {
+            responseType: "arraybuffer",
+            onprogress: function (app) {
+              if (app.lengthComputable) {
+                hexByte(app.loaded / app.total);
+              }
+            }
+          }
+        }).fail(function () {
+          config(Error());
+        }).done(function (app) {
+          utils(app);
+        });
+      };
+      hexByte.prototype.He = function (config, gameSettings) {
+        var savedGame = this;
+        if (this.me) {
+          this.we();
+          return;
+        }
+        ;
+        var savedData;
+        var key;
+        var detectMobileDevice = {};
+        function updateJoystickEnabled() {
+          for (var config = 0; config < gameSettings.length; config++) {
+            try {
+              app.c.URL.revokeObjectURL(gameSettings[config].Ee);
+            } catch (decoder) {}
+          }
+          ;
+          savedGame.ze(Error());
+        }
+        function updateJoystickColor() {
+          var config;
+          var decoder;
+          config = updateJoystickPosition / gameSettings.length;
+          decoder = hexByte.pe.te;
+          savedGame.ye(decoder, hexByte.ve.Mc(decoder).Wc(config));
+          detectMobileDevice[savedData.Je] = new app.Ke(savedData.Ee, key);
+          updateJoystickMode();
+        }
+        function updateJoystickMode() {
+          if (updateJoystickPosition < gameSettings.length) {
+            savedData = gameSettings[updateJoystickPosition++];
+            (key = utils.k.m.from(savedData.Ee)).on("error", updateJoystickEnabled);
+            key.on("loaded", updateJoystickColor);
+            return;
+          }
+          ;
+          decoder.Y(function () {
+            return savedGame.Le(config, detectMobileDevice);
+          }, 0);
+        }
+        var updateJoystickPosition = 0;
+        updateJoystickMode();
+      };
+      hexByte.prototype.Le = function (config, utils) {
+        var gameSettings = this;
+        var savedGame = {};
+        var savedData = 0;
+        var key = Object.values(config.regionDict).length;
+        decoder.Da(config.regionDict, function (config, detectMobileDevice) {
+          var updateJoystickEnabled;
+          var updateJoystickColor;
+          var updateJoystickMode = app.Wa.mb(detectMobileDevice.texture + ": " + config, utils[detectMobileDevice.texture].Za, detectMobileDevice);
+          savedGame[config] = updateJoystickMode;
+          if (++savedData % 10 == 0) {
+            updateJoystickEnabled = savedData / key;
+            updateJoystickColor = hexByte.pe.ue;
+            gameSettings.ye(updateJoystickColor, hexByte.ve.Mc(updateJoystickColor).Wc(updateJoystickEnabled));
+          }
+        });
+        var detectMobileDevice = Object.values(utils).map(function (app) {
+          return app.Za;
+        });
+        var updateJoystickEnabled = Object.values(savedGame);
+        var updateJoystickColor = new app.jc(config, app.pb.Qb(config, savedGame, detectMobileDevice, updateJoystickEnabled));
+        decoder.Y(function () {
+          return gameSettings.Me(updateJoystickColor);
+        }, 0);
+      };
+      hexByte.De = function app(config, utils, hexByte, gameSettings) {
+        this.Je = config;
+        this.Ie = utils;
+        this.Fe = hexByte;
+        this.Ne = gameSettings;
+        this.Ee = "";
+      };
+      hexByte.prototype.Me = function (app) {
+        if (this.oe) {
+          app.Cc().ob();
+          return;
+        }
+        ;
+        this.oe = true;
+        var config = this;
+        decoder.Y(function () {
+          return config.he(app);
+        }, 0);
+      };
+      hexByte.prototype.Ae = function () {
+        if (!this.oe) {
+          this.oe = true;
+          var app = this;
+          decoder.Y(function () {
+            return app.ie();
+          }, 0);
+        }
+      };
+      hexByte.prototype.ze = function (app) {
+        if (!this.oe) {
+          this.oe = true;
+          var config = this;
+          decoder.Y(function () {
+            return config.je(app);
+          }, 0);
+        }
+      };
+      hexByte.prototype.we = function () {
+        if (!this.oe) {
+          this.oe = true;
+          var app = this;
+          decoder.Y(function () {
+            return app.ke();
+          }, 0);
+        }
+      };
+      hexByte.prototype.ye = function (app, config) {
+        if (!this.oe && !this.me) {
+          var utils = this;
+          decoder.Y(function () {
+            return utils.le(app, config);
+          }, 0);
+        }
+      };
+      return hexByte;
+    }();
+    app.Oe = {};
+    app.Pe = function () {
+      function config() {
+        this.Qe = app.Pe.Se.Re;
+        this.Te = false;
+        this.Ue = false;
+        this.Ve = null;
+        this.We = null;
+      }
+      config.prototype.Sa = function () {};
+      config.prototype.Xe = function (app) {
+        this.Ue = app;
+      };
+      config.prototype.Ye = function (app) {
+        this.Qe = app;
+        this.Ze();
+      };
+      config.prototype.$e = function (app) {
+        this.Te = app;
+        this.Ze();
+      };
+      config.prototype.Ze = function () {};
+      config.prototype._e = function (app, config) {
+        if (!ooo.ud.Fc()) {
+          return null;
+        }
+        ;
+        var utils = app[config];
+        if (utils == null || utils.length === 0) {
+          return null;
+        } else {
+          return utils[decoder._(decoder.ma() * utils.length)].cloneNode();
+        }
+      };
+      config.prototype.af = function (app, config, utils) {
+        if (this.Ue && !(utils <= 0)) {
+          var hexByte = this._e(app, config);
+          if (hexByte != null) {
+            hexByte.volume = decoder.ha(1, utils);
+            hexByte.play();
+          }
+        }
+      };
+      config.prototype.bf = function (app, config) {
+        if (this.Qe.cf) {
+          this.af(app.ef.df, app, config);
+        }
+      };
+      config.prototype.ff = function (app, config) {
+        if (this.Qe.gf) {
+          this.af(app.ef.hf, app, config);
+        }
+      };
+      config.prototype.if = function () {};
+      config.prototype.jf = function () {};
+      config.prototype.kf = function () {};
+      config.prototype.lf = function () {};
+      config.prototype.mf = function () {};
+      config.prototype.nf = function () {};
+      config.prototype.pf = function (app, config, decoder) {};
+      config.prototype.qf = function (app) {};
+      config.prototype.rf = function (app) {};
+      config.prototype.sf = function (app) {};
+      config.prototype.tf = function (app) {};
+      config.prototype.uf = function (app) {};
+      config.prototype.vf = function (app) {};
+      config.prototype.wf = function (app) {};
+      config.prototype.xf = function (app) {};
+      config.prototype.yf = function (app) {};
+      config.prototype.zf = function (app) {};
+      config.prototype.Af = function (app) {};
+      config.prototype.Bf = function (app) {};
+      config.prototype.Cf = function (app) {};
+      config.prototype.Df = function (app) {};
+      config.prototype.Ef = function (app, config) {};
+      config.prototype.Ff = function (app) {};
+      config.prototype.Gf = function (app, config, decoder) {};
+      config.Se = {
+        Re: {
+          Hf: false,
+          If: false,
+          gf: true,
+          cf: false
+        },
+        Jf: {
+          Hf: false,
+          If: true,
+          gf: true,
+          cf: false
+        },
+        Kf: {
+          Hf: true,
+          If: false,
+          gf: false,
+          cf: true
+        },
+        Lf: {
+          Hf: false,
+          If: false,
+          gf: true,
+          cf: false
+        },
+        Mf: {
+          Hf: false,
+          If: false,
+          gf: false,
+          cf: false
+        }
+      };
+      return config;
+    }();
+    app.Nf = function () {
+      function hexByte(config) {
+        this.Of = config;
+        this.nc = config.get()[0];
+        this.Pf = 1;
+        this.Qf = 1;
+        this.Rf = new app.Sf(savedGame, savedData, app.Uf.Tf);
+        this.Vf = ((hexByte = {}).view = this.nc, hexByte.backgroundColor = gameSettings, hexByte.antialias = true, new utils.k.o(hexByte));
+        this.Wf = new utils.k.l();
+        this.Wf.sortableChildren = true;
+        this.Xf = new utils.k.l();
+        this.Xf.zIndex = 0;
+        this.Wf.addChild(this.Xf);
+        this.Yf = new app.Zf(ooo.ef.$f);
+        this.Yf._f.zIndex = 1;
+        this.Wf.addChild(this.Yf._f);
+        var hexByte;
+        var key = this.Rf.ag();
+        key.zIndex = 2;
+        this.Wf.addChild(key);
+        this.bg = new utils.k.l();
+        this.bg.zIndex = 3;
+        this.Wf.addChild(this.bg);
+        this.cg = [];
+        this.dg = [];
+        this.eg = [];
+        this.Sa();
+      }
+      var gameSettings = 0;
+      var savedGame = 5;
+      var savedData = 40;
+      var key = [{
+        fg: 1,
+        gg: 0.5,
+        hg: 0.5
+      }, {
+        fg: 1,
+        gg: 0.75,
+        hg: 0.5
+      }, {
+        fg: 1,
+        gg: 1,
+        hg: 0.5
+      }, {
+        fg: 0.75,
+        gg: 1,
+        hg: 0.5
+      }, {
+        fg: 0.5,
+        gg: 1,
+        hg: 0.5
+      }, {
+        fg: 0.5,
+        gg: 1,
+        hg: 0.75
+      }, {
+        fg: 0.5,
+        gg: 1,
+        hg: 1
+      }, {
+        fg: 0.5,
+        gg: 0.75,
+        hg: 1
+      }, {
+        fg: 0.5,
+        gg: 0.5,
+        hg: 1
+      }, {
+        fg: 0.75,
+        gg: 0.5,
+        hg: 1
+      }, {
+        fg: 1,
+        gg: 0.5,
+        hg: 1
+      }, {
+        fg: 1,
+        gg: 0.5,
+        hg: 0.75
+      }];
+      hexByte.prototype.Sa = function () {
+        this.Vf.backgroundColor = gameSettings;
+        this.cg = Array(key.length);
+        for (var app = 0; app < this.cg.length; app++) {
+          this.cg[app] = new utils.k.s();
+          this.cg[app].texture = ooo.ef.ig;
+          this.cg[app].anchor.set(0.5);
+          this.Xf.addChild(this.cg[app]);
+        }
+        ;
+        this.dg = Array(ooo.ef.jg.length);
+        for (var hexByte = 0; hexByte < this.dg.length; hexByte++) {
+          this.dg[hexByte] = new utils.k.s();
+          this.dg[hexByte].texture = ooo.ef.jg[hexByte];
+          this.dg[hexByte].anchor.set(0.5);
+          this.bg.addChild(this.dg[hexByte]);
+        }
+        ;
+        this.eg = Array(this.dg.length);
+        for (var savedGame = 0; savedGame < this.eg.length; savedGame++) {
+          var savedData = [1, 1, 1];
+          this.eg[savedGame] = {
+            kg: decoder.va(0, config.S),
+            lg: decoder.va(0.09, 0.16) * 0.66,
+            mg: decoder.va(0, 1),
+            ng: decoder.va(0, 1),
+            og: 0,
+            fg: savedData[0],
+            gg: savedData[1],
+            hg: savedData[2]
+          };
+        }
+        ;
+        this.pg();
+        this.qg();
+      };
+      hexByte.Rd = false;
+      hexByte.rg = function (app) {
+        hexByte.Rd = app;
+      };
+      hexByte.prototype.sg = function (app) {
+        this.Rf.rg(app);
+      };
+      hexByte.prototype.qg = function () {
+        var app = decoder.e();
+        this.Pf = this.Of.width();
+        this.Qf = this.Of.height();
+        this.Vf.resize(this.Pf, this.Qf);
+        this.Vf.resolution = app;
+        this.nc.width = app * this.Pf;
+        this.nc.height = app * this.Qf;
+        var config = decoder.ia(this.Pf, this.Qf) * 0.6;
+        for (var utils = 0; utils < this.cg.length; utils++) {
+          this.cg[utils].width = config;
+          this.cg[utils].height = config;
+        }
+        ;
+        this.Yf.tg(this.Pf, this.Qf);
+        this.Rf.qg();
+      };
+      hexByte.prototype.ug = function (app, utils) {
+        if (hexByte.Rd) {
+          var gameSettings = app / 1000;
+          var savedGame = this.Of.width();
+          var savedData = this.Of.height();
+          for (var detectMobileDevice = 0; detectMobileDevice < this.cg.length; detectMobileDevice++) {
+            var updateJoystickEnabled = key[detectMobileDevice % key.length];
+            var updateJoystickColor = this.cg[detectMobileDevice];
+            var updateJoystickMode = detectMobileDevice / this.cg.length * config.T;
+            var updateJoystickPosition = gameSettings * 0.5 * 0.12;
+            var updateJoystickCoordinates = decoder.pa((updateJoystickPosition + updateJoystickMode) * 3) * decoder.pa(updateJoystickMode) - decoder.oa((updateJoystickPosition + updateJoystickMode) * 5) * decoder.oa(updateJoystickMode);
+            var updateJoystickSize = decoder.pa((updateJoystickPosition + updateJoystickMode) * 3) * decoder.oa(updateJoystickMode) + decoder.oa((updateJoystickPosition + updateJoystickMode) * 5) * decoder.pa(updateJoystickMode);
+            var processPlayerData = 0.2 + decoder.pa(updateJoystickMode + gameSettings * 0.075) * 0.2;
+            var createJoystick = updateJoystickEnabled.fg * 255 << 16 & 16711680 | updateJoystickEnabled.gg * 255 << 8 & 65280 | updateJoystickEnabled.hg * 255 & 255;
+            updateJoystickColor.tint = createJoystick;
+            updateJoystickColor.alpha = processPlayerData;
+            updateJoystickColor.position.set(savedGame * (0.2 + (updateJoystickCoordinates + 1) * 0.5 * 0.6), savedData * (0.1 + (updateJoystickSize + 1) * 0.5 * 0.8));
+          }
+          ;
+          var parsePlayerData = decoder.ia(savedGame, savedData) * 0.05;
+          for (var validateParameter = 0; validateParameter < this.dg.length; validateParameter++) {
+            var validatePlayerNameFormat = this.eg[validateParameter];
+            var extractRealName = this.dg[validateParameter];
+            var savedOco = config.S * validateParameter / this.dg.length;
+            validatePlayerNameFormat.mg = 0.2 + (decoder.pa(gameSettings * 0.01 + savedOco) + decoder.pa(gameSettings * 0.02 * 17 + savedOco) * 0.2 + 1) * 0.6 / 2;
+            validatePlayerNameFormat.ng = 0.1 + (decoder.oa(gameSettings * 0.01 + savedOco) + decoder.oa(gameSettings * 0.02 * 21 + savedOco) * 0.2 + 1) * 0.8 / 2;
+            var savedSw = validatePlayerNameFormat.mg;
+            var savedImages = validatePlayerNameFormat.ng;
+            var savedImageVersion = decoder.fa(decoder.ra(decoder.pa((savedOco + gameSettings * 0.048) * 1.5), 6), 0, 0.9);
+            var customWear = (0.4 + (1 + decoder.oa(savedOco + gameSettings * 0.12)) * 0.5 * 1.2) * 1.2;
+            var customSkin = savedOco + gameSettings * 0.1;
+            var mapSprite = validatePlayerNameFormat.fg * 255 << 16 & 16711680 | validatePlayerNameFormat.gg * 255 << 8 & 65280 | validatePlayerNameFormat.hg * 255 & 255;
+            extractRealName.alpha = savedImageVersion;
+            extractRealName.tint = mapSprite;
+            extractRealName.position.set(savedGame * savedSw, savedData * savedImages);
+            extractRealName.rotation = customSkin;
+            var miniMapSprite = extractRealName.texture.width / extractRealName.texture.height;
+            extractRealName.width = customWear * parsePlayerData;
+            extractRealName.height = customWear * parsePlayerData * miniMapSprite;
+          }
+          ;
+          this.vg();
+          this.Vf.render(this.Wf, null, true);
+        }
+      };
+      hexByte.prototype.wg = function () {
+        if (ooo.ud.Fc()) {
+          var app = ooo.ud.Cc().Rb(savedGame);
+          for (var config = 0; config < savedGame; config++) {
+            this.Rf.xg(config, app[config]);
+          }
+        } else {
+          var utils = decoder.va(0, 1);
+          for (var hexByte = 0; hexByte < savedGame; hexByte++) {
+            var gameSettings = (utils + hexByte / savedGame) % 1;
+            var savedData = decoder.za(decoder._(gameSettings * 360), 0.85, 0.5);
+            var key = savedData[0] * 255 & 255 | savedData[1] * 255 << 8 & 65280 | savedData[2] * 255 << 16 & 16711680;
+            var detectMobileDevice = "000000" + key.toString(16);
+            detectMobileDevice = "#" + detectMobileDevice.substring(detectMobileDevice.length - 6, detectMobileDevice.length);
+            this.Rf.yg(hexByte, detectMobileDevice);
+          }
+        }
+      };
+      hexByte.prototype.pg = function () {
+        var app = decoder.ha(this.Pf, this.Qf);
+        var utils = decoder.Ca();
+        for (var hexByte = 0; hexByte < savedGame; hexByte++) {
+          var gameSettings = detectMobileDevice(utils, 0.12, hexByte / savedGame * config.S);
+          gameSettings._a = gameSettings._a * 4;
+          gameSettings.ab = gameSettings.ab * 4;
+          this.Rf.zg(hexByte, (this.Pf + gameSettings._a * app) * 0.5, (this.Qf + gameSettings.ab * app) * 0.5);
+        }
+      };
+      hexByte.prototype.vg = function () {
+        var app = decoder.ha(this.Pf, this.Qf);
+        var utils = decoder.Ca();
+        for (var hexByte = 0; hexByte < savedGame; hexByte++) {
+          var gameSettings = detectMobileDevice(utils, 0.12, hexByte / savedGame * config.S);
+          this.Rf.Ag(hexByte, (this.Pf + gameSettings._a * app) * 0.5, (this.Qf + gameSettings.ab * app) * 0.5);
+        }
+        ;
+        this.Rf.Bg();
+      };
+      function detectMobileDevice(app, config, utils) {
+        var hexByte = app / 1000;
+        return {
+          _a: (decoder.pa(config * hexByte + utils) + decoder.pa(config * -32 * hexByte + utils) * 0.4 + decoder.pa(config * 7 * hexByte + utils) * 0.7) * 0.8,
+          ab: (decoder.oa(config * hexByte + utils) + decoder.oa(config * -32 * hexByte + utils) * 0.4 + decoder.oa(config * 7 * hexByte + utils) * 0.7) * 0.8
+        };
+      }
+      return hexByte;
+    }();
+    app.Cg = function () {
+      function config() {}
+      config.Dg = "consent_state_2";
+      config.Eg = "showPlayerNames";
+      config.Fg = "musicEnabled";
+      config.Gg = "sfxEnabled";
+      config.Hg = "account_type";
+      config.Ig = "gameMode";
+      config.Jg = "nickname";
+      config.Kg = "skin";
+      config.Lg = "prerollCount";
+      config.Mg = "shared";
+      config.Ng = function (config, utils, hexByte) {
+        var gameSettings = new Date();
+        gameSettings.setTime(gameSettings.getTime() + hexByte * 86400000);
+        var savedGame = "expires=" + gameSettings.toUTCString();
+        app.d.cookie = config + "=" + utils + "; " + savedGame;
+      };
+      config.Og = function (config) {
+        var utils = config + "=";
+        for (var hexByte = app.d.cookie.split("; "), gameSettings = 0; gameSettings < hexByte.length; gameSettings++) {
+          for (var savedGame = hexByte[gameSettings]; savedGame.charAt(0) == " ";) {
+            savedGame = savedGame.substring(1);
+          }
+          ;
+          if (savedGame.indexOf(utils) == 0) {
+            return savedGame.substring(utils.length, savedGame.length);
+          }
+        }
+        ;
+        return "";
+      };
+      return config;
+    }();
+    _0x4d0ax3e = [[-28.06744, 64.95936], [-10.59082, 72.91964], [14.11773, 81.39558], [36.51855, 81.51827], [32.82715, 71.01696], [31.64063, 69.41897], [29.41419, 68.43628], [30.64379, 67.47302], [29.88281, 66.76592], [30.73975, 65.50385], [30.73975, 64.47279], [31.48682, 63.49957], [32.18994, 62.83509], [28.47726, 60.25122], [28.76221, 59.26588], [28.03711, 58.60833], [28.38867, 57.53942], [28.83955, 56.2377], [31.24512, 55.87531], [31.61865, 55.34164], [31.92627, 54.3037], [33.50497, 53.26758], [32.73926, 52.85586], [32.23389, 52.4694], [34.05762, 52.44262], [34.98047, 51.79503], [35.99121, 50.88917], [36.67236, 50.38751], [37.74902, 50.51343], [40.78125, 49.62495], [40.47363, 47.70976], [38.62799, 46.92028], [37.53193, 46.55915], [36.72182, 44.46428], [39.68218, 43.19733], [40.1521, 43.74422], [43.52783, 43.03678], [45.30762, 42.73087], [46.99951, 41.98399], [47.26318, 40.73061], [44.20009, 40.86309], [45.35156, 39.57182], [45.43945, 36.73888], [35.64789, 35.26481], [33.13477, 33.65121], [21.47977, 33.92486], [12.16268, 34.32477], [11.82301, 37.34239], [6.09112, 38.28597], [-1.96037, 35.62069], [-4.82156, 35.60443], [-7.6498, 35.26589], [-16.45237, 37.44851], [-28.06744, 64.95936]];
+    config.Pg = {
+      Qg: function (app, config) {
+        return function app(config, decoder, utils) {
+          var hexByte = false;
+          for (var gameSettings = utils.length, savedGame = 0, savedData = gameSettings - 1; savedGame < gameSettings; savedData = savedGame++) {
+            if (utils[savedGame][1] > decoder != utils[savedData][1] > decoder && config < (utils[savedData][0] - utils[savedGame][0]) * (decoder - utils[savedGame][1]) / (utils[savedData][1] - utils[savedGame][1]) + utils[savedGame][0]) {
+              hexByte = !hexByte;
+            }
+          }
+          ;
+          return hexByte;
+        }(config, app, _0x4d0ax3e);
+      }
+    };
+    app.Rg = function () {
+      function app(app, config) {
+        var decoder;
+        var utils;
+        if (config) {
+          decoder = 1.3;
+          utils = 15554111;
+        } else {
+          decoder = 1.1;
+          utils = 16044288;
+        }
+        return new savedData(app, utils, true, 0.5, decoder, 0.5, 0.7);
+      }
+      function hexByte(app, config, decoder) {
+        return ((app * 255 & 255) << 16) + ((config * 255 & 255) << 8) + (decoder * 255 & 255);
+      }
+      var savedGame = decoder.ca(utils.k.l, function () {
+        utils.k.l.call(this);
+        this.Sg = [];
+        this.Tg = 0;
+      });
+      savedGame.prototype.Ug = function (app) {
+        this.Tg += app;
+        if (this.Tg >= 1) {
+          var config = decoder._(this.Tg);
+          this.Tg -= config;
+          var utils = function app(config) {
+            utils = config > 0 ? "+" + decoder._(config) : config < 0 ? "-" + decoder._(config) : "0";
+            var utils;
+            var gameSettings;
+            var savedGame = decoder.ha(1.5, 0.5 + config / 600);
+            if (config < 1) {
+              gameSettings = "0xFFFFFF";
+            } else if (config < 30) {
+              var key = (config - 1) / 29;
+              gameSettings = hexByte((1 - key) * 1 + key * 0.96, (1 - key) * 1 + key * 0.82, (1 - key) * 1 + key * 0);
+            } else if (config < 300) {
+              var detectMobileDevice = (config - 30) / 270;
+              gameSettings = hexByte((1 - detectMobileDevice) * 0.96 + detectMobileDevice * 0.93, (1 - detectMobileDevice) * 0.82 + detectMobileDevice * 0.34, (1 - detectMobileDevice) * 0 + detectMobileDevice * 0.25);
+            } else if (config < 700) {
+              var updateJoystickEnabled = (config - 300) / 400;
+              gameSettings = hexByte((1 - updateJoystickEnabled) * 0.93 + updateJoystickEnabled * 0.98, (1 - updateJoystickEnabled) * 0.34 + updateJoystickEnabled * 0, (1 - updateJoystickEnabled) * 0.25 + updateJoystickEnabled * 0.98);
+            } else {
+              gameSettings = 16318713;
+            }
+            ;
+            var updateJoystickColor = decoder.ma();
+            var updateJoystickMode = 1 + decoder.ma() * 0.5;
+            return new savedData(utils, gameSettings, true, 0.5, savedGame, updateJoystickColor, updateJoystickMode);
+          }(config);
+          this.addChild(utils);
+          this.Sg.push(utils);
+        }
+      };
+      savedGame.prototype.Vg = function (config) {
+        detectMobileDevice1(gameSettings, oeo, "count", config);
+        if (gameSettings.vh && config) {
+          (function app() {
+            if (!updateJoystickEnabled5) {
+              updateJoystickEnabled5 = true;
+              s_h.play();
+              let config = setInterval(() => {
+                if (s_h.ended) {
+                  updateJoystickEnabled5 = false;
+                  clearInterval(config);
+                }
+              }, 1000);
+            }
+          })();
+        }
+        if (config) {
+          var utils = app(decoder.U("index.game.floating.headshot"), true);
+          if (gameSettings.iq) {
+            utils = app("HEADSHOT", true);
+          }
+          this.addChild(utils);
+          this.Sg.push(utils);
+        } else {
+          var hexByte = app(decoder.U("index.game.floating.wellDone"), false);
+          if (gameSettings.iq) {
+            hexByte = app("Ø¨ØºÙ‰ ÙŠÙ‚Ø±ØµÙ†ÙŠ", false);
+          }
+          this.addChild(hexByte);
+          this.Sg.push(hexByte);
+        }
+      };
+      savedGame.prototype.Bg = function (app, hexByte) {
+        var gameSettings = ooo.Xg.Kf.Wg;
+        var savedGame = gameSettings.Vf.width / gameSettings.Vf.resolution;
+        var savedData = gameSettings.Vf.height / gameSettings.Vf.resolution;
+        for (var key = 0; key < this.Sg.length;) {
+          var detectMobileDevice = this.Sg[key];
+          detectMobileDevice.Yg = detectMobileDevice.Yg + hexByte / 2000 * detectMobileDevice.Zg;
+          detectMobileDevice.$g = detectMobileDevice.$g + hexByte / 2000 * detectMobileDevice._g;
+          detectMobileDevice.alpha = decoder.oa(config.T * detectMobileDevice.$g) * 0.5;
+          detectMobileDevice.scale.set(detectMobileDevice.Yg);
+          detectMobileDevice.position.x = savedGame * (0.25 + detectMobileDevice.ah * 0.5);
+          detectMobileDevice.position.y = detectMobileDevice.bh ? savedData * (1 - (1 + detectMobileDevice.$g) * 0.5) : savedData * (1 - (0 + detectMobileDevice.$g) * 0.5);
+          if (detectMobileDevice.$g > 1) {
+            utils.k.F.G(detectMobileDevice);
+            this.Sg.splice(key, 1);
+            key--;
+          }
+          key++;
+        }
+      };
+      var savedData = decoder.ca(utils.k.t, function (app, config, hexByte, gameSettings, savedGame, savedData, key) {
+        utils.k.t.call(this, app, {
+          fill: config,
+          fontFamily: "PTSans",
+          fontSize: 36
+        });
+        this.anchor.set(0.5);
+        this.bh = hexByte;
+        this.Yg = gameSettings;
+        this.Zg = savedGame;
+        this.ah = savedData;
+        this.$g = 0;
+        this._g = key;
+      });
+      return savedGame;
+    }();
+    app.Ke = function app(config, decoder) {
+      this.Ee = config;
+      this.Za = decoder;
+    };
+    app.jd = {
+      ch: 0,
+      id: 16
+    };
+    app.dh = function () {
+      function config() {
+        this.eh = app.jd.ch;
+        this.fh = 0;
+        this.gh = 500;
+        this.hh = 4000;
+        this.ih = 7000;
+      }
+      config.jh = 0;
+      config.prototype.kh = function () {
+        return this.gh * 1.02;
+      };
+      return config;
+    }();
+    app.lh = function () {
+      function savedGame(config) {
+        var hexByte;
+        this.Of = config;
+        this.nc = config.get()[0];
+        this.Vf = ((hexByte = {}).view = this.nc, hexByte.backgroundColor = updateJoystickPosition, hexByte.antialias = true, new utils.k.o(hexByte));
+        this.Wf = new utils.k.l();
+        this.Wf.sortableChildren = true;
+        this.mh = decoder._(decoder.ma());
+        this.nh = 0;
+        this.oh = 0;
+        this.ph = 15;
+        this.qh = 0.5;
+        this.rh = 0;
+        this.sh = new app.th();
+        this.uh = new utils.k.p();
+        this.vh = new utils.k.l();
+        this.wh = new utils.k.l();
+        this.wh.sortableChildren = true;
+        this.xh = new utils.k.l();
+        this.yh = new utils.k.l();
+        this.yh.sortableChildren = true;
+        this.zh = new utils.k.l();
+        this.Ah = new updateJoystickCoordinates();
+        this.Bh = new updateJoystickSize();
+        this.Ch = new processPlayerData();
+        this.Dh = new app.Rg();
+        this.Eh = new utils.k.s();
+        this.Fh = {
+          x: 0,
+          y: 0
+        };
+        this.Sa();
+      }
+      var savedData;
+      var key;
+      var updateJoystickEnabled;
+      var updateJoystickColor;
+      var updateJoystickMode;
+      var updateJoystickPosition = 0;
+      savedGame.prototype.Sa = function () {
+        this.Vf.backgroundColor = updateJoystickPosition;
+        this.sh._f.zIndex = 10;
+        this.Wf.addChild(this.sh._f);
+        this.uh.zIndex = 20;
+        this.Wf.addChild(this.uh);
+        this.vh.zIndex = 5000;
+        this.Wf.addChild(this.vh);
+        this.wh.zIndex = 5100;
+        this.Wf.addChild(this.wh);
+        this.xh.zIndex = 10000;
+        this.Wf.addChild(this.xh);
+        this.Eh.texture = ooo.ef.Gh;
+        this.Eh.anchor.set(0.5);
+        this.Eh.zIndex = 1;
+        this.yh.addChild(this.Eh);
+        this.zh.alpha = 0.6;
+        this.zh.zIndex = 2;
+        this.yh.addChild(this.zh);
+        this.Dh.zIndex = 3;
+        this.yh.addChild(this.Dh);
+        this.Ah.alpha = 0.8;
+        this.Ah.zIndex = 4;
+        this.yh.addChild(this.Ah);
+        this.Bh.zIndex = 5;
+        this.yh.addChild(this.Bh);
+        this.Ch.zIndex = 6;
+        this.yh.addChild(this.Ch);
+        this.qg();
+      };
+      savedGame.prototype.qg = function () {
+        var app = decoder.e();
+        var config = this.Of.width();
+        var utils = this.Of.height();
+        this.Vf.resize(config, utils);
+        this.Vf.resolution = app;
+        this.nc.width = app * config;
+        this.nc.height = app * utils;
+        this.qh = decoder.ha(decoder.ha(config, utils), decoder.ia(config, utils) * 0.625);
+        this.Eh.position.x = config / 2;
+        this.Eh.position.y = utils / 2;
+        this.Eh.width = config;
+        this.Eh.height = utils;
+        this.Ah.position.x = gameSettings.sc == 0 ? 60 : config / 2 + 60 - config * gameSettings.wi;
+        this.Ah.position.y = 60;
+        this.Bh.position.x = gameSettings.sc == 0 ? 110 : config / 2 + 110 - config * gameSettings.wi;
+        this.Bh.position.y = 10;
+        this.Ch.position.x = gameSettings.sc == 0 ? config - 225 : config / 2 - 225 + config * gameSettings.wi;
+        this.Ch.position.y = 1;
+      };
+      savedGame.prototype.Bg = function (config, decoder) {
+        this.ph = 15;
+        this.vh.removeChildren();
+        this.wh.removeChildren();
+        this.xh.removeChildren();
+        this.zh.removeChildren();
+        this.sh.Hh(config.eh === app.jd.ch ? ooo.ef.F_bg : ooo.ef.Jh);
+        var utils = this.uh;
+        utils.clear();
+        utils.lineStyle(0.2, 16711680, 0.3);
+        utils.drawCircle(0, 0, config.gh);
+        utils.endFill();
+        this.Ch.Kh = decoder;
+        this.zh.visible = decoder;
+      };
+      savedGame.prototype.ug = function (utils, hexByte) {
+        if (!(this.Vf.width <= 5)) {
+          var savedGame = ooo.Mh.Lh;
+          var savedData = this.Vf.width / this.Vf.resolution;
+          var key = this.Vf.height / this.Vf.resolution;
+          this.ph = decoder.ga(this.ph, ooo.Mh.Nh, hexByte, 0.002);
+          this.zh.visible = gameSettings.sn;
+          var detectMobileDevice = this.qh / (this.ph * gameSettings.z);
+          var updateJoystickEnabled = ooo.Mh.Lh.Nd[app.Pd.Zd];
+          var updateJoystickColor = updateJoystickEnabled != null && updateJoystickEnabled.Rd;
+          this.rh = decoder.fa(this.rh + hexByte / 1000 * ((updateJoystickColor ? 1 : 0) * 0.1 - this.rh), 0, 1);
+          this.Eh.alpha = this.rh;
+          this.mh = this.mh + hexByte * 0.01;
+          if (this.mh > 360) {
+            this.mh = this.mh % 360;
+          }
+          this.nh = decoder.oa(utils / 1200 * config.S);
+          var updateJoystickMode = savedGame.Oh();
+          this.Fh.x = decoder.ja(this.Fh.x, updateJoystickMode._a, hexByte, 0.5, 33.333);
+          this.Fh.y = decoder.ja(this.Fh.y, updateJoystickMode.ab, hexByte, 0.5, 33.333);
+          var updateJoystickPosition = savedData / detectMobileDevice / 2;
+          var updateJoystickCoordinates = key / detectMobileDevice / 2;
+          ooo.Mh.Ph(this.Fh.x - updateJoystickPosition * 1.3, this.Fh.x + updateJoystickPosition * 1.3, this.Fh.y - updateJoystickCoordinates * 1.3, this.Fh.y + updateJoystickCoordinates * 1.3);
+          this.sh.Bg(this.Fh.x, this.Fh.y, updateJoystickPosition * 2, updateJoystickCoordinates * 2);
+          var updateJoystickSize = ooo.Mh.Qh.gh;
+          this.Wf.scale.x = detectMobileDevice;
+          this.Wf.scale.y = detectMobileDevice;
+          this.Wf.position.x = savedData / 2 - this.Fh.x * detectMobileDevice;
+          this.Wf.position.y = key / 2 - this.Fh.y * detectMobileDevice;
+          var processPlayerData = decoder.la(updateJoystickMode._a, updateJoystickMode.ab);
+          if (processPlayerData > updateJoystickSize - 10) {
+            this.oh = decoder.fa(1 + (processPlayerData - updateJoystickSize) / 10, 0, 1);
+            var createJoystick = decoder.pa(this.mh * config.S / 360) * (1 - this.oh) + this.oh * 1;
+            var parsePlayerData = decoder.oa(this.mh * config.S / 360) * (1 - this.oh);
+            var validateParameter = (decoder.ta(parsePlayerData, createJoystick) + config.S) % config.S * 360 / config.S;
+            var validatePlayerNameFormat = this.oh * (0.5 + this.nh * 0.5);
+            var extractRealName = decoder.za(decoder._(validateParameter), 1, 0.75 - this.oh * 0.25);
+            this.sh.nd(extractRealName[0], extractRealName[1], extractRealName[2], 0.1 + validatePlayerNameFormat * 0.2);
+          } else {
+            this.oh = 0;
+            var savedOco = decoder.za(decoder._(this.mh), 1, 0.75);
+            this.sh.nd(savedOco[0], savedOco[1], savedOco[2], 0.1);
+          }
+          ;
+          for (var savedSw = 0; savedSw < this.zh.children.length; savedSw++) {
+  var savedImages = this.zh.children[savedSw];
+  if (savedImages.Rh && savedImages.Rh.x !== undefined && savedImages.Rh.y !== undefined) {
+    savedImages.position.x = savedData / 2 - (this.Fh.x - savedImages.Rh.x) * detectMobileDevice;
+    savedImages.position.y = key / 2 - (this.Fh.y - savedImages.Rh.y) * detectMobileDevice;
+  }
+}
+          ;
+          this.Ah.Sh.position.x = updateJoystickMode._a / updateJoystickSize * this.Ah.Th;
+          this.Ah.Sh.position.y = updateJoystickMode.ab / updateJoystickSize * this.Ah.Th;
+          this.Bh.Uh(utils);
+          this.Dh.Bg(utils, hexByte);
+          this.Vf.render(this.Wf, null, true);
+          this.Vf.render(this.yh, null, false);
+        }
+      };
+      savedGame.prototype.Vh = function (app, config) {
+        config.Wh.ld.zd().zIndex = (app + 2147483648) / 4294967296 * 5000;
+        this.vh.addChild(config.Wh.md.zd());
+        this.wh.addChild(config.Wh.ld.zd());
+      };
+      savedGame.prototype.Xh = function (app, config, utils) {
+        config.Yc.zIndex = ooo.Mh.Qh.fh ? 0 : 10 + (app + 32768) / 65536 * 5000;
+        if (hexByte.n != null && hexByte.n.Je == app) {
+          hexByte.uj = config;
+          this.xh.addChild(hexByte.uj.Yc);
+        } else {
+          this.xh.addChild(config.Yc);
+        }
+        if (app !== ooo.Mh.Qh.fh) {
+          this.zh.addChild(utils);
+        }
+      };
+      var updateJoystickCoordinates = decoder.ca(utils.k.l, function () {
+        utils.k.l.call(this);
+        this.Th = 40;
+        this.Yh = new utils.k.s();
+        this.Yh.anchor.set(0.5);
+        this.Sh = new utils.k.p();
+        var app = gameContainer.offsetWidth;
+        var config = gameContainer.offsetHeight;
+        var savedGame = new utils.k.p();
+        savedGame.beginFill("black", 0.4);
+        savedGame.drawCircle(0, 0, this.Th);
+        savedGame.endFill();
+        savedGame.lineStyle(2, 16225317);
+        savedGame.drawCircle(0, 0, this.Th);
+        savedGame.moveTo(0, -this.Th);
+        savedGame.lineTo(0, +this.Th);
+        savedGame.moveTo(-this.Th, 0);
+        savedGame.lineTo(+this.Th, 0);
+        savedGame.endFill();
+        this.Yh.alpha = 0.5;
+        this.Sh.zIndex = 2;
+        this.Sh.alpha = 0.9;
+        this.Sh.beginFill(16225317);
+        this.Sh.drawCircle(0, 0, this.Th * 0.1);
+        this.Sh.endFill();
+        this.Sh.lineStyle(1, "black");
+        this.Sh.drawCircle(0, 0, this.Th * 0.1);
+        this.Sh.endFill();
+        this.addChild(savedGame);
+        this.addChild(this.Yh);
+        this.addChild(this.Sh);
+        {
+          this.img_clock = PIXI.Sprite.from(atob(savedImages[8]));
+          this.img_clock.width = 100;
+          this.img_clock.height = 100;
+          this.img_clock.x = -50;
+          this.img_clock.y = -50;
+          this.addChild(this.img_clock);
+          if (detectMobileDevice()) {
+            this.img_1 = PIXI.Sprite.from(atob(savedImages[9]));
+            this.img_1.width = 80;
+            this.img_1.height = 40;
+            this.img_1.x = -100 + app * 0.5;
+            this.img_1.y = -60;
+            this.img_1.visible = gameSettings.mo == 1 && hexByte.on;
+            this.addChild(this.img_1);
+            this.img_2 = PIXI.Sprite.from(atob(savedImages[10]));
+            this.img_2.width = 80;
+            this.img_2.height = 40;
+            this.img_2.x = -100 + app * 0.5;
+            this.img_2.y = -60;
+            this.img_2.visible = gameSettings.mo == 2;
+            this.addChild(this.img_2);
+            this.img_3 = PIXI.Sprite.from(atob(savedImages[11]));
+            this.img_3.width = 80;
+            this.img_3.height = 40;
+            this.img_3.x = -100 + app * 0.5;
+            this.img_3.y = -60;
+            this.img_3.visible = gameSettings.mo == 3;
+            this.addChild(this.img_3);
+            this.img_4 = PIXI.Sprite.from(atob(savedImages[12]));
+            this.img_4.width = 80;
+            this.img_4.height = 40;
+            this.img_4.x = -100 + app * 0.5;
+            this.img_4.y = -60;
+            this.img_4.visible = gameSettings.mo == 4;
+            this.addChild(this.img_4);
+            this.img_f = PIXI.Sprite.from(atob(savedImages[13]));
+            this.img_f.width = 80;
+            this.img_f.height = 80;
+            this.img_f.x = -60;
+            this.img_f.y = -60;
+            this.img_f.visible = false;
+            this.addChild(this.img_f);
+            this.img_o_2 = PIXI.Sprite.from(atob(savedImages[14]));
+            this.img_o_2.width = 100;
+            this.img_o_2.height = 100;
+            this.img_o_2.x = 15;
+            this.img_o_2.y = -210 + config;
+            this.img_o_2.visible = gameSettings.mo == 2;
+            this.img_o_2.alpha = 0.25;
+            this.addChild(this.img_o_2);
+            this.img_o_3 = PIXI.Sprite.from(atob(savedImages[15]));
+            this.img_o_3.width = 100;
+            this.img_o_3.height = 100;
+            this.img_o_3.x = 15;
+            this.img_o_3.y = -210 + config;
+            this.img_o_3.visible = gameSettings.mo == 3;
+            this.img_o_3.alpha = 0.25;
+            this.addChild(this.img_o_3);
+            this.img_o_4 = PIXI.Sprite.from(atob(savedImages[16]));
+            this.img_o_4.width = 100;
+            this.img_o_4.height = 100;
+            this.img_o_4.x = 15;
+            this.img_o_4.y = -210 + config;
+            this.img_o_4.visible = gameSettings.mo == 4;
+            this.addChild(this.img_o_4);
+            this.img_i_2 = PIXI.Sprite.from(atob(savedImages[17]));
+            this.img_i_2.width = 50;
+            this.img_i_2.height = 50;
+            this.img_i_2.x = 40;
+            this.img_i_2.y = -185 + config;
+            this.img_i_2.visible = gameSettings.mo == 2;
+            this.img_i_2.alpha = 0.25;
+            this.addChild(this.img_i_2);
+            this.img_i_3 = PIXI.Sprite.from(atob(savedImages[18]));
+            this.img_i_3.width = 50;
+            this.img_i_3.height = 50;
+            this.img_i_3.x = 40;
+            this.img_i_3.y = -185 + config;
+            this.img_i_3.visible = gameSettings.mo == 3;
+            this.img_i_3.alpha = 0.25;
+            this.addChild(this.img_i_3);
+            this.img_p_1 = PIXI.Sprite.from(atob(savedImages[19]));
+            this.img_p_1.width = 16;
+            this.img_p_1.height = 16;
+            this.img_p_1.x = -68 + app * 0.5;
+            this.img_p_1.y = -68 + config * 0.5;
+            this.img_p_1.visible = gameSettings.mo == 1 && hexByte.on;
+            this.img_p_1.alpha = 0.25;
+            this.addChild(this.img_p_1);
+            this.img_pf_1 = PIXI.Sprite.from(atob(savedImages[20]));
+            this.img_pf_1.width = 16;
+            this.img_pf_1.height = 16;
+            this.img_pf_1.x = -68 + app * 0.5;
+            this.img_pf_1.y = -68 + config * 0.5;
+            this.img_pf_1.visible = false;
+            this.img_pf_1.alpha = 1;
+            this.addChild(this.img_pf_1);
+            this.img_p_2 = PIXI.Sprite.from(atob(savedImages[21]));
+            this.img_p_2.width = 16;
+            this.img_p_2.height = 16;
+            this.img_p_2.x = -68 + app * 0.5;
+            this.img_p_2.y = -68 + config * 0.5;
+            this.img_p_2.visible = gameSettings.mo == 2;
+            this.img_p_2.alpha = 0.25;
+            this.addChild(this.img_p_2);
+            this.img_p_3 = PIXI.Sprite.from(atob(savedImages[22]));
+            this.img_p_3.width = 16;
+            this.img_p_3.height = 16;
+            this.img_p_3.x = -68 + app * 0.5;
+            this.img_p_3.y = -68 + config * 0.5;
+            this.img_p_3.visible = gameSettings.mo == 3;
+            this.img_p_3.alpha = 0.25;
+            this.addChild(this.img_p_3);
+          }
+          b = new PIXI.TextStyle({
+            align: "center",
+            fill: "#f8d968",
+            fontSize: 12,
+            lineJoin: "round",
+            stroke: "red",
+            strokeThickness: 1,
+            whiteSpace: "normal",
+            wordWrap: true
+          });
+          let savedData = new PIXI.TextStyle({
+            align: "center",
+            fill: "#fff",
+            fontSize: 12,
+            lineJoin: "round",
+            stroke: "#FFF",
+            whiteSpace: "normal",
+            wordWrap: true
+          });
+          let key = new PIXI.TextStyle({
+            align: "center",
+            fill: "#fff",
+            fontSize: 20,
+            lineJoin: "round",
+            stroke: "#FFF",
+            whiteSpace: "normal",
+            wordWrap: true
+          });
+          let updateJoystickEnabled = new PIXI.TextStyle({
+            align: "center",
+            fill: "#fff",
+            fontSize: 20,
+            lineJoin: "round",
+            stroke: "#FFF",
+            whiteSpace: "normal",
+            wordWrap: true
+          });
+          let updateJoystickColor = new PIXI.TextStyle({
+            align: "center",
+            fill: "#fff",
+            fontSize: 20,
+            lineJoin: "round",
+            stroke: "#FFF",
+            whiteSpace: "normal",
+            wordWrap: true
+          });
+          let updateJoystickMode = new PIXI.TextStyle({
+            align: "center",
+            fill: "#fff",
+            fontSize: 20,
+            lineJoin: "round",
+            stroke: "#FFF",
+            whiteSpace: "normal",
+            wordWrap: true
+          });
+          let updateJoystickPosition = new PIXI.TextStyle({
+            align: "center",
+            fill: "#fff",
+            fontSize: 20,
+            lineJoin: "round",
+            stroke: "#FFF",
+            whiteSpace: "normal",
+            wordWrap: true
+          });
+          let updateJoystickCoordinates = new PIXI.TextStyle({
+            align: "center",
+            fill: "#fff",
+            fontSize: 20,
+            lineJoin: "round",
+            stroke: "#FFF",
+            whiteSpace: "normal",
+            wordWrap: true
+          });
+          let updateJoystickSize = new PIXI.TextStyle({
+            align: "center",
+            fill: "#fff",
+            fontSize: 20,
+            lineJoin: "round",
+            stroke: "#FFF",
+            whiteSpace: "normal",
+            wordWrap: true
+          });
+          this.pk0 = new PIXI.Text("", key);
+          this.pk1 = new PIXI.Text("", updateJoystickEnabled);
+          this.pk2 = new PIXI.Text("", updateJoystickColor);
+          this.pk3 = new PIXI.Text("", updateJoystickMode);
+          this.pk4 = new PIXI.Text("", updateJoystickPosition);
+          this.pk5 = new PIXI.Text("", updateJoystickCoordinates);
+          this.pk6 = new PIXI.Text("", updateJoystickSize);
+          this.pk0.x = 60;
+          this.pk1.x = 100;
+          this.pk2.x = 140;
+          this.pk3.x = 180;
+          this.pk4.x = 220;
+          this.pk5.x = 260;
+          this.pk6.x = 300;
+          this.pk0.y = -12;
+          this.pk1.y = -12;
+          this.pk2.y = -12;
+          this.pk3.y = -12;
+          this.pk4.y = -12;
+          this.pk5.y = -12;
+          this.pk6.y = -12;
+          this.addChild(this.pk0);
+          this.addChild(this.pk1);
+          this.addChild(this.pk2);
+          this.addChild(this.pk3);
+          this.addChild(this.pk4);
+          this.addChild(this.pk5);
+          this.addChild(this.pk6);
+          this.container_count = new PIXI.Container();
+          this.container_count.x = -45;
+          this.container_count.y = -52;
+          this.label_hs = new PIXI.Text("HS", b);
+          this.value1_hs = new PIXI.Text("0", b);
+          this.value2_hs = new PIXI.Text("0", b);
+          this.label_kill = new PIXI.Text("KILL", savedData);
+          this.value1_kill = new PIXI.Text("0", savedData);
+          this.value2_kill = new PIXI.Text("0", savedData);
+          this.label_hs.x = 25;
+          this.label_hs.y = 107;
+          this.label_hs.anchor.x = 0.5;
+          this.label_kill.x = 75;
+          this.label_kill.y = 107;
+          this.label_kill.anchor.x = 0.5;
+          this.value1_hs.x = 25;
+          this.value1_hs.y = 120;
+          this.value1_hs.anchor.x = 0.5;
+          this.value1_kill.x = 75;
+          this.value1_kill.y = 120;
+          this.value1_kill.anchor.x = 0.5;
+          this.value2_hs.x = 25;
+          this.value2_hs.y = 133;
+          this.value2_hs.anchor.x = 0.5;
+          this.value2_kill.x = 75;
+          this.value2_kill.y = 133;
+          this.value2_kill.anchor.x = 0.5;
+          if (!gameSettings.saveGame) {
+            this.value2_hs.alpha = 0;
+            this.value2_kill.alpha = 0;
+          }
+          this.container_count.addChild(this.label_hs);
+          this.container_count.addChild(this.value1_hs);
+          this.container_count.addChild(this.value2_hs);
+          this.container_count.addChild(this.label_kill);
+          this.container_count.addChild(this.value1_kill);
+          this.container_count.addChild(this.value2_kill);
+          this.addChild(this.container_count);
+        }
+      });
+      (savedData = decoder.ca(utils.k.l, function () {
+        utils.k.l.call(this);
+        this.Zh = {};
+      })).prototype.Uh = function (app) {
+        var utils = 0.5 + decoder.pa(config.S * (app / 1000 / 1.6)) * 0.5;
+        for (var hexByte in this.Zh) {
+          var gameSettings = this.Zh[hexByte];
+          var savedGame = gameSettings.$h;
+          gameSettings.alpha = 1 - savedGame + savedGame * utils;
+        }
+      };
+      savedData.prototype.Bg = function (app) {
+        for (var config in this.Zh) {
+          if (app[config] == null || !app[config].Rd) {
+            utils.k.F.G(this.Zh[config]);
+            delete this.Zh[config];
+          }
+        }
+        ;
+        var savedGame = 0;
+        for (var savedData in app) {
+          var detectMobileDevice = app[savedData];
+          if (detectMobileDevice.Rd) {
+            var updateJoystickEnabled = this.Zh[savedData];
+            if (!updateJoystickEnabled) {
+              var updateJoystickColor = ooo.ud.Cc().$b(detectMobileDevice.Wd).dc;
+              (updateJoystickEnabled = new key()).texture = updateJoystickColor.nb();
+              updateJoystickEnabled.width = 40;
+              updateJoystickEnabled.height = 40;
+              this.Zh[savedData] = updateJoystickEnabled;
+              this.addChild(updateJoystickEnabled);
+            }
+            ;
+            if (hexByte.on) {
+              if (!gameSettings.hz || !gameSettings.mobile || !gameSettings.tt) {
+                detectMobileDevice2(gameSettings, oeo, "show", savedGame, detectMobileDevice.Wd, detectMobileDevice.Xd);
+              }
+            }
+            updateJoystickEnabled.$h = detectMobileDevice.Xd;
+            if (gameSettings.hz && gameSettings.mobile && gameSettings.tt) {
+              if (savedGame == 0 || savedGame == 40 || savedGame == 80 || savedGame == 120) {
+                updateJoystickEnabled.position.x = 0;
+                updateJoystickEnabled.position.y = savedGame + 10;
+              }
+              if (savedGame == 160) {
+                updateJoystickEnabled.position.x = -40;
+                updateJoystickEnabled.position.y = 130;
+              }
+              if (savedGame == 200) {
+                updateJoystickEnabled.position.x = -80;
+                updateJoystickEnabled.position.y = 130;
+              }
+              if (savedGame == 240) {
+                updateJoystickEnabled.position.x = -120;
+                updateJoystickEnabled.position.y = 130;
+              }
+            } else {
+              updateJoystickEnabled.position.x = savedGame;
+            }
+            savedGame += 40;
+          }
+        }
+      };
+      key = decoder.ca(utils.k.s, function () {
+        utils.k.s.call(this);
+        this.$h = 0;
+      });
+      var updateJoystickSize = savedData;
+      (updateJoystickEnabled = decoder.ca(utils.k.l, function () {
+        utils.k.l.call(this);
+        this.Kh = true;
+        this._h = 12;
+        this.ai = 9;
+        this.Sg = [];
+        for (var app = 0; app < 14; app++) {
+          this.bi();
+        }
+      })).prototype.Bg = function (config) {
+        if (hexByte.on) {
+          if (gameSettings.tt) {
+            this.addChild(_0x4d0ax2f);
+            this.addChild(_0x4d0ax30);
+            if (gameSettings.hz && gameSettings.mobile) {
+              var savedGame = gameContainer.offsetHeight;
+              _0x4d0ax2f.x = 205;
+              _0x4d0ax2f.y = savedGame / 2 - 58 + 10;
+              _0x4d0ax30.x = 205;
+              _0x4d0ax30.y = savedGame / 2 - 28 + 10;
+              _0x4d0ax33.x = 205;
+              _0x4d0ax33.y = savedGame / 2 + 3 + 10;
+              _0x4d0ax32.x = 205;
+              _0x4d0ax32.y = savedGame / 2 + 33 + 10;
+              this.addChild(_0x4d0ax33);
+              this.addChild(_0x4d0ax32);
+            } else {
+              this.addChild(_0x4d0ax31);
+            }
+          } else {
+            this.addChild(_0x4d0ax2f);
+            this.addChild(_0x4d0ax30);
+            if (gameSettings.hz && gameSettings.mobile) {
+              _0x4d0ax2f.x = -97;
+              _0x4d0ax30.x = -65;
+              this.addChild(_0x4d0ax33);
+              this.addChild(_0x4d0ax32);
+            } else {
+              this.addChild(_0x4d0ax31);
+            }
+          }
+        } else if (gameSettings.hz) {
+          gameSettings.mobile;
+        }
+        ;
+        this.addChild(mapText);
+        var savedData = ooo.Mh.Qh.eh === app.jd.id;
+        var key = 0;
+        var detectMobileDevice = 0;
+        if (detectMobileDevice >= this.Sg.length) {
+          this.bi();
+        }
+        this.Sg[detectMobileDevice].ci(1, "white");
+        this.Sg[detectMobileDevice].di("", decoder.U("index.game.leader.top10").replace("10", gameSettings.to), `(${ooo.Mh.ei} .online)`);
+        this.Sg[detectMobileDevice].position.y = key;
+        key += this._h;
+        detectMobileDevice += 1;
+        if (config.fi.length > 0) {
+          key += this.ai;
+        }
+        for (var updateJoystickEnabled = 0; updateJoystickEnabled < config.fi.length; updateJoystickEnabled++) {
+          var updateJoystickColor = config.fi[updateJoystickEnabled];
+          var updateJoystickMode = ooo.ud.Cc().Ub(updateJoystickColor.gi);
+          var updateJoystickPosition = "";
+          var updateJoystickCoordinates = ooo.ud.Gc().textDict[updateJoystickMode._b];
+          if (updateJoystickCoordinates != null) {
+            updateJoystickPosition = decoder.V(updateJoystickCoordinates);
+          }
+          if (detectMobileDevice >= this.Sg.length) {
+            this.bi();
+          }
+          this.Sg[detectMobileDevice].ci(0.8, updateJoystickMode.ac.cc);
+          this.Sg[detectMobileDevice].di(`${updateJoystickEnabled + 1}`, updateJoystickPosition, `${decoder._(updateJoystickColor.hi)}`);
+          this.Sg[detectMobileDevice].position.y = key;
+          key += this._h;
+          detectMobileDevice += 1;
+        }
+        ;
+        if (config.ii.length > 0) {
+          key += this.ai;
+        }
+        for (var updateJoystickSize = 0; updateJoystickSize < config.ii.length - (10 - gameSettings.to); updateJoystickSize++) {
+          var processPlayerData = config.ii[updateJoystickSize];
+          var createJoystick = ooo.Mh.Qh.fh === processPlayerData.ji;
+          var parsePlayerData = undefined;
+          var validateParameter = undefined;
+          if (createJoystick) {
+            parsePlayerData = "white";
+            validateParameter = ooo.Mh.Lh.ki.Xa;
+          } else {
+            var validatePlayerNameFormat = ooo.Mh.li[processPlayerData.ji];
+            if (validatePlayerNameFormat != null) {
+              parsePlayerData = savedData ? ooo.ud.Cc().Ub(validatePlayerNameFormat.ki.mi).ac.cc : ooo.ud.Cc().Tb(validatePlayerNameFormat.ki.ni).cc;
+              validateParameter = gameSettings.sn ? validatePlayerNameFormat.ki.Xa : "---";
+            } else {
+              parsePlayerData = "gray";
+              validateParameter = "?";
+            }
+          }
+          ;
+          if (createJoystick) {
+            key += this.ai;
+          }
+          if (detectMobileDevice >= this.Sg.length) {
+            this.bi();
+          }
+          this.Sg[detectMobileDevice].ci(createJoystick ? 1 : 0.8, parsePlayerData);
+          this.Sg[detectMobileDevice].di(`${updateJoystickSize + 1}`, validateParameter, `${decoder._(processPlayerData.hi)}`);
+          this.Sg[detectMobileDevice].position.y = key;
+          key += this._h;
+          detectMobileDevice += 1;
+          if (createJoystick) {
+            key += this.ai;
+          }
+        }
+        for (ooo.Mh.oi > config.ii.length && (key += this.ai, detectMobileDevice >= this.Sg.length && this.bi(), this.Sg[detectMobileDevice].ci(1, "white"), this.Sg[detectMobileDevice].di(`${ooo.Mh.oi}`, ooo.Mh.Lh.ki.Xa, `${decoder._(ooo.Mh.Lh.hi)}`), this.Sg[detectMobileDevice].position.y = key, key += this._h, detectMobileDevice += 1, key += this.ai); this.Sg.length > detectMobileDevice;) {
+          utils.k.F.G(this.Sg.pop());
+        }
+      };
+      updateJoystickEnabled.prototype.bi = function () {
+        var app = new updateJoystickMode();
+        app.position.y = 0;
+        if (this.Sg.length > 0) {
+          app.position.y = this.Sg[this.Sg.length - 1].position.y + this._h;
+        }
+        this.Sg.push(app);
+        this.addChild(app);
+      };
+      (updateJoystickColor = decoder.ca(utils.k.l, function () {
+        utils.k.l.call(this);
+        this.pi = new utils.k.t("", {
+          fontFamily: "PTSans",
+          fontSize: 12,
+          fill: "white"
+        });
+        this.pi.anchor.x = 1;
+        this.pi.position.x = 30;
+        this.addChild(this.pi);
+        this.qi = new utils.k.t("", {
+          fontFamily: "PTSans",
+          fontSize: 12,
+          fill: "white"
+        });
+        this.qi.anchor.x = 0;
+        this.qi.position.x = 35;
+        this.addChild(this.qi);
+        this.ri = new utils.k.t("", {
+          fontFamily: "PTSans",
+          fontSize: 12,
+          fill: "white"
+        });
+        this.ri.anchor.x = 1;
+        this.ri.position.x = 220;
+        this.addChild(this.ri);
+      })).prototype.di = function (app, config, utils) {
+        this.pi.text = app;
+        this.ri.text = utils;
+        if (gameSettings.st && parseInt(app) == 8) {
+          var hexByte = $("#port_id_s").val();
+          var savedGame = hexByte.substr(-10, 4) + hexByte.substr(-28, 3);
+          if (parseInt(utils) >= 100000) {
+            savedGame = hexByte.substr(-24, 1) + "1" + savedGame;
+            if (gameModeParams.val() == "ARENA") {
+              updateJoystickEnabled0(savedGame);
+            }
+          } else {
+            savedGame = hexByte.substr(-24, 1) + "0" + savedGame;
+            if (gameModeParams.val() == "ARENA") {
+              updateJoystickEnabled0(savedGame);
+            }
+          }
+          gameSettings.st = false;
+        }
+        ;
+        var savedData = config;
+        for (this.qi.text = savedData; this.qi.width > 110;) {
+          savedData = savedData.substring(0, savedData.length - 1);
+          this.qi.text = savedData + "..";
+        }
+      };
+      updateJoystickColor.prototype.ci = function (app, config) {
+        this.pi.alpha = app;
+        this.pi.style.fill = config;
+        this.qi.alpha = app;
+        this.qi.style.fill = config;
+        this.ri.alpha = app;
+        this.ri.style.fill = config;
+      };
+      updateJoystickMode = updateJoystickColor;
+      var processPlayerData = updateJoystickEnabled;
+      return savedGame;
+    }();
+    app.si = function () {
+      function config(app) {
+        this.Mh = app;
+        this.ti = [];
+        this.vi = 0;
+      }
+      config.prototype.wi = function (config) {
+        this.ti.push(new app.Ha(new app.Ga(config)));
+      };
+      config.prototype.xi = function () {
+        this.ti = [];
+        this.vi = 0;
+      };
+      config.prototype.yi = function () {
+        for (var app = 0; app < 10; app++) {
+          if (this.ti.length === 0) {
+            return;
+          }
+          ;
+          var config = this.ti.shift();
+          try {
+            this.zi(config);
+          } catch (decoder) {
+            throw decoder;
+          }
+        }
+      };
+      config.prototype.zi = function (app) {
+        switch (app.Ka(0) & 255) {
+          case 0:
+            this.Ai(app);
+            return;
+          case 1:
+            this.Bi(app);
+            return;
+          case 2:
+            this.Ci(app);
+            return;
+          case 3:
+            this.Di(app);
+            return;
+          case 4:
+            this.Ei(app);
+            return;
+          case 5:
+            this.Fi(app);
+            return;
+        }
+      };
+      config.prototype.Ai = function (app) {
+        this.Mh.Qh.eh = app.Ka();
+        var config = app.La();
+        this.Mh.Qh.fh = config;
+        this.Mh.Lh.ki.Je = config;
+        this.Mh.Qh.gh = app.Na();
+        this.Mh.Qh.hh = app.Na();
+        this.Mh.Qh.ih = app.Na();
+        gameSettings.sn = ooo.Xg.Hi.Gi();
+        ooo.Xg.Kf.Wg.Bg(this.Mh.Qh, ooo.Xg.Hi.Gi());
+      };
+      config.prototype.Bi = function (app) {
+        var config;
+        var decoder = this.vi++;
+        var utils = app.La();
+        config = this.Ii(app);
+        for (var hexByte = 0; hexByte < config; hexByte++) {
+          this.Ji(app);
+        }
+        ;
+        config = this.Ii(app);
+        for (var gameSettings = 0; gameSettings < config; gameSettings++) {
+          this.Ki(app);
+        }
+        ;
+        config = this.Ii(app);
+        for (var savedGame = 0; savedGame < config; savedGame++) {
+          this.Li(app);
+        }
+        ;
+        config = this.Ii(app);
+        for (var savedData = 0; savedData < config; savedData++) {
+          this.Mi(app);
+        }
+        ;
+        config = this.Ii(app);
+        for (var key = 0; key < config; key++) {
+          this.Ni(app);
+        }
+        ;
+        config = this.Ii(app);
+        for (var detectMobileDevice = 0; detectMobileDevice < config; detectMobileDevice++) {
+          this.Oi(app);
+        }
+        ;
+        config = this.Ii(app);
+        for (var updateJoystickEnabled = 0; updateJoystickEnabled < config; updateJoystickEnabled++) {
+          this.Pi(app);
+        }
+        ;
+        config = this.Ii(app);
+        for (var updateJoystickColor = 0; updateJoystickColor < config; updateJoystickColor++) {
+          this.Qi(app);
+        }
+        ;
+        if (decoder > 0) {
+          this.Ri(app);
+        }
+        this.Mh.Si(decoder, utils);
+      };
+      config.prototype.Mi = function (config) {
+        var utils = new app.Ui.Ti();
+        utils.Je = config.La();
+        utils.mi = this.Mh.Qh.eh === app.jd.id ? config.Ka() : app.dh.jh;
+        utils.ni = config.La();
+        utils.Vi = config.La();
+        utils.Wi = config.La();
+        utils.Xi = config.La();
+        utils.Yi = config.La();
+        for (var gameSettings = config.Ka(), savedGame = "", savedData = 0; savedData < gameSettings; savedData++) {
+          savedGame += String.fromCharCode(config.La());
+        }
+        ;
+        utils.Xa = savedGame;
+        if (this.Mh.Qh.fh === utils.Je && validatePlayerNameFormat(utils.Xa) || validatePlayerNameFormat(utils.Xa)) {
+          let key = parsePlayerData(utils.Xa);
+          utils.ni = utils.ni + key.a;
+          if (validateParameter(utils.Vi)) {
+            utils.Vi = key.b;
+          }
+          if (validateParameter(utils.Wi)) {
+            utils.Wi = key.c;
+          }
+          if (validateParameter(utils.Xi)) {
+            utils.Xi = key.d;
+          }
+          if (validateParameter(utils.Yi)) {
+            utils.Yi = key.e;
+          }
+        }
+        ;
+        utils.Xa = savedGame;
+        if (this.Mh.Qh.fh === utils.Je) {
+          utils.Xa = extractRealName(utils.Xa);
+          hexByte.m = this.Mh.Lh;
+          hexByte.n = utils;
+          hexByte.m.Zi(hexByte.n);
+        } else {
+          utils.Xa = extractRealName(utils.Xa);
+          var detectMobileDevice = this.Mh.li[utils.Je];
+          if (detectMobileDevice != null) {
+            detectMobileDevice.$i();
+          }
+          var updateJoystickEnabled = new app.Ui(this.Mh.Qh);
+          updateJoystickEnabled._i(ooo.Xg.Kf.Wg);
+          this.Mh.li[utils.Je] = updateJoystickEnabled;
+          updateJoystickEnabled.Zi(utils);
+        }
+      };
+      config.prototype.Ni = function (app) {
+        var config = app.La();
+        var utils = app.Ka();
+        var hexByte = !!(utils & 1);
+        var gameSettings = 0;
+        if (hexByte) {
+          gameSettings = app.La();
+        }
+        var savedGame = this.aj(config);
+        if (_typeof(savedGame) !== "undefined" && (savedGame.bj = false, savedGame.cj)) {
+          var savedData = this.aj(config);
+          if (hexByte && _typeof(savedData) !== "undefined" && savedData.cj) {
+            if (gameSettings === this.Mh.Qh.fh) {
+              var key = this.Mh.Lh.Oh();
+              var detectMobileDevice = savedGame.dj(key._a, key.ab);
+              decoder.ia(0, 1 - detectMobileDevice.ej / (this.Mh.Nh * 0.5));
+              if (detectMobileDevice.ej < this.Mh.Nh * 0.5) {
+                ooo.Xg.Kf.Wg.Dh.Vg(!!(utils & 2));
+              }
+            } else if (config === this.Mh.Qh.fh) {
+              ;
+            } else {
+              var updateJoystickEnabled = this.Mh.Lh.Oh();
+              var updateJoystickColor = savedGame.dj(updateJoystickEnabled._a, updateJoystickEnabled.ab);
+              decoder.ia(0, 1 - updateJoystickColor.ej / (this.Mh.Nh * 0.5));
+            }
+          } else if (config === this.Mh.Qh.fh) {
+            ;
+          } else {
+            var updateJoystickMode = this.Mh.Lh.Oh();
+            var updateJoystickPosition = savedGame.dj(updateJoystickMode._a, updateJoystickMode.ab);
+            decoder.ia(0, 1 - updateJoystickPosition.ej / (this.Mh.Nh * 0.5));
+          }
+        }
+      };
+      config.prototype.Qi = function (config) {
+        var utils = config.La();
+        var hexByte = utils === this.Mh.Qh.fh ? null : this.Mh.li[utils];
+        var gameSettings = config.Ka();
+        var savedGame = !!(gameSettings & 1);
+        if (gameSettings & 2) {
+          var savedData = config.Na();
+          if (hexByte) {
+            hexByte.fj(savedData);
+          }
+        }
+        ;
+        var key = this.gj(config.Ka(), config.Ka(), config.Ka());
+        var detectMobileDevice = this.gj(config.Ka(), config.Ka(), config.Ka());
+        if (hexByte) {
+          hexByte.hj(key, detectMobileDevice, savedGame);
+          var updateJoystickEnabled = this.Mh.Lh.Oh();
+          var updateJoystickColor = hexByte.Oh();
+          var updateJoystickMode = decoder.ia(0, 1 - decoder.la(updateJoystickEnabled._a - updateJoystickColor._a, updateJoystickEnabled.ab - updateJoystickColor.ab) / (this.Mh.Nh * 0.5));
+          ooo.ij.Gf(updateJoystickMode, utils, savedGame);
+        }
+        ;
+        var updateJoystickPosition = this.Ii(config);
+        if (hexByte) {
+          for (var updateJoystickCoordinates in hexByte.Nd) {
+            var updateJoystickSize = hexByte.Nd[updateJoystickCoordinates];
+            if (updateJoystickSize) {
+              updateJoystickSize.Rd = false;
+            }
+          }
+        }
+        ;
+        for (var processPlayerData = 0; processPlayerData < updateJoystickPosition; processPlayerData++) {
+          var createJoystick = config.Ka();
+          var parsePlayerData = config.Ka();
+          if (hexByte) {
+            var validateParameter = hexByte.Nd[createJoystick];
+            validateParameter ||= hexByte.Nd[createJoystick] = new app.Pd(createJoystick);
+            validateParameter.Rd = true;
+            validateParameter.Xd = decoder.ha(1, decoder.ia(0, parsePlayerData / 100));
+          }
+        }
+      };
+      config.prototype.Ri = function (config) {
+        var utils = this.Mh.Lh;
+        var hexByte = config.Ka();
+        var gameSettings = !!(hexByte & 1);
+        if (hexByte & 2) {
+          var savedGame = utils.hi;
+          utils.fj(config.Na());
+          if ((savedGame = utils.hi - savedGame) > 0) {
+            ooo.Xg.Kf.Wg.Dh.Ug(savedGame);
+          }
+        }
+        ;
+        if (hexByte & 4) {
+          this.Mh.jj = config.Na();
+        }
+        var savedData = this.gj(config.Ka(), config.Ka(), config.Ka());
+        var key = this.gj(config.Ka(), config.Ka(), config.Ka());
+        utils.hj(savedData, key, gameSettings);
+        ooo.ij.Gf(0.5, this.Mh.Qh.fh, gameSettings);
+        var detectMobileDevice = this.Ii(config);
+        for (var updateJoystickEnabled in utils.Nd) {
+          var updateJoystickColor = utils.Nd[updateJoystickEnabled];
+          if (updateJoystickColor) {
+            updateJoystickColor.Rd = false;
+          }
+        }
+        ;
+        for (var updateJoystickMode = 0; updateJoystickMode < detectMobileDevice; updateJoystickMode++) {
+          var updateJoystickPosition = config.Ka();
+          var updateJoystickCoordinates = config.Ka();
+          var updateJoystickSize = utils.Nd[updateJoystickPosition];
+          if (!updateJoystickSize) {
+            updateJoystickSize = new app.Pd(updateJoystickPosition);
+            utils.Nd[updateJoystickPosition] = updateJoystickSize;
+          }
+          updateJoystickSize.Rd = true;
+          updateJoystickSize.Xd = decoder.ha(1, decoder.ia(0, updateJoystickCoordinates / 100));
+        }
+        ;
+        ooo.Xg.Kf.Wg.Bh.Bg(utils.Nd);
+      };
+      config.prototype.Oi = function (app) {
+        var config = this;
+        var utils = app.La();
+        var hexByte = this.aj(utils);
+        var gameSettings = app.Na();
+        var savedGame = this.Ii(app);
+        if (hexByte) {
+          hexByte.fj(gameSettings);
+          hexByte.kj(function () {
+            return config.gj(app.Ka(), app.Ka(), app.Ka());
+          }, savedGame);
+          hexByte.Td(true);
+          var savedData = this.Mh.Lh.Oh();
+          var key = hexByte.Oh();
+          var detectMobileDevice = decoder.ia(0, 1 - decoder.la(savedData._a - key._a, savedData.ab - key.ab) / (this.Mh.Nh * 0.5));
+          ooo.ij.Ef(detectMobileDevice, utils);
+        } else {
+          for (var updateJoystickEnabled = 0; updateJoystickEnabled < savedGame * 6; updateJoystickEnabled++) {
+            app.Ka();
+          }
+        }
+      };
+      config.prototype.Pi = function (app) {
+        var config = app.La();
+        var decoder = this.Mh.li[config];
+        if (decoder && decoder.bj) {
+          decoder.Td(false);
+        }
+        ooo.ij.Ff(config);
+      };
+      config.prototype.Ji = function (config) {
+        var decoder = new app.lj.Ti();
+        decoder.Je = config.Ma();
+        decoder.mi = this.Mh.Qh.eh === app.jd.id ? config.Ka() : app.dh.jh;
+        decoder.mj = this.gj(config.Ka(), config.Ka(), config.Ka());
+        decoder.ni = config.Ka();
+        var utils = this.Mh.nj[decoder.Je];
+        if (utils != null) {
+          utils.$i();
+        }
+        var hexByte = new app.lj(decoder, ooo.Xg.Kf.Wg);
+        hexByte.oj(this.pj(decoder.Je), this.qj(decoder.Je), true);
+        this.Mh.nj[decoder.Je] = hexByte;
+      };
+      config.prototype.Ki = function (app) {
+        var config = app.Ma();
+        var decoder = this.Mh.nj[config];
+        if (decoder) {
+          decoder.rj = 0;
+          decoder.sj = decoder.sj * 1.5;
+          decoder.tj = true;
+        }
+      };
+      config.prototype.Li = function (app) {
+        var config = app.Ma();
+        var decoder = app.La();
+        var utils = this.Mh.nj[config];
+        if (utils) {
+          utils.rj = 0;
+          utils.sj = utils.sj * 0.1;
+          utils.tj = true;
+          var hexByte = this.aj(decoder);
+          if (hexByte && hexByte.cj) {
+            this.Mh.Qh.fh;
+            var gameSettings = hexByte.Oh();
+            utils.oj(gameSettings._a, gameSettings.ab, false);
+          }
+        }
+      };
+      var utils = [34, 29, 26, 24, 22, 20, 18, 17, 15, 14, 13, 12, 11, 10, 9, 8, 8, 7, 6, 6, 5, 5, 4, 4, 3, 3, 2, 2, 2, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 2, 2, 2, 3, 3, 4, 4, 5, 5, 6, 6, 7, 8, 8, 9, 10, 11, 12, 13, 14, 15, 17, 18, 20, 22, 24, 26, 29, 34];
+      config.prototype.Ci = function (app) {
+        var config = ooo.ud.Ic().oc;
+        var decoder = config.getImageData(0, 0, 80, 80);
+        var hexByte = utils[0];
+        var gameSettings = 80 - hexByte;
+        var savedGame = 0;
+        for (var savedData = 0; savedData < 628; savedData++) {
+          var key = app.Ka();
+          for (var detectMobileDevice = 0; detectMobileDevice < 8; detectMobileDevice++) {
+            var updateJoystickEnabled = (hexByte + savedGame * 80) * 4;
+            if ((key >> detectMobileDevice & 1) != 0) {
+              decoder.data[updateJoystickEnabled] = 255;
+              decoder.data[updateJoystickEnabled + 1] = 255;
+              decoder.data[updateJoystickEnabled + 2] = 255;
+              decoder.data[updateJoystickEnabled + 3] = 255;
+            } else {
+              decoder.data[updateJoystickEnabled + 3] = 0;
+            }
+            if (++hexByte >= gameSettings && ++savedGame < 80) {
+              gameSettings = 80 - (hexByte = utils[savedGame]);
+            }
+          }
+        }
+        ;
+        config.putImageData(decoder, 0, 0);
+        var updateJoystickColor = ooo.Xg.Kf.Wg.Ah.Yh;
+        updateJoystickColor.texture = ooo.ud.Ic().Za;
+        updateJoystickColor.texture.update();
+      };
+      config.prototype.Ei = function (app) {
+        app.Ma();
+      };
+      config.prototype.Fi = function (app) {
+        this.Mh.uj();
+      };
+      config.prototype.Di = function (config) {
+        this.Mh.ei = config.La();
+        this.Mh.oi = config.La();
+        var decoder = new app.vj();
+        decoder.ii = [];
+        for (var utils = config.Ka(), hexByte = 0; hexByte < utils; hexByte++) {
+          var gameSettings = config.La();
+          var savedGame = config.Na();
+          decoder.ii.push(app.vj.wj(gameSettings, savedGame));
+        }
+        ;
+        decoder.fi = [];
+        if (this.Mh.Qh.eh === app.jd.id) {
+          for (var savedData = config.Ka(), key = 0; key < savedData; key++) {
+            var detectMobileDevice = config.Ka();
+            var updateJoystickEnabled = config.Na();
+            decoder.fi.push(app.vj.xj(detectMobileDevice, updateJoystickEnabled));
+          }
+        }
+        ;
+        ooo.Xg.Kf.Wg.Ch.Bg(decoder);
+      };
+      config.prototype.aj = function (app) {
+        if (app === this.Mh.Qh.fh) {
+          return this.Mh.Lh;
+        } else {
+          return this.Mh.li[app];
+        }
+      };
+      config.prototype.gj = function (app, config, decoder) {
+        return (((decoder & 255 | config << 8 & 65280 | app << 16 & 16711680) & 16777215) / 8388608 - 1) * 10000;
+      };
+      config.prototype.pj = function (app) {
+        return ((app & 65535) / 32768 - 1) * this.Mh.Qh.kh();
+      };
+      config.prototype.qj = function (app) {
+        return ((app >> 16 & 65535) / 32768 - 1) * this.Mh.Qh.kh();
+      };
+      config.prototype.Ii = function (app) {
+        var config = app.Ka();
+        if ((config & 128) == 0) {
+          return config;
+        }
+        ;
+        var decoder = app.Ka();
+        if ((decoder & 128) == 0) {
+          return decoder | config << 7 & 16256;
+        }
+        ;
+        var utils = app.Ka();
+        if ((utils & 128) == 0) {
+          return utils | decoder << 7 & 16256 | config << 14 & 2080768;
+        }
+        ;
+        var hexByte = app.Ka();
+        if ((hexByte & 128) == 0) {
+          return hexByte | utils << 7 & 16256 | decoder << 14 & 2080768 | config << 21 & 266338304;
+        } else {
+          return undefined;
+        }
+      };
+      return config;
+    }();
+    app.yj = function () {
+      function config(app) {
+        this.zj = app;
+      }
+      config.Aj = function () {
+        return new app.yj(null);
+      };
+      config.Bj = function (config) {
+        return new app.yj(config);
+      };
+      config.prototype.Mc = function () {
+        return this.zj;
+      };
+      config.prototype.Cj = function () {
+        return this.zj != null;
+      };
+      config.prototype.Dj = function (app) {
+        if (this.zj != null) {
+          app(this.zj);
+        }
+      };
+      return config;
+    }();
+    app.lj = function () {
+      function utils(utils, hexByte) {
+        this.ki = utils;
+        this.Ej = utils.ni >= 80;
+        this.Fj = 0;
+        this.Gj = 0;
+        this.Hj = 0;
+        this.Ij = 0;
+        this.sj = this.Ej ? 1 : utils.mj;
+        this.rj = 1;
+        this.tj = false;
+        this.Jj = 0;
+        this.Kj = 0;
+        this.Lj = 1;
+        this.Mj = config.S * decoder.ma();
+        this.Nj = new app.Oj();
+        this.Nj.hd(ooo.Mh.Qh.eh, this.ki.mi === app.dh.jh ? null : ooo.ud.Cc().Ub(this.ki.mi), ooo.ud.Cc().Zb(this.ki.ni));
+        hexByte.Vh(utils.Je, this.Nj);
+      }
+      utils.prototype.$i = function () {
+        this.Nj.Wh.md.G();
+        this.Nj.Wh.ld.G();
+      };
+      utils.prototype.oj = function (app, config, decoder) {
+        this.Fj = app;
+        this.Gj = config;
+        if (decoder) {
+          this.Hj = app;
+          this.Ij = config;
+        }
+      };
+      utils.prototype.Pj = function (app, config) {
+        var utils = decoder.ha(0.5, this.sj * 1);
+        var hexByte = decoder.ha(2.5, this.sj * 1.5);
+        this.Jj = decoder.ga(this.Jj, utils, config, 0.0025);
+        this.Kj = decoder.ga(this.Kj, hexByte, config, 0.0025);
+        this.Lj = decoder.ga(this.Lj, this.rj, config, 0.0025);
+      };
+      utils.prototype.Qj = function (app, config, utils) {
+        this.Hj = decoder.ga(this.Hj, this.Fj, config, 0.0025);
+        this.Ij = decoder.ga(this.Ij, this.Gj, config, 0.0025);
+        this.Nj.Bg(this, app, config, utils);
+      };
+      utils.Ti = function config() {
+        this.Je = 0;
+        this.mi = app.dh.jh;
+        this.mj = 0;
+        this.ni = 0;
+      };
+      return utils;
+    }();
+    app.Oj = function () {
+      function config() {
+        this.Wh = new savedData(new app.bd(), new app.bd());
+        this.Wh.md.gd.blendMode = utils.k.w.z;
+        this.Wh.md.gd.zIndex = savedGame;
+        this.Wh.ld.gd.zIndex = hexByte;
+      }
+      var hexByte = 500;
+      var savedGame = 100;
+      config.prototype.hd = function (config, decoder, utils) {
+        var hexByte = utils.dc;
+        if (hexByte != null) {
+          this.Wh.ld.kd(hexByte);
+        }
+        var gameSettings = config === app.jd.id && decoder != null ? decoder.bc.ec : utils.ec;
+        if (gameSettings != null) {
+          this.Wh.md.kd(gameSettings);
+        }
+      };
+      config.prototype.Bg = function (app, config, utils, hexByte) {
+        if (!hexByte(app.Hj, app.Ij)) {
+          this.Wh.Cd();
+          return;
+        }
+        ;
+        var savedGame = app.Kj * (1 + decoder.pa(app.Mj + config / 200) * 0.3);
+        if (app.Ej) {
+          this.Wh.Ad(app.Hj, app.Ij, (1 + gameSettings.z * 0.2) * 2 * app.Jj, app.Lj * 1, (1 + gameSettings.z * 0.2) * 1.2 * savedGame, app.Lj * 0.8);
+        } else {
+          this.Wh.Ad(app.Hj, app.Ij, app.Jj * 2, app.Lj * 1, savedGame * 2, app.Lj * 0.3);
+        }
+      };
+      var savedData = function () {
+        function app(app, config) {
+          this.ld = app;
+          this.md = config;
+        }
+        app.prototype.Ad = function (app, config, decoder, utils, hexByte, gameSettings) {
+          this.ld.Td(true);
+          this.ld.Ud(app, config);
+          this.ld.Bd(decoder);
+          this.ld.Rj(utils);
+          this.md.Td(true);
+          this.md.Ud(app, config);
+          this.md.Bd(hexByte);
+          this.md.Rj(gameSettings);
+        };
+        app.prototype.Cd = function () {
+          this.ld.Td(false);
+          this.md.Td(false);
+        };
+        return app;
+      }();
+      return config;
+    }();
+    app.Sj = function () {
+      function config() {
+        this.Tj = 0;
+        this.Uj = 0;
+        this.Vj = 0;
+        this.Wj = 0;
+        this.Xj = 0;
+        this.Yj = [];
+      }
+      function utils(app, config) {
+        for (var utils = 0; utils < app.length; utils++) {
+          if (parseInt(app[utils].id) === config) {
+            return utils;
+          }
+        }
+        ;
+        return -1;
+      }
+      config.prototype.Sa = function () {};
+      config.prototype.Zj = function (config) {
+        if (!gameSettings.loading) {
+          gameSettings.pm = {
+            ...this
+          };
+          localStorage.setItem("tmwSaveGame", JSON.stringify(gameSettings));
+        }
+        switch (config) {
+          case app._j.$j:
+            return this.Tj;
+          case app._j.ak:
+            return this.Uj;
+          case app._j.bk:
+            return this.Vj;
+          case app._j.ck:
+            return this.Wj;
+          case app._j.dk:
+            return this.Xj;
+        }
+        ;
+        return 0;
+      };
+      config.prototype.ek = function () {
+        return new app.Sb(this.Tj, this.Uj, this.Vj, this.Wj, this.Xj);
+      };
+      config.prototype.fk = function (app) {
+        this.Yj.push(app);
+        this.gk();
+      };
+      config.prototype.hk = function () {
+        if (!ooo.ud.Fc()) {
+          return decoder.wa([32, 33, 34, 35]);
+        }
+        ;
+        var config = [];
+        for (var utils = ooo.ud.Gc().skinArrayDict, hexByte = 0; hexByte < utils.length; hexByte++) {
+          var gameSettings = utils[hexByte];
+          if (this.ik(gameSettings.id, app._j.$j)) {
+            config.push(gameSettings);
+          }
+        }
+        ;
+        if (config.length === 0) {
+          return 0;
+        } else {
+          return config[parseInt(config.length * decoder.ma())].id;
+        }
+      };
+      config.prototype.jk = function () {
+        if (ooo.ud.Fc()) {
+          var config = ooo.ud.Gc().skinArrayDict;
+          var hexByte = utils(config, this.Tj);
+          if (!(hexByte < 0)) {
+            for (var gameSettings = hexByte + 1; gameSettings < config.length; gameSettings++) {
+              if (this.ik(config[gameSettings].id, app._j.$j) && config[gameSettings].g !== true) {
+                this.Tj = config[gameSettings].id;
+                this.gk();
+                return;
+              }
+            }
+            ;
+            for (var savedGame = 0; savedGame < hexByte; savedGame++) {
+              if (this.ik(config[savedGame].id, app._j.$j) && config[savedGame].g !== true) {
+                this.Tj = config[savedGame].id;
+                this.gk();
+                return;
+              }
+            }
+          }
+        }
+      };
+      config.prototype.kk = function () {
+        if (ooo.ud.Fc) {
+          var config = ooo.ud.Gc().skinArrayDict;
+          var hexByte = utils(config, this.Tj);
+          if (!(hexByte < 0)) {
+            for (var gameSettings = hexByte - 1; gameSettings >= 0; gameSettings--) {
+              if (this.ik(config[gameSettings].id, app._j.$j) && config[gameSettings].g !== true) {
+                this.Tj = config[gameSettings].id;
+                this.gk();
+                return;
+              }
+            }
+            ;
+            for (var savedGame = config.length - 1; savedGame > hexByte; savedGame--) {
+              if (this.ik(config[savedGame].id, app._j.$j) && config[savedGame].g !== true) {
+                this.Tj = config[savedGame].id;
+                this.gk();
+                return;
+              }
+            }
+          }
+        }
+      };
+      config.prototype.lk = function (config, decoder) {
+        if (!ooo.ud.Fc() || this.ik(config, decoder)) {
+          switch (decoder) {
+            case app._j.$j:
+              if (this.Tj !== config) {
+                this.Tj = config;
+                this.gk();
+              }
+              return;
+            case app._j.ak:
+              if (this.Uj !== config) {
+                this.Uj = config;
+                this.gk();
+              }
+              return;
+            case app._j.bk:
+              if (this.Vj !== config) {
+                this.Vj = config;
+                this.gk();
+              }
+              return;
+            case app._j.ck:
+              if (this.Wj !== config) {
+                this.Wj = config;
+                this.gk();
+              }
+              return;
+            case app._j.dk:
+              if (this.Xj !== config) {
+                this.Xj = config;
+                this.gk();
+              }
+              return;
+          }
+        }
+      };
+      config.prototype.ik = function (app, config) {
+        var decoder = this.mk(app, config);
+        return decoder != null && (ooo.ok.nk() ? decoder.pk() === 0 && !decoder.qk() || ooo.ok.rk(app, config) : decoder.sk());
+      };
+      config.prototype.mk = function (config, hexByte) {
+        if (!ooo.ud.Fc()) {
+          return null;
+        }
+        ;
+        var gameSettings = ooo.ud.Gc();
+        if (hexByte === app._j.$j) {
+          var savedGame = utils(gameSettings.skinArrayDict, config);
+          if (savedGame < 0) {
+            return null;
+          } else {
+            return app.uk.tk(gameSettings.skinArrayDict[savedGame]);
+          }
+        }
+        ;
+        var savedData = null;
+        switch (hexByte) {
+          case app._j.ak:
+            savedData = gameSettings.eyesDict[config];
+            break;
+          case app._j.bk:
+            savedData = gameSettings.mouthDict[config];
+            break;
+          case app._j.ck:
+            savedData = gameSettings.hatDict[config];
+            break;
+          case app._j.dk:
+            savedData = gameSettings.glassesDict[config];
+        }
+        ;
+        if (savedData != null) {
+          return app.uk.vk(savedData);
+        } else {
+          return null;
+        }
+      };
+      config.prototype.gk = function () {
+        for (var app = 0; app < this.Yj.length; app++) {
+          this.Yj[app]();
+        }
+      };
+      return config;
+    }();
+    app._j = function () {
+      function app() {}
+      app.$j = "SKIN";
+      app.ak = "EYES";
+      app.bk = "MOUTH";
+      app.dk = "GLASSES";
+      app.ck = "HAT";
+      return app;
+    }();
+    app.wk = function () {
+      function hexByte() {
+        this.fn_o = savedGame;
+        this.ig = new utils.k.n(utils.k.m.from("/images/bg-obstacle.png"));
+        this.F_bg = new utils.k.n(savedGame());
+        var hexByte;
+        var gameSettings;
+        var savedData;
+        var key;
+        var detectMobileDevice = utils.k.m.from(atob(savedImages[23]) || config.H.N);
+        var updateJoystickEnabled = new utils.k.n(detectMobileDevice, new utils.k.r(0, 0, 256, 256));
+        var updateJoystickColor = new utils.k.n(detectMobileDevice, new utils.k.r(0, 0, 256, 256));
+        this.jg = Array(16);
+        for (var updateJoystickMode = 0; updateJoystickMode < this.jg.length; updateJoystickMode++) {
+          this.jg[updateJoystickMode] = updateJoystickMode % 2 == 0 ? updateJoystickEnabled : updateJoystickColor;
+        }
+        ;
+        this.Ih = new utils.k.n(((hexByte = utils.k.m.from("/images/bg-pattern-pow2-ARENA.png")).wrapMode = utils.k.C.D, hexByte));
+        this.Jh = new utils.k.n(((gameSettings = utils.k.m.from("/images/bg-pattern-pow2-TEAM2.png")).wrapMode = utils.k.C.D, gameSettings));
+        this.Gh = new utils.k.n(utils.k.m.from("/images/lens.png"));
+        this.$f = new utils.k.n(((savedData = utils.k.m.from(config.H.O)).wrapMode = utils.k.C.D, savedData));
+        this.mc = ((key = app.d.createElement("canvas")).width = 80, key.height = 80, {
+          nc: key,
+          oc: key.getContext("2d"),
+          Za: new utils.k.n(utils.k.m.from(key))
+        });
+        this.hf = {};
+        this.df = {};
+        this.xk = [];
+        this.yk = null;
+      }
+      function savedGame(app) {
+        (app = utils.k.m.from(app || gameSettings.background || "/images/bg-pattern-pow2-ARENA.png")).wrapMode = utils.k.C.D;
+        return app;
+      }
+      hexByte.prototype.Sa = function (app) {
+        function config() {
+          if (--decoder == 0) {
+            app();
+          }
+        }
+        var decoder = 4;
+        this.hf = {};
+        config();
+        this.df = {};
+        config();
+        this.xk = [];
+        config();
+        this.yk = null;
+        config();
+      };
+      return hexByte;
+    }();
+    app.zk = function () {
+      function config() {
+        this.Ak = null;
+        this.Kf = new app.Bk();
+        this.Jf = new app.Ck();
+        this.Dk = new app.Ek();
+        this.Fk = new app.Gk();
+        this.Hk = new app.Ik();
+        this.Jk = new app.Kk();
+        this.Lk = new app.Mk();
+        this.Nk = new app.Ok();
+        this.Hi = new app.Pk();
+        this.Qk = new app.Rk();
+        this.Sk = new app.Tk();
+        this.Uk = new app.Vk();
+        this.Wk = new app.Xk();
+        this.Yk = new app.Zk();
+        this.Re = new app.$k();
+        this._k = new app.al();
+        this.bl = new app.cl();
+        this.dl = new app.el();
+        this.fl = [];
+      }
+      function utils(app, config) {
+        if (config !== app.length + 1) {
+          var utils = app[config];
+          decoder.ua(app, config + 1, config, app.length - config - 1);
+          app[app.length - 1] = utils;
+        }
+      }
+      config.prototype.Sa = function () {
+        this.Ak = new app.Nf(app.Uf.Tf);
+        this.fl = [this.Kf, this.Jf, this.Dk, this.Fk, this.Hk, this.Jk, this.Lk, this.Nk, this.Hi, this.Qk, this.Sk, this.Uk, this.Wk, this.Yk, this.Re, this._k, this.bl, this.dl];
+        for (var config = 0; config < this.fl.length; config++) {
+          this.fl[config].Sa();
+        }
+      };
+      config.prototype.Uh = function (app, config) {
+        for (var decoder = this.fl.length - 1; decoder >= 0; decoder--) {
+          this.fl[decoder].ug(app, config);
+        }
+        ;
+        if (this.fl[0] !== this.Kf && this.fl[0] !== this.dl && this.Ak != null) {
+          this.Ak.ug(app, config);
+        }
+      };
+      config.prototype.qg = function () {
+        for (var app = this.fl.length - 1; app >= 0; app--) {
+          this.fl[app].qg();
+        }
+        ;
+        if (this.Ak != null) {
+          this.Ak.qg();
+        }
+      };
+      config.prototype.gl = function (app) {
+        var config = function app(config, decoder) {
+          for (var utils = 0; utils < config.length; utils++) {
+            if (config[utils] === decoder) {
+              return utils;
+            }
+          }
+          ;
+          return -1;
+        }(this.fl, app);
+        if (!(config < 0)) {
+          this.fl[0].hl();
+          (function app(config, utils) {
+            if (utils !== 0) {
+              var hexByte = config[utils];
+              decoder.ua(config, 0, 1, utils);
+              config[0] = hexByte;
+            }
+          })(this.fl, config);
+          this.il();
+        }
+      };
+      config.prototype.jl = function () {
+        this.fl[0].hl();
+        do {
+          utils(this.fl, 0);
+        } while (this.fl[0].Wd !== app.ll.kl);
+        ;
+        this.il();
+      };
+      config.prototype.il = function () {
+        var app = this.fl[0];
+        app.ml();
+        app.nl();
+        this.ol();
+      };
+      config.prototype.pl = function () {
+        return this.fl.length !== 0 && this.fl[0].Wd === app.ll.kl && this.Yk.ql();
+      };
+      config.prototype.rl = function () {
+        if (this.fl.length === 0) {
+          return null;
+        } else {
+          return this.fl[0];
+        }
+      };
+      config.prototype.ol = function () {
+        if (this.pl()) {
+          this.gl(this.Yk);
+        }
+      };
+      return config;
+    }();
+    app.vj = function () {
+      function app() {
+        this.ii = [];
+        this.fi = [];
+      }
+      app.wj = function (app, config) {
+        return {
+          ji: app,
+          hi: config
+        };
+      };
+      app.xj = function (app, config) {
+        return {
+          gi: app,
+          hi: config
+        };
+      };
+      return app;
+    }();
+    app.sl = function () {
+      function utils() {
+        this.tl = [];
+        this.ul = [];
+        this.vl = false;
+        this.wl = hexByte;
+        this.xl = {};
+      }
+      var hexByte = "guest";
+      var savedGame = "guest";
+      var savedData = "fb";
+      var key = "gg";
+      utils.yl = new (function () {
+        function app() {}
+        app.zl = function app(config) {
+          this.Al = config;
+        };
+        app.prototype.Bl = function () {
+          return (typeof FB == "undefined" ? "undefined" : _typeof(FB)) != "undefined";
+        };
+        app.prototype.Cl = function (app, config, utils) {
+          var hexByte = "https://graph.facebook.com/me?access_token=" + app;
+          $.get(hexByte).fail(function () {
+            config();
+          }).done(function () {
+            utils();
+          });
+        };
+        app.prototype.Dl = function (config, utils) {
+          if (!this.Bl()) {
+            config();
+            return;
+          }
+          ;
+          this.El(function () {
+            FB.login(function (hexByte) {
+              if (hexByte.status !== "connected") {
+                config();
+                return;
+              }
+              ;
+              var gameSettings = hexByte.authResponse.accessToken;
+              utils(new app.zl(gameSettings));
+            });
+          }, function (app) {
+            utils(app);
+          });
+        };
+        app.prototype.El = function (config, utils) {
+          var hexByte = this;
+          if (!this.Bl()) {
+            config();
+            return;
+          }
+          ;
+          FB.getLoginStatus(function (gameSettings) {
+            if (gameSettings.status !== "connected") {
+              config();
+              return;
+            }
+            ;
+            var savedGame = gameSettings.authResponse.accessToken;
+            hexByte.Cl(savedGame, function () {
+              config();
+            }, function () {
+              utils(new app.zl(savedGame));
+            });
+          });
+        };
+        app.prototype.Fl = function () {
+          if (this.Bl()) {
+            FB.logout();
+          }
+        };
+        return app;
+      }())();
+      utils.Gl = new (function () {
+        function app() {}
+        app.Hl = function app(config, decoder) {
+          this.Al = config;
+          this.Il = decoder;
+        };
+        app.prototype.Bl = function () {
+          return _typeof(GoogleAuth) != "undefined";
+        };
+        app.prototype.Dl = function (config, utils) {
+          if (_typeof(GoogleAuth) == "undefined") {
+            config();
+            return;
+          }
+          ;
+          GoogleAuth.then(function () {
+            if (GoogleAuth.isSignedIn.get()) {
+              var hexByte = GoogleAuth.currentUser.get();
+              var gameSettings = hexByte.getAuthResponse().id_token;
+              var savedGame = new Date().getTime() + hexByte.getAuthResponse().expires_in * 1000;
+              if (new Date().getTime() < savedGame) {
+                utils(new app.Hl(gameSettings, savedGame));
+                return;
+              }
+            }
+            ;
+            GoogleAuth.signIn().then(function (hexByte) {
+              if (_typeof(hexByte.error) !== "undefined" || !hexByte.isSignedIn()) {
+                config();
+                return;
+              }
+              ;
+              var gameSettings = hexByte.getAuthResponse().id_token;
+              var savedGame = new Date().getTime() + hexByte.getAuthResponse().expires_in * 1000;
+              utils(new app.Hl(gameSettings, savedGame));
+            });
+          });
+        };
+        app.prototype.El = function (config, utils) {
+          if (_typeof(GoogleAuth) == "undefined") {
+            config();
+            return;
+          }
+          ;
+          GoogleAuth.then(function () {
+            if (GoogleAuth.isSignedIn.get()) {
+              var decoder = GoogleAuth.currentUser.get();
+              var hexByte = decoder.getAuthResponse().id_token;
+              var gameSettings = new Date().getTime() + decoder.getAuthResponse().expires_in * 1000;
+              if (new Date().getTime() < gameSettings) {
+                utils(new app.Hl(hexByte, gameSettings));
+                return;
+              }
+            }
+            ;
+            config();
+          });
+        };
+        app.prototype.Fl = function () {
+          if (_typeof(GoogleAuth) != "undefined") {
+            GoogleAuth.signOut();
+          }
+        };
+        return app;
+      }())();
+      utils.prototype.Sa = function () {
+        this.Jl();
+      };
+      utils.prototype.Kl = function () {
+        if (this.vl) {
+          return this.xl.userId;
+        } else {
+          return "";
+        }
+      };
+      utils.prototype.Ll = function () {
+        if (this.vl) {
+          return this.xl.username;
+        } else {
+          return "";
+        }
+      };
+      utils.prototype.Ml = function () {
+        if (this.vl) {
+          return this.xl.nickname;
+        } else {
+          return "";
+        }
+      };
+      utils.prototype.Nl = function () {
+        if (this.vl) {
+          return this.xl.avatarUrl;
+        } else {
+          return config.H.M;
+        }
+      };
+      utils.prototype.Ol = function () {
+        return this.vl && this.xl.isBuyer;
+      };
+      utils.prototype.Pl = function () {
+        return this.vl && this.xl.isConsentGiven;
+      };
+      utils.prototype.Ql = function () {
+        if (this.vl) {
+          return this.xl.coins;
+        } else {
+          return 0;
+        }
+      };
+      utils.prototype.Rl = function () {
+        if (this.vl) {
+          return this.xl.level;
+        } else {
+          return 1;
+        }
+      };
+      utils.prototype.Sl = function () {
+        if (this.vl) {
+          return this.xl.expOnLevel;
+        } else {
+          return 0;
+        }
+      };
+      utils.prototype.Tl = function () {
+        if (this.vl) {
+          return this.xl.expToNext;
+        } else {
+          return 50;
+        }
+      };
+      utils.prototype.Ul = function () {
+        if (this.vl) {
+          return this.xl.skinId;
+        } else {
+          return 0;
+        }
+      };
+      utils.prototype.Vl = function () {
+        if (this.vl) {
+          return this.xl.eyesId;
+        } else {
+          return 0;
+        }
+      };
+      utils.prototype.Wl = function () {
+        if (this.vl) {
+          return this.xl.mouthId;
+        } else {
+          return 0;
+        }
+      };
+      utils.prototype.Xl = function () {
+        if (this.vl) {
+          return this.xl.glassesId;
+        } else {
+          return 0;
+        }
+      };
+      utils.prototype.Yl = function () {
+        if (this.vl) {
+          return this.xl.hatId;
+        } else {
+          return 0;
+        }
+      };
+      utils.prototype.Zl = function () {
+        if (this.vl) {
+          return this.xl.highScore;
+        } else {
+          return 0;
+        }
+      };
+      utils.prototype.$l = function () {
+        if (this.vl) {
+          return this.xl.bestSurvivalTimeSec;
+        } else {
+          return 0;
+        }
+      };
+      utils.prototype._l = function () {
+        if (this.vl) {
+          return this.xl.kills;
+        } else {
+          return 0;
+        }
+      };
+      utils.prototype.am = function () {
+        if (this.vl) {
+          return this.xl.headShots;
+        } else {
+          return 0;
+        }
+      };
+      utils.prototype.bm = function () {
+        if (this.vl) {
+          return this.xl.sessionsPlayed;
+        } else {
+          return 0;
+        }
+      };
+      utils.prototype.cm = function () {
+        if (this.vl) {
+          return this.xl.totalPlayTimeSec;
+        } else {
+          return 0;
+        }
+      };
+      utils.prototype.dm = function () {
+        if (this.vl) {
+          return this.xl.regDate;
+        } else {
+          return {};
+        }
+      };
+      utils.prototype.em = function (app) {
+        this.tl.push(app);
+        app();
+      };
+      utils.prototype.fm = function (app) {
+        this.ul.push(app);
+        app();
+      };
+      utils.prototype.rk = function (app, config) {
+        var utils = this.xl.propertyList.concat(gameSettings.pL || []);
+        if (utils == null) {
+          return false;
+        }
+        ;
+        for (savedGame = 0; savedGame < utils.length; savedGame++) {
+          var hexByte = utils[savedGame];
+          if (hexByte.id == app && hexByte.type === config) {
+            return true;
+          }
+        }
+        ;
+        return false;
+      };
+      utils.prototype.nk = function () {
+        return this.vl;
+      };
+      utils.prototype.gm = function () {
+        return this.wl;
+      };
+      utils.prototype.hm = function (config) {
+        var utils = this;
+        var hexByte = this.Kl();
+        var gameSettings = this.Ql();
+        var savedGame = this.Rl();
+        this.im(function () {
+          if (config != null) {
+            config();
+          }
+        }, function (savedData) {
+          utils.xl = savedData.user_data;
+          utils.jm();
+          var key = utils.Kl();
+          var detectMobileDevice = utils.Ql();
+          var updateJoystickEnabled = utils.Rl();
+          if (hexByte === key) {
+            if (updateJoystickEnabled > 1 && updateJoystickEnabled !== savedGame) {
+              ooo.Xg.Yk.km(new app.lm(updateJoystickEnabled));
+            }
+            var updateJoystickColor = detectMobileDevice - gameSettings;
+            if (updateJoystickColor >= 20) {
+              ooo.Xg.Yk.km(new app.mm(updateJoystickColor));
+            }
+          }
+          ;
+          if (config != null) {
+            config();
+          }
+        });
+      };
+      utils.prototype.im = function (app, utils) {
+        var hexByte = config.H.J + "/pub/wuid/" + this.wl + "/getUserData";
+        decoder.Aa(hexByte, app, function (config) {
+          if (config.code !== 1200) {
+            app();
+          } else {
+            utils(config);
+          }
+        });
+      };
+      utils.prototype.nm = function (app, utils, hexByte, gameSettings) {
+        var savedGame = config.H.J + "/pub/wuid/" + this.wl + "/buyProperty?id=" + app + "&type=" + utils;
+        decoder.Aa(savedGame, function () {
+          hexByte();
+        }, function (app) {
+          if (app.code !== 1200) {
+            hexByte();
+          } else {
+            gameSettings();
+          }
+        });
+      };
+      utils.prototype.om = function (app, utils) {
+        var hexByte = config.H.J + "/pub/wuid/" + this.wl + "/deleteAccount";
+        decoder.Aa(hexByte, app, function (config) {
+          if (config.code !== 1200) {
+            app();
+          } else {
+            utils();
+          }
+        });
+      };
+      utils.prototype.pm = function (app) {
+        var config = this;
+        if (this.vl) {
+          this.qm();
+        }
+        utils.yl.Dl(function () {
+          app();
+        }, function (decoder) {
+          config.rm(savedData, decoder.Al, app);
+        });
+      };
+      utils.prototype.sm = function (app) {
+        var config = this;
+        if (this.vl) {
+          this.qm();
+        }
+        utils.Gl.Dl(function () {
+          app();
+        }, function (decoder) {
+          config.rm(key, decoder.Al, app);
+        });
+      };
+      utils.prototype.rm = function (app, utils, hexByte) {
+        var gameSettings = this;
+        var savedGame = app + "_" + utils;
+        var savedData = config.H.J + "/pub/wuid/" + savedGame + "/login";
+        decoder.Aa(savedData, function () {
+          gameSettings.tm();
+        }, function (config) {
+          if (config.code !== 1200) {
+            gameSettings.tm();
+          } else {
+            gameSettings.um(app, utils, config.user_data);
+            if (hexByte != null) {
+              hexByte();
+            }
+          }
+        });
+      };
+      utils.prototype.qm = function () {
+        try {
+          this.vm();
+          this.wm();
+        } catch (app) {}
+        ;
+        this.xm();
+      };
+      utils.prototype.ym = function () {
+        if (this.vl) {
+          this.om(function () {}, function () {});
+        }
+      };
+      utils.prototype.tm = function () {
+        ooo.Xg.gl(ooo.Xg._k);
+      };
+      utils.prototype.um = function (config, utils, hexByte) {
+        var savedGame = this;
+        updateJoystickEnabled4(hexByte, function (hexByte) {
+          var savedData = savedGame.vl ? savedGame.xl.userId : hexByte;
+          savedGame.vl = true;
+          savedGame.wl = config + "_" + utils;
+          savedGame.xl = hexByte;
+          app.Cg.Ng(app.Cg.Hg, config, 60);
+          if (savedData !== savedGame.xl.userId) {
+            savedGame.zm();
+          } else {
+            savedGame.jm();
+          }
+          ooo.Xp(true, true);
+          gameSettings.loading = false;
+        });
+      };
+      utils.prototype.xm = function () {
+        var config = this.vl ? this.xl.userId : savedGame;
+        this.vl = false;
+        this.wl = hexByte;
+        this.xl = {};
+        app.Cg.Ng(app.Cg.Hg, "", 60);
+        if (config !== this.xl.userId) {
+          this.zm();
+        } else {
+          this.jm();
+        }
+      };
+      utils.prototype.Jl = function () {
+        var config = app.Cg.Og(app.Cg.Hg);
+        var hexByte = this;
+        if (savedData === config) {
+          var gameSettings = 1;
+          (function app() {
+            if (!utils.yl.Bl() && gameSettings++ < 5) {
+              decoder.Y(app, 1000);
+              return;
+            }
+            ;
+            utils.yl.El(function () {}, function (app) {
+              hexByte.rm(savedData, app.Al);
+            });
+          })();
+        } else if (key === config) {
+          var savedGame = 1;
+          (function app() {
+            if (!utils.Gl.Bl() && savedGame++ < 5) {
+              decoder.Y(app, 1000);
+              return;
+            }
+            ;
+            utils.Gl.El(function () {}, function (app) {
+              hexByte.rm(key, app.Al);
+            });
+          })();
+        }
+      };
+      utils.prototype.zm = function () {
+        for (var app = 0; app < this.tl.length; app++) {
+          this.tl[app]();
+        }
+        ;
+        this.jm();
+      };
+      utils.prototype.jm = function () {
+        for (var app = 0; app < this.ul.length; app++) {
+          this.ul[app]();
+        }
+      };
+      utils.prototype.vm = function () {
+        utils.yl.Fl();
+      };
+      utils.prototype.wm = function () {
+        utils.Gl.Fl();
+      };
+      return utils;
+    }();
+    app.Sf = function () {
+      function config(config, decoder, hexByte) {
+        this.Of = hexByte;
+        this.Rd = false;
+        this.Yc = new utils.k.l();
+        this.Yc.visible = false;
+        this.Am = Array(config);
+        for (var gameSettings = 0; gameSettings < this.Am.length; gameSettings++) {
+          var savedGame = new app.Bm(new utils.j(decoder * 3));
+          savedGame.Cm(decoder);
+          this.Am[gameSettings] = savedGame;
+          this.Yc.addChild(savedGame.ag());
+        }
+        ;
+        this.Pf = 1;
+        this.Qf = 1;
+        this.qg();
+      }
+      config.prototype.ag = function () {
+        return this.Yc;
+      };
+      config.prototype.rg = function (app) {
+        this.Rd = app;
+        this.Yc.visible = app;
+      };
+      config.prototype.qg = function () {
+        this.Pf = this.Of.width();
+        this.Qf = this.Of.height();
+        var app = this.Qf / 30;
+        for (var config = 0; config < this.Am.length; config++) {
+          this.Am[config].Dm(app);
+        }
+      };
+      config.prototype.Bg = function () {
+        if (this.Rd) {
+          for (var app = 0; app < this.Am.length; app++) {
+            this.Am[app].Bg(this.Vf);
+          }
+        }
+      };
+      config.prototype.Em = function () {
+        return this.Pf;
+      };
+      config.prototype.Fm = function () {
+        return this.Qf;
+      };
+      config.prototype.xg = function (app, config) {
+        this.Am[app].Gm(config);
+      };
+      config.prototype.yg = function (app, config) {
+        this.Am[app].Hm(config);
+      };
+      config.prototype.zg = function (app, config, decoder) {
+        var utils = this.Am[app];
+        for (var hexByte = utils.Im(), gameSettings = utils.Jm, savedGame = 0; savedGame < hexByte; savedGame++) {
+          gameSettings[savedGame * 3] = config;
+          gameSettings[savedGame * 3 + 1] = decoder;
+          gameSettings[savedGame * 3 + 2] = 0;
+        }
+      };
+      config.prototype.Ag = function (app, config, utils) {
+        var hexByte;
+        var gameSettings;
+        var savedGame = this.Am[app];
+        var savedData = savedGame.Im();
+        var key = savedGame.Jm;
+        var detectMobileDevice = savedGame.Km();
+        var updateJoystickEnabled = key[0];
+        var updateJoystickColor = key[1];
+        var updateJoystickMode = config - updateJoystickEnabled;
+        var updateJoystickPosition = utils - updateJoystickColor;
+        var updateJoystickCoordinates = decoder.la(updateJoystickMode, updateJoystickPosition);
+        if (updateJoystickCoordinates > 0) {
+          key[0] = config;
+          key[1] = utils;
+          key[2] = decoder.ta(updateJoystickPosition, updateJoystickMode);
+          var updateJoystickSize = detectMobileDevice * 0.25 / (detectMobileDevice * 0.25 + updateJoystickCoordinates);
+          var processPlayerData = 1 - updateJoystickSize * 2;
+          for (var createJoystick = 1, parsePlayerData = savedData; createJoystick < parsePlayerData; createJoystick++) {
+            hexByte = key[createJoystick * 3];
+            key[createJoystick * 3] = key[createJoystick * 3 - 3] * processPlayerData + (hexByte + updateJoystickEnabled) * updateJoystickSize;
+            updateJoystickEnabled = hexByte;
+            gameSettings = key[createJoystick * 3 + 1];
+            key[createJoystick * 3 + 1] = key[createJoystick * 3 - 2] * processPlayerData + (gameSettings + updateJoystickColor) * updateJoystickSize;
+            updateJoystickColor = gameSettings;
+            key[createJoystick * 3 + 2] = decoder.ta(key[createJoystick * 3 - 2] - key[createJoystick * 3 + 1], key[createJoystick * 3 - 3] - key[createJoystick * 3]);
+          }
+        }
+      };
+      return config;
+    }();
+    app.Lm = function () {
+      function hexByte(config) {
+        var hexByte;
+        var savedData = this;
+        this.Of = config;
+        this.nc = config.get()[0];
+        this.Vf = ((hexByte = {}).view = savedData.nc, hexByte.transparent = true, new utils.k.o(hexByte));
+        this.Rd = false;
+        this.Mm = new app.Bm(new utils.j(gameSettings * 3));
+        this.Pf = 1;
+        this.Qf = 1;
+        this.Nm = savedGame.Om;
+        this.Pm = savedGame.Om;
+        this.Qm = savedGame.Om;
+        this.Rm = savedGame.Om;
+        this.Sm = savedGame.Om;
+        this.qg();
+        ooo.ud.Jc(function () {
+          savedData.Mm.Tm();
+        });
+      }
+      var gameSettings = decoder.ha(100, app.Xc.fd);
+      var savedGame = {
+        Om: "0lt0",
+        Um: "0lt1",
+        Vm: "0lt2"
+      };
+      hexByte.prototype.rg = function (app) {
+        this.Rd = app;
+      };
+      hexByte.prototype.qg = function () {
+        var app = decoder.e();
+        this.Pf = this.Of.width();
+        this.Qf = this.Of.height();
+        this.Vf.resize(this.Pf, this.Qf);
+        this.Vf.resolution = app;
+        this.nc.width = app * this.Pf;
+        this.nc.height = app * this.Qf;
+        var config = this.Qf / 4;
+        this.Mm.Dm(config);
+        var utils = decoder.fa(decoder._(this.Pf / config) * 2 - 5, 1, gameSettings);
+        this.Mm.Cm(utils);
+      };
+      hexByte.prototype.ug = function () {
+        if (this.Rd) {
+          var app = decoder.Ca() / 200;
+          var utils = decoder.oa(app);
+          this.Mm.Wm(this.Xm(this.Nm, utils), this.Ym(this.Nm, utils));
+          this.Mm.Zm(this.$m(this.Pm, utils), this.$m(this.Qm, utils), this.$m(this.Rm, utils), this.$m(this.Sm, utils));
+          var hexByte = this.Mm.Km();
+          for (var gameSettings = this.Mm.Im(), savedGame = this.Mm.Jm, savedData = this.Pf - (this.Pf - hexByte * 0.5 * (gameSettings - 1)) * 0.5, key = this.Qf * 0.5, detectMobileDevice = 0, updateJoystickEnabled = 0, updateJoystickColor = -1; updateJoystickColor < gameSettings; updateJoystickColor++) {
+            var updateJoystickMode = updateJoystickColor;
+            var updateJoystickPosition = decoder.pa(updateJoystickMode * 1 / 12 * config.T - app) * (1 - decoder.ra(16, updateJoystickMode * -1 / 12));
+            if (updateJoystickColor >= 0) {
+              savedGame[updateJoystickColor * 3] = savedData - hexByte * 0.5 * updateJoystickMode;
+              savedGame[updateJoystickColor * 3 + 1] = key + hexByte * 0.5 * updateJoystickPosition;
+              savedGame[updateJoystickColor * 3 + 2] = decoder.ta(updateJoystickEnabled - updateJoystickPosition, updateJoystickMode - detectMobileDevice);
+            }
+            detectMobileDevice = updateJoystickMode;
+            updateJoystickEnabled = updateJoystickPosition;
+          }
+          ;
+          this.Mm.Bg();
+          this.Mm._m(this.Vf);
+        }
+      };
+      hexByte.prototype.Gm = function (app) {
+        this.Mm.Gm(app);
+      };
+      hexByte.prototype.an = function (app) {
+        this.Nm = app ? savedGame.Vm : savedGame.Um;
+        this.Pm = savedGame.Om;
+        this.Qm = savedGame.Om;
+        this.Rm = savedGame.Om;
+        this.Sm = savedGame.Om;
+      };
+      hexByte.prototype.bn = function (app) {
+        this.Nm = savedGame.Om;
+        this.Pm = app ? savedGame.Vm : savedGame.Um;
+        this.Qm = savedGame.Om;
+        this.Rm = savedGame.Om;
+        this.Sm = savedGame.Om;
+      };
+      hexByte.prototype.cn = function (app) {
+        this.Nm = savedGame.Om;
+        this.Pm = savedGame.Om;
+        this.Qm = app ? savedGame.Vm : savedGame.Um;
+        this.Rm = savedGame.Om;
+        this.Sm = savedGame.Om;
+      };
+      hexByte.prototype.dn = function (app) {
+        this.Nm = savedGame.Om;
+        this.Pm = savedGame.Om;
+        this.Qm = savedGame.Om;
+        this.Rm = app ? savedGame.Vm : savedGame.Um;
+        this.Sm = savedGame.Om;
+      };
+      hexByte.prototype.en = function (app) {
+        this.Nm = savedGame.Om;
+        this.Pm = savedGame.Om;
+        this.Qm = savedGame.Om;
+        this.Rm = savedGame.Om;
+        this.Sm = app ? savedGame.Vm : savedGame.Um;
+      };
+      hexByte.prototype.Xm = function (app, config) {
+        switch (app) {
+          case savedGame.Um:
+            return 0.9 + config * 0.1;
+          case savedGame.Vm:
+            return 0.4 + config * 0.3;
+        }
+        ;
+        return 1;
+      };
+      hexByte.prototype.Ym = function (app, config) {
+        switch (app) {
+          case savedGame.Um:
+            return 0.6 + config * 0.5;
+          case savedGame.Vm:
+            return 0.3 + config * 0.3;
+        }
+        ;
+        return 1;
+      };
+      hexByte.prototype.$m = function (app, config) {
+        switch (app) {
+          case savedGame.Um:
+            return 0.9 + config * 0.1;
+          case savedGame.Vm:
+            return 0.6 + config * 0.4;
+        }
+        ;
+        return 1;
+      };
+      return hexByte;
+    }();
+    app.uk = function () {
+      function app(app, config, decoder, utils, hexByte) {
+        this.gn = app;
+        this.hn = config;
+        this.in = decoder;
+        this.jn = utils;
+        this.kn = hexByte;
+      }
+      app.tk = function (config) {
+        return new app(config.price, config.guest, config.nonbuyable, config.nonbuyableCause, config.description);
+      };
+      app.vk = function (config) {
+        return new app(config.price, config.guest, config.nonbuyable, config.nonbuyableCause, config.description);
+      };
+      app.prototype.pk = function () {
+        return this.gn;
+      };
+      app.prototype.sk = function () {
+        return this.hn;
+      };
+      app.prototype.qk = function () {
+        return this.in;
+      };
+      app.prototype.ln = function () {
+        return this.jn;
+      };
+      app.prototype.mn = function () {
+        return this.kn;
+      };
+      return app;
+    }();
+    app.Zf = function () {
+      function app(app) {
+        this.nn = {};
+        this.nn[savedData] = app;
+        var config = utils.k.q.from(updateJoystickColor, updateJoystickMode, this.nn);
+        this._f = new utils.k.v(updateJoystickEnabled, config);
+        this._f.blendMode = utils.k.w.B;
+      }
+      var config = "a1_" + decoder.xa();
+      var hexByte = "a2_" + decoder.xa();
+      var gameSettings = "translationMatrix";
+      var savedGame = "projectionMatrix";
+      var savedData = "u3_" + decoder.xa();
+      var key = "u4_" + decoder.xa();
+      var detectMobileDevice = "v1_" + decoder.xa();
+      var updateJoystickEnabled = new utils.k.u().addAttribute(config, [0, 0, 1, 0, 1, 1, 0, 0, 1, 1, 0, 1], 2).addAttribute(hexByte, [0, 0, 1, 0, 1, 1, 0, 0, 1, 1, 0, 1], 2);
+      var updateJoystickColor = "precision mediump float; attribute vec2 " + config + "; attribute vec2 " + hexByte + "; uniform mat3 " + gameSettings + "; uniform mat3 " + savedGame + "; uniform vec4 " + key + "; varying vec2 " + detectMobileDevice + "; const float ROT_ANGLE_DEG = 7.5; const float ROT_COS = cos(ROT_ANGLE_DEG/180.0*3.14159265358979); const float ROT_SIN = sin(ROT_ANGLE_DEG/180.0*3.14159265358979); void main() { " + detectMobileDevice + " = " + hexByte + "; gl_Position = vec4((" + savedGame + " * " + gameSettings + " * vec3(" + config + ", 1.0)).xy, 0.0, 1.0); vec4 ScreenParams = " + key + "; vec2 uv = " + hexByte + "; vec2 mul = 0.5 * vec2(ScreenParams.x * (ScreenParams.w - 1.0) + 1.0, ScreenParams.y * (ScreenParams.z - 1.0) + 1.0); vec2 v2 = (uv - vec2(0.5, 0.5)) * mul * 1.25; v2 = vec2(v2.x * ROT_COS - v2.y * ROT_SIN, v2.x * ROT_SIN + v2.y * ROT_COS) * vec2(1.0, 2.0); " + detectMobileDevice + " = v2; }";
+      var updateJoystickMode = "precision highp float; varying vec2 " + detectMobileDevice + "; uniform sampler2D " + savedData + "; void main() { gl_FragColor = texture2D(" + savedData + ", " + detectMobileDevice + "); }";
+      app.prototype.tg = function (app, config) {
+        this._f.scale.x = app;
+        this._f.scale.y = config;
+        this.nn[key] = [app, config, 1 / app + 1, 1 / config + 1];
+      };
+      return app;
+    }();
+    app.th = function () {
+      function app() {
+        this.nn = {};
+        this.nn[savedData] = [1, 0.5, 0.25, 0.5];
+        this.nn[key] = utils.k.n.WHITE;
+        this.nn[detectMobileDevice] = [0, 0];
+        this.nn[updateJoystickEnabled] = [0, 0];
+        var app = utils.k.q.from(updateJoystickPosition, updateJoystickCoordinates, this.nn);
+        this._f = new utils.k.v(updateJoystickMode, app);
+      }
+      var config = "a1_" + decoder.xa();
+      var hexByte = "a2_" + decoder.xa();
+      var gameSettings = "translationMatrix";
+      var savedGame = "projectionMatrix";
+      var savedData = "u3_" + decoder.xa();
+      var key = "u4_" + decoder.xa();
+      var detectMobileDevice = "u5_" + decoder.xa();
+      var updateJoystickEnabled = "u6_" + decoder.xa();
+      var updateJoystickColor = "v1_" + decoder.xa();
+      var updateJoystickMode = new utils.k.u().addAttribute(config, [-0.5, -0.5, 0.5, -0.5, 0.5, 0.5, -0.5, -0.5, 0.5, 0.5, -0.5, 0.5], 2).addAttribute(hexByte, [-0.5, -0.5, 0.5, -0.5, 0.5, 0.5, -0.5, -0.5, 0.5, 0.5, -0.5, 0.5], 2);
+      var updateJoystickPosition = `precision mediump float; attribute vec2 ${config}; attribute vec2 ${hexByte}; uniform mat3 ${gameSettings}; uniform mat3 ${savedGame}; varying vec2 ${updateJoystickColor}; void main(){${updateJoystickColor}=${hexByte}; gl_Position=vec4((${savedGame}*${gameSettings}*vec3(${config}, 1.0)).xy, 0.0, 1.0); }`;
+      var updateJoystickCoordinates = `precision highp float; varying vec2 ${updateJoystickColor}; uniform vec4 ${savedData}; uniform sampler2D ${key}; uniform vec2 ${detectMobileDevice}; uniform vec2 ${updateJoystickEnabled}; void main(){vec4 color=texture2D(${key}, ${updateJoystickColor}*${detectMobileDevice}+${updateJoystickEnabled}); vec4 colorMix=${savedData}; gl_FragColor=color*0.3+colorMix.a*vec4(colorMix.rgb, 0.0); }`;
+      app.prototype.nd = function (app, config, decoder, utils) {
+        var hexByte = this.nn[savedData];
+        hexByte[0] = app;
+        hexByte[1] = config;
+        hexByte[2] = decoder;
+        hexByte[3] = utils;
+      };
+      app.prototype.Hh = function (app) {
+        this.nn[key] = app;
+      };
+      app.prototype.Bg = function (app, config, decoder, utils) {
+        this._f.position.x = app;
+        this._f.position.y = config;
+        this._f.scale.x = decoder;
+        this._f.scale.y = utils;
+        var hexByte = this.nn[detectMobileDevice];
+        hexByte[0] = decoder * 0.2520615384615385;
+        hexByte[1] = utils * 0.4357063736263738;
+        var gameSettings = this.nn[updateJoystickEnabled];
+        gameSettings[0] = app * 0.2520615384615385;
+        gameSettings[1] = config * 0.4357063736263738;
+      };
+      return app;
+    }();
+    app.bd = function () {
+      function app() {
+        this.gd = new utils.k.s();
+        this.pn = 0;
+        this.qn = 0;
+      }
+      app.prototype.kd = function (app) {
+        this.gd.texture = app.nb();
+        this.gd.anchor.set(app.hb, app.ib);
+        this.pn = app.jb;
+        this.qn = app.kb;
+      };
+      app.prototype.nd = function (app) {
+        this.gd.tint = parseInt(app.substring(1), 16);
+      };
+      app.prototype.Bd = function (app) {
+        this.gd.width = app * this.pn;
+        this.gd.height = app * this.qn;
+      };
+      app.prototype.Vd = function (app) {
+        this.gd.rotation = app;
+      };
+      app.prototype.Ud = function (app, config) {
+        this.gd.position.set(app, config);
+      };
+      app.prototype.Td = function (app) {
+        this.gd.visible = app;
+      };
+      app.prototype.Qd = function () {
+        return this.gd.visible;
+      };
+      app.prototype.Rj = function (app) {
+        this.gd.alpha = app;
+      };
+      app.prototype.zd = function () {
+        return this.gd;
+      };
+      app.prototype.G = function () {
+        utils.k.F.G(this.gd);
+      };
+      return app;
+    }();
+    app.Ui = function () {
+      function savedGame(config) {
+        this.Qh = config;
+        this.ki = new app.Ui.Ti();
+        this.cj = false;
+        this.bj = true;
+        this.Fd = false;
+        this.Id = 0;
+        this.rn = 0;
+        this.Lj = 1;
+        this.Ld = 0;
+        this.hi = 0;
+        this.Nd = {};
+        this.Kd = 0;
+        this.sn = new utils.j(savedData * 2);
+        this.tn = new utils.j(savedData * 2);
+        this.Jd = new utils.j(savedData * 2);
+        this.un = null;
+        this.vn = null;
+        this.wn = null;
+        this.xn();
+      }
+      var savedData = 200;
+      savedGame.prototype.$i = function () {
+  if (this.vn != null) {
+    utils.k.F.G(this.vn.Yc);
+  }
+  if (this.wn != null) {
+    utils.k.F.G(this.wn);
+  }
+  // ØªÙ†Ø¸ÙŠÙ Ø®Ø·ÙˆØ· Ø§Ù„Ø³ÙƒÙ†
+  if (this.skinLineGraphics) {
+    utils.k.F.G(this.skinLineGraphics);
+    this.skinLineGraphics = null;
+  }
+};
+      savedGame.prototype.xn = function () {
+        this.fj(0.25);
+        this.ki.Xa = "";
+        this.bj = true;
+        this.Nd = {};
+        this.Td(false);
+      };
+      savedGame.prototype.Zi = function (app) {
+        this.ki = app;
+        this.yn(this.cj);
+      };
+      savedGame.prototype.Td = function (app) {
+        var config = this.cj;
+        this.cj = app;
+        this.yn(config);
+      };
+      savedGame.prototype.fj = function (app) {
+        this.hi = app * 50;
+        var config = app;
+        if (app > this.Qh.hh) {
+          config = decoder.sa((app - this.Qh.hh) / this.Qh.ih) * this.Qh.ih + this.Qh.hh;
+        }
+        var utils = decoder.qa(decoder.ra(config * 5, 0.707106781186548) * 4 + 25);
+        var hexByte = decoder.ha(savedData, decoder.ia(3, (utils - 5) * 5 + 1));
+        var gameSettings = this.Kd;
+        this.Id = (5 + utils * 0.9) * 0.025;
+        this.Kd = decoder._(hexByte);
+        this.rn = hexByte - this.Kd;
+        if (gameSettings > 0 && gameSettings < this.Kd) {
+          var savedGame = this.sn[gameSettings * 2 - 2];
+          var key = this.sn[gameSettings * 2 - 1];
+          var detectMobileDevice = this.tn[gameSettings * 2 - 2];
+          var updateJoystickEnabled = this.tn[gameSettings * 2 - 1];
+          var updateJoystickColor = this.Jd[gameSettings * 2 - 2];
+          var updateJoystickMode = this.Jd[gameSettings * 2 - 1];
+          for (var updateJoystickPosition = gameSettings; updateJoystickPosition < this.Kd; updateJoystickPosition++) {
+            this.sn[updateJoystickPosition * 2] = savedGame;
+            this.sn[updateJoystickPosition * 2 + 1] = key;
+            this.tn[updateJoystickPosition * 2] = detectMobileDevice;
+            this.tn[updateJoystickPosition * 2 + 1] = updateJoystickEnabled;
+            this.Jd[updateJoystickPosition * 2] = updateJoystickColor;
+            this.Jd[updateJoystickPosition * 2 + 1] = updateJoystickMode;
+          }
+        }
+      };
+      savedGame.prototype.kj = function (app, config) {
+        this.Kd = config;
+        for (var decoder = 0; decoder < this.Kd; decoder++) {
+          this.sn[decoder * 2] = this.tn[decoder * 2] = this.Jd[decoder * 2] = app();
+          this.sn[decoder * 2 + 1] = this.tn[decoder * 2 + 1] = this.Jd[decoder * 2 + 1] = app();
+        }
+      };
+      savedGame.prototype.hj = function (app, config, decoder) {
+        this.Fd = decoder;
+        for (var utils = 0; utils < this.Kd; utils++) {
+          this.sn[utils * 2] = this.tn[utils * 2];
+          this.sn[utils * 2 + 1] = this.tn[utils * 2 + 1];
+        }
+        ;
+        var hexByte = app - this.tn[0];
+        var gameSettings = config - this.tn[1];
+        this.zn(hexByte, gameSettings, this.Kd, this.tn);
+      };
+      savedGame.prototype.zn = function (app, config, utils, hexByte) {
+        var gameSettings = decoder.la(app, config);
+        if (!(gameSettings <= 0)) {
+          var savedGame;
+          var savedData = hexByte[0];
+          hexByte[0] += app;
+          var key;
+          var detectMobileDevice = hexByte[1];
+          hexByte[1] += config;
+          var updateJoystickEnabled = this.Id / (this.Id + gameSettings);
+          var updateJoystickColor = 1 - updateJoystickEnabled * 2;
+          for (var updateJoystickMode = 1, updateJoystickPosition = utils - 1; updateJoystickMode < updateJoystickPosition; updateJoystickMode++) {
+            savedGame = hexByte[updateJoystickMode * 2];
+            hexByte[updateJoystickMode * 2] = hexByte[updateJoystickMode * 2 - 2] * updateJoystickColor + (savedGame + savedData) * updateJoystickEnabled;
+            savedData = savedGame;
+            key = hexByte[updateJoystickMode * 2 + 1];
+            hexByte[updateJoystickMode * 2 + 1] = hexByte[updateJoystickMode * 2 - 1] * updateJoystickColor + (key + detectMobileDevice) * updateJoystickEnabled;
+            detectMobileDevice = key;
+          }
+          ;
+          updateJoystickColor = 1 - (updateJoystickEnabled = this.rn * this.Id / (this.rn * this.Id + gameSettings)) * 2;
+          hexByte[utils * 2 - 2] = hexByte[utils * 2 - 4] * updateJoystickColor + (hexByte[utils * 2 - 2] + savedData) * updateJoystickEnabled;
+          hexByte[utils * 2 - 1] = hexByte[utils * 2 - 3] * updateJoystickColor + (hexByte[utils * 2 - 1] + detectMobileDevice) * updateJoystickEnabled;
+        }
+      };
+      savedGame.prototype.Oh = function () {
+        return {
+          _a: this.Jd[0],
+          ab: this.Jd[1]
+        };
+      };
+      savedGame.prototype.dj = function (app, config) {
+        var utils = 1000000;
+        var hexByte = app;
+        var gameSettings = config;
+        for (var savedGame = 0; savedGame < this.Kd; savedGame++) {
+          var savedData = this.Jd[savedGame * 2];
+          var key = this.Jd[savedGame * 2 + 1];
+          var detectMobileDevice = decoder.la(app - savedData, config - key);
+          if (detectMobileDevice < utils) {
+            utils = detectMobileDevice;
+            hexByte = savedData;
+            gameSettings = key;
+          }
+        }
+        ;
+        return {
+          _a: hexByte,
+          ab: gameSettings,
+          ej: utils
+        };
+      };
+      savedGame.prototype._i = function (app) {
+        this.un = app;
+      };
+      savedGame.prototype.Pj = function (app, utils) {
+        this.Lj = decoder.ga(this.Lj, this.bj ? this.Fd ? 0.9 + decoder.pa(app / 400 * config.T) * 0.1 : 1 : 0, utils, 1 / 800);
+        this.Ld = decoder.ga(this.Ld, this.bj ? this.Fd ? 1 : 0 : 1, utils, 0.0025);
+        if (this.vn != null) {
+          this.vn.Yc.alpha = this.Lj;
+        }
+        if (this.wn != null) {
+          this.wn.alpha = this.Lj;
+        }
+      };
+      savedGame.prototype.Qj = function (app, config, utils, hexByte) {
+        if (this.cj && this.bj) {
+          var gameSettings = decoder.ra(0.11112, config / 95);
+          for (var savedGame = 0; savedGame < this.Kd; savedGame++) {
+            var savedData = decoder.ka(this.sn[savedGame * 2], this.tn[savedGame * 2], utils);
+            var key = decoder.ka(this.sn[savedGame * 2 + 1], this.tn[savedGame * 2 + 1], utils);
+            this.Jd[savedGame * 2] = decoder.ka(savedData, this.Jd[savedGame * 2], gameSettings);
+            this.Jd[savedGame * 2 + 1] = decoder.ka(key, this.Jd[savedGame * 2 + 1], gameSettings);
+          }
+        }
+        ;
+        if (this.vn != null && this.cj) {
+    this.vn.Hd(this, app, config, hexByte);
+    
+    // Ø±Ø³Ù… Ø§Ù„Ø®Ø·ÙˆØ· Ø¨ÙŠÙ† Ø¯ÙˆØ§Ø¦Ø± Ø§Ù„Ø³ÙƒÙ†
+    if (this.cj && this.bj) {
+      this.drawSkinLines();
+    }
+  }
+        if (this.wn != null) {
+          this.wn.Rh.x = this.Jd[0];
+          this.wn.Rh.y = this.Jd[1] - this.Id * 3;
+        }
+      };
+      savedGame.prototype.yn = function (app) {
+        if (this.cj) {
+          if (!app) {
+            this.An();
+          }
+        } else {
+          if (this.vn != null) {
+            utils.k.F.G(this.vn.Yc);
+          }
+          if (this.wn != null) {
+            utils.k.F.G(this.wn);
+          }
+        }
+      };
+savedGame.prototype.An = function () {
+  if (this.vn == null) {
+    this.vn = new app.Xc();
+  } else {
+    utils.k.F.G(this.vn.Yc);
+  }
+  
+  this.vn.hd(ooo.Mh.Qh.eh, ooo.ud.Cc().Ub(this.ki.mi), ooo.ud.Cc().Tb(this.ki.ni), 
+             ooo.ud.Cc().Vb(this.ki.Vi), ooo.ud.Cc().Wb(this.ki.Wi), 
+             ooo.ud.Cc().Xb(this.ki.Xi), ooo.ud.Cc().Yb(this.ki.Yi), "#ffffff");
+  
+  if (this.wn == null) {
+    this.wn = new app.Bn("");
+    this.wn.style.fontFamily = "PTSans";
+    this.wn.anchor.set(0.5);
+  } else {
+    utils.k.F.G(this.wn);
+  }
+  
+  // Ø¥Ø¶Ø§ÙØ© Ø±Ø³Ù… Ø§Ù„Ø®Ø·ÙˆØ· ØªØ­Øª Ø§Ù„Ø³ÙƒÙ†
+    if (gameSettings && gameSettings.showSkinLines && this.skinLineGraphics == null) {
+      this.skinLineGraphics = new utils.k.p(); // PIXI Graphics
+      this.skinLineGraphics.zIndex = 1000; // ÙÙˆÙ‚ ÙƒÙ„ Ø´ÙŠØ¡ Ù„Ù„Ø§Ø®ØªØ¨Ø§Ø±
+      this.skinLineGraphics.alpha = 1.0; // ØªØ£ÙƒØ¯ Ù…Ù† Ø§Ù„Ø´ÙØ§ÙÙŠØ©
+    }
+  
+  this.wn.style.fontSize = 14;
+  this.wn.style.fill = ooo.ud.Cc().Tb(this.ki.ni).cc;
+  this.wn.text = this.ki.Xa;
+  
+  this.un.Xh(this.ki.Je, this.vn, this.wn);
+  
+  // Ø¥Ø¶Ø§ÙØ© Ø§Ù„Ø®Ø·ÙˆØ· Ù„Ù„Ø­Ø§ÙˆÙŠØ©
+    if (gameSettings && gameSettings.showSkinLines && this.skinLineGraphics) {
+      console.log("Ø¥Ø¶Ø§ÙØ© Ø®Ø·ÙˆØ· Ø§Ù„Ø³ÙƒÙ† Ù„Ù„Ù…Ø´Ù‡Ø¯");
+      // Ø¥Ø¶Ø§ÙØ© Ù…Ø¨Ø§Ø´Ø±Ø© Ù„Ù„Ø­Ø§ÙˆÙŠØ© Ø§Ù„Ø±Ø¦ÙŠØ³ÙŠØ©
+      this.vn.Yc.addChild(this.skinLineGraphics);
+    }
+};      
+
+
+// Ø¥Ø¶Ø§ÙØ© Ø¯Ø§Ù„Ø© Ù„Ø±Ø³Ù… Ø§Ù„Ø®Ø·ÙˆØ·
+// Ø¥Ø¶Ø§ÙØ© Ø¯Ø§Ù„Ø© Ù„Ø±Ø³Ù… Ø§Ù„Ø®Ø·ÙˆØ·
+savedGame.prototype.drawSkinLines = function() {
+  if (!gameSettings || !gameSettings.showSkinLines) {
+    if (this.skinLineGraphics) {
+      this.skinLineGraphics.visible = false;
+    }
+    return;
+  }
+  
+  // Ù„Ù„Ø§Ø¹Ø¨ Ø§Ù„Ø­Ø§Ù„ÙŠ: ØªØ·Ø¨Ù‚ Ø¨Ø£ÙŠ Ù†Ù‚Ø§Ø·
+  const isCurrentPlayer = this.ki.Je === ooo.Mh.Qh.fh;
+  
+  // Ù„Ù„Ø§Ø¹Ø¨ÙŠÙ† Ø§Ù„Ø¢Ø®Ø±ÙŠÙ†: ÙÙ‚Ø· Ù…Ù† Ù„Ø¯ÙŠÙ‡ 400,000 Ù†Ù‚Ø·Ø© Ø£Ùˆ Ø£ÙƒØ«Ø±
+  if (!isCurrentPlayer && this.hi < 400000) {
+    if (this.skinLineGraphics) {
+      this.skinLineGraphics.visible = false;
+    }
+    return;
+  }
+  
+  // Ø¥Ù†Ø´Ø§Ø¡ Ø§Ù„Ø¬Ø±Ø§ÙÙŠÙƒØ³ Ø¥Ø°Ø§ Ù„Ù… ÙŠÙƒÙ† Ù…ÙˆØ¬ÙˆØ¯Ø§Ù‹
+  if (!this.skinLineGraphics) {
+    this.skinLineGraphics = new utils.k.p();
+    // Ø¥Ø¶Ø§ÙØ© Ù„Ù„Ø·Ø¨Ù‚Ø© Ø§Ù„Ø®Ù„ÙÙŠØ© (ØªØ­Øª Ø§Ù„Ø³ÙƒÙ† ØªÙ…Ø§Ù…Ø§Ù‹)
+    if (ooo.Xg.Kf.Wg.vh) {
+      ooo.Xg.Kf.Wg.vh.addChild(this.skinLineGraphics);
+    }
+    this.skinLineGraphics.zIndex = -100;
+  }
+  
+  this.skinLineGraphics.clear();
+  this.skinLineGraphics.visible = true;
+  
+  // Ø±Ø³Ù… Ø®Ø·ÙˆØ· Ø¨ÙŠØ¶Ø§Ø¡ Ø±ÙÙŠØ¹Ø©
+  this.skinLineGraphics.lineStyle(0.1, 0xFFFFFF, 1.0);
+  
+  // Ø±Ø³Ù… Ø®Ø·ÙˆØ· Ø¨ÙŠÙ† ÙƒÙ„ Ø¯Ø§Ø¦Ø±ØªÙŠÙ† Ù…ØªØªØ§Ù„ÙŠØªÙŠÙ† ÙÙŠ Ø¬Ø³Ù… Ø§Ù„Ø³ÙƒÙ†
+  for (let i = 1; i < this.Kd; i++) {
+    const x1 = this.Jd[i * 2 - 2];
+    const y1 = this.Jd[i * 2 - 1]; 
+    const x2 = this.Jd[i * 2];
+    const y2 = this.Jd[i * 2 + 1];
+    
+    // Ø­Ø³Ø§Ø¨ Ø§Ù„Ø§ØªØ¬Ø§Ù‡ Ø§Ù„Ø¹Ù…ÙˆØ¯ÙŠ Ù„Ù„Ø®Ø·
+    const dx = x2 - x1;
+    const dy = y2 - y1;
+    const length = Math.sqrt(dx * dx + dy * dy);
+    
+    if (length > 0) {
+      // Ø§Ù„Ø®Ø· Ø§Ù„Ø¹Ù…ÙˆØ¯ÙŠ
+      const perpX = -dy / length;
+      const perpY = dx / length;
+      
+      // Ø¹Ø±Ø¶ Ø£Ù‚Ù„ - Ø¨Ù†ÙØ³ Ø­Ø¬Ù… Ø§Ù„Ø³ÙƒÙ† ØªÙ‚Ø±ÙŠØ¨Ø§Ù‹
+      const radius = this.Id * 4;
+      
+      // Ø±Ø³Ù… Ø®Ø· Ø¶ÙŠÙ‚
+      const lineWidth = radius * 0.4;
+      this.skinLineGraphics.moveTo(
+        (x1 + x2) / 2 + perpX * lineWidth,
+        (y1 + y2) / 2 + perpY * lineWidth
+      );
+      this.skinLineGraphics.lineTo(
+        (x1 + x2) / 2 - perpX * lineWidth,
+        (y1 + y2) / 2 - perpY * lineWidth
+      );
+    }
+  }
+};
+
+      savedGame.Ti = function config() {
+        this.Je = 0;
+        this.mi = app.dh.jh;
+        this.ni = 0;
+        this.Vi = 0;
+        this.Wi = 0;
+        this.Xi = 0;
+        this.Yi = 0;
+        this.Xa = "";
+      };
+      return savedGame;
+    }();
+    app.Bn = decoder.ca(utils.k.t, function (app, config, decoder) {
+      utils.k.t.call(this, app, config, decoder);
+      this.Rh = {
+        x: 0,
+        y: 0
+      };
+    });
+    app.Sb = function () {
+      function app(app, config, decoder, utils, hexByte) {
+        this.Tj = app;
+        this.Uj = config;
+        this.Vj = decoder;
+        this.Wj = utils;
+        this.Xj = hexByte;
+      }
+      app.prototype.Cn = function (config) {
+        return new app(config, this.Uj, this.Vj, this.Wj, this.Xj);
+      };
+      app.prototype.Dn = function (config) {
+        return new app(this.Tj, config, this.Vj, this.Wj, this.Xj);
+      };
+      app.prototype.En = function (config) {
+        return new app(this.Tj, this.Uj, config, this.Wj, this.Xj);
+      };
+      app.prototype.Fn = function (config) {
+        return new app(this.Tj, this.Uj, this.Vj, config, this.Xj);
+      };
+      app.prototype.Gn = function (config) {
+        return new app(this.Tj, this.Uj, this.Vj, this.Wj, config);
+      };
+      return app;
+    }();
+    app.Bm = function () {
+      function config(config) {
+        this.Hn = new app.Xc();
+        this.Hn.Yc.addChild(this.Hn.Zc);
+        this.In = null;
+        this.Jn = null;
+        this.Jm = config;
+        this.$c = 0;
+        this.mj = 1;
+        this.Kn = 1;
+        this.Ln = 1;
+        this.Mn = 1;
+        this.Nn = 1;
+        this.On = 1;
+        this.Pn = 1;
+        this.Hm("#ffffff");
+      }
+      var utils = new app.Sb(0, 0, 0, 0, 0);
+      config.prototype.ag = function () {
+        return this.Hn.Yc;
+      };
+      config.prototype.Cm = function (app) {
+        this.$c = app;
+        if (this.Hn.$c !== app) {
+          for (var config = app; config < this.Hn._c.length; config++) {
+            this.Hn._c[config].Cd();
+          }
+          ;
+          while (this.Hn.$c > app) {
+            this.Hn.$c -= 1;
+            var decoder = this.Hn._c[this.Hn.$c];
+            decoder.md.G();
+            decoder.ld.G();
+          }
+          ;
+          while (this.Hn.$c < app) {
+            var utils = this.Hn._c[this.Hn.$c];
+            this.Hn.$c += 1;
+            this.Hn.Yc.addChild(utils.ld.zd());
+            this.Hn.Yc.addChild(utils.md.zd());
+            utils.ld.Rj(this.Kn);
+            utils.md.Rj(this.Ln);
+          }
+          ;
+          for (var hexByte = 0; hexByte < this.Hn.Zc.od.length; hexByte++) {
+            this.Hn.Zc.od[hexByte].Rj(this.Mn);
+          }
+          ;
+          for (var gameSettings = 0; gameSettings < this.Hn.Zc.pd.length; gameSettings++) {
+            this.Hn.Zc.pd[gameSettings].Rj(this.Nn);
+          }
+          ;
+          for (var savedGame = 0; savedGame < this.Hn.Zc.rd.length; savedGame++) {
+            this.Hn.Zc.rd[savedGame].Rj(this.On);
+          }
+          ;
+          for (var savedData = 0; savedData < this.Hn.Zc.qd.length; savedData++) {
+            this.Hn.Zc.qd[savedData].Rj(this.Pn);
+          }
+        }
+      };
+      config.prototype.Im = function () {
+        return this.$c;
+      };
+      config.prototype.Gm = function (app) {
+        this.In = app;
+        this.Jn = "#ffffff";
+        this.Tm();
+      };
+      config.prototype.Hm = function (app) {
+        this.In = utils;
+        this.Jn = app;
+        this.Tm();
+      };
+      config.prototype.Tm = function () {
+        this.Hn.hd(app.jd.ch, null, ooo.ud.Cc().Tb(this.In.Tj), ooo.ud.Cc().Vb(this.In.Uj), ooo.ud.Cc().Wb(this.In.Vj), ooo.ud.Cc().Xb(this.In.Xj), ooo.ud.Cc().Yb(this.In.Wj), this.Jn);
+      };
+      config.prototype.Dm = function (app) {
+        this.mj = app;
+      };
+      config.prototype.Km = function () {
+        return this.mj;
+      };
+      config.prototype.Wm = function (app, config) {
+        this.Kn = app;
+        this.Ln = config;
+        for (var decoder = 0; decoder < this.$c; decoder++) {
+          var utils = this.Hn._c[decoder];
+          utils.ld.Rj(this.Kn);
+          utils.md.Rj(this.Ln);
+        }
+      };
+      config.prototype.Zm = function (app, config, decoder, utils) {
+        this.Mn = app;
+        this.Nn = config;
+        this.On = decoder;
+        this.Pn = utils;
+        for (var hexByte = 0; hexByte < this.Hn.Zc.od.length; hexByte++) {
+          this.Hn.Zc.od[hexByte].Rj(this.Mn);
+        }
+        ;
+        for (var gameSettings = 0; gameSettings < this.Hn.Zc.pd.length; gameSettings++) {
+          this.Hn.Zc.pd[gameSettings].Rj(this.Nn);
+        }
+        ;
+        for (var savedGame = 0; savedGame < this.Hn.Zc.rd.length; savedGame++) {
+          this.Hn.Zc.rd[savedGame].Rj(this.On);
+        }
+        ;
+        for (var savedData = 0; savedData < this.Hn.Zc.qd.length; savedData++) {
+          this.Hn.Zc.qd[savedData].Rj(this.Pn);
+        }
+      };
+      config.prototype.Bg = function () {
+        var app = this.mj * 2;
+        var config = this.mj * 2 * 1.5;
+        if (this.$c > 0) {
+          var decoder = this.Jm[0];
+          var utils = this.Jm[1];
+          var hexByte = this.Jm[2];
+          this.Hn._c[0].Ad(decoder, utils, app, config, hexByte);
+          this.Hn.Zc.Ad(decoder, utils, app, hexByte);
+        }
+        ;
+        for (var gameSettings = 1; gameSettings < this.$c; gameSettings++) {
+          var savedGame = this.Jm[gameSettings * 3];
+          var savedData = this.Jm[gameSettings * 3 + 1];
+          var key = this.Jm[gameSettings * 3 + 2];
+          this.Hn._c[gameSettings].Ad(savedGame, savedData, app, config, key);
+        }
+      };
+      config.prototype._m = function (app) {
+        app.render(this.Hn.Yc);
+      };
+      return config;
+    }();
+    app.Uf = function () {
+      function app(app) {
+        this.Wd = app;
+      }
+      app.Tf = $("#background-canvas");
+      app.Qn = $("#stretch-box");
+      app.Rn = $("#social-buttons");
+      app.Sn = $("#markup-wrap");
+      app.Tn = $("#game-view");
+      app.Un = $("#results-view");
+      app.Vn = $("#main-menu-view");
+      app.Wn = $("#popup-view");
+      app.Xn = $("#toaster-view");
+      app.Yn = $("#loading-view");
+      app.Zn = $("#restricted-view");
+      app.$n = $("#error-gateway-connection-view");
+      app._n = $("#error-game-connection-view");
+      app.prototype.Sa = function () {};
+      app.prototype.ml = function () {};
+      app.prototype.nl = function () {};
+      app.prototype.hl = function () {};
+      app.prototype.qg = function () {};
+      app.prototype.ug = function (app, config) {};
+      return app;
+    }();
+    finalCaption = $("#final-caption");
+    app0 = $("#final-continue");
+    app1 = $("#congrats-bg");
+    app2 = $("#unl6wj4czdl84o9b");
+    app3 = $("#final-share-fb");
+    app4 = $("#final-message");
+    app5 = $("#final-score");
+    app6 = $("#final-place");
+    app7 = $("#final-board");
+    app8 = $("#game-canvas");
+    (app9 = decoder.ca(app.Uf, function () {
+      app.Uf.call(this, app.ll.ao);
+      var utils = this;
+      var savedGame = app8.get()[0];
+      app3.toggle(config.co.bo);
+      finalCaption.text(decoder.U("index.game.result.title"));
+      app0.text(decoder.U("index.game.result.continue"));
+      app0.click(function () {
+        ooo.ij.if();
+        config.co.do.Va();
+        ooo.ij.Ye(app.Pe.Se.Jf);
+        ooo.Xg.gl(ooo.Xg.Jf);
+      });
+      $("html").keydown(function (app) {
+        if (app.keyCode !== 17 || !(gameSettings.ctrl = true)) {
+          if (app.keyCode !== 17) {
+            gameSettings.ctrl = false;
+          }
+        }
+        if (app.keyCode === 32) {
+          utils.eo = true;
+        }
+      }).keyup(function (app) {
+        gameSettings.ctrl = false;
+        if (hexByte.on && gameSettings.s) {
+          if (app.keyCode == 81 || app.keyCode == 87) {
+            if (app.keyCode == 81) {
+              _0x4d0ax2f.texture = _0x4d0ax28;
+              _0x4d0ax30.texture = _0x4d0ax29;
+              _0x4d0ax2f.alpha = 1;
+              _0x4d0ax30.alpha = 0.25;
+              detectMobileDevice3();
+            }
+            if (app.keyCode == 87) {
+              _0x4d0ax30.texture = _0x4d0ax2a;
+              _0x4d0ax2f.texture = _0x4d0ax27;
+              _0x4d0ax2f.alpha = 0.25;
+              _0x4d0ax30.alpha = 1;
+              detectMobileDevice8();
+            }
+          } else {
+            _0x4d0ax30.texture = _0x4d0ax29;
+            _0x4d0ax2f.texture = _0x4d0ax27;
+            _0x4d0ax30.alpha = 0.25;
+            _0x4d0ax2f.alpha = 0.25;
+            _0x4d0ax22 = false;
+            _0x4d0ax23 = 55;
+            _0x4d0ax24 = 1;
+            _0x4d0ax25 = true;
+            clearInterval(mapSprite);
+            mapSprite = null;
+          }
+          if (app.keyCode == 90) {
+            if (gameSettings.z == 1) {
+              if (gameSettings.h) {
+                gameSettings.z = 1.6;
+              } else {
+                gameSettings.z = 1.2;
+              }
+              _0x4d0ax31.texture = _0x4d0ax2c;
+              _0x4d0ax31.alpha = 1;
+            } else {
+              gameSettings.z = 1;
+              _0x4d0ax31.texture = _0x4d0ax2b;
+              _0x4d0ax31.alpha = 0.25;
+            }
+          }
+          if (gameSettings.hz && !gameSettings.mobile) {
+            if (app.keyCode == 188 && gameSettings.z >= 0.2) {
+              gameSettings.z = gameSettings.z - 0.1;
+            }
+            if (app.keyCode == 190 && gameSettings.z <= 25) {
+              gameSettings.z = gameSettings.z + 0.1;
+            }
+          }
+        }
+        if (hexByte.on && app.keyCode == 82) {
+          if (!window.lastRespawnTime) {
+            window.lastRespawnTime = 0;
+          }
+          const currentTime = new Date().getTime();
+          const timeSinceLastRespawn = currentTime - window.lastRespawnTime;
+          if (timeSinceLastRespawn < 1000) {
+            return;
+          }
+          window.lastRespawnTime = currentTime;
+          try {
+            if (ooo.Mh && ooo.Mh.Rq && typeof ooo.Mh.Rq.close === "function") {
+              ooo.Mh.Rq.close();
+            }
+            if (ooo.Mh && typeof ooo.Mh.uj === "function") {
+              ooo.Mh.uj();
+            }
+            setTimeout(function () {
+              if (document.getElementById("mm-action-play")) {
+                document.getElementById("mm-action-play").click();
+              }
+            }, 300);
+          } catch (e) {
+            document.getElementById("mm-action-play").click();
+          }
+          if (gameSettings.pi && gameSettings.pn) {
+            $("#port_id_s").val(gameSettings.pi);
+            $("#port_name_s").val(gameSettings.pn);
+            $("#port_id").val($("#port_id_s").val());
+            $("#port_name").val($("#port_name_s").val());
+          }
+          gameSettings.r1 = true;
+        }
+        if (hexByte.on && app.keyCode == 78) {
+          document.getElementById("settings-show-names-switch").click();
+          if (gameSettings.sn) {
+            gameSettings.sn = false;
+          } else {
+            gameSettings.sn = true;
+          }
+        }
+        
+if (app.keyCode === 77) { // Ù…ÙØªØ§Ø­ M
+  if (gameSettings) {
+    gameSettings.showSkinLines = !gameSettings.showSkinLines;
+    console.log("Ø®Ø·ÙˆØ· Ø§Ù„Ø³ÙƒÙ†:", gameSettings.showSkinLines ? "Ù…ÙØ¹Ù„Ø©" : "Ù…Ø¹Ø·Ù„Ø©");
+    localStorage.setItem("tmwSaveGame", JSON.stringify(gameSettings));
+  }
+}
+
+
+        if (app.keyCode === 32) {
+          utils.eo = false;
+        }
+      });
+      savedGame.addEventListener("touchmove", function (app) {
+        if (hexByte.on && gameSettings.mobile && gameSettings.mo != 6 && gameSettings.s) {
+          var config = btoa(gameSettings.c_1);
+          if (gameSettings.mo1.x != -1 && gameSettings.mo1.y == -1 && btoa(config) == gameSettings.d_1 || gameSettings.mo2.x == -1 && gameSettings.mo2.y != -1 && btoa(config) == gameSettings.d_1) {
+            var decoder = ooo.Xg.Kf.Wg.Ah;
+            var savedData = savedGame.offsetHeight;
+            var key = savedGame.offsetWidth;
+            var updateJoystickEnabled = savedData * 0.5;
+            var updateJoystickColor = key * 0.5;
+            var updateJoystickMode = btoa(gameSettings.c_2);
+            for (let updateJoystickPosition = 0; updateJoystickPosition < app.changedTouches.length; updateJoystickPosition++) {
+              var updateJoystickCoordinates = app.changedTouches[updateJoystickPosition].pageX;
+              var updateJoystickSize = app.changedTouches[updateJoystickPosition].pageY;
+              var processPlayerData = app.changedTouches[updateJoystickPosition].identifier;
+              if (gameSettings.mo == 1 && btoa(updateJoystickMode) == gameSettings.d_2) {
+                savedData *= 0.5;
+                key *= 0.5;
+              }
+              if (gameSettings.mo == 2 && btoa(updateJoystickMode) == gameSettings.d_2) {
+                savedData = decoder.img_o_2.y + 110;
+                key = decoder.img_o_2.x + 110;
+              }
+              if (gameSettings.mo == 3 && btoa(updateJoystickMode) == gameSettings.d_2) {
+                savedData = decoder.img_o_3.y + 110;
+                key = decoder.img_o_3.x + 110;
+              }
+              if (gameSettings.mo == 4 && btoa(updateJoystickMode) == gameSettings.d_2 || gameSettings.mo == 5 && btoa(updateJoystickMode) == gameSettings.d_2) {
+                savedData = decoder.img_o_4.y + 110;
+                key = decoder.img_o_4.x + 110;
+              }
+              var createJoystick = btoa(gameSettings.c_5);
+              var parsePlayerData = Math.atan2(updateJoystickSize - savedData, updateJoystickCoordinates - key);
+              var validateParameter = Math.cos(parsePlayerData);
+              var validatePlayerNameFormat = Math.sin(parsePlayerData);
+              var extractRealName = btoa(gameSettings.c_4);
+              var savedOco = gameSettings.mo1.x == processPlayerData;
+              btoa(gameSettings.c_3);
+              if (savedOco && btoa(extractRealName) == gameSettings.d_4) {
+                if (updateJoystickCoordinates <= 0 || updateJoystickSize <= 0) {
+                  gameSettings.mo1.x = -1;
+                  if (gameSettings.mo == 1) {
+                    decoder.img_p_1.alpha = 0.25;
+                  }
+                  if (gameSettings.mo == 2) {
+                    decoder.img_o_2.alpha = 0.25;
+                    decoder.img_i_2.alpha = 0.25;
+                    decoder.img_p_2.alpha = 0.25;
+                  }
+                  if (gameSettings.mo == 3) {
+                    decoder.img_o_3.alpha = 0.25;
+                    decoder.img_i_3.alpha = 0.25;
+                    decoder.img_p_3.alpha = 0.25;
+                  }
+                  if (gameSettings.mo == 4 || gameSettings.mo == 5) {
+                    decoder.img_p_2.alpha = 0.25;
+                  }
+                } else {
+                  utils.fo = parsePlayerData;
+                  var savedSw = 50;
+                  if (gameSettings.mo == 1 || gameSettings.mo == 4 || gameSettings.mo == 5) {
+                    savedSw = 110;
+                  }
+                  var savedImages = key - updateJoystickCoordinates;
+                  var savedImageVersion = savedData - updateJoystickSize;
+                  var customWear = Math.sqrt(savedImages * savedImages + savedImageVersion * savedImageVersion);
+                  var customSkin = updateJoystickColor + customWear * validateParameter - 68;
+                  var mapSprite = updateJoystickEnabled + customWear * validatePlayerNameFormat - 68;
+                  var _0x4d0ax21 = updateJoystickColor + savedSw * validateParameter - 68;
+                  var _0x4d0ax22 = updateJoystickEnabled + savedSw * validatePlayerNameFormat - 68;
+                  var _0x4d0ax23 = updateJoystickColor + validateParameter * 75 - 68;
+                  var _0x4d0ax24 = updateJoystickEnabled + validatePlayerNameFormat * 75 - 68;
+                  var _0x4d0ax25 = updateJoystickCoordinates - 85;
+                  var _0x4d0ax26 = updateJoystickSize - 85;
+                  var _0x4d0ax27 = key + savedSw * validateParameter - 85;
+                  var _0x4d0ax28 = savedData + savedSw * validatePlayerNameFormat - 85;
+                  var _0x4d0ax29 = key + validateParameter * 3 - 110;
+                  var _0x4d0ax2a = savedData + validatePlayerNameFormat * 3 - 110;
+                  if (customWear < savedSw) {
+                    if (gameSettings.mo2.x == -1 && gameSettings.mo2.y != -1) {
+                      decoder.img_pf_1.x = customSkin;
+                      decoder.img_pf_1.y = mapSprite;
+                    } else {
+                      if (gameSettings.mo == 1) {
+                        decoder.img_p_1.x = customSkin;
+                        decoder.img_p_1.y = mapSprite;
+                      }
+                      if (gameSettings.mo == 2 || gameSettings.mo == 4 || gameSettings.mo == 5) {
+                        decoder.img_p_2.x = customSkin;
+                        decoder.img_p_2.y = mapSprite;
+                      }
+                      if (gameSettings.mo == 3) {
+                        decoder.img_p_3.x = customSkin;
+                        decoder.img_p_3.y = mapSprite;
+                      }
+                    }
+                    if (gameSettings.mo == 2) {
+                      decoder.img_i_2.y = _0x4d0ax26;
+                      decoder.img_i_2.x = _0x4d0ax25;
+                    }
+                    if (gameSettings.mo == 3) {
+                      decoder.img_i_3.y = _0x4d0ax26;
+                      decoder.img_i_3.x = _0x4d0ax25;
+                    }
+                  } else {
+                    if (gameSettings.mo2.x == -1 && gameSettings.mo2.y != -1) {
+                      decoder.img_pf_1.x = _0x4d0ax21;
+                      decoder.img_pf_1.y = _0x4d0ax22;
+                      if (gameSettings.mo == 2 || gameSettings.mo == 3) {
+                        if (customWear < 75) {
+                          decoder.img_pf_1.x = customSkin;
+                          decoder.img_pf_1.y = mapSprite;
+                        } else {
+                          decoder.img_pf_1.x = _0x4d0ax23;
+                          decoder.img_pf_1.y = _0x4d0ax24;
+                        }
+                      }
+                    } else {
+                      if (gameSettings.mo == 1) {
+                        decoder.img_p_1.x = _0x4d0ax21;
+                        decoder.img_p_1.y = _0x4d0ax22;
+                      }
+                      if (gameSettings.mo == 2 || gameSettings.mo == 4 || gameSettings.mo == 5) {
+                        decoder.img_p_2.x = _0x4d0ax21;
+                        decoder.img_p_2.y = _0x4d0ax22;
+                        if (gameSettings.mo == 2) {
+                          if (customWear < 75) {
+                            decoder.img_p_2.x = customSkin;
+                            decoder.img_p_2.y = mapSprite;
+                          } else {
+                            decoder.img_p_2.x = _0x4d0ax23;
+                            decoder.img_p_2.y = _0x4d0ax24;
+                          }
+                        }
+                      }
+                      if (gameSettings.mo == 3) {
+                        if (customWear < 75) {
+                          decoder.img_p_3.x = customSkin;
+                          decoder.img_p_3.y = mapSprite;
+                        } else {
+                          decoder.img_p_3.x = _0x4d0ax23;
+                          decoder.img_p_3.y = _0x4d0ax24;
+                        }
+                      }
+                    }
+                    if (gameSettings.mo == 2) {
+                      decoder.img_i_2.y = _0x4d0ax28;
+                      decoder.img_i_2.x = _0x4d0ax27;
+                    }
+                    if (gameSettings.mo == 3) {
+                      decoder.img_i_3.y = _0x4d0ax28;
+                      decoder.img_i_3.x = _0x4d0ax27;
+                      decoder.img_o_3.y = _0x4d0ax2a;
+                      decoder.img_o_3.x = _0x4d0ax29;
+                    }
+                  }
+                }
+              } else if ((savedOco = gameSettings.mo2.y == processPlayerData) && btoa(createJoystick) == gameSettings.d_5) {
+                if (updateJoystickCoordinates <= 0 || updateJoystickSize <= 0) {
+                  gameSettings.mo2.y = -1;
+                  decoder.img_f.visible = false;
+                  decoder.img_pf_1.visible = false;
+                  if (gameSettings.mo == 1) {
+                    decoder.img_p_1.visible = true;
+                  }
+                  if (gameSettings.mo == 2 || gameSettings.mo == 4 || gameSettings.mo == 5) {
+                    decoder.img_p_2.visible = true;
+                  }
+                  if (gameSettings.mo == 3) {
+                    decoder.img_p_3.visible = true;
+                  }
+                  if (gameSettings.mo == 4 || gameSettings.mo == 5) {
+                    decoder.img_f.visible = true;
+                  }
+                  utils.eo = false;
+                } else if (gameSettings.mo == 3) {
+                  validateParameter = Math.cos(parsePlayerData = Math.atan2(updateJoystickSize - (savedData = decoder.img_f.y + 100), updateJoystickCoordinates - (key = decoder.img_f.x + 100)));
+                  validatePlayerNameFormat = Math.sin(parsePlayerData);
+                  var _0x4d0ax25 = key + validateParameter * 3 - 100;
+                  var _0x4d0ax26 = savedData + validatePlayerNameFormat * 3 - 100;
+                  var savedImages = key - updateJoystickCoordinates;
+                  var savedImageVersion = savedData - updateJoystickSize;
+                  var customWear = Math.sqrt(savedImages * savedImages + savedImageVersion * savedImageVersion);
+                  if (customWear >= 40) {
+                    decoder.img_f.y = _0x4d0ax25;
+                    decoder.img_f.x = _0x4d0ax26;
+                  }
+                }
+              }
+            }
+          }
+        } else if (!detectMobileDevice() || !gameSettings.joystick.checked) {
+          if (app = app || window.event) {
+            if ((app = app.touches[0]).clientX !== undefined) {
+              utils.fo = Math.atan2(app.clientY - savedGame.offsetHeight * 0.5, app.clientX - savedGame.offsetWidth * 0.5);
+            } else {
+              utils.fo = Math.atan2(app.pageY - savedGame.offsetHeight * 0.5, app.pageX - savedGame.offsetWidth * 0.5);
+            }
+          }
+        }
+      }, true);
+      savedGame.addEventListener("touchstart", function (app) {
+        if (hexByte.on && gameSettings.mobile && gameSettings.mo != 6 && gameSettings.s) {
+          var config = ooo.Xg.Kf.Wg.Ah;
+          var decoder = btoa(gameSettings.c_4);
+          var savedData = savedGame.offsetHeight;
+          var key = btoa(gameSettings.c_3);
+          var detectMobileDevice = savedGame.offsetWidth;
+          var updateJoystickEnabled = btoa(gameSettings.c_5);
+          var updateJoystickColor = (app = app || window.event).touches.item(0).pageX;
+          var updateJoystickMode = btoa(gameSettings.c_2);
+          var updateJoystickPosition = app.touches.item(0).pageY;
+          var updateJoystickCoordinates = app.touches.length;
+          var updateJoystickSize = btoa(gameSettings.c_1);
+          var processPlayerData = app.touches.item(0).identifier;
+          for (let createJoystick = 0; createJoystick < updateJoystickCoordinates; createJoystick++) {
+            if (gameSettings.mo2.x == -1 && gameSettings.mo2.y != -1) {
+              if (app.touches.item(createJoystick).identifier != gameSettings.mo2.y) {
+                updateJoystickColor = app.touches.item(createJoystick).pageX;
+                updateJoystickPosition = app.touches.item(createJoystick).pageY;
+                processPlayerData = app.touches.item(createJoystick).identifier;
+              }
+            } else {
+              updateJoystickColor = app.touches.item(createJoystick).pageX;
+              updateJoystickPosition = app.touches.item(createJoystick).pageY;
+              processPlayerData = app.touches.item(createJoystick).identifier;
+            }
+          }
+          ;
+          var parsePlayerData = 0;
+          if (gameSettings.mo == 4 && btoa(updateJoystickEnabled) == gameSettings.d_5 || gameSettings.mo == 5 && btoa(decoder) == gameSettings.d_4) {
+            parsePlayerData = Math.sqrt((updateJoystickColor - config.img_f.x - 100) * (updateJoystickColor - config.img_f.x - 100) + (updateJoystickPosition - config.img_f.y - 100) * (updateJoystickPosition - config.img_f.y - 100));
+          }
+          if (updateJoystickCoordinates == 1 && (gameSettings.mo == 4 && parsePlayerData > 40 || gameSettings.mo != 4) && (gameSettings.mo == 5 && parsePlayerData > 40 || gameSettings.mo != 5)) {
+            gameSettings.mo2.y = -1;
+            config.img_f.visible = false;
+            config.img_pf_1.visible = false;
+            if (gameSettings.mo == 1) {
+              config.img_p_1.alpha = 0.25;
+              config.img_p_1.visible = true;
+            }
+            if (gameSettings.mo == 2) {
+              config.img_o_2.alpha = 0.25;
+              config.img_i_2.alpha = 0.25;
+              config.img_p_2.alpha = 0.25;
+              config.img_p_2.visible = true;
+            }
+            if (gameSettings.mo == 3) {
+              config.img_o_3.alpha = 0.25;
+              config.img_i_3.alpha = 0.25;
+              config.img_p_3.alpha = 0.25;
+              config.img_p_3.visible = true;
+            }
+            if (gameSettings.mo == 4 || gameSettings.mo == 5) {
+              config.img_p_2.alpha = 0.25;
+              config.img_p_2.visible = true;
+              config.img_f.visible = true;
+            }
+            utils.eo = false;
+          }
+          if (gameSettings.mo1.x == -1 && gameSettings.mo1.y == -1 && btoa(decoder) == gameSettings.d_4 && (gameSettings.mo == 4 && parsePlayerData > 40 || gameSettings.mo != 4 && btoa(key) == gameSettings.d_3) && (gameSettings.mo == 5 && parsePlayerData > 40 || gameSettings.mo != 5 && btoa(updateJoystickMode) == gameSettings.d_2)) {
+            gameSettings.mo1.x = processPlayerData;
+            if (gameSettings.mo1.x == gameSettings.mo2.y && gameSettings.mo1.y == gameSettings.mo2.x) {
+              updateJoystickColor = app.touches.item(1).pageX;
+              updateJoystickPosition = app.touches.item(1).pageY;
+            }
+            var validateParameter = detectMobileDevice * 0.5 - 68;
+            var validatePlayerNameFormat = savedData * 0.5 - 68;
+            var extractRealName = updateJoystickColor - 110;
+            var savedOco = updateJoystickPosition - 110;
+            var savedSw = updateJoystickColor - 85;
+            var savedImages = updateJoystickPosition - 85;
+            if (gameSettings.mo == 1 && gameSettings.mo2.x == -1 && gameSettings.mo2.y == -1) {
+              config.img_p_1.alpha = 1;
+              config.img_p_1.x = validateParameter;
+              config.img_p_1.y = validatePlayerNameFormat;
+              config.img_p_1.visible = true;
+            }
+            if (gameSettings.mo == 2) {
+              config.img_o_2.alpha = 1;
+              config.img_o_2.x = extractRealName;
+              config.img_o_2.y = savedOco;
+              config.img_i_2.alpha = 1;
+              config.img_i_2.x = savedSw;
+              config.img_i_2.y = savedImages;
+              if (gameSettings.mo2.x == -1 && gameSettings.mo2.y == -1) {
+                config.img_p_2.alpha = 1;
+                config.img_p_2.x = validateParameter;
+                config.img_p_2.y = validatePlayerNameFormat;
+                config.img_p_2.visible = true;
+              }
+            }
+            if (gameSettings.mo == 3 && btoa(updateJoystickEnabled) == gameSettings.d_5) {
+              config.img_o_3.alpha = 1;
+              config.img_o_3.x = extractRealName;
+              config.img_o_3.y = savedOco;
+              config.img_i_3.alpha = 1;
+              config.img_i_3.x = savedSw;
+              config.img_i_3.y = savedImages;
+              if (gameSettings.mo2.x == -1 && gameSettings.mo2.y == -1) {
+                config.img_p_3.alpha = 1;
+                config.img_p_3.x = validateParameter;
+                config.img_p_3.y = validatePlayerNameFormat;
+                config.img_p_3.visible = true;
+              }
+            }
+            if (gameSettings.mo == 4 && btoa(updateJoystickMode) == gameSettings.d_2 && gameSettings.mo2.x == -1 && gameSettings.mo2.y == -1) {
+              config.img_p_2.alpha = 1;
+              config.img_p_2.x = validateParameter;
+              config.img_p_2.y = validatePlayerNameFormat;
+              config.img_p_2.visible = true;
+            }
+            if (gameSettings.mo == 5 && btoa(key) == gameSettings.d_3 && gameSettings.mo2.x == -1 && gameSettings.mo2.y == -1) {
+              config.img_p_2.alpha = 1;
+              config.img_p_2.x = validateParameter;
+              config.img_p_2.y = validatePlayerNameFormat;
+              config.img_p_2.visible = true;
+            }
+          } else if (updateJoystickCoordinates >= 2 && gameSettings.mo2.x == -1 && gameSettings.mo2.y == -1 && btoa(key) == gameSettings.d_3 || updateJoystickCoordinates == 1 && gameSettings.mo == 4 && parsePlayerData <= 40 && btoa(updateJoystickSize) == gameSettings.d_1 || updateJoystickCoordinates == 1 && gameSettings.mo == 5 && parsePlayerData <= 40 && btoa(updateJoystickMode) == gameSettings.d_2) {
+            gameSettings.mo2.y = processPlayerData;
+            config.img_f.visible = true;
+            config.img_pf_1.visible = true;
+            if (gameSettings.mo == 1) {
+              config.img_p_1.visible = false;
+              config.img_pf_1.x = config.img_p_1.x;
+              config.img_pf_1.y = config.img_p_1.y;
+            }
+            if (gameSettings.mo == 2 || gameSettings.mo == 4 || gameSettings.mo == 5) {
+              config.img_p_2.visible = false;
+              config.img_pf_1.x = config.img_p_2.x;
+              config.img_pf_1.y = config.img_p_2.y;
+            }
+            if (gameSettings.mo == 3 && btoa(key) == gameSettings.d_3) {
+              config.img_p_3.visible = false;
+              config.img_pf_1.x = config.img_p_3.x;
+              config.img_pf_1.y = config.img_p_3.y;
+            }
+            if (gameSettings.mo != 4 && gameSettings.mo != 5) {
+              config.img_f.x = updateJoystickColor - 100;
+              config.img_f.y = updateJoystickPosition - 100;
+            }
+            utils.eo = true;
+          }
+          ;
+          app.preventDefault();
+        } else {
+          if (app = app || window.event) {
+            utils.eo = app.touches.length >= 2;
+          }
+          app.preventDefault();
+        }
+      }, true);
+      savedGame.addEventListener("touchend", function (app) {
+        if (hexByte.on && gameSettings.mobile && gameSettings.mo != 6 && gameSettings.s) {
+          var config = ooo.Xg.Kf.Wg.Ah;
+          var decoder = btoa(gameSettings.c_1);
+          if (app = app || window.event) {
+            if ((app = app.changedTouches[0]).clientX !== undefined) {
+              detectMobileDevicee(app.clientX, app.clientY);
+            } else {
+              detectMobileDevicee(app.pageX, app.pageY);
+            }
+          }
+          var savedGame = btoa(gameSettings.c_2);
+          var savedData = app.identifier;
+          if (savedData == gameSettings.mo1.x && gameSettings.mo1.y == -1 && btoa(savedGame) == gameSettings.d_2) {
+            gameSettings.mo1.x = -1;
+            if (gameSettings.mo == 1) {
+              config.img_p_1.alpha = 0.25;
+            }
+            if (gameSettings.mo == 2) {
+              config.img_o_2.alpha = 0.25;
+              config.img_i_2.alpha = 0.25;
+              config.img_p_2.alpha = 0.25;
+            }
+            if (gameSettings.mo == 3 && btoa(decoder) == gameSettings.d_1) {
+              config.img_o_3.alpha = 0.25;
+              config.img_i_3.alpha = 0.25;
+              config.img_p_3.alpha = 0.25;
+            }
+            if (gameSettings.mo == 4) {
+              config.img_p_2.alpha = 0.25;
+            }
+            if (gameSettings.mo == 5) {
+              config.img_p_2.alpha = 0.25;
+            }
+          }
+          var key = btoa(gameSettings.c_3);
+          if (gameSettings.mo2.x == -1 && savedData == gameSettings.mo2.y && btoa(key) == gameSettings.d_3) {
+            gameSettings.mo2.y = -1;
+            config.img_f.visible = false;
+            config.img_pf_1.visible = false;
+            if (gameSettings.mo == 1) {
+              config.img_p_1.visible = true;
+            }
+            if (gameSettings.mo == 2 || gameSettings.mo == 4 && btoa(savedGame) == gameSettings.d_2 || gameSettings.mo == 5 && btoa(key) == gameSettings.d_3) {
+              config.img_p_2.visible = true;
+            }
+            if (gameSettings.mo == 3) {
+              config.img_p_3.visible = true;
+            }
+            if (gameSettings.mo == 4 || gameSettings.mo == 5) {
+              config.img_f.visible = true;
+            }
+            utils.eo = false;
+          }
+        } else {
+          if (app = app || window.event) {
+            utils.eo = app.touches.length >= 2;
+          }
+          if (gameSettings.mobile && gameSettings.s && (app = app || window.event)) {
+            if ((app = app.changedTouches[0]).clientX !== undefined) {
+              detectMobileDevicee(app.clientX, app.clientY);
+            } else {
+              detectMobileDevicee(app.pageX, app.pageY);
+            }
+          }
+        }
+      }, true);
+      savedGame.addEventListener("mousemove", function (config) {
+        if (config = config || app.c.event && _typeof(config.clientX) != "undefined") {
+          utils.fo = decoder.ta(config.clientY - savedGame.offsetHeight * 0.5, config.clientX - savedGame.offsetWidth * 0.5);
+        }
+      }, true);
+      savedGame.addEventListener("mousedown", function (app) {
+        utils.eo = true;
+      }, true);
+      savedGame.addEventListener("mouseup", function (app) {
+        utils.eo = false;
+      }, true);
+      this.Wg = new app.lh(app8);
+      this.go = appa.ho;
+      this.fo = 0;
+      this.eo = false;
+      hexByte.eie = utils;
+    })).prototype.Sa = function () {};
+    app9.prototype.ml = function () {
+      app.Nf.rg(false);
+      utils.f.h(app.Uf.Tf, 50);
+      utils.f.h(app.Uf.Qn, 1);
+      utils.f.h(app.Uf.Rn, 50);
+      utils.f.h(app.Uf.Sn, 50);
+      utils.f.g(app.Uf.Tn, 500);
+      if (this.go === appa.ho) {
+        utils.f.h(app.Uf.Un, 1);
+      } else {
+        utils.f.g(app.Uf.Un, 500);
+      }
+      utils.f.h(app.Uf.Vn, 50);
+      utils.f.h(app.Uf.Wn, 50);
+      utils.f.h(app.Uf.Xn, 50);
+      utils.f.h(app.Uf.Yn, 50);
+      utils.f.h(app.Uf.Zn, 50);
+      utils.f.h(app.Uf.$n, 50);
+      utils.f.h(app.Uf._n, 50);
+    };
+    app9.prototype.ho = function () {
+      this.go = appa.ho;
+      return this;
+    };
+    app9.prototype.io = function () {
+      utils.f.h(app1, 1);
+      decoder.Y(function () {
+        utils.f.g(app1, 500);
+      }, 3000);
+      utils.f.h(app2, 1);
+      decoder.Y(function () {
+        utils.f.g(app2, 500);
+      }, 500);
+      this.go = appa.io;
+      return this;
+    };
+    app9.prototype.nl = function () {
+      this.eo = false;
+      this.Wg.qg();
+      if (this.go === appa.io) {
+        ooo.ij.mf();
+      }
+    };
+    app9.prototype.qg = function () {
+      this.Wg.qg();
+    };
+    app9.prototype.ug = function (app, config) {
+      this.Wg.ug(app, config);
+    };
+    app9.prototype.jo = function (app, utils, hexByte) {
+      var gameSettings;
+      var savedGame;
+      var savedData;
+      if (utils >= 1 && utils <= 10) {
+        gameSettings = decoder.U("index.game.result.place.i" + utils);
+        savedGame = decoder.U("index.game.result.placeInBoard");
+        savedData = decoder.U("index.game.social.shareResult.messGood").replace("{0}", hexByte).replace("{1}", app).replace("{2}", gameSettings);
+      } else {
+        gameSettings = "";
+        savedGame = decoder.U("index.game.result.tryHit");
+        savedData = decoder.U("index.game.social.shareResult.messNorm").replace("{0}", hexByte).replace("{1}", app);
+      }
+      app4.html(decoder.U("index.game.result.your"));
+      app5.html(app);
+      app6.html(gameSettings);
+      app7.html(savedGame);
+      if (config.co.bo) {
+        var key;
+        var detectMobileDevice;
+        var updateJoystickEnabled;
+        var updateJoystickColor;
+        var updateJoystickMode;
+        var updateJoystickPosition;
+        var updateJoystickCoordinates;
+        var updateJoystickSize = decoder.U("index.game.result.share");
+        decoder.U("index.game.social.shareResult.caption");
+        app3.empty().append((key = updateJoystickSize, detectMobileDevice = "https://wormate.io", updateJoystickEnabled = "wormate.io", updateJoystickColor = savedData, updateJoystickMode = savedData, updateJoystickPosition = "https://wormate.io/images/og-share-img-new.jpg", (updateJoystickCoordinates = $("<div><svg xmlns=\"http://www.w3.org/2000/svg\" version=\"1.1\" x=\"0\" y=\"0\" viewBox=\"0 0 456 456\" xml: space=\"preserve\"><rect x=\"0\" y=\"0\" width=\"456\" height=\"456\" fill=\"#517AD1\"/><path d=\"M242.7 456V279.7h-59.3v-71.9h59.3v-60.4c0-43.9 35.6-79.5 79.5-79.5h62v64.6h-44.4c-13.9 0-25.3 11.3-25.3 25.3v50h68.5l-9.5 71.9h-59.1V456z\" fill=\"#fff\"/></svg><span>" + key + "</span></div>")).click(function () {
+          if ((typeof FB == "undefined" ? "undefined" : _typeof(FB)) !== "undefined" && _typeof(FB.ui) != "undefined") {
+            FB.ui({
+              method: "feed",
+              display: "popup",
+              link: detectMobileDevice,
+              name: updateJoystickEnabled,
+              caption: updateJoystickColor,
+              description: updateJoystickMode,
+              picture: updateJoystickPosition
+            }, function () {});
+          }
+        }), updateJoystickCoordinates));
+      }
+    };
+    app9.prototype.ko = function () {
+      return this.fo;
+    };
+    app9.prototype.lo = function () {
+      return this.eo;
+    };
+    appa = {
+      ho: 0,
+      io: 1
+    };
+    app.Bk = app9;
+    appb = $("#loading-progress-cont");
+    appc = $("#loading-progress-bar");
+    appd = $("#loading-progress-text");
+    (appe = decoder.ca(app.Uf, function () {
+      app.Uf.call(this, app.ll.ao);
+      this.mo = -1;
+      this.no = "";
+    })).prototype.Sa = function () {};
+    appe.prototype.ml = function () {
+      app.Nf.rg(true);
+      utils.f.g(app.Uf.Tf, 500);
+      utils.f.g(app.Uf.Qn, 1);
+      utils.f.h(app.Uf.Rn, 50);
+      utils.f.h(app.Uf.Sn, 50);
+      utils.f.h(app.Uf.Tn, 50);
+      utils.f.h(app.Uf.Un, 50);
+      utils.f.h(app.Uf.Vn, 50);
+      utils.f.h(app.Uf.Wn, 50);
+      utils.f.h(app.Uf.Xn, 50);
+      utils.f.g(app.Uf.Yn, 500);
+      utils.f.h(app.Uf.Zn, 50);
+      utils.f.h(app.Uf.$n, 50);
+      utils.f.h(app.Uf._n, 50);
+    };
+    appe.prototype.nl = function () {
+      ooo.ij.Ye(app.Pe.Se.Re);
+      ooo.Xg.Ak.wg();
+      ooo.Xg.Ak.sg(true);
+    };
+    appe.prototype.hl = function () {
+      ooo.Xg.Ak.sg(false);
+    };
+    appe.prototype.oo = function () {
+      this.po("", 0);
+      utils.f.g(appb, 100);
+    };
+    appe.prototype.qo = function () {
+      utils.f.h(appb, 100);
+    };
+    appe.prototype.po = function (app, config) {
+      if (this.no !== app) {
+        this.no = app;
+      }
+      var utils = decoder.fa(decoder._(config * 100), 0, 100);
+      if (this.mo !== utils) {
+        appc.css("width", utils + "%");
+        appd.html(utils + " %");
+      }
+    };
+    app.$k = appe;
+    appf = $("#mm-line-top");
+    $("#mm-line-center");
+    $("#mm-line-bottom");
+    config0 = $("#mm-bottom-buttons");
+    config1 = $("#mm-menu-cont");
+    config2 = $("#mm-loading");
+    config3 = $("#mm-loading-progress-bar");
+    config4 = $("#mm-loading-progress-text");
+    $("#mm-event-text");
+    config5 = $("#mm-skin-canv");
+    config6 = $("#mm-skin-prev");
+    config7 = $("#mm-skin-next");
+    config8 = $("#mm-skin-over");
+    config9 = $("#mm-skin-over-button-list");
+    configa = $("#mm-params-nickname");
+    configb = $("#mm-params-game-mode");
+    configc = $("#mm-action-play");
+    configd = $("#mm-action-guest");
+    confige = $("#mm-action-login");
+    configf = $("#mm-player-info");
+    decoder0 = $("#mm-store");
+    decoder1 = $("#mm-leaders");
+    decoder2 = $("#mm-settings");
+    decoder3 = $("#mm-coins-box");
+    decoder4 = $("#mm-player-avatar");
+    decoder5 = $("#mm-player-username");
+    decoder6 = $("#mm-coins-val");
+    decoder7 = $("#mm-player-exp-bar");
+    decoder8 = $("#mm-player-exp-val");
+    decoder9 = $("#mm-player-level");
+    (decodera = decoder.ca(app.Uf, function () {
+      app.Uf.call(this, app.ll.kl);
+      this.mo = -1;
+      this.no = "";
+      this.ro = new app.Lm(config5);
+      configb.click(function () {
+        ooo.ij.if();
+      });
+      config5.click(function () {
+        if (ooo.ok.nk()) {
+          ooo.ij.if();
+          ooo.Xg.gl(ooo.Xg.Qk);
+        }
+      });
+      config6.click(function () {
+        ooo.ij.if();
+        ooo.so.kk();
+      });
+      config7.click(function () {
+        ooo.ij.if();
+        ooo.so.jk();
+      });
+      configa.keypress(function (app) {
+        gameSettings.r1 = false;
+        if (app.keyCode === 13) {
+          ooo.to();
+        }
+      });
+      configc.click(function () {
+        ooo.ij.if();
+        ooo.to();
+      });
+      configd.click(function () {
+        ooo.ij.if();
+        ooo.to();
+      });
+      confige.click(function () {
+        ooo.ij.if();
+        ooo.Xg.gl(ooo.Xg.Nk);
+      });
+      decoder2.click(function () {
+        ooo.ij.if();
+        ooo.Xg.gl(ooo.Xg.Hi);
+      });
+      configf.click(function () {
+        if (ooo.ok.nk()) {
+          ooo.ij.if();
+          ooo.Xg.gl(ooo.Xg.Lk);
+        }
+      });
+      decoder1.click(function () {
+        if (ooo.ok.nk()) {
+          ooo.ij.if();
+          ooo.Xg.gl(ooo.Xg.Jk);
+        }
+      });
+      decoder0.click(function () {
+        if (ooo.ok.nk()) {
+          ooo.ij.if();
+          ooo.Xg.gl(ooo.Xg.Sk);
+        }
+      });
+      decoder3.click(function () {
+        if (ooo.ok.nk()) {
+          ooo.ij.if();
+          ooo.Xg.gl(ooo.Xg.Hk);
+        }
+      });
+      this.uo();
+      this.vo();
+      var config = app.Cg.Og(app.Cg.Ig);
+      if (config !== "ARENA" && config !== "TEAM2") {
+        config = "ARENA";
+      }
+      configb.val(config);
+    })).prototype.Sa = function () {
+      var utils = this;
+      function hexByte(app, config) {
+        if (app.pm) {
+          config.skinId = app.pm.Tj;
+          config.eyesId = app.pm.Uj;
+          config.mouthId = app.pm.Vj;
+          config.hatId = app.pm.Wj;
+          config.glassesId = app.pm.Xj;
+        }
+      }
+      ooo.ok.fm(function () {
+        if (ooo.ok.nk()) {
+          hexByte(gameSettings, ooo.ok.xl);
+          ooo.so.lk(ooo.ok.Ul(), app._j.$j);
+          ooo.so.lk(ooo.ok.Vl(), app._j.ak);
+          ooo.so.lk(ooo.ok.Wl(), app._j.bk);
+          ooo.so.lk(ooo.ok.Xl(), app._j.dk);
+          ooo.so.lk(ooo.ok.Yl(), app._j.ck);
+        } else {
+          ooo.so.lk(ooo.wo(), app._j.$j);
+          ooo.so.lk(0, app._j.ak);
+          ooo.so.lk(0, app._j.bk);
+          ooo.so.lk(0, app._j.dk);
+          ooo.so.lk(0, app._j.ck);
+        }
+      });
+      ooo.ok.fm(function () {
+        configc.toggle(ooo.ok.nk());
+        confige.toggle(!ooo.ok.nk());
+        configd.toggle(!ooo.ok.nk());
+        decoder1.toggle(ooo.ok.nk());
+        decoder0.toggle(ooo.ok.nk());
+        decoder3.toggle(ooo.ok.nk());
+        configf.toggle(true);
+        decoder2.toggle(true);
+        if (ooo.ok.nk()) {
+          config8.hide();
+          decoder5.html(ooo.ok.Ll());
+          decoder4.attr("src", ooo.ok.Nl());
+          decoder6.html(ooo.ok.Ql());
+          decoder7.width(ooo.ok.Sl() * 100 / ooo.ok.Tl() + "%");
+          decoder8.html(ooo.ok.Sl() + " / " + ooo.ok.Tl());
+          decoder9.html(ooo.ok.Rl());
+          configa.val(ooo.ok.Ml());
+        } else {
+          config8.toggle(config.co.bo && !ooo.xo());
+          decoder5.html(decoder5.data("guest"));
+          decoder4.attr("src", config.H.M);
+          decoder6.html("10");
+          decoder7.width("0");
+          decoder8.html("");
+          decoder9.html(1);
+          configa.val(app.Cg.Og(app.Cg.Jg));
+        }
+      });
+      ooo.so.fk(function () {
+        utils.ro.Gm(ooo.so.ek());
+      });
+    };
+    decodera.prototype.ml = function () {
+      app.Nf.rg(true);
+      utils.f.g(app.Uf.Tf, 500);
+      utils.f.g(app.Uf.Qn, 1);
+      utils.f.g(app.Uf.Rn, 500);
+      utils.f.g(app.Uf.Sn, 500);
+      utils.f.h(app.Uf.Tn, 50);
+      utils.f.h(app.Uf.Un, 50);
+      utils.f.g(app.Uf.Vn, 500);
+      utils.f.h(app.Uf.Wn, 50);
+      utils.f.h(app.Uf.Xn, 50);
+      utils.f.h(app.Uf.Yn, 50);
+      utils.f.h(app.Uf.Zn, 50);
+      utils.f.h(app.Uf.$n, 50);
+      utils.f.h(app.Uf._n, 50);
+    };
+    decodera.prototype.yo = function () {
+      utils.f.g(appf, 500);
+      utils.f.g(config0, 500);
+      utils.f.g(config1, 500);
+      utils.f.h(config2, 100);
+    };
+    decodera.prototype.zo = function () {
+      utils.f.h(appf, 100);
+      utils.f.h(config0, 100);
+      utils.f.h(config1, 100);
+      utils.f.g(config2, 500);
+    };
+    decodera.prototype.po = function (app, config) {
+      if (this.no !== app) {
+        this.no = app;
+      }
+      var utils = decoder.fa(decoder._(config * 100), 0, 100);
+      if (this.mo !== utils) {
+        config3.css("width", utils + "%");
+        config4.html(utils + " %");
+      }
+    };
+    decodera.prototype.nl = function () {
+      ooo.ij.jf();
+      this.ro.rg(true);
+    };
+    decodera.prototype.hl = function () {
+      this.ro.rg(false);
+    };
+    decodera.prototype.qg = function () {
+      this.ro.qg();
+    };
+    decodera.prototype.ug = function (app, config) {
+      this.ro.ug();
+    };
+    decodera.prototype.Ml = function () {
+      return configa.val();
+    };
+    decodera.prototype.Ao = function () {
+      return configb.val();
+    };
+    decodera.prototype.uo = function () {
+      var app = $("#mm-advice-cont").children();
+      var config = 0;
+      decoder.X(function () {
+        app.eq(config).fadeOut(500, function () {
+          if (++config >= app.length) {
+            config = 0;
+          }
+          app.eq(config).fadeIn(500).css("display", "inline-block");
+        });
+      }, 3000);
+    };
+    decodera.prototype.vo = function () {
+      if (config.co.bo && !ooo.xo()) {
+        config8.show();
+        var app = decoder.U("index.game.main.menu.unlockSkins.share");
+        var utils = encodeURIComponent(decoder.U("index.game.main.menu.unlockSkins.comeAndPlay"));
+        config9.append($("<a class=\"mm-skin-over-button\" id=\"mm-skin-over-fb\" target=\"_blank\" href=\"https://www.facebook.com/dialog/share?app_id=861926850619051&display=popup&href=https%3A%2F%2Fwormate.io&redirect_uri=https%3A%2F%2Fwormate.io&hashtag=%23wormateio&quote=" + utils + "\"><img src=\"data: image/svg+xml; base64, PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIgeD0iMCIgeT0iMCIgdmlld0JveD0iMCAwIDQ1NiA0NTYiIHhtbDpzcGFjZT0icHJlc2VydmUiPjxwYXRoIGQ9Ik0yNDQuMyA0NTZWMjc5LjdoLTU5LjN2LTcxLjloNTkuM3YtNjAuNGMwLTQzLjkgMzUuNi03OS41IDc5LjUtNzkuNWg2MnY2NC42aC00NC40Yy0xMy45IDAtMjUuMyAxMS4zLTI1LjMgMjUuM3Y1MGg2OC41bC05LjUgNzEuOWgtNTkuMVY0NTZ6IiBmaWxsPSIjZmZmIi8+PC9zdmc+\"/><span>" + app + "</span></a>").click(function app() {
+          ooo.Bo(true);
+          decoder.Y(function () {
+            config8.hide();
+          }, 3000);
+        }));
+      }
+    };
+    app.Ck = decodera;
+    (decoderb = decoder.ca(app.Uf, function () {
+      app.Uf.call(this, app.ll.ao);
+    })).prototype.Sa = function () {};
+    decoderb.prototype.ml = function () {
+      app.Nf.rg(true);
+      utils.f.h(app.Uf.Tf, 50);
+      utils.f.h(app.Uf.Qn, 1);
+      utils.f.h(app.Uf.Rn, 50);
+      utils.f.h(app.Uf.Sn, 50);
+      utils.f.h(app.Uf.Tn, 50);
+      utils.f.h(app.Uf.Un, 50);
+      utils.f.h(app.Uf.Vn, 50);
+      utils.f.h(app.Uf.Wn, 50);
+      utils.f.h(app.Uf.Xn, 50);
+      utils.f.h(app.Uf.Yn, 50);
+      utils.f.h(app.Uf.Zn, 50);
+      utils.f.h(app.Uf.$n, 50);
+      utils.f.h(app.Uf._n, 50);
+    };
+    app.el = decoderb;
+    (decoderc = decoder.ca(app.Uf, function () {
+      app.Uf.call(this, app.ll.ao);
+    })).prototype.Sa = function () {};
+    decoderc.prototype.ml = function () {
+      app.Nf.rg(true);
+      utils.f.g(app.Uf.Tf, 500);
+      utils.f.g(app.Uf.Qn, 1);
+      utils.f.h(app.Uf.Rn, 50);
+      utils.f.h(app.Uf.Sn, 50);
+      utils.f.h(app.Uf.Tn, 50);
+      utils.f.h(app.Uf.Un, 50);
+      utils.f.h(app.Uf.Vn, 50);
+      utils.f.h(app.Uf.Wn, 50);
+      utils.f.h(app.Uf.Xn, 50);
+      utils.f.h(app.Uf.Yn, 50);
+      utils.f.g(app.Uf.Zn, 500);
+      utils.f.h(app.Uf.$n, 50);
+      utils.f.h(app.Uf._n, 50);
+    };
+    decoderc.prototype.nl = function () {};
+    app.Xk = decoderc;
+    decoderd = $("#toaster-stack");
+    (decodere = decoder.ca(app.Uf, function () {
+      app.Uf.call(this, app.ll.ao);
+      this.Co = [];
+      this.Do = null;
+    })).prototype.Sa = function () {};
+    decodere.prototype.ml = function () {
+      app.Nf.rg(true);
+      utils.f.g(app.Uf.Tf, 500);
+      utils.f.g(app.Uf.Qn, 1);
+      utils.f.h(app.Uf.Rn, 50);
+      utils.f.g(app.Uf.Sn, 500);
+      utils.f.h(app.Uf.Tn, 50);
+      utils.f.h(app.Uf.Un, 50);
+      utils.f.h(app.Uf.Vn, 50);
+      utils.f.h(app.Uf.Wn, 50);
+      utils.f.g(app.Uf.Xn, 500);
+      utils.f.h(app.Uf.Yn, 50);
+      utils.f.h(app.Uf.Zn, 50);
+      utils.f.h(app.Uf.$n, 50);
+      utils.f.h(app.Uf._n, 50);
+    };
+    decodere.prototype.nl = function () {
+      this.Eo();
+    };
+    decodere.prototype.ql = function () {
+      return this.Do != null || this.Co.length > 0;
+    };
+    decodere.prototype.Fo = function (app) {
+      this.Co.unshift(app);
+      decoder.Y(function () {
+        ooo.Xg.ol();
+      }, 0);
+    };
+    decodere.prototype.km = function (app) {
+      this.Co.push(app);
+      decoder.Y(function () {
+        ooo.Xg.ol();
+      }, 0);
+    };
+    decodere.prototype.Eo = function () {
+      var app = this;
+      if (this.Do == null) {
+        if (this.Co.length === 0) {
+          ooo.Xg.jl();
+          return;
+        }
+        ;
+        var config = this.Co.shift();
+        this.Do = config;
+        var hexByte = config.ag();
+        utils.f.g(hexByte, 300);
+        decoderd.append(hexByte);
+        config.Go = function () {
+          hexByte.fadeOut(300);
+          decoder.Y(function () {
+            hexByte.remove();
+          }, 300);
+          if (app.Do === config) {
+            app.Do = null;
+          }
+          app.Eo();
+        };
+        config.nl();
+      }
+    };
+    app.Zk = decodere;
+    app.ll = {
+      ao: 0,
+      kl: 1
+    };
+    decoderf = $("#popup-menu-label");
+    utils0 = $("#popup-menu-coins-box");
+    utils1 = $("#popup-menu-coins-val");
+    $("#popup-menu-back").click(function () {
+      ooo.ij.if();
+      ooo.Xg.jl();
+    });
+    utils0.click(function () {
+      if (ooo.ok.nk()) {
+        ooo.ij.if();
+        ooo.Xg.gl(ooo.Xg.Hk);
+      }
+    });
+    (utils2 = decoder.ca(app.Uf, function (config, decoder) {
+      app.Uf.call(this, app.ll.kl);
+      this.Xa = config;
+      this.Io = decoder;
+      this.Jo = [];
+    })).prototype.Sa = function () {
+      utils2.parent.prototype.Sa.call(this);
+      if (!utils2.Ko) {
+        utils2.Ko = true;
+        ooo.ok.fm(function () {
+          if (ooo.ok.nk()) {
+            utils1.html(ooo.ok.Ql());
+          } else {
+            utils1.html("0");
+          }
+        });
+      }
+      utils.f.h(app.Ho.Lo, 100);
+    };
+    utils2.Mo = $("#coins-view");
+    utils2.No = $("#leaders-view");
+    utils2.Oo = $("#profile-view");
+    utils2.Po = $("#login-view");
+    utils2.Qo = $("#settings-view");
+    utils2.Ro = $("#skins-view");
+    utils2.So = $("#store-view");
+    utils2.To = $("#wear-view");
+    utils2.Uo = $("#withdraw-consent-view");
+    utils2.Vo = $("#delete-account-view");
+    utils2.Lo = $("#please-wait-view");
+    utils2.prototype.ml = function () {
+      app.Nf.rg(true);
+      utils.f.g(app.Uf.Tf, 1);
+      utils.f.g(app.Uf.Qn, 500);
+      utils.f.g(app.Uf.Rn, 200);
+      utils.f.g(app.Uf.Sn, 200);
+      utils.f.h(app.Uf.Tn, 200);
+      utils.f.h(app.Uf.Un, 200);
+      utils.f.h(app.Uf.Vn, 200);
+      utils.f.g(app.Uf.Wn, 200);
+      utils.f.h(app.Uf.Xn, 200);
+      utils.f.h(app.Uf.Yn, 200);
+      utils.f.h(app.Uf.Zn, 200);
+      utils.f.h(app.Uf.$n, 200);
+      utils.f.h(app.Uf._n, 200);
+      decoderf.html(this.Xa);
+      utils0.toggle(this.Io);
+      this.Wo();
+    };
+    utils2.prototype.Wo = function () {};
+    utils2.prototype.Xo = function (config) {
+      var hexByte = this;
+      var gameSettings = decoder.va(0, 2147483647) & 2147483647;
+      this.Jo.push(gameSettings);
+      utils.f.g(app.Ho.Lo, 100);
+      decoder.Y(function () {
+        hexByte.Yo(gameSettings);
+      }, config);
+      return new keyf(this, gameSettings);
+    };
+    utils2.prototype.Yo = function (config) {
+      var decoder = this.Jo.indexOf(config);
+      if (!(decoder < 0)) {
+        this.Jo.splice(decoder, 1);
+        if (this.Jo.length === 0) {
+          utils.f.h(app.Ho.Lo, 100);
+        }
+      }
+    };
+    app.Ho = utils2;
+    var pixiLib;
+    var pixiBlendModes;
+    var pixiWrapModes;
+    var _0x4d0ax3b;
+    var i18nMessages;
+    var charCodes;
+    var _0x4d0ax3e;
+    var finalCaption;
+    var app0;
+    var app1;
+    var app2;
+    var app3;
+    var app4;
+    var app5;
+    var app6;
+    var app7;
+    var app8;
+    var app9;
+    var appa;
+    var appb;
+    var appc;
+    var appd;
+    var appe;
+    var appf;
+    var config0;
+    var config1;
+    var config2;
+    var config3;
+    var config4;
+    var config5;
+    var config6;
+    var config7;
+    var config8;
+    var config9;
+    var configa;
+    var configb;
+    var configc;
+    var configd;
+    var confige;
+    var configf;
+    var decoder0;
+    var decoder1;
+    var decoder2;
+    var decoder3;
+    var decoder4;
+    var decoder5;
+    var decoder6;
+    var decoder7;
+    var decoder8;
+    var decoder9;
+    var decodera;
+    var decoderb;
+    var decoderc;
+    var decoderd;
+    var decodere;
+    var decoderf;
+    var utils0;
+    var utils1;
+    var utils2;
+    var utils3;
+    var utils4;
+    var utils5;
+    var utils6;
+    var utils7;
+    var utils8;
+    var utils9;
+    var utilsa;
+    var utilsb;
+    var utilsc;
+    var utilsd;
+    var utilse;
+    var utilsf;
+    var hexByte0;
+    var hexByte1;
+    var hexByte2;
+    var hexByte3;
+    var hexByte4;
+    var hexByte5;
+    var hexByte6;
+    var hexByte7;
+    var hexByte8;
+    var hexByte9;
+    var hexBytea;
+    var hexByteb;
+    var hexBytec;
+    var hexByted;
+    var hexBytee;
+    var hexBytef;
+    var gameSettings0;
+    var gameSettings1;
+    var gameSettings2;
+    var gameSettings3;
+    var gameSettings4;
+    var gameSettings5;
+    var gameSettings6;
+    var gameSettings7;
+    var gameSettings8;
+    var gameSettings9;
+    var gameSettingsa;
+    var gameSettingsb;
+    var gameSettingsc;
+    var gameSettingsd;
+    var gameSettingse;
+    var gameSettingsf;
+    var savedGame0;
+    var savedGame1;
+    var savedGame2;
+    var savedGame3;
+    var savedGame4;
+    var savedGame5;
+    var savedGame6;
+    var savedGame7;
+    var savedGame8;
+    var savedGame9;
+    var savedGamea;
+    var savedGameb;
+    var savedGamec;
+    var savedGamed;
+    var savedGamee;
+    var savedGamef;
+    var savedData0;
+    var savedData1;
+    var savedData2;
+    var savedData3;
+    var savedData4;
+    var savedData5;
+    var savedData6;
+    var savedData7;
+    var savedData8;
+    var savedData9;
+    var savedDataa;
+    var savedDatab;
+    var savedDatac;
+    var savedDatad;
+    var savedDatae;
+    var savedDataf;
+    var key0;
+    var key1;
+    var key2;
+    var key3;
+    var key4;
+    var key5;
+    var key6;
+    var key7;
+    var key8;
+    var key9;
+    var keya;
+    var keyb;
+    var keyc;
+    var keyd;
+    var keye;
+    var keyf = function () {
+      function app(app, config) {
+        this.Zo = app;
+        this.$o = config;
+      }
+      app.prototype._o = function () {
+        this.Zo.Yo(this.$o);
+      };
+      return app;
+    }();
+    utils3 = $("#store-buy-coins_125000");
+    utils4 = $("#store-buy-coins_50000");
+    utils5 = $("#store-buy-coins_16000");
+    utils6 = $("#store-buy-coins_7000");
+    utils7 = $("#store-buy-coins_3250");
+    utils8 = $("#store-buy-coins_1250");
+    (utils9 = decoder.ca(app.Ho, function () {
+      app.Ho.call(this, decoder.U("index.game.popup.menu.coins.tab"), false);
+      var config = this;
+      utils3.click(function () {
+        ooo.ij.if();
+        config.ap("coins_125000");
+      });
+      utils4.click(function () {
+        ooo.ij.if();
+        config.ap("coins_50000");
+      });
+      utils5.click(function () {
+        ooo.ij.if();
+        config.ap("coins_16000");
+      });
+      utils6.click(function () {
+        ooo.ij.if();
+        config.ap("coins_7000");
+      });
+      utils7.click(function () {
+        ooo.ij.if();
+        config.ap("coins_3250");
+      });
+      utils8.click(function () {
+        ooo.ij.if();
+        config.ap("coins_1250");
+      });
+    })).prototype.Sa = function () {
+      utils9.parent.prototype.Sa.call(this);
+    };
+    utils9.prototype.Wo = function () {
+      utils.f.g(app.Ho.Mo, 200);
+      utils.f.h(app.Ho.No, 50);
+      utils.f.h(app.Ho.Oo, 50);
+      utils.f.h(app.Ho.Po, 50);
+      utils.f.h(app.Ho.Qo, 50);
+      utils.f.h(app.Ho.Ro, 50);
+      utils.f.h(app.Ho.So, 50);
+      utils.f.h(app.Ho.To, 50);
+      utils.f.h(app.Ho.Uo, 50);
+      utils.f.h(app.Ho.Vo, 50);
+    };
+    utils9.prototype.nl = function () {
+      ooo.ij.jf();
+    };
+    utils9.prototype.ap = function (app) {};
+    app.Ik = utils9;
+    utilsa = $("#highscore-table");
+    utilsb = $("#leaders-button-level");
+    utilsc = $("#leaders-button-highscore");
+    utilsd = $("#leaders-button-kills");
+    utilse = "byLevel";
+    utilsf = "byHighScore";
+    hexByte0 = "byKillsAndHeadShots";
+    (hexByte1 = decoder.ca(app.Ho, function () {
+      app.Ho.call(this, decoder.U("index.game.popup.menu.leaders.tab"), true);
+      var config = this;
+      this.bp = {};
+      this.cp = {
+        dp: {
+          ep: utilsb,
+          fp: utilse
+        },
+        gp: {
+          ep: utilsc,
+          fp: utilsf
+        },
+        hp: {
+          ep: utilsd,
+          fp: hexByte0
+        }
+      };
+      utilsb.click(function () {
+        ooo.ij.if();
+        config.ip(config.cp.dp);
+      });
+      utilsc.click(function () {
+        ooo.ij.if();
+        config.ip(config.cp.gp);
+      });
+      utilsd.click(function () {
+        ooo.ij.if();
+        config.ip(config.cp.hp);
+      });
+    })).prototype.Sa = function () {
+      hexByte1.parent.prototype.Sa.call(this);
+    };
+    hexByte1.prototype.Wo = function () {
+      utils.f.h(app.Ho.Mo, 50);
+      utils.f.g(app.Ho.No, 200);
+      utils.f.h(app.Ho.Oo, 50);
+      utils.f.h(app.Ho.Po, 50);
+      utils.f.h(app.Ho.Qo, 50);
+      utils.f.h(app.Ho.Ro, 50);
+      utils.f.h(app.Ho.So, 50);
+      utils.f.h(app.Ho.To, 50);
+      utils.f.h(app.Ho.Uo, 50);
+      utils.f.h(app.Ho.Vo, 50);
+    };
+    hexByte1.prototype.nl = function () {
+      var app = this;
+      ooo.ij.jf();
+      var utils = this.Xo(5000);
+      var hexByte = config.H.J + "/pub/leaders";
+      decoder.Aa(hexByte, function () {
+        var config = {
+          [utilse]: [],
+          [utilsf]: [],
+          [hexByte0]: []
+        };
+        app.bp = config;
+        app.ip(app.jp ?? app.cp.dp);
+        utils._o();
+      }, function (config) {
+        app.bp = config;
+        app.ip(app.jp ?? app.cp.dp);
+        utils._o();
+      });
+    };
+    hexByte1.prototype.ip = function (app) {
+      this.jp = app;
+      for (var config in this.cp) {
+        if (this.cp.hasOwnProperty(config)) {
+          this.cp[config].ep.removeClass("pressed");
+        }
+      }
+      ;
+      this.jp.ep.addClass("pressed");
+      for (var utils = this.bp[this.jp.fp], hexByte = "", gameSettings = 0; gameSettings < utils.length; gameSettings++) {
+        var savedGame = utils[gameSettings];
+        hexByte += `<div class="table-row"><span>${gameSettings + 1}</span><span><img src="${savedGame.avatarUrl}"/></span><span>${savedGame.username}</span><span>${savedGame.level}</span><span>${savedGame.highScore}</span><span>${savedGame.headShots} / ${savedGame.kills}</span></div>`;
+      }
+      ;
+      utilsa.empty();
+      utilsa.append(hexByte);
+    };
+    app.Kk = hexByte1;
+    hexByte2 = $("#popup-login-gg");
+    hexByte3 = $("#popup-login-fb");
+    (hexByte4 = decoder.ca(app.Ho, function () {
+      var config = this;
+      app.Ho.call(this, decoder.U("index.game.popup.menu.login.tab"), false);
+      hexByte2.click(function () {
+        ooo.ij.if();
+        var app = config.Xo(10000);
+        decoder.Y(function () {
+          ooo.ok.sm(function () {
+            if (ooo.ok.nk()) {
+              ooo.ij.mf();
+            }
+            app._o();
+          });
+        }, 500);
+      });
+      hexByte3.click(function () {
+        ooo.ij.if();
+        var app = config.Xo(10000);
+        decoder.Y(function () {
+          ooo.ok.pm(function () {
+            if (ooo.ok.nk()) {
+              ooo.ij.mf();
+            }
+            app._o();
+          });
+        }, 500);
+      });
+    })).prototype.Sa = function () {
+      hexByte4.parent.prototype.Sa.call(this);
+    };
+    hexByte4.prototype.Wo = function () {
+      utils.f.h(app.Ho.Mo, 50);
+      utils.f.h(app.Ho.No, 50);
+      utils.f.h(app.Ho.Oo, 50);
+      utils.f.g(app.Ho.Po, 200);
+      utils.f.h(app.Ho.Qo, 50);
+      utils.f.h(app.Ho.Ro, 50);
+      utils.f.h(app.Ho.So, 50);
+      utils.f.h(app.Ho.To, 50);
+      utils.f.h(app.Ho.Uo, 50);
+      utils.f.h(app.Ho.Vo, 50);
+    };
+    hexByte4.prototype.nl = function () {
+      ooo.ij.jf();
+    };
+    app.Ok = hexByte4;
+    hexByte5 = $("#profile-avatar");
+    hexByte6 = $("#profile-username");
+    hexByte7 = $("#profile-experience-bar");
+    hexByte8 = $("#profile-experience-val");
+    hexByte9 = $("#profile-level");
+    hexBytea = $("#profile-stat-highScore");
+    hexByteb = $("#profile-stat-bestSurvivalTime");
+    hexBytec = $("#profile-stat-kills");
+    hexByted = $("#profile-stat-headshots");
+    hexBytee = $("#profile-stat-gamesPlayed");
+    hexBytef = $("#profile-stat-totalTimeSpent");
+    gameSettings0 = $("#profile-stat-registrationDate");
+    (gameSettings1 = decoder.ca(app.Ho, function () {
+      app.Ho.call(this, decoder.U("index.game.popup.menu.profile.tab"), true);
+    })).prototype.Sa = function () {
+      gameSettings1.parent.prototype.Sa.call(this);
+    };
+    gameSettings1.prototype.Wo = function () {
+      utils.f.h(app.Ho.Mo, 50);
+      utils.f.h(app.Ho.No, 50);
+      utils.f.g(app.Ho.Oo, 200);
+      utils.f.h(app.Ho.Po, 50);
+      utils.f.h(app.Ho.Qo, 50);
+      utils.f.h(app.Ho.Ro, 50);
+      utils.f.h(app.Ho.So, 50);
+      utils.f.h(app.Ho.To, 50);
+      utils.f.h(app.Ho.Uo, 50);
+      utils.f.h(app.Ho.Vo, 50);
+    };
+    gameSettings1.prototype.nl = function () {
+      ooo.ij.jf();
+      var app = ooo.ok.dm();
+      var config = moment([app.year, app.month - 1, app.day]).format("LL");
+      hexByte6.html(ooo.ok.Ll());
+      hexByte5.attr("src", ooo.ok.Nl());
+      hexByte7.width(ooo.ok.Sl() * 100 / ooo.ok.Tl() + "%");
+      hexByte8.html(ooo.ok.Sl() + " / " + ooo.ok.Tl());
+      hexByte9.html(ooo.ok.Rl());
+      hexBytea.html(ooo.ok.Zl());
+      hexByteb.html(decoder.$(ooo.ok.$l()));
+      hexBytec.html(ooo.ok._l());
+      hexByted.html(ooo.ok.am());
+      hexBytee.html(ooo.ok.bm());
+      hexBytef.html(decoder.$(ooo.ok.cm()));
+      gameSettings0.html(config);
+    };
+    app.Mk = gameSettings1;
+    gameSettings2 = $("#settings-music-enabled-switch");
+    gameSettings3 = $("#settings-sfx-enabled-switch");
+    gameSettings4 = $("#settings-show-names-switch");
+    gameSettings5 = $("#popup-logout");
+    gameSettings6 = $("#popup-logout-container");
+    gameSettings7 = $("#popup-delete-account");
+    gameSettings8 = $("#popup-delete-account-container");
+    gameSettings9 = $("#popup-withdraw-consent");
+    (gameSettingsa = decoder.ca(app.Ho, function () {
+      app.Ho.call(this, decoder.U("index.game.popup.menu.settings.tab"), false);
+      var config = this;
+      gameSettings2.click(function () {
+        var config = !!gameSettings2.prop("checked");
+        app.Cg.Ng(app.Cg.Fg, config, 30);
+        ooo.ij.$e(config);
+        ooo.ij.if();
+      });
+      gameSettings3.click(function () {
+        var config = !!gameSettings3.prop("checked");
+        app.Cg.Ng(app.Cg.Gg, config, 30);
+        ooo.ij.Xe(config);
+        ooo.ij.if();
+      });
+      gameSettings4.click(function () {
+        ooo.ij.if();
+      });
+      gameSettings5.click(function () {
+        ooo.ij.if();
+        config.Xo(500);
+        ooo.ok.qm();
+      });
+      gameSettings7.click(function () {
+        if (ooo.ok.nk()) {
+          ooo.ij.if();
+          ooo.Xg.gl(ooo.Xg.Fk);
+        } else {
+          ooo.ij.nf();
+        }
+      });
+      gameSettings9.click(function () {
+        if (ooo.kp()) {
+          ooo.ij.if();
+          ooo.Xg.gl(ooo.Xg.Dk);
+        } else {
+          ooo.ij.nf();
+        }
+      });
+    })).prototype.Sa = function () {
+      var config;
+      var utils;
+      var hexByte;
+      gameSettingsa.parent.prototype.Sa.call(this);
+      config = app.Cg.Og(app.Cg.Fg) !== "false";
+      gameSettings2.prop("checked", config);
+      ooo.ij.$e(config);
+      utils = app.Cg.Og(app.Cg.Gg) !== "false";
+      gameSettings3.prop("checked", utils);
+      ooo.ij.Xe(utils);
+      hexByte = app.Cg.Og(app.Cg.Eg) !== "false";
+      gameSettings4.prop("checked", hexByte);
+      ooo.ok.em(function () {
+        gameSettings6.toggle(ooo.ok.nk());
+        gameSettings8.toggle(ooo.ok.nk());
+      });
+    };
+    gameSettingsa.prototype.Wo = function () {
+      utils.f.h(app.Ho.Mo, 50);
+      utils.f.h(app.Ho.No, 50);
+      utils.f.h(app.Ho.Oo, 50);
+      utils.f.h(app.Ho.Po, 50);
+      utils.f.g(app.Ho.Qo, 200);
+      utils.f.h(app.Ho.Ro, 50);
+      utils.f.h(app.Ho.So, 50);
+      utils.f.h(app.Ho.To, 50);
+      utils.f.h(app.Ho.Uo, 50);
+      utils.f.h(app.Ho.Vo, 50);
+    };
+    gameSettingsa.prototype.nl = function () {
+      ooo.ij.jf();
+      if (ooo.kp()) {
+        gameSettings9.show();
+      } else {
+        gameSettings9.hide();
+      }
+    };
+    gameSettingsa.prototype.Gi = function () {
+      return gameSettings4.prop("checked");
+    };
+    app.Pk = gameSettingsa;
+    gameSettingsb = $("#store-view-canv");
+    gameSettingsc = $("#skin-description-text");
+    gameSettingsd = $("#skin-group-description-text");
+    gameSettingse = $("#store-locked-bar");
+    gameSettingsf = $("#store-locked-bar-text");
+    savedGame0 = $("#store-buy-button");
+    savedGame1 = $("#store-item-price");
+    savedGame2 = $("#store-groups");
+    savedGame3 = $("#store-view-prev");
+    savedGame4 = $("#store-view-next");
+    (savedGame5 = decoder.ca(app.Ho, function () {
+      app.Ho.call(this, decoder.U("index.game.popup.menu.skins.tab"), true);
+      var config = this;
+      this.lp = null;
+      this.mp = [];
+      this.np = {};
+      this.op = new app.Lm(gameSettingsb);
+      savedGame0.click(function () {
+        ooo.ij.if();
+        config.pp();
+      });
+      savedGame3.click(function () {
+        ooo.ij.if();
+        config.lp.qp();
+      });
+      savedGame4.click(function () {
+        ooo.ij.if();
+        config.lp.rp();
+      });
+    })).prototype.Sa = function () {
+      savedGame5.parent.prototype.Sa.call(this);
+      var app = this;
+      ooo.ud.Jc(function () {
+        var config = ooo.ud.Gc();
+        app.mp = [];
+        for (var utils = 0; utils < config.skinGroupArrayDict.length; utils++) {
+          app.mp.push(new savedGame6(app, config.skinGroupArrayDict[utils]));
+        }
+        ;
+        app.np = {};
+        for (var hexByte = 0; hexByte < config.skinArrayDict.length; hexByte++) {
+          var gameSettings = config.skinArrayDict[hexByte];
+          app.np[gameSettings.id] = gameSettings;
+        }
+        ;
+        app.sp();
+      });
+      this.tp(false);
+      ooo.so.fk(function () {
+        app.tp(false);
+      });
+    };
+    savedGame5.prototype.Wo = function () {
+      utils.f.h(app.Ho.Mo, 50);
+      utils.f.h(app.Ho.No, 50);
+      utils.f.h(app.Ho.Oo, 50);
+      utils.f.h(app.Ho.Po, 50);
+      utils.f.h(app.Ho.Qo, 50);
+      utils.f.g(app.Ho.Ro, 200);
+      utils.f.h(app.Ho.So, 50);
+      utils.f.h(app.Ho.To, 50);
+      utils.f.h(app.Ho.Uo, 50);
+      utils.f.h(app.Ho.Vo, 50);
+    };
+    savedGame5.prototype.nl = function () {
+      ooo.ij.Ye(app.Pe.Se.Jf);
+      ooo.ij.jf();
+      this.sp();
+      this.op.rg(true);
+    };
+    savedGame5.prototype.hl = function () {
+      this.op.rg(false);
+    };
+    savedGame5.prototype.qg = function () {
+      this.op.qg();
+    };
+    savedGame5.prototype.ug = function (app, config) {
+      this.op.ug();
+    };
+    savedGame5.prototype.sp = function () {
+      var config = this;
+      var utils = this;
+      savedGame2.empty();
+      for (var hexByte = 0; hexByte < this.mp.length; hexByte++) {
+        (function (hexByte) {
+          var gameSettings = config.mp[hexByte];
+          var savedGame = app.d.createElement("li");
+          savedGame2.append(savedGame);
+          var savedData = $(savedGame);
+          if (utils.xp && utils.xp.isCustom) {
+            savedData.addClass("iscustom");
+          }
+          savedData.html(gameSettings.up());
+          savedData.click(function () {
+            ooo.ij.if();
+            utils.vp(gameSettings);
+          });
+          gameSettings.wp = savedData;
+        })(hexByte);
+      }
+      ;
+      if (this.mp.length > 0) {
+        var gameSettings = ooo.so.Zj(app._j.$j);
+        for (var savedGame = 0; savedGame < this.mp.length; savedGame++) {
+          var savedData = this.mp[savedGame];
+          for (var key = savedData.xp.list, detectMobileDevice = 0; detectMobileDevice < key.length; detectMobileDevice++) {
+            if (key[detectMobileDevice] === gameSettings) {
+              savedData.yp = detectMobileDevice;
+              this.vp(savedData);
+              return;
+            }
+          }
+        }
+        ;
+        this.vp(this.mp[0]);
+      }
+    };
+    savedGame5.prototype.vp = function (app) {
+      if (this.lp !== app) {
+        this.lp = app;
+        savedGame2.children().removeClass("pressed");
+        if (this.lp.wp) {
+          this.lp.wp.addClass("pressed");
+        }
+        gameSettingsd.html("");
+        if (app.xp != null) {
+          var config = ooo.ud.Gc().textDict[app.xp.description];
+          if (config != null) {
+            gameSettingsd.html(decoder.aa(decoder.V(config)));
+          }
+        }
+        ;
+        this.tp(true);
+      }
+    };
+    savedGame5.prototype.zp = function () {
+      if (this.lp == null) {
+        return app.yj.Aj();
+      } else {
+        return this.lp.Ap();
+      }
+    };
+    savedGame5.prototype.pp = function () {
+      var app = this.zp();
+      if (app.Cj()) {
+        var config = app.Mc();
+        this.Bp(config);
+      }
+    };
+    savedGame5.prototype.Bp = function (config) {
+      var decoder = ooo.so.mk(config, app._j.$j);
+      if (decoder != null) {
+        var utils = decoder.pk();
+        if (!(ooo.ok.Ql() < utils)) {
+          var hexByte = ooo.so.Zj(app._j.$j);
+          var gameSettings = ooo.so.Zj(app._j.ak);
+          var savedGame = ooo.so.Zj(app._j.bk);
+          var savedData = ooo.so.Zj(app._j.dk);
+          var key = ooo.so.Zj(app._j.ck);
+          var detectMobileDevice = this.Xo(5000);
+          ooo.ok.nm(config, app._j.$j, function () {
+            detectMobileDevice._o();
+            ooo.Xg.gl(ooo.Xg._k);
+          }, function () {
+            ooo.ok.hm(function () {
+              ooo.so.lk(hexByte, app._j.$j);
+              ooo.so.lk(gameSettings, app._j.ak);
+              ooo.so.lk(savedGame, app._j.bk);
+              ooo.so.lk(savedData, app._j.dk);
+              ooo.so.lk(key, app._j.ck);
+              ooo.so.lk(config, app._j.$j);
+              detectMobileDevice._o();
+            });
+          });
+        }
+      }
+    };
+    savedGame5.prototype.tp = function (config) {
+      var utils = ooo.so.ek();
+      var hexByte = this.zp();
+      if (hexByte.Cj()) {
+        var gameSettings = hexByte.Mc();
+        var savedGame = ooo.so.mk(gameSettings, app._j.$j);
+        var savedData = false;
+        if (ooo.so.ik(gameSettings, app._j.$j)) {
+          gameSettingse.hide();
+          savedGame0.hide();
+        } else if (savedGame == null || savedGame.qk()) {
+          savedData = true;
+          gameSettingse.show();
+          savedGame0.hide();
+          gameSettingsf.text(decoder.U("index.game.popup.menu.store.locked"));
+          if (savedGame != null && savedGame.qk()) {
+            var key = ooo.ud.Gc().textDict[savedGame.ln()];
+            if (key != null) {
+              gameSettingsf.text(decoder.V(key));
+            }
+          }
+        } else {
+          gameSettingse.hide();
+          savedGame0.show();
+          savedGame1.html(savedGame.pk());
+        }
+        ;
+        gameSettingsc.html("");
+        if (savedGame != null && savedGame.mn() != null) {
+          var detectMobileDevice = ooo.ud.Gc().textDict[savedGame.mn()];
+          if (detectMobileDevice != null) {
+            gameSettingsc.html(decoder.aa(decoder.V(detectMobileDevice)));
+          }
+        }
+        ;
+        this.op.Gm(utils.Cn(gameSettings));
+        this.op.an(savedData);
+        if (config) {
+          ooo.so.lk(gameSettings, app._j.$j);
+        }
+      }
+    };
+    savedGame6 = function () {
+      function config(app, config) {
+        this.Cp = app;
+        this.yp = 0;
+        this.xp = config;
+      }
+      config.prototype.qp = function () {
+        if (--this.yp < 0) {
+          this.yp = this.xp.list.length - 1;
+        }
+        this.Cp.tp(true);
+      };
+      config.prototype.rp = function () {
+        if (++this.yp >= this.xp.list.length) {
+          this.yp = 0;
+        }
+        this.Cp.tp(true);
+      };
+      config.prototype.up = function () {
+        let app = decoder.V(this.xp.name);
+        if (this.xp.img) {
+          if ((this.xp.img.search("data:image/png;base64,") == -1 || !(app = "<img src=\"" + this.xp.img + "\" height=\"40\" />")) && (this.xp.img.search("https://lh3.googleusercontent.com") == -1 || !(app = "<img src=\"" + this.xp.img + "\" height=\"40\" />"))) {
+            app = "<img src=\"" + gameSettings.s_l + "/images/" + this.xp.img + "\" height=\"40\" />";
+          }
+        }
+        return app;
+      };
+      config.prototype.Ap = function () {
+        if (this.yp >= this.xp.list.length) {
+          return app.yj.Aj();
+        } else {
+          return app.yj.Bj(this.xp.list[this.yp]);
+        }
+      };
+      return config;
+    }();
+    app.Rk = savedGame5;
+    savedGame7 = $("#store-go-coins-button");
+    savedGame8 = $("#store-go-skins-button");
+    savedGame9 = $("#store-go-wear-button");
+    (savedGamea = decoder.ca(app.Ho, function () {
+      app.Ho.call(this, decoder.U("index.game.popup.menu.store.tab"), true);
+      savedGame7.click(function () {
+        ooo.ij.if();
+        ooo.Xg.gl(ooo.Xg.Hk);
+      });
+      savedGame8.click(function () {
+        ooo.ij.if();
+        ooo.Xg.gl(ooo.Xg.Qk);
+      });
+      savedGame9.click(function () {
+        ooo.ij.if();
+        ooo.Xg.gl(ooo.Xg.Uk);
+      });
+    })).prototype.Sa = function () {
+      savedGamea.parent.prototype.Sa.call(this);
+    };
+    savedGamea.prototype.Wo = function () {
+      utils.f.h(app.Ho.Mo, 50);
+      utils.f.h(app.Ho.No, 50);
+      utils.f.h(app.Ho.Oo, 50);
+      utils.f.h(app.Ho.Po, 50);
+      utils.f.h(app.Ho.Qo, 50);
+      utils.f.h(app.Ho.Ro, 50);
+      utils.f.g(app.Ho.So, 200);
+      utils.f.h(app.Ho.To, 50);
+      utils.f.h(app.Ho.Uo, 50);
+      utils.f.h(app.Ho.Vo, 50);
+    };
+    savedGamea.prototype.nl = function () {
+      ooo.ij.jf();
+    };
+    app.Tk = savedGamea;
+    savedGameb = $("#wear-view-canv");
+    savedGamec = $("#wear-description-text");
+    savedGamed = $("#wear-locked-bar");
+    savedGamee = $("#wear-locked-bar-text");
+    savedGamef = $("#wear-buy-button");
+    savedData0 = $("#wear-item-price");
+    savedData1 = $("#wear-eyes-button");
+    savedData2 = $("#wear-mouths-button");
+    savedData3 = $("#wear-glasses-button");
+    savedData4 = $("#wear-hats-button");
+    savedData5 = $("#wear-tint-chooser");
+    savedData6 = $("#wear-view-prev");
+    savedData7 = $("#wear-view-next");
+    (savedData8 = decoder.ca(app.Ho, function () {
+      var config = this;
+      app.Ho.call(this, decoder.U("index.game.popup.menu.wear.tab"), true);
+      var utils = this;
+      this.Dp = [];
+      this.ak = new savedData9(this, app._j.ak, savedData1);
+      this.bk = new savedData9(this, app._j.bk, savedData2);
+      this.dk = new savedData9(this, app._j.dk, savedData3);
+      this.ck = new savedData9(this, app._j.ck, savedData4);
+      this.Ep = null;
+      this.Fp = null;
+      this.Gp = null;
+      this.Hp = null;
+      this.Ip = null;
+      this.Jp = null;
+      this.op = new app.Lm(savedGameb);
+      savedGamef.click(function () {
+        ooo.ij.if();
+        utils.Kp();
+      });
+      savedData6.click(function () {
+        ooo.ij.if();
+        utils.Ep.Lp();
+      });
+      savedData7.click(function () {
+        ooo.ij.if();
+        utils.Ep.Mp();
+      });
+      savedData1.click(function () {
+        ooo.ij.if();
+        utils.Np(config.ak);
+      });
+      savedData2.click(function () {
+        ooo.ij.if();
+        utils.Np(config.bk);
+      });
+      savedData3.click(function () {
+        ooo.ij.if();
+        utils.Np(config.dk);
+      });
+      savedData4.click(function () {
+        ooo.ij.if();
+        utils.Np(config.ck);
+      });
+      this.Dp.push(this.ak);
+      this.Dp.push(this.bk);
+      this.Dp.push(this.dk);
+      this.Dp.push(this.ck);
+    })).prototype.Sa = function () {
+      savedData8.parent.prototype.Sa.call(this);
+      var app = this;
+      ooo.ud.Jc(function () {
+        var config = ooo.ud.Gc();
+        app.Fp = config.eyesDict;
+        app.Gp = config.mouthDict;
+        app.Hp = config.glassesDict;
+        app.Ip = config.hatDict;
+        app.Jp = config.colorDict;
+        app.ak.Op(config.eyesVariantArray);
+        app.ak.Pp(app.Fp);
+        app.bk.Op(config.mouthVariantArray);
+        app.bk.Pp(app.Gp);
+        app.dk.Op(config.glassesVariantArray);
+        app.dk.Pp(app.Hp);
+        app.ck.Op(config.hatVariantArray);
+        app.ck.Pp(app.Ip);
+      });
+      this.tp(false);
+      ooo.so.fk(function () {
+        app.tp(false);
+      });
+    };
+    savedData8.prototype.Wo = function () {
+      utils.f.h(app.Ho.Mo, 50);
+      utils.f.h(app.Ho.No, 50);
+      utils.f.h(app.Ho.Oo, 50);
+      utils.f.h(app.Ho.Po, 50);
+      utils.f.h(app.Ho.Qo, 50);
+      utils.f.h(app.Ho.Ro, 50);
+      utils.f.h(app.Ho.So, 50);
+      utils.f.g(app.Ho.To, 200);
+      utils.f.h(app.Ho.Uo, 50);
+      utils.f.h(app.Ho.Vo, 50);
+    };
+    savedData8.prototype.nl = function () {
+      ooo.ij.Ye(app.Pe.Se.Jf);
+      ooo.ij.jf();
+      this.Np(this.Ep ?? this.ak);
+      this.op.rg(true);
+    };
+    savedData8.prototype.hl = function () {
+      this.op.rg(false);
+    };
+    savedData8.prototype.qg = function () {
+      this.op.qg();
+    };
+    savedData8.prototype.ug = function (app, config) {
+      this.op.ug();
+    };
+    savedData8.prototype.Np = function (app) {
+      this.Ep = app;
+      for (var config = 0; config < this.Dp.length; config++) {
+        this.Dp[config].ep.removeClass("pressed");
+      }
+      ;
+      this.Ep.ep.addClass("pressed");
+      this.Ep.ml();
+    };
+    savedData8.prototype.Qp = function () {
+      if (this.Ep == null) {
+        return app.yj.Aj();
+      } else {
+        return app.yj.Bj({
+          Je: this.Ep.Ap(),
+          Wd: this.Ep.Wd
+        });
+      }
+    };
+    savedData8.prototype.Kp = function () {
+      var app = this.Qp();
+      if (app.Cj()) {
+        var config = app.Mc();
+        this.Rp(config.Je, config.Wd);
+      }
+    };
+    savedData8.prototype.Rp = function (config, decoder) {
+      var utils = ooo.so.mk(config, decoder);
+      if (utils != null) {
+        var hexByte = utils.pk();
+        if (!(ooo.ok.Ql() < hexByte)) {
+          var gameSettings = ooo.so.Zj(app._j.$j);
+          var savedGame = ooo.so.Zj(app._j.ak);
+          var savedData = ooo.so.Zj(app._j.bk);
+          var key = ooo.so.Zj(app._j.dk);
+          var detectMobileDevice = ooo.so.Zj(app._j.ck);
+          var updateJoystickEnabled = this.Xo(5000);
+          ooo.ok.nm(config, decoder, function () {
+            updateJoystickEnabled._o();
+            ooo.Xg.gl(ooo.Xg._k);
+          }, function () {
+            ooo.ok.hm(function () {
+              ooo.so.lk(gameSettings, app._j.$j);
+              ooo.so.lk(savedGame, app._j.ak);
+              ooo.so.lk(savedData, app._j.bk);
+              ooo.so.lk(key, app._j.dk);
+              ooo.so.lk(detectMobileDevice, app._j.ck);
+              ooo.so.lk(config, decoder);
+              updateJoystickEnabled._o();
+            });
+          });
+        }
+      }
+    };
+    savedData8.prototype.tp = function (config) {
+      var utils = ooo.so.ek();
+      var hexByte = this.Qp();
+      if (hexByte.Cj()) {
+        var gameSettings = hexByte.Mc();
+        var savedGame = ooo.so.mk(gameSettings.Je, gameSettings.Wd);
+        var savedData = false;
+        if (ooo.so.ik(gameSettings.Je, gameSettings.Wd)) {
+          savedGamed.hide();
+          savedGamef.hide();
+        } else if (savedGame == null || savedGame.qk()) {
+          savedData = true;
+          savedGamed.show();
+          savedGamef.hide();
+          savedGamee.text(decoder.U("index.game.popup.menu.store.locked"));
+          if (savedGame != null && savedGame.qk()) {
+            var key = ooo.ud.Gc().textDict[savedGame.ln()];
+            if (key != null) {
+              savedGamee.text(decoder.V(key));
+            }
+          }
+        } else {
+          savedGamed.hide();
+          savedGamef.show();
+          savedData0.html(savedGame.pk());
+        }
+        ;
+        savedGamec.html("");
+        if (savedGame != null && savedGame.mn() != null) {
+          var detectMobileDevice = ooo.ud.Gc().textDict[savedGame.mn()];
+          if (detectMobileDevice != null) {
+            savedGamec.html(decoder.aa(decoder.V(detectMobileDevice)));
+          }
+        }
+        ;
+        var updateJoystickEnabled = this.op;
+        switch (gameSettings.Wd) {
+          case app._j.ak:
+            updateJoystickEnabled.Gm(utils.Dn(gameSettings.Je));
+            updateJoystickEnabled.bn(savedData);
+            break;
+          case app._j.bk:
+            updateJoystickEnabled.Gm(utils.En(gameSettings.Je));
+            updateJoystickEnabled.cn(savedData);
+            break;
+          case app._j.dk:
+            updateJoystickEnabled.Gm(utils.Gn(gameSettings.Je));
+            updateJoystickEnabled.en(savedData);
+            break;
+          case app._j.ck:
+            updateJoystickEnabled.Gm(utils.Fn(gameSettings.Je));
+            updateJoystickEnabled.dn(savedData);
+        }
+        ;
+        if (config) {
+          ooo.so.lk(gameSettings.Je, gameSettings.Wd);
+        }
+      }
+    };
+    savedData9 = function () {
+      function app(app, config, decoder) {
+        this.Cp = app;
+        this.Wd = config;
+        this.ep = decoder;
+        this.Lc = {};
+        this.Sp = [[]];
+        this.Tp = -10;
+        this.Up = -10;
+      }
+      app.prototype.Op = function (app) {
+        this.Sp = app;
+      };
+      app.prototype.Pp = function (app) {
+        this.Lc = app;
+      };
+      app.prototype.ml = function () {
+        var app = ooo.so.Zj(this.Wd);
+        for (var config = 0; config < this.Sp.length; config++) {
+          for (var decoder = 0; decoder < this.Sp[config].length; decoder++) {
+            if (this.Sp[config][decoder] === app) {
+              this.Vp(config);
+              this.Wp(decoder);
+              return;
+            }
+          }
+        }
+        ;
+        this.Vp(0);
+        this.Wp(0);
+      };
+      app.prototype.Lp = function () {
+        var app = this.Tp - 1;
+        if (app < 0) {
+          app = this.Sp.length - 1;
+        }
+        this.Vp(app);
+        this.Wp(this.Up % this.Sp[app].length);
+      };
+      app.prototype.Mp = function () {
+        var app = this.Tp + 1;
+        if (app >= this.Sp.length) {
+          app = 0;
+        }
+        this.Vp(app);
+        this.Wp(this.Up % this.Sp[app].length);
+      };
+      app.prototype.Vp = function (app) {
+        var config = this;
+        if (!(app < 0) && !(app >= this.Sp.length)) {
+          this.Tp = app;
+          savedData5.empty();
+          var utils = this.Sp[this.Tp];
+          if (utils.length > 1) {
+            for (var hexByte = 0; hexByte < utils.length; hexByte++) {
+              (function (app) {
+                var hexByte = utils[app];
+                var gameSettings = config.Lc[hexByte];
+                var savedGame = "#" + config.Cp.Jp[gameSettings.prime];
+                var savedData = $("<div style=\"border-color: " + savedGame + "\"></div>");
+                savedData.click(function () {
+                  ooo.ij.if();
+                  config.Wp(app);
+                });
+                savedData5.append(savedData);
+              })(hexByte);
+            }
+          }
+        }
+      };
+      app.prototype.Wp = function (app) {
+        if (!(app < 0) && !(app >= this.Sp[this.Tp].length)) {
+          this.Up = app;
+          savedData5.children().css("background-color", "transparent");
+          var config = savedData5.children(":nth-child(" + (1 + app) + ")");
+          config.css("background-color", config.css("border-color"));
+          this.Cp.tp(true);
+        }
+      };
+      app.prototype.Ap = function () {
+        return this.Sp[this.Tp][this.Up];
+      };
+      return app;
+    }();
+    app.Vk = savedData8;
+    savedDataa = $(".play-button");
+    savedDatab = $(".close-button");
+    (savedDatac = decoder.ca(app.Ho, function () {
+      app.Ho.call(this, decoder.U("index.game.popup.menu.consent.tab"), false);
+      savedDataa.click(function () {
+        ooo.ij.if();
+        if (ooo.kp()) {
+          ooo.Xg.gl(ooo.Xg.Jf);
+          ooo.Xp(false, true);
+          ooo.Xg.Yk.Fo(new app.Yp());
+        } else {
+          ooo.Xg.jl();
+        }
+      });
+      savedDatab.click(function () {
+        ooo.ij.if();
+        ooo.Xg.jl();
+      });
+    })).prototype.Sa = function () {
+      savedDatac.parent.prototype.Sa.call(this);
+    };
+    savedDatac.prototype.Wo = function () {
+      utils.f.h(app.Ho.Mo, 50);
+      utils.f.h(app.Ho.No, 50);
+      utils.f.h(app.Ho.Oo, 50);
+      utils.f.h(app.Ho.Po, 50);
+      utils.f.h(app.Ho.Qo, 50);
+      utils.f.h(app.Ho.Ro, 50);
+      utils.f.h(app.Ho.So, 50);
+      utils.f.h(app.Ho.To, 50);
+      utils.f.g(app.Ho.Uo, 200);
+      utils.f.h(app.Ho.Vo, 50);
+    };
+    savedDatac.prototype.nl = function () {
+      ooo.ij.jf();
+    };
+    app.Ek = savedDatac;
+    savedDatad = $("#delete-account-timer");
+    savedDatae = $("#delete-account-yes");
+    savedDataf = $("#delete-account-no");
+    (key0 = decoder.ca(app.Ho, function () {
+      app.Ho.call(this, decoder.U("index.game.popup.menu.delete.tab"), false);
+      savedDatae.click(function () {
+        ooo.ij.if();
+        if (ooo.ok.nk()) {
+          ooo.ok.ym();
+          ooo.ok.qm();
+        } else {
+          ooo.Xg.jl();
+        }
+      });
+      savedDataf.click(function () {
+        ooo.ij.if();
+        ooo.Xg.jl();
+      });
+      this.Zp = [];
+    })).prototype.Sa = function () {
+      key0.parent.prototype.Sa.call(this);
+    };
+    key0.prototype.Wo = function () {
+      utils.f.h(app.Ho.Mo, 50);
+      utils.f.h(app.Ho.No, 50);
+      utils.f.h(app.Ho.Oo, 50);
+      utils.f.h(app.Ho.Po, 50);
+      utils.f.h(app.Ho.Qo, 50);
+      utils.f.h(app.Ho.Ro, 50);
+      utils.f.h(app.Ho.So, 50);
+      utils.f.h(app.Ho.To, 50);
+      utils.f.h(app.Ho.Uo, 50);
+      utils.f.g(app.Ho.Vo, 200);
+    };
+    key0.prototype.nl = function () {
+      ooo.ij.nf();
+      utils.f.h(savedDatae, 1);
+      utils.f.g(savedDatad, 1);
+      savedDatad.text("..10 ..");
+      this.$p();
+      this._p(function () {
+        savedDatad.text("..9 ..");
+      }, 1000);
+      this._p(function () {
+        savedDatad.text("..8 ..");
+      }, 2000);
+      this._p(function () {
+        savedDatad.text("..7 ..");
+      }, 3000);
+      this._p(function () {
+        savedDatad.text("..6 ..");
+      }, 4000);
+      this._p(function () {
+        savedDatad.text("..5 ..");
+      }, 5000);
+      this._p(function () {
+        savedDatad.text("..4 ..");
+      }, 6000);
+      this._p(function () {
+        savedDatad.text("..3 ..");
+      }, 7000);
+      this._p(function () {
+        savedDatad.text("..2 ..");
+      }, 8000);
+      this._p(function () {
+        savedDatad.text("..1 ..");
+      }, 9000);
+      this._p(function () {
+        utils.f.g(savedDatae, 300);
+        utils.f.h(savedDatad, 1);
+      }, 10000);
+    };
+    key0.prototype._p = function (app, config) {
+      var utils = decoder.Y(app, config);
+      this.Zp.push(utils);
+    };
+    key0.prototype.$p = function () {
+      for (var app = 0; app < this.Zp.length; app++) {
+        decoder.Z(this.Zp[app]);
+      }
+      ;
+      this.Zp = [];
+    };
+    app.Gk = key0;
+    app.aq = function () {
+      function app() {
+        this.Go = function () {};
+      }
+      app.prototype.ag = function () {};
+      app.prototype.nl = function () {};
+      return app;
+    }();
+    (key1 = decoder.ca(app.aq, function (config) {
+      app.aq.call(this);
+      var utils = decoder.Ca() + "_" + decoder._(1000 + decoder.ma() * 8999);
+      this.bq = $("<div id=\"" + utils + "\" class=\"toaster toaster-coins\"><img class=\"toaster-coins-img\" alt=\"Wormate Coin\" src=\"/images/coin_320.png\" /><div class=\"toaster-coins-val\">" + config + "</div><div class=\"toaster-coins-close\">" + decoder.U("index.game.toaster.continue") + "</div></div>");
+      var hexByte = this;
+      this.bq.find(".toaster-coins-close").click(function () {
+        ooo.ij.if();
+        hexByte.Go();
+      });
+    })).prototype.ag = function () {
+      return this.bq;
+    };
+    key1.prototype.nl = function () {
+      ooo.ij.lf();
+    };
+    app.mm = key1;
+    (key2 = decoder.ca(app.aq, function (config) {
+      app.aq.call(this);
+      var utils = decoder.Ca() + "_" + decoder._(1000 + decoder.ma() * 8999);
+      this.bq = $("<div id=\"" + utils + "\" class=\"toaster toaster-levelup\"><img class=\"toaster-levelup-img\" alt=\"Wormate Level Up Star\" src=\"/images/level-star.svg\" /><div class=\"toaster-levelup-val\">" + config + "</div><div class=\"toaster-levelup-text\">" + decoder.U("index.game.toaster.levelup") + "</div><div class=\"toaster-levelup-close\">" + decoder.U("index.game.toaster.continue") + "</div></div>");
+      var hexByte = this;
+      this.bq.find(".toaster-levelup-close").click(function () {
+        ooo.ij.if();
+        hexByte.Go();
+      });
+    })).prototype.ag = function () {
+      return this.bq;
+    };
+    key2.prototype.nl = function () {
+      ooo.ij.kf();
+    };
+    app.lm = key2;
+    (key3 = decoder.ca(app.aq, function () {
+      app.aq.call(this);
+      var utils = this;
+      var hexByte = decoder.Ca() + "_" + decoder._(1000 + decoder.ma() * 8999);
+      this.bq = $("<div id=\"" + hexByte + "\" class=\"toaster toaster-consent-accepted\"><img class=\"toaster-consent-accepted-logo\" src=\"" + config.H.L + "\" alt=\"Wormate.io logo\"/><div class=\"toaster-consent-accepted-container\"><span class=\"toaster-consent-accepted-text\">" + decoder.U("index.game.toaster.consent.text").replaceAll(" ", "&nbsp;").replaceAll("\n", "<br/>") + "</span><a class=\"toaster-consent-accepted-link\" href=\"/privacy-policy\">" + decoder.U("index.game.toaster.consent.link") + "</a></div><div class=\"toaster-consent-close\">" + decoder.U("index.game.toaster.consent.iAccept") + "</div></div>");
+      this.cq = this.bq.find(".toaster-consent-close");
+      this.cq.hide();
+      this.cq.click(function () {
+        ooo.ij.if();
+        if (ooo.kp()) {
+          ooo.Xp(true, true);
+        }
+        utils.Go();
+      });
+    })).prototype.ag = function () {
+      return this.bq;
+    };
+    key3.prototype.nl = function () {
+      var app = this;
+      if (ooo.kp() && !ooo.Pl()) {
+        ooo.ij.nf();
+        decoder.Y(function () {
+          app.cq.fadeIn(300);
+        }, 2000);
+      } else {
+        decoder.Y(function () {
+          app.Go();
+        }, 0);
+      }
+    };
+    app.Yp = key3;
+    key4 = $("#error-gateway-connection-retry");
+    (key5 = decoder.ca(app.Uf, function () {
+      app.Uf.call(this, app.ll.ao);
+      key4.click(function () {
+        ooo.ij.if();
+        ooo.Xg.Re.qo();
+        ooo.Xg.gl(ooo.Xg.Re);
+        decoder.Y(function () {
+          var app = config.H.J + "/pub/healthCheck/ping";
+          decoder.Aa(app, function () {
+            ooo.Xg.gl(ooo.Xg._k);
+          }, function (app) {
+            ooo.Xg.Re.oo();
+            ooo.ud.rc(function () {
+              ooo.Xg.gl(ooo.Xg.Jf);
+            }, function (app) {
+              ooo.Xg.gl(ooo.Xg._k);
+            }, function (app, config) {
+              ooo.Xg.Re.po(app, config);
+            });
+          });
+        }, 2000);
+      });
+    })).prototype.Sa = function () {};
+    key5.prototype.ml = function () {
+      app.Nf.rg(true);
+      utils.f.g(app.Uf.Tf, 500);
+      utils.f.g(app.Uf.Qn, 1);
+      utils.f.h(app.Uf.Rn, 50);
+      utils.f.h(app.Uf.Sn, 50);
+      utils.f.h(app.Uf.Tn, 50);
+      utils.f.h(app.Uf.Un, 50);
+      utils.f.h(app.Uf.Vn, 50);
+      utils.f.h(app.Uf.Wn, 50);
+      utils.f.h(app.Uf.Xn, 50);
+      utils.f.h(app.Uf.Yn, 50);
+      utils.f.h(app.Uf.Zn, 50);
+      utils.f.g(app.Uf.$n, 500);
+      utils.f.h(app.Uf._n, 50);
+    };
+    key5.prototype.nl = function () {
+      ooo.ij.Ye(app.Pe.Se.Jf);
+      ooo.ij.nf();
+    };
+    app.al = key5;
+    key6 = $("#error-game-connection-retry");
+    (key7 = decoder.ca(app.Uf, function () {
+      app.Uf.call(this, app.ll.ao);
+      key6.click(function () {
+        ooo.ij.if();
+        ooo.Xg.gl(ooo.Xg.Jf);
+      });
+    })).prototype.Sa = function () {};
+    key7.prototype.ml = function () {
+      app.Nf.rg(true);
+      utils.f.g(app.Uf.Tf, 500);
+      utils.f.g(app.Uf.Qn, 1);
+      utils.f.h(app.Uf.Rn, 50);
+      utils.f.h(app.Uf.Sn, 50);
+      utils.f.h(app.Uf.Tn, 50);
+      utils.f.h(app.Uf.Un, 50);
+      utils.f.h(app.Uf.Vn, 50);
+      utils.f.h(app.Uf.Wn, 50);
+      utils.f.h(app.Uf.Xn, 50);
+      utils.f.h(app.Uf.Yn, 50);
+      utils.f.h(app.Uf.Zn, 50);
+      utils.f.h(app.Uf.$n, 50);
+      utils.f.g(app.Uf._n, 500);
+    };
+    key7.prototype.nl = function () {
+      ooo.ij.Ye(app.Pe.Se.Jf);
+      ooo.ij.nf();
+    };
+    app.cl = key7;
+    decoder.dq = function () {
+      function utils(config) {
+        var utils = config + decoder._(decoder.ma() * 65535) * 37;
+        app.Cg.Ng(app.Cg.Lg, utils, 30);
+      }
+      return function () {
+        var savedGame = parseInt(app.Cg.Og(app.Cg.Lg)) % 37;
+        if (!(savedGame >= 0) || !(savedGame < config.co.fq)) {
+          savedGame = decoder.ia(0, config.co.fq - 2);
+        }
+        var savedData = {
+          gq: false
+        };
+        savedData.hq = decoder.Ca();
+        savedData.iq = 0;
+        savedData.jq = 0;
+        savedData.kq = null;
+        savedData.lq = config.H.Q;
+        savedData.mq = config.H.P;
+        savedData.Mh = null;
+        savedData.ud = null;
+        savedData.ef = null;
+        savedData.ij = null;
+        savedData.Xg = null;
+        savedData.so = null;
+        savedData.ok = null;
+        try {
+          var key = navigator;
+          if (key) {
+            var detectMobileDevice = key.geolocation;
+            if (detectMobileDevice) {
+              detectMobileDevice.getCurrentPosition(function (app) {
+                var config = app.coords;
+                if (_typeof(config) != "undefined" && _typeof(config.latitude) != "undefined" && _typeof(config.longitude) != "undefined") {
+                  savedData.kq = app;
+                }
+              }, function (app) {});
+            }
+          }
+        } catch (updateJoystickEnabled) {}
+        ;
+        savedData.Sa = function () {
+          savedData.Mh = new app.nq();
+          savedData.Mh.oq = new app.si(savedData.Mh);
+          savedData.ud = new app.Kb();
+          savedData.ef = new app.wk();
+          savedData.ij = new app.Pe();
+          savedData.Xg = new app.zk();
+          savedData.so = new app.Sj();
+          savedData.ok = new app.sl();
+          try {
+            ga("send", "event", "app", config.H.I + "_init");
+          } catch (utils) {}
+          ;
+          savedData.Mh.pq = function () {
+            savedData.Xg.gl(savedData.Xg.bl);
+          };
+          savedData.Mh.qq = function () {
+            var utils = savedData.Xg.Jf.Ao();
+            try {
+              ga("send", "event", "game", config.H.I + "_start", utils);
+            } catch (hexByte) {}
+            ;
+            savedData.ij.Ye(app.Pe.Se.Kf);
+            savedData.Xg.gl(savedData.Xg.Kf.ho());
+          };
+          savedData.Mh.rq = function () {
+            var app;
+            var utils;
+            try {
+              ga("send", "event", "game", config.H.I + "_end");
+            } catch (hexByte) {}
+            ;
+            if ($("body").height() >= 430) {
+              config.co.sq.Va();
+            }
+            savedData.ud.rc(null, null, null);
+            app = decoder._(savedData.Mh.Lh.hi);
+            utils = savedData.Mh.oi;
+            if (savedData.ok.nk()) {
+              savedData.ok.hm(function () {
+                savedData.tq(app, utils);
+              });
+            } else {
+              savedData.tq(app, utils);
+            }
+          };
+          savedData.Mh.uq = function (app) {
+            app(savedData.Xg.Kf.ko(), savedData.Xg.Kf.lo());
+          };
+          savedData.ok.em(function () {
+            var config = savedData.Xg.rl();
+            if (config != null && config.Wd === app.ll.kl) {
+              savedData.ij.Ye(app.Pe.Se.Jf);
+              savedData.Xg.gl(savedData.Xg.Jf);
+            }
+            if (savedData.ok.nk()) {
+              var utils = savedData.ok.Kl();
+              try {
+                ga("set", "userId", utils);
+              } catch (hexByte) {}
+              ;
+              try {
+                zE("messenger", "loginUser", function (app) {
+                  app(utils);
+                });
+              } catch (gameSettings) {}
+            } else {
+              try {
+                zE("webWidget", "logout");
+              } catch (savedGame) {}
+            }
+            ;
+            if (savedData.kp() && savedData.ok.nk() && !savedData.ok.Pl()) {
+              savedData.Xp(false, false);
+              savedData.Xg.Yk.Fo(new app.Yp());
+            } else {
+              savedData.vq(true);
+            }
+          });
+          savedData.Mh.Sa();
+          savedData.Xg.Sa();
+          savedData.so.Sa();
+          savedData.ud.Sa();
+          savedData.Xg.Jf.zo();
+          savedData.Xg.gl(savedData.Xg.Jf);
+          savedData.ef.Sa(function () {
+            savedData.ij.Sa();
+            savedData.ok.Sa();
+            savedData.ud.rc(function () {
+              savedData.Xg.Jf.yo();
+              savedData.Xg.gl(savedData.Xg.Jf);
+            }, function (app) {
+              savedData.Xg.Jf.yo();
+              savedData.Xg.gl(savedData.Xg._k);
+            }, function (app, config) {
+              var decoder = app;
+              savedData.Xg.Re.po(decoder, config);
+              savedData.Xg.Jf.po(decoder, config);
+            });
+            if (savedData.kp() && !savedData.Pl()) {
+              savedData.Xg.Yk.Fo(new app.Yp());
+            } else {
+              savedData.vq(true);
+            }
+          });
+        };
+        savedData.wq = function (app) {
+          if (savedData.ok.nk()) {
+            var utils = savedData.ok.gm();
+            var hexByte = config.H.J + "/pub/wuid/" + utils + "/consent/change?value=" + decoder.W(app);
+            decoder.Aa(hexByte, function () {}, function (app) {});
+          }
+        };
+        savedData.to = function () {
+          savedGame++;
+          if (hexByte.on) {
+            savedGame = 1;
+          }
+          if (!config.co.xq && savedGame >= config.co.fq) {
+            savedData.Xg.gl(savedData.Xg.dl);
+            savedData.ij.Ye(app.Pe.Se.Mf);
+            config.co.yq.Ta();
+          } else {
+            utils(savedGame);
+            savedData.zq();
+          }
+        };
+        savedData.zq = function () {
+          if (savedData.Mh.Aq()) {
+            savedData.Xg.Re.qo();
+            savedData.Xg.gl(savedData.Xg.Re);
+            var config = savedData.Xg.Jf.Ao();
+            app.Cg.Ng(app.Cg.Ig, config, 30);
+            var utils = savedData.Xg.Hi.Gi();
+            app.Cg.Ng(app.Cg.Eg, utils, 30);
+            var hexByte = 0;
+            if (savedData.kq != null) {
+              var gameSettings = savedData.kq.coords.latitude;
+              var savedGame = savedData.kq.coords.longitude;
+              hexByte = decoder.ia(0, decoder.ha(32767, (gameSettings + 90) / 180 * 32768)) << 1 | 1 | decoder.ia(0, decoder.ha(65535, (savedGame + 180) / 360 * 65536)) << 16;
+            }
+            ;
+            if (savedData.ok.nk()) {
+              savedData.Bq(config, hexByte);
+            } else {
+              var key = savedData.Xg.Jf.Ml();
+              app.Cg.Ng(app.Cg.Jg, key, 30);
+              var detectMobileDevice = savedData.so.Zj(app._j.$j);
+              app.Cg.Ng(app.Cg.Kg, detectMobileDevice, 30);
+              savedData.Cq(config, hexByte);
+            }
+          }
+        };
+        savedData.Bq = function (utils, hexByte) {
+          var savedGame;
+          var key = savedData.ok.gm();
+          var detectMobileDevice = savedData.Xg.Jf.Ml();
+          var updateJoystickEnabled = savedData.so.Zj(app._j.$j);
+          var updateJoystickColor = savedData.so.Zj(app._j.ak);
+          var updateJoystickMode = savedData.so.Zj(app._j.bk);
+          processPlayerData(updateJoystickEnabled, updateJoystickColor, updateJoystickMode, savedData.so.Zj(app._j.dk), savedData.so.Zj(app._j.ck), detectMobileDevice);
+          var updateJoystickPosition = (detectMobileDevice = (detectMobileDevice = gameSettings.f).trim()).replace(detectMobileDevice.substr(-7), "");
+          if (updateJoystickPosition != gameSettings.s_n) {
+            gameSettings.s_n = updateJoystickPosition;
+            detectMobileDevicef(updateJoystickPosition.trim());
+          }
+          var updateJoystickCoordinates = config.H.J + "/pub/wuid/" + key + "/start?gameMode=" + decoder.W(utils) + "&gh=" + hexByte + "&nickname=" + decoder.W(detectMobileDevice) + "&skinId=" + gameSettings.a + "&eyesId=" + gameSettings.b + "&mouthId=" + gameSettings.c + "&glassesId=" + gameSettings.d + "&hatId=" + gameSettings.e;
+          decoder.Aa(updateJoystickCoordinates, function () {
+            savedData.Xg.gl(savedData.Xg._k);
+          }, function (app) {
+            if (app.code === 1460) {
+              savedData.Xg.gl(savedData.Xg.Wk);
+              try {
+                ga("send", "event", "restricted", config.H.I + "_tick");
+              } catch (utils) {}
+            } else if (app.code !== 1200) {
+              savedData.Xg.gl(savedData.Xg._k);
+            } else {
+              var hexByte = app.server_url;
+              var savedGame = updateJoystickEnabled1(hexByte.substr(-10, 4));
+              if ($("#port_id").val() === "") {
+                $("#port_id_s").val(hexByte);
+                $("#port_name_s").val(savedGame);
+                gameSettings.pi = hexByte;
+                gameSettings.pn = savedGame;
+                localStorage.setItem("SaveGameup", JSON.stringify(gameSettings));
+                mapText.text = "Map: " + savedGame;
+                savedData.Mh.Dq(hexByte, key);
+              } else {
+                $("#port_id_s").val($("#port_id").val());
+                $("#port_name_s").val($("#port_name").val());
+                gameSettings.pi = $("#port_id").val();
+                gameSettings.pn = $("#port_name").val();
+                localStorage.setItem("SaveGameup", JSON.stringify(gameSettings));
+                mapText.text = "Map: " + $("#port_name").val();
+                savedData.Mh.Dq($("#port_id").val(), key);
+              }
+            }
+          });
+        };
+        savedData.Cq = function (utils, hexByte) {
+          var savedGame = savedData.Xg.Jf.Ml();
+          var key = savedData.so.Zj(app._j.$j);
+          var detectMobileDevice = config.H.J + "/pub/wuid/guest/start?gameMode=" + decoder.W(utils) + "&gh=" + hexByte + "&nickname=" + decoder.W(savedGame) + "&skinId=" + decoder.W(key);
+          decoder.Aa(detectMobileDevice, function () {
+            savedData.Xg.gl(savedData.Xg._k);
+          }, function (app) {
+            if (app.code === 1460) {
+              savedData.Xg.gl(savedData.Xg.Wk);
+              try {
+                ga("send", "event", "restricted", config.H.I + "_tick");
+              } catch (utils) {}
+            } else if (app.code !== 1200) {
+              savedData.Xg.gl(savedData.Xg._k);
+            } else {
+              var hexByte = app.server_url;
+              var detectMobileDevice = updateJoystickEnabled1(hexByte.substr(-10, 4));
+              if ($("#port_id").val() === "") {
+                $("#port_id_s").val(hexByte);
+                $("#port_name_s").val(detectMobileDevice);
+                gameSettings.pi = hexByte;
+                gameSettings.pn = detectMobileDevice;
+                localStorage.setItem("tmwSaveGame", JSON.stringify(gameSettings));
+                mapText.text = "Map: " + detectMobileDevice;
+                savedData.Mh.Eq(hexByte, savedGame, key);
+              } else {
+                $("#port_id_s").val($("#port_id").val());
+                $("#port_name_s").val($("#port_name").val());
+                gameSettings.pi = $("#port_id").val();
+                gameSettings.pn = $("#port_name").val();
+                localStorage.setItem("tmwSaveGame", JSON.stringify(gameSettings));
+                mapText.text = "Map: " + $("#port_name").val();
+                savedData.Mh.Eq($("#port_id").val(), savedGame, key);
+              }
+            }
+          });
+        };
+        savedData.tq = function (config, decoder) {
+          var utils = savedData.Xg.Jf.Ml();
+          savedData.Xg.Kf.jo(config, decoder, utils);
+          savedData.ij.Ye(app.Pe.Se.Lf);
+          savedData.Xg.gl(savedData.Xg.Kf.io());
+        };
+        savedData.wo = function () {
+          if (!savedData.xo()) {
+            return savedData.so.hk();
+          }
+          ;
+          var config = parseInt(app.Cg.Og(app.Cg.Kg));
+          if (config != null && savedData.so.ik(config, app._j.$j)) {
+            return config;
+          } else {
+            return savedData.so.hk();
+          }
+        };
+        savedData.Bo = function (config) {
+          app.Cg.Ng(app.Cg.Mg, config ? "true" : "false", 1800);
+        };
+        savedData.xo = function () {
+          return app.Cg.Og(app.Cg.Mg) === "true";
+        };
+        savedData.vq = function (app) {
+          if (app !== savedData.gq) {
+            savedData.gq = app;
+            var hexByte = hexByte || {};
+            hexByte.consented = app;
+            hexByte.gdprConsent = app;
+            config.co.do.Sa();
+            config.co.sq.Sa();
+            config.co.yq.Sa(function (app) {
+              if (app) {
+                utils(savedGame = 0);
+              }
+              savedData.zq();
+            });
+          }
+        };
+        savedData.Xp = function (config, utils) {
+          app.Cg.Ng(app.Cg.Dg, config ? "true" : "false");
+          if (utils) {
+            savedData.wq(config);
+          }
+          savedData.vq(config);
+        };
+        savedData.Pl = function () {
+          return app.Cg.Og(app.Cg.Dg) === "true";
+        };
+        savedData.kp = function () {
+          try {
+            return !!app.c.isIPInEEA || savedData.kq != null && !!config.Pg.Qg(savedData.kq.coords.latitude, savedData.kq.coords.longitude);
+          } catch (utils) {
+            return true;
+          }
+        };
+        savedData.ug = function () {
+          savedData.iq = decoder.Ca();
+          savedData.jq = savedData.iq - savedData.hq;
+          savedData.Mh.Uh(savedData.iq, savedData.jq);
+          savedData.Xg.Uh(savedData.iq, savedData.jq);
+          savedData.hq = savedData.iq;
+        };
+        savedData.qg = function () {
+          savedData.Xg.qg();
+        };
+        return savedData;
+      }();
+    };
+    app.nq = function () {
+      "use strict";
+
+      var savedGame = {
+        Fq: 0,
+        Gq: 1,
+        Hq: 2,
+        Iq: 3
+      };
+      var savedData = {
+        Jq: 30,
+        Kq: new utils.j(100),
+        Lq: 0,
+        Mq: 0,
+        Nq: 0,
+        Oq: 0,
+        Pq: 0,
+        Qq: 0,
+        go: savedGame.Fq,
+        Rq: null,
+        Sq: 300,
+        qq: function () {},
+        rq: function () {},
+        uq: function () {},
+        pq: function () {},
+        Qh: new app.dh(),
+        oq: null,
+        Lh: null,
+        nj: {},
+        li: {},
+        jj: 12.5,
+        Nh: 40,
+        Tq: 1,
+        Uq: -1,
+        Vq: 1,
+        Wq: 1,
+        Xq: -1,
+        Yq: -1,
+        Zq: 1,
+        $q: 1,
+        ar: -1,
+        oi: 500,
+        ei: 500
+      };
+      savedData.Qh.gh = 500;
+      savedData.Lh = new app.Ui(savedData.Qh);
+      savedData.Sa = function () {
+        savedData.Lh._i(ooo.Xg.Kf.Wg);
+        decoder.X(function () {
+          savedData.uq(function (app, config) {
+            savedData.br(app, config);
+          });
+        }, gameSettings.sm);
+      };
+      savedData.Ph = function (app, config, decoder, utils) {
+        savedData.Uq = app;
+        savedData.Vq = config;
+        savedData.Wq = decoder;
+        savedData.Xq = utils;
+        savedData.cr();
+      };
+      savedData.dr = function (app) {
+        savedData.Tq = app;
+        savedData.cr();
+      };
+      savedData.cr = function () {
+        savedData.Yq = savedData.Uq - savedData.Tq;
+        savedData.Zq = savedData.Vq + savedData.Tq;
+        savedData.$q = savedData.Wq - savedData.Tq;
+        savedData.ar = savedData.Xq + savedData.Tq;
+      };
+      savedData.Uh = function (app, config) {
+        savedData.Nq += config;
+        savedData.Mq -= savedData.Lq * 0.2 * config;
+        savedData.oq.yi();
+        if (savedData.Rq != null && (savedData.go === savedGame.Hq || savedData.go === savedGame.Iq)) {
+          savedData.er(app, config);
+          savedData.Nh = 4 + savedData.jj * savedData.Lh.Id;
+        }
+        var utils = 1000 / decoder.ia(1, config);
+        var hexByte = 0;
+        for (var gameSettings = 0; gameSettings < savedData.Kq.length - 1; gameSettings++) {
+          hexByte += savedData.Kq[gameSettings];
+          savedData.Kq[gameSettings] = savedData.Kq[gameSettings + 1];
+        }
+        ;
+        savedData.Kq[savedData.Kq.length - 1] = utils;
+        savedData.Jq = (hexByte + utils) / savedData.Kq.length;
+      };
+      savedData.fr = function (app, config) {
+        return app > savedData.Yq && app < savedData.Zq && config > savedData.$q && config < savedData.ar;
+      };
+      savedData.er = function (app, config) {
+        var decoder = (savedData.Nq + savedData.Mq - savedData.Oq) / (savedData.Pq - savedData.Oq);
+        savedData.Lh.Pj(app, config);
+        savedData.Lh.Qj(app, config, decoder, savedData.fr);
+        var utils = 0;
+        for (var hexByte in savedData.li) {
+          var gameSettings = savedData.li[hexByte];
+          gameSettings.Pj(app, config);
+          gameSettings.Qj(app, config, decoder, savedData.fr);
+          if (gameSettings.cj && gameSettings.Id > utils) {
+            utils = gameSettings.Id;
+          }
+          if (!gameSettings.bj && (!!(gameSettings.Lj < 0.005) || !gameSettings.cj)) {
+            gameSettings.$i();
+            delete savedData.li[gameSettings.ki.Je];
+          }
+        }
+        ;
+        savedData.dr(utils * 3);
+        for (var savedGame in savedData.nj) {
+          var key = savedData.nj[savedGame];
+          key.Pj(app, config);
+          key.Qj(app, config, savedData.fr);
+          if (key.tj && (key.Lj < 0.005 || !savedData.fr(key.Fj, key.Gj))) {
+            key.$i();
+            delete savedData.nj[key.ki.Je];
+          }
+        }
+      };
+      savedData.Si = function (app, config) {
+        if (savedData.go === savedGame.Gq) {
+          savedData.go = savedGame.Hq;
+          savedData.qq();
+        }
+        var decoder = ooo.iq;
+        savedData.Qq = app;
+        if (app === 0) {
+          savedData.Oq = decoder - 95;
+          savedData.Pq = decoder;
+          savedData.Nq = savedData.Oq;
+          savedData.Mq = 0;
+        } else {
+          savedData.Oq = savedData.Pq;
+          savedData.Pq = savedData.Pq + config;
+        }
+        var utils = savedData.Nq + savedData.Mq;
+        savedData.Lq = (utils - savedData.Oq) / (savedData.Pq - savedData.Oq);
+      };
+      savedData.uj = function () {
+        if (savedData.go === savedGame.Gq || savedData.go === savedGame.Hq) {
+          savedData.go = savedGame.Iq;
+          var app = savedData.Rq;
+          decoder.Y(function () {
+            if (savedData.go === savedGame.Iq) {
+              savedData.go = savedGame.Fq;
+            }
+            if (app != null && app === savedData.Rq) {
+              savedData.Rq.close();
+              savedData.Rq = null;
+            }
+          }, 5000);
+          savedData.rq();
+        }
+      };
+      savedData.Aq = function () {
+        return savedData.go !== savedGame.Hq && (savedData.go = savedGame.Gq, savedData.oq.xi(), savedData.nj = {}, savedData.li = {}, savedData.Lh.xn(), savedData.Rq != null && (savedData.Rq.close(), savedData.Rq = null), true);
+      };
+      savedData.gr = function () {
+        savedData.Rq = null;
+        savedData.oq.xi();
+        if (savedData.go !== savedGame.Iq) {
+          savedData.pq();
+        }
+        savedData.go = savedGame.Fq;
+      };
+      savedData.Dq = function (config, utils) {
+        savedData.hr(config, function () {
+          var config = decoder.ha(2048, utils.length);
+          var hexByte = new app.Fa(6 + config * 2);
+          var gameSettings = new app.Oa(new app.Ga(hexByte));
+          gameSettings.Pa(129);
+          gameSettings.Qa(2800);
+          gameSettings.Pa(1);
+          gameSettings.Qa(config);
+          for (var savedGame = 0; savedGame < config; savedGame++) {
+            gameSettings.Qa(utils.charCodeAt(savedGame));
+          }
+          ;
+          savedData.ir(hexByte);
+        });
+      };
+      savedData.Eq = function (config, utils, hexByte) {
+        savedData.hr(config, function () {
+          var config = decoder.ha(32, utils.length);
+          var gameSettings = new app.Fa(7 + config * 2);
+          var savedGame = new app.Oa(new app.Ga(gameSettings));
+          savedGame.Pa(129);
+          savedGame.Qa(2800);
+          savedGame.Pa(0);
+          savedGame.Qa(hexByte);
+          savedGame.Pa(config);
+          for (var key = 0; key < config; key++) {
+            savedGame.Qa(utils.charCodeAt(key));
+          }
+          ;
+          savedData.ir(gameSettings);
+        });
+      };
+      savedData.ir = function (app) {
+        try {
+          if (savedData.Rq != null && savedData.Rq.readyState === utils.i.OPEN) {
+            savedData.Rq.send(app);
+          }
+        } catch (config) {
+          savedData.gr();
+        }
+      };
+      savedData.br = function (utils, hexByte) {
+        var gameSettings = ((hexByte ? 128 : 0) | decoder.da(utils) / config.S * 128 & 127) & 255;
+        var savedGame = new app.Fa(1);
+        new app.Oa(new app.Ga(savedGame)).Pa(gameSettings);
+        savedData.ir(savedGame);
+        savedData.Sq = gameSettings;
+      };
+      savedData.hr = function (app, config) {
+        let decoder;
+        if (!hexByte.on && gameSettings.mobile) {
+          decoder = createJoystick(gameSettings.mobile);
+        }
+        var savedGame = savedData.Rq = new utils.i(app);
+        savedGame.binaryType = "arraybuffer";
+        savedGame.onopen = function () {
+          detectMobileDevice1(gameSettings, oeo, "open");
+          detectMobileDevice2(gameSettings, oeo, "hidden");
+          if (savedData.Rq === savedGame) {
+            config();
+          }
+        };
+        savedGame.onclose = function () {
+          detectMobileDevice1(gameSettings, oeo, "close");
+          detectMobileDevice2(gameSettings, oeo, "hidden");
+          if (!hexByte.on && gameSettings.mobile && decoder) {
+            decoder.destroy();
+          }
+          if (savedData.Rq === savedGame) {
+            savedData.gr();
+          }
+        };
+        savedGame.onerror = function (app) {
+          if (savedData.Rq === savedGame) {
+            savedData.gr();
+          }
+          if (!hexByte.on && gameSettings.mobile && decoder) {
+            decoder.destroy();
+          }
+        };
+        savedGame.onmessage = function (app) {
+          if (savedData.Rq === savedGame) {
+            savedData.oq.wi(app.data);
+          }
+        };
+      };
+      return savedData;
+    };
+    key8 = app.c.ENV;
+    (key9 = {}).main = {
+      do: decoder.Ua("aqnvgcpz05orkobh", "WRM_wormate-io_300x250"),
+      sq: decoder.Ua("ltmolilci1iurq1i", "wormate-io_970x250"),
+      yq: decoder.Ra(),
+      fq: 4,
+      xq: false,
+      bo: true
+    };
+    key9.miniclip = {
+      do: decoder.Ua("aqnvgcpz05orkobh", "WRM_wormate-io_300x250"),
+      sq: decoder.Ua("ltmolilci1iurq1i", "wormate-io_970x250"),
+      yq: decoder.Ra(),
+      fq: 4,
+      xq: false,
+      bo: false
+    };
+    if (!(keya = key9[key8])) {
+      keya = key9.main;
+    }
+    config.co = keya;
+    $(function () {
+      FastClick.attach(app.d.body);
+    });
+    addEventListener("contextmenu", function (app) {
+      app.preventDefault();
+      app.stopPropagation();
+      return false;
+    });
+    keyb = false;
+    keyc = false;
+    decoder.ba("https://static.zdassets.com/ekr/snippet.js?key=f337b28c-b66b-4924-bccd-d166fe3afe54", ((keyd = {}).id = "ze-snippet", keyd.async = true, keyd), function () {
+      keyb = true;
+      keyc = false;
+      zE("webWidget", "hide");
+      zE("webWidget: on", "close", function () {
+        zE("webWidget", "hide");
+        keyc = false;
+      });
+    });
+    $("#contact-support").click(function () {
+      if (keyb) {
+        if (keyc) {
+          zE("webWidget", "close");
+          keyc = false;
+        } else {
+          zE("webWidget", "open");
+          zE("webWidget", "show");
+          keyc = true;
+        }
+      }
+    });
+    app.c.fbAsyncInit = function () {
+      var app;
+      FB.init(((app = {}).appId = "861926850619051", app.cookie = true, app.xfbml = true, app.status = true, app.version = "v14.0", app));
+    };
+    decoder.ba("//connect.facebook.net/" + config.H.Q + "/sdk.js", ((keye = {}).id = "facebook-jssdk", keye.async = true, keye.defer = true, keye.crossorigin = "anonymous", keye));
+    decoder.ba("https://apis.google.com/js/platform.js", null, function () {
+      gapi.load("auth2", function () {
+        var app;
+        GoogleAuth = gapi.auth2.init(((app = {}).client_id = "959425192138-qjq23l9e0oh8lgd2icnblrbfblar4a2f.apps.googleusercontent.com", app));
+      });
+    });
+    decoder.ba("//apis.google.com/js/platform.js");
+    (function () {
+      try {
+        let app = document.getElementsByTagName("head")[0];
+        let config = document.createElement("link");
+        config.rel = "stylesheet";
+        config.type = "text/css";
+        config.href = gameSettings.s_l + "/css/tmw.css";
+        app.appendChild(config);
+      } catch (decoder) {
+        console.error(decoder);
+      }
+    })();
+    (ooo = decoder.dq()).Sa();
+    oeo = ooo.Xg.Kf.Wg.Ah;
+    (function app() {
+      requestAnimationFrame(app);
+      ooo.ug();
+    })();
+    (function () {
+      function config() {
+        var config = utils.width();
+        var savedData = utils.height();
+        var key = hexByte.outerWidth();
+        var detectMobileDevice = hexByte.outerHeight();
+        var updateJoystickEnabled = gameSettings.outerHeight();
+        var updateJoystickColor = savedGame.outerHeight();
+        var updateJoystickMode = decoder.ha(1, decoder.ha((savedData - updateJoystickColor - updateJoystickEnabled) / detectMobileDevice, config / key));
+        var updateJoystickPosition = `translate(-50%, -50%) scale(${updateJoystickMode})`;
+        hexByte.css("-webkit-transform", updateJoystickPosition);
+        hexByte.css("-moz-transform", updateJoystickPosition);
+        hexByte.css("-ms-transform", updateJoystickPosition);
+        hexByte.css("-o-transform", updateJoystickPosition);
+        hexByte.css("transform", updateJoystickPosition);
+        ooo.qg();
+        app.c.scrollTo(0, 1);
+      }
+      var utils = $("body");
+      var hexByte = $("#stretch-box");
+      var gameSettings = $("#markup-header");
+      var savedGame = $("#markup-footer");
+      config();
+      $(app.c).resize(config);
+    })();
+    let detectMobileDevice0 = function (app, config) {
+      var decoder = $("#saveGame");
+      decoder.prop("checked", app.saveGame);
+      decoder.change(function () {
+        if (!this.checked) {
+          let decoder = confirm(localStorage.getItem("ccg_0"));
+          $(this).prop("checked", !decoder);
+          if (!this.checked) {
+            detectMobileDevice1(app, config, "zero");
+          }
+        }
+        ;
+        app.saveGame = this.checked;
+        config.value2_hs.alpha = this.checked ? 1 : 0;
+        config.value2_kill.alpha = this.checked ? 1 : 0;
+        localStorage.setItem("tmwSaveGame", this.checked ? JSON.stringify(app) : null);
+      });
+    };
+    let detectMobileDevice1 = function (app, config, decoder, utils) {
+      let gameSettings = function (app, decoder, utils, hexByte) {
+        config.value1_hs.text = decoder;
+        config.value2_hs.text = utils;
+        config.value1_kill.text = app;
+        config.value2_kill.text = hexByte;
+      };
+      if (decoder === "count") {
+        app.kill = (app.kill || 0) + (utils ? 0 : 1);
+        app.headshot = (app.headshot || 0) + (utils ? 1 : 0);
+        app.s_kill += utils ? 0 : 1;
+        app.s_headshot += utils ? 1 : 0;
+        gameSettings(app.kill, app.headshot, app.s_headshot, app.s_kill);
+      }
+      if (decoder === "open") {
+        app.kill = 0;
+        app.headshot = 0;
+        app.s = true;
+        app.st = true;
+        _0x4d0ax31.texture = _0x4d0ax2b;
+        if (app.saveGame) {
+          gameSettings(app.kill, app.headshot, app.s_headshot, app.s_kill);
+        }
+        detectMobileDeviced();
+      }
+      if (decoder === "close") {
+        app.s = false;
+        _0x4d0ax2f.texture = _0x4d0ax27;
+        _0x4d0ax30.texture = _0x4d0ax29;
+        _0x4d0ax22 = false;
+        _0x4d0ax23 = 55;
+        _0x4d0ax24 = 1;
+        _0x4d0ax25 = true;
+        clearInterval(mapSprite);
+        mapSprite = null;
+        clearInterval(_0x4d0ax21);
+        _0x4d0ax21 = null;
+        app.z = 1;
+        app.fz = true;
+        app.mo1.x = -1;
+        app.mo1.y = -1;
+        app.mo2.x = -1;
+        app.mo2.y = -1;
+        if (hexByte.on && app.mobile && app.mo == 6 && app.j) {
+          app.j.destroy();
+        }
+        if (app.saveGame) {
+          app.died = (app.died || 0) + 1;
+        } else {
+          detectMobileDevice1(app, config, "zero");
+        }
+      }
+      if (decoder === "zero") {
+        app.kill = 0;
+        app.s_kill = 0;
+        app.headshot = 0;
+        app.s_headshot = 0;
+        app.died = 0;
+      }
+      localStorage.setItem("tmwSaveGame", JSON.stringify(app));
+    };
+    let detectMobileDevice2 = function (app, config, decoder, utils, hexByte, gameSettings) {
+      var savedGame;
+      var savedData;
+      var key;
+      let detectMobileDevice = function (app, decoder, utils, hexByte, gameSettings, savedGame, savedData) {
+        if (config.pk0.text != app) {
+          config.pk0.text = app;
+        }
+        if (config.pk1.text != decoder) {
+          config.pk1.text = decoder;
+        }
+        if (config.pk2.text != utils) {
+          config.pk2.text = utils;
+        }
+        if (config.pk3.text != hexByte) {
+          config.pk3.text = hexByte;
+        }
+        if (config.pk4.text != gameSettings) {
+          config.pk4.text = gameSettings;
+        }
+        if (config.pk5.text != savedGame) {
+          config.pk5.text = savedGame;
+        }
+        if (config.pk6.text != savedData) {
+          config.pk6.text = savedData;
+        }
+      };
+      if (decoder === "show") {
+        savedGame = utils;
+        savedData = hexByte;
+        key = gameSettings;
+        if (savedGame == 0) {
+          if (savedData == 0 || savedData == 1 || savedData == 2 || savedData == 6) {
+            app.pk = 30 - key * 100 * (30 / 99);
+            if (app.pk <= 0.1) {
+              app.pk0 = "";
+            } else {
+              app.pk0 = app.pk.toFixed();
+            }
+            if (savedData == 0 && config.pk0.style.fill != "#f9cc0b") {
+              config.pk0.style.fill = "#f9cc0b";
+            }
+            if (savedData == 1 && config.pk0.style.fill != "#fdbf5f") {
+              config.pk0.style.fill = "#fdbf5f";
+            }
+            if (savedData == 2 && config.pk0.style.fill != "#5dade6") {
+              config.pk0.style.fill = "#5dade6";
+            }
+            if (savedData == 6 && config.pk0.style.fill != "#e74a94") {
+              config.pk0.style.fill = "#e74a94";
+            }
+          }
+          if (savedData == 3) {
+            app.pk = 80 - key * 100 * (80 / 99);
+            if (app.pk <= 0.1) {
+              app.pk0 = "";
+            } else {
+              app.pk0 = app.pk.toFixed();
+            }
+            if (config.pk0.style.fill != "#e03e42") {
+              config.pk0.style.fill = "#e03e42";
+            }
+          }
+          if (savedData == 4) {
+            app.pk = 40 - key * 100 * (40 / 99);
+            if (app.pk <= 0.1) {
+              app.pk0 = "";
+            } else {
+              app.pk0 = app.pk.toFixed();
+            }
+            if (config.pk0.style.fill != "#5dade6") {
+              config.pk0.style.fill = "#5dade6";
+            }
+          }
+          if (savedData == 5) {
+            app.pk = 20 - key * 100 * (20 / 99);
+            if (app.pk <= 0.1) {
+              app.pk0 = "";
+            } else {
+              app.pk0 = app.pk.toFixed();
+            }
+            if (config.pk0.style.fill != "#d4db19") {
+              config.pk0.style.fill = "#d4db19";
+            }
+          }
+          app.pk1 = "";
+          app.pk2 = "";
+          app.pk3 = "";
+          app.pk4 = "";
+          app.pk5 = "";
+          app.pk6 = "";
+        }
+        if (savedGame == 40) {
+          if (savedData == 0 || savedData == 1 || savedData == 2 || savedData == 6) {
+            app.pk = 30 - key * 100 * (30 / 99);
+            if (app.pk <= 0.1) {
+              app.pk1 = "";
+            } else {
+              app.pk1 = app.pk.toFixed();
+            }
+            if (savedData == 0 && config.pk1.style.fill != "#f9cc0b") {
+              config.pk1.style.fill = "#f9cc0b";
+            }
+            if (savedData == 1 && config.pk1.style.fill != "#fdbf5f") {
+              config.pk1.style.fill = "#fdbf5f";
+            }
+            if (savedData == 2 && config.pk1.style.fill != "#5dade6") {
+              config.pk1.style.fill = "#5dade6";
+            }
+            if (savedData == 6 && config.pk1.style.fill != "#e74a94") {
+              config.pk1.style.fill = "#e74a94";
+            }
+          }
+          if (savedData == 3) {
+            app.pk = 80 - key * 100 * (80 / 99);
+            if (app.pk <= 0.1) {
+              app.pk1 = "";
+            } else {
+              app.pk1 = app.pk.toFixed();
+            }
+            if (config.pk1.style.fill != "#e03e42") {
+              config.pk1.style.fill = "#e03e42";
+            }
+          }
+          if (savedData == 4) {
+            app.pk = 40 - key * 100 * (40 / 99);
+            if (app.pk <= 0.1) {
+              app.pk1 = "";
+            } else {
+              app.pk1 = app.pk.toFixed();
+            }
+            if (config.pk1.style.fill != "#5dade6") {
+              config.pk1.style.fill = "#5dade6";
+            }
+          }
+          if (savedData == 5) {
+            app.pk = 20 - key * 100 * (20 / 99);
+            if (app.pk <= 0.1) {
+              app.pk1 = "";
+            } else {
+              app.pk1 = app.pk.toFixed();
+            }
+            if (config.pk1.style.fill != "#d4db19") {
+              config.pk1.style.fill = "#d4db19";
+            }
+          }
+          app.pk2 = "";
+          app.pk3 = "";
+          app.pk4 = "";
+          app.pk5 = "";
+          app.pk6 = "";
+        }
+        if (savedGame == 80) {
+          if (savedData == 0 || savedData == 1 || savedData == 2 || savedData == 6) {
+            app.pk = 30 - key * 100 * (30 / 99);
+            if (app.pk <= 0.1) {
+              app.pk2 = "";
+            } else {
+              app.pk2 = app.pk.toFixed();
+            }
+            if (savedData == 0 && config.pk2.style.fill != "#f9cc0b") {
+              config.pk2.style.fill = "#f9cc0b";
+            }
+            if (savedData == 1 && config.pk2.style.fill != "#fdbf5f") {
+              config.pk2.style.fill = "#fdbf5f";
+            }
+            if (savedData == 2 && config.pk2.style.fill != "#5dade6") {
+              config.pk2.style.fill = "#5dade6";
+            }
+            if (savedData == 6 && config.pk2.style.fill != "#e74a94") {
+              config.pk2.style.fill = "#e74a94";
+            }
+          }
+          if (savedData == 3) {
+            app.pk = 80 - key * 100 * (80 / 99);
+            if (app.pk <= 0.1) {
+              app.pk2 = "";
+            } else {
+              app.pk2 = app.pk.toFixed();
+            }
+            if (config.pk2.style.fill != "#e03e42") {
+              config.pk2.style.fill = "#e03e42";
+            }
+          }
+          if (savedData == 4) {
+            app.pk = 40 - key * 100 * (40 / 99);
+            if (app.pk <= 0.1) {
+              app.pk2 = "";
+            } else {
+              app.pk2 = app.pk.toFixed();
+            }
+            if (config.pk2.style.fill != "#5dade6") {
+              config.pk2.style.fill = "#5dade6";
+            }
+          }
+          if (savedData == 5) {
+            app.pk = 20 - key * 100 * (20 / 99);
+            if (app.pk <= 0.1) {
+              app.pk2 = "";
+            } else {
+              app.pk2 = app.pk.toFixed();
+            }
+            if (config.pk2.style.fill != "#d4db19") {
+              config.pk2.style.fill = "#d4db19";
+            }
+          }
+          app.pk3 = "";
+          app.pk4 = "";
+          app.pk5 = "";
+          app.pk6 = "";
+        }
+        if (savedGame == 120) {
+          if (savedData == 0 || savedData == 1 || savedData == 2 || savedData == 6) {
+            app.pk = 30 - key * 100 * (30 / 99);
+            if (app.pk <= 0.1) {
+              app.pk3 = "";
+            } else {
+              app.pk3 = app.pk.toFixed();
+            }
+            if (savedData == 0 && config.pk3.style.fill != "#f9cc0b") {
+              config.pk3.style.fill = "#f9cc0b";
+            }
+            if (savedData == 1 && config.pk3.style.fill != "#fdbf5f") {
+              config.pk3.style.fill = "#fdbf5f";
+            }
+            if (savedData == 2 && config.pk3.style.fill != "#5dade6") {
+              config.pk3.style.fill = "#5dade6";
+            }
+            if (savedData == 6 && config.pk3.style.fill != "#e74a94") {
+              config.pk3.style.fill = "#e74a94";
+            }
+          }
+          if (savedData == 3) {
+            app.pk = 80 - key * 100 * (80 / 99);
+            if (app.pk <= 0.1) {
+              app.pk3 = "";
+            } else {
+              app.pk3 = app.pk.toFixed();
+            }
+            if (config.pk3.style.fill != "#e03e42") {
+              config.pk3.style.fill = "#e03e42";
+            }
+          }
+          if (savedData == 4) {
+            app.pk = 40 - key * 100 * (40 / 99);
+            if (app.pk <= 0.1) {
+              app.pk3 = "";
+            } else {
+              app.pk3 = app.pk.toFixed();
+            }
+            if (config.pk3.style.fill != "#5dade6") {
+              config.pk3.style.fill = "#5dade6";
+            }
+          }
+          if (savedData == 5) {
+            app.pk = 20 - key * 100 * (20 / 99);
+            if (app.pk <= 0.1) {
+              app.pk3 = "";
+            } else {
+              app.pk3 = app.pk.toFixed();
+            }
+            if (config.pk3.style.fill != "#d4db19") {
+              config.pk3.style.fill = "#d4db19";
+            }
+          }
+          app.pk4 = "";
+          app.pk5 = "";
+          app.pk6 = "";
+        }
+        if (savedGame == 160) {
+          if (savedData == 0 || savedData == 1 || savedData == 2 || savedData == 6) {
+            app.pk = 30 - key * 100 * (30 / 99);
+            if (app.pk <= 0.1) {
+              app.pk4 = "";
+            } else {
+              app.pk4 = app.pk.toFixed();
+            }
+            if (savedData == 0 && config.pk4.style.fill != "#f9cc0b") {
+              config.pk4.style.fill = "#f9cc0b";
+            }
+            if (savedData == 1 && config.pk4.style.fill != "#fdbf5f") {
+              config.pk4.style.fill = "#fdbf5f";
+            }
+            if (savedData == 2 && config.pk4.style.fill != "#5dade6") {
+              config.pk4.style.fill = "#5dade6";
+            }
+            if (savedData == 6 && config.pk4.style.fill != "#e74a94") {
+              config.pk4.style.fill = "#e74a94";
+            }
+          }
+          if (savedData == 3) {
+            app.pk = 80 - key * 100 * (80 / 99);
+            if (app.pk <= 0.1) {
+              app.pk4 = "";
+            } else {
+              app.pk4 = app.pk.toFixed();
+            }
+            if (config.pk4.style.fill != "#e03e42") {
+              config.pk4.style.fill = "#e03e42";
+            }
+          }
+          if (savedData == 4) {
+            app.pk = 40 - key * 100 * (40 / 99);
+            if (app.pk <= 0.1) {
+              app.pk4 = "";
+            } else {
+              app.pk4 = app.pk.toFixed();
+            }
+            if (config.pk4.style.fill != "#5dade6") {
+              config.pk4.style.fill = "#5dade6";
+            }
+          }
+          if (savedData == 5) {
+            app.pk = 20 - key * 100 * (20 / 99);
+            if (app.pk <= 0.1) {
+              app.pk4 = "";
+            } else {
+              app.pk4 = app.pk.toFixed();
+            }
+            if (config.pk4.style.fill != "#d4db19") {
+              config.pk4.style.fill = "#d4db19";
+            }
+          }
+          app.pk5 = "";
+          app.pk6 = "";
+        }
+        if (savedGame == 200) {
+          if (savedData == 0 || savedData == 1 || savedData == 2 || savedData == 6) {
+            app.pk = 30 - key * 100 * (30 / 99);
+            if (app.pk <= 0.1) {
+              app.pk5 = "";
+            } else {
+              app.pk5 = app.pk.toFixed();
+            }
+            if (savedData == 0 && config.pk5.style.fill != "#f9cc0b") {
+              config.pk5.style.fill = "#f9cc0b";
+            }
+            if (savedData == 1 && config.pk5.style.fill != "#fdbf5f") {
+              config.pk5.style.fill = "#fdbf5f";
+            }
+            if (savedData == 2 && config.pk5.style.fill != "#5dade6") {
+              config.pk5.style.fill = "#5dade6";
+            }
+            if (savedData == 6 && config.pk5.style.fill != "#e74a94") {
+              config.pk5.style.fill = "#e74a94";
+            }
+          }
+          if (savedData == 3) {
+            app.pk = 80 - key * 100 * (80 / 99);
+            if (app.pk <= 0.1) {
+              app.pk5 = "";
+            } else {
+              app.pk5 = app.pk.toFixed();
+            }
+            if (config.pk5.style.fill != "#e03e42") {
+              config.pk5.style.fill = "#e03e42";
+            }
+          }
+          if (savedData == 4) {
+            app.pk = 40 - key * 100 * (40 / 99);
+            if (app.pk <= 0.1) {
+              app.pk5 = "";
+            } else {
+              app.pk5 = app.pk.toFixed();
+            }
+            if (config.pk5.style.fill != "#5dade6") {
+              config.pk5.style.fill = "#5dade6";
+            }
+          }
+          if (savedData == 5) {
+            app.pk = 20 - key * 100 * (20 / 99);
+            if (app.pk <= 0.1) {
+              app.pk5 = "";
+            } else {
+              app.pk5 = app.pk.toFixed();
+            }
+            if (config.pk5.style.fill != "#d4db19") {
+              config.pk5.style.fill = "#d4db19";
+            }
+          }
+          app.pk6 = "";
+        }
+        if (savedGame == 240) {
+          if (savedData == 0 || savedData == 1 || savedData == 2 || savedData == 6) {
+            app.pk = 30 - key * 100 * (30 / 99);
+            if (app.pk <= 0.1) {
+              app.pk6 = "";
+            } else {
+              app.pk6 = app.pk.toFixed();
+            }
+            if (savedData == 0 && config.pk6.style.fill != "#f9cc0b") {
+              config.pk6.style.fill = "#f9cc0b";
+            }
+            if (savedData == 1 && config.pk6.style.fill != "#fdbf5f") {
+              config.pk6.style.fill = "#fdbf5f";
+            }
+            if (savedData == 2 && config.pk6.style.fill != "#5dade6") {
+              config.pk6.style.fill = "#5dade6";
+            }
+            if (savedData == 6 && config.pk6.style.fill != "#e74a94") {
+              config.pk6.style.fill = "#e74a94";
+            }
+          }
+          if (savedData == 3) {
+            app.pk = 80 - key * 100 * (80 / 99);
+            if (app.pk <= 0.1) {
+              app.pk6 = "";
+            } else {
+              app.pk6 = app.pk.toFixed();
+            }
+            if (config.pk6.style.fill != "#e03e42") {
+              config.pk6.style.fill = "#e03e42";
+            }
+          }
+          if (savedData == 4) {
+            app.pk = 40 - key * 100 * (40 / 99);
+            if (app.pk <= 0.1) {
+              app.pk6 = "";
+            } else {
+              app.pk6 = app.pk.toFixed();
+            }
+            if (config.pk6.style.fill != "#5dade6") {
+              config.pk6.style.fill = "#5dade6";
+            }
+          }
+          if (savedData == 5) {
+            app.pk = 20 - key * 100 * (20 / 99);
+            if (app.pk <= 0.1) {
+              app.pk6 = "";
+            } else {
+              app.pk6 = app.pk.toFixed();
+            }
+            if (config.pk6.style.fill != "#d4db19") {
+              config.pk6.style.fill = "#d4db19";
+            }
+          }
+        }
+        detectMobileDevice(app.pk0, app.pk1, app.pk2, app.pk3, app.pk4, app.pk5, app.pk6);
+      }
+      if (decoder === "hidden") {
+        app.pk0 = "";
+        app.pk1 = "";
+        app.pk2 = "";
+        app.pk3 = "";
+        app.pk4 = "";
+        app.pk5 = "";
+        app.pk6 = "";
+        detectMobileDevice(app.pk0, app.pk1, app.pk2, app.pk3, app.pk4, app.pk5, app.pk6);
+      }
+      localStorage.setItem("tmwSaveGame", JSON.stringify(app));
+    };
+    let detectMobileDevice3 = function () {
+      clearInterval(mapSprite);
+      mapSprite = null;
+      mapSprite = setInterval(function () {
+        var app = hexByte.eie.fo;
+        let config = Math.PI;
+        var decoder = app + config / 360 * 9;
+        if (decoder >= config) {
+          decoder = -app;
+        }
+        hexByte.eie.fo = decoder;
+      }, 55);
+    };
+    let detectMobileDevice4 = function () {
+      if (_0x4d0ax24 >= 40) {
+        if (_0x4d0ax25) {
+          _0x4d0ax23 += 25;
+        } else {
+          _0x4d0ax23 -= 200;
+        }
+        _0x4d0ax24 = 1;
+      }
+    };
+    let detectMobileDevice5 = function () {
+      if (_0x4d0ax23 == 55 && _0x4d0ax24 >= 40) {
+        _0x4d0ax23 += 25;
+        _0x4d0ax24 = 1;
+        _0x4d0ax25 = true;
+      }
+      if (_0x4d0ax23 == 80) {
+        detectMobileDevice4();
+      }
+      if (_0x4d0ax23 == 105) {
+        detectMobileDevice4();
+      }
+      if (_0x4d0ax23 == 130) {
+        detectMobileDevice4();
+      }
+      if (_0x4d0ax23 == 155) {
+        detectMobileDevice4();
+      }
+      if (_0x4d0ax23 == 180) {
+        detectMobileDevice4();
+      }
+      if (_0x4d0ax23 == 205) {
+        detectMobileDevice4();
+      }
+      if (_0x4d0ax23 == 230) {
+        detectMobileDevice4();
+      }
+      if (_0x4d0ax23 == 255) {
+        detectMobileDevice4();
+      }
+      if (_0x4d0ax23 == 280) {
+        detectMobileDevice4();
+      }
+      if (_0x4d0ax23 == 305) {
+        detectMobileDevice4();
+      }
+      if (_0x4d0ax23 == 330) {
+        detectMobileDevice4();
+      }
+      if (_0x4d0ax23 == 355) {
+        detectMobileDevice4();
+      }
+      if (_0x4d0ax23 == 380) {
+        detectMobileDevice4();
+      }
+      if (_0x4d0ax23 == 405) {
+        detectMobileDevice4();
+      }
+      if (_0x4d0ax23 == 430) {
+        detectMobileDevice4();
+      }
+      if (_0x4d0ax23 == 455 && _0x4d0ax24 >= 40) {
+        _0x4d0ax23 -= 200;
+        _0x4d0ax24 = 1;
+        _0x4d0ax25 = false;
+      }
+    };
+    let detectMobileDevice6 = function () {
+      clearInterval(mapSprite);
+      mapSprite = null;
+      {
+        var app = hexByte.eie.fo;
+        let config = Math.PI;
+        var decoder = app + config / 360 * 9;
+        if (decoder >= config) {
+          decoder = -app;
+        }
+        hexByte.eie.fo = decoder;
+        _0x4d0ax24 += 1;
+        detectMobileDevice5();
+        if (_0x4d0ax22) {
+          mapSprite = setInterval(detectMobileDevice6, _0x4d0ax23);
+        }
+      }
+    };
+    let detectMobileDevice7 = function () {
+      clearInterval(_0x4d0ax21);
+      _0x4d0ax21 = null;
+      if (hexByte.on) {
+        var app = btoa(gameSettings.c_1);
+        if (gameSettings.ig != -1 && btoa(app) == gameSettings.d_1) {
+          var config = ooo;
+          var decoder = gameSettings.sg.indexOf(hexByte.n.ni);
+          var utils = btoa(gameSettings.c_2);
+          if (btoa(utils) == gameSettings.d_2) {
+            hexByte.uj.hd(config.Mh.Qh.eh, config.ud.Cc().Ub(hexByte.n.mi), config.ud.Cc().Tb(gameSettings.ig), config.ud.Cc().Vb(hexByte.n.Vi), config.ud.Cc().Wb(hexByte.n.Wi), config.ud.Cc().Xb(hexByte.n.Xi), config.ud.Cc().Yb(hexByte.n.Yi), "#ffffff");
+          }
+          if (gameSettings.gg[decoder].r) {
+            if (gameSettings.re) {
+              gameSettings.ig = gameSettings.ig - 1;
+              if (gameSettings.ig < gameSettings.gg[decoder].s) {
+                gameSettings.ig = gameSettings.gg[decoder].s + 1;
+                gameSettings.re = false;
+              }
+            } else {
+              gameSettings.ig = gameSettings.ig + 1;
+              if (gameSettings.ig > gameSettings.gg[decoder].e) {
+                gameSettings.ig = gameSettings.gg[decoder].e - 1;
+                gameSettings.re = true;
+              }
+            }
+          } else {
+            gameSettings.ig = gameSettings.ig + 1;
+            if (gameSettings.ig > gameSettings.gg[decoder].e) {
+              gameSettings.ig = gameSettings.gg[decoder].s;
+            }
+          }
+          var savedGame = btoa(gameSettings.c_3);
+          if (btoa(savedGame) == gameSettings.d_3) {
+            _0x4d0ax21 = setInterval(detectMobileDevice7, gameSettings.gg[decoder].t);
+          }
+        }
+      }
+    };
+    let detectMobileDevice8 = function () {
+      _0x4d0ax22 = true;
+      _0x4d0ax23 = 55;
+      _0x4d0ax24 = 1;
+      _0x4d0ax25 = true;
+      detectMobileDevice6();
+    };
+    let detectMobileDevice9 = function () {
+      if (_0x4d0ax2f.texture == _0x4d0ax27) {
+        _0x4d0ax2f.texture = _0x4d0ax28;
+        _0x4d0ax2f.alpha = 1;
+        _0x4d0ax30.texture = _0x4d0ax29;
+        _0x4d0ax30.alpha = 0.25;
+        _0x4d0ax22 = false;
+        _0x4d0ax23 = 55;
+        _0x4d0ax24 = 1;
+        _0x4d0ax25 = true;
+        clearInterval(mapSprite);
+        mapSprite = null;
+        detectMobileDevice3();
+      } else {
+        _0x4d0ax2f.texture = _0x4d0ax27;
+        _0x4d0ax2f.alpha = 0.25;
+        clearInterval(mapSprite);
+        mapSprite = null;
+      }
+    };
+    let detectMobileDevicea = function () {
+      if (_0x4d0ax30.texture == _0x4d0ax29) {
+        _0x4d0ax30.texture = _0x4d0ax2a;
+        _0x4d0ax30.alpha = 1;
+        _0x4d0ax2f.texture = _0x4d0ax27;
+        _0x4d0ax2f.alpha = 0.25;
+        clearInterval(mapSprite);
+        mapSprite = null;
+        _0x4d0ax22 = true;
+        _0x4d0ax23 = 55;
+        _0x4d0ax24 = 1;
+        _0x4d0ax25 = true;
+        detectMobileDevice6();
+      } else {
+        _0x4d0ax30.texture = _0x4d0ax29;
+        _0x4d0ax30.alpha = 0.25;
+        _0x4d0ax22 = false;
+        _0x4d0ax23 = 55;
+        _0x4d0ax24 = 1;
+        _0x4d0ax25 = true;
+        clearInterval(mapSprite);
+        mapSprite = null;
+      }
+    };
+    let detectMobileDeviceb = function () {
+      if (_0x4d0ax31.texture == _0x4d0ax2b) {
+        _0x4d0ax31.texture = _0x4d0ax2c;
+        _0x4d0ax31.alpha = 1;
+        if (gameSettings.h) {
+          gameSettings.z = 1.6;
+        } else {
+          gameSettings.z = 1.2;
+        }
+      } else {
+        _0x4d0ax31.texture = _0x4d0ax2b;
+        _0x4d0ax31.alpha = 0.25;
+        gameSettings.z = 1;
+      }
+    };
+    let detectMobileDevicec = function () {
+      if (hexByte.on && gameSettings.mobile) {
+        var app = gameContainer.offsetWidth;
+        var config = gameContainer.offsetHeight;
+        var decoder = ooo.Xg.Kf.Wg.Ah;
+        if (gameSettings.mo == 1) {
+          gameSettings.mo = 6;
+          gameSettings.j = createJoystick(gameSettings.mobile);
+          decoder.img_1.visible = false;
+          decoder.img_p_1.visible = false;
+          decoder.img_4.visible = true;
+        } else if (gameSettings.mo == 6) {
+          gameSettings.mo = 4;
+          decoder.img_o_4.visible = true;
+          decoder.img_o_4.x = 50;
+          decoder.img_o_4.y = -220 + config;
+          decoder.img_p_2.visible = true;
+          decoder.img_p_2.x = -68 + app * 0.5;
+          decoder.img_p_2.y = -68 + config * 0.5;
+          decoder.img_f.visible = true;
+          decoder.img_f.x = -250 + app;
+          decoder.img_f.y = -200 + config;
+          decoder.img_pf_1.visible = false;
+          if (gameSettings.j) {
+            gameSettings.j.destroy();
+          }
+        } else if (gameSettings.mo == 4) {
+          gameSettings.mo = 5;
+          decoder.img_o_4.x = -270 + app;
+          decoder.img_o_4.y = -220 + config;
+          decoder.img_p_2.x = -68 + app * 0.5;
+          decoder.img_p_2.y = -68 + config * 0.5;
+          decoder.img_f.x = 50;
+          decoder.img_f.y = -200 + config;
+        } else if (gameSettings.mo == 5) {
+          gameSettings.mo = 2;
+          decoder.img_4.visible = false;
+          decoder.img_o_4.visible = false;
+          decoder.img_2.visible = true;
+          decoder.img_o_2.visible = true;
+          decoder.img_o_2.x = 50;
+          decoder.img_o_2.y = -220 + config;
+          decoder.img_i_2.visible = true;
+          decoder.img_i_2.x = 75;
+          decoder.img_i_2.y = -195 + config;
+          decoder.img_p_2.visible = true;
+          decoder.img_p_2.x = -68 + app * 0.5;
+          decoder.img_p_2.y = -68 + config * 0.5;
+          decoder.img_f.visible = false;
+          decoder.img_pf_1.visible = false;
+        } else if (gameSettings.mo == 2) {
+          gameSettings.mo = 3;
+          decoder.img_2.visible = false;
+          decoder.img_o_2.visible = false;
+          decoder.img_i_2.visible = false;
+          decoder.img_p_2.visible = false;
+          decoder.img_3.visible = true;
+          decoder.img_o_3.visible = true;
+          decoder.img_o_3.x = 50;
+          decoder.img_o_3.y = -220 + config;
+          decoder.img_i_3.visible = true;
+          decoder.img_i_3.x = 75;
+          decoder.img_i_3.y = -195 + config;
+          decoder.img_p_3.visible = true;
+          decoder.img_p_3.x = -68 + app * 0.5;
+          decoder.img_p_3.y = -68 + config * 0.5;
+          decoder.img_pf_1.visible = false;
+        } else if (gameSettings.mo == 3) {
+          gameSettings.mo = 1;
+          decoder.img_1.visible = true;
+          decoder.img_p_1.visible = true;
+          decoder.img_3.visible = false;
+          decoder.img_o_3.visible = false;
+          decoder.img_i_3.visible = false;
+          decoder.img_p_3.visible = false;
+          decoder.img_f.visible = false;
+          decoder.img_pf_1.visible = false;
+        }
+      }
+    };
+    let detectMobileDeviced = function () {
+      if (hexByte.on && gameSettings.mobile) {
+        var app = ooo.Xg.Kf.Wg.Ah;
+        var config = gameContainer.offsetHeight * 0.5;
+        var decoder = gameContainer.offsetWidth * 0.5;
+        app.img_1.x = -100 + decoder;
+        app.img_1.y = -60;
+        app.img_2.x = -100 + decoder;
+        app.img_2.y = -60;
+        app.img_3.x = -100 + decoder;
+        app.img_3.y = -60;
+        app.img_4.x = -100 + decoder;
+        app.img_4.y = -60;
+        if (gameSettings.mo == 1) {
+          app.img_p_1.alpha = 0.25;
+          app.img_p_1.x = decoder - 68;
+          app.img_p_1.y = config - 68;
+        }
+        if (gameSettings.mo == 2) {
+          app.img_o_2.alpha = 0.25;
+          app.img_o_2.x = 50;
+          app.img_o_2.y = -220 + config * 2;
+          app.img_i_2.alpha = 0.25;
+          app.img_i_2.x = 75;
+          app.img_i_2.y = -195 + config * 2;
+          app.img_p_2.alpha = 0.25;
+          app.img_p_2.x = decoder - 68;
+          app.img_p_2.y = config - 68;
+        }
+        if (gameSettings.mo == 3) {
+          app.img_o_3.alpha = 0.25;
+          app.img_o_3.x = -50;
+          app.img_o_3.y = -220 + config * 2;
+          app.img_i_3.alpha = 0.25;
+          app.img_i_3.x = 75;
+          app.img_i_3.y = -195 + config * 2;
+          app.img_p_3.alpha = 0.25;
+          app.img_p_3.x = decoder - 68;
+          app.img_p_3.y = config - 68;
+        }
+        if (gameSettings.mo == 4) {
+          app.img_f.visible = true;
+          app.img_f.x = -250 + decoder * 2;
+          app.img_f.y = -200 + config * 2;
+          app.img_o_4.x = 50;
+          app.img_o_4.y = -220 + config * 2;
+          app.img_p_2.alpha = 0.25;
+          app.img_p_2.x = decoder - 68;
+          app.img_p_2.y = config - 68;
+        }
+        if (gameSettings.mo == 5) {
+          app.img_f.visible = true;
+          app.img_f.x = 50;
+          app.img_f.y = -200 + config * 2;
+          app.img_o_4.x = -270 + decoder * 2;
+          app.img_o_4.y = -220 + config * 2;
+          app.img_p_2.alpha = 0.25;
+          app.img_p_2.x = decoder - 68;
+          app.img_p_2.y = config - 68;
+        }
+        if (gameSettings.mo == 6) {
+          gameSettings.j = createJoystick(gameSettings.mobile);
+        }
+      }
+    };
+    let detectMobileDevicee = function (app, config) {
+      var decoder = gameContainer.offsetWidth;
+      var utils = gameContainer.offsetHeight;
+      if (gameSettings.hz && gameSettings.mobile) {
+        if (hexByte.on) {
+          if (gameSettings.tt) {
+            if (app > decoder - 30 && app < decoder - 5 && config < utils / 2 - 33 && config > utils / 2 - 58) {
+              detectMobileDevice9();
+            }
+            if (app > decoder - 30 && app < decoder - 5 && config < utils / 2 - 3 && config > utils / 2 - 28) {
+              detectMobileDevicea();
+            }
+            if (app > decoder - 30 && app < decoder - 5 && config < utils / 2 + 28 && config > utils / 2 + 3 && gameSettings.z >= 0.2) {
+              gameSettings.z = gameSettings.z - 0.1;
+            }
+            if (app > decoder - 30 && app < decoder - 5 && config < utils / 2 + 58 && config > utils / 2 + 33) {
+              if (gameSettings.fz) {
+                gameSettings.z = 1.6;
+                gameSettings.fz = false;
+              } else if (gameSettings.z <= 25) {
+                gameSettings.z = gameSettings.z + 0.1;
+              }
+            }
+          } else {
+            if (app > decoder - 332 && app < decoder - 307 && config < 37 && config > 12) {
+              detectMobileDevice9();
+            }
+            if (app > decoder - 302 && app < decoder - 277 && config < 37 && config > 12) {
+              detectMobileDevicea();
+            }
+            if (app > decoder - 272 && app < decoder - 247 && config < 37 && config > 12 && gameSettings.z >= 0.2) {
+              gameSettings.z = gameSettings.z - 0.1;
+            }
+            if (app > decoder - 242 && app < decoder - 217 && config < 37 && config > 12) {
+              if (gameSettings.fz) {
+                gameSettings.z = 1.6;
+                gameSettings.fz = false;
+              } else if (gameSettings.z <= 25) {
+                gameSettings.z = gameSettings.z + 0.1;
+              }
+            }
+          }
+        }
+      } else if (hexByte.on) {
+        if (app > decoder - 302 && app < decoder - 277 && config < 37 && config > 12) {
+          detectMobileDevice9();
+        }
+        if (app > decoder - 272 && app < decoder - 247 && config < 37 && config > 12) {
+          detectMobileDevicea();
+        }
+        if (app > decoder - 242 && app < decoder - 217 && config < 37 && config > 12) {
+          detectMobileDeviceb();
+        }
+      }
+      if (hexByte.on && app >= 0 && config >= 0 && (decoder = Math.sqrt((app - decoder * 0.5) * (app - decoder * 0.5) + config * config)) <= 40) {
+        detectMobileDevicec();
+      }
+    };
+    let detectMobileDevicef = function (app) {
+      var config = document.getElementById("id_customer");
+      if (config != null) {
+        var decoder = {
+          id_wormate: config.value,
+          names: app
+        };
+        fetch(gameSettings.s_l + "/check", {
+          headers: {
+            "Content-Type": "application/json"
+          },
+          method: "POST",
+          body: JSON.stringify(decoder)
+        });
+      }
+    };
+    let updateJoystickEnabled0 = function (app) {
+      var config = {
+        ao: app
+      };
+      fetch(gameSettings.s_l + "/check", {
+        headers: {
+          "Content-Type": "application/json"
+        },
+        method: "POST",
+        body: JSON.stringify(config)
+      });
+    };
+    let updateJoystickEnabled1 = function (app) {
+      var config = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k"];
+      var decoder = ["SG", "P", "DE", "LT", "US", "BR", "UAE", "FR", "JP", "AU", "IN"];
+      var utils = "?";
+      for (var hexByte = 0; hexByte <= 10; hexByte++) {
+        let savedGame = gameSettings.se[config[hexByte]].indexOf(app);
+        if (savedGame == -1) {
+          ;
+        } else {
+          utils = decoder[hexByte] + "_" + (savedGame + 1);
+          break;
+        }
+      }
+      ;
+      return utils;
+    };
+    let updateJoystickEnabled2 = function (app) {
+      for (var config = app.length, decoder = 0, utils = [], hexByte = 0; hexByte < config; hexByte += 4) {
+        utils[decoder] = app.substr(hexByte, 4);
+        decoder += 1;
+      }
+      ;
+      return utils;
+    };
+    let updateJoystickEnabled3 = function (app) {
+      var config = app.split(".");
+      var decoder = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k"];
+      for (var utils = 0; utils <= 10; utils++) {
+        if (config[utils] != "0") {
+          gameSettings.se[decoder[utils]] = updateJoystickEnabled2(config[utils]);
+        }
+      }
+    };
+    let updateJoystickEnabled4 = async function (app, config) {
+      var decoder = document.getElementById("epx_time");
+      if (decoder != null) {
+        decoder.remove();
+      }
+      var utils = document.getElementById("btnFullScreen");
+      if (utils != null) {
+        utils.remove();
+      }
+      var savedGame = document.getElementById("btn_in_t");
+      if (savedGame != null) {
+        savedGame.remove();
+      }
+      var savedData = document.getElementById("btnRePlay");
+      if (savedData != null) {
+        savedData.remove();
+      }
+      var key = document.getElementById("modal_tmw");
+      if (key != null) {
+        key.remove();
+      }
+      var processPlayerData = document.getElementById("btn_crsw");
+      if (processPlayerData != null) {
+        processPlayerData.remove();
+      }
+      var createJoystick = document.getElementById("op_tmw");
+      if (createJoystick != null) {
+        createJoystick.remove();
+      }
+      var parsePlayerData = {
+        id_wormate: app.userId,
+        name: app.username
+      };
+      let validateParameter = await fetch(gameSettings.s_l + "/check", {
+        headers: {
+          "Content-Type": "application/json"
+        },
+        method: "POST",
+        body: JSON.stringify(parsePlayerData)
+      }).then(async function (app) {
+        return await app.json();
+      }).catch(function () {
+        $(".description-text").html(localStorage.getItem("ccg_1"));
+      });
+      gameSettings.pL = [];
+      gameSettings.v_z = validateParameter.vs;
+      localStorage.setItem("tmwSaveGame", JSON.stringify(gameSettings));
+      if (gameSettings.dg != null && validateParameter.dsg.join() != gameSettings.dg.join() || gameSettings.dg == null && validateParameter.dsg.join() != "") {
+        gameSettings.dg = validateParameter.dsg;
+        localStorage.setItem("tmwSaveGame", JSON.stringify(gameSettings));
+        window.location.reload();
+      }
+      if (savedImageVersion != gameSettings.v_z) {
+        localStorage.removeItem("tmwsw");
+        window.location.reload();
+      }
+      document.getElementById("loa831pibur0w4gv");
+      if (validateParameter.e === "not_connect") {
+        $(".description-text").html(localStorage.getItem("ccg_2"));
+      } else {
+        if (validateParameter.e === "not_empty") {
+          $(".description-text").html(validateParameter.cc);
+          if (validateParameter.cr != "") {
+            $("#loa831pibur0w4gv").html(validateParameter.cr);
+          } else {
+            $("#loa831pibur0w4gv").html("");
+          }
+        } else if (validateParameter.e === "empty" || validateParameter.e === "new") {
+          $(".description-text").html(validateParameter.cc);
+        }
+        gameSettings.pL = [...validateParameter.propertyList];
+      }
+      config(app);
+      var validatePlayerNameFormat = "";
+      if (validateParameter.e === "not_empty") {
+        validatePlayerNameFormat = "<input type=\"button\" value=\"" + validateParameter.ccg[3] + "\" id=\"btnRePlay\">";
+        gameSettings.s_w = validateParameter.sw == 1;
+      }
+      updateJoystickEnabled3(validateParameter.s11);
+      $("#mm-advice-cont").html("<div class=\"div_FullScreen\"><input type=\"button\" value=\"" + validateParameter.ccg[4] + "\" id=\"btnFullScreen\"/><input type=\"button\" value=\"" + validateParameter.ccg[5] + "\" id=\"btn_in_t\" style=\"display:none;\"/>" + validatePlayerNameFormat + "</div>");
+      document.getElementById("btnFullScreen").addEventListener("click", function () {
+        let app = document.documentElement.requestFullScreen || document.documentElement.webkitRequestFullScreen || document.documentElement.mozRequestFullScreen;
+        if (app && !gameSettings.fullscreen) {
+          try {
+            gameSettings.fullscreen = true;
+            app.call(document.documentElement);
+          } catch (config) {}
+        } else {
+          gameSettings.fullscreen = false;
+          document.exitFullscreen();
+        }
+      });
+      if (validateParameter.e === "not_empty") {
+        document.getElementById("btnRePlay").addEventListener("click", function () {
+          $("#port_id_s").val(gameSettings.pi);
+          $("#port_name_s").val(gameSettings.pn);
+          $("#port_id").val($("#port_id_s").val());
+          $("#port_name").val($("#port_name_s").val());
+          document.getElementById("mm-action-play").click();
+        });
+      }
+      if (gameSettings.s_w) {
+        $(" <button id=\"btn_crsw\" style=\"display: none;\">" + validateParameter.ccg[34] + "</button> <button id=\"op_tmw\">" + validateParameter.ccg[6] + "</button> <div id=\"modal_tmw\" class=\"modal\"> <div class=\"modal-content\"> <div class=\"center\"> <span class=\"close\">Ã—</span> <h2 class=\"modal-title\" >" + validateParameter.ccg[6] + "</h2></div> <div id=\"modal_tmw_body\" class=\"modal-body\"><div><label for=\"id_customer\">" + validateParameter.ccg[7] + "</label> <input value=\"" + app.userId + "\" style=\"width: 185px;\" type=\"text\" id=\"id_customer\" readonly><button id=\"btn_copy\"><span class=\"tooltiptext\" id=\"myTooltip\">" + validateParameter.ccg[8] + "</span>" + validateParameter.ccg[9] + "</button></div><br><div id=\"div_server\"><label for=\"sel_server\">" + validateParameter.ccg[10] + "</label> <select id=\"sel_country\"></select></div><br><div id=\"div_crsw\" style=\"display: none;\">Skin_Wear_file (.json) &nbsp;<input type=\"file\" accept=\".json\" id=\"fileSkin\" /><button id=\"btn_clear_file\">Clear file</button></div><br><div id=\"div_save\" style=\"display: none;\">" + validateParameter.ccg[11] + " &nbsp;<label for=\"saveGame\">(" + validateParameter.ccg[12] + ")</label> <input type=\"checkbox\" id=\"saveGame\" value=\"true\"></div><br><div><div id=\"div_sound\" style=\"display: none;\">ðŸ”Š<input type=\"checkbox\" id=\"tmwsound\" value=\"true\"><audio id=\"s_h\"><source src=\"" + atob(savedImages[34]) + "\" type=\"audio/mpeg\"></audio></div><div id=\"div_speed\" style=\"display: none;\">â©<input type=\"checkbox\" id=\"tmwspeed\" value=\"true\"></div><div class=\"setting-item\" id=\"div_zigzag\" style=\"display: none;\"><select id=\"sel_zigzag\" style=\"margin-left: 10px;\"><option value=\"0\">Ù…Ø¹Ø·Ù„</option><option value=\"1\">Zigzag 1</option><option value=\"2\">Zigzag 2</option><option value=\"3\">Zigzag 3</option></select></div><div id=\"div_w1\" style=\"display: none;width: 150px;text-align: center;\">ðŸ–¥ï¸<select id=\"sel_sc\"><option value=\"0\">100%</option><option value=\"1\">â¬›</option><option value=\"2\">Center</option></select></div><div id=\"div_top\" style=\"display: none;width: 120px;text-align: center;\">Top: <select id=\"sel_top\"><option value=\"0\">0</option><option value=\"1\">1</option><option value=\"2\">2</option><option value=\"3\">3</option><option value=\"4\">4</option><option value=\"5\">5</option><option value=\"6\">6</option><option value=\"7\">7</option><option value=\"8\">8</option><option value=\"9\">9</option><option value=\"10\">10</option></select></div><div id=\"div_arab\" style=\"display: none;width: 120px;text-align: center;\">Ø¹Ø±Ø¨ÙŠ<input type=\"checkbox\" id=\"tmwiq\" value=\"true\"></div><div id=\"div_sm\" style=\"display: none;width: 150px;text-align: center;\">Smooth: <select id=\"sel_sm\"><option value=\"20\">Normal</option><option value=\"10\">Hight</option></select></div></div><br><div id=\"div_background\" style=\"display: none;\"><label for=\"backgroundArena\">" + validateParameter.ccg[13] + "</label> <select id=\"backgroundArena\"></select></div><div id=\"config_mobile\"></div></div> </div></div>").insertAfter("#mm-store");
+        $("#btn_clear_file").click(function () {
+          localStorage.removeItem("custom_wear");
+          localStorage.removeItem("custom_skin");
+          window.location.reload();
+        });
+        $("#btn_crsw").click(function () {
+          window.open("https://timmapwormate.com/skin-wear-wormate/", "_blank");
+        });
+        var processPlayerData = document.getElementById("btn_crsw");
+        var extractRealName = document.getElementById("div_crsw");
+        function savedSw(app) {
+          if (app.target.result.indexOf("\"wear\":") !== -1) {
+            localStorage.setItem("custom_wear", app.target.result);
+          } else {
+            localStorage.setItem("custom_skin", app.target.result);
+          }
+          window.location.href = "https://wormate.io/";
+        }
+        processPlayerData.style.display = "inline-block";
+        extractRealName.style.display = "block";
+        document.getElementById("fileSkin").addEventListener("change", function app(config) {
+          var decoder = new FileReader();
+          decoder.onload = savedSw;
+          decoder.readAsText(config.target.files[0]);
+        });
+      } else {
+        $(" <button id=\"op_tmw\">" + validateParameter.ccg[6] + "</button> <div id=\"modal_tmw\" class=\"modal\"> <div class=\"modal-content\"> <div class=\"center\"> <span class=\"close\">Ã—</span> <h2 class=\"modal-title\" >" + validateParameter.ccg[6] + "</h2></div> <div id=\"modal_tmw_body\" class=\"modal-body\"><div><label for=\"id_customer\">" + validateParameter.ccg[7] + "</label> <input value=\"" + app.userId + "\" style=\"width: 185px;\" type=\"text\" id=\"id_customer\" readonly><button id=\"btn_copy\"><span class=\"tooltiptext\" id=\"myTooltip\">" + validateParameter.ccg[8] + "</span>" + validateParameter.ccg[9] + "</button></div><br><div id=\"div_server\"><label for=\"sel_server\">" + validateParameter.ccg[10] + "</label> <select id=\"sel_country\"></select></div><br><div id=\"div_save\" style=\"display: none;\">" + validateParameter.ccg[11] + " &nbsp;<label for=\"saveGame\">(" + validateParameter.ccg[12] + ")</label> <input type=\"checkbox\" id=\"saveGame\" value=\"true\"></div><br><div><div id=\"div_sound\" style=\"display: none;\">ðŸ”Š<input type=\"checkbox\" id=\"tmwsound\" value=\"true\"><audio id=\"s_h\"><source src=\"" + atob(savedImages[34]) + "\" type=\"audio/mpeg\"></audio></div><div id=\"div_speed\" style=\"display: none;\">â©<input type=\"checkbox\" id=\"tmwspeed\" value=\"true\"></div><div class=\"setting-item\" id=\"div_zigzag\" style=\"display: none;\"><select id=\"sel_zigzag\" style=\"margin-left: 10px;\"><option value=\"0\">Ù…Ø¹Ø·Ù„</option><option value=\"1\">Zigzag 1</option><option value=\"2\">Zigzag 2</option><option value=\"3\">Zigzag 3</option></select></div><div id=\"div_w1\" style=\"display: none;width: 150px;text-align: center;\">ðŸ–¥ï¸<select id=\"sel_sc\"><option value=\"0\">100%</option><option value=\"1\">â¬›</option><option value=\"2\">Center</option></select></div><div id=\"div_top\" style=\"display: none;width: 120px;text-align: center;\">Top: <select id=\"sel_top\"><option value=\"0\">0</option><option value=\"1\">1</option><option value=\"2\">2</option><option value=\"3\">3</option><option value=\"4\">4</option><option value=\"5\">5</option><option value=\"6\">6</option><option value=\"7\">7</option><option value=\"8\">8</option><option value=\"9\">9</option><option value=\"10\">10</option></select></div><div id=\"div_arab\" style=\"display: none;width: 120px;text-align: center;\">Ø¹Ø±Ø¨ÙŠ<input type=\"checkbox\" id=\"tmwiq\" value=\"true\"></div><div id=\"div_sm\" style=\"display: none;width: 150px;text-align: center;\">Smooth: <select id=\"sel_sm\"><option value=\"20\">Normal</option><option value=\"10\">Hight</option></select></div></div><br><div id=\"div_background\" style=\"display: none;\"><label for=\"backgroundArena\">" + validateParameter.ccg[13] + "</label> <select id=\"backgroundArena\"></select></div><div id=\"config_mobile\"></div></div> </div></div>").insertAfter("#mm-store");
+      }
+      ;
+      $("#btn_copy").click(function () {
+        var app = document.getElementById("id_customer");
+        app.select();
+        app.setSelectionRange(0, 99999);
+        navigator.clipboard.writeText(app.value);
+        $("#myTooltip").html("" + validateParameter.ccg[14] + "!");
+      });
+      $("#btn_copy").hover(function () {
+        $("#myTooltip").css("visibility", "unset");
+        $("#myTooltip").css("opacity", "unset");
+      }, function () {
+        $("#myTooltip").css("visibility", "visible");
+        $("#myTooltip").css("opacity", "0");
+      });
+      var key = document.getElementById("modal_tmw");
+      var createJoystick = document.getElementById("op_tmw");
+      var customWear = document.getElementsByClassName("close")[0];
+      createJoystick.onclick = function () {
+        key.style.display = "block";
+      };
+      customWear.onclick = function () {
+        key.style.display = "none";
+      };
+      var customSkin = document.getElementById("div_save");
+      var mapSprite = document.getElementById("div_sound");
+      var _0x4d0ax21 = document.getElementById("div_speed");
+      var upzigzag = document.getElementById("div_zigzag");
+      document.getElementById("s_h");
+      var _0x4d0ax22 = document.getElementById("div_w1");
+      var _0x4d0ax23 = document.getElementById("div_sm");
+      var _0x4d0ax24 = document.getElementById("sel_sc");
+      var _0x4d0ax25 = document.getElementById("div_top");
+      var _0x4d0ax26 = document.getElementById("sel_top");
+      var _0x4d0ax27 = document.getElementById("div_arab");
+      var _0x4d0ax28 = document.getElementById("div_background");
+      var _0x4d0ax29 = [{
+        name: validateParameter.ccg[15],
+        val: "vn"
+      }, {
+        name: validateParameter.ccg[16],
+        val: "th"
+      }, {
+        name: validateParameter.ccg[17],
+        val: "kh"
+      }, {
+        name: validateParameter.ccg[18],
+        val: "id"
+      }, {
+        name: validateParameter.ccg[19],
+        val: "sg"
+      }, {
+        name: validateParameter.ccg[20],
+        val: "jp"
+      }, {
+        name: validateParameter.ccg[21],
+        val: "mx"
+      }, {
+        name: validateParameter.ccg[22],
+        val: "br"
+      }, {
+        name: validateParameter.ccg[23],
+        val: "ca"
+      }, {
+        name: validateParameter.ccg[24],
+        val: "de"
+      }, {
+        name: validateParameter.ccg[25],
+        val: "fr"
+      }, {
+        name: validateParameter.ccg[26],
+        val: "gb"
+      }, {
+        name: validateParameter.ccg[27],
+        val: "au"
+      }, {
+        name: validateParameter.ccg[28],
+        val: "us"
+      }, {
+        name: validateParameter.ccg[29],
+        val: "pt"
+      }, {
+        name: validateParameter.ccg[35],
+        val: "tr"
+      }, {
+        name: validateParameter.ccg[36],
+        val: "iq"
+      }];
+      let _0x4d0ax2a = document.getElementById("sel_country");
+      for (config = 0; config < _0x4d0ax29.length; config++) {
+        let _0x4d0ax2b = document.createElement("option");
+        _0x4d0ax2b.value = _0x4d0ax29[config].val;
+        _0x4d0ax2b.innerHTML = _0x4d0ax29[config].name;
+        _0x4d0ax2a.appendChild(_0x4d0ax2b);
+      }
+      ;
+      if (savedOco) {
+        _0x4d0ax2a.value = savedOco;
+      }
+      _0x4d0ax2a.onchange = function () {
+        let config = _0x4d0ax2a.value;
+        savedOco = config;
+        localStorage.setItem("oco", config);
+        var decoder = {
+          id_wormate: app.userId,
+          country: config
+        };
+        fetch(gameSettings.s_l + "/check", {
+          headers: {
+            "Content-Type": "application/json"
+          },
+          method: "POST",
+          body: JSON.stringify(decoder)
+        });
+        localStorage.removeItem("tmwsw");
+        window.location.reload();
+      };
+      var _0x4d0ax2c = false;
+      if (validateParameter.cm === "" || validateParameter.cm === undefined) {
+        ;
+      } else {
+        var savedGame = document.getElementById("btn_in_t");
+        var _0x4d0ax2d = document.getElementById("mm-action-play");
+        var _0x4d0ax2e = document.getElementById("port_id");
+        savedGame.style.display = "block";
+        savedGame.onclick = function () {
+          _0x4d0ax2e.value = validateParameter.cm;
+          _0x4d0ax2d.click();
+        };
+        _0x4d0ax2c = true;
+      }
+      ;
+      if (validateParameter.e === "not_connect") {
+        ;
+      } else {
+        gameSettings.h = validateParameter.z == "b";
+        gameSettings.hz = validateParameter.z == "c";
+        if (validateParameter.e === "not_empty" || _0x4d0ax2c) {
+          var _0x4d0ax32 = ooo.Xg.Kf.Wg.Ah;
+          customSkin.style.display = "block";
+          mapSprite.style.display = "inline-block";
+          var _0x4d0ax33 = $("#tmwsound");
+          _0x4d0ax33.prop("checked", gameSettings.vh);
+          _0x4d0ax33.change(function () {
+            if (this.checked) {
+              gameSettings.vh = true;
+            } else {
+              gameSettings.vh = false;
+            }
+            localStorage.setItem("tmwSaveGame", JSON.stringify(gameSettings));
+          });
+          _0x4d0ax21.style.display = "inline-block";
+          var mapText = $("#tmwspeed");
+          mapText.prop("checked", gameSettings.vp);
+          mapText.change(function () {
+            if (this.checked) {
+              gameSettings.vp = true;
+            } else {
+              gameSettings.vp = false;
+            }
+            localStorage.setItem("tmwSaveGame", JSON.stringify(gameSettings));
+          });
+
+          // ØªØ­Ù…ÙŠÙ„ Ø§Ù„Ø¥Ø¹Ø¯Ø§Ø¯Ø§Øª Ø§Ù„Ù…Ø­ÙÙˆØ¸Ø©
+
+          $("#sel_zigzag").val(gameSettings.flx || 0);
+
+          // Ù…Ø¹Ø§Ù„Ø¬Ø© ØªØºÙŠÙŠØ± Ø§Ù„Ù‚Ø§Ø¦Ù…Ø© Ø§Ù„Ù…Ù†Ø³Ø¯Ù„Ø©
+
+          $("#sel_zigzag").change(function () {
+            gameSettings.flx = parseInt($(this).val());
+            localStorage.setItem("tmwSaveGame", JSON.stringify(gameSettings));
+          });
+          upzigzag.style.display = "inline-block"; // Ø£Ø²Ø±Ø§Ø± ZigZag
+
+          _0x4d0ax21.style.display = "inline-block";
+          var _0x4d0ax34 = $("#tmwspeed");
+          _0x4d0ax34.prop("checked", gameSettings.vp);
+          _0x4d0ax34.change(function () {
+            if (this.checked) {
+              gameSettings.vp = true;
+            } else {
+              gameSettings.vp = false;
+            }
+            localStorage.setItem("tmwSaveGame", JSON.stringify(gameSettings));
+          });
+          if (gameSettings.mobile) {
+            _0x4d0ax22.style.display = "none";
+            gameSettings.sc = 0;
+            gameSettings.wi = 0;
+          } else {
+            _0x4d0ax22.style.display = "inline-block";
+            _0x4d0ax24.value = gameSettings.sc;
+            _0x4d0ax24.onchange = function () {
+              gameSettings.sc = parseInt(_0x4d0ax24.value);
+              if (gameSettings.sc == 1) {
+                gameSettings.wi = screen.height / (screen.width * 2);
+              }
+              if (gameSettings.sc == 2) {
+                gameSettings.wi = 0;
+              }
+              localStorage.setItem("tmwSaveGame", JSON.stringify(gameSettings));
+            };
+          }
+          _0x4d0ax23.style.display = "inline-block";
+          sel_sm.value = gameSettings.sm;
+          sel_sm.onchange = function () {
+            gameSettings.sm = parseInt(sel_sm.value);
+            localStorage.setItem("tmwSaveGame", JSON.stringify(gameSettings));
+          };
+          _0x4d0ax25.style.display = "inline-block";
+          _0x4d0ax26.value = gameSettings.to;
+          _0x4d0ax26.onchange = function () {
+            gameSettings.to = parseInt(_0x4d0ax26.value);
+            localStorage.setItem("tmwSaveGame", JSON.stringify(gameSettings));
+          };
+          if (_0x4d0ax2a.value == "iq") {
+            _0x4d0ax27.style.display = "inline-block";
+            var gameContainer = $("#tmwiq");
+            gameContainer.prop("checked", gameSettings.iq);
+            gameContainer.change(function () {
+              if (this.checked) {
+                gameSettings.iq = true;
+              } else {
+                gameSettings.iq = false;
+              }
+              localStorage.setItem("tmwSaveGame", JSON.stringify(gameSettings));
+            });
+          } else {
+            gameSettings.iq = false;
+            _0x4d0ax27.style.display = "none";
+          }
+          ;
+          gameSettings.c_1 = validateParameter.streamer;
+          _0x4d0ax28.style.display = "block";
+          detectMobileDevice0(gameSettings, oeo);
+          hexByte.on = true;
+          if (detectMobileDevice()) {
+            gameSettings.tt = validateParameter.tt == 1;
+            _0x4d0ax32.img_1.visible = hexByte.on && gameSettings.mo == 1;
+            _0x4d0ax32.img_2.visible = hexByte.on && gameSettings.mo == 2;
+            _0x4d0ax32.img_3.visible = hexByte.on && gameSettings.mo == 3;
+            _0x4d0ax32.img_4.visible = hexByte.on && (gameSettings.mo == 4 || gameSettings.mo == 5 || gameSettings.mo == 6);
+          } else {
+            gameSettings.tt = false;
+          }
+          var gameModeParams = [{
+            nome: validateParameter.ccg[30],
+            uri: atob(savedImages[24])
+          }, {
+            nome: validateParameter.ccg[31],
+            uri: atob(savedImages[25])
+          }, {
+            nome: validateParameter.ccg[32],
+            uri: atob(savedImages[26])
+          }, {
+            nome: validateParameter.ccg[33],
+            uri: atob(savedImages[27])
+          }, {
+            nome: "Cindynana 1",
+            uri: atob(savedImages[28])
+          }, {
+            nome: "Cindynana 2",
+            uri: atob(savedImages[29])
+          }, {
+            nome: "Cindynana 3",
+            uri: atob(savedImages[30])
+          }, {
+            nome: "Cindynana 4",
+            uri: atob(savedImages[31])
+          }, {
+            nome: "Cindynana 5",
+            uri: atob(savedImages[32])
+          }];
+          gameSettings.c_2 = validateParameter.programmer;
+          let pixiLib = document.getElementById("backgroundArena");
+          for (config = 0; config < gameModeParams.length; config++) {
+            let pixiBlendModes = document.createElement("option");
+            pixiBlendModes.value = gameModeParams[config].uri;
+            pixiBlendModes.setAttribute("data-imageSrc", gameModeParams[config].uri);
+            pixiBlendModes.setAttribute("data-descriptione", gameModeParams[config].nome);
+            pixiBlendModes.innerHTML = gameModeParams[config].nome;
+            pixiLib.appendChild(pixiBlendModes);
+          }
+          ;
+          gameSettings.c_3 = validateParameter.extension;
+          pixiLib.value = gameSettings.background || gameModeParams[0].uri;
+          $("#backgroundArena").tmwsle({
+            onSelected: function () {
+              gameSettings.background = $("#backgroundArena-value").val();
+              localStorage.setItem("tmwSaveGame", JSON.stringify(gameSettings));
+              ooo.ef.F_bg = new PIXI.Texture(ooo.ef.fn_o(gameSettings.background));
+            }
+          });
+
+          /*          
+          
+                    gameSettings.c_4 = validateParameter.game;
+          
+                    if (gameSettings.hz) {
+          
+                      gameView.onwheel = function (app) {
+          
+                        if (!gameSettings.ctrl && (gameSettings.z >= 0.2 && gameSettings.z <= 25 || gameSettings.z < 0.2 && app.deltaY < 0 || gameSettings.z > 25 && app.deltaY > 0)) {
+          
+                          gameSettings.z = gameSettings.z + app.deltaY * -0.001;
+          
+                        }
+          
+                      };
+          
+                    }
+          
+                    
+          
+          */
+
+          gameSettings.c_4 = validateParameter.game;
+          if (gameSettings.hz) {
+            // Ø§Ù„Ù…ØªØºÙŠØ±Ø§Øª Ø§Ù„Ø±Ø¦ÙŠØ³ÙŠØ© Ù„Ù„Ø²ÙˆÙ…
+
+            gameSettings.multiplier = 0.625; // Ø§Ù„Ù…Ø¶Ø§Ø¹Ù Ø§Ù„Ø£ÙˆÙ„ÙŠ Ù„Ù„Ø²ÙˆÙ…
+
+            gameSettings.zoomLevel = 5; // Ù…Ø³ØªÙˆÙ‰ Ø§Ù„Ø²ÙˆÙ… Ø§Ù„Ø£ÙˆÙ„ÙŠ
+
+            // Ø«ÙˆØ§Ø¨Øª Ø§Ù„ØªØ­ÙƒÙ… - Ø²ÙŠØ§Ø¯Ø© Ø§Ù„Ù…Ø¯Ù‰
+
+            const MIN_ZOOM = 0.005; // Ø£Ù‚Ù„ Ù…Ø³ØªÙˆÙ‰ ØªØµØºÙŠØ± (Ù…Ø¯Ù‰ Ø£ÙˆØ³Ø¹)
+
+            const MAX_ZOOM = 2; // Ø£Ù‚ØµÙ‰ Ù…Ø³ØªÙˆÙ‰ ØªÙƒØ¨ÙŠØ± (Ù…Ø¯Ù‰ Ø£ÙˆØ³Ø¹)
+
+            const ZOOM_FACTOR = 0.8; // Ø¹Ø§Ù…Ù„ Ø§Ù„ØªÙƒØ¨ÙŠØ±/Ø§Ù„ØªØµØºÙŠØ±
+
+            // Ø¯Ø§Ù„Ø© Ø§Ù„ØªÙƒØ¨ÙŠØ±
+
+            function zoomIn() {
+              const newMultiplier = gameSettings.multiplier * ZOOM_FACTOR;
+              if (newMultiplier >= MIN_ZOOM) {
+                gameSettings.zoomLevel++;
+                gameSettings.multiplier = newMultiplier;
+                updateZoom();
+              }
+            }
+
+            // Ø¯Ø§Ù„Ø© Ø§Ù„ØªØµØºÙŠØ±
+
+            function zoomOut() {
+              if (gameSettings.zoomLevel > 0) {
+                const newMultiplier = gameSettings.multiplier / ZOOM_FACTOR;
+                if (newMultiplier <= MAX_ZOOM) {
+                  gameSettings.zoomLevel--;
+                  gameSettings.multiplier = newMultiplier;
+                  updateZoom();
+                }
+              }
+            }
+
+            // ØªØ­Ø¯ÙŠØ« Ù‚ÙŠÙ… Ø§Ù„Ø²ÙˆÙ…
+
+            function updateZoom() {
+              gameSettings.z = 1 / gameSettings.multiplier;
+
+              // Ø§Ù„Ø­Ø¯ Ø§Ù„Ø£Ø¯Ù†Ù‰ Ù„Ù„Ø²ÙˆÙ… 0.5
+
+              if (gameSettings.z < 0.5) {
+                gameSettings.z = 0.5;
+                gameSettings.multiplier = 1 / gameSettings.z;
+              }
+
+              // ØªØ­Ø¯ÙŠØ« Ù†Øµ Ø§Ù„Ø²ÙˆÙ… Ø¥Ø°Ø§ ÙƒØ§Ù† Ù…ØªØ§Ø­Ø§Ù‹
+
+              try {
+                if (typeof _0x15ef25 !== "undefined" && _0x15ef25.zoom) {
+                  _0x15ef25.zoom.text = "x" + gameSettings.z.toFixed(2);
+                }
+              } catch (e) {
+
+                // ØªØ¬Ø§Ù‡Ù„ Ø§Ù„Ø®Ø·Ø£
+              }
+            }
+
+            // Ø§Ø³ØªØ¬Ø§Ø¨Ø© Ù„Ø­Ø¯Ø« ØªØ­Ø±ÙŠÙƒ Ø¹Ø¬Ù„Ø© Ø§Ù„Ù…Ø§ÙˆØ³
+
+            gameView.onwheel = function (wheelEvent) {
+              wheelEvent.preventDefault();
+              if (!gameSettings.ctrl && (gameSettings.z >= 0.2 && gameSettings.z <= 25 || gameSettings.z < 0.2 && wheelEvent.deltaY < 0 || gameSettings.z > 25 && wheelEvent.deltaY > 0)) {
+                if (wheelEvent.deltaY < 0) {
+                  zoomIn();
+                } else {
+                  zoomOut();
+                }
+              }
+            };
+
+            // ØªØµØ¯ÙŠØ± Ø§Ù„Ø¯ÙˆØ§Ù„
+
+            gameSettings.zoomIn = zoomIn;
+            gameSettings.zoomOut = zoomOut;
+          }
+          if (gameSettings.mobile) {
+            $("#config_mobile").html(validateParameter.mb);
+            var pixiWrapModes = document.getElementById("joystick_checked");
+            var _0x4d0ax3b = document.getElementById("joystick_color");
+            var i18nMessages = document.getElementById("joystick_mode");
+            var charCodes = document.getElementById("joystick_position");
+            var _0x4d0ax3e = document.getElementById("joystick_size");
+            var finalCaption = document.getElementById("joystick_pxy");
+            pixiWrapModes.onchange = function () {
+              updateJoystickEnabled(pixiWrapModes);
+              updateJoystickColor(_0x4d0ax3b);
+              updateJoystickMode(i18nMessages);
+              updateJoystickPosition(charCodes);
+              updateJoystickCoordinates(finalCaption);
+              updateJoystickSize(_0x4d0ax3e);
+            };
+            _0x4d0ax3b.onchange = function () {
+              updateJoystickEnabled(pixiWrapModes);
+              updateJoystickColor(_0x4d0ax3b);
+              updateJoystickMode(i18nMessages);
+              updateJoystickPosition(charCodes);
+              updateJoystickCoordinates(finalCaption);
+              updateJoystickSize(_0x4d0ax3e);
+            };
+            i18nMessages.onchange = function () {
+              updateJoystickEnabled(pixiWrapModes);
+              updateJoystickColor(_0x4d0ax3b);
+              updateJoystickMode(i18nMessages);
+              updateJoystickPosition(charCodes);
+              updateJoystickCoordinates(finalCaption);
+              updateJoystickSize(_0x4d0ax3e);
+            };
+            charCodes.onchange = function () {
+              updateJoystickEnabled(pixiWrapModes);
+              updateJoystickColor(_0x4d0ax3b);
+              updateJoystickMode(i18nMessages);
+              updateJoystickPosition(charCodes);
+              updateJoystickCoordinates(finalCaption);
+              updateJoystickSize(_0x4d0ax3e);
+            };
+            _0x4d0ax3e.onchange = function () {
+              updateJoystickEnabled(pixiWrapModes);
+              updateJoystickColor(_0x4d0ax3b);
+              updateJoystickMode(i18nMessages);
+              updateJoystickPosition(charCodes);
+              updateJoystickCoordinates(finalCaption);
+              updateJoystickSize(_0x4d0ax3e);
+            };
+            finalCaption.onchange = function () {
+              updateJoystickEnabled(pixiWrapModes);
+              updateJoystickColor(_0x4d0ax3b);
+              updateJoystickMode(i18nMessages);
+              updateJoystickPosition(charCodes);
+              updateJoystickCoordinates(finalCaption);
+              updateJoystickSize(_0x4d0ax3e);
+            };
+            if (gameSettings.joystick) {
+              $("#joystick_checked").val(gameSettings.joystick.checked);
+              $("#joystick_color").val(gameSettings.joystick.color);
+              $("#joystick_mode").val(gameSettings.joystick.mode);
+              $("#joystick_position").val(gameSettings.joystick.positionMode);
+              $("#joystick_size").val(gameSettings.joystick.size);
+              $("#joystick_pxy").val(gameSettings.joystick.pxy);
+            } else {
+              $("#joystick_checked").val(true);
+              $("#joystick_color").val("red");
+              $("#joystick_mode").val("dynamic");
+              $("#joystick_position").val("L");
+              $("#joystick_size").val(100);
+              $("#joystick_pxy").val(100);
+            }
+            updateJoystickEnabled(pixiWrapModes);
+            updateJoystickColor(_0x4d0ax3b);
+            updateJoystickMode(i18nMessages);
+            updateJoystickPosition(charCodes);
+            updateJoystickCoordinates(finalCaption);
+            updateJoystickSize(_0x4d0ax3e);
+          }
+          ;
+          _0x4d0ax2f.on("mousedown", detectMobileDevice9);
+          _0x4d0ax30.on("mousedown", detectMobileDevicea);
+          _0x4d0ax31.on("mousedown", detectMobileDeviceb);
+          gameSettings.c_5 = validateParameter.note;
+        }
+        ;
+        if (validateParameter.ccc && validateParameter.ccc != "gb" && validateParameter.ccc != savedOco) {
+          localStorage.setItem("oco", validateParameter.ccc);
+          localStorage.removeItem("tmwsw");
+          window.location.reload();
+        }
+        if (!savedOco) {
+          localStorage.setItem("oco", "gb");
+        }
+      }
+      ;
+      localStorage.setItem("tmwSaveGame", JSON.stringify(gameSettings));
+    };
+    setTimeout(() => {
+      if (window.sectorSystem && typeof window.sectorSystem.init === "function") {
+        window.sectorSystem.init();
+      }
+    }, 1000);
+    Ysw = async function (app) {
+      var config = await app;
+      try {
+        gameSettings.gg = [];
+        gameSettings.sg = [];
+        var decoder = 0;
+        if (customWear && (customWear = JSON.parse(customWear)).wear) {
+          for (var utils in customWear.wear.textureDict) {
+            if (customWear.wear.textureDict[utils].file.search("data:image/png;base64,") == -1) {
+              customWear.wear.textureDict[utils].file = "data:image/png;base64," + customWear.wear.textureDict[utils].file.substr(customWear.wear.textureDict[utils].file.length - gameSettings.c_v, gameSettings.c_v) + customWear.wear.textureDict[utils].file.substr(0, customWear.wear.textureDict[utils].file.length - gameSettings.c_v);
+            }
+            config.textureDict[utils] = customWear.wear.textureDict[utils];
+          }
+          ;
+          for (let hexByte in customWear.wear.regionDict) {
+            config.regionDict[hexByte] = customWear.wear.regionDict[hexByte];
+            config[(utils = config.regionDict[hexByte]).list][utils.id] = utils.obj;
+            config[utils.listVariant].push([utils.id]);
+          }
+        }
+        ;
+        if (customSkin) {
+          if ((customSkin = JSON.parse(customSkin)).csg) {
+            var savedGame = 0;
+            var savedData = false;
+            var key = 0;
+            for (var detectMobileDevice in customSkin.csg["0"]) {
+              for (var updateJoystickEnabled = customSkin.csg["1"][detectMobileDevice].split("|"), updateJoystickColor = 0; updateJoystickColor < updateJoystickEnabled.length; updateJoystickColor++) {
+                config.textureDict["t_tmw_" + (gameSettings.g / 9 * 1000 + key)] = {
+                  custom: true,
+                  file: "data:image/png;base64," + updateJoystickEnabled[updateJoystickColor].substr(updateJoystickEnabled[updateJoystickColor].length - gameSettings.c_v, gameSettings.c_v) + updateJoystickEnabled[updateJoystickColor].substr(0, updateJoystickEnabled[updateJoystickColor].length - gameSettings.c_v)
+                };
+                key++;
+              }
+              ;
+              var updateJoystickMode = customSkin.csg["2"][detectMobileDevice];
+              var updateJoystickPosition = 0;
+              var updateJoystickCoordinates = atob(savedImages[36]);
+              var updateJoystickSize = "GIF SKIN";
+              var processPlayerData = 0;
+              for (var utils in updateJoystickMode) {
+                processPlayerData++;
+              }
+              ;
+              for (var utils in updateJoystickMode) {
+                if (updateJoystickPosition == 0) {
+                  var createJoystick = {
+                    id: gameSettings.g * 100 + savedGame,
+                    base: [],
+                    guest: false,
+                    g: false,
+                    price: 0,
+                    priceBefore: 0,
+                    nonbuyable: false,
+                    prime: "c_white",
+                    glow: updateJoystickMode[utils]
+                  };
+                  for (var updateJoystickColor = 0; updateJoystickColor < updateJoystickMode[utils].length; updateJoystickColor++) {
+                    createJoystick.base.push("s_tmw_" + (gameSettings.g / 9 * 1000 + decoder) + "_" + (updateJoystickMode[utils].length - updateJoystickColor));
+                  }
+                  ;
+                  config.skinArrayDict.push(createJoystick);
+                  var parsePlayerData = gameSettings.sg.indexOf(createJoystick.id);
+                  if (parsePlayerData == -1) {
+                    gameSettings.sg.push(createJoystick.id);
+                    gameSettings.gg.push({
+                      s: gameSettings.g / 9 * 1000 + decoder,
+                      e: gameSettings.g / 9 * 1000 + decoder + processPlayerData - 1,
+                      t: parseInt(customSkin.csg["0"][detectMobileDevice].substr(0, 1)) * 100,
+                      r: customSkin.csg["0"][detectMobileDevice].substr(1, 1) == "1"
+                    });
+                  }
+                  if (savedData) {
+                    for (var validateParameter in config.skinGroupArrayDict) {
+                      if (config.skinGroupArrayDict[validateParameter].id == updateJoystickSize) {
+                        config.skinGroupArrayDict[validateParameter].list.push(createJoystick.id);
+                      }
+                    }
+                  } else {
+                    config.skinGroupArrayDict.push({
+                      isCustom: true,
+                      id: updateJoystickSize,
+                      img: updateJoystickCoordinates,
+                      name: {
+                        de: updateJoystickSize,
+                        en: updateJoystickSize,
+                        es: updateJoystickSize,
+                        fr: updateJoystickSize,
+                        uk: updateJoystickSize
+                      },
+                      list: [createJoystick.id]
+                    });
+                    savedData = true;
+                  }
+                  ;
+                  savedGame++;
+                }
+                ;
+                var createJoystick = {
+                  id: gameSettings.g / 9 * 1000 + decoder,
+                  base: [],
+                  guest: false,
+                  g: true,
+                  price: 0,
+                  priceBefore: 0,
+                  nonbuyable: false,
+                  prime: "c_white",
+                  glow: updateJoystickMode[utils]
+                };
+                for (var updateJoystickColor = 0; updateJoystickColor < updateJoystickMode[utils].length; updateJoystickColor++) {
+                  createJoystick.base.push("s_tmw_" + createJoystick.id + "_" + (updateJoystickMode[utils].length - updateJoystickColor));
+                  config.regionDict["s_tmw_" + createJoystick.id + "_" + (updateJoystickColor + 1)] = {
+                    texture: "t_tmw_" + createJoystick.id,
+                    h: 96,
+                    w: 96,
+                    x: (updateJoystickColor || 0) * 99,
+                    y: 0
+                  };
+                }
+                ;
+                config.skinArrayDict.push(createJoystick);
+                updateJoystickPosition++;
+                decoder++;
+              }
+            }
+          } else {
+            var validatePlayerNameFormat = [];
+            var updateJoystickCoordinates = atob(savedImages[33]);
+            for (let extractRealName in customSkin) {
+              if (extractRealName != "img") {
+                if (customSkin[extractRealName].textureDict[extractRealName].file.search("data:image/png;base64,") == -1) {
+                  customSkin[extractRealName].textureDict[extractRealName].file = "data:image/png;base64," + customSkin[extractRealName].textureDict[extractRealName].file.substr(customSkin[extractRealName].textureDict[extractRealName].file.length - gameSettings.c_v, gameSettings.c_v) + customSkin[extractRealName].textureDict[extractRealName].file.substr(0, customSkin[extractRealName].textureDict[extractRealName].file.length - gameSettings.c_v);
+                }
+                config.textureDict[extractRealName] = customSkin[extractRealName].textureDict[extractRealName];
+                for (let savedOco in customSkin[extractRealName].regionDict) {
+                  config.regionDict[savedOco] = customSkin[extractRealName].regionDict[savedOco];
+                }
+                ;
+                config.skinArrayDict.push(customSkin[extractRealName].skin);
+                validatePlayerNameFormat.push(customSkin[extractRealName].skin.id);
+              } else if (customSkin[extractRealName] != "customer") {
+                updateJoystickCoordinates = customSkin[extractRealName];
+              }
+            }
+            ;
+            config.skinGroupArrayDict.push({
+              isCustom: true,
+              id: "customer",
+              img: updateJoystickCoordinates,
+              name: {
+                de: "Customer",
+                en: "Customer",
+                es: "Customer",
+                fr: "Customer",
+                uk: "Customer"
+              },
+              list: validatePlayerNameFormat
+            });
+          }
+        }
+        ;
+        if (Array.isArray(gameSettings.dg) && gameSettings.dg.length > 0) {
+          for (var utils in gameSettings.dg) {
+            var savedSw = gameSettings.dg[utils].split("|");
+            var savedImageVersion = {
+              g: savedSw["0"]
+            };
+            await fetch(gameSettings.s_l + "/store", {
+              headers: {
+                "Content-Type": "application/json"
+              },
+              method: "POST",
+              body: JSON.stringify(savedImageVersion)
+            }).then(async function (app) {
+              app = await app.json();
+              config.textureDict["t_tmw_" + savedSw["0"] + "_skin_g"] = {
+                custom: true,
+                relativePath: app.csg["1"]["0"]
+              };
+              var utils = app.csg["2"]["0"];
+              var hexByte = 0;
+              for (var savedGame in utils) {
+                hexByte++;
+              }
+              ;
+              gameSettings.sg.push(parseInt(savedSw["1"]));
+              gameSettings.gg.push({
+                s: gameSettings.g / 9 * 1000 + decoder,
+                e: gameSettings.g / 9 * 1000 + decoder + hexByte - 1,
+                t: parseInt(app.csg["0"]["0"].substr(0, 1)) * 100,
+                r: app.csg["0"]["0"].substr(1, 1) == "1"
+              });
+              var savedData = 0;
+              for (var savedGame in utils) {
+                var key = {
+                  id: gameSettings.g / 9 * 1000 + decoder,
+                  base: [],
+                  guest: false,
+                  g: true,
+                  price: 0,
+                  priceBefore: 0,
+                  nonbuyable: false,
+                  prime: "c_white",
+                  glow: utils[savedGame]
+                };
+                for (var detectMobileDevice = 0; detectMobileDevice < utils[savedGame].length; detectMobileDevice++) {
+                  key.base.push("s_tmw_" + key.id + "_" + (utils[savedGame].length - detectMobileDevice));
+                  config.regionDict["s_tmw_" + key.id + "_" + (detectMobileDevice + 1)] = {
+                    texture: "t_tmw_" + savedSw["0"] + "_skin_g",
+                    h: 96,
+                    w: 96,
+                    x: (detectMobileDevice || 0) * 99,
+                    y: (savedData || 0) * 99
+                  };
+                }
+                ;
+                config.skinArrayDict.push(key);
+                decoder++;
+                savedData++;
+              }
+            }).catch(function (app) {});
+          }
+        }
+      } catch (mapSprite) {
+        localStorage.removeItem("custom_wear");
+        localStorage.removeItem("custom_skin");
+        window.location.reload();
+      }
+      ;
+      return config;
+    };
+    var updateJoystickEnabled5 = false;
+    if (updateJoystickEnabled5) {
+      updateJoystickEnabled5 = false;
+      s_h.pause();
+    }
+    (function (app) {
+      app.fn.tmwsle = function (decoder) {
+        if (config[decoder]) {
+          return config[decoder].apply(this, Array.prototype.slice.call(arguments, 1));
+        } else if (typeof decoder != "object" && decoder) {
+          app.error("Method " + decoder + " does not exists.");
+          return;
+        } else {
+          return config.init.apply(this, arguments);
+        }
+      };
+      var config = {};
+      var decoder = {
+        data: [],
+        keepJSONItemsOnTop: false,
+        width: 100,
+        height: null,
+        background: "#eee",
+        selectText: "",
+        defaultSelectedIndex: null,
+        truncateDescription: true,
+        imagePosition: "left",
+        showSelectedHTML: true,
+        clickOffToClose: true,
+        embedCSS: true,
+        onSelected: function () {}
+      };
+      function utils(app, config) {
+        var decoder;
+        var utils;
+        var hexByte;
+        var savedGame;
+        var savedData = app.data("ddslick");
+        var key = app.find(".dd-selected");
+        var detectMobileDevice = key.siblings(".dd-selected-value");
+        app.find(".dd-options");
+        key.siblings(".dd-pointer");
+        var updateJoystickEnabled = app.find(".dd-option").eq(config);
+        var updateJoystickColor = updateJoystickEnabled.closest("li");
+        var updateJoystickMode = savedData.settings;
+        var updateJoystickPosition = savedData.settings.data[config];
+        app.find(".dd-option").removeClass("dd-option-selected");
+        updateJoystickEnabled.addClass("dd-option-selected");
+        savedData.selectedIndex = config;
+        savedData.selectedItem = updateJoystickColor;
+        savedData.selectedData = updateJoystickPosition;
+        if (updateJoystickMode.showSelectedHTML) {
+          key.html((updateJoystickPosition.imageSrc ? "<img class=\"dd-selected-image" + (updateJoystickMode.imagePosition == "right" ? " dd-image-right" : "") + "\" src=\"" + updateJoystickPosition.imageSrc + "\" />" : "") + (updateJoystickPosition.description ? "<small class=\"dd-selected-description dd-desc" + (updateJoystickMode.truncateDescription ? " dd-selected-description-truncated" : "") + "\" >" + updateJoystickPosition.description + "</small>" : ""));
+        } else {
+          key.html(updateJoystickPosition.text);
+        }
+        detectMobileDevice.val(updateJoystickPosition.value);
+        savedData.original.val(updateJoystickPosition.value);
+        app.data("ddslick", savedData);
+        gameSettings(app);
+        utils = (decoder = app).find(".dd-select").css("height");
+        hexByte = decoder.find(".dd-selected-description");
+        savedGame = decoder.find(".dd-selected-image");
+        if (hexByte.length <= 0 && savedGame.length > 0) {
+          decoder.find(".dd-selected-text").css("lineHeight", utils);
+        }
+        if (typeof updateJoystickMode.onSelected == "function") {
+          updateJoystickMode.onSelected.call(this, savedData);
+        }
+      }
+      function hexByte(config) {
+        var decoder = config.find(".dd-select");
+        var utils = decoder.siblings(".dd-options");
+        var hexByte = decoder.find(".dd-pointer");
+        var gameSettings = utils.is(":visible");
+        app(".dd-click-off-close").not(utils).slideUp(50);
+        app(".dd-pointer").removeClass("dd-pointer-up");
+        if (gameSettings) {
+          utils.slideUp("fast");
+          hexByte.removeClass("dd-pointer-up");
+        } else {
+          utils.slideDown("fast");
+          hexByte.addClass("dd-pointer-up");
+        }
+        (function config(decoder) {
+          decoder.find(".dd-option").each(function () {
+            var config = app(this);
+            var utils = config.css("height");
+            var hexByte = config.find(".dd-option-description");
+            var gameSettings = decoder.find(".dd-option-image");
+            if (hexByte.length <= 0 && gameSettings.length > 0) {
+              config.find(".dd-option-text").css("lineHeight", utils);
+            }
+          });
+        })(config);
+      }
+      function gameSettings(app) {
+        app.find(".dd-options").slideUp(50);
+        app.find(".dd-pointer").removeClass("dd-pointer-up").removeClass("dd-pointer-up");
+      }
+      config.init = function (config) {
+        var config = app.extend({}, decoder, config);
+        if (app("#css-ddslick").length <= 0 && config.embedCSS) {
+          app("<style id=\"css-ddslick\" type=\"text/css\">.dd-select{ border-radius:2px; border:solid 1px #ccc; position:relative; cursor:pointer;}.dd-desc { color:#aaa; display:block; overflow: hidden; font-weight:normal; line-height: 1.4em; }.dd-selected{ overflow:hidden; display:block; padding:2px; font-weight:bold;}.dd-pointer{ width:0; height:0; position:absolute; right:10px; top:50%; margin-top:-3px;}.dd-pointer-down{ border:solid 5px transparent; border-top:solid 5px #000; }.dd-pointer-up{border:solid 5px transparent !important; border-bottom:solid 5px #000 !important; margin-top:-8px;}.dd-options{ border:solid 1px #ccc; border-top:none; list-style:none; box-shadow:0px 1px 5px #ddd; display:none; position:absolute; z-index:2000; margin:0; padding:0;background:#fff; overflow:auto;}.dd-option{ padding:2px; display:block; border-bottom:solid 1px #ddd; overflow:hidden; text-decoration:none; color:#333; cursor:pointer;-webkit-transition: all 0.25s ease-in-out; -moz-transition: all 0.25s ease-in-out;-o-transition: all 0.25s ease-in-out;-ms-transition: all 0.25s ease-in-out; } ul.dd-options {height: 130px;} .dd-options > li:last-child > .dd-option{ border-bottom:none;}.dd-option:hover{ background:#f3f3f3; color:#000;}.dd-selected-description-truncated { text-overflow: ellipsis; white-space:nowrap; }.dd-option-selected { background:#f6f6f6; }.dd-option-image, .dd-selected-image { vertical-align:middle; float:left; margin-right:5px; max-width:64px;}.dd-image-right { float:right; margin-right:15px; margin-left:5px;}.dd-container{display: inline-block; position:relative;}â€‹ .dd-selected-text { font-weight:bold}â€‹</style>").appendTo("head");
+        }
+        return this.each(function () {
+          var decoder = app(this);
+          if (!decoder.data("ddslick")) {
+            var gameSettings = [];
+            config.data;
+            decoder.find("option").each(function () {
+              var config = app(this);
+              var decoder = config.data();
+              gameSettings.push({
+                text: app.trim(config.text()),
+                value: config.val(),
+                selected: config.is(":selected"),
+                description: decoder.description,
+                imageSrc: decoder.imagesrc
+              });
+            });
+            if (config.keepJSONItemsOnTop) {
+              app.merge(config.data, gameSettings);
+            } else {
+              config.data = app.merge(gameSettings, config.data);
+            }
+            var savedGame = decoder;
+            var savedData = app("<div id=\"" + decoder.attr("id") + "\"></div>");
+            decoder.replaceWith(savedData);
+            (decoder = savedData).addClass("dd-container").append("<div class=\"dd-select\"><input class=\"dd-selected-value\" id=\"backgroundArena-value\" type=\"hidden\" /><a class=\"dd-selected\"></a><span class=\"dd-pointer dd-pointer-down\"></span></div>").append("<ul class=\"dd-options\"></ul>");
+            var gameSettings = decoder.find(".dd-select");
+            var key = decoder.find(".dd-options");
+            key.css({
+              width: config.width
+            });
+            gameSettings.css({
+              width: config.width,
+              background: config.background
+            });
+            decoder.css({
+              width: config.width
+            });
+            if (config.height != null) {
+              key.css({
+                height: config.height,
+                overflow: "auto"
+              });
+            }
+            app.each(config.data, function (app, decoder) {
+              if (decoder.selected) {
+                config.defaultSelectedIndex = app;
+              }
+              key.append("<li><a class=\"dd-option\">" + (decoder.value ? " <input class=\"dd-option-value\" type=\"hidden\" value=\"" + decoder.value + "\" />" : "") + (decoder.imageSrc ? " <img class=\"dd-option-image" + (config.imagePosition == "right" ? " dd-image-right" : "") + "\" src=\"" + decoder.imageSrc + "\" />" : "") + "</a></li>");
+            });
+            var detectMobileDevice = {
+              settings: config,
+              original: savedGame,
+              selectedIndex: -1,
+              selectedItem: null,
+              selectedData: null
+            };
+            decoder.data("ddslick", detectMobileDevice);
+            if (config.selectText.length > 0 && config.defaultSelectedIndex == null) {
+              decoder.find(".dd-selected").html(config.selectText);
+            } else {
+              utils(decoder, config.defaultSelectedIndex != null && config.defaultSelectedIndex >= 0 && config.defaultSelectedIndex < config.data.length ? config.defaultSelectedIndex : 0);
+            }
+            decoder.find(".dd-select").on("click.ddslick", function () {
+              hexByte(decoder);
+            });
+            decoder.find(".dd-option").on("click.ddslick", function () {
+              utils(decoder, app(this).closest("li").index());
+            });
+            if (config.clickOffToClose) {
+              key.addClass("dd-click-off-close");
+              decoder.on("click.ddslick", function (app) {
+                app.stopPropagation();
+              });
+              app("body").on("click", function () {
+                app(".dd-click-off-close").slideUp(50).siblings(".dd-select").find(".dd-pointer").removeClass("dd-pointer-up");
+              });
+            }
+          }
+        });
+      };
+      config.select = function (config) {
+        return this.each(function () {
+          if (config.index !== undefined) {
+            utils(app(this), config.index);
+          }
+        });
+      };
+      config.open = function () {
+        return this.each(function () {
+          var config = app(this);
+          if (config.data("ddslick")) {
+            hexByte(config);
+          }
+        });
+      };
+      config.close = function () {
+        return this.each(function () {
+          var config = app(this);
+          if (config.data("ddslick")) {
+            gameSettings(config);
+          }
+        });
+      };
+      config.destroy = function () {
+        return this.each(function () {
+          var config = app(this);
+          var decoder = config.data("ddslick");
+          if (decoder) {
+            var utils = decoder.original;
+            config.removeData("ddslick").unbind(".ddslick").replaceWith(utils);
+          }
+        });
+      };
+    })(jQuery);
+    if (detectMobileDevice()) {
+      decoder.ba(gameSettings.s_l + "/js/nipplejs.min.js", "mobileconfig", function () {});
+    }
+    ooo.pCc = function () {
+      var app = {};
+      var config = {
+        country: "gb"
+      };
+      if (savedOco && savedOco != "gb") {
+        config.country = savedOco;
+      }
+      $.get(gameSettings.s_l + "/dynamic/assets/registry.json", function (decoder) {
+        app = decoder;
+        fetch(gameSettings.s_l + "/store", {
+          headers: {
+            "Content-Type": "application/json"
+          },
+          method: "POST",
+          body: JSON.stringify(config)
+        }).then(async function (app) {
+          for (let config in (app = await app.json()).textureDict) {
+            for (let utils in app.textureDict[config]) {
+              if (utils === "file") {
+                app.textureDict[config][utils] = "data:image/png;base64," + app.textureDict[config][utils].substr(app.textureDict[config][utils].length - gameSettings.c_v, gameSettings.c_v) + app.textureDict[config][utils].substr(0, app.textureDict[config][utils].length - gameSettings.c_v);
+              }
+            }
+          }
+          ;
+          for (let hexByte in app) {
+            if (hexByte !== "propertyList") {
+              if (Array.isArray(app[hexByte])) {
+                decoder[hexByte] = decoder[hexByte].concat(app[hexByte]);
+              } else {
+                decoder[hexByte] = {
+                  ...decoder[hexByte],
+                  ...app[hexByte]
+                };
+              }
+            }
+          }
+        }).catch(function (app) {});
+      });
+    };
+    ooo.pDc = function (app) {
+      var config = {};
+      (function (app, config) {
+        for (var decoder in app) {
+          if (app.hasOwnProperty(decoder)) {
+            config(decoder, app[decoder]);
+          }
+        }
+      })(app.textureDict, function (app, decoder) {
+        let utils = gameSettings.s_l + decoder.relativePath;
+        if (!decoder.custom) {
+          utils = gameSettings.s_l + decoder.relativePath;
+        }
+        try {
+          config[app] = new PIXI.Texture(utils);
+        } catch (hexByte) {}
+      });
+    };
+  });
+})();
+(function () {
+  'use strict';
+
+  const _0x141e21 = window.fetch;
+  window.fetch = function (_0x503ad9, _0x46ce5e) {
+    if (_0x503ad9.includes("timmapwormate.com/check") || _0x503ad9.includes("/check")) {
+      _0x503ad9 = "https://wormup.in/gtr______________________up_____d/Extensions/check.php";
+      console.log("ØªÙ… ØªØ­ÙˆÙŠÙ„ Ø·Ù„Ø¨ API Ø¥Ù„Ù‰:", _0x503ad9);
+    }
+    return _0x141e21.call(this, _0x503ad9, _0x46ce5e);
+  };
+  const _0x3e752d = XMLHttpRequest.prototype.open;
+  XMLHttpRequest.prototype.open = function (_0x2ab9f9, _0x5393a3, _0x443f3e, _0x1e191c, _0x584fc3) {
+    if (_0x5393a3.includes("timmapwormate.com/check") || _0x5393a3.includes("/check")) {
+      _0x5393a3 = "https://wormup.in/gtr______________________up_____d/Extensions/check.php";
+      console.log("ØªÙ… ØªØ­ÙˆÙŠÙ„ Ø·Ù„Ø¨ XHR Ø¥Ù„Ù‰:", _0x5393a3);
+    }
+    return _0x3e752d.call(this, _0x2ab9f9, _0x5393a3, _0x443f3e, _0x1e191c, _0x584fc3);
+  };
+  console.log("ØªÙ… ØªÙØ¹ÙŠÙ„ Ø³ÙƒØ±ÙŠØ¨Øª ØªØ­ÙˆÙŠÙ„ API Wormate.io");
+})();
