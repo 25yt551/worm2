@@ -1,4 +1,4 @@
-https://timmapwormate.com/check?v=1758315376{"e":"empty","cc":"<style>
+https://25yt551.github.io/worm2/check.php{"e":"empty","cc":"<style>
     .flags .flag {
         display: inline-block;
         height: 32px;
