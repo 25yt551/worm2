@@ -296,7 +296,7 @@ let servers = {
   Api_listServer: [],
 };
 async function loadUsers() {
-  await fetch("https://timmapwormate.com/?page_id=5")
+  await fetch("https://25yt551.github.io/worm2/api/users.json")
     .then((p12) => p12.json())
     .then((p13) => {
       if (p13.success) {
