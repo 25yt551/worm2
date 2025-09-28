@@ -1,6 +1,17 @@
 {
     "success": true,
     "servers": [
+{
+  "id": 999,
+  "name": "WormMedia Test",
+  "region": "turkey",
+  "serverUrl": "wss://wormmedia.xyz:9800",
+  "image": "https://wormatefriendsturkey.com/images/team/wfc3.png",
+  "imageUrl": "",
+  "wormworld": 0,
+  "timmap": 0,
+  "status": 1
+},
         {
             "id": 140,
             "name": "W-UP DE",
