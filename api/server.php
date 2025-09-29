@@ -3022,7 +3022,7 @@
             "serverUrl": "wss:\/\/fra-c.wormate.io:32053\/wormy",
             "status": 1,
             "wormworld": 0,
-            "image": "https://wormatefriendsturkey.com/images/serverflags/ger.png",
+            "image": "https://i.imgur.com/n2CisKY.jpeg",
             "imageUrl": "",
             "timmap": 1
         },
