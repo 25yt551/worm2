@@ -3006,7 +3006,7 @@
         },
         {
             "id": 45,
-            "name": "GERMAN 👑 02",
+            "name": "MALBORO👑 02",
             "region": "peru",
             "serverUrl": "wss:\/\/fra-c.wormate.io:32103\/wormy",
             "status": 1,
