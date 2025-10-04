@@ -2947,7 +2947,7 @@ function _typeof(_0x19d1e9) {
                   return {
                     'te': _0x2e3af4,
                     'Tg': _0x2e3af4.getContext('2d'),
-                    'Hc': new _0xa914b4['_b'](_0xa914b4['$b']['from'](_0x2e3af4))
+                    'Hc': new _0x51599b['k']['n'](_0x51599b['k']['m']['from'](_0x2e3af4))
                   };
                 }();
                 this.Bd = {};
