@@ -2929,32 +2929,61 @@ function _typeof(_0x19d1e9) {
                 this['fc'] = new _0xa914b4['Wa']('magnet_ability',_0x283e34,0x9e,0x56,0x43,0x7c,0x94,63.5,0x80,0x80),
                 this['gc'] = new _0xa914b4['Wa']('velocity_ability',_0x283e34,0x9e,0x4,0x57,0x4a,0xcb,63.5,0x80,0x80),
                 this['hc'] = new _0xa914b4['Wa']('flex_ability',_0x283e34,0x4,0x4,0x92,0x92,63.5,63.5,0x80,0x80);
-                this.Af = new _0x53055c._b(_0x53055c.$b.from('/images/lens.png'));
-                var _0xd57a80 = _0x53055c.$b.from('https://i.imgur.com/VPh6J5u.png');
-                this.Ph = new _0x4cf055(_0xd57a80, 0x9e, 0x56, 0x43, 0x7c, 0x94, 63.5, 0x80, 0x80);
-                this.Qh = new _0x4cf055(_0xd57a80, 0x9e, 0x4, 0x57, 0x4a, 0xcb, 63.5, 0x80, 0x80);
-                var _0x235ef8 = _0x53055c.$b.from("https://i.imgur.com/LvJ1RxC.png");
-                var _0x4a6b96 = _0x53055c.$b.from("https://i.imgur.com/iqKabEA.png");
-                this.emoji = new _0x4cf055(_0x4a6b96, 0x0, 0x0, 0x100, 0x100, 170.5, -163.5, 0x80, 0x80);
-                this.Rh = new _0x4cf055(_0x235ef8, 0x9c, 0x4, 0x57, 0x4a, 0x11d, 63.5, 0x80, 0x80);
-                this.X_x5 = new _0x4cf055(_0x235ef8, 0x9c, 0x50, 0x57, 0x3c, 0xaa, 1.5, 0x80, 0x80);
-                this.X_x2 = new _0x4cf055(_0x235ef8, 0x9c, 0x8c, 0x57, 0x3c, 0xaa, 128.5, 0x80, 0x80);
-                this.X_x10 = new _0x4cf055(_0x235ef8, 0x9e, 0xc8, 0x5f, 0x37, 0x109, 128.5, 0x80, 0x80);
-                this.X_xxlupa = new _0x4cf055(_0x235ef8, 0x4f, 0x8, 0x4b, 0x4d, 0x109, 1.5, 0x80, 0x80);
-                this.Ug = function () {
-                  var _0x2e3af4 = window.document.createElement("canvas");
-                  _0x2e3af4.width = 0x50;
-                  _0x2e3af4.height = 0x50;
-                  return {
-                    'te': _0x2e3af4,
-                    'Tg': _0x2e3af4.getContext('2d'),
-                    'Hc': new _0x53055c._b(_0x53055c.$b.from(_0x2e3af4))
-                  };
-                }();
-                this.Bd = {};
-                this.yd = {};
-                this.Sh = [];
-                this.Th = null;
+                var vF34 = (function () {
+                  function f74() {
+                    this.fn_o = f75;
+                    this.Fe = new vF._b(vF.$b.from("/images/bg-obstacle.png"));
+                    var v424 = vF.$b.from("/images/confetti-xmas2022.png");
+                    this.Ge = [
+                      new vF._b(v424, new vF.dc(0, 0, 128, 128)),
+                      new vF._b(v424, new vF.dc(0, 0, 128, 128)),
+                      new vF._b(v424, new vF.dc(0, 0, 128, 128)),
+                      new vF._b(v424, new vF.dc(0, 0, 128, 128)),
+                      new vF._b(v424, new vF.dc(0, 0, 128, 128)),
+                      new vF._b(v424, new vF.dc(0, 0, 128, 128)),
+                      new vF._b(v424, new vF.dc(0, 0, 128, 128)),
+                      new vF._b(v424, new vF.dc(0, 0, 128, 128)),
+                      new vF._b(v424, new vF.dc(0, 0, 128, 128)),
+                      new vF._b(v424, new vF.dc(0, 0, 128, 128)),
+                      new vF._b(v424, new vF.dc(0, 0, 128, 128)),
+                      new vF._b(v424, new vF.dc(0, 0, 128, 128)),
+                      new vF._b(v424, new vF.dc(0, 0, 128, 128)),
+                      new vF._b(v424, new vF.dc(0, 0, 128, 128)),
+                      new vF._b(v424, new vF.dc(0, 0, 128, 128)),
+                      new vF._b(v424, new vF.dc(0, 0, 128, 128)),
+                    ];
+                    this.Cf = new vF._b(f75());
+                    this.Df = new vF._b(
+                      (function () {
+                        var v425 = vF.$b.from("/images/bg-pattern-pow2-TEAM2.png");
+                        v425.wrapMode = vF.kc.lc;
+                        return v425;
+                      })()
+                    );
+                    this.Af = new vF._b(vF.$b.from("/images/lens.png"));
+                    var v426 = vF.$b.from("/images/wear-ability.png");
+                    var v427 = vF.$b.from("https://i.imgur.com/EDt862t.png");
+                    var v428 = vF.$b.from("https://i.imgur.com/U5sTlhC.png");
+                    var v429 = vF.$b.from("https://i.imgur.com/ub4ed3R.png");
+                    var v430 = vF.$b.from("https://i.imgur.com/hk8xI4i.png");
+                    this.X_x5 = new vF32(v430, 0x9c, 0x50, 0x57, 0x3c, 0xaa, 1.5, 0x80, 0x80);
+                    this.X_x2 = new vF32(v430, 0x9c, 0x8c, 0x57, 0x3c, 0xaa, 128.5, 0x80, 0x80);
+                    this.X_x10 = new vF32(v430, 0x9e, 0xc8, 0x5f, 0x37, 0x109, 128.5, 0x80, 0x80);
+                    this.X_xxlupa = new vF32(v430, 0x4f, 0x8, 0x4b, 0x4d, 0x109, 1.5, 0x80, 0x80);
+                    this.Id_mobileguia = new vF32(v429, 0, 0, 87, 74, 350, 63, 128, 128);
+                    this.emoji_headshot = new vF32(
+                      v427,
+                      0,
+                      0,
+                      256,
+                      256,
+                      170.5,
+                      -163.5,
+                      128,
+                      128
+                    );
+                  }
+                })();
                 var _0x14436a = _0x51599b['k']['m'][_0x5b2a30(0x75c)]('https://i.imgur.com/LFiCido.png');
                 this[_0x5b2a30(0x3cd)] = new _0xa914b4['Wa'](_0x5b2a30(0x7c6),_0x14436a,0x9c,0x8c,0x57,0x3c,0xaa,128.5,0x80,0x80);
                 var _0x49b5bc, _0x157e3d = _0x51599b['k']['m'][_0x5b2a30(0x75c)](_0x5b2a30(0x653)), _0x457554 = new _0xa914b4['Wa']('def_eyes',_0x157e3d,0x0,0x0,0x2a,0x50,0x4b,0x40,0x80,0x80), _0x35612f = new _0xa914b4['Wa'](_0x5b2a30(0x5a7),_0x157e3d,0x2e,0x0,0x14,0x30,0x6d,0x3f,0x80,0x80), _0x2d7f11 = new _0xa914b4['Wa'](_0x5b2a30(0x46a),_0x157e3d,0x46,0x0,0x20,0x20,0x0,0x0,0x0,0x0), _0x101042 = new _0xa914b4['Wa']('def_skin_base',_0x157e3d,0x2e,0x34,0x40,0x40,0x0,0x0,0x0,0x0), _0x4c2172 = _0xa914b4['pb']['Pb'](_0x101042, _0x2d7f11, _0x457554, _0x35612f);
