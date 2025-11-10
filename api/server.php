@@ -2984,11 +2984,11 @@
         },
         {
             "id": 47,
-            "name": "Ziad 👑 04",
+            "name": "DARK 👑 04",
             "region": "peru",
             "serverUrl": "wss:\/\/fra-c.wormate.io:32064\/wormy",
             "status": 1,
-            "image": "https://wormatefriendsturkey.com/images/serverflags/ger.png",
+            "image": "https://i.imgur.com/xvzdjmU.jpeg",
             "timmap": 4,
             "wormworld": 0,
             "imageUrl": ""
